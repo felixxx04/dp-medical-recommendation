@@ -2,18 +2,14 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   Shield,
   Users,
-  Activity,
   Trash2,
   Brain,
   Play,
   User as UserIcon,
   Lock,
   Unlock,
-  TrendingUp,
-  Pill,
   Filter,
   RefreshCw,
-  BarChart3,
 } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
@@ -87,7 +83,6 @@ export default function AdminDashboard() {
   const [startEpochs, setStartEpochs] = useState(10)
 
   const [loadingUsers, setLoadingUsers] = useState(false)
-  const [loadingDashboard, setLoadingDashboard] = useState(false)
   const [loadingTraining, setLoadingTraining] = useState(false)
   const [actionLoading, setActionLoading] = useState(false)
 
@@ -98,6 +93,7 @@ export default function AdminDashboard() {
 
   const [ledgerFilter, setLedgerFilter] = useState<LedgerFilter>('all')
 
+  const [activeTab, setActiveTab] = useState<'users' | 'training' | 'ledger'>('users')
   const [showCreateModal, setShowCreateModal] = useState(false)
   const [newUsername, setNewUsername] = useState('')
   const [newPassword, setNewPassword] = useState('')
@@ -117,15 +113,12 @@ export default function AdminDashboard() {
   }, [])
 
   const loadDashboard = useCallback(async () => {
-    setLoadingDashboard(true)
     try {
       const data = await api.get<DashboardResponse>('/api/dashboard/visualization')
       setDashboard(data)
       setDashboardError(null)
     } catch (error) {
       setDashboardError(getErrorMessage(error, '系统概览加载失败'))
-    } finally {
-      setLoadingDashboard(false)
     }
   }, [])
 
@@ -266,23 +259,27 @@ export default function AdminDashboard() {
         </div>
       </section>
 
-      <Card hover="none" className="border-brand-sky/20">
-        <CardContent className="flex flex-wrap items-center justify-between gap-4 pt-4">
+      {/* Admin + Stats merged row */}
+      <div className="rounded-sm border border-white/[0.06] bg-surface-elevated px-5 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-sm bg-gradient-to-br from-brand-sky to-sky-600">
               <UserIcon className="h-4 w-4 text-white" />
             </div>
             <div>
-              <div className="font-heading font-semibold text-ia-body">{user?.username ?? '管理员'}</div>
-              <div className="flex items-center gap-2 text-ia-label text-muted-foreground">
-                <span className="ia-badge ia-badge-primary">管理员</span>
-                <span>已登录</span>
-              </div>
+              <span className="font-heading font-semibold text-ia-body">{user?.username ?? '管理员'}</span>
+              <span className="ia-badge ia-badge-primary ml-2">管理员</span>
             </div>
           </div>
-          <div className="text-ia-caption text-muted-foreground">隐私预算剩余：<span className="font-heading font-semibold text-secondary">{budget.remaining.toFixed(2)}</span></div>
-        </CardContent>
-      </Card>
+          <div className="flex flex-wrap items-center gap-4 text-ia-label text-muted-foreground">
+            <span>患者 <strong className="text-foreground">{dashboard?.patientCount ?? 0}</strong></span>
+            <span>用户 <strong className="text-foreground">{dashboard?.userCount ?? 0}</strong></span>
+            <span>今日推理 <strong className="text-foreground">{todayInferences}</strong></span>
+            <span>推荐总数 <strong className="text-foreground">{dashboard?.recommendationCount ?? 0}</strong></span>
+            <span>ε剩余 <strong className="text-secondary">{budget.remaining.toFixed(2)}</strong></span>
+          </div>
+        </div>
+      </div>
 
       {(dashboardError || usersError || trainingError || actionError) && (
         <div className="rounded-sm border border-destructive/30 bg-destructive/6 p-2.5 text-ia-caption text-destructive">
@@ -290,40 +287,31 @@ export default function AdminDashboard() {
         </div>
       )}
 
-      <section>
-        <h2 className="mb-3 flex items-center gap-2 text-ia-card-title font-heading font-bold">
-          <BarChart3 className="h-4 w-4 text-brand-sky" />
-          系统总览
-        </h2>
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-5">
-          {[
-            { icon: Users, label: '患者总数', value: `${dashboard?.patientCount ?? 0}`, dataColor: 'ia-data-1' },
-            { icon: Pill, label: '系统用户', value: `${dashboard?.userCount ?? 0}`, dataColor: 'ia-data-2' },
-            { icon: Activity, label: '今日推理', value: `${todayInferences}`, dataColor: 'ia-data-3' },
-            { icon: Brain, label: '账本事件', value: `${dashboard?.eventCount ?? 0}`, dataColor: 'ia-data-4' },
-            { icon: TrendingUp, label: '推荐总数', value: `${dashboard?.recommendationCount ?? 0}`, dataColor: 'ia-data-5' },
-          ].map((item) => {
-            const Icon = item.icon
-            return (
-              <Card key={item.label} hover="lift">
-                <CardContent className="pb-3 pt-4">
-                  <div className={`mb-2 flex h-8 w-8 items-center justify-center rounded-sm bg-${item.dataColor}/10`}>
-                    <Icon className={`h-4 w-4 text-${item.dataColor}`} />
-                  </div>
-                  <div className="text-xl font-heading font-bold">{item.value}</div>
-                  <div className="text-ia-label text-muted-foreground">{item.label}</div>
-                </CardContent>
-              </Card>
-            )
-          })}
-        </div>
-        <div className="mt-2 text-ia-label text-muted-foreground">
-          已消耗 ε：{dashboard?.spentEpsilon.toFixed(3) ?? '0.000'} · 剩余 ε：{dashboard?.remainingBudget.toFixed(3) ?? '0.000'}
-          {(loadingDashboard || loadingUsers || loadingTraining) && <span> · 同步中...</span>}
-        </div>
-      </section>
+      {/* Tab navigation */}
+      <div className="flex gap-0 border-b border-white/[0.06]">
+        {([
+          { key: 'users' as const, label: '用户管理', icon: Users },
+          { key: 'training' as const, label: '模型训练', icon: Brain },
+          { key: 'ledger' as const, label: '隐私账本', icon: Shield },
+        ]).map((tab) => {
+          const Icon = tab.icon
+          return (
+            <button
+              key={tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`px-4 py-2.5 text-sm font-medium transition-colors cursor-pointer flex items-center gap-2 ${
+                activeTab === tab.key ? 'text-brand-sky border-b-2 border-brand-sky' : 'text-muted-foreground hover:text-foreground border-b-2 border-transparent'
+              }`}
+            >
+              <Icon className="h-4 w-4" />
+              {tab.label}
+            </button>
+          )
+        })}
+      </div>
 
-      <section>
+      {/* 用户管理 Tab */}
+      {activeTab === 'users' && <section>
         <div className="mb-3 flex items-center justify-between">
           <h2 className="flex items-center gap-2 text-ia-card-title font-heading font-bold">
             <Users className="h-4 w-4 text-brand-sky" />
@@ -342,7 +330,6 @@ export default function AdminDashboard() {
                   <tr>
                     <th>账号</th>
                     <th>角色</th>
-                    <th>最近登录</th>
                     <th>状态</th>
                     <th>操作</th>
                   </tr>
@@ -350,9 +337,8 @@ export default function AdminDashboard() {
                 <tbody>
                   {users.map((item) => (
                     <tr key={item.id}>
-                      <td className="font-heading font-semibold">{item.username}</td>
+                      <td className="font-heading font-semibold" title={item.lastLoginAt ? `最近登录: ${new Date(item.lastLoginAt).toLocaleString()}` : '暂无登录记录'}>{item.username}</td>
                       <td>{item.role === 'admin' ? '管理员' : '普通用户'}</td>
-                      <td className="text-muted-foreground">{item.lastLoginAt ? new Date(item.lastLoginAt).toLocaleString() : '暂无'}</td>
                       <td>
                         <span className={item.status === 'ACTIVE' ? 'ia-badge ia-badge-success' : 'ia-badge ia-badge-danger'}>
                           {item.status === 'ACTIVE' ? '正常' : '禁用'}
@@ -373,16 +359,16 @@ export default function AdminDashboard() {
                     </tr>
                   ))}
                   {users.length === 0 && !loadingUsers && (
-                    <tr><td className="text-center text-muted-foreground" colSpan={5}>暂无用户数据</td></tr>
+                    <tr><td className="text-center text-muted-foreground" colSpan={4}>暂无用户数据</td></tr>
                   )}
                 </tbody>
               </table>
             </div>
           </CardContent>
         </Card>
-      </section>
+      </section>}
 
-      {/* Create User Modal */}
+      {/* Create User Modal — accessible in all tabs */}
       {showCreateModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40" onClick={(e) => e.target === e.currentTarget && setShowCreateModal(false)}>
           <div className="bg-surface-elevated rounded-sm p-6 max-w-sm w-full shadow-lg border border-border">
@@ -418,7 +404,8 @@ export default function AdminDashboard() {
         </div>
       )}
 
-      <section>
+      {/* 模型训练 Tab */}
+      {activeTab === 'training' && <section>
         <h2 className="mb-3 flex items-center gap-2 text-ia-card-title font-heading font-bold">
           <Brain className="h-4 w-4 text-brand-sky" />
           模型训练
@@ -505,9 +492,10 @@ export default function AdminDashboard() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section>}
 
-      <section>
+      {/* 隐私账本 Tab */}
+      {activeTab === 'ledger' && <section>
         <h2 className="mb-3 flex items-center gap-2 text-ia-card-title font-heading font-bold">
           <Shield className="h-4 w-4 text-brand-sky" />
           隐私预算账本
@@ -542,22 +530,11 @@ export default function AdminDashboard() {
             </div>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div className="grid grid-cols-3 gap-2 text-ia-caption">
-              <div className="rounded-sm border border-white/[0.06] bg-surface-elevated p-2.5 text-center">
-                <div className="text-ia-label text-muted-foreground mb-0.5">总预算</div>
-                <div className="text-ia-body font-heading font-bold">{config.privacyBudget.toFixed(1)}</div>
-              </div>
-              <div className="rounded-sm border border-destructive/30 bg-destructive/6 p-2.5 text-center">
-                <div className="text-ia-label text-muted-foreground mb-0.5">已消耗</div>
-                <div className="text-ia-body font-heading font-bold text-destructive">{budget.spent.toFixed(2)}</div>
-              </div>
-              <div className="rounded-sm border border-ia-data-3/30 bg-ia-data-3/6 p-2.5 text-center">
-                <div className="text-ia-label text-muted-foreground mb-0.5">剩余</div>
-                <div className="text-ia-body font-heading font-bold text-ia-data-3">{budget.remaining.toFixed(2)}</div>
-              </div>
-            </div>
-
             <div>
+              <div className="flex justify-between text-ia-caption font-heading font-semibold mb-1.5">
+                <span className="text-destructive">已消耗 ε = {budget.spent.toFixed(2)}</span>
+                <span>总预算 ε = {config.privacyBudget.toFixed(1)}</span>
+              </div>
               <div className="progress-bar">
                 <div
                   className="progress-bar-fill"
@@ -566,7 +543,7 @@ export default function AdminDashboard() {
               </div>
               <div className="mt-1 flex justify-between text-ia-label text-muted-foreground">
                 <span>已消耗 {config.privacyBudget > 0 ? ((budget.spent / config.privacyBudget) * 100).toFixed(1) : 0}%</span>
-                <span>ε_total = {config.privacyBudget.toFixed(1)}</span>
+                <span>剩余 ε = {budget.remaining.toFixed(2)}</span>
               </div>
             </div>
 
@@ -597,7 +574,7 @@ export default function AdminDashboard() {
             </div>
           </CardContent>
         </Card>
-      </section>
+      </section>}
     </div>
   )
 }
