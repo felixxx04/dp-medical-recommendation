@@ -84,6 +84,7 @@ export default function PatientRecords() {
   })
   const [clinicalSaving, setClinicalSaving] = useState(false)
   const [showCharts, setShowCharts] = useState(false)
+  const [formStep, setFormStep] = useState<1 | 2>(1)
   const addFormRef = useRef<HTMLDivElement>(null)
   const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -145,7 +146,7 @@ export default function PatientRecords() {
     else { setSortKey(key); setSortDir('asc') }
   }
 
-  const resetForm = () => { setFormData(INITIAL_FORM); setShowAddForm(false); setEditingId(null); setPageError(null) }
+  const resetForm = () => { setFormData(INITIAL_FORM); setShowAddForm(false); setEditingId(null); setPageError(null); setFormStep(1) }
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault()
@@ -321,56 +322,71 @@ export default function PatientRecords() {
                   </Button>
                 </div>
               </CardHeader>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={(e) => { e.preventDefault(); if (formStep === 1) { setFormStep(2); return; } handleSubmit(e) }}>
                 <CardContent className="space-y-5">
-                  <div className="grid gap-4 md:grid-cols-2">
-                    <div className="space-y-1.5">
-                      <Label htmlFor="p-name" className="text-sm font-semibold">姓名 *</Label>
-                      <Input id="p-name" value={formData.name} onChange={(event) => setFormData({ ...formData, name: event.target.value })} required />
-                    </div>
-                    <div className="space-y-1.5">
-                      <Label htmlFor="p-age" className="text-sm font-semibold">年龄 *</Label>
-                      <Input id="p-age" type="number" value={formData.age} onChange={(event) => setFormData({ ...formData, age: event.target.value })} required />
-                    </div>
-                    <div className="space-y-1.5">
-                      <Label htmlFor="p-gender" className="text-sm font-semibold">性别 *</Label>
-                      <select id="p-gender" value={formData.gender} onChange={(event) => setFormData({ ...formData, gender: event.target.value as PatientGender })} className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-base focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky">
-                        <option value="男">男</option>
-                        <option value="女">女</option>
-                        <option value="未知">未知</option>
-                      </select>
-                    </div>
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="space-y-1.5">
-                        <Label htmlFor="p-height" className="text-sm font-semibold">身高 (cm)</Label>
-                        <Input id="p-height" type="number" value={formData.height} onChange={(event) => setFormData({ ...formData, height: event.target.value })} />
-                      </div>
-                      <div className="space-y-1.5">
-                        <Label htmlFor="p-weight" className="text-sm font-semibold">体重 (kg)</Label>
-                        <Input id="p-weight" type="number" value={formData.weight} onChange={(event) => setFormData({ ...formData, weight: event.target.value })} />
-                      </div>
-                    </div>
-                    <div className="space-y-1.5">
-                      <Label htmlFor="p-phone" className="text-sm font-semibold">联系电话 <span className="text-xs text-muted-foreground">（可选）</span></Label>
-                      <Input id="p-phone" value={formData.phone} onChange={(event) => setFormData({ ...formData, phone: event.target.value })} placeholder="13800138000" />
-                    </div>
+                  {/* Step indicator */}
+                  <div className="flex items-center gap-3 mb-2">
+                    <button type="button" className={`text-sm font-semibold ${formStep === 1 ? 'text-brand-sky border-b-2 border-brand-sky pb-1' : 'text-muted-foreground pb-1'}`}>① 基本信息</button>
+                    <span className="text-muted-foreground">→</span>
+                    <button type="button" className={`text-sm font-semibold ${formStep === 2 ? 'text-brand-sky border-b-2 border-brand-sky pb-1' : 'text-muted-foreground pb-1'}`}>② 健康档案</button>
                   </div>
 
-                  <div className="space-y-1.5"><Label htmlFor="p-allergies" className="text-sm font-semibold">过敏史（逗号分隔）</Label><Input id="p-allergies" value={formData.allergies} onChange={(event) => setFormData({ ...formData, allergies: event.target.value })} /></div>
-                  <div className="space-y-1.5"><Label htmlFor="p-diseases" className="text-sm font-semibold">慢病（逗号分隔）</Label><Input id="p-diseases" value={formData.chronicDiseases} onChange={(event) => setFormData({ ...formData, chronicDiseases: event.target.value })} /></div>
-                  <div className="space-y-1.5"><Label htmlFor="p-meds" className="text-sm font-semibold">当前用药（逗号分隔）</Label><Input id="p-meds" value={formData.currentMedications} onChange={(event) => setFormData({ ...formData, currentMedications: event.target.value })} /></div>
-                  <div className="space-y-1.5">
-                    <Label htmlFor="p-history" className="text-sm font-semibold">既往病史</Label>
-                    <textarea id="p-history" value={formData.medicalHistory} onChange={(event) => setFormData({ ...formData, medicalHistory: event.target.value })} className="flex min-h-[80px] w-full resize-none rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-base focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky" />
-                  </div>
-
-                  <div className="flex gap-2 pt-3">
-                    <Button type="submit" className="gap-2 cursor-pointer" disabled={submitting}>
-                      <Save className="h-4 w-4" />
-                      {submitting ? '提交中...' : editingId ? '保存修改' : '添加患者'}
-                    </Button>
-                    <Button type="button" variant="outline" onClick={resetForm} className="cursor-pointer">取消</Button>
-                  </div>
+                  {formStep === 1 ? (
+                    <div className="grid gap-4 md:grid-cols-2">
+                      <div className="space-y-1.5">
+                        <Label htmlFor="p-name" className="text-sm font-semibold">姓名 *</Label>
+                        <Input id="p-name" value={formData.name} onChange={(event) => setFormData({ ...formData, name: event.target.value })} required />
+                      </div>
+                      <div className="space-y-1.5">
+                        <Label htmlFor="p-age" className="text-sm font-semibold">年龄 *</Label>
+                        <Input id="p-age" type="number" value={formData.age} onChange={(event) => setFormData({ ...formData, age: event.target.value })} required />
+                      </div>
+                      <div className="space-y-1.5">
+                        <Label htmlFor="p-gender" className="text-sm font-semibold">性别 *</Label>
+                        <select id="p-gender" value={formData.gender} onChange={(event) => setFormData({ ...formData, gender: event.target.value as PatientGender })} className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-base focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky">
+                          <option value="男">男</option>
+                          <option value="女">女</option>
+                          <option value="未知">未知</option>
+                        </select>
+                      </div>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="space-y-1.5">
+                          <Label htmlFor="p-height" className="text-sm font-semibold">身高 (cm)</Label>
+                          <Input id="p-height" type="number" value={formData.height} onChange={(event) => setFormData({ ...formData, height: event.target.value })} />
+                        </div>
+                        <div className="space-y-1.5">
+                          <Label htmlFor="p-weight" className="text-sm font-semibold">体重 (kg)</Label>
+                          <Input id="p-weight" type="number" value={formData.weight} onChange={(event) => setFormData({ ...formData, weight: event.target.value })} />
+                        </div>
+                      </div>
+                      <div className="flex justify-end pt-2 md:col-span-2">
+                        <Button type="submit" className="gap-2 cursor-pointer">下一步 →</Button>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="space-y-4">
+                      <div className="grid gap-4 md:grid-cols-2">
+                        <div className="space-y-1.5">
+                          <Label htmlFor="p-phone" className="text-sm font-semibold">联系电话 <span className="text-xs text-muted-foreground">（可选）</span></Label>
+                          <Input id="p-phone" value={formData.phone} onChange={(event) => setFormData({ ...formData, phone: event.target.value })} placeholder="13800138000" />
+                        </div>
+                      </div>
+                      <div className="space-y-1.5"><Label htmlFor="p-allergies" className="text-sm font-semibold">过敏史（逗号分隔）</Label><Input id="p-allergies" value={formData.allergies} onChange={(event) => setFormData({ ...formData, allergies: event.target.value })} /></div>
+                      <div className="space-y-1.5"><Label htmlFor="p-diseases" className="text-sm font-semibold">慢病（逗号分隔）</Label><Input id="p-diseases" value={formData.chronicDiseases} onChange={(event) => setFormData({ ...formData, chronicDiseases: event.target.value })} /></div>
+                      <div className="space-y-1.5"><Label htmlFor="p-meds" className="text-sm font-semibold">当前用药（逗号分隔）</Label><Input id="p-meds" value={formData.currentMedications} onChange={(event) => setFormData({ ...formData, currentMedications: event.target.value })} /></div>
+                      <div className="space-y-1.5">
+                        <Label htmlFor="p-history" className="text-sm font-semibold">既往病史</Label>
+                        <textarea id="p-history" value={formData.medicalHistory} onChange={(event) => setFormData({ ...formData, medicalHistory: event.target.value })} className="flex min-h-[80px] w-full resize-none rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-base focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky" />
+                      </div>
+                      <div className="flex gap-2 pt-3">
+                        <Button type="button" variant="outline" onClick={() => setFormStep(1)} className="cursor-pointer">← 上一步</Button>
+                        <Button type="submit" className="gap-2 cursor-pointer" disabled={submitting}>
+                          <Save className="h-4 w-4" />
+                          {submitting ? '提交中...' : editingId ? '保存修改' : '添加患者'}
+                        </Button>
+                      </div>
+                    </div>
+                  )}
                 </CardContent>
               </form>
             </Card>
@@ -538,94 +554,123 @@ export default function PatientRecords() {
                             )}
 
                             {(activeTab[patient.id] || 'basic') === 'clinical' && (
-                              <div className="mt-4 space-y-4">
-                                <div className="grid gap-3 md:grid-cols-2">
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">肾功能</Label>
-                                    <select value={clinicalForm.renalFunction} onChange={(e) => setClinicalForm({...clinicalForm, renalFunction: e.target.value})}
-                                      className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
-                                      <option value="">未知</option>
-                                      <option value="normal">正常</option>
-                                      <option value="mild_impairment">轻度受损</option>
-                                      <option value="moderate_impairment">中度受损</option>
-                                      <option value="severe_impairment">重度受损</option>
-                                    </select>
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">肝功能</Label>
-                                    <select value={clinicalForm.hepaticFunction} onChange={(e) => setClinicalForm({...clinicalForm, hepaticFunction: e.target.value})}
-                                      className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
-                                      <option value="">未知</option>
-                                      <option value="normal">正常</option>
-                                      <option value="mild_impairment">轻度受损</option>
-                                      <option value="moderate_impairment">中度受损</option>
-                                      <option value="severe_impairment">重度受损</option>
-                                    </select>
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">吸烟状态</Label>
-                                    <select value={clinicalForm.smokingStatus} onChange={(e) => setClinicalForm({...clinicalForm, smokingStatus: e.target.value})}
-                                      className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
-                                      <option value="">未知</option>
-                                      <option value="never">从不吸烟</option>
-                                      <option value="former">已戒烟</option>
-                                      <option value="current">吸烟</option>
-                                    </select>
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">饮酒状态</Label>
-                                    <select value={clinicalForm.drinkingStatus} onChange={(e) => setClinicalForm({...clinicalForm, drinkingStatus: e.target.value})}
-                                      className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
-                                      <option value="">未知</option>
-                                      <option value="none">不饮酒</option>
-                                      <option value="occasional">偶尔饮酒</option>
-                                      <option value="regular">经常饮酒</option>
-                                      <option value="heavy">大量饮酒</option>
-                                    </select>
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">收缩压 (mmHg)</Label>
-                                    <Input type="number" value={clinicalForm.bloodPressureSystolic ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, bloodPressureSystolic: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">舒张压 (mmHg)</Label>
-                                    <Input type="number" value={clinicalForm.bloodPressureDiastolic ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, bloodPressureDiastolic: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">空腹血糖 (mmol/L)</Label>
-                                    <Input type="number" step="0.1" value={clinicalForm.fastingGlucose ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, fastingGlucose: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">糖化血红蛋白 (%)</Label>
-                                    <Input type="number" step="0.1" value={clinicalForm.hba1c ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, hba1c: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">总胆固醇 (mmol/L)</Label>
-                                    <Input type="number" step="0.1" value={clinicalForm.cholesterolTotal ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, cholesterolTotal: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">LDL胆固醇 (mmol/L)</Label>
-                                    <Input type="number" step="0.1" value={clinicalForm.cholesterolLdl ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, cholesterolLdl: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
-                                  </div>
-                                  <div className="space-y-1.5">
-                                    <Label className="text-xs font-semibold">心率 (bpm)</Label>
-                                    <Input type="number" value={clinicalForm.heartRate ?? ''}
-                                      onChange={(e) => setClinicalForm({...clinicalForm, heartRate: e.target.value ? Number(e.target.value) : null})}
-                                      className="h-9 text-xs" />
+                              <div className="mt-4 space-y-5">
+                                {/* Progress indicator */}
+                                {(() => {
+                                  const filled = [
+                                    clinicalForm.renalFunction, clinicalForm.hepaticFunction,
+                                    clinicalForm.bloodPressureSystolic, clinicalForm.heartRate,
+                                    clinicalForm.fastingGlucose, clinicalForm.hba1c,
+                                  ].filter((v) => v !== '' && v !== null && v !== 0).length
+                                  return <div className="text-xs text-muted-foreground mb-2">已填写 {filled}/6 核心指标</div>
+                                })()}
+
+                                {/* 器官功能 + 生活习惯 */}
+                                <div>
+                                  <h5 className="text-xs font-semibold text-brand-sky mb-2">器官功能与生活习惯</h5>
+                                  <div className="grid gap-3 md:grid-cols-2">
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">肾功能</Label>
+                                      <select value={clinicalForm.renalFunction} onChange={(e) => setClinicalForm({...clinicalForm, renalFunction: e.target.value})}
+                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        <option value="">未知</option>
+                                        <option value="normal">正常</option>
+                                        <option value="mild_impairment">轻度受损</option>
+                                        <option value="moderate_impairment">中度受损</option>
+                                        <option value="severe_impairment">重度受损</option>
+                                      </select>
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">肝功能</Label>
+                                      <select value={clinicalForm.hepaticFunction} onChange={(e) => setClinicalForm({...clinicalForm, hepaticFunction: e.target.value})}
+                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        <option value="">未知</option>
+                                        <option value="normal">正常</option>
+                                        <option value="mild_impairment">轻度受损</option>
+                                        <option value="moderate_impairment">中度受损</option>
+                                        <option value="severe_impairment">重度受损</option>
+                                      </select>
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">吸烟状态</Label>
+                                      <select value={clinicalForm.smokingStatus} onChange={(e) => setClinicalForm({...clinicalForm, smokingStatus: e.target.value})}
+                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        <option value="">未知</option>
+                                        <option value="never">从不吸烟</option>
+                                        <option value="former">已戒烟</option>
+                                        <option value="current">吸烟</option>
+                                      </select>
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">饮酒状态</Label>
+                                      <select value={clinicalForm.drinkingStatus} onChange={(e) => setClinicalForm({...clinicalForm, drinkingStatus: e.target.value})}
+                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        <option value="">未知</option>
+                                        <option value="none">不饮酒</option>
+                                        <option value="occasional">偶尔饮酒</option>
+                                        <option value="regular">经常饮酒</option>
+                                        <option value="heavy">大量饮酒</option>
+                                      </select>
+                                    </div>
                                   </div>
                                 </div>
+
+                                {/* 心血管指标 */}
+                                <div>
+                                  <h5 className="text-xs font-semibold text-brand-sky mb-2">心血管指标</h5>
+                                  <div className="grid gap-3 md:grid-cols-2">
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">收缩压 (mmHg)</Label>
+                                      <Input type="number" value={clinicalForm.bloodPressureSystolic ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, bloodPressureSystolic: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">舒张压 (mmHg)</Label>
+                                      <Input type="number" value={clinicalForm.bloodPressureDiastolic ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, bloodPressureDiastolic: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">心率 (bpm)</Label>
+                                      <Input type="number" value={clinicalForm.heartRate ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, heartRate: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                  </div>
+                                </div>
+
+                                {/* 代谢指标 */}
+                                <div>
+                                  <h5 className="text-xs font-semibold text-brand-sky mb-2">代谢指标</h5>
+                                  <div className="grid gap-3 md:grid-cols-2">
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">空腹血糖 (mmol/L)</Label>
+                                      <Input type="number" step="0.1" value={clinicalForm.fastingGlucose ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, fastingGlucose: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">糖化血红蛋白 (%)</Label>
+                                      <Input type="number" step="0.1" value={clinicalForm.hba1c ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, hba1c: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">总胆固醇 (mmol/L)</Label>
+                                      <Input type="number" step="0.1" value={clinicalForm.cholesterolTotal ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, cholesterolTotal: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                    <div className="space-y-1.5">
+                                      <Label className="text-xs font-semibold">LDL胆固醇 (mmol/L)</Label>
+                                      <Input type="number" step="0.1" value={clinicalForm.cholesterolLdl ?? ''}
+                                        onChange={(e) => setClinicalForm({...clinicalForm, cholesterolLdl: e.target.value ? Number(e.target.value) : null})}
+                                        className="h-9 text-xs" />
+                                    </div>
+                                  </div>
+                                </div>
+
                                 <div className="flex gap-2 pt-2">
                                   <Button size="sm" className="gap-1.5 cursor-pointer" disabled={clinicalSaving}
                                     onClick={() => handleClinicalSave(patient.id)}>
