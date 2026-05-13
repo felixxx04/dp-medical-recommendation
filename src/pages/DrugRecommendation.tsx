@@ -209,6 +209,8 @@ export default function DrugRecommendation() {
   const [totalCandidateInfo, setTotalCandidateInfo] = useState<{ total: number; excluded: number; safe: number } | null>(null)
   const [dataGaps, setDataGaps] = useState<string[]>([])
   const [privacyPanelCollapsed, setPrivacyPanelCollapsed] = useState(false)
+  const [showComparison, setShowComparison] = useState(false)
+  const [showExcludedDrugs, setShowExcludedDrugs] = useState(false)
 
   const handleSelectPatient = (id: string) => {
     setSelectedPatientId(id)
@@ -758,48 +760,6 @@ export default function DrugRecommendation() {
                 </div>
               </CardHeader>
               <CardContent>
-                {/* DP comparison */}
-                {comparison && (
-                  <div className="mb-5 p-3 rounded-sm bg-surface border border-white/[0.06]">
-                    <div className="flex items-center justify-between gap-3 flex-wrap mb-3">
-                      <div className="flex items-center gap-2">
-                        <GitCompare className="h-3.5 w-3.5 text-brand-sky" />
-                        <span className="text-ia-caption font-heading font-semibold">有/无 DP 结果对比（Top-4）</span>
-                      </div>
-                      <div className="text-ia-label text-muted-foreground">
-                        {dpEnabled ? '当前展示：DP 结果' : '当前展示：基线结果'}
-                      </div>
-                    </div>
-                    <div className="grid md:grid-cols-2 gap-2 text-ia-caption">
-                      <div className="p-2.5 rounded-sm bg-surface-elevated border border-white/[0.06]">
-                        <div className="text-ia-label text-muted-foreground mb-1.5">无 DP（基线）</div>
-                        <ol className="space-y-0.5">
-                          {comparison.base.map((r, idx) => (
-                            <li key={`${r.drugId}-${idx}`} className="flex justify-between gap-2">
-                              <span className="truncate">{idx + 1}. {r.drugName}</span>
-                              <span className="text-muted-foreground">score {r.score.toFixed(2)}</span>
-                            </li>
-                          ))}
-                        </ol>
-                      </div>
-                      <div className="p-2.5 rounded-sm border border-brand-sky/20 bg-brand-sky/4">
-                        <div className="text-ia-label text-muted-foreground mb-1.5">差分隐私（噪声后）</div>
-                        <ol className="space-y-0.5">
-                          {comparison.dp.map((r, idx) => (
-                            <li key={`${r.drugId}-${idx}`} className="flex justify-between gap-2">
-                              <span className="truncate">{idx + 1}. {r.drugName}</span>
-                              <span className="text-muted-foreground">
-                                score {r.score.toFixed(2)}
-                                {typeof r.dpNoise === 'number' ? ` (noise ${r.dpNoise >= 0 ? '+' : ''}${r.dpNoise.toFixed(2)})` : ''}
-                              </span>
-                            </li>
-                          ))}
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
                 {/* Data Gaps Warning */}
                 {dataGaps.length > 0 && (
                   <div className="mb-5 p-3 rounded-sm bg-amber-50 border border-amber-200">
@@ -902,92 +862,66 @@ export default function DrugRecommendation() {
                 {/* Excluded Drugs & Budget Info */}
                 {(excludedDrugs.length > 0 || budgetInfo || totalCandidateInfo) && (
                   <div className="mb-5 grid md:grid-cols-2 gap-3">
-                    {/* Excluded drugs section */}
+                    {/* Excluded drugs section (collapsed by default) */}
                     {excludedDrugs.length > 0 && (
-                      <div className="p-3 rounded-sm bg-destructive/4 border border-destructive/20">
-                        <div className="flex items-center gap-2 mb-2">
-                          <AlertTriangle className="h-3.5 w-3.5 text-destructive" />
-                          <span className="text-ia-caption font-heading font-semibold text-destructive">
-                            安全排除药物（{excludedDrugs.length} 项）
+                      <div
+                        className="p-3 rounded-sm bg-destructive/4 border border-destructive/20 cursor-pointer"
+                        onClick={() => setShowExcludedDrugs(!showExcludedDrugs)}
+                      >
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <AlertTriangle className="h-3.5 w-3.5 text-destructive" />
+                            <span className="text-ia-caption font-heading font-semibold text-destructive">
+                              安全排除药物（{excludedDrugs.length} 项）
+                            </span>
+                          </div>
+                          <span className="text-ia-label text-muted-foreground">
+                            {showExcludedDrugs ? '收起 ▴' : '展开详情 ▾'}
                           </span>
                         </div>
-                        <p className="text-ia-label text-muted-foreground mb-2">
-                          以下药物因安全原因被排除，不受差分隐私噪声影响
-                        </p>
-                        <div className="max-h-40 overflow-y-auto space-y-1">
-                          {excludedDrugs.map((d, i) => (
-                            <div key={d.englishName || d.drugName || String(i)} className="flex items-start gap-2 text-ia-caption">
-                              <span className="text-destructive mt-0.5">·</span>
-                              <div>
-                                <span className="font-heading font-semibold">{d.drugName}</span>
-                                <span className="text-muted-foreground ml-1.5">({d.category})</span>
-                                <span className="text-muted-foreground ml-1">— {d.reason}</span>
-                              </div>
+                        {showExcludedDrugs && (
+                          <div className="mt-2">
+                            <p className="text-ia-label text-muted-foreground mb-2">
+                              以下药物因安全原因被排除，不受差分隐私噪声影响
+                            </p>
+                            <div className="max-h-40 overflow-y-auto space-y-1">
+                              {excludedDrugs.map((d, i) => (
+                                <div key={d.englishName || d.drugName || String(i)} className="flex items-start gap-2 text-ia-caption">
+                                  <span className="text-destructive mt-0.5">·</span>
+                                  <div>
+                                    <span className="font-heading font-semibold">{d.drugName}</span>
+                                    <span className="text-muted-foreground ml-1.5">({d.category})</span>
+                                    <span className="text-muted-foreground ml-1">— {d.reason}</span>
+                                  </div>
+                                </div>
+                              ))}
                             </div>
-                          ))}
-                        </div>
+                          </div>
+                        )}
                       </div>
                     )}
 
-                    {/* Candidate stats & budget info */}
+                    {/* Candidate stats & budget info — single line */}
                     {(totalCandidateInfo || budgetInfo) && (
-                      <div className="p-3 rounded-sm bg-surface border border-white/[0.06] space-y-3">
-                        {totalCandidateInfo && (
-                          <div>
-                            <div className="flex items-center gap-2 mb-2">
+                      <div className="flex flex-wrap items-center justify-between gap-3 text-ia-label text-muted-foreground">
+                        <div className="flex items-center gap-3">
+                          {totalCandidateInfo && (
+                            <>
                               <Shield className="h-3.5 w-3.5 text-brand-sky" />
-                              <span className="text-ia-caption font-heading font-semibold">候选药物筛选</span>
-                            </div>
-                            <div className="grid grid-cols-3 gap-2 text-ia-label">
-                              <div className="p-2 rounded-sm bg-surface-elevated border border-white/[0.06] text-center">
-                                <div className="font-heading font-bold text-foreground">{totalCandidateInfo.total}</div>
-                                <div className="text-muted-foreground">总候选</div>
-                              </div>
-                              <div className="p-2 rounded-sm bg-destructive/6 border border-destructive/20 text-center">
-                                <div className="font-heading font-bold text-destructive">{totalCandidateInfo.excluded}</div>
-                                <div className="text-muted-foreground">已排除</div>
-                              </div>
-                              <div className="p-2 rounded-sm bg-brand-sky/6 border border-brand-sky/20 text-center">
-                                <div className="font-heading font-bold text-brand-sky">{totalCandidateInfo.safe}</div>
-                                <div className="text-muted-foreground">安全候选</div>
-                              </div>
-                            </div>
-                          </div>
-                        )}
-                        {budgetInfo && (
-                          <div>
-                            <div className="flex items-center gap-2 mb-2">
+                              <span>安全候选 <strong className="text-foreground">{totalCandidateInfo.safe}</strong>/{totalCandidateInfo.total}</span>
+                              <span>· 已排除 <strong className="text-destructive">{totalCandidateInfo.excluded}</strong></span>
+                            </>
+                          )}
+                        </div>
+                        <div className="flex items-center gap-3">
+                          {budgetInfo && (
+                            <>
                               <Lock className="h-3.5 w-3.5 text-secondary" />
-                              <span className="text-ia-caption font-heading font-semibold">本次查询隐私预算</span>
-                            </div>
-                            <div className="p-2 rounded-sm bg-surface-elevated border border-white/[0.06] text-ia-label">
-                              <div className="flex justify-between mb-1">
-                                <span className="text-muted-foreground">ε 已消耗</span>
-                                <span className={`font-heading font-bold ${
-                                  budgetInfo.warningLevel === 'EXCEEDED' ? 'text-destructive' :
-                                  budgetInfo.warningLevel === 'CRITICAL_80' ? 'text-ia-data-4' :
-                                  budgetInfo.warningLevel === 'WARNING_50' ? 'text-secondary' : 'text-foreground'
-                                }`}>
-                                  {budgetInfo.epsilonSpent.toFixed(4)} / {budgetInfo.epsilonBudget.toFixed(1)}
-                                </span>
-                              </div>
-                              <div className="progress-bar mb-1.5">
-                                <div
-                                  className={`progress-bar-fill ${
-                                    budgetInfo.warningLevel === 'EXCEEDED' ? 'bg-destructive' :
-                                    budgetInfo.warningLevel === 'CRITICAL_80' ? 'bg-ia-data-4' :
-                                    budgetInfo.warningLevel === 'WARNING_50' ? 'bg-secondary' : ''
-                                  }`}
-                                  style={{ width: `${Math.min(100, (budgetInfo.epsilonSpent / budgetInfo.epsilonBudget) * 100)}%` }}
-                                />
-                              </div>
-                              <div className="flex justify-between">
-                                <span className="text-muted-foreground">查询 #{budgetInfo.queryCount}</span>
-                                <span className="text-muted-foreground">剩余 {((budgetInfo.remainingRatio) * 100).toFixed(1)}%</span>
-                              </div>
-                            </div>
-                          </div>
-                        )}
+                              <span>ε <strong className="text-foreground">{budgetInfo.epsilonSpent.toFixed(4)}</strong>/{budgetInfo.epsilonBudget.toFixed(1)}</span>
+                              <span>· 剩余 <strong className={budgetInfo.remainingRatio < 0.2 ? 'text-destructive' : 'text-foreground'}>{(budgetInfo.remainingRatio * 100).toFixed(1)}%</strong></span>
+                            </>
+                          )}
+                        </div>
                       </div>
                     )}
                   </div>
@@ -1001,6 +935,49 @@ export default function DrugRecommendation() {
                         <Info className="h-4 w-4 text-brand-sky" />
                         详细用药说明 — {selectedDrug.drugName}
                       </h4>
+
+                      {/* DP comparison table (collapsible) */}
+                      {comparison && (
+                        <div className="mb-4">
+                          <button
+                            onClick={() => setShowComparison(!showComparison)}
+                            className="flex items-center gap-2 text-ia-caption font-heading font-semibold text-brand-sky hover:underline cursor-pointer mb-2"
+                          >
+                            <GitCompare className="h-3.5 w-3.5" />
+                            有/无 DP 结果对比
+                            {showComparison ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
+                          </button>
+                          {showComparison && (
+                            <div className="grid md:grid-cols-2 gap-2 text-ia-caption">
+                              <div className="p-2.5 rounded-sm bg-surface-elevated border border-white/[0.06]">
+                                <div className="text-ia-label text-muted-foreground mb-1.5">无 DP（基线）</div>
+                                <ol className="space-y-0.5">
+                                  {comparison.base.map((r, idx) => (
+                                    <li key={`${r.drugId}-${idx}`} className="flex justify-between gap-2">
+                                      <span className="truncate">{idx + 1}. {r.drugName}</span>
+                                      <span className="text-muted-foreground">score {r.score.toFixed(2)}</span>
+                                    </li>
+                                  ))}
+                                </ol>
+                              </div>
+                              <div className="p-2.5 rounded-sm border border-brand-sky/20 bg-brand-sky/4">
+                                <div className="text-ia-label text-muted-foreground mb-1.5">差分隐私（噪声后）</div>
+                                <ol className="space-y-0.5">
+                                  {comparison.dp.map((r, idx) => (
+                                    <li key={`${r.drugId}-${idx}`} className="flex justify-between gap-2">
+                                      <span className="truncate">{idx + 1}. {r.drugName}</span>
+                                      <span className="text-muted-foreground">
+                                        score {r.score.toFixed(2)}
+                                        {typeof r.dpNoise === 'number' ? ` (noise ${r.dpNoise >= 0 ? '+' : ''}${r.dpNoise.toFixed(2)})` : ''}
+                                      </span>
+                                    </li>
+                                  ))}
+                                </ol>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
 
                       <div className="grid md:grid-cols-2 gap-5">
                         <div className="space-y-4">
@@ -1021,6 +998,73 @@ export default function DrugRecommendation() {
                               <p className="text-ia-caption"><strong>剂量：</strong>{selectedDrug.dosage}</p>
                               <p className="text-ia-caption"><strong>频率：</strong>{selectedDrug.frequency}</p>
                             </div>
+                          </div>
+
+                          {/* Moved badges + score breakdown + routing path */}
+                          <div className="space-y-3">
+                            <div className="flex flex-wrap gap-1.5">
+                              {selectedDrug.explanation?.evidenceLevel && (
+                                <span className="ia-badge text-[10px] px-1.5 py-0.5" style={{
+                                  background: selectedDrug.explanation.evidenceLevel === 'on_label' ? '#052e16' : '#451a03',
+                                  color: selectedDrug.explanation.evidenceLevel === 'on_label' ? '#22c55e' : '#f59e0b',
+                                }}>
+                                  {selectedDrug.explanation.evidenceLevel === 'on_label' ? '说明书内' : '超说明书'}
+                                </span>
+                              )}
+                              {selectedDrug.reviewStatus && (
+                                <span className="ia-badge text-[10px] px-1.5 py-0.5">{
+                                  selectedDrug.reviewStatus === 'pending' ? '待审核' :
+                                  selectedDrug.reviewStatus === 'confirmed' ? '已确认' :
+                                  selectedDrug.reviewStatus === 'modified' ? '已修改' : '已拒绝'
+                                }</span>
+                              )}
+                              <span className="ia-badge text-[10px] px-1.5 py-0.5">
+                                {selectedDrug.mode === 'model' ? '模型推理' : '演示模式'}
+                              </span>
+                              {selectedDrug.qualityWarning && (
+                                <span className="ia-badge text-[10px] px-1.5 py-0.5">{selectedDrug.qualityWarning}</span>
+                              )}
+                            </div>
+                            {dpEnabled && selectedDrug.rawScore !== undefined && (
+                              <div className="p-2.5 rounded-sm bg-surface-elevated border border-white/[0.06] text-ia-label text-muted-foreground space-y-1.5">
+                                <div className="flex items-center gap-1.5">
+                                  <span>原始评分: {selectedDrug.rawScore.toFixed(3)}</span>
+                                  {typeof selectedDrug.dpNoise === 'number' && (
+                                    <>
+                                      <span>→</span>
+                                      <span>DP评分: {selectedDrug.score.toFixed(3)}</span>
+                                      <span className={`text-[10px] ${selectedDrug.dpNoise >= 0 ? 'text-brand-sky' : 'text-ia-data-4'}`}>
+                                        (噪声 {selectedDrug.dpNoise >= 0 ? '+' : ''}{selectedDrug.dpNoise.toFixed(3)})
+                                      </span>
+                                    </>
+                                  )}
+                                </div>
+                                {selectedDrug.dpConfidence && (
+                                  <div className="flex items-center gap-2">
+                                    <span className="text-[10px]">置信区间</span>
+                                    <div className="relative h-2 w-24 bg-surface rounded-full overflow-hidden">
+                                      <div className="absolute h-full bg-brand-sky/40 rounded-full" style={{
+                                        left: `${Math.max(0, selectedDrug.dpConfidence.low) * 100}%`,
+                                        width: `${(Math.min(1, selectedDrug.dpConfidence.high) - Math.max(0, selectedDrug.dpConfidence.low)) * 100}%`,
+                                      }} />
+                                      <div className="absolute h-full w-1 bg-gradient-to-br from-brand-sky to-sky-600 rounded" style={{ left: `${selectedDrug.score * 100}%` }} />
+                                    </div>
+                                    <span className="text-[10px]">[{selectedDrug.dpConfidence.low.toFixed(2)}–{selectedDrug.dpConfidence.high.toFixed(2)}]</span>
+                                  </div>
+                                )}
+                              </div>
+                            )}
+                            {selectedDrug.routingPath && (
+                              <div className="text-ia-label text-muted-foreground" style={{ fontSize: '11px', padding: '4px 8px', background: '#16213e', borderRadius: '4px' }}>
+                                <span style={{ color: '#00d4aa' }}>推荐路径：</span>{selectedDrug.routingPath}
+                              </div>
+                            )}
+                            {selectedDrug.warnings && selectedDrug.warnings.length > 0 && (
+                              <div className="flex items-center gap-1.5 text-ia-caption text-secondary">
+                                <Info className="h-3 w-3" />
+                                <span>{selectedDrug.warnings.join('；')}</span>
+                              </div>
+                            )}
                           </div>
                         </div>
 
@@ -1140,34 +1184,17 @@ export default function DrugRecommendation() {
                         </AnimatePresence>
                       </div>
 
-                      {/* Privacy Notice */}
+                      {/* Privacy Notice — simplified */}
                       <div className="pt-4 border-t border-white/[0.06]">
-                        <div className="flex items-start gap-3 p-3 rounded-sm border border-brand-sky/20 bg-brand-sky/4">
+                        <div className="flex items-start gap-2 p-3 rounded-sm border border-brand-sky/20 bg-brand-sky/4">
                           <Shield className="h-4 w-4 text-brand-sky flex-shrink-0 mt-0.5" />
-                          <div>
-                            <h5 className="font-heading font-semibold text-ia-caption mb-1 text-brand-sky">
-                              隐私保护说明
-                            </h5>
-                            <div className="text-ia-caption text-muted-foreground space-y-1">
-                              <p>
-                                推荐模式：<strong className="text-foreground">
-                                  {selectedDrug.mode === 'model' ? '模型推理（DeepFM）' : '演示模式（规则匹配）'}
-                                </strong>
-                              </p>
-                              <p>
-                                {dpEnabled
-                                  ? '差分隐私噪声仅保护推荐排序隐私，不影响安全排除结果。推荐评分已注入随机噪声以降低推断风险。'
-                                  : '本次以无 DP 基线方式生成，未注入噪声，仅用于对比展示。'}
-                                （ε = {config.epsilon.toFixed(3)}）
-                              </p>
-                              {selectedDrug.dpAnomaly && (
-                                <p className="text-ia-data-4">
-                                  注意：该药物原始评分极低，当前排名可能因 DP 噪声而异常提升，请谨慎参考。
-                                </p>
-                              )}
-                              <p>推荐结果仅作为临床参考，具体用药请遵医嘱。</p>
-                            </div>
-                          </div>
+                          <p className="text-ia-caption text-muted-foreground">
+                            本推荐由<strong className="text-foreground">{selectedDrug.mode === 'model' ? 'DeepFM模型' : '规则匹配'}</strong>生成
+                            {dpEnabled && '，已施加差分隐私保护'}
+                            （ε = {config.epsilon.toFixed(3)}）。
+                            {selectedDrug.dpAnomaly && <span className="text-ia-data-4">注意：该药物原始评分极低，排名可能因DP噪声异常。</span>}
+                            结果仅供参考，请遵医嘱。
+                          </p>
                         </div>
                       </div>
                     </div>
