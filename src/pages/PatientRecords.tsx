@@ -7,8 +7,6 @@ import {
   Edit2,
   Trash2,
   User,
-  Calendar,
-  Activity,
   AlertTriangle,
   Save,
   X,
@@ -17,8 +15,6 @@ import {
   ArrowUpDown,
   Stethoscope,
   Users,
-  Heart,
-  Scale,
 } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
@@ -26,7 +22,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { usePatientStore, calcBMI, bmiLabel, type Patient, type PatientGender, type RecommendationRecord, type ClinicalMetrics } from '@/lib/patientStore'
 import { getErrorMessage } from '@/lib/api'
-import { PatientCardSkeleton, StatCardSkeleton } from '@/components/ui/skeleton'
+import { PatientCardSkeleton } from '@/components/ui/skeleton'
 import { TextExpander } from '@/components/ui/text-expander'
 import { AgeDistributionChart } from '@/components/charts/AgeDistributionChart'
 import { DiseaseDistributionChart } from '@/components/charts/DiseaseDistributionChart'
@@ -87,6 +83,7 @@ export default function PatientRecords() {
     cholesterolTotal: null, cholesterolLdl: null, heartRate: null,
   })
   const [clinicalSaving, setClinicalSaving] = useState(false)
+  const [showCharts, setShowCharts] = useState(false)
   const addFormRef = useRef<HTMLDivElement>(null)
   const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -254,38 +251,43 @@ export default function PatientRecords() {
         </div>
       )}
 
-      {/* Stats */}
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-        {isLoading
-          ? Array.from({ length: 4 }).map((_, i) => <StatCardSkeleton key={i} />)
-          : [
-              { icon: Users, label: '患者总数', value: `${stats.total}`, dataColor: 'ia-data-1' },
-              { icon: Calendar, label: '平均年龄', value: `${stats.avgAge}`, dataColor: 'ia-data-2' },
-              { icon: Heart, label: '慢病种类', value: `${stats.diseaseCount}`, dataColor: 'ia-data-5' },
-              { icon: Scale, label: '平均 BMI', value: stats.avgBMI.toFixed(1), dataColor: 'ia-data-3' },
-            ].map((item) => {
-              const Icon = item.icon
-              return (
-                <Card key={item.label} hover="lift">
-                  <CardContent className="pb-3 pt-4">
-                    <div className={`mb-2 flex h-8 w-8 items-center justify-center rounded-sm bg-${item.dataColor}/10`}>
-                      <Icon className={`h-4 w-4 text-${item.dataColor}`} />
-                    </div>
-                    <div className="text-xl font-semibold font-bold">{item.value}</div>
-                    <div className="text-xs text-muted-foreground">{item.label}</div>
-                  </CardContent>
-                </Card>
-              )
-            })}
+      {/* Stats — compact single row */}
+      <div className="rounded-sm border border-white/[0.06] bg-surface-elevated px-5 py-3">
+        {isLoading ? (
+          <div className="text-xs text-muted-foreground">加载中...</div>
+        ) : (
+          <div className="flex items-center justify-around gap-4 text-center">
+            {[
+              { label: '患者总数', value: `${stats.total}` },
+              { label: '平均年龄', value: `${stats.avgAge}` },
+              { label: '慢病种类', value: `${stats.diseaseCount}` },
+              { label: '平均 BMI', value: stats.avgBMI.toFixed(1) },
+            ].map((item) => (
+              <div key={item.label}>
+                <div className="text-xl font-semibold font-bold">{item.value}</div>
+                <div className="text-xs text-muted-foreground">{item.label}</div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
-      {/* Charts */}
-      {!isLoading && patients.length > 0 && (
-        <div className="grid gap-5 md:grid-cols-2">
-          <AgeDistributionChart data={ageDistribution} />
-          <DiseaseDistributionChart data={diseaseDistribution} />
+      {/* Charts — collapsed by default */}
+      <div className="rounded-sm border border-white/[0.06] bg-surface-elevated px-5 py-3">
+        <div
+          className="flex items-center justify-between cursor-pointer"
+          onClick={() => setShowCharts(!showCharts)}
+        >
+          <span className="text-sm text-muted-foreground">📊 年龄 / 疾病分布图</span>
+          <span className="text-xs text-muted-foreground">{showCharts ? '收起 ▴' : '展开 ▾'}</span>
         </div>
-      )}
+        {showCharts && !isLoading && patients.length > 0 && (
+          <div className="grid gap-5 md:grid-cols-2 mt-3">
+            <AgeDistributionChart data={ageDistribution} />
+            <DiseaseDistributionChart data={diseaseDistribution} />
+          </div>
+        )}
+      </div>
 
       <Card hover="none">
         <CardContent className="space-y-2.5 pt-4">
@@ -398,8 +400,8 @@ export default function PatientRecords() {
                 <Card hover="lift" className="overflow-hidden">
                   <CardContent className="p-0">
                     <div className="cursor-pointer p-4" onClick={() => setExpandedPatient(isExpanded ? null : patient.id)}>
-                      <div className="flex items-start justify-between">
-                        <div className="flex min-w-0 flex-1 items-start gap-3">
+                      <div className="flex items-center justify-between">
+                        <div className="flex min-w-0 flex-1 items-center gap-3">
                           <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-sm bg-gradient-to-br from-brand-sky to-sky-600">
                             <User className="h-5 w-5 text-white" />
                           </div>
@@ -407,20 +409,6 @@ export default function PatientRecords() {
                             <div className="mb-1.5 flex flex-wrap items-center gap-2">
                               <h3 className="font-semibold text-base">{patient.name}</h3>
                               <span className="ia-badge ia-badge-primary">{patient.gender} · {patient.age} 岁</span>
-                            </div>
-                            <div className="mb-2 flex flex-wrap gap-3 text-sm text-muted-foreground">
-                              <div className="flex items-center gap-1">
-                                <Activity className="h-3.5 w-3.5" />
-                                <span className={bmiColor}>BMI: {bmi.toFixed(1)} ({bmiText})</span>
-                              </div>
-                              <div className="flex items-center gap-1">
-                                <AlertTriangle className="h-3.5 w-3.5 text-amber-400" />
-                                <span>{patient.allergies.length} 项过敏</span>
-                              </div>
-                              <div className="flex items-center gap-1">
-                                <Calendar className="h-3.5 w-3.5" />
-                                <span>建档：{patient.createdAt}</span>
-                              </div>
                             </div>
                             <div className="flex flex-wrap gap-1.5">
                               {patient.chronicDiseases.slice(0, 3).map((disease) => (
@@ -435,9 +423,9 @@ export default function PatientRecords() {
                             <Stethoscope className="h-3.5 w-3.5" />
                             推荐
                           </Button>
-                          <Button variant="ghost" size="icon" className="h-8 w-8 cursor-pointer" onClick={(event) => { event.stopPropagation(); handleEdit(patient) }}><Edit2 className="h-3.5 w-3.5" /></Button>
-                          <Button variant="ghost" size="icon" className="h-8 w-8 cursor-pointer" onClick={(event) => { event.stopPropagation(); void handleDelete(patient.id) }}><Trash2 className="h-3.5 w-3.5" /></Button>
-                          <Button variant="ghost" size="icon" className="h-8 w-8 cursor-pointer">{isExpanded ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}</Button>
+                          <Button variant="ghost" size="icon" className="h-8 w-8 cursor-pointer">
+                            {isExpanded ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
+                          </Button>
                         </div>
                       </div>
                     </div>
@@ -460,6 +448,16 @@ export default function PatientRecords() {
                                 {tab === 'basic' ? '基本信息' : tab === 'history' ? '推荐记录' : '临床指标'}
                               </button>
                             ))}
+                          </div>
+
+                          {/* Action buttons in expanded area */}
+                          <div className="flex items-center gap-2 px-4 pt-3">
+                            <Button variant="ghost" size="sm" className="gap-1 text-xs cursor-pointer" onClick={(event) => { event.stopPropagation(); handleEdit(patient) }}>
+                              <Edit2 className="h-3.5 w-3.5" /> 编辑
+                            </Button>
+                            <Button variant="ghost" size="sm" className="gap-1 text-xs text-destructive cursor-pointer" onClick={(event) => { event.stopPropagation(); void handleDelete(patient.id) }}>
+                              <Trash2 className="h-3.5 w-3.5" /> 删除
+                            </Button>
                           </div>
 
                           {/* Tab content */}
