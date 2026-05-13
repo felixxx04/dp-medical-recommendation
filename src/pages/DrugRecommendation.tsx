@@ -854,62 +854,14 @@ export default function DrugRecommendation() {
                               <span style={{ display: 'inline-flex', alignItems: 'center' }}>
                                 {rec.drugName}
                                 <SafetyBadge level={rec.safetyType || 'safe'} />
-                                {rec.explanation?.evidenceLevel && (
-                                  <span style={{
-                                    display: 'inline-block',
-                                    marginLeft: '6px',
-                                    padding: '1px 6px',
-                                    borderRadius: '3px',
-                                    fontSize: '10px',
-                                    fontWeight: 600,
-                                    background: rec.explanation.evidenceLevel === 'on_label' ? '#052e16' : '#451a03',
-                                    color: rec.explanation.evidenceLevel === 'on_label' ? '#22c55e' : '#f59e0b',
-                                  }}>
-                                    {rec.explanation.evidenceLevel === 'on_label' ? '说明书内' : '超说明书'}
-                                  </span>
-                                )}
-                                {rec.reviewStatus && (
-                                  <span style={{
-                                    display: 'inline-block',
-                                    marginLeft: '6px',
-                                    padding: '1px 6px',
-                                    borderRadius: '3px',
-                                    fontSize: '10px',
-                                    fontWeight: 600,
-                                    background:
-                                      rec.reviewStatus === 'confirmed' ? '#052e16' :
-                                      rec.reviewStatus === 'modified' ? '#1e3a5f' :
-                                      rec.reviewStatus === 'rejected' ? '#450a0a' : '#1a1a2e',
-                                    color:
-                                      rec.reviewStatus === 'confirmed' ? '#22c55e' :
-                                      rec.reviewStatus === 'modified' ? '#60a5fa' :
-                                      rec.reviewStatus === 'rejected' ? '#f87171' : '#888',
-                                  }}>
-                                    {rec.reviewStatus === 'pending' ? '待审核' :
-                                     rec.reviewStatus === 'confirmed' ? '已确认' :
-                                     rec.reviewStatus === 'modified' ? '已修改' : '已拒绝'}
-                                  </span>
-                                )}
                               </span>
                             </h4>
                             {rec.englishName && (
                               <span className="text-xs text-muted-foreground font-mono">{rec.englishName}</span>
                             )}
-                            <span className={`ia-badge text-[10px] px-1.5 py-0.5 ${
-                              rec.mode === 'model'
-                                ? 'bg-brand-sky/10 text-brand-sky border-brand-sky/20'
-                                : 'bg-surface text-muted-foreground border-white/[0.06]'
-                            }`}>
-                              {rec.mode === 'model' ? '模型推理' : '演示模式'}
-                            </span>
                             {rec.requiresReview && (
                               <span className="ia-badge text-[10px] px-1.5 py-0.5 bg-ia-data-4/10 text-ia-data-4 border-ia-data-4/20">
                                 需审核
-                              </span>
-                            )}
-                            {rec.qualityWarning && (
-                              <span className="ia-badge text-[10px] px-1.5 py-0.5 bg-amber-100 text-amber-700 border-amber-200">
-                                {rec.qualityWarning}
                               </span>
                             )}
                             {rec.dpAnomaly && (
@@ -918,33 +870,9 @@ export default function DrugRecommendation() {
                               </span>
                             )}
                           </div>
-                          <div className="flex items-center gap-2">
-                            <span className="ia-badge ia-badge-primary">
-                              {rec.category}
-                            </span>
-                            {rec.matchedDisease && (
-                              <span className="ia-badge text-[10px] px-1.5 py-0.5 bg-brand-sky/10 text-brand-sky border-brand-sky/20">
-                                匹配疾病: {rec.matchedDisease}
-                              </span>
-                            )}
-                          </div>
-
-                          {/* Routing Path Explanation */}
-                          {rec.category && rec.matchedDisease && rec.matchedDisease !== '未知' && (
-                            <div style={{
-                              fontSize: '11px',
-                              color: '#888',
-                              marginTop: '6px',
-                              padding: '4px 8px',
-                              background: '#16213e',
-                              borderRadius: '4px',
-                              lineHeight: '1.5',
-                            }}>
-                              <span style={{ color: '#00d4aa' }}>推荐路径：</span>
-                              疾病匹配 → <span style={{ color: '#ffd93d' }}>{rec.matchedDisease}</span>
-                              {rec.category && <> → <span style={{ color: '#6c5ce7' }}>{rec.category}</span></>}
-                            </div>
-                          )}
+                          <span className="ia-badge ia-badge-primary">
+                            {rec.category}
+                          </span>
                         </div>
                         <div className="text-right">
                           <div className={`text-xl font-heading font-bold ${getConfidenceColor(rec.confidence)}`}>
@@ -958,68 +886,6 @@ export default function DrugRecommendation() {
                         <Target className="h-3.5 w-3.5" />
                         <span>{rec.dosage} · {rec.frequency}</span>
                       </div>
-
-                      {/* Safety: doctor-review-required indicator */}
-                      {rec.safetyType && rec.safetyType !== 'safe' && (
-                        <div style={{ color: '#f59e0b', fontSize: '11px', marginTop: '2px' }}>
-                          {'⚠ 需医生审核'}
-                        </div>
-                      )}
-
-                      {/* Score breakdown */}
-                      {dpEnabled && rec.rawScore !== undefined && (
-                        <div className="mt-2 text-ia-label text-muted-foreground flex items-center gap-1.5">
-                          <span>原始评分: {rec.rawScore.toFixed(3)}</span>
-                          {typeof rec.dpNoise === 'number' && (
-                            <>
-                              <span>→</span>
-                              <span>DP评分: {rec.score.toFixed(3)}</span>
-                              <span className={`text-[10px] ${rec.dpNoise >= 0 ? 'text-brand-sky' : 'text-ia-data-4'}`}>
-                                (噪声 {rec.dpNoise >= 0 ? '+' : ''}{rec.dpNoise.toFixed(3)})
-                              </span>
-                            </>
-                          )}
-                          {rec.dpConfidence && (
-                            <div className="mt-1 flex items-center gap-2">
-                              <span className="text-[10px] text-muted-foreground whitespace-nowrap">
-                                置信区间
-                              </span>
-                              <div className="relative h-2 w-24 bg-surface rounded-full overflow-hidden">
-                                <div
-                                  className="absolute h-full bg-brand-sky/40 rounded-full"
-                                  style={{
-                                    left: `${Math.max(0, rec.dpConfidence.low) * 100}%`,
-                                    width: `${(Math.min(1, rec.dpConfidence.high) - Math.max(0, rec.dpConfidence.low)) * 100}%`,
-                                  }}
-                                />
-                                <div
-                                  className="absolute h-full w-1 bg-gradient-to-br from-brand-sky to-sky-600 rounded"
-                                  style={{ left: `${rec.score * 100}%` }}
-                                />
-                              </div>
-                              <span className="text-[10px] text-muted-foreground">
-                                [{rec.dpConfidence.low.toFixed(2)}–{rec.dpConfidence.high.toFixed(2)}]
-                              </span>
-                            </div>
-                          )}
-                        </div>
-                      )}
-
-                      {/* DP anomaly warning */}
-                      {rec.dpAnomaly && (
-                        <div className="mt-2 flex items-center gap-1.5 text-ia-caption text-ia-data-4">
-                          <AlertTriangle className="h-3 w-3" />
-                          <span>DP噪声可能导致排序异常（原始评分极低）</span>
-                        </div>
-                      )}
-
-                      {/* Safety warnings */}
-                      {rec.warnings && rec.warnings.length > 0 && (
-                        <div className="mt-2 flex items-center gap-1.5 text-ia-caption text-secondary">
-                          <Info className="h-3 w-3" />
-                          <span>{rec.warnings.join('；')}</span>
-                        </div>
-                      )}
 
                       <div className="mt-3">
                         <div className="progress-bar">
