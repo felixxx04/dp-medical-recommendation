@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 梅毒
+推荐药物:
+1. Penicillin G (青霉素类抗生素) - 匹配疾病: 梅毒
+2. penicillin G benzathine and penicillin G procaine (天然青霉素类) - 匹配疾病: 梅毒
+3. penicillin G potassium (天然青霉素类) - 匹配疾病: 梅毒
+4. procaine penicillin (天然青霉素类) - 匹配疾病: 梅毒
+---
+疾病: 寄生虫感染
+推荐药物:
+1. Ivermectin (驱虫药) - 匹配疾病: 寄生虫感染
+2. Praziquantel (驱虫药) - 匹配疾病: 寄生虫感染
+3. Mebendazole (驱虫药) - 匹配疾病: 寄生虫感染
+4. Paromomycin (氨基糖苷类抗生素) - 匹配疾病: 寄生虫感染
+---
+疾病: 蛔虫
+推荐药物:
+1. Albendazole (驱虫药) - 匹配疾病: 蛔虫病
+2. Mebendazole (驱虫药) - 匹配疾病: 蛔虫病
+3. Nicardipine (二氢吡啶类钙通道阻滞剂) - 匹配疾病: None
+4. Nisoldipine (二氢吡啶类钙通道阻滞剂) - 匹配疾病: None
+---
+疾病: 湿疹
+推荐药物:
+1. Desonide (外用皮质类固醇) - 匹配疾病: 湿疹
+2. Desoximetasone (外用皮质类固醇) - 匹配疾病: 特应性皮炎
+3. Dexamethasone (皮质类固醇) - 匹配疾病: 特应性皮炎
+4. Doxepin (三环类抗抑郁药) - 匹配疾病: 特应性皮炎
+---
+疾病: 荨麻疹
+推荐药物:
+1. Cetirizine (抗组胺药) - 匹配疾病: 慢性荨麻疹
+2. Loratadine (抗组胺药) - 匹配疾病: 慢性特发性荨麻疹
+3. Diphenhydramine (抗组胺药) - 匹配疾病: 荨麻疹
+4. Cyproheptadine (抗组胺药) - 匹配疾病: 荨麻疹
+---
+疾病: 银屑病
+推荐药物:
+1. Betamethasone (皮质类固醇) - 匹配疾病: 银屑病
+2. Clobetasol (外用皮质类固醇) - 匹配疾病: 银屑病
+3. Fluocinolone (外用皮质类固醇) - 匹配疾病: 银屑病
+4. Halobetasol (外用皮质类固醇) - 匹配疾病: 银屑病
+---
+疾病: 牛皮癣
+推荐药物:
+1. Clobetasol (外用皮质类固醇) - 匹配疾病: 银屑病
+2. Fluocinolone (外用皮质类固醇) - 匹配疾病: 银屑病
+3. Pimecrolimus (钙调神经磷酸酶抑制剂) - 匹配疾病: 银屑病
+4. Tazarotene (维A酸类) - 匹配疾病: 银屑病
+---
+疾病: 痤疮
+推荐药物:
+1. Doxycycline (四环素类抗生素) - 匹配疾病: 痤疮
+2. Tazarotene (维A酸类) - 匹配疾病: 痤疮
+3. Tretinoin (维A酸类) - 匹配疾病: 痤疮
+4. Norgestimate-Ethinyl Estradiol (孕激素+雌激素) - 匹配疾病: 痤疮
+---
+疾病: 痘痘
+推荐药物:
+1. Erythromycin (大环内酯类抗生素) - 匹配疾病: 痤疮
+2. Spironolactone (醛固酮拮抗剂) - 匹配疾病: 痤疮
+3. Tretinoin (维A酸类) - 匹配疾病: 痤疮
+4. Norgestimate-Ethinyl Estradiol (孕激素+雌激素) - 匹配疾病: 痤疮
+---
+疾病: 皮疹
+推荐药物:
+1. Cetirizine (抗组胺药) - 匹配疾病: 特应性皮炎
+2. Desonide (外用皮质类固醇) - 匹配疾病: 脂溢性皮炎
+3. Desoximetasone (外用皮质类固醇) - 匹配疾病: 特应性皮炎
+4. Methylprednisolone (皮质类固醇) - 匹配疾病: 特应性皮炎

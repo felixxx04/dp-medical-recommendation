@@ -1,0 +1,13 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - img [ref=e8]
+    - generic [ref=e10]:
+      - heading "无权限访问" [level=3] [ref=e11]
+      - paragraph [ref=e12]: 该页面仅管理员可进入
+  - generic [ref=e13]:
+    - paragraph [ref=e14]: 请使用管理员账号登录后访问后台管理页面。
+    - link "返回首页" [ref=e15] [cursor=pointer]:
+      - /url: /
+      - button "返回首页" [ref=e16]:
+        - img [ref=e17]
+        - text: 返回首页

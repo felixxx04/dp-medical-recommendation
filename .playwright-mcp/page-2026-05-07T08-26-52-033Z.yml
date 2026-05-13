@@ -1,0 +1,251 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e17]
+    - text: Ctrl + J
+  - generic [ref=e20]:
+    - generic [ref=e73]:
+      - generic [ref=e75]:
+        - generic [ref=e76] [cursor=pointer]: Drug Regimen Appropriateness Evaluation
+        - generic [ref=e77]:
+          - img [ref=e79]
+          - generic [ref=e81]: 快速模式
+      - button [ref=e82] [cursor=pointer]:
+        - img [ref=e85]
+    - generic [ref=e88]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e93]: "For each disease below, evaluate whether the recommended drugs are medically appropriate for treating that disease. Answer with: APPROPRIATE / PARTIALLY / INAPPROPRIATE, and briefly explain why. 1. Disease: \"bacterial infection\" - Recommended: Amikacin, Cefotaxime, Echinacea, Loracarbef 2. Disease: \"intra-abdominal infection\" - Recommended: Amikacin, Cefotaxime, Echinacea, Loracarbef 3. Disease: \"neuropathic pain\" - Recommended: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen 4. Disease: \"cluster headache\" - Recommended: Cyclobenzaprine, Lisinopril, Diclofenac, Mefenamic Acid 5. Disease: \"primary dysmenorrhea\" - Recommended: Naproxen, Diclofenac, Mefenamic Acid, Etodolac 6. Disease: \"musculoskeletal pain\" - Recommended: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen 7. Disease: \"nausea and vomiting\" - Recommended: Metoclopramide, Lorazepam, Dexamethasone, Meclizine 8. Disease: \"edema associated with heart failure\" - Recommended: Amlodipine-Valsartan, Bumetanide, Benazepril, Captopril 9. Disease: \"constipation\" - Recommended: Lansoprazole, Magnesium Hydroxide, Rabeprazole, Omeprazole 10. Disease: \"skin and soft tissue infection\" - Recommended: Amikacin, Cefotaxime, Echinacea, Loracarbef 11. Disease: \"angina pectoris\" - Recommended: Metoprolol, Nicardipine, Perindopril, Pindolol 12. Disease: \"acne vulgaris\" - Recommended: Erythromycin, Spironolactone, Tazarotene, Oxytetracycline 13. Disease: \"type 2 diabetes mellitus\" - Recommended: Canagliflozin, Colesevelam, Empagliflozin, Glimepiride 14. Disease: \"ulcerative colitis\" - Recommended: Golimumab, Budesonide, Infliximab, Tofacitinib 15. Disease: \"psoriatic arthritis\" - Recommended: Golimumab, Apremilast, Leflunomide, Infliximab 16. Disease: \"non-hodgkin lymphoma\" - Recommended: Methotrexate, Doxorubicin, Cyclophosphamide, Pembrolizumab 17. Disease: \"allergic conjunctivitis\" - Recommended: Cetirizine, Olopatadine, Levocabastine, Lodoxamide 18. Disease: \"pain\" - Recommended: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen"
+          - generic [ref=e96]:
+            - button [ref=e97] [cursor=pointer]:
+              - img [ref=e100]
+            - button [ref=e102] [cursor=pointer]:
+              - img [ref=e105]
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - paragraph [ref=e110]:
+              - text: Below is the evaluation for each disease–drug combination based on current medical guidelines (as of 2026). The answer is
+              - strong [ref=e111]: APPROPRIATE
+              - text: ","
+              - strong [ref=e112]: PARTIALLY
+              - text: ", or"
+              - strong [ref=e113]: INAPPROPRIATE
+              - text: ", with a brief explanation."
+            - separator [ref=e114]
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - paragraph [ref=e117]:
+                  - strong [ref=e118]: "Disease:"
+                  - text: bacterial infection –
+                  - strong [ref=e119]: "Recommended:"
+                  - text: Amikacin, Cefotaxime, Echinacea, Loracarbef
+                  - strong [ref=e120]: "Answer:"
+                  - strong [ref=e121]: INAPPROPRIATE
+                  - emphasis [ref=e122]: "Explanation: Echinacea is an herbal supplement with no proven antibacterial effect; it is not a recommended treatment for bacterial infections. The other three are appropriate antibiotics, but the inclusion of an ineffective non-drug makes the overall regimen inappropriate."
+              - listitem [ref=e123]:
+                - paragraph [ref=e124]:
+                  - strong [ref=e125]: "Disease:"
+                  - text: intra-abdominal infection –
+                  - strong [ref=e126]: "Recommended:"
+                  - text: Amikacin, Cefotaxime, Echinacea, Loracarbef
+                  - strong [ref=e127]: "Answer:"
+                  - strong [ref=e128]: INAPPROPRIATE
+                  - text: "*Explanation: Same as #1; Echinacea is not appropriate for bacterial infections. Amikacin + cefotaxime could be used in severe infections but loracarbef is rarely used for intra-abdominal infections; however, the main issue is Echinacea.*"
+              - listitem [ref=e129]:
+                - paragraph [ref=e130]:
+                  - strong [ref=e131]: "Disease:"
+                  - text: neuropathic pain –
+                  - strong [ref=e132]: "Recommended:"
+                  - text: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen
+                  - strong [ref=e133]: "Answer:"
+                  - strong [ref=e134]: INAPPROPRIATE
+                  - emphasis [ref=e166]: "Explanation: All four are NSAIDs, which are not first-line for neuropathic pain; neuropathic pain typically requires gabapentinoids, TCAs, or SNRIs. NSAIDs are generally ineffective for pure neuropathic pain."
+              - listitem [ref=e167]:
+                - paragraph [ref=e168]:
+                  - strong [ref=e169]: "Disease:"
+                  - text: cluster headache –
+                  - strong [ref=e170]: "Recommended:"
+                  - text: Cyclobenzaprine, Lisinopril, Diclofenac, Mefenamic Acid
+                  - strong [ref=e171]: "Answer:"
+                  - strong [ref=e172]: INAPPROPRIATE
+                  - emphasis [ref=e173]: "Explanation: None of these are standard acute or preventive treatments for cluster headache (acute: oxygen, triptans; preventive: verapamil, lithium). Cyclobenzaprine is a muscle relaxant, lisinopril is for hypertension, and the NSAIDs are not effective for cluster headache."
+              - listitem [ref=e174]:
+                - paragraph [ref=e175]:
+                  - strong [ref=e176]: "Disease:"
+                  - text: primary dysmenorrhea –
+                  - strong [ref=e177]: "Recommended:"
+                  - text: Naproxen, Diclofenac, Mefenamic Acid, Etodolac
+                  - strong [ref=e178]: "Answer:"
+                  - strong [ref=e179]: APPROPRIATE
+                  - emphasis [ref=e180]: "Explanation: All four are NSAIDs, and NSAIDs (especially naproxen, mefenamic acid) are first-line treatment for primary dysmenorrhea."
+              - listitem [ref=e181]:
+                - paragraph [ref=e182]:
+                  - strong [ref=e183]: "Disease:"
+                  - text: musculoskeletal pain –
+                  - strong [ref=e184]: "Recommended:"
+                  - text: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen
+                  - strong [ref=e185]: "Answer:"
+                  - strong [ref=e186]: APPROPRIATE
+                  - emphasis [ref=e187]: "Explanation: All are NSAIDs, which are appropriate for acute or chronic musculoskeletal pain."
+              - listitem [ref=e188]:
+                - paragraph [ref=e189]:
+                  - strong [ref=e190]: "Disease:"
+                  - text: nausea and vomiting –
+                  - strong [ref=e191]: "Recommended:"
+                  - text: Metoclopramide, Lorazepam, Dexamethasone, Meclizine
+                  - strong [ref=e192]: "Answer:"
+                  - strong [ref=e193]: PARTIALLY
+                  - emphasis [ref=e194]: "Explanation: Metoclopramide (prokinetic/antiemetic), dexamethasone (for chemotherapy/ post-op nausea), and meclizine (motion sickness) are antiemetics. Lorazepam is used for anticipatory nausea/vomiting but not first-line for most causes. Overall, they cover different etiologies but are all reasonable in specific contexts."
+              - listitem [ref=e195]:
+                - paragraph [ref=e196]:
+                  - strong [ref=e197]: "Disease:"
+                  - text: edema associated with heart failure –
+                  - strong [ref=e198]: "Recommended:"
+                  - text: Amlodipine-Valsartan, Bumetanide, Benazepril, Captopril
+                  - strong [ref=e199]: "Answer:"
+                  - strong [ref=e200]: PARTIALLY
+                  - emphasis [ref=e201]: "Explanation: Bumetanide (loop diuretic) directly treats edema. Benazepril, captopril (ACE inhibitors), and valsartan (ARB) treat HF but are not primarily for edema. Amlodipine is a CCB not recommended for HF with reduced EF; it may worsen edema. So the regimen is mixed—some appropriate, some inappropriate."
+              - listitem [ref=e202]:
+                - paragraph [ref=e203]:
+                  - strong [ref=e204]: "Disease:"
+                  - text: constipation –
+                  - strong [ref=e205]: "Recommended:"
+                  - text: Lansoprazole, Magnesium Hydroxide, Rabeprazole, Omeprazole
+                  - strong [ref=e206]: "Answer:"
+                  - strong [ref=e207]: INAPPROPRIATE
+                  - emphasis [ref=e208]: "Explanation: Only magnesium hydroxide is an osmotic laxative. Lansoprazole, rabeprazole, omeprazole are PPIs for acid reflux—they do not treat constipation and may even worsen it."
+              - listitem [ref=e209]:
+                - paragraph [ref=e210]:
+                  - strong [ref=e211]: "Disease:"
+                  - text: skin and soft tissue infection –
+                  - strong [ref=e212]: "Recommended:"
+                  - text: Amikacin, Cefotaxime, Echinacea, Loracarbef
+                  - strong [ref=e213]: "Answer:"
+                  - strong [ref=e214]: INAPPROPRIATE
+                  - emphasis [ref=e215]: "Explanation: Again, Echinacea is inappropriate. Amikacin and cefotaxime are broad-spectrum but not typical first-line for uncomplicated SSTI (more for severe hospital infections). Loracarbef is outdated. The presence of Echinacea makes it clearly inappropriate."
+              - listitem [ref=e216]:
+                - paragraph [ref=e217]:
+                  - strong [ref=e218]: "Disease:"
+                  - text: angina pectoris –
+                  - strong [ref=e219]: "Recommended:"
+                  - text: Metoprolol, Nicardipine, Perindopril, Pindolol
+                  - strong [ref=e220]: "Answer:"
+                  - strong [ref=e221]: PARTIALLY
+                  - emphasis [ref=e222]: "Explanation: Metoprolol (beta-blocker) is appropriate. Perindopril (ACE inhibitor) is beneficial post-MI or with hypertension but not primarily antianginal. Nicardipine (dihydropyridine CCB) may be used but can cause reflex tachycardia. Pindolol has intrinsic sympathomimetic activity and is not preferred for angina. So not all are fully appropriate."
+              - listitem [ref=e223]:
+                - paragraph [ref=e224]:
+                  - strong [ref=e225]: "Disease:"
+                  - text: acne vulgaris –
+                  - strong [ref=e226]: "Recommended:"
+                  - text: Erythromycin, Spironolactone, Tazarotene, Oxytetracycline
+                  - strong [ref=e227]: "Answer:"
+                  - strong [ref=e228]: APPROPRIATE
+                  - emphasis [ref=e229]: "Explanation: Erythromycin (topical or oral antibiotic), spironolactone (for hormonal acne in females), tazarotene (topical retinoid), oxytetracycline (oral tetracycline). All are recognized acne treatments, though some are not first-line today due to resistance."
+              - listitem [ref=e230]:
+                - paragraph [ref=e231]:
+                  - strong [ref=e232]: "Disease:"
+                  - text: type 2 diabetes mellitus –
+                  - strong [ref=e233]: "Recommended:"
+                  - text: Canagliflozin, Colesevelam, Empagliflozin, Glimepiride
+                  - strong [ref=e234]: "Answer:"
+                  - strong [ref=e235]: APPROPRIATE
+                  - text: "*Explanation: Canagliflozin and empagliflozin (SGLT2 inhibitors) are appropriate; glimepiride (sulfonylurea) is appropriate; colesevelam (bile acid sequestrant) is FDA-approved for type 2 diabetes (lowers glucose modestly). All are valid, though colesevelam is less common.*"
+              - listitem [ref=e236]:
+                - paragraph [ref=e237]:
+                  - strong [ref=e238]: "Disease:"
+                  - text: ulcerative colitis –
+                  - strong [ref=e239]: "Recommended:"
+                  - text: Golimumab, Budesonide, Infliximab, Tofacitinib
+                  - strong [ref=e240]: "Answer:"
+                  - strong [ref=e241]: APPROPRIATE
+                  - emphasis [ref=e242]: "Explanation: Golimumab (anti-TNF), infliximab (anti-TNF), budesonide (topical corticosteroid), tofacitinib (JAK inhibitor). All are approved for moderate-to-severe UC."
+              - listitem [ref=e243]:
+                - paragraph [ref=e244]:
+                  - strong [ref=e245]: "Disease:"
+                  - text: psoriatic arthritis –
+                  - strong [ref=e246]: "Recommended:"
+                  - text: Golimumab, Apremilast, Leflunomide, Infliximab
+                  - strong [ref=e247]: "Answer:"
+                  - strong [ref=e248]: APPROPRIATE
+                  - text: "*Explanation: Golimumab and infliximab (anti-TNF), apremilast (PDE4 inhibitor), leflunomide (DMARD) are all established treatments for psoriatic arthritis.*"
+              - listitem [ref=e249]:
+                - paragraph [ref=e250]:
+                  - strong [ref=e251]: "Disease:"
+                  - text: non-hodgkin lymphoma –
+                  - strong [ref=e252]: "Recommended:"
+                  - text: Methotrexate, Doxorubicin, Cyclophosphamide, Pembrolizumab
+                  - strong [ref=e253]: "Answer:"
+                  - strong [ref=e254]: PARTIALLY
+                  - text: "*Explanation: Doxorubicin and cyclophosphamide are part of CHOP regimen, appropriate. Methotrexate is used in some subtypes (CNS lymphoma, etc.) but not all. Pembrolizumab (anti-PD-1) is not first-line for most NHL except specific subtypes (e.g., PMBCL, some T-cell lymphomas). So partially appropriate but not universally.*"
+              - listitem [ref=e255]:
+                - paragraph [ref=e256]:
+                  - strong [ref=e257]: "Disease:"
+                  - text: allergic conjunctivitis –
+                  - strong [ref=e258]: "Recommended:"
+                  - text: Cetirizine, Olopatadine, Levocabastine, Lodoxamide
+                  - strong [ref=e259]: "Answer:"
+                  - strong [ref=e260]: APPROPRIATE
+                  - emphasis [ref=e261]: "Explanation: Cetirizine (oral antihistamine), olopatadine and levocabastine (topical antihistamines/mast cell stabilizers), lodoxamide (mast cell stabilizer). All are used for allergic conjunctivitis."
+              - listitem [ref=e262]:
+                - paragraph [ref=e263]:
+                  - strong [ref=e264]: "Disease:"
+                  - text: pain –
+                  - strong [ref=e265]: "Recommended:"
+                  - text: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen
+                  - strong [ref=e266]: "Answer:"
+                  - strong [ref=e267]: APPROPRIATE
+                  - emphasis [ref=e268]: "Explanation: All four are NSAIDs, appropriate for mild-to-moderate acute or chronic pain (inflammatory or nociceptive). Not for severe or neuropathic pain, but the diagnosis “pain” is broad and NSAIDs are reasonable first-line."
+            - separator [ref=e269]
+            - paragraph [ref=e270]:
+              - strong [ref=e271]: "Final answers:"
+              - text: 1 INAPPROPRIATE
+              - text: 2 INAPPROPRIATE
+              - text: 3 INAPPROPRIATE
+              - text: 4 INAPPROPRIATE
+              - text: 5 APPROPRIATE
+              - text: 6 APPROPRIATE
+              - text: 7 PARTIALLY
+              - text: 8 PARTIALLY
+              - text: 9 INAPPROPRIATE
+              - text: 10 INAPPROPRIATE
+              - text: 11 PARTIALLY
+              - text: 12 APPROPRIATE
+              - text: 13 APPROPRIATE
+              - text: 14 APPROPRIATE
+              - text: 15 APPROPRIATE
+              - text: 16 PARTIALLY
+              - text: 17 APPROPRIATE
+              - text: 18 APPROPRIATE
+          - generic [ref=e273]:
+            - button [ref=e274] [cursor=pointer]:
+              - img [ref=e277]
+            - button [ref=e279] [cursor=pointer]:
+              - img [ref=e282]
+            - button [ref=e284] [cursor=pointer]:
+              - img [ref=e287]
+            - button [ref=e289] [cursor=pointer]:
+              - img [ref=e292]
+            - button [ref=e294] [cursor=pointer]:
+              - img [ref=e297]
+      - generic [ref=e135]:
+        - generic [ref=e138]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e140]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e141]:
+            - button "深度思考" [ref=e142] [cursor=pointer]:
+              - img [ref=e144]
+              - generic [ref=e147]: 深度思考
+            - button "智能搜索" [pressed] [ref=e148] [cursor=pointer]:
+              - img [ref=e150]
+              - generic [ref=e152]: 智能搜索
+            - generic [ref=e153]:
+              - button [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+              - button [disabled] [ref=e160] [cursor=pointer]:
+                - img [ref=e299]
+        - generic [ref=e165]: 内容由 AI 生成，请仔细甄别

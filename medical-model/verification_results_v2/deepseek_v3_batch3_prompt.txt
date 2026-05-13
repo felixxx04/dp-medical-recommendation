@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 2型糖尿病
+推荐药物:
+1. Empagliflozin (SGLT2抑制剂) - 匹配疾病: 糖尿病
+2. Glimepiride (磺酰脲类) - 匹配疾病: 糖尿病
+3. tirzepatide (mown-JAHR-OH) (肠促胰岛素模拟物) - 匹配疾病: 2型糖尿病
+4. lixisenatide (肠促胰岛素模拟物) - 匹配疾病: 2型糖尿病
+---
+疾病: 1型糖尿病
+推荐药物:
+1. Colesevelam (胆酸螯合剂) - 匹配疾病: 2 型糖尿病（作为辅助）
+2. Empagliflozin (SGLT2抑制剂) - 匹配疾病: 糖尿病
+3. insulin (inhalation) (胰岛素) - 匹配疾病: 1型糖尿病
+4. teplizumab-mzwv () - 匹配疾病: 临床 1 型糖尿病的延迟发病
+---
+疾病: 甲状腺功能减退
+推荐药物:
+1. Liotrix (甲状腺激素) - 匹配疾病: 甲状腺功能减退
+2. Levothyroxine (甲状腺激素) - 匹配疾病: 甲状腺功能减退
+3. Liothyronine (甲状腺激素) - 匹配疾病: 甲状腺功能减退
+4. levothyroxine sodium (甲状腺药物) - 匹配疾病: 甲状腺功能减退
+---
+疾病: 甲减
+推荐药物:
+1. Liotrix (甲状腺激素) - 匹配疾病: 甲状腺功能减退
+2. Levothyroxine (甲状腺激素) - 匹配疾病: 甲状腺功能减退
+3. Liothyronine (甲状腺激素) - 匹配疾病: 甲状腺功能减退
+4. levothyroxine (oral/injection) (甲状腺药物) - 匹配疾病: 甲状腺功能减退
+---
+疾病: 甲状腺功能亢进
+推荐药物:
+1. Doxercalciferol (维生素D类似物) - 匹配疾病: 甲状腺功能亢进
+2. Propylthiouracil (抗甲状腺药) - 匹配疾病: 甲状腺功能亢进
+3. Cinacalcet (拟钙剂) - 匹配疾病: 甲状腺功能亢进
+4. Methimazole (抗甲状腺药) - 匹配疾病: 甲状腺功能亢进
+---
+疾病: 甲亢
+推荐药物:
+1. Cinacalcet (拟钙剂) - 匹配疾病: 甲状腺功能亢进
+2. Doxercalciferol (维生素D类似物) - 匹配疾病: 甲状腺功能亢进
+3. Methimazole (抗甲状腺药) - 匹配疾病: 甲状腺功能亢进
+4. Propylthiouracil (抗甲状腺药) - 匹配疾病: 甲状腺功能亢进
+---
+疾病: 甲状腺肿
+推荐药物:
+1. levothyroxine (oral/injection) (甲状腺药物) - 匹配疾病: 甲状腺肿
+2. levothyroxine (oral route) (甲状腺药物) - 匹配疾病: 甲状腺肿
+3. thyroid (desiccated) (甲状腺药物) - 匹配疾病: 甲状腺肿
+4. Cinacalcet (拟钙剂) - 匹配疾病: 甲状腺功能亢进
+---
+疾病: 肥胖
+推荐药物:
+1. Pramlintide (胰淀素类似物) - 匹配疾病: 肥胖
+2. tirzepatide (肠促胰岛素模拟物) - 匹配疾病: 肥胖
+3. phendimetrazine tartrate (食欲抑制剂, 中枢兴奋药) - 匹配疾病: 肥胖
+4. bupropion and naltrexone (食欲抑制剂) - 匹配疾病: 肥胖
+---
+疾病: 代谢综合征
+推荐药物:
+1. Canagliflozin (SGLT2抑制剂) - 匹配疾病: 糖尿病
+2. Amlodipine-Benazepril (钙通道阻滞剂+ACE抑制剂) - 匹配疾病: 高血压
+3. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 高血压
+4. Bumetanide (袢利尿剂) - 匹配疾病: 高血压
+---
+疾病: 哮喘
+推荐药物:
+1. Epinephrine (α/β受体激动剂) - 匹配疾病: 哮喘
+2. Prednisone (皮质类固醇) - 匹配疾病: 哮喘
+3. Methylprednisolone (皮质类固醇) - 匹配疾病: 哮喘
+4. Mometasone (外用/吸入皮质类固醇) - 匹配疾病: 哮喘

@@ -1,0 +1,19 @@
+请以临床药学专家的身份，评估以下13种疾病的用药推荐是否恰当。对每种疾病，根据推荐药物列表给出APPROPRIATE（恰当）、PARTIALLY（部分恰当）或INAPPROPRIATE（不恰当）评级，并简要说明理由。
+
+请用JSON格式输出结果，格式为：
+[{"disease":"疾病名","rating":"评级","reason":"理由"},...]
+
+疾病与推荐药物：
+1. 阿尔茨海默病: Rivastigmine(卡巴拉汀), galantamine(加兰他敏), Donepezil(多奈哌齐), vitamin e(维生素E)
+2. 多动症: Clonidine(可乐定), Selegiline(司来吉兰), Guanfacine(胍法辛), Desipramine(地昔帕明)
+3. 更年期综合征: Medroxyprogesterone(甲羟孕酮), Estradiol(雌二醇), Progesterone(黄体酮), Conjugated Estrogens(结合雌激素)
+4. 戒烟: Bupropion(安非他酮), Varenicline(伐尼克兰), bupropion oral, bupropion hydrochloride
+5. 胆囊炎: Hyoscyamine(天仙子胺), Cimetidine(西咪替丁), Famotidine(法莫替丁), Magaldrate(玛加尔德)
+6. 胆结石: Hyoscyamine(天仙子胺), Cimetidine(西咪替丁), Famotidine(法莫替丁), Magaldrate(玛加尔德)
+7. 肺癌: Methotrexate(甲氨蝶呤), Gemcitabine(吉西他滨), Paclitaxel(紫杉醇), Pembrolizumab(派姆单抗)
+8. 前列腺癌: Goserelin(戈舍瑞林), Leuprolide(亮丙瑞林), Triptorelin(曲普瑞林), Flutamide(氟他胺)
+9. 肾结石: Hydrochlorothiazide(氢氯噻嗪), Chlorthalidone(氯噻酮), Allopurinol(别嘌呤醇), trisodium citrate(柠檬酸三钠)
+10. 低血压: Norepinephrine(去甲肾上腺素), Midodrine(米多君), Fludrocortisone(氟氢可的松), Amlodipine-Benazepril(氨氯地平-贝那普利)
+11. 疱疹: Valacyclovir(伐昔洛韦), Acyclovir(阿昔洛韦), acyclovir oral, acyclovir topical
+12. 带状疱疹: Valacyclovir(伐昔洛韦), Desipramine(地昔帕明), acyclovir oral, Acyclovir(阿昔洛韦)
+13. 肠炎: Ciprofloxacin(环丙沙星), Metronidazole(甲硝唑), Ganciclovir(更昔洛韦), guselkumab(古塞奇尤单抗)

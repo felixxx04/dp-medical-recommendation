@@ -1,0 +1,421 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e849] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e850]: 新对话
+          - button [ref=e851]:
+            - img [ref=e855]
+        - link "药物禁忌症列表生成" [ref=e250] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e133]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e98]: 药物适应症列表生成
+      - generic [ref=e99]:
+        - generic [ref=e100]: 昨天
+        - link "药学知识专家验证药物适应症" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e102]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e104]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e106]: 药物适应症补充任务
+      - generic [ref=e107]:
+        - generic [ref=e108]: 7 天内
+        - link "药物适应症补充任务" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e110]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e112]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e114]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e116]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e118]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e120]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e122]
+      - generic [ref=e125]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e859]:
+      - generic [ref=e861]:
+        - generic [ref=e862] [cursor=pointer]: 新对话
+        - generic [ref=e863]:
+          - img [ref=e865]
+          - generic [ref=e867]: 专家模式
+      - button [ref=e868] [cursor=pointer]:
+        - img [ref=e871]
+    - generic [ref=e874]:
+      - generic [ref=e876]:
+        - generic [ref=e877]:
+          - generic [ref=e879]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: isotretinoin (oral) | 类别: Miscellaneous antineoplastics, Miscellaneous uncategorized agents | 适应症: severe nodular acne|acne vulgaris|rosacea|hidradenitis suppurativa|neuroblastoma | 妊娠分级: X clindamycin topical | 类别: Topical acne agents, Vaginal anti-infectives | 适应症: acne vulgaris|bacterial vaginosis | 妊娠分级: B tretinoin topical | 类别: Topical acne agents | 适应症: acne vulgaris|photoaging|keratosis pilaris|acne scarring|melasma | 妊娠分级: C sulfamethoxazole and trimethoprim | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis|acute otitis media|acute exacerbation of chronic bronchitis | 妊娠分级: D Retin-A | 类别: Topical acne agents | 适应症: acne vulgaris|photoaging|acne scarring|melasma | 妊娠分级: C dapsone topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C benzoyl peroxide topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C adapalene topical | 类别: Topical acne agents | 适应症: acne vulgaris|keratosis pilaris | 妊娠分级: C adapalene and benzoyl peroxide (topical) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C doxycycline (oral route) | 类别: Miscellaneous antimalarials, Tetracyclines | 适应症: acne vulgaris|rosacea|lyme disease|chlamydia infection|malaria prophylaxis|community-acquired pneumonia|periodontitis|rickettsial infection | 妊娠分级: D sulfamethoxazole and trimethoprim (oral) | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis | 妊娠分级: D tazarotene topical | 类别: Topical acne agents, Topical antipsoriatics | 适应症: plaque psoriasis|acne vulgaris|photoaging | 妊娠分级: X Doxycycline Tablets and Capsules | 类别: Tetracyclines | 适应症: acne vulgaris|rosacea|lyme disease|chlamydia infection|malaria prophylaxis|periodontitis|rickettsial infection|community-acquired pneumonia | 妊娠分级: D benzoyl peroxide and clindamycin topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C Doxycycline Injection | 类别: Miscellaneous antimalarials, Tetracyclines | 适应症: severe bacterial infection|rickettsial infection|malaria|inhalational anthrax | 妊娠分级: D sulfamethoxazole and trimethoprim (oral/injection) | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|nocardiosis|toxoplasmosis | 妊娠分级: D sulfamethoxazole and trimethoprim (oral route) | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis | 妊娠分级: D erythromycin topical | 类别: Topical acne agents, Topical antibiotics | 适应症: acne vulgaris | 妊娠分级: B clindamycin (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: B minocycline (oral route) | 类别: Tetracyclines | 适应症: rosacea|rheumatoid arthritis|acne vulgaris|skin and soft tissue infection | 妊娠分级: D drospirenone and ethinyl estradiol | 类别: Contraceptives | 适应症: contraception|acne vulgaris|premenstrual dysphoric disorder | 妊娠分级: X clindamycin and tretinoin (topical) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C azelaic acid topical | 类别: Topical acne agents, Topical anti-rosacea agents | 适应症: acne vulgaris|rosacea | 妊娠分级: B Bactrim | 类别: | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis | 妊娠分级: D salicylic acid topical | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris|psoriasis|warts|corns and calluses|seborrheic dermatitis|dandruff | 妊娠分级: C ISOtretinoin (systemic) | 类别: Miscellaneous uncategorized agents | 适应症: severe nodular acne|acne vulgaris|rosacea|hidradenitis suppurativa|neuroblastoma | 妊娠分级: X tetracycline hydrochloride | 类别: Tetracyclines | 适应症: rosacea|chlamydia infection|lyme disease|acne vulgaris|helicobacter pylori eradication | 妊娠分级: D Benzoyl Peroxide Cream | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C salicylic acid (topical route) | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris|psoriasis|warts|corns and calluses|seborrheic dermatitis|dandruff | 妊娠分级: C minocycline topical | 类别: | 适应症: acne vulgaris|rosacea | 妊娠分级: D benzoyl peroxide and erythromycin topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C Benzoyl Peroxide/Sulfur Gel | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C drospirenone, ethinyl estradiol, and levomefolate | 类别: Contraceptives | 适应症: contraception|acne vulgaris|premenstrual dysphoric disorder|folate supplementation | 妊娠分级: X minocycline (topical application route) | 类别: | 适应症: acne vulgaris|rosacea | 妊娠分级: D ethinyl estradiol and norgestimate | 类别: Contraceptives | 适应症: contraception|acne vulgaris | 妊娠分级: X minocycline (mucous membrane powder) | 类别: Mouth and throat products | 适应症: chronic periodontitis | 妊娠分级: D Benzoyl Peroxide Wash and Cleanser | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C sarecycline | 类别: Tetracyclines | 适应症: acne vulgaris | 妊娠分级: N sulfacetamide sodium and sulfur topical | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C ethinyl estradiol and norgestimate (oral route) | 类别: Contraceptives | 适应症: contraception|acne vulgaris | 妊娠分级: X benzoyl peroxide (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C resorcinol and sulfur (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N trifarotene | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N erythromycin and benzoyl peroxide | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C retapamulin topical | 类别: Topical antibiotics | 适应症: impetigo|secondarily infected skin lesions | 妊娠分级: B Sulfur and Sulfacetamide Cream and Gel | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C sulfacetamide sodium, sulfur | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C Sulfur and Sulfacetamide Foam | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C Sulfur and Sulfacetamide Cleanser, Emulsion, and Wash | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C erythromycin and benzoyl peroxide (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e882]:
+            - button [ref=e883] [cursor=pointer]:
+              - img [ref=e886]
+            - button [ref=e888] [cursor=pointer]:
+              - img [ref=e891]
+        - generic [ref=e894]:
+          - generic [ref=e895]:
+            - generic [ref=e897] [cursor=pointer]:
+              - img [ref=e899]
+              - generic [ref=e902]: 已思考（用时 37 秒）
+              - img [ref=e904]
+            - generic [ref=e910]:
+              - paragraph [ref=e911]: 我们被要求为每个药物生成禁忌症列表。输入是一个药物列表，要求输出JSON。需要合并相同药物（如isotretinoin、Isotretinoin、ISOtretinoin (systemic)等），但输出中必须使用generic_name。我们可以识别重复：isotretinoin (oral)和ISOtretinoin (systemic) 都是异维A酸，可合并为Isotretinoin。clindamycin topical和clindamycin (topical route)相同。tretinoin topical和Retin-A（维A酸）相同，Retin-A是商品名，generic name是tretinoin。sulfamethoxazole and trimethoprim多次出现，包括Bactrim，可合并为sulfamethoxazole/trimethoprim。dapsone topical。benzoyl peroxide topical和Benzoyl Peroxide Cream、Benzoyl Peroxide Wash and Cleanser、benzoyl peroxide (topical route)合并为benzoyl peroxide。adapalene topical。adapalene and benzoyl peroxide (topical)是组合。doxycycline口服出现多次（Doxycycline Tablets and Capsules，doxycycline (oral route)）和Doxycycline Injection不同，但都算doxycycline，但注射剂可能有不同禁忌，但我们可以合并为doxycycline（口服和注射）。sulfamethoxazole and trimethoprim (oral), (oral/injection), (oral route), Bactrim。tazarotene topical。clindamycin and tretinoin (topical) 组合。azelaic acid topical。salicylic acid topical和salicylic acid (topical route)。minocycline oral和 minocycline topical、minocycline (mucous membrane powder) 不同剂型，可以分别处理：minocycline (oral), minocycline (topical), minocycline (mucous membrane powder)。但题目中minocycline topical、minocycline (topical application route)相同，minocycline (mucous membrane powder)用于牙周炎。需要区分。drospirenone and ethinyl estradiol，drospirenone, ethinyl estradiol, and levomefolate，ethinyl estradiol and norgestimate，这些是复方口服避孕药，有不同成分。sarecycline，trifarotene，retapamulin，resorcinol and sulfur，sulfacetamide sodium and sulfur，erythromycin topical，erythromycin and benzoyl peroxide，benzoyl peroxide and clindamycin，Sulfur and Sulfacetamide 等等。
+              - paragraph [ref=e943]: 需要整合：对于每个唯一的通用名（或组合），生成禁忌症列表。
+              - paragraph [ref=e944]: 我将创建如下药物实体：
+              - list [ref=e945]:
+                - listitem [ref=e946]:
+                  - paragraph [ref=e947]: "isotretinoin (oral/systemic) -> generic: Isotretinoin"
+                - listitem [ref=e948]:
+                  - paragraph [ref=e949]: "clindamycin topical -> generic: Clindamycin (topical)"
+                - listitem [ref=e950]:
+                  - paragraph [ref=e951]: "tretinoin topical -> generic: Tretinoin (topical)"
+                - listitem [ref=e952]:
+                  - paragraph [ref=e953]: "sulfamethoxazole/trimethoprim (all routes) -> generic: Sulfamethoxazole and Trimethoprim"
+                - listitem [ref=e954]:
+                  - paragraph [ref=e955]: "dapsone topical -> generic: Dapsone (topical)"
+                - listitem [ref=e956]:
+                  - paragraph [ref=e957]: "benzoyl peroxide topical -> generic: Benzoyl Peroxide (topical)"
+                - listitem [ref=e958]:
+                  - paragraph [ref=e959]: "adapalene topical -> generic: Adapalene (topical)"
+                - listitem [ref=e960]:
+                  - paragraph [ref=e961]: "adapalene/benzoyl peroxide topical -> generic: Adapalene and Benzoyl Peroxide (topical)"
+                - listitem [ref=e962]:
+                  - paragraph [ref=e963]: "doxycycline (oral/injection) -> generic: Doxycycline"
+                - listitem [ref=e964]:
+                  - paragraph [ref=e965]: "tazarotene topical -> generic: Tazarotene (topical)"
+                - listitem [ref=e966]:
+                  - paragraph [ref=e967]: "benzoyl peroxide/clindamycin topical -> generic: Benzoyl Peroxide and Clindamycin (topical)"
+                - listitem [ref=e968]:
+                  - paragraph [ref=e969]: "erythromycin topical -> generic: Erythromycin (topical)"
+                - listitem [ref=e970]:
+                  - paragraph [ref=e971]: "clindamycin/tretinoin topical -> generic: Clindamycin and Tretinoin (topical)"
+                - listitem [ref=e972]:
+                  - paragraph [ref=e973]: "azelaic acid topical -> generic: Azelaic Acid (topical)"
+                - listitem [ref=e974]:
+                  - paragraph [ref=e975]: "salicylic acid topical -> generic: Salicylic Acid (topical)"
+                - listitem [ref=e976]:
+                  - paragraph [ref=e977]: "minocycline oral -> generic: Minocycline (oral)"
+                - listitem [ref=e978]:
+                  - paragraph [ref=e979]: "minocycline topical -> generic: Minocycline (topical)"
+                - listitem [ref=e980]:
+                  - paragraph [ref=e981]: "minocycline mucosal powder -> generic: Minocycline (periodontal)"
+                - listitem [ref=e982]:
+                  - paragraph [ref=e983]: "drospirenone/ethinyl estradiol -> generic: Drospirenone and Ethinyl Estradiol"
+                - listitem [ref=e984]:
+                  - paragraph [ref=e985]: "drospirenone/ethinyl estradiol/levomefolate -> generic: Drospirenone, Ethinyl Estradiol, and Levomefolate"
+                - listitem [ref=e986]:
+                  - paragraph [ref=e987]: "ethinyl estradiol/norgestimate -> generic: Ethinyl Estradiol and Norgestimate"
+                - listitem [ref=e988]:
+                  - paragraph [ref=e989]: "tetracycline hydrochloride -> generic: Tetracycline"
+                - listitem [ref=e990]:
+                  - paragraph [ref=e991]: "sarecycline -> generic: Sarecycline"
+                - listitem [ref=e992]:
+                  - paragraph [ref=e993]: "sulfacetamide sodium/sulfur topical -> generic: Sulfacetamide Sodium and Sulfur (topical)"
+                - listitem [ref=e994]:
+                  - paragraph [ref=e995]: "erythromycin/benzoyl peroxide topical -> generic: Erythromycin and Benzoyl Peroxide (topical)"
+                - listitem [ref=e996]:
+                  - paragraph [ref=e997]: "resorcinol/sulfur topical -> generic: Resorcinol and Sulfur (topical)"
+                - listitem [ref=e998]:
+                  - paragraph [ref=e999]: "trifarotene -> generic: Trifarotene (topical)"
+                - listitem [ref=e1000]:
+                  - paragraph [ref=e1001]: "retapamulin topical -> generic: Retapamulin (topical)"
+                - listitem [ref=e1002]:
+                  - paragraph [ref=e1003]: "benzoyl peroxide/sulfur gel -> generic: Benzoyl Peroxide and Sulfur (topical) ？这里有 Benzoyl Peroxide/Sulfur Gel，可能是一个组合。提供contraindications。"
+              - paragraph [ref=e1004]: 注意：有一些重复剂型，如 Benzoyl Peroxide Cream, Benzoyl Peroxide Wash and Cleanser 都归为 Benzoyl Peroxide (topical)。同样，sulfur and sulfacetamide 各种剂型合并为 Sulfacetamide Sodium and Sulfur (topical)。
+              - paragraph [ref=e1005]: 我需要分别为每个生成禁忌症列表。根据专业知识，需要列出具体的禁忌症，类型和严重程度。如：异维A酸绝对禁忌妊娠（X级），相对禁忌肝病、高脂血症等。克林霉素外用剂过敏禁忌，伪膜性肠炎史相对禁忌等。需详细。
+              - paragraph [ref=e1006]: 由于输出只要求JSON，我会生成一个大的对象数组。注意名称格式：用 generic_name，对于组合药物，可以使用 "/" 或 "and"。我将输出。
+          - paragraph [ref=e1008]:
+            - text: "["
+            - text: "{"
+            - text: "\"generic_name\": \"Isotretinoin\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Pregnancy Category X; high risk of severe fetal malformations and spontaneous abortion.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Excreted in breast milk; potential for serious adverse effects in nursing infants.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"May cause hepatotoxicity and elevate liver enzymes.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe renal impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Increased risk of hypervitaminosis A and toxicity.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypervitaminosis A\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Excessive vitamin A activity leads to toxicity.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant tetracycline antibiotics\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased risk of benign intracranial hypertension (pseudotumor cerebri).\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant vitamin A supplements\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Additive hypervitaminosis A effects.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hyperlipidemia\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"May exacerbate lipid abnormalities; monitor closely.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of depression or psychiatric disorders\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Potential for mood changes, depression, suicide ideation.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to isotretinoin or excipients\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of allergic reactions including anaphylaxis.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Clindamycin (topical)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of pseudomembranous colitis or antibiotic-associated colitis\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Topical clindamycin can be systemically absorbed and may trigger or worsen Clostridioides difficile colitis.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to clindamycin or lincomycin\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic reactions including anaphylaxis possible.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of regional enteritis or ulcerative colitis\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"May exacerbate gastrointestinal inflammation if absorbed.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Tretinoin (topical)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy (caution)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Pregnancy Category C; limited data, but oral retinoids are teratogenic. Use only if benefit outweighs risk.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to tretinoin or excipients\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of contact dermatitis and allergic reactions.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"sunburn or active eczema\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"May cause severe irritation on damaged skin.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concurrent use of photosensitizing drugs\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Increased risk of phototoxicity.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Sulfamethoxazole and Trimethoprim\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Hepatotoxicity risk; drug metabolism impaired.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe renal impairment (CrCl <15 mL/min) without dialysis\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Drug accumulation and increased risk of toxicity.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy at term and during nursing (neonatal period)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Pregnancy Category D; risk of kernicterus and folate antagonism; contraindicated near term and in newborns.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"megabastic anemia due to folate deficiency\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Trimethoprim may worsen folate deficiency.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to sulfonamides or trimethoprim\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of severe skin reactions (Stevens-Johnson syndrome) and anaphylaxis.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"infants younger than 2 months\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of kernicterus due to displacement of bilirubin.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"porphyria\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"May precipitate acute porphyria attacks.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"G6PD deficiency\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Increased risk of hemolytic anemia.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant use of dofetilide\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Trimethoprim inhibits renal secretion of dofetilide, causing QT prolongation and torsades de pointes.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Dapsone (topical)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to dapsone\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic reactions possible.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"G6PD deficiency\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Risk of hemolytic anemia, even with topical use due to absorption.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"methemoglobin reductase deficiency or hemoglobin M\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Predisposition to methemoglobinemia.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Benzoyl Peroxide (topical)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to benzoyl peroxide\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Contact dermatitis and allergic reactions.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"open wounds or sunburned skin\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"May cause excessive irritation.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Adapalene (topical)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to adapalene\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic contact dermatitis possible.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy (caution)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Pregnancy Category C; limited data. Use with caution.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"sunburn or eczematous skin\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Increased skin irritation.\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Adapalene and Benzoyl Peroxide (topical)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to adapalene or benzoyl peroxide\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of allergic reaction to either component.\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy (caution)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Contains adapalene, Pregnancy Category C"
+      - generic [ref=e912]:
+        - generic [ref=e915]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e917]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e918]:
+            - button "深度思考" [ref=e919] [cursor=pointer]:
+              - img [ref=e921]
+              - generic [ref=e924]: 深度思考
+            - button "智能搜索" [ref=e925] [cursor=pointer]:
+              - img [ref=e927]
+              - generic [ref=e929]: 智能搜索
+            - generic [ref=e930]:
+              - button [ref=e931] [cursor=pointer]:
+                - img [ref=e934]
+              - button [ref=e937] [cursor=pointer]:
+                - img [ref=e940]
+        - generic [ref=e942]: 内容由 AI 生成，请仔细甄别

@@ -1,0 +1,439 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "药物交互分析请求" [ref=e191] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e192]: 药物交互分析请求
+          - button [ref=e193]:
+            - img [ref=e197]
+        - link "临床药学药物交互作用列表" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e36]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e38]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e40]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e42]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e44]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e46]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e48]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e50]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e52]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e54]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e56]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e58]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e60]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e62]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e64]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e66]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e68]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e70]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e72]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e74]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e76]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e78]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e80]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e82]: HIV药物禁忌症生成
+      - generic [ref=e83]:
+        - generic [ref=e84]: 昨天
+        - link "药物禁忌症列表生成" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e86]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e88]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e90]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e92]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e94]: 药物适应症列表生成
+      - generic [ref=e95]:
+        - generic [ref=e96]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e98]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e100]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e102]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e104]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e106]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e108]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e110]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e112]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e114]: 生成数据训练请求
+    - generic [ref=e116] [cursor=pointer]:
+      - img [ref=e178]
+      - generic [ref=e181]: 132******38
+      - img [ref=e119]
+  - generic [ref=e124]:
+    - generic [ref=e201]:
+      - generic [ref=e203]:
+        - generic [ref=e204] [cursor=pointer]: 药物交互分析请求
+        - generic [ref=e205]:
+          - img [ref=e207]
+          - generic [ref=e209]: 专家模式
+      - button [ref=e210] [cursor=pointer]:
+        - img [ref=e213]
+    - generic [ref=e216]:
+      - generic [ref=e218]:
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e239] [cursor=pointer]:
+                - img [ref=e241]
+                - generic [ref=e244]: 已思考（用时 6 秒）
+                - img [ref=e246]
+              - generic [ref=e252]:
+                - paragraph [ref=e253]: 我们需要理解用户的要求：“你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。”
+                - paragraph [ref=e254]: 但用户没有提供具体的药物列表。可能是用户忘记附上药物清单了。我需要指出这一点，并要求用户提供药物清单。但作为AI，我不能直接假设，要礼貌地请求用户提供具体药物名称。然而，任务要求用中文回答，并且要体现临床药学专家的身份。所以我会回复：请提供需要生成交互列表的药物名称，并说明我可以帮助分析重要的药物相互作用。同时保持专业。这样比较稳妥。
+                - paragraph [ref=e255]: 由于这是一个不完全的询问，我应该先指出缺少药物列表，然后表示愿意帮助。但也可以尝试猜测？不，不能猜测。所以回答：您好，作为临床药学专家，我很乐意协助。请提供您需要的具体药物名称（通用名或商品名均可）。我将为每种药物列出临床上重要的药物相互作用，包括机制、效应及建议。
+            - generic [ref=e256]:
+              - paragraph [ref=e257]: 您好，我是临床药学专家，很乐意协助您梳理药物相互作用。
+              - paragraph [ref=e258]: 不过，您的提问中似乎没有附带具体的药物清单。请您把需要分析的药物名称（通用名或商品名均可）发给我，我会逐一为每种药物生成一份重要的相互作用列表，并注明机制、临床效应和处理建议。
+            - generic [ref=e259]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+          - generic [ref=e261]:
+            - button [ref=e262] [cursor=pointer]:
+              - img [ref=e265]
+            - button [disabled] [ref=e267]:
+              - img [ref=e270]
+            - button [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+            - button [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+            - button [ref=e282] [cursor=pointer]:
+              - img [ref=e285]
+        - generic [ref=e319]:
+          - generic [ref=e321]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: tenofovir disoproxil | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: B lopinavir and ritonavir | 类别: Protease inhibitors | 适应症: hiv infection | 妊娠分级: C etravirine | 类别: NNRTIs | 适应症: hiv infection | 妊娠分级: B abacavir | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection | 妊娠分级: C emtricitabine and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B cobicistat and darunavir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C lamivudine and zidovudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C zidovudine (oral/injection) | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|prevention of mother-to-child transmission of hiv | 妊娠分级: C emtricitabine | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B dolutegravir and rilpivirine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N cobicistat, darunavir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N abacavir, lamivudine, and zidovudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C lamivudine and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: N doravirine, lamivudine, and tenofovir disoproxil fumarate | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N efavirenz, lamivudine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N atazanavir and cobicistat | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B doravirine | 类别: NNRTIs | 适应症: hiv infection | 妊娠分级: N cobicistat | 类别: Antiviral boosters | 适应症: pharmacokinetic booster | 妊娠分级: B ibalizumab | 类别: Miscellaneous antivirals | 适应症: multidrug-resistant hiv infection | 妊娠分级: N immune globulin (IGIV) (intravenous) | 类别: Immune globulins | 适应症: primary immunodeficiency|immune thrombocytopenic purpura|kawasaki disease|chronic lymphocytic leukemia|multifocal motor neuropathy|chronic inflammatory demyelinating polyneuropathy | 妊娠分级: C fostemsavir (extended-release tablets) | 类别: Miscellaneous antivirals | 适应症: heavily treatment-experienced hiv infection | 妊娠分级: N lamivudine and tenofovir (oral route) | 类别: Antiviral combinations | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: N ibalizumab-uiyk | 类别: Miscellaneous antivirals | 适应症: multidrug-resistant hiv infection | 妊娠分级: N emtricitabine, lopinavir, ritonavir, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C emtricitabine, nelfinavir, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B cabotegravir | 类别: Integrase strand transfer inhibitor | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: N doravirine, lamivudine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N fostemsavir | 类别: Miscellaneous antivirals | 适应症: heavily treatment-experienced hiv infection | 妊娠分级: N doxylamine | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|nausea and vomiting of pregnancy | 妊娠分级: B corticotropin | 类别: Corticotropin | 适应症: infantile spasms|multiple sclerosis|rheumatic disorders|acute exacerbation of multiple sclerosis | 妊娠分级: C dexbrompheniramine | 类别: Antihistamines | 适应症: allergic rhinitis|urticaria|common cold symptoms | 妊娠分级: C dexbrompheniramine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|allergic rhinitis|sinus congestion | 妊娠分级: C doxylamine succinate | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|nausea and vomiting of pregnancy | 妊娠分级: B donepezil (oral) | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: C etanercept | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriatic arthritis|ankylosing spondylitis|plaque psoriasis|juvenile idiopathic arthritis|chronic moderate to severe plaque psoriasis in pediatric patients | 妊娠分级: B rivastigmine (oral) | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: B galantamine | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: C donepezil and memantine | 类别: Cholinesterase inhibitors | 适应症: moderate to severe alzheimer's disease | 妊娠分级: C vitamin E (VYE ta min E), tocopherol alpha Brand names: Aqua-E, Aquasol E , Aquavite-E, Aqueous Vitamin E, E-400 Clear | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C vitamin e (oral route) | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C aducanumab-avwa | 类别: Miscellaneous central nervous system agents | 适应症: alzheimer disease (mild cognitive impairment or mild dementia stage) | 妊娠分级: N Vitamin E Capsules and Tablets | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C aducanumab | 类别: Miscellaneous central nervous system agents | 适应症: alzheimer's disease | 妊娠分级: N aspirin (oral) | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events|prevention of stroke|rheumatic fever | 妊娠分级: N nitroglycerin (oral/sublingual) | 类别: Antianginal agents, Vasodilators | 适应症: angina pectoris | 妊娠分级: C ranolazine | 类别: Antianginal agents | 适应症: chronic angina | 妊娠分级: C nitroglycerin (sublingual) | 类别: Antianginal agents, Vasodilators | 适应症: acute angina pectoris | 妊娠分级: C metoprolol (oral route) | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure|myocardial infarction | 妊娠分级: C aspirin (oral route) | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events|prevention of stroke | 妊娠分级: N metoprolol succinate tablet, extended release | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e324]:
+            - button [ref=e325] [cursor=pointer]:
+              - img [ref=e328]
+            - button [ref=e330] [cursor=pointer]:
+              - img [ref=e333]
+        - generic [ref=e337]:
+          - generic [ref=e339] [cursor=pointer]:
+            - img [ref=e341]
+            - generic [ref=e344]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e346]
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: 我们需要为输入列表中的每种药物生成重要的药物相互作用列表，只列出major和moderate交互，具有临床意义，影响安全或疗效。每个交互包含drug_a（当前药物），drug_b（交互药物，使用通用类别名），interaction_type，clinical_effect，mechanism。优先列出与常见药物类的交互（抗凝药、抗抑郁药、抗真菌药、抗酸药等）。对于组合药物，列出每个成分的交互。输入药物列表很多，要求JSON输出。
+            - paragraph [ref=e354]: "需要仔细分析每个药物。输入药物列表包含很多HIV药物（NRTIs, PIs, NNRTIs, INSTIs, 组合），以及其他类别的药物如多塞平、胆碱酯酶抑制剂、维生素E、阿司匹林、硝酸甘油、雷诺嗪、美托洛尔，还有免疫球蛋白、促皮质素、抗组胺药等。输出JSON数组，每个对象有generic_name和interactions数组。generic_name应该使用输入中给出的药品名，例如\"tenofovir disoproxil\"等。注意有些药物是组合，如\"lopinavir and ritonavir\"，应作为组合列出，并考虑成分相互作用。对于组合药物，要求“对于组合药物，列出每个成分的交互”，意味着我们需要在interactions里反映出组合中各个成分的相互作用，但整个药物作为一个generic_name，interactions可能是所有成分交互的集合。可能需要列出drug_a为组合名称或成分？题目要求drug_a是药物名称(当前药物)，如果是组合药物，drug_a是组合名还是成分名？看示例：示例中是单个药物。但要求说“对于组合药物，列出每个成分的交互”，所以可能interactions中的drug_a应使用成分名，或者我们使用组合名，但在机制里说明。但是drug_a要求是“药物名称(当前药物)”，如果当前药物是组合，如\"lopinavir and ritonavir\"，可以作为一个整体，但交互可能涉及其中一个成分，如洛匹那韦是CYP3A4底物/抑制剂，利托那韦是强CYP3A4抑制剂。可以列出针对这个组合的交互，drug_a写\"lopinavir and ritonavir\"，然后交互类型等。但可能更清晰是列出每个活性成分的交互，但generic_name是组合名称。在JSON中，generic_name是输入药物名，interactions列表中drug_a应该与generic_name对应或具体成分？根据描述\"drug_a: 药物名称(当前药物)\"，所以对于组合药，drug_a就填组合名称，如\"lopinavir and ritonavir\"。但为了满足“列出每个成分的交互”，我们可以把成分的交互也以组合名称作为drug_a，并说明涉及哪个成分。例如，\"lopinavir and ritonavir\"与CYP3A4底物药物的交互，机制可以说“ritonavir强CYP3A4抑制作用导致底物浓度升高”，临床效应相应。这样drug_a都是组合名。类似地，\"emtricitabine and tenofovir\"是一个组合，交互可以包括替诺福韦的肾毒性、恩曲他滨无显著交互，但要注意替诺福韦与肾毒性药物的交互。按要求列出major/moderate交互。"
+            - paragraph [ref=e355]: 需要为每种药物列出有临床意义的交互。我需要对每个药物进行查知识。作为临床药学专家，应基于公认的药物相互作用数据库（如Lexicomp, Micromedex, 药品说明书）来给出。以下我将为每种药物生成交互列表。
+            - paragraph [ref=e356]: 注意：有些药物如维生素E、阿司匹林、硝酸甘油、美托洛尔、雷诺嗪、多塞拉敏、右溴苯那敏、促皮质素、依那西普、胆碱酯酶抑制剂、免疫球蛋白等，需要考虑常见交互。HIV药物非常多，需重点列出。输入药物列表中有许多重复或类似条目，如"tenofovir disoproxil", "emtricitabine and tenofovir", "lamivudine and tenofovir", "cobicistat and darunavir", "atazanavir and cobicistat", "doravirine, lamivudine, and tenofovir disoproxil fumarate"等。必须按输入给出每个generic_name。注意"cobicistat, darunavir, emtricitabine, and tenofovir"和"cobicistat and darunavir"等。我将分别为每个药物生成交互。
+            - paragraph [ref=e357]: 我需要确保只输出JSON，不输出其他文本。输出JSON数组，每个元素有generic_name和interactions数组。interactions数组中的每个对象有drug_a, drug_b, interaction_type, clinical_effect, mechanism。drug_b使用通用药物类别名，如"warfarin", "CYP3A4 inhibitors", "MAO inhibitors", "antacids"等。优先列出常见类别。
+            - paragraph [ref=e358]: 开始逐药分析：
+            - list [ref=e359]:
+              - listitem [ref=e360]:
+                - paragraph [ref=e361]: "tenofovir disoproxil (TDF) - NRTI。主要交互：肾毒性药物（如氨基糖苷类、两性霉素B、膦甲酸、西多福韦、NSAIDs等）可增加肾毒性风险；与去羟肌苷（ddI）合用增加去羟肌苷浓度和毒性（ddI水平升高，可能引发胰腺炎、乳酸酸中毒），严重交互。另外，与阿德福韦或其它肾毒性药物。需要列出major和moderate。替诺福韦与某些蛋白酶抑制剂合用可能增加替诺福韦浓度，但那是与增效剂。但作为单独药物，主要交互是肾毒性药物，和ddI。去羟肌苷相互作用：替诺福韦增加去羟肌苷浓度，机制是抑制其嘌呤核苷磷酸化酶？实际上TDF增加ddI AUC，机制可能是竞争肾小管分泌？确切机制是替诺福韦增加去羟肌苷的浓度，可能导致严重毒性，是禁忌或major。还有与阿扎那韦合用：阿扎那韦需要酸性环境，与TDF合用会降低阿扎那韦浓度，但那是阿扎那韦与替诺福韦组合时需要用利托那韦或考比司他增效。但单独的替诺福韦与阿扎那韦无增效剂时，相互作用是阿扎那韦水平降低，反之为moderate。可列。还有与其它肾毒性药物。还要考虑与丙磺舒等。常见的：与NSAIDs可能增加肾毒性，moderate。与ACEi/ARB也可能有肾毒性增加。先列出几个重要交互：去羟肌苷 (ddI) - major；肾毒性药物 (aminoglycosides, amphotericin B, etc.) - major/moderate；与蛋白酶抑制剂阿扎那韦 (未增效) - moderate 降低阿扎那韦浓度。drug_b使用类别。我将生成：{\"drug_a\": \"tenofovir disoproxil\", \"drug_b\": \"didanosine\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加去羟肌苷浓度和毒性风险（如胰腺炎、乳酸酸中毒）\", \"mechanism\": \"替诺福韦增加去羟肌苷的吸收/降低清除\"}, 注意机制。然后与肾毒性药物：\"drug_b\": \"nephrotoxic agents (e.g., aminoglycosides, amphotericin B)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肾毒性风险\", \"mechanism\": \"药效学相加肾毒性\"}。与NSAIDs: \"moderate\", \"clinical_effect\": \"增加肾功能损害风险\", \"mechanism\": \"两者均影响肾脏灌注或肾小管功能\"}。与atazanavir (unboosted): \"moderate\", \"降低阿扎那韦血药浓度，可能导致HIV治疗失败\", \"mechanism\": \"替诺福韦降低阿扎那韦吸收/增加其清除\"?(实际是TDF减少阿扎那韦的AUC，机制不明，可能涉及pH，建议阿扎那韦需与利托那韦合用)。还可以与ledipasvir (丙肝药) 增加TDF浓度，但未要求丙肝药。但可以列与sofosbuvir/ledipasvir等，但这可能不是常见类别，优先列常见类别。暂列这些。"
+              - listitem [ref=e362]:
+                - paragraph [ref=e363]: "lopinavir and ritonavir (克力芝) - 蛋白酶抑制剂组合。包含利托那韦作为PK增效剂，是强CYP3A4抑制剂，同时也是CYP2D6抑制剂等。洛匹那韦也是CYP3A4底物和抑制剂。主要交互：与CYP3A4底物药物合用，导致底物浓度升高，出现严重毒性，如与抗心律失常药（胺碘酮、奎尼丁等）、麦角生物碱、西沙必利、匹莫齐特、咪达唑仑/三唑仑（口服）、辛伐他汀/洛伐他汀、阿夫唑嗪、沙美特罗？等等，这些都是禁忌或major。需列出重要的常见类别：与抗凝药如利伐沙班、阿哌沙班，华法林（影响不确定但可能），但利托那韦诱导CYP2C9和抑制CYP3A4，华法林相互作用可能复杂，可以列中度。与抗抑郁药（如曲唑酮，增加浓度，镇静，QT延长），抗真菌药如酮康唑（相互抑制），抗惊厥药（卡马西平、苯妥英、苯巴比妥降低PI浓度，major），与利福平（禁忌，显著降低浓度），与吸入氟替卡松（可能导致库欣综合征，major），与抗酸药/抑酸药（降低洛匹那韦吸收？），与HMG-CoA还原酶抑制剂（辛伐他汀、洛伐他汀禁忌，major；阿托伐他汀、瑞舒伐他汀需谨慎moderate）。还可与PDE5抑制剂（西地那非等增加浓度和低血压）。与圣约翰草（降低浓度，禁忌major）。与抗精神病药（氯氮平、匹莫齐特禁忌）。与抗心律失常药。列出主要几个，确保drug_a是\"lopinavir and ritonavir\"。要求优先列出常见类别。我会列出：与抗心律失常药 class IA, III；麦角生物碱；西沙必利；镇静催眠药（口服咪达唑仑，三唑仑）；HMG-CoA还原酶抑制剂（辛伐他汀、洛伐他汀）；α1受体阻断药（阿夫唑嗪）；抗精神病药（匹莫齐特）；抗结核药（利福平）；抗惊厥药（卡马西平，苯妥英）；吸入氟替卡松；沙美特罗？。还有与PDE5抑制剂。选择几个major和moderate。例如：\"drug_b\": \"class IA and III antiarrhythmics (e.g., amiodarone, quinidine)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加抗心律失常药浓度导致严重心律失常\", \"mechanism\": \"强CYP3A4抑制\"。与 \"ergot alkaloids\" major: 增加麦角中毒风险。与 \"rifampin\" major: 显著降低洛匹那韦浓度，导致HIV治疗失败。与 \"carbamazepine\" moderate: 降低洛匹那韦浓度，可能同时增加卡马西平浓度。与 \"inhaled fluticasone\" major: 导致库欣综合征，肾上腺抑制。与 \"simvastatin, lovastatin\" major: 增加横纹肌溶解风险。与 \"PDE5 inhibitors (sildenafil, tadalafil)\" major: 增加PDE5抑制剂浓度，导致低血压，异常勃起。与 \"midazolam (oral), triazolam\" major: 过度镇静，呼吸抑制。这些都可以。机制：强CYP3A4抑制/诱导等。利托那韦是CYP3A4、2D6抑制剂，也可诱导其他酶。"
+              - listitem [ref=e364]:
+                - paragraph [ref=e365]: etravirine - NNRTI，是CYP3A4诱导剂，CYP2C9，CYP2C19诱导剂，同时也是CYP2C9和2C19的抑制剂？实际上依曲韦林是CYP3A4诱导剂，轻度至中度诱导，同时也是CYP2C9，2C19抑制剂。相互作用较多。主要与CYP3A4底物药物合用会降低其浓度（如激素避孕药，抗凝药，免疫抑制剂），还有与其他NNRTIs? 不能与未增效的蛋白酶抑制剂合用？依曲韦林与某些蛋白酶抑制剂（如替拉那韦/利托那韦，阿扎那韦/利托那韦等）有相互作用。常见的重要交互：与抗凝药（华法林，降低其浓度？机制复杂，依曲韦林诱导CYP2C9，会降低S-华法林浓度，可能需要增加剂量，密切监测INR，moderate或major）。与激素避孕药（降低其浓度，导致避孕失败，major）。与抗惊厥药（卡马西平，苯妥英，苯巴比妥降低依曲韦林浓度，major禁忌）。与抗真菌药（伊曲康唑，酮康唑，可能影响依曲韦林，但通常合用需谨慎）。与免疫抑制剂（环孢素，他克莫司，西罗莫司，依曲韦林诱导CYP3A4降低其浓度，moderate/major）。与圣约翰草降低依曲韦林浓度。与克拉霉素（相互影响）。与丁丙诺啡（可能降低依曲韦林浓度）。与美沙酮（可能需要调整）。我将列出：与卡马西平/苯妥英（major降低依曲韦林浓度），与激素避孕药（major避孕失败），与华法林（moderate可能降低抗凝效果），与免疫抑制剂（他克莫司等moderate），与利福平（禁忌major），与质子泵抑制剂/抗酸药（依曲韦林需要酸性环境，抗酸药降低其吸收，moderate），与圣约翰草（major）。与阿托伐他汀等（降低他汀浓度）。选重要的。
+              - listitem [ref=e366]:
+                - paragraph [ref=e367]: abacavir (ABC) - NRTI。主要交互：与酒精（乙醇）增加阿巴卡韦水平？实际上阿巴卡韦与乙醇竞争醇脱氢酶，导致阿巴卡韦消除减少，AUC增加41%，但通常无临床显著影响，列为moderate。与美沙酮：美沙酮降低阿巴卡韦浓度，但机制不明，可能需要调整剂量。与利巴韦林：可能增加乳酸酸中毒风险。无major交互。可列与酒精moderate，与美沙酮moderate。也可与肾毒性药物无关。就这样。
+              - listitem [ref=e368]:
+                - paragraph [ref=e369]: emtricitabine and tenofovir (恩曲他滨/替诺福韦) - 组合。替诺福韦交互同前，恩曲他滨无明显交互。所以交互列表包括替诺福韦的交互：与去羟肌苷major，与肾毒性药物major，与NSAIDs moderate，与阿扎那韦moderate。drug_a用"emtricitabine and tenofovir"。可写多个交互。恩曲他滨无额外。所以把这些并列。但需说明是替诺福韦成分的交互。
+              - listitem [ref=e370]:
+                - paragraph [ref=e371]: cobicistat and darunavir (考比司他/达芦那韦) - 考比司他是CYP3A强抑制剂（类似利托那韦），达芦那韦是蛋白酶抑制剂。交互与洛匹那韦/利托那韦类似，强CYP3A4抑制，导致大量底物药物浓度升高，禁忌/严重交互。同时达芦那韦也有诱导潜能？主要交互同强CYP3A抑制剂类药物。列出与抗心律失常药，麦角类，西沙必利，口服咪达唑仑，辛伐他汀/洛伐他汀，阿夫唑嗪，匹莫齐特，利福平（降低达芦那韦浓度），圣约翰草，抗惊厥药，吸入氟替卡松，PDE5抑制剂等。与抗酸药，H2受体拮抗剂等影响达芦那韦吸收。列出一些。drug_a为"cobicistat and darunavir"。
+              - listitem [ref=e374]:
+                - paragraph [ref=e375]: lamivudine and zidovudine (拉米夫定/齐多夫定) - NRTIs组合。齐多夫定主要交互：与骨髓抑制药物（更昔洛韦，缬更昔洛韦，利巴韦林，化疗等）增加血液毒性risk major；与司他夫定竞争性抑制，禁忌；与利巴韦林增加乳酸酸中毒；与丙磺舒增加齐多夫定浓度。拉米夫定无明显交互，但拉米夫定与司他夫定也是拮抗？主要是齐多夫定和司他夫定不能合用。齐多夫定与更昔洛韦有叠加骨髓抑制major。与利巴韦林有乳酸酸中毒moderate。可列这些。drug_a为"lamivudine and zidovudine"，交互主要与齐多夫定相关。可以列出与更昔洛韦等。还有与司他夫定major拮抗。与骨髓抑制药。
+              - listitem [ref=e376]:
+                - paragraph [ref=e377]: "zidovudine (oral/injection) - 同上，单独齐多夫定。列出 : 与骨髓抑制药（更昔洛韦，缬更昔洛韦，化疗）major；与司他夫定major；与利巴韦林moderate；与丙磺舒moderate（增高齐多夫定浓度）。还需要与抗酸药？无。这么列。"
+              - listitem [ref=e378]:
+                - paragraph [ref=e379]: emtricitabine - 恩曲他滨单独。无显著交互。可能没有重大交互。但可以列一个？通常没有。可返回空数组？要求只列出major和moderate交互，如果没有就空数组。可以空。
+              - listitem [ref=e380]:
+                - paragraph [ref=e381]: dolutegravir and rilpivirine (多替拉韦/利匹韦林) - 多替拉韦是INSTI，主要经UGT1A1代谢，抑制肾小管转运蛋白（OCT2, MATE）等。利匹韦林是NNRTI，CYP3A4底物，受CYP3A诱导剂/抑制剂影响，同时利匹韦林吸收依赖酸性环境。此组合药物交互：多替拉韦与多价阳离子（抗酸药、含钙/铁/镁/锌制剂）络合，降低吸收（major，需间隔时间）。多替拉韦与利福平需剂量加倍（moderate）。多替拉韦与卡马西平、苯妥英、苯巴比妥、圣约翰草等诱导剂可能降低多替拉韦浓度（moderate或major，禁忌）。多替拉韦与二甲双胍增加二甲双胍浓度（moderate），因抑制OCT2。利匹韦林：抗酸药、H2受体拮抗剂、质子泵抑制剂显著降低利匹韦林吸收（禁忌或major），因需要酸性环境。利匹韦林与CYP3A4诱导剂（利福平，卡马西平，苯妥英，圣约翰草）禁忌，降低浓度导致治疗失败。利匹韦林与CYP3A4抑制剂如克拉霉素、唑类抗真菌药，可能增加利匹韦林浓度和QT延长的风险（moderate）。利匹韦林与延长QT的药物合用增加尖端扭转型室速风险。所以组合交互包含多替拉韦和利匹韦林的各自重要交互。我们需要为这个组合列出交互，drug_a是"dolutegravir and rilpivirine"。可以列出：与多价阳离子抗酸剂/补充剂（major降低多替拉韦吸收），与质子泵抑制剂（major降低利匹韦林吸收），与利福平（major降低利匹韦林和多替拉韦），与卡马西平/苯妥英（major），与圣约翰草（major），与二甲双胍（moderate增加二甲双胍水平），与延长QT的药物如某些抗心律失常药（moderate，利匹韦林有QT延长风险）。另外，多替拉韦与阿扎那韦等无额外。我们就列重要的。
+              - listitem [ref=e382]:
+                - paragraph [ref=e383]: cobicistat, darunavir, emtricitabine, and tenofovir - 考比司他/达芦那韦/恩曲他滨/替诺福韦的复方单片。交互相当于cobicistat and darunavir的交互加上tenofovir的交互（恩曲他滨无交互）。所以interactions应该包括强CYP3A抑制剂相关major交互，以及替诺福韦的肾毒性/去羟肌苷交互。drug_a填完整复方名。这些交互将列出：与抗心律失常药，麦角，口服咪达唑仑，辛伐他汀/洛伐他汀，PDE5抑制剂，利福平，圣约翰草，吸入氟替卡松等。替诺福韦相关：去羟肌苷major，肾毒性药物major。因此可以合并列出。
+              - listitem [ref=e384]:
+                - paragraph [ref=e385]: "abacavir, lamivudine, and zidovudine (齐多拉米阿巴卡韦？实际上包括阿巴卡韦、拉米夫定、齐多夫定)。交互包括齐多夫定的骨髓抑制交互（更昔洛韦等），司他夫定禁忌，阿巴卡韦与酒精和中度，与美沙酮中度。所以列出：与更昔洛韦/缬更昔洛韦major，与司他夫定major，与酒精moderate，与美沙酮moderate，与利巴韦林moderate（骨髓抑制）。drug_a: \"abacavir, lamivudine, and zidovudine\"。"
+              - listitem [ref=e386]:
+                - paragraph [ref=e387]: lamivudine and tenofovir (拉米夫定/替诺福韦) - 组合，交互主要来自替诺福韦：去羟肌苷major，肾毒性药物major，NSAIDs moderate。拉米夫定无。所以列出这些。
+              - listitem [ref=e388]:
+                - paragraph [ref=e389]: doravirine, lamivudine, and tenofovir disoproxil fumarate (多拉韦林/拉米夫定/TDF) - 多拉韦林是NNRTI，CYP3A4底物，受诱导剂影响，但利福平降低多拉韦林浓度，禁忌。不显著抑制或诱导CYP酶，但与CYP3A诱导剂（利福平，卡马西平，恩杂鲁胺等）合用禁忌。与抗酸药、含多价阳离子补充剂可能降低多拉韦林吸收？多拉韦林不是整合酶抑制剂，不需担心多价阳离子？多拉韦林不螯合多价阳离子，但说明书：与含铝/镁的抗酸剂同时服用会降低多拉韦林浓度，因pH影响？需要酸性环境？多拉韦林溶解性pH依赖，抗酸药可能降低其生物利用度，建议分开服用。与H2受体拮抗剂，质子泵抑制剂也降低浓度。所以多拉韦林交互：与PPI、H2RA、抗酸药 moderate/major？与利福平禁忌major。与卡马西平禁忌major。还有替诺福韦的交互。拉米夫定无。所以组合药物交互包括：与利福平major降低多拉韦林浓度，与卡马西平major，与抗酸药moderate降低多拉韦林吸收，与质子泵抑制剂major降低多拉韦林（可能major, 说明书禁忌与PPI联用？查：多拉韦林与奥美拉唑合用AUC降低约50%，不推荐合用，可能moderate/major。可列major）。同时替诺福韦：去羟肌苷major，肾毒性药物major。所以列出。
+              - listitem [ref=e390]:
+                - paragraph [ref=e391]: "efavirenz, lamivudine, and tenofovir (依非韦伦/拉米夫定/TDF) - 依非韦伦是NNRTI，CYP3A4和2B6诱导剂，本身底物。交互较多。重要交互：与CYP3A4底物药物合用降低浓度，如激素避孕药（增加避孕失败风险），免疫抑制剂（环孢素，他克莫司），抗真菌药（伏立康唑相互影响，依非韦伦降低伏立康唑浓度，伏立康唑升高依非韦伦，需调整剂量），与抗凝药（华法林，可能降低或增加？有报道，需监测）。与抗抑郁药（如舍曲林？），与美沙酮（降低美沙酮浓度，导致戒断），与圣约翰草降低依非韦伦浓度，与利福平需要调整剂量。与CYP3A4抑制剂会增高依非韦伦浓度，但一般不严重。与延Q-T间期药物，依非韦伦可延长QT，需谨慎。替诺福韦交互同样。所以组合交互需列出：依非韦伦与激素避孕药major，与伏立康唑major/moderate，与美沙酮moderate，与圣约翰草major，与华法林moderate，与利福平moderate（依非韦伦浓度降低，建议增加剂量）。替诺福韦：去羟肌苷major，肾毒性药物major。组合药物drug_a: \"efavirenz, lamivudine, and tenofovir\"。注意拉米夫定无。"
+              - listitem [ref=e392]:
+                - paragraph [ref=e393]: atazanavir and cobicistat (阿扎那韦/考比司他) - 蛋白酶抑制剂+增效剂，类似cobicistat强CYP3A抑制，阿扎那韦也是CYP3A底物和UGT1A1抑制剂。交互：与CYP3A底物药物浓度升高，禁忌类似其他增效PI。同时阿扎那韦可抑制UGT1A1，使潜在相互作用如与拉替拉韦？但主要。阿扎那韦需要酸性环境吸收，与抗酸药，H2RA，PPI合用会显著降低浓度，需要间隔和调整剂量。与PPI在PI初治患者禁忌？实际上阿扎那韦增效剂下与PPI合用有严格限制。交互：与PPI moderate/major（降低阿扎那韦浓度，可能导致失败）。与抗酸药moderate。同时考比司他强抑制CYP3A4，导致与前述相似的禁忌药（麦角，辛伐他汀等）。还需注意与替诺福韦合用会降低阿扎那韦浓度（但考比司他时是否还有？通常替诺福韦与阿扎那韦/ritonavir合用，阿扎那韦浓度降低，需用利托那韦或考比司他增强。但在atazanavir/cobicistat组合中，替诺福韦仍然降低阿扎那韦AUC，需要增加阿扎那韦剂量？说明书：与替诺福韦合用，阿扎那韦300mg/考比司他150mg + TDF，阿扎那韦浓度降低约25%，但不调整剂量，视为moderate。另外阿扎那韦抑制UGT1A1，可能导致伊立替康等毒性。可列与SN-38（伊立替康）活性代谢物增加毒性major？但仅列出常见类别。所以交互：与PPI major（禁忌或避免），与抗酸药 moderate，与CYP3A底物（麦角，咪达唑仑等）major，与辛伐他汀/洛伐他汀 major，与替诺福韦 moderate（降低阿扎那韦浓度）。这要注意，atazanavir and cobicistat本身，drug_a是这个组合，交互drug_b可以用类别。如与质子泵抑制剂major，机制是胃酸减少降低阿扎那韦吸收。与CYP3A底物类别，多列几个。与替诺福韦 moderate。
+              - listitem [ref=e394]:
+                - paragraph [ref=e395]: doravirine (单独) - 上述多拉韦林交互。与利福平、卡马西平 major，与PPI major，与抗酸药 moderate，与圣约翰草 major。也可与烷化剂？没有。列出一些。
+              - listitem [ref=e396]:
+                - paragraph [ref=e397]: cobicistat (单独) - 作为药代增强剂，是CYP3A强抑制剂，一般与蛋白酶抑制剂等合用。单独考比司他交互：与CYP3A底物药物导致浓度升高，与抗结核药(利福平)会降低考比司他浓度。与含多价阳离子不影响。列出：与CYP3A4底物（如抗心律失常药，麦角，口服咪达唑仑等）major。与利福平 major降低考比司他浓度。与圣约翰草 major。与抗酸药无直接。但考比司他本身不用于单独治疗，但可仿。
+              - listitem [ref=e398]:
+                - paragraph [ref=e399]: ibalizumab (伊巴利珠单抗) - 单抗，抗CD4受体，用于多药耐药HIV。无明显代谢交互。无已知严重交互。返回空数组。
+              - listitem [ref=e400]:
+                - paragraph [ref=e401]: "immune globulin (IGIV) (intravenous) - 静脉注射免疫球蛋白。交互：可能影响减毒活疫苗的效力，需间隔。如与减毒活疫苗(麻疹，腮腺炎，风疹，水痘)等，接种后6个月内避免？建议间隔。Moderate：与某些抗体检测假阳性。临床重要：同时使用可能引起肾毒性药物？可能有血栓形成风险，与雌激素等。但常见重要交互：与减毒活疫苗 moderate/major。与肾毒性药物合用增加肾衰风险？IGIV制品含蔗糖可能致肾损伤，与肾毒性药物合用增加风险 moderate。可列出减毒活疫苗major (可能导致疫苗无效或感染风险)，mechanism: 被动抗体干扰主动免疫应答。通常为 moderate（活疫苗效力降低）。列为moderate。以及肾毒性药物 moderate。"
+              - listitem [ref=e402]:
+                - paragraph [ref=e403]: fostemsavir (extended-release tablets) - 福司坦沙韦，是HIV附着抑制剂，活性代谢物为替米沙韦？坦母沙韦。经CYP3A4代谢，也是CYP3A底物，同时抑制P-gp和OATP1B1/3。主要交互：与CYP3A强诱导剂（利福平、卡马西平、苯妥英、圣约翰草）禁忌，因为显著降低浓度。与强CYP3A抑制剂（如克拉霉素，伊曲康唑）可能增加浓度但不调整剂量。与经OATP1B1/3转运的底物药物如他汀类药物（阿托伐他汀，匹伐他汀，瑞舒伐他汀等）合用，会增加他汀浓度，导致横纹肌溶解，major。尤其与HMG-CoA还原酶抑制剂。与抗心律失常药、口服避孕药（含乙炔雌二醇可增加浓度，应监测）。重要的：与“statins via OATP1B1/3” major，与强CYP3A诱导剂major降低病毒学应答。与口服避孕药（增加雌激素和孕激素浓度，血栓风险）moderate。还需注意延长QT间期，与其他延长QT药物合用增加尖端扭转型风险moderate。因此列出：与rifampin major，与statins (atorvastatin, rosuvastatin) major，与QT延长药物 moderate，与口服避孕药 moderate。
+              - listitem [ref=e404]:
+                - paragraph [ref=e405]: lamivudine and tenofovir (oral route) - 与前述同，重复。交互同前。
+              - listitem [ref=e406]:
+                - paragraph [ref=e407]: ibalizumab-uiyk - 同上，无。
+              - listitem [ref=e408]:
+                - paragraph [ref=e409]: emtricitabine, lopinavir, ritonavir, and tenofovir - 恩曲他滨/洛匹那韦/利托那韦/替诺福韦复方。交互包括洛匹那韦/利托那韦的CYP3A强抑制相关交互，以及替诺福韦的交互。列出：与抗心律失常药major，与麦角生物碱major，与西沙必利major，与辛伐他汀/洛伐他汀major，与口服咪达唑仑major，与利福平major，与圣约翰草major，与吸入氟替卡松major，与去羟肌苷major，与肾毒性药物major等。drug_a为"emtricitabine, lopinavir, ritonavir, and tenofovir"。
+              - listitem [ref=e410]:
+                - paragraph [ref=e411]: emtricitabine, nelfinavir, and tenofovir - 恩曲他滨/奈非那韦/替诺福韦。奈非那韦是蛋白酶抑制剂，CYP3A抑制剂（中度）和诱导剂。交互类似其他PI，但较弱。奈非那韦为CYP3A4、2C9、2C19诱导剂和抑制剂？主要交互：与CYP3A底物合用浓度升高，但与强诱导剂合用降低奈非那韦浓度。与抗真菌药（酮康唑），与利福平，与圣约翰草，与口服避孕药（奈非那韦可能降低其浓度？）等。与替诺福韦相互作用：奈非那韦和替诺福韦无显著药动学交互。但替诺福韦有去羟肌苷和肾毒性。列出：与利福平 major（降低奈非那韦），与圣约翰草 major，与去羟肌苷 major（替诺福韦成分），与肾毒性药物 major，与辛伐他汀/洛伐他汀 moderate（奈非那韦抑制CYP3A4），与口服避孕药 moderate（奈非那韦可能降低激素水平）。drug_a用"emtricitabine, nelfinavir, and tenofovir"。
+              - listitem [ref=e412]:
+                - paragraph [ref=e413]: cabotegravir (卡博特韦) - INSTI，主要注射或口服。抑制OCT2和MATE1，增加二甲双胍浓度（moderate）。与强CYP3A诱导剂如利福平、卡马西平、苯妥英会显著降低卡博特韦浓度，禁忌或major。与多价阳离子抗酸剂或补充剂会降低口服卡博特韦吸收，但卡博特韦已有长效注射，口服作为导入。但这里列出药物交互以口服途径为主。卡博特韦口服与含多价阳离子抗酸剂需间隔。与利福平 major降低浓度，与卡马西平 major，与二甲双胍 moderate增加浓度。无明显其他。列出即可。
+              - listitem [ref=e414]:
+                - paragraph [ref=e415]: doravirine, lamivudine, and tenofovir - 同上，多拉韦林交互+替诺福韦。与前面类似。
+              - listitem [ref=e416]:
+                - paragraph [ref=e417]: fostemsavir 重复，同前。
+              - listitem [ref=e418]:
+                - paragraph [ref=e419]: doxylamine (多西拉敏) - 抗组胺镇静药，具有抗胆碱作用。与CNS抑制剂（酒精，苯二氮卓类，阿片类，其他镇静药）合用增强中枢抑制，moderate或major（严重镇静、呼吸抑制）。与MAOIs合用可能延长和增强抗胆碱作用，major。与其它抗胆碱能药物增加副作用。与抗高血压药对血压影响不大。列出：与CNS depressants (opioids, benzodiazepines, alcohol) major，与MAO inhibitors major，与其他抗胆碱能药物 moderate（口干，便秘，视力模糊等）。这些可以。
+              - listitem [ref=e420]:
+                - paragraph [ref=e421]: corticotropin (促皮质素) - 刺激肾上腺皮质分泌皮质醇。与皮质类固醇类似，但其作用依赖肾上腺功能。交互：与可能导致低钾血症的药物（如利尿剂，两性霉素B，刺激性泻药）合用增加低钾风险 moderate/major。与NSAIDs增加胃肠溃疡风险。与血管紧张素转换酶抑制剂（ACEi）、血管紧张素受体拮抗剂（ARB）影响未知？但主要。可以列出与排钾利尿剂 moderate (低钾血症)。与NSAIDs moderate（溃疡风险）。与疫苗（活疫苗）可能抑制免疫反应 moderate。与抗糖尿病药（增高血糖） moderate。这些常见。
+              - listitem [ref=e422]:
+                - paragraph [ref=e423]: dexbrompheniramine (右溴苯那敏) - 抗组胺药，具有镇静和抗胆碱作用。交互类似多西拉敏：与CNS抑制剂 major，与MAOIs major，与抗胆碱药 moderate。可列。
+              - listitem [ref=e424]:
+                - paragraph [ref=e425]: dexbrompheniramine and phenylephrine 组合（右溴苯那敏+去氧肾上腺素）- 去氧肾上腺素是α1激动剂，用于鼻减充血。可能与MAOIs合用导致严重高血压危机major。与三环类抗抑郁药可能增强升压作用。与β阻滞剂可能减弱去氧肾上腺素效果，或加重高血压。与催产素等。药物交互：与MAO inhibitors major（高血压危象），与CNS抑制剂 moderate镇静（右溴苯那敏），与三环类抗抑郁药 moderate（增强升压效应），与抗高血压药 moderate（去氧肾上腺素拮抗降压效果）。列出。
+              - listitem [ref=e426]:
+                - paragraph [ref=e427]: doxylamine succinate 同 doxylamine。
+              - listitem [ref=e428]:
+                - paragraph [ref=e429]: donepezil (oral) - 胆碱酯酶抑制剂。交互：与抗胆碱能药物拮抗其认知效果，moderate（降低多奈哌齐疗效）。与拟胆碱药物（如氨甲酰甲胆碱）协同，增加胆碱能副作用。与可延长QT间期的药物合用增加尖端扭转型风险（多奈哌齐可致心动过缓），moderate。与NSAIDs合用增加胃酸和溃疡风险（胆碱能活性增加胃酸分泌），moderate。与CYP2D6、3A4抑制剂（如酮康唑，帕罗西汀）可能增加其浓度，但不需调整，moderate。与琥珀酰胆碱（肌松药）可能延长肌松作用。抗精神病药等。重要：与抗胆碱药 moderate，与延长QT药物 moderate，与NSAIDs moderate。列出。
+              - listitem [ref=e430]:
+                - paragraph [ref=e431]: etanercept - TNF抑制剂。主要交互：与活疫苗（如带状疱疹活疫苗）禁忌，有播散感染风险major。与其它免疫抑制剂（如硫唑嘌呤，环磷酰胺）可能增加免疫抑制/恶性肿瘤风险。与阿那白滞素等生物制剂联合可能增加感染。与抗凝药（华法林）可能影响INR？但一般。常见：与活疫苗 major，与其它生物DMARDs（如阿巴西普，阿那白滞素，托珠单抗）联合使用增加感染风险，不推荐，major。与安乃近？就这些。
+              - listitem [ref=e432]:
+                - paragraph [ref=e433]: rivastigmine (oral) - 胆碱酯酶抑制剂，交互与多奈哌齐类似：抗胆碱药拮抗，与NSAIDs增加溃疡，与延长QT药物，与拟胆碱药，与琥珀酰胆碱。还有与美托洛尔，卡维地洛合用可能导致心动过缓。可列 moderate抗胆碱药，NSAIDs，与β阻断剂 moderate（心动过缓）。
+              - listitem [ref=e434]:
+                - paragraph [ref=e435]: galantamine - 类似胆碱酯酶抑制剂。交互同上：抗胆碱药，NSAIDs，与酮康唑、帕罗西汀（CYP2D6和3A4抑制剂）增加其浓度 moderate，与β阻断剂心动过缓。列出。
+              - listitem [ref=e436]:
+                - paragraph [ref=e437]: donepezil and memantine (多奈哌齐和美金刚) - 多奈哌齐交互同上，美金刚是NMDA拮抗剂，交互：与金刚烷胺、克他命等增加CNS毒性，与酸碱平衡影响（尿液碱化剂如碳酸酐酶抑制剂降低美金刚清除），与碳酸酐酶抑制剂（乙酰唑胺） moderate增加美金刚浓度/毒性。与左旋多巴可能影响。与华法林可能增加INR。列出：多奈哌齐相关抗胆碱药 moderate，美金刚与碳酸酐酶抑制剂 moderate，与金刚烷胺 moderate等。可以结合。
+              - listitem [ref=e438]:
+                - paragraph [ref=e439]: vitamin E (tocopherol) 口服：维生素E可能与抗凝药（华法林，抗血小板药）合用增加出血风险，特别是高剂量，moderate。与铁剂？没什么。与环孢素可能？列出与抗凝药（warfarin, antiplatelet agents）moderate增加出血风险。
+              - listitem [ref=e440]:
+                - paragraph [ref=e441]: vitamin e (oral route) 同。
+              - listitem [ref=e442]:
+                - paragraph [ref=e443]: aducanumab-avwa 阿杜那单抗抗淀粉样蛋白抗体。交互：与抗血小板药物，抗凝药在治疗期间可能增加脑出血风险（ARIA），需谨慎。moderate。与溶栓药物可能增加出血。列出与抗凝药、抗血小板药 moderate增加脑出血风险。
+              - listitem [ref=e444]:
+                - paragraph [ref=e445]: Vitamin E Capsules and Tablets 同上，与抗凝药。
+              - listitem [ref=e446]:
+                - paragraph [ref=e447]: aducanumab 同上，与抗凝/抗血小板。
+              - listitem [ref=e448]:
+                - paragraph [ref=e449]: aspirin (oral) 阿司匹林 - 主要交互：与抗凝药（华法林，肝素，直接口服抗凝药）增加出血风险major；与噻吩吡啶类（氯吡格雷，普拉格雷）协同抗血小板增加出血major；与其他NSAIDs（非甾体抗炎药）增加胃溃疡和出血major；与选择性5-羟色胺再摄取抑制剂(SSRIs)增加上消化道出血风险moderate/major；与甲氨蝶呤（高剂量）增加毒性major；与丙戊酸增加游离丙戊酸浓度；与ACE抑制剂/ARB减弱降压效果并增加肾功能损伤风险moderate；与利尿剂；与糖皮质激素增加溃疡风险；与乙醇增加胃出血风险moderate。列出几个重要的：与抗凝药 major，与其他抗血小板药 major，与SSRIs/SNRIs moderate，与高剂量甲氨蝶呤 major，与ACE inhibitors/ARB moderate（降低降压，肾功能），与全身性糖皮质激素 moderate（溃疡）。与酒精 moderate。需列。
+              - listitem [ref=e450]:
+                - paragraph [ref=e451]: nitroglycerin (oral/sublingual) - 与PDE-5抑制剂（西地那非，他达拉非等）合用引起严重低血压，major禁忌。与可溶性鸟苷酸环化酶刺激剂（利奥西呱）禁忌低血压major。与酒精可能加重低血压。与其他血管扩张剂。与麦角生物碱？不重要。主要列出PDE-5 inhibitors major，与利奥西呱 major。与钙通道阻滞剂可能叠加低血压moderate。
+              - listitem [ref=e452]:
+                - paragraph [ref=e453]: ranolazine - 雷诺嗪，抗心绞痛药，是CYP3A底物，P-gp底物，并可抑制CYP2D6，延长QT间期。交互：与强CYP3A抑制剂（如酮康唑，克拉霉素，利托那韦等）升高雷诺嗪浓度，增加不良反应（QT延长）major禁忌。与CYP3A诱导剂（利福平，卡马西平）降低药效moderate。与延长QT间期药物（如Ia、III类抗心律失常药，某些抗精神病药）增加尖端扭转型室速风险major/moderate。与P-gp抑制剂（如维拉帕米）增加浓度。与二甲双胍竞争肾小管排泄，增加二甲双胍浓度moderate。与辛伐他汀代谢抑制。列出：与strong CYP3A inhibitors major，与QT prolonging drugs major，与CYP3A inducers moderate，与metformin moderate。
+              - listitem [ref=e454]:
+                - paragraph [ref=e455]: nitroglycerin (sublingual) 同前。
+              - listitem [ref=e456]:
+                - paragraph [ref=e457]: metoprolol (oral route) 美托洛尔 - 心脏选择性β1阻断剂，CYP2D6代谢。交互：与CYP2D6抑制剂（帕罗西汀，氟西汀，安非他酮，奎尼丁）增加美托洛尔浓度，导致心动过缓，major/moderate。与非二氢吡啶类钙通道阻滞剂（维拉帕米，地尔硫卓）合用负性肌力和传导阻滞，major。与抗心律失常药（胺碘酮）严重心动过缓。与可乐定合用撤药反跳性高血压。与胰岛素和降糖药可掩盖低血糖症状。与NSAIDs降低降压效果moderate。与MAOIs不推荐。与吸入麻醉药心肌抑制。列出：与CYP2D6 inhibitors (e.g., paroxetine, fluoxetine) major，与verapamil/diltiazem major，与amiodarone moderate/major，与clonidine moderate（撤药反跳），与NSAIDs moderate，与insulin/sulfonylureas moderate（掩盖低血糖）。重要列出几个。
+              - listitem [ref=e458]:
+                - paragraph [ref=e459]: aspirin (oral route) 同aspirin交互。
+              - listitem [ref=e460]:
+                - paragraph [ref=e461]: metoprolol succinate tablet, extended release 同metoprolol。
+            - paragraph [ref=e462]: 注意还有一些药物，如lamivudine and tenofovir 出现两次，doravirine组合。需确保每个输入条目都输出，包括重复的。即将输入的药物列表一行行对应，每行一个药物，即使重复也要在数组中给出相同名称的对象。比如“lamivudine and tenofovir”然后是“lamivudine and tenofovir (oral route)”，视为不同generic_name。generic_name就以输入给出的字符串为准，如"tenofovir disoproxil", "lopinavir and ritonavir", "etravirine", "abacavir"... "lamivudine and tenofovir (oral route)" 等。注意输入中有些带有括号或大小写。我将保留输入原文。例如"cobicistat, darunavir, emtricitabine, and tenofovir" 不带口服剂型。 "fostemsavir (extended-release tablets)" 等。 "immune globulin (IGIV) (intravenous)"等。格式用输入给定名称。
+            - paragraph [ref=e463]: 需要确保interactions数组即使为空也输出空数组。有些药物如emtricitabine可能没有重要交互，就可以输出空数组。同样ibalizumab, ibalizumab-uiyk 无。
+            - paragraph [ref=e464]: 现在构建JSON。我将用英文？交互描述规定用中文。示例中临床效果和机制是中文。所以使用中文。输出一个包含所有这些对象的数组。
+            - paragraph [ref=e465]: 由于数量多，我将逐一构建。注意输出纯JSON，确保语法正确。我将写出大概，然后整合。药物b必须使用通用类别名，优先常见类别。例如抗凝药可以用warfarin作为代表，但要求“使用通用药物类别名”，如 "warfarin" 不完全是类别，可以 "warfarin" 视作类别？示例"vitamin A supplements", "tetracycline antibiotics"。要求是通用药物类别名，所以我可以使用 "warfarin" (作为抗凝药的代表)，但最好用 “anticoagulants (warfarin)” 或 “anticoagulants”。根据示例“tetracycline antibiotics”使用复数类别名。要求 “使用通用药物类别名, 如 "warfarin", "MAO inhibitors", "CYP3A4 inhibitors"”，warfarin是一种药，但可作为抗凝药代表。我使用 "anticoagulants (warfarin)" 或直接 "warfarin"？示例"warfarin" 作为类别名，表示华法林类抗凝药。我可以使用 "warfarin" 但覆盖所有抗凝药时可用 "anticoagulants (e.g., warfarin, DOACs)"。为严格，采用 "warfarin" 代表抗凝药，但要求是通用类别名，warfarin是具体药。但解释中允许举例。为确保准确，我会使用如 "anticoagulants (warfarin, direct oral anticoagulants)" 或者直接用 "warfarin"。用全小写 "warfarin"。其他如 "CYP3A4 inhibitors", "MAO inhibitors", "proton pump inhibitors" 等。我将参照。
+            - paragraph [ref=e466]: 开始生成JSON。注意药物列表有些重复，需要按顺序来。我将所有药名作为generic_name。
+            - paragraph [ref=e467]: 列举并构建：
+            - list [ref=e468]:
+              - listitem [ref=e469]:
+                - paragraph [ref=e470]:
+                  - text: tenofovir disoproxil
+                  - text: "interactions:"
+                - list [ref=e471]:
+                  - listitem [ref=e472]:
+                    - paragraph [ref=e473]: "drug_a: \"tenofovir disoproxil\", drug_b: \"didanosine\", interaction_type: \"major\", clinical_effect: \"增加去羟肌苷血药浓度，导致胰腺炎、乳酸酸中毒等严重毒性风险\", mechanism: \"抑制去羟肌苷代谢/增加其吸收\""
+                  - listitem [ref=e474]:
+                    - paragraph [ref=e475]: "drug_a: ..., drug_b: \"nephrotoxic agents (e.g., aminoglycosides, amphotericin B)\", interaction_type: \"major\", clinical_effect: \"增加肾毒性风险\", mechanism: \"肾毒性相加\""
+                  - listitem [ref=e476]:
+                    - paragraph [ref=e477]: "drug_b: \"nonsteroidal anti-inflammatory drugs (NSAIDs)\", interaction_type: \"moderate\", clinical_effect: \"增加肾功能损害风险\", mechanism: \"共同影响肾灌注\""
+                  - listitem [ref=e478]:
+                    - paragraph [ref=e479]:
+                      - text: "drug_b: \"atazanavir (unboosted)\", interaction_type: \"moderate\", clinical_effect: \"降低阿扎那韦血药浓度，可能导致HIV治疗失败\", mechanism: \"替诺福韦降低阿扎那韦吸收/暴露\""
+                      - text: (atazanavir是药物，但可以用类别？可以写"atazanavir"作为一种情况。但要求类别名，也许用 "unboosted atazanavir"? 可以。但最好使用"atazanavir"。允许。)
+              - listitem [ref=e480]:
+                - paragraph [ref=e481]:
+                  - text: lopinavir and ritonavir
+                  - text: "interactions:"
+                - list [ref=e482]:
+                  - listitem [ref=e483]:
+                    - paragraph [ref=e484]: "drug_a: \"lopinavir and ritonavir\", drug_b: \"class IA and III antiarrhythmics (e.g., amiodarone, quinidine)\", interaction_type: \"major\", clinical_effect: \"抗心律失常药血药浓度显著升高，导致严重心律失常\", mechanism: \"强CYP3A4抑制\""
+                  - listitem [ref=e485]:
+                    - paragraph [ref=e486]: "drug_b: \"ergot alkaloids\", interaction_type: \"major\", clinical_effect: \"增加麦角中毒风险(外周缺血、坏疽)\", mechanism: \"CYP3A4抑制减少麦角代谢\""
+                  - listitem [ref=e487]:
+                    - paragraph [ref=e488]: "drug_b: \"oral midazolam, triazolam\", interaction_type: \"major\", clinical_effect: \"过度镇静和呼吸抑制\", mechanism: \"CYP3A4抑制显著升高苯二氮䓬浓度\""
+                  - listitem [ref=e489]:
+                    - paragraph [ref=e490]: "drug_b: \"simvastatin, lovastatin\", interaction_type: \"major\", clinical_effect: \"横纹肌溶解风险显著增加\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e491]:
+                    - paragraph [ref=e492]: "drug_b: \"rifampin\", interaction_type: \"major\", clinical_effect: \"洛匹那韦血药浓度显著降低，导致抗病毒治疗失败及耐药\", mechanism: \"CYP3A4强诱导\""
+                  - listitem [ref=e493]:
+                    - paragraph [ref=e494]: "drug_b: \"inhaled fluticasone\", interaction_type: \"major\", clinical_effect: \"全身性皮质类固醇效应，库欣综合征，肾上腺抑制\", mechanism: \"CYP3A4抑制升高氟替卡松浓度\""
+                  - listitem [ref=e495]:
+                    - paragraph [ref=e496]: "drug_b: \"PDE5 inhibitors (sildenafil, tadalafil)\", interaction_type: \"major\", clinical_effect: \"PDE5抑制剂浓度升高导致低血压、视力异常、异常勃起\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e497]:
+                    - paragraph [ref=e498]: "drug_b: \"carbamazepine\", interaction_type: \"moderate\", clinical_effect: \"洛匹那韦浓度降低，可能同时增加卡马西平水平\", mechanism: \"CYP3A4诱导+抑制竞争\""
+                  - listitem [ref=e499]:
+                    - paragraph [ref=e500]:
+                      - text: "drug_b: \"apixaban, rivaroxaban\", interaction_type: \"major\", clinical_effect: \"出血风险增加\", mechanism: \"CYP3A4和P-gp抑制\""
+                      - text: (同时可列口服避孕药，但可选)
+              - listitem [ref=e501]:
+                - paragraph [ref=e502]:
+                  - text: etravirine
+                  - text: "interactions:"
+                - list [ref=e503]:
+                  - listitem [ref=e504]:
+                    - paragraph [ref=e505]: "drug_a: \"etravirine\", drug_b: \"carbamazepine, phenytoin, phenobarbital\", interaction_type: \"major\", clinical_effect: \"依曲韦林血药浓度显著降低，可能导致治疗失败\", mechanism: \"CYP3A4诱导\""
+                  - listitem [ref=e506]:
+                    - paragraph [ref=e507]: "drug_b: \"rifampin\", interaction_type: \"major\", clinical_effect: \"依曲韦林浓度显著降低\", mechanism: \"CYP3A4诱导\""
+                  - listitem [ref=e508]:
+                    - paragraph [ref=e509]: "drug_b: \"hormonal contraceptives (ethinyl estradiol/norethindrone)\", interaction_type: \"major\", clinical_effect: \"避孕失败风险增加\", mechanism: \"依曲韦林诱导雌激素/孕激素代谢\""
+                  - listitem [ref=e510]:
+                    - paragraph [ref=e511]: "drug_b: \"St. John's wort\", interaction_type: \"major\", clinical_effect: \"依曲韦林浓度降低\", mechanism: \"CYP3A4诱导\""
+                  - listitem [ref=e512]:
+                    - paragraph [ref=e513]: "drug_b: \"warfarin\", interaction_type: \"moderate\", clinical_effect: \"华法林抗凝效果可能减低，需监测INR\", mechanism: \"CYP2C9诱导可能降低S-华法林水平\""
+                  - listitem [ref=e514]:
+                    - paragraph [ref=e515]: "drug_b: \"immunosuppressants (tacrolimus, cyclosporine, sirolimus)\", interaction_type: \"moderate\", clinical_effect: \"免疫抑制剂血药浓度降低，器官排斥风险\", mechanism: \"CYP3A4诱导\""
+                  - listitem [ref=e516]:
+                    - paragraph [ref=e517]: "drug_b: \"proton pump inhibitors, antacids\", interaction_type: \"moderate\", clinical_effect: \"依曲韦林吸收减少，浓度降低\", mechanism: \"升高胃pH降低依曲韦林溶解度\""
+              - listitem [ref=e518]:
+                - paragraph [ref=e519]:
+                  - text: abacavir
+                  - text: "interactions:"
+                - list [ref=e520]:
+                  - listitem [ref=e521]:
+                    - paragraph [ref=e522]: "drug_a: \"abacavir\", drug_b: \"alcohol (ethanol)\", interaction_type: \"moderate\", clinical_effect: \"阿巴卡韦血药浓度升高约41%，可能增加毒性\", mechanism: \"竞争醇脱氢酶抑制阿巴卡韦代谢\""
+                  - listitem [ref=e523]:
+                    - paragraph [ref=e524]: "drug_b: \"methadone\", interaction_type: \"moderate\", clinical_effect: \"阿巴卡韦浓度降低，可能需要调整剂量\", mechanism: \"机制不明\""
+              - listitem [ref=e525]:
+                - paragraph [ref=e526]:
+                  - text: emtricitabine and tenofovir
+                  - text: "interactions: 主要替诺福韦"
+                - list [ref=e527]:
+                  - listitem [ref=e528]:
+                    - paragraph [ref=e529]: "drug_a: \"emtricitabine and tenofovir\", drug_b: \"didanosine\", interaction_type: \"major\", clinical_effect: \"去羟肌苷浓度显著升高，胰腺炎、乳酸酸中毒风险\", mechanism: \"替诺福韦增加去羟肌苷暴露\""
+                  - listitem [ref=e530]:
+                    - paragraph [ref=e531]: "drug_b: \"nephrotoxic agents (e.g., aminoglycosides, amphotericin B)\", interaction_type: \"major\", clinical_effect: \"肾毒性风险增加\", mechanism: \"替诺福韦的肾毒性相加\""
+                  - listitem [ref=e532]:
+                    - paragraph [ref=e533]: "drug_b: \"NSAIDs\", interaction_type: \"moderate\", clinical_effect: \"肾功能减退风险\", mechanism: \"联合影响肾脏\""
+                  - listitem [ref=e534]:
+                    - paragraph [ref=e535]: "drug_b: \"unboosted atazanavir\", interaction_type: \"moderate\", clinical_effect: \"阿扎那韦浓度下降\", mechanism: \"替诺福韦降低阿扎那韦暴露\""
+              - listitem [ref=e536]:
+                - paragraph [ref=e537]:
+                  - text: cobicistat and darunavir
+                  - text: "interactions: 强CYP3A抑制相关"
+                - list [ref=e538]:
+                  - listitem [ref=e539]:
+                    - paragraph [ref=e540]: "drug_a: \"cobicistat and darunavir\", drug_b: \"class IA and III antiarrhythmics\", interaction_type: \"major\", clinical_effect: \"严重心律失常\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e541]:
+                    - paragraph [ref=e542]: "drug_b: \"ergot alkaloids\", interaction_type: \"major\", clinical_effect: \"麦角中毒\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e543]:
+                    - paragraph [ref=e544]: "drug_b: \"oral midazolam, triazolam\", interaction_type: \"major\", clinical_effect: \"过度镇静\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e545]:
+                    - paragraph [ref=e546]: "drug_b: \"simvastatin, lovastatin\", interaction_type: \"major\", clinical_effect: \"横纹肌溶解\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e547]:
+                    - paragraph [ref=e548]: "drug_b: \"rifampin\", interaction_type: \"major\", clinical_effect: \"达芦那韦和考比司他浓度显著降低，治疗失败\", mechanism: \"CYP3A4强诱导\""
+                  - listitem [ref=e549]:
+                    - paragraph [ref=e550]: "drug_b: \"inhaled fluticasone\", interaction_type: \"major\", clinical_effect: \"库欣综合征\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e551]:
+                    - paragraph [ref=e552]: "drug_b: \"PDE5 inhibitors\", interaction_type: \"major\", clinical_effect: \"低血压、异常勃起\", mechanism: \"CYP3A4抑制\""
+                  - listitem [ref=e553]:
+                    - paragraph [ref=e554]: "drug_b: \"antacids, H2 receptor antagonists\", interaction_type: \"moderate\", clinical_effect: \"达芦那韦吸收减少\", mechanism: \"胃酸降低\""
+              - listitem [ref=e555]:
+                - paragraph [ref=e556]:
+                  - text: lamivudine and zidovudine (齐多拉米)
+                  - text: "interactions: 齐多夫定交互"
+                - list [ref=e557]:
+                  - listitem [ref=e558]:
+                    - paragraph [ref=e559]: "drug_a: \"lamivudine and zidovudine\", drug_b: \"ganciclovir, valganciclovir\", interaction_type: \"major\", clinical_effect: \"严重骨髓抑制(中性粒细胞减少、贫血)\", mechanism: \"叠加骨髓毒性\""
+                  - listitem [ref=e560]:
+                    - paragraph [ref=e561]: "drug_b: \"stavudine\", interaction_type: \"major\", clinical_effect: \"竞争性拮抗，降低抗病毒效价\", mechanism: \"细胞内磷酸化竞争\""
+                  - listitem [ref=e562]:
+                    - paragraph [ref=e563]: "drug_b: \"ribavirin\", interaction_type: \"moderate\", clinical_effect: \"增加乳酸酸中毒和骨髓抑制风险\", mechanism: \"线粒体毒性叠加\""
+                  - listitem [ref=e564]:
+                    - paragraph [ref=e565]: "drug_b: \"probenecid\", interaction_type: \"moderate\", clinical_effect: \"齐多夫定浓度升高，可能"
+      - generic [ref=e287]:
+        - generic [ref=e290]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e293]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e294]:
+            - button "深度思考" [ref=e295] [cursor=pointer]:
+              - img [ref=e297]
+              - generic [ref=e300]: 深度思考
+            - button "智能搜索" [ref=e301] [cursor=pointer]:
+              - img [ref=e303]
+              - generic [ref=e305]: 智能搜索
+            - generic [ref=e306]:
+              - button [ref=e307] [cursor=pointer]:
+                - img [ref=e310]
+              - button [ref=e313] [cursor=pointer]:
+                - img [ref=e372]
+        - generic [ref=e318]: 内容由 AI 生成，请仔细甄别

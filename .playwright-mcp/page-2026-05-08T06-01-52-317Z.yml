@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - generic [ref=e85] [cursor=pointer]: 新对话
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - generic [ref=e90]: 快速模式
+      - button [ref=e91] [cursor=pointer]:
+        - img [ref=e94]
+    - generic [ref=e97]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 过敏性皮炎 | Cetirizine; Betamethasone; Clobetasol; Desloratadine; Desonide 疾病: 过敏性鼻炎 | Cetirizine; Mometasone; Olopatadine; fluticasone; Loratadine 疾病: 酒渣鼻 | Doxycycline; Erythromycin; Oxytetracycline; Spironolactone; Tazarotene 疾病: 酗酒 | Alprazolam; Aripiprazole; Bupropion; Buspirone; Chlordiazepoxide 疾病: 银屑病 | Betamethasone; Clobetasol; Desonide; Desoximetasone; Fluocinolone 疾病: 银屑病关节炎 | Diclofenac; Apremilast; Betamethasone; Calcitriol; Clobetasol 疾病: 链球菌咽炎 | Amoxicillin; Azithromycin; Cefaclor; Cefadroxil; Cefdinir 疾病: 阑尾炎 | Amoxicillin-Clavulanate; Cefotaxime; Cefoxitin; Ceftaroline; Ceftibuten 疾病: 阳痿 | Sildenafil; Tadalafil; Papaverine; Vardenafil; alprostadil 疾病: 阴道炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Cefaclor; Cefadroxil 疾病: 阿尔茨海默病 | aducanumab; Lorazepam; vitamin E; vitamin e(oral); Vitamin E Capsules 疾病: 附件炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Ampicillin-Sulbactam; Cefaclor 疾病: 青光眼 | Timolol; betaxolol; Brimonidine; Brinzolamide; Latanoprost 疾病: 预防中风 | Amlodipine; Fluvastatin; Amlodipine-Benazepril; Amlodipine-Valsartan; Benazepril 疾病: 颈椎病 | Aspirin; Baclofen; Carisoprodol; Cyclobenzaprine; Diclofenac 疾病: 骨关节炎 | Diclofenac; Etodolac; Flurbiprofen; Ibuprofen; Indomethacin 疾病: 骨质疏松 | Estradiol; Pamidronate; Calcium Carbonate; Calcitonin; Raloxifene 疾病: 骨质疏松症 | Estradiol; Pamidronate; Calcium Carbonate; Calcitonin; Raloxifene 疾病: 高胆固醇 | Amlodipine; Colesevelam; Ezetimibe; Fenofibrate; Fluvastatin 疾病: 高脂血症 | Colesevelam; Amlodipine; amlodipine+atorvastatin; niacin; niacin(oral) 疾病: 高血压 | Amlodipine; Amlodipine-Benazepril; Amlodipine-Valsartan; Benazepril; Bumetanide 疾病: 高血脂 | Colesevelam; Amlodipine; amlodipine+atorvastatin; niacin; niacin(oral) 疾病: 鼻塞 | Cetirizine; Mometasone; Olopatadine; fluticasone; Loratadine 疾病: 鼻窦炎 | Amoxicillin; Amoxicillin-Clavulanate; Cefaclor; Cefdinir; Cefpodoxime 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e105]:
+            - button [ref=e106] [cursor=pointer]:
+              - img [ref=e109]
+            - button [ref=e111] [cursor=pointer]:
+              - img [ref=e114]
+        - generic [ref=e118]:
+          - generic [ref=e120] [cursor=pointer]:
+            - img [ref=e122]
+            - generic [ref=e125]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e127]
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: 我们针对每种疾病评估前5个药物。注意有些疾病有重复或类似。需要医学知识。
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - paragraph [ref=e137]: 过敏性皮炎：推荐Cetirizine（西替利嗪，抗组胺药，适合过敏性皮炎的口服药），Betamethasone（倍他米松，糖皮质激素，适合外用或系统用），Clobetasol（氯倍他索，强效激素），Desloratadine（地氯雷他定，抗组胺药），Desonide（地奈德，弱效激素）。所有都是治疗过敏性皮炎的常用药物。抗组胺药止痒，激素抗炎。所以APPROPRIATE。
+              - listitem [ref=e138]:
+                - paragraph [ref=e139]: 过敏性鼻炎：Cetirizine（口服抗组胺），Mometasone（莫米松鼻喷雾），Olopatadine（奥洛他定，鼻喷雾或口服？通常用于过敏性结膜炎也用于鼻炎），fluticasone（氟替卡松鼻喷雾），Loratadine（口服抗组胺）。这些都是一线药物。APPROPRIATE。
+              - listitem [ref=e140]:
+                - paragraph [ref=e141]: 酒渣鼻：Doxycycline（多西环素，口服抗生素，用于炎症性酒渣鼻），Erythromycin（红霉素，外用或口服），Oxytetracycline（土霉素，四环素类，可用于酒渣鼻），Spironolactone（螺内酯，主要用于痤疮？酒渣鼻不常用，但可能用于女性荷尔蒙相关？不是标准治疗），Tazarotene（他扎罗汀，维A酸类，可用于酒渣鼻？通常用于痤疮和银屑病，酒渣鼻有时用外用维A酸，但不是首选。螺内酯不太合适。所以部分适合。评价：PARTIALLY。
+              - listitem [ref=e174]:
+                - paragraph [ref=e175]: 酗酒（酒精使用障碍）：Alprazolam（阿普唑仑，苯二氮卓类，用于酒精戒断？但用于治疗酗酒本身？不推荐，有滥用风险），Aripiprazole（阿立哌唑，抗精神病药，不用于酗酒），Bupropion（安非他酮，抗抑郁/戒烟，对酒精依赖证据有限），Buspirone（丁螺环酮，抗焦虑，不用于酗酒），Chlordiazepoxide（氯氮卓，苯二氮卓类，用于酒精戒断症状）。这些药物中，只有氯氮卓用于戒断，其他均不适当。整体不适当。INAPPROPRIATE。
+              - listitem [ref=e176]:
+                - paragraph [ref=e177]: 银屑病：Betamethasone（倍他米松，激素），Clobetasol（氯倍他索，强效激素），Desonide（地奈德，弱效激素），Desoximetasone（去羟米松，激素），Fluocinolone（氟轻松，激素）。这些都是外用糖皮质激素，用于治疗银屑病。但注意银屑病治疗还包括其他药物，但外用激素是常用。所以全部适合。APPROPRIATE。
+              - listitem [ref=e178]:
+                - paragraph [ref=e179]: 银屑病关节炎：Diclofenac（双氯芬酸，NSAIDs对症），Apremilast（阿普斯特，PDE4抑制剂，用于银屑病关节炎），Betamethasone（激素，用于炎症），Calcitriol（骨化三醇，维生素D类似物，用于银屑病皮肤，但对关节炎无效），Clobetasol（氯倍他索，外用激素，对关节炎无效）。Calcitriol和Clobetasol不适合治疗关节炎，只对皮肤有效。所以部分适合。PARTIALLY。
+              - listitem [ref=e180]:
+                - paragraph [ref=e181]: 链球菌咽炎：Amoxicillin（阿莫西林，一线），Azithromycin（阿奇霉素，替代），Cefaclor（头孢克洛），Cefadroxil（头孢羟氨苄），Cefdinir（头孢地尼）。都是口服抗生素，对链球菌有效。APPROPRIATE。
+              - listitem [ref=e182]:
+                - paragraph [ref=e183]: 阑尾炎：推荐Amoxicillin-Clavulanate（阿莫西林克拉维酸钾），Cefotaxime（头孢噻肟），Cefoxitin（头孢西丁），Ceftaroline（头孢洛林），Ceftibuten（头孢布烯）。阑尾炎通常需要覆盖肠道菌群，包括厌氧菌。阿莫西林克拉维酸钾可以，头孢西丁有抗厌氧活性，头孢噻肟是三代头孢但抗厌氧弱，通常联合甲硝唑；头孢洛林是五代头孢，不常规；头孢布烯是三代口服，不适用于严重感染。这些药物中部分不适合。通常阑尾炎治疗常用头孢西丁、头孢替坦等，或哌拉西林他唑巴坦。但这里有的药物缺乏抗厌氧菌谱。所以PARTIALLY或INAPPROPRIATE？需要判断。合理评分：部分适合，因为阿莫西林克拉维酸钾和头孢西丁可以，其他可能不合适。但头孢噻肟需加甲硝唑，单用不充分。所以PARTIALLY。
+              - listitem [ref=e184]:
+                - paragraph [ref=e185]: 阳痿：Sildenafil（西地那非），Tadalafil（他达拉非），Papaverine（罂粟碱，注射用），Vardenafil（伐地那非），alprostadil（前列地尔，注射或尿道栓）。全部是治疗勃起功能障碍的药物。APPROPRIATE。
+              - listitem [ref=e186]:
+                - paragraph [ref=e187]: 阴道炎：推荐Amikacin（阿米卡星，氨基糖苷类，一般不用于阴道炎），Amoxicillin（阿莫西林，不针对常见病原体），Amoxicillin-Clavulanate（阿莫西林克拉维酸钾），Cefaclor（头孢克洛），Cefadroxil（头孢羟氨苄）。阴道炎常见病因：细菌性阴道病（厌氧菌、加德纳菌）、念珠菌、滴虫。这些抗生素对细菌性阴道病不典型，通常用甲硝唑、克林霉素。阿莫西林等不适用。所以完全不适合。INAPPROPRIATE。
+              - listitem [ref=e188]:
+                - paragraph [ref=e189]: 阿尔茨海默病：aducanumab（阿杜那单抗，抗淀粉样蛋白，用于AD），Lorazepam（劳拉西泮，苯二氮卓，不用于治疗AD，反而可能加重认知障碍），vitamin E（维生素E，有一些研究但非标准治疗），vitamin e(oral)重复，Vitamin E Capsules重复。所以仅有aducanumab是AD治疗药物，其他不合适。但注意维生素E曾被用于延缓认知下降，但证据不足，指南不推荐常规使用。总体PARTIALLY？或者INAPPROPRIATE？因为劳拉西泮完全不合适，维生素E争议。通常认为不适当。但根据评分标准，推荐药物完全不适合才INAPPROPRIATE。这里有一个适合（aducanumab），其他不适合，所以是PARTIALLY。
+              - listitem [ref=e190]:
+                - paragraph [ref=e191]: 附件炎（输卵管卵巢炎）：推荐Amikacin（阿米卡星，氨基糖苷类，可与其他联用），Amoxicillin（阿莫西林，不覆盖厌氧菌），Amoxicillin-Clavulanate（可），Ampicillin-Sulbactam（氨苄西林舒巴坦，可），Cefaclor（头孢克洛，二代头孢，不覆盖厌氧菌）。附件炎通常需覆盖淋病奈瑟菌、衣原体、厌氧菌等。常用头孢曲松+多西环素±甲硝唑。这里阿米卡星、氨苄西林舒巴坦、阿莫西林克拉维酸钾可能有效但非首选；阿莫西林和头孢克洛不充分。所以部分适合。PARTIALLY。
+              - listitem [ref=e192]:
+                - paragraph [ref=e193]: 青光眼：Timolol（噻吗洛尔，β阻滞剂），betaxolol（倍他洛尔），Brimonidine（溴莫尼定，α激动剂），Brinzolamide（布林佐胺，碳酸酐酶抑制剂），Latanoprost（拉坦前列素，前列腺素类似物）。全部是常用降眼压药。APPROPRIATE。
+              - listitem [ref=e194]:
+                - paragraph [ref=e195]: 预防中风：推荐Amlodipine（氨氯地平，降压药，预防中风），Fluvastatin（氟伐他汀，他汀类，预防血栓性中风），Amlodipine-Benazepril，Amlodipine-Valsartan，Benazepril（贝那普利）。这些都是降压药和他汀，用于预防中风是合理的。但注意预防中风包括抗血小板药（如阿司匹林）等，这些药物主要用于控制危险因素。所以作为一级预防或二级预防的组成部分，是适当的。但是否完全适合？通常降压药和他汀确实降低中风风险。所以APPROPRIATE。
+              - listitem [ref=e196]:
+                - paragraph [ref=e197]: 颈椎病：推荐Aspirin（阿司匹林，止痛抗炎），Baclofen（巴氯芬，肌肉松弛剂），Carisoprodol（卡立普多，肌肉松弛剂），Cyclobenzaprine（环苯扎林，肌肉松弛剂），Diclofenac（双氯芬酸，NSAID）。这些药物用于缓解颈椎病的疼痛、肌肉痉挛等症状，是合理的。APPROPRIATE。
+              - listitem [ref=e198]:
+                - paragraph [ref=e199]: 骨关节炎：Diclofenac, Etodolac, Flurbiprofen, Ibuprofen, Indomethacin。全部是NSAIDs，用于骨关节炎止痛抗炎。APPROPRIATE。
+              - listitem [ref=e200]:
+                - paragraph [ref=e201]: 骨质疏松：Estradiol（雌二醇，激素替代），Pamidronate（帕米膦酸盐，双膦酸盐），Calcium Carbonate（碳酸钙），Calcitonin（降钙素），Raloxifene（雷洛昔芬，SERM）。这些均为治疗骨质疏松的药物。注意雌激素用于女性，双
+      - generic [ref=e143]:
+        - generic [ref=e146]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e148]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e149]:
+            - button "深度思考" [pressed] [ref=e150] [cursor=pointer]:
+              - img [ref=e152]
+              - generic [ref=e155]: 深度思考
+            - button "智能搜索" [pressed] [ref=e156] [cursor=pointer]:
+              - img [ref=e158]
+              - generic [ref=e160]: 智能搜索
+            - generic [ref=e161]:
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e165]
+              - button [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+        - generic [ref=e173]: 内容由 AI 生成，请仔细甄别

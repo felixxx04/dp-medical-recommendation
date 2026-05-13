@@ -1,0 +1,78 @@
+[
+  {
+    "disease": "脱发",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "多囊卵巢综合征",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "不孕",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "勃起功能障碍",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "阳痿",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "痛经",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "月经不调: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "更年期综合征",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "戒烟",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "酗酒",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "中毒: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "中风",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑卒中",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗死: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "月经不调",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "中毒",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗死",
+    "rating": "APPROPRIATE"
+  }
+]

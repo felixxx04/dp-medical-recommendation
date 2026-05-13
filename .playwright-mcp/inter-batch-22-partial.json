@@ -1,0 +1,841 @@
+[
+  {
+    "generic_name": "eslicarbazepine",
+    "interactions": [
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "CYP2C19 substrates (e.g., clopidogrel, omeprazole)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低CYP2C19底物药物疗效",
+        "mechanism": "CYP2C19诱导作用加速底物代谢"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "other anticonvulsants (e.g., carbamazepine, phenytoin, lamotrigine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低合用抗惊厥药血药浓度，增加癫痫发作风险",
+        "mechanism": "UDP-glucuronosyltransferase (UGT)和CYP3A4诱导"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "hormonal contraceptives",
+        "interaction_type": "major",
+        "clinical_effect": "降低避孕效果，导致意外妊娠",
+        "mechanism": "CYP3A4诱导加速雌激素和孕激素代谢"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "CYP3A4 substrates with narrow therapeutic index (e.g., cyclosporine, tacrolimus)",
+        "interaction_type": "major",
+        "clinical_effect": "降低免疫抑制剂疗效，增加移植物排斥反应风险",
+        "mechanism": "CYP3A4诱导加速底物代谢"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征风险",
+        "mechanism": "药效学协同增加5-羟色胺能活性"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低华法林抗凝效果，增加血栓风险",
+        "mechanism": "CYP2C9诱导加速华法林代谢"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低三环类抗抑郁药血药浓度，影响抗抑郁疗效",
+        "mechanism": "CYP3A4诱导加速代谢"
+      },
+      {
+        "drug_a": "eslicarbazepine",
+        "drug_b": "SSRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低钠血症风险",
+        "mechanism": "药效学协同影响抗利尿激素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "diazepam",
+    "interactions": [
+      {
+        "drug_a": "diazepam",
+        "drug_b": "opioids",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重镇静、呼吸抑制、昏迷甚至死亡风险",
+        "mechanism": "药效学协同CNS抑制作用"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, clarithromycin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加地西泮血药浓度，延长镇静作用，增加呼吸抑制风险",
+        "mechanism": "CYP3A4代谢抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "CYP3A4 inducers (e.g., rifampin, carbamazepine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低地西泮血药浓度，影响抗焦虑/抗惊厥疗效",
+        "mechanism": "CYP3A4诱导加速代谢"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "other CNS depressants (alcohol, barbiturates, antipsychotics)",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS抑制、呼吸抑制、过度镇静",
+        "mechanism": "药效学相加CNS抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "clozapine",
+        "interaction_type": "major",
+        "clinical_effect": "增加呼吸抑制、心血管衰竭风险",
+        "mechanism": "药效学协同CNS和呼吸抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "延长地西泮半衰期，增强镇静作用",
+        "mechanism": "抑制葡萄糖醛酸结合代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "diazepam rectal",
+    "interactions": [
+      {
+        "drug_a": "diazepam",
+        "drug_b": "opioids",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重镇静、呼吸抑制、昏迷甚至死亡风险",
+        "mechanism": "药效学协同CNS抑制作用"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, clarithromycin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加地西泮血药浓度，延长镇静作用，增加呼吸抑制风险",
+        "mechanism": "CYP3A4代谢抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "other CNS depressants (alcohol, barbiturates, antipsychotics)",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS抑制、呼吸抑制、过度镇静",
+        "mechanism": "药效学相加CNS抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "CYP3A4 inducers (e.g., rifampin, carbamazepine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低地西泮血药浓度，影响抗惊厥疗效",
+        "mechanism": "CYP3A4诱导加速代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "pyridoxine (vitamin B6)",
+    "interactions": [
+      {
+        "drug_a": "pyridoxine",
+        "drug_b": "levodopa (without carbidopa)",
+        "interaction_type": "major",
+        "clinical_effect": "降低左旋多巴抗帕金森病疗效",
+        "mechanism": "增加左旋多巴外周脱羧代谢"
+      },
+      {
+        "drug_a": "pyridoxine",
+        "drug_b": "phenytoin",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低苯妥英钠血药浓度，增加癫痫发作风险",
+        "mechanism": "增加苯妥英钠代谢清除"
+      },
+      {
+        "drug_a": "pyridoxine",
+        "drug_b": "phenobarbital",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低苯巴比妥血药浓度",
+        "mechanism": "增加苯巴比妥代谢"
+      },
+      {
+        "drug_a": "pyridoxine",
+        "drug_b": "altretamine",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低六甲蜜胺抗肿瘤疗效",
+        "mechanism": "药效学拮抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "brivaracetam",
+    "interactions": [
+      {
+        "drug_a": "brivaracetam",
+        "drug_b": "other antiepileptic drugs (carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加布瓦西坦清除率，降低疗效",
+        "mechanism": "CYP2C19诱导"
+      },
+      {
+        "drug_a": "brivaracetam",
+        "drug_b": "rifampin",
+        "interaction_type": "moderate",
+        "clinical_effect": "显著降低布瓦西坦血药浓度，降低抗惊厥疗效",
+        "mechanism": "CYP2C19强诱导"
+      },
+      {
+        "drug_a": "brivaracetam",
+        "drug_b": "CYP2C19 inhibitors (e.g., fluconazole, fluvoxamine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加布瓦西坦血药浓度，增加不良反应风险",
+        "mechanism": "CYP2C19代谢抑制"
+      },
+      {
+        "drug_a": "brivaracetam",
+        "drug_b": "alcohol",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加CNS抑制和嗜睡",
+        "mechanism": "药效学相加CNS抑制"
+      },
+      {
+        "drug_a": "brivaracetam",
+        "drug_b": "opioids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和呼吸抑制风险",
+        "mechanism": "药效学相加CNS抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "levetiracetam",
+    "interactions": [
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "other CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静、嗜睡、CNS抑制",
+        "mechanism": "药效学相加CNS抑制"
+      },
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "methotrexate",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加甲氨蝶呤毒性风险(骨髓抑制、肾毒性)",
+        "mechanism": "竞争性抑制肾小管分泌降低甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加左乙拉西坦血药浓度",
+        "mechanism": "抑制肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "levetiracetam extended-release",
+    "interactions": [
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "other CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静、嗜睡、CNS抑制",
+        "mechanism": "药效学相加CNS抑制"
+      },
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "methotrexate",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争性抑制肾小管分泌"
+      },
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加左乙拉西坦血药浓度",
+        "mechanism": "抑制肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "cenobamate",
+    "interactions": [
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "CYP2B6 substrates (e.g., bupropion, efavirenz)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低CYP2B6底物血药浓度，影响疗效",
+        "mechanism": "CYP2B6诱导"
+      },
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "CYP3A4 substrates (e.g., midazolam, simvastatin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低CYP3A4底物血药浓度",
+        "mechanism": "CYP3A4中度诱导"
+      },
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "CYP2C19 substrates (e.g., clopidogrel)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低氯吡格雷活性代谢物浓度，降低抗血小板疗效",
+        "mechanism": "CYP2C19抑制"
+      },
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "phenytoin",
+        "interaction_type": "major",
+        "clinical_effect": "增加苯妥英钠血药浓度，增加毒性风险(共济失调、眼球震颤)",
+        "mechanism": "CYP2C19抑制苯妥英钠代谢"
+      },
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "lamotrigine",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低拉莫三嗪血药浓度，增加癫痫发作风险",
+        "mechanism": "UGT诱导"
+      },
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "hormonal contraceptives",
+        "interaction_type": "major",
+        "clinical_effect": "降低避孕效果",
+        "mechanism": "CYP3A4诱导"
+      },
+      {
+        "drug_a": "cenobamate",
+        "drug_b": "other CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS抑制、过度镇静",
+        "mechanism": "药效学相加CNS抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "methsuximide",
+    "interactions": [
+      {
+        "drug_a": "methsuximide",
+        "drug_b": "other anticonvulsants (phenytoin, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "相互影响血药浓度，增加毒性风险",
+        "mechanism": "代谢酶竞争与诱导"
+      },
+      {
+        "drug_a": "methsuximide",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和CNS抑制",
+        "mechanism": "药效学相加CNS抑制"
+      },
+      {
+        "drug_a": "methsuximide",
+        "drug_b": "valproic acid",
+        "interaction_type": "moderate",
+        "clinical_effect": "改变乙琥胺类血药浓度，增加不良反应",
+        "mechanism": "蛋白结合置换和代谢抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "ganaxolone",
+    "interactions": [
+      {
+        "drug_a": "ganaxolone",
+        "drug_b": "CYP3A4 inducers (e.g., rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低加奈索酮血药浓度，导致抗惊厥疗效丧失",
+        "mechanism": "CYP3A4强诱导"
+      },
+      {
+        "drug_a": "ganaxolone",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, clarithromycin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加加奈索酮血药浓度，增加镇静等不良反应",
+        "mechanism": "CYP3A4代谢抑制"
+      },
+      {
+        "drug_a": "ganaxolone",
+        "drug_b": "other CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "major",
+        "clinical_effect": "严重镇静、呼吸抑制、CNS抑制",
+        "mechanism": "药效学相加GABA能CNS抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "alteplase",
+    "interactions": [
+      {
+        "drug_a": "alteplase",
+        "drug_b": "anticoagulants (warfarin, heparin, direct oral anticoagulants)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加出血风险(颅内出血、消化道出血)",
+        "mechanism": "药效学相加抗凝/纤溶作用"
+      },
+      {
+        "drug_a": "alteplase",
+        "drug_b": "antiplatelet agents (aspirin, clopidogrel, NSAIDs)",
+        "interaction_type": "major",
+        "clinical_effect": "严重增加出血风险",
+        "mechanism": "药效学相加血小板抑制和纤溶"
+      },
+      {
+        "drug_a": "alteplase",
+        "drug_b": "ACE inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加血管性水肿风险",
+        "mechanism": "药效学协同影响缓激肽代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "peramivir",
+    "interactions": [
+      {
+        "drug_a": "peramivir",
+        "drug_b": "live attenuated influenza vaccine",
+        "interaction_type": "major",
+        "clinical_effect": "降低疫苗免疫效果，可能导致流感感染",
+        "mechanism": "抗病毒药物抑制疫苗病毒复制"
+      }
+    ]
+  },
+  {
+    "generic_name": "methenamine",
+    "interactions": [
+      {
+        "drug_a": "methenamine",
+        "drug_b": "urinary alkalinizers (acetazolamide, potassium citrate, sodium bicarbonate, antacids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低甲烯胺抗菌效果，导致UTI治疗失败",
+        "mechanism": "碱化尿液抑制甲烯胺转化为活性甲醛"
+      },
+      {
+        "drug_a": "methenamine",
+        "drug_b": "sulfonamides (sulfamethoxazole)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加磺胺类药物结晶尿风险",
+        "mechanism": "酸性尿液增加磺胺沉淀"
+      }
+    ]
+  },
+  {
+    "generic_name": "hyoscyamine, methenamine, methylene blue, phenyl salicylate, sodium biphosphate monobasic",
+    "interactions": [
+      {
+        "drug_a": "methylene blue",
+        "drug_b": "SSRIs",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征风险(高热、肌阵挛、意识障碍)",
+        "mechanism": "MAO-A抑制与SSRI协同增加5-HT"
+      },
+      {
+        "drug_a": "methylene blue",
+        "drug_b": "SNRIs",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征风险",
+        "mechanism": "MAO-A抑制增加5-HT和NE"
+      },
+      {
+        "drug_a": "methylene blue",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重5-羟色胺综合征和高血压危象风险",
+        "mechanism": "相加MAO抑制"
+      },
+      {
+        "drug_a": "methylene blue",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征风险",
+        "mechanism": "MAO-A抑制与5-HT再摄取抑制协同"
+      },
+      {
+        "drug_a": "methenamine",
+        "drug_b": "urinary alkalinizers (sodium bicarbonate, acetazolamide, antacids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低甲烯胺抗菌效果",
+        "mechanism": "碱化尿液抑制甲醛生成"
+      },
+      {
+        "drug_a": "hyoscyamine",
+        "drug_b": "other anticholinergics (antihistamines, antipsychotics, tricyclic antidepressants)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗胆碱能副作用(便秘、尿潴留、口干、意识模糊)",
+        "mechanism": "药效学相加抗胆碱能作用"
+      },
+      {
+        "drug_a": "hyoscyamine",
+        "drug_b": "potassium chloride (solid oral forms)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡风险",
+        "mechanism": "抗胆碱能药物延缓胃排空，增加氯化钾局部刺激"
+      }
+    ]
+  },
+  {
+    "generic_name": "nitrofurantoin",
+    "interactions": [
+      {
+        "drug_a": "nitrofurantoin",
+        "drug_b": "urinary alkalinizers (sodium bicarbonate, antacids, acetazolamide)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低呋喃妥因抗菌疗效",
+        "mechanism": "碱性尿液增加呋喃妥因解离，降低肾小管重吸收和尿中浓度"
+      },
+      {
+        "drug_a": "nitrofurantoin",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低呋喃妥因尿中浓度，影响UTI疗效，同时增加全身毒性风险",
+        "mechanism": "抑制肾小管分泌呋喃妥因"
+      },
+      {
+        "drug_a": "nitrofurantoin",
+        "drug_b": "magnesium trisilicate antacids",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低呋喃妥因口服吸收和疗效",
+        "mechanism": "吸附呋喃妥因减少吸收"
+      }
+    ]
+  },
+  {
+    "generic_name": "cefadroxil",
+    "interactions": [
+      {
+        "drug_a": "cefadroxil",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加头孢羟氨苄血药浓度，延长半衰期",
+        "mechanism": "竞争性抑制肾小管分泌"
+      },
+      {
+        "drug_a": "cefadroxil",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增加INR和出血风险",
+        "mechanism": "头孢菌素类减少维生素K肠道合成"
+      },
+      {
+        "drug_a": "cefadroxil",
+        "drug_b": "loop diuretics (furosemide)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性风险",
+        "mechanism": "药效学相加肾小管损伤"
+      },
+      {
+        "drug_a": "cefadroxil",
+        "drug_b": "aminoglycosides",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性风险",
+        "mechanism": "相加肾毒性效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetohydroxamic acid",
+    "interactions": [
+      {
+        "drug_a": "acetohydroxamic acid",
+        "drug_b": "iron supplements / iron preparations",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低双方吸收，影响疗效",
+        "mechanism": "螯合作用减少铁吸收"
+      },
+      {
+        "drug_a": "acetohydroxamic acid",
+        "drug_b": "alcohol",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加皮肤不良反应和中枢神经副作用",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "cefiderocol",
+    "interactions": [
+      {
+        "drug_a": "cefiderocol",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加头孢地尔血药浓度",
+        "mechanism": "抑制肾小管分泌"
+      },
+      {
+        "drug_a": "cefiderocol",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加INR和出血风险",
+        "mechanism": "头孢菌素类减少维生素K合成"
+      }
+    ]
+  },
+  {
+    "generic_name": "imipenem, cilastatin, and relebactam",
+    "interactions": [
+      {
+        "drug_a": "imipenem",
+        "drug_b": "valproic acid",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低丙戊酸血药浓度(60-100%)，导致癫痫发作或躁狂复发",
+        "mechanism": "抑制肠肝循环中丙戊酸葡糖苷酸水解"
+      },
+      {
+        "drug_a": "imipenem",
+        "drug_b": "ganciclovir",
+        "interaction_type": "major",
+        "clinical_effect": "增加癫痫发作风险",
+        "mechanism": "药效学相加降低惊厥阈"
+      },
+      {
+        "drug_a": "imipenem",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加亚胺培南血药浓度和半衰期",
+        "mechanism": "竞争性抑制肾小管分泌(仅对亚胺培南，西司他丁已有保护)"
+      }
+    ]
+  },
+  {
+    "generic_name": "meropenem and vaborbactam",
+    "interactions": [
+      {
+        "drug_a": "meropenem",
+        "drug_b": "valproic acid",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低丙戊酸血药浓度，导致癫痫发作或躁狂复发",
+        "mechanism": "抑制丙戊酸肠肝循环代谢"
+      },
+      {
+        "drug_a": "meropenem",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加美罗培南血药浓度(伐波巴坦抑制OAT3可削弱此效应)",
+        "mechanism": "OAT3转运体竞争抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "plazomicin",
+    "interactions": [
+      {
+        "drug_a": "plazomicin",
+        "drug_b": "other nephrotoxic drugs (NSAIDs, vancomycin, amphotericin B, loop diuretics)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加肾毒性风险",
+        "mechanism": "药效学相加肾小管毒性"
+      },
+      {
+        "drug_a": "plazomicin",
+        "drug_b": "ototoxic drugs (loop diuretics, cisplatin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加耳毒性风险(听力损失、耳鸣)",
+        "mechanism": "药效学相加耳蜗/前庭毒性"
+      },
+      {
+        "drug_a": "plazomicin",
+        "drug_b": "neuromuscular blocking agents (succinylcholine, rocuronium)",
+        "interaction_type": "moderate",
+        "clinical_effect": "延长神经肌肉阻滞时间，导致呼吸抑制延长",
+        "mechanism": "氨基糖苷类抑制突触前乙酰胆碱释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "bupropion and naltrexone",
+    "interactions": [
+      {
+        "drug_a": "bupropion",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象和5-羟色胺综合征风险",
+        "mechanism": "儿茶酚胺代谢抑制与NE/DA再摄取抑制协同"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "other drugs lowering seizure threshold (antipsychotics, corticosteroids, theophylline)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加癫痫发作风险",
+        "mechanism": "药效学相加降低惊厥阈"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "SSRIs / SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加癫痫发作和5-羟色胺综合征风险",
+        "mechanism": "相加CNS毒性和5-HT能效应"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "CYP2B6 inhibitors (e.g., clopidogrel, ticlopidine)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加安非他酮血药浓度，增加癫痫发作风险",
+        "mechanism": "CYP2B6代谢强抑制"
+      },
+      {
+        "drug_a": "naltrexone",
+        "drug_b": "opioid agonists (morphine, oxycodone, fentanyl)",
+        "interaction_type": "major",
+        "clinical_effect": "诱发急性阿片戒断症状，降低阿片类镇痛效果",
+        "mechanism": "阿片受体拮抗作用"
+      },
+      {
+        "drug_a": "naltrexone",
+        "drug_b": "opioid antitussives (dextromethorphan, codeine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低镇咳效果",
+        "mechanism": "阿片受体拮抗"
+      },
+      {
+        "drug_a": "naltrexone",
+        "drug_b": "antidiarrheals (loperamide, diphenoxylate)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低止泻效果，导致腹泻控制失败",
+        "mechanism": "外周阿片受体拮抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "phendimetrazine",
+    "interactions": [
+      {
+        "drug_a": "phendimetrazine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象、高热、心律失常",
+        "mechanism": "儿茶酚胺代谢抑制与拟交感胺类释放协同"
+      },
+      {
+        "drug_a": "phendimetrazine",
+        "drug_b": "other CNS stimulants (amphetamine, methylphenidate, caffeine)",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压、心动过速、心律失常、CNS过度兴奋",
+        "mechanism": "药效学相加中枢和心血管刺激"
+      },
+      {
+        "drug_a": "phendimetrazine",
+        "drug_b": "SSRIs / SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征和高血压风险",
+        "mechanism": "5-HT能协同和拟交感胺类效应"
+      },
+      {
+        "drug_a": "phendimetrazine",
+        "drug_b": "antihypertensive agents (beta blockers, clonidine, alpha blockers)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压药效果，导致血压控制失败",
+        "mechanism": "药效学拮抗降压作用"
+      },
+      {
+        "drug_a": "phendimetrazine",
+        "drug_b": "insulin and oral hypoglycemics",
+        "interaction_type": "moderate",
+        "clinical_effect": "改变降糖药需求(通常降低降糖效果)",
+        "mechanism": "儿茶酚胺介导升高血糖"
+      }
+    ]
+  },
+  {
+    "generic_name": "diethylpropion",
+    "interactions": [
+      {
+        "drug_a": "diethylpropion",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "儿茶酚胺蓄积与拟交感协同"
+      },
+      {
+        "drug_a": "diethylpropion",
+        "drug_b": "other CNS stimulants (amphetamine, methylphenidate)",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压、心动过速、CNS兴奋",
+        "mechanism": "药效学相加拟交感效应"
+      },
+      {
+        "drug_a": "diethylpropion",
+        "drug_b": "SSRIs / SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征和血压升高风险",
+        "mechanism": "5-HT和NE能协同"
+      },
+      {
+        "drug_a": "diethylpropion",
+        "drug_b": "antihypertensive agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压药效果",
+        "mechanism": "药效学拮抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "phentermine and topiramate",
+    "interactions": [
+      {
+        "drug_a": "phentermine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "拟交感胺类与MAO抑制协同"
+      },
+      {
+        "drug_a": "phentermine",
+        "drug_b": "other CNS stimulants (amphetamine, methylphenidate)",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压、心动过速、心律失常",
+        "mechanism": "药效学相加心血管CNS刺激"
+      },
+      {
+        "drug_a": "phentermine",
+        "drug_b": "antihypertensive agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压药效果",
+        "mechanism": "药效学拮抗降压作用"
+      },
+      {
+        "drug_a": "phentermine",
+        "drug_b": "SSRIs / SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征和血压升高风险",
+        "mechanism": "5-HT和NE能协同"
+      },
+      {
+        "drug_a": "topiramate",
+        "drug_b": "hormonal contraceptives",
+        "interaction_type": "major",
+        "clinical_effect": "降低避孕效果，导致意外妊娠",
+        "mechanism": "诱导雌激素代谢(CYP3A4)和降低孕激素血浓度"
+      },
+      {
+        "drug_a": "topiramate",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "major",
+        "clinical_effect": "加重CNS抑制、镇静、意识障碍及代谢性酸中毒风险",
+        "mechanism": "药效学相加CNS抑制和碳酸酐酶抑制"
+      },
+      {
+        "drug_a": "topiramate",
+        "drug_b": "acetazolamide, other carbonic anhydrase inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾结石风险和代谢性酸中毒",
+        "mechanism": "相加碳酸酐酶抑制"
+      },
+      {
+        "drug_a": "topiramate",
+        "drug_b": "valproic acid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高氨血症和脑病风险",
+        "mechanism": "药效学协同影响氨代谢"
+      }
+    ]
+  }
+]

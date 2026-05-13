@@ -1,0 +1,38 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e17]
+    - text: Ctrl + J
+  - generic [ref=e24]:
+    - generic [ref=e26]:
+      - img [ref=e27]
+      - generic [ref=e30]: 使用快速模式开始对话
+    - radiogroup [ref=e32]:
+      - radio "快速模式" [checked] [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e38]: 快速模式
+      - radio "专家模式" [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - generic [ref=e44]: 专家模式
+    - generic [ref=e47]:
+      - textbox "给 DeepSeek 发送消息" [active] [ref=e49]:
+        - /placeholder: "给 DeepSeek 发送消息 "
+      - generic [ref=e50]:
+        - button "深度思考" [ref=e51] [cursor=pointer]:
+          - img [ref=e53]
+          - generic [ref=e56]: 深度思考
+        - button "智能搜索" [pressed] [ref=e57] [cursor=pointer]:
+          - img [ref=e59]
+          - generic [ref=e61]: 智能搜索
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]:
+            - img [ref=e66]
+          - button [disabled] [ref=e69] [cursor=pointer]:
+            - img [ref=e71]

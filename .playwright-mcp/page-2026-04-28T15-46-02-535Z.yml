@@ -1,0 +1,109 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e148] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e149]: 新对话
+          - button [ref=e150]:
+            - img [ref=e154]
+        - link "药物禁忌症生成" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e36]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e38]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e40]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e42]: 药物适应症列表生成
+      - generic [ref=e43]:
+        - generic [ref=e44]: 昨天
+        - link "药学知识专家验证药物适应症" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e46]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e48]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e50]: 药物适应症补充任务
+      - generic [ref=e51]:
+        - generic [ref=e52]: 7 天内
+        - link "药物适应症补充任务" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e54]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e56]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e58]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e60]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e62]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e64]: 生成数据训练请求
+    - generic [ref=e66] [cursor=pointer]:
+      - img [ref=e69]
+      - generic [ref=e72]: 132******38
+      - img [ref=e74]
+  - generic [ref=e79]:
+    - generic [ref=e158]:
+      - generic [ref=e160]:
+        - generic [ref=e161] [cursor=pointer]: 新对话
+        - generic [ref=e162]:
+          - img [ref=e164]
+          - generic [ref=e166]: 专家模式
+      - button [ref=e167] [cursor=pointer]:
+        - img [ref=e170]
+    - generic [ref=e173]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e178]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: benzoyl peroxide and hydrocortisone topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C benzoyl peroxide and salicylic acid (topical) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C benzoyl peroxide and tretinoin topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N benzoyl peroxide | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C clascoterone topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N Magnesium Hydroxide Suspension | 类别: Antacids, Laxatives | 适应症: constipation|dyspepsia|heartburn | 妊娠分级: N ethinyl estradiol and norethindrone (HRT) | 类别: Contraceptives, Sex hormone combinations | 适应症: menopausal symptoms|osteoporosis prevention | 妊娠分级: X Salicylic Acid Cream, Gel, Liquid, and Lotion (Acne) | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris | 妊娠分级: C Sulfur and Salicylic Acid Soap | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N salicylic acid and sulfur (topical route) | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N Benzoyl Peroxide Pads with Vitamin E Capsules | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C sulfur topical | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis|scabies | 妊娠分级: N Ethinyl Estradiol and Drospirenone | 类别: Contraceptives | 适应症: contraception|acne vulgaris|premenstrual dysphoric disorder | 妊娠分级: X Sulfur and Salicylic Acid Shampoo | 类别: Miscellaneous topical agents | 适应症: dandruff|seborrheic dermatitis | 妊娠分级: N Sulfur and Salicylic Acid Lotion | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N Salicylic Acid Pads (Acne) | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris | 妊娠分级: C resorcinol (topical) | 类别: Topical antipsoriatics | 适应症: acne vulgaris|eczema|seborrheic dermatitis | 妊娠分级: N sulfacetamide sodium and sulfur | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C Salicylic Acid Pads and Plaster (Corns) | 类别: Topical acne agents, Topical keratolytics | 适应症: corns|calluses | 妊娠分级: C Ethinyl Estradiol and Norgestimate | 类别: Contraceptives | 适应症: contraception|acne vulgaris | 妊娠分级: X trifarotene topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N benzoyl peroxide and tretinoin | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N clascoterone | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N lisdexamfetamine | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|binge eating disorder | 妊娠分级: C amphetamine and dextroamphetamine | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C methylphenidate (oral) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C methylphenidate (transdermal route) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C methylphenidate hydrochloride | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C dexmethylphenidate and serdexmethylphenidate | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: N viloxazine | 类别: Adrenergic uptake inhibitors for ADHD | 适应症: attention deficit hyperactivity disorder | 妊娠分级: N atomoxetine | 类别: Adrenergic uptake inhibitors for ADHD | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C clonidine (oral) | 类别: Antiadrenergic agents, centrally acting | 适应症: hypertension|attention deficit hyperactivity disorder|opioid withdrawal|tourette's syndrome | 妊娠分级: C methamphetamine | 类别: Anorexiants, CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C methylphenidate (oral route) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C omega-3 polyunsaturated fatty acids | 类别: Nutraceutical products | 适应症: secondary prevention of cardiovascular disease|hypertriglyceridemia | 妊娠分级: C selegiline (oral) | 类别: Dopaminergic antiparkinsonism agents, Monoamine oxidase inhibitors | 适应症: parkinson's disease|major depressive disorder | 妊娠分级: C desvenlafaxine | 类别: Serotonin-norepinephrine reuptake inhibitors | 适应症: major depressive disorder|hot flashes | 妊娠分级: C amphetamine and dextroamphetamine mixed salts | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C emtricitabine and tenofovir disoproxil fumarate | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B bictegravir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N abacavir, dolutegravir, and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C cobicistat, elvitegravir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B efavirenz, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: D emtricitabine and tenofovir alafenamide | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: N dolutegravir and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N dolutegravir | 类别: Integrase strand transfer inhibitor | 适应症: hiv infection | 妊娠分级: B cabotegravir and rilpivirine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N emtricitabine, rilpivirine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B atazanavir | 类别: Protease inhibitors | 适应症: hiv infection | 妊娠分级: B abacavir and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e181]:
+            - button [ref=e182] [cursor=pointer]:
+              - img [ref=e185]
+            - button [ref=e187] [cursor=pointer]:
+              - img [ref=e190]
+        - generic [ref=e194]:
+          - generic [ref=e196] [cursor=pointer]:
+            - img [ref=e198]
+            - generic [ref=e201]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e203]
+          - paragraph [ref=e210]: 我们被要求为一个长长的药物列表生成全面的禁忌症JSON输出。必须包括每种药物的禁忌症列表，分类为disease, allergy_type, physiological_condition, drug_class，严重程度为absolute或relative。要有具体的理由。对于组合药物，列出每个成分的禁忌症（这意味着我们可以为组合药物列出总体的禁忌症，或者按成分分别列出？指令说“对于组合药物,列出每个成分的禁忌症”，所以输出结构可能包含每个成分的禁忌症，或者整体禁忌症？最好在JSON中体现，但要求每个药物一个条目，contraindications列表。对于组合药物，我们可以把成分的禁忌症合并在列表中，或者创建子结构。但输出格式示例只有一层contraindications。我们可以把成分的禁忌症合并到同一个药物的禁忌症列表中，理由中注明是哪个成分。或者，为了简化，把组合药物视为一个整体，列出适用于该产品的所有禁忌症，考虑到所有成分。我认为这样是可以的。需要根据适应
+      - generic [ref=e211]:
+        - generic [ref=e214]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e216]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e217]:
+            - button "深度思考" [ref=e218] [cursor=pointer]:
+              - img [ref=e220]
+              - generic [ref=e223]: 深度思考
+            - button "智能搜索" [ref=e224] [cursor=pointer]:
+              - img [ref=e226]
+              - generic [ref=e228]: 智能搜索
+            - generic [ref=e229]:
+              - button [ref=e230] [cursor=pointer]:
+                - img [ref=e233]
+              - button [ref=e236] [cursor=pointer]:
+                - img [ref=e239]
+        - generic [ref=e241]: 内容由 AI 生成，请仔细甄别

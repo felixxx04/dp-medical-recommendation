@@ -1,0 +1,182 @@
+[
+  {
+    "generic_name": "secukinumab Brand name: Cosentyx",
+    "contraindications": [
+      {"contraindication_name": "secukinumab allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to secukinumab or any component"},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "absolute", "reason": "Can impair immune response; risk of worsening infection"},
+      {"contraindication_name": "latent tuberculosis", "contraindication_type": "disease", "severity": "relative", "reason": "Screen for TB; cases of reactivation reported with IL-17 inhibitors; treat latent TB before starting"},
+      {"contraindication_name": "active Crohn's disease", "contraindication_type": "disease", "severity": "relative", "reason": "Secukinumab may exacerbate Crohn's disease; use with caution in inflammatory bowel disease"},
+      {"contraindication_name": "concurrent live vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Avoid live vaccines during therapy"}
+    ]
+  },
+  {
+    "generic_name": "calcipotriene topical",
+    "contraindications": [
+      {"contraindication_name": "calcipotriene allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to calcipotriene or any component"},
+      {"contraindication_name": "hypercalcemia or vitamin D toxicity", "contraindication_type": "disease", "severity": "absolute", "reason": "Topical calcipotriene can be absorbed and may cause hypercalcemia; contraindicated in patients with known disorders of calcium metabolism"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of hypercalcemia due to reduced calcium excretion"},
+      {"contraindication_name": "use on face", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "May cause irritant dermatitis on sensitive facial skin; avoid or use with caution"}
+    ]
+  },
+  {
+    "generic_name": "acitretin",
+    "contraindications": [
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Pregnancy Category X; known teratogen, causes severe birth defects; must not be used in pregnant women or women who may become pregnant; effective contraception required before, during, and for 3 years after therapy"},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Excreted in breast milk; potential for serious adverse effects in nursing infants"},
+      {"contraindication_name": "acitretin or retinoid allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to acitretin, other retinoids, or any component"},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Hepatotoxic potential; contraindicated in severe liver disease"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Risk of drug accumulation and toxicity due to renal excretion"},
+      {"contraindication_name": "concurrent methotrexate", "contraindication_type": "drug_class", "severity": "relative", "reason": "Increased risk of hepatotoxicity when combined with methotrexate"},
+      {"contraindication_name": "concurrent tetracyclines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Concomitant use increases risk of benign intracranial hypertension (pseudotumor cerebri)"},
+      {"contraindication_name": "blood donation during and for 3 years after therapy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "To prevent potential teratogenic exposure to blood recipients"}
+    ]
+  },
+  {
+    "generic_name": "betamethasone topical",
+    "contraindications": [
+      {"contraindication_name": "betamethasone allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to betamethasone, other corticosteroids, or any component"},
+      {"contraindication_name": "untreated bacterial, fungal, or viral skin infections", "contraindication_type": "disease", "severity": "absolute", "reason": "Topical corticosteroids can mask or exacerbate infections and delay healing"},
+      {"contraindication_name": "rosacea or perioral dermatitis", "contraindication_type": "disease", "severity": "relative", "reason": "May worsen these conditions; avoid application to face in these disorders"},
+      {"contraindication_name": "skin atrophy or impaired circulation in the application area", "contraindication_type": "disease", "severity": "relative", "reason": "Corticosteroids can cause further skin thinning and delayed healing"}
+    ]
+  },
+  {
+    "generic_name": "betamethasone and calcipotriene topical",
+    "contraindications": [
+      {"contraindication_name": "betamethasone or calcipotriene allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to betamethasone, calcipotriene, any corticosteroid, vitamin D analog, or any component"},
+      {"contraindication_name": "hypercalcemia or vitamin D toxicity", "contraindication_type": "disease", "severity": "absolute", "reason": "Calcipotriene absorption may exacerbate hypercalcemia"},
+      {"contraindication_name": "untreated bacterial, fungal, or viral skin infections", "contraindication_type": "disease", "severity": "absolute", "reason": "Corticosteroid component can mask or worsen infections"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Calcipotriene systemic absorption risk; can increase serum calcium"},
+      {"contraindication_name": "use on face", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "May cause irritant dermatitis; avoid or use with caution"},
+      {"contraindication_name": "rosacea or perioral dermatitis", "contraindication_type": "disease", "severity": "relative", "reason": "Corticosteroid may worsen these conditions"}
+    ]
+  },
+  {
+    "generic_name": "cyclosporine (oral route)",
+    "contraindications": [
+      {"contraindication_name": "cyclosporine allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to cyclosporine or any component, including polyoxyethylated castor oil (in some formulations)"},
+      {"contraindication_name": "uncontrolled hypertension", "contraindication_type": "disease", "severity": "relative", "reason": "Cyclosporine can elevate blood pressure; hypertension should be controlled before initiation"},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "relative", "reason": "Immunosuppression can worsen infections"},
+      {"contraindication_name": "renal impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Nephrotoxic; requires careful dose adjustment and monitoring of renal function"},
+      {"contraindication_name": "history of malignancy", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of malignancy, particularly lymphoma, with prolonged immunosuppression"},
+      {"contraindication_name": "concurrent live vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Avoid live vaccines during immunosuppressive therapy"},
+      {"contraindication_name": "concurrent grapefruit juice", "contraindication_type": "drug_class", "severity": "relative", "reason": "Grapefruit juice inhibits CYP3A4 metabolism, increasing cyclosporine blood levels and toxicity risk"}
+    ]
+  },
+  {
+    "generic_name": "methotrexate (injection)",
+    "contraindications": [
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Pregnancy Category X; known teratogen and abortifacient; contraindicated in pregnancy and women of childbearing potential not using effective contraception"},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Excreted in breast milk; may cause serious adverse reactions in nursing infants"},
+      {"contraindication_name": "methotrexate allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to methotrexate or any component"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Renal elimination is major route; accumulation leads to severe myelosuppression and toxicity"},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Hepatotoxic potential; avoid in significant liver disease or alcoholism"},
+      {"contraindication_name": "active infection", "contraindication_type": "disease", "severity": "relative", "reason": "Immunosuppression can worsen infections"},
+      {"contraindication_name": "bone marrow suppression or blood dyscrasias", "contraindication_type": "disease", "severity": "absolute", "reason": "Myelosuppressive effects can be life-threatening in patients with pre-existing bone marrow failure"},
+      {"contraindication_name": "ascites or pleural effusion", "contraindication_type": "disease", "severity": "relative", "reason": "Third-space fluid collections delay methotrexate clearance, increasing toxicity risk"},
+      {"contraindication_name": "concurrent live vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Avoid live vaccines during immunosuppressive therapy"}
+    ]
+  },
+  {
+    "generic_name": "tacrolimus topical",
+    "contraindications": [
+      {"contraindication_name": "tacrolimus allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to tacrolimus or any component"},
+      {"contraindication_name": "active viral skin infections (e.g., herpes simplex, varicella)", "contraindication_type": "disease", "severity": "relative", "reason": "May potentiate viral replication"},
+      {"contraindication_name": "Netherton's syndrome or similar skin barrier defects", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased systemic absorption risk leading to immunosuppression and toxicity"},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Limited data; potential fetal risk due to systemic absorption; avoid unless clearly needed"},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Systemic absorption possible; caution in nursing"},
+      {"contraindication_name": "concurrent use of PUVA or UVB therapy", "contraindication_type": "drug_class", "severity": "relative", "reason": "Potential increased risk of skin malignancy"},
+      {"contraindication_name": "malignant or pre-malignant skin lesions", "contraindication_type": "disease", "severity": "relative", "reason": "May promote tumor growth due to local immunosuppression"}
+    ]
+  },
+  {
+    "generic_name": "calcitriol (topical)",
+    "contraindications": [
+      {"contraindication_name": "calcitriol allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to calcitriol, other vitamin D analogs, or any component"},
+      {"contraindication_name": "hypercalcemia or vitamin D toxicity", "contraindication_type": "disease", "severity": "absolute", "reason": "Topical vitamin D analog can be absorbed and may increase serum calcium; contraindicated in patients with disorders of calcium metabolism"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Decreased calcium excretion increases risk of hypercalcemia"},
+      {"contraindication_name": "use on face", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "May cause irritation on sensitive facial skin"}
+    ]
+  },
+  {
+    "generic_name": "coal tar topical",
+    "contraindications": [
+      {"contraindication_name": "coal tar allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to coal tar or any component"},
+      {"contraindication_name": "sunburned, acutely inflamed, or broken skin", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Can cause severe irritation and increased systemic absorption"},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Limited data; potential risk due to polycyclic aromatic hydrocarbons; topical application should be limited to small areas"},
+      {"contraindication_name": "skin cancer or history of skin cancer", "contraindication_type": "disease", "severity": "relative", "reason": "Coal tar contains carcinogens; avoid use on malignant or pre-malignant lesions"}
+    ]
+  },
+  {
+    "generic_name": "methotrexate (injection route, subcutaneous route)",
+    "contraindications": [
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Pregnancy Category X; known teratogen and abortifacient; contraindicated in pregnancy and women of childbearing potential not using effective contraception"},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Excreted in breast milk; may cause serious adverse reactions in nursing infants"},
+      {"contraindication_name": "methotrexate allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to methotrexate or any component"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Renal elimination is major route; accumulation leads to severe myelosuppression and toxicity"},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Hepatotoxic potential; avoid in significant liver disease or alcoholism"},
+      {"contraindication_name": "active infection", "contraindication_type": "disease", "severity": "relative", "reason": "Immunosuppression can worsen infections"},
+      {"contraindication_name": "bone marrow suppression or blood dyscrasias", "contraindication_type": "disease", "severity": "absolute", "reason": "Myelosuppressive effects can be life-threatening in patients with pre-existing bone marrow failure"},
+      {"contraindication_name": "ascites or pleural effusion", "contraindication_type": "disease", "severity": "relative", "reason": "Third-space fluid collections delay methotrexate clearance, increasing toxicity risk"},
+      {"contraindication_name": "concurrent live vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Avoid live vaccines during immunosuppressive therapy"}
+    ]
+  },
+  {
+    "generic_name": "betamethasone and calcipotriene (topical application route)",
+    "contraindications": [
+      {"contraindication_name": "betamethasone or calcipotriene allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to betamethasone, calcipotriene, any corticosteroid, vitamin D analog, or any component"},
+      {"contraindication_name": "hypercalcemia or vitamin D toxicity", "contraindication_type": "disease", "severity": "absolute", "reason": "Calcipotriene absorption may exacerbate hypercalcemia"},
+      {"contraindication_name": "untreated bacterial, fungal, or viral skin infections", "contraindication_type": "disease", "severity": "absolute", "reason": "Corticosteroid component can mask or worsen infections"},
+      {"contraindication_name": "severe renal impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Calcipotriene systemic absorption risk; can increase serum calcium"},
+      {"contraindication_name": "use on face", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "May cause irritant dermatitis; avoid or use with caution"},
+      {"contraindication_name": "rosacea or perioral dermatitis", "contraindication_type": "disease", "severity": "relative", "reason": "Corticosteroid may worsen these conditions"}
+    ]
+  },
+  {
+    "generic_name": "methoxsalen (oral)",
+    "contraindications": [
+      {"contraindication_name": "methoxsalen allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to methoxsalen, other psoralens, or any component"},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Pregnancy Category D; potential fetal harm; contraindicated in pregnancy"},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Unknown if excreted in breast milk; potential for photosensitivity and adverse effects in nursing infant; avoid or discontinue nursing"},
+      {"contraindication_name": "light-sensitive diseases", "contraindication_type": "disease", "severity": "absolute", "reason": "Contraindicated in diseases associated with photosensitivity such as porphyria, systemic lupus erythematosus, xeroderma pigmentosum, and albinism"},
+      {"contraindication_name": "aphakia", "contraindication_type": "disease", "severity": "absolute", "reason": "Lack of lens increases risk of retinal damage from UVA due to increased photosensitivity"},
+      {"contraindication_name": "history of melanoma or invasive skin cancer", "contraindication_type": "disease", "severity": "absolute", "reason": "Psoralen plus UVA (PUVA) is associated with increased risk of skin cancer"},
+      {"contraindication_name": "concurrent use of other photosensitizing drugs", "contraindication_type": "drug_class", "severity": "relative", "reason": "Increased photosensitivity reaction risk"},
+      {"contraindication_name": "severe hepatic or renal impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Metabolized by liver; accumulation and increased phototoxicity risk in hepatic insufficiency"}
+    ]
+  },
+  {
+    "generic_name": "adalimumab-afzb (subcutaneous route)",
+    "contraindications": [
+      {"contraindication_name": "adalimumab allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to adalimumab or any component"},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "absolute", "reason": "TNF inhibition can significantly worsen infections and lead to sepsis"},
+      {"contraindication_name": "latent tuberculosis", "contraindication_type": "disease", "severity": "absolute", "reason": "Screen for TB; reactivation risk is high; anti-TB therapy must be initiated prior to adalimumab use"},
+      {"contraindication_name": "moderate to severe heart failure (NYHA Class III/IV)", "contraindication_type": "disease", "severity": "relative", "reason": "TNF inhibitors may worsen heart failure; caution required"},
+      {"contraindication_name": "hepatitis B reactivation risk", "contraindication_type": "disease", "severity": "relative", "reason": "Screen for HBV; risk of reactivation; consider antiviral prophylaxis"},
+      {"contraindication_name": "history of demyelinating disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May exacerbate or initiate CNS demyelination; avoid in multiple sclerosis"},
+      {"contraindication_name": "concurrent live vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Avoid live vaccines during therapy"}
+    ]
+  },
+  {
+    "generic_name": "adalimumab-atto (subcutaneous route)",
+    "contraindications": [
+      {"contraindication_name": "adalimumab allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to adalimumab or any component"},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "absolute", "reason": "TNF inhibition can significantly worsen infections and lead to sepsis"},
+      {"contraindication_name": "latent tuberculosis", "contraindication_type": "disease", "severity": "absolute", "reason": "Screen for TB; reactivation risk is high; anti-TB therapy must be initiated prior to adalimumab use"},
+      {"contraindication_name": "moderate to severe heart failure (NYHA Class III/IV)", "contraindication_type": "disease", "severity": "relative", "reason": "TNF inhibitors may worsen heart failure; caution required"},
+      {"contraindication_name": "hepatitis B reactivation risk", "contraindication_type": "disease", "severity": "relative", "reason": "Screen for HBV; risk of reactivation; consider antiviral prophylaxis"},
+      {"contraindication_name": "history of demyelinating disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May exacerbate or initiate CNS demyelination; avoid in multiple sclerosis"},
+      {"contraindication_name": "concurrent live vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Avoid live vaccines during therapy"}
+    ]
+  },
+  {
+    "generic_name": "Pramoxine and Hydrocortisone Rectal Cream",
+    "contraindications": [
+      {"contraindication_name": "pramoxine or hydrocortisone allergy", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "History of hypersensitivity to pramoxine, hydrocortisone, other local anesthetics, corticosteroids, or any component"},
+      {"contraindication_name": "untreated bacterial, fungal, or viral infections in the anorectal area", "contraindication_type": "disease", "severity": "absolute", "reason": "Corticosteroid component can mask or exacerbate infections and delay healing"},
+      {"contraindication_name": "obstruction, abscess, or perforation in the anorectal region", "contraindication_type": "disease", "severity": "relative", "reason": "Delayed healing and potential worsening of underlying condition; avoid until diagnosis is clear"},
+      {"contraindication_name": "prolonged use (>7 days)", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Long-term corticosteroid use can lead to skin atrophy and adrenal suppression; use only for short-term treatment"},
+      {"contraindication_name": "pediatric patients", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Safety and efficacy not established in children; higher risk of systemic absorption and HPA axis suppression"}
+    ]
+  }
+]

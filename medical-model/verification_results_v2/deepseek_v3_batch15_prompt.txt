@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 痛经
+推荐药物:
+1. Ibuprofen (非甾体抗炎药) - 匹配疾病: 痛经
+2. Carisoprodol (骨骼肌松弛剂) - 匹配疾病: 背痛
+3. Ketoprofen (非甾体抗炎药) - 匹配疾病: 痛经
+4. Diclofenac (非甾体抗炎药) - 匹配疾病: 痛经
+---
+疾病: 月经不调
+推荐药物:
+1. Diclofenac (非甾体抗炎药) - 匹配疾病: 痛经
+2. Etodolac (非甾体抗炎药) - 匹配疾病: 痛经
+3. Flurbiprofen (非甾体抗炎药) - 匹配疾病: 痛经
+4. Metformin (双胍类) - 匹配疾病: 多囊卵巢综合征
+---
+疾病: 更年期综合征
+推荐药物:
+1. Medroxyprogesterone (孕激素) - 匹配疾病: menopause symptoms
+2. Estradiol (雌激素) - 匹配疾病: menopause symptoms
+3. Progesterone (孕激素) - 匹配疾病: menopause symptoms
+4. Conjugated Estrogens (雌激素) - 匹配疾病: menopause symptoms
+---
+疾病: 戒烟
+推荐药物:
+1. Bupropion (非典型抗抑郁药) - 匹配疾病: 戒烟
+2. Varenicline (烟碱乙酰胆碱受体部分激动剂) - 匹配疾病: 戒烟
+3. bupropion (oral route) (其他抗抑郁药) - 匹配疾病: 戒烟
+4. bupropion hydrochloride (其他抗抑郁药) - 匹配疾病: 戒烟
+---
+疾病: 酗酒
+推荐药物:
+1. Clorazepate (苯二氮卓类) - 匹配疾病: 焦虑
+2. Phenobarbital (巴比妥类) - 匹配疾病: 焦虑
+3. Oxazepam (苯二氮卓类) - 匹配疾病: 焦虑
+4. Chlordiazepoxide (苯二氮卓类) - 匹配疾病: 酒精戒断
+---
+疾病: 中毒
+推荐药物:
+1. Succimer (重金属螯合剂) - 匹配疾病: heavy metal poisoning
+2. Amoxicillin-Clavulanate (青霉素+β-内酰胺酶抑制剂) - 匹配疾病: 细菌感染
+3. Cefotaxime (头孢菌素类抗生素) - 匹配疾病: 细菌感染
+4. Cefoxitin (头孢菌素类抗生素) - 匹配疾病: 细菌感染
+---
+疾病: 中风
+推荐药物:
+1. Aspirin (非甾体抗炎药/抗血小板) - 匹配疾病: prevention of cerebrovascular accident
+2. Amlodipine (二氢吡啶类钙通道阻滞剂) - 匹配疾病: prevention of cerebrovascular accident
+3. Ticagrelor (P2Y12抑制剂) - 匹配疾病: 中风
+4. Clopidogrel (抗血小板药) - 匹配疾病: 最近中风
+---
+疾病: 脑卒中
+推荐药物:
+1. Aspirin (非甾体抗炎药/抗血小板) - 匹配疾病: prevention of cerebrovascular accident
+2. Amlodipine (二氢吡啶类钙通道阻滞剂) - 匹配疾病: prevention of cerebrovascular accident
+3. Ticagrelor (P2Y12抑制剂) - 匹配疾病: 中风
+4. Clopidogrel (抗血小板药) - 匹配疾病: 最近中风
+---
+疾病: 脑梗
+推荐药物:
+1. Amlodipine (二氢吡啶类钙通道阻滞剂) - 匹配疾病: prevention of cerebrovascular accident
+2. Amlodipine-Benazepril (钙通道阻滞剂+ACE抑制剂) - 匹配疾病: 高血压
+3. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 高血压
+4. Captopril (ACE抑制剂) - 匹配疾病: 高血压
+---
+疾病: 脑梗死
+推荐药物:
+1. Amlodipine (二氢吡啶类钙通道阻滞剂) - 匹配疾病: prevention of cerebrovascular accident
+2. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 高血压
+3. Benazepril (ACE抑制剂) - 匹配疾病: 高血压
+4. Bumetanide (袢利尿剂) - 匹配疾病: 高血压

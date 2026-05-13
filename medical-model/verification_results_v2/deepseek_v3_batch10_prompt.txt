@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 发烧
+推荐药物:
+1. Naproxen (非甾体抗炎药) - 匹配疾病: 发热
+2. Ibuprofen (非甾体抗炎药) - 匹配疾病: 发热
+3. acetaminophen () - 匹配疾病: 发热
+4. Indomethacin (非甾体抗炎药) - 匹配疾病: 发热
+---
+疾病: 发热
+推荐药物:
+1. Indomethacin (非甾体抗炎药) - 匹配疾病: 发热
+2. Naproxen (非甾体抗炎药) - 匹配疾病: 发热
+3. acetaminophen () - 匹配疾病: 发热
+4. Ibuprofen (非甾体抗炎药) - 匹配疾病: 发热
+---
+疾病: 细菌感染
+推荐药物:
+1. Amikacin (氨基糖苷类抗生素) - 匹配疾病: 革兰氏阴性细菌感染
+2. Tobramycin (氨基糖苷类抗生素) - 匹配疾病: 细菌感染
+3. plazomicin (氨基糖苷类) - 匹配疾病: 细菌感染
+4. lefamulin (oral/injection) (其他抗生素) - 匹配疾病: 细菌感染
+---
+疾病: 病毒感染
+推荐药物:
+1. Probenecid (促尿酸排泄药) - 匹配疾病: 细菌感染的辅助治疗
+2. Tobramycin (氨基糖苷类抗生素) - 匹配疾病: 细菌感染
+3. Gadobutrol (造影剂) - 匹配疾病: None
+4. Homatropine (抗胆碱药) - 匹配疾病: None
+---
+疾病: 真菌感染
+推荐药物:
+1. hydrocortisone and iodoquinol () - 匹配疾病: 疑似细菌或真菌感染的湿疹
+2. Butoconazole (抗真菌药) - 匹配疾病: 外阴阴道念珠菌病
+3. Fluconazole (唑类抗真菌药) - 匹配疾病: 外阴阴道念珠菌病
+4. Terconazole (抗真菌药) - 匹配疾病: 外阴阴道念珠菌病
+---
+疾病: 疱疹
+推荐药物:
+1. Valacyclovir (抗病毒药) - 匹配疾病: 单纯疱疹病毒感染
+2. Acyclovir (抗病毒药) - 匹配疾病: 单纯疱疹病毒感染
+3. acyclovir (oral) (嘌呤核苷类) - 匹配疾病: 单纯疱疹病毒感染
+4. acyclovir (topical) (外用抗病毒药) - 匹配疾病: 皮肤粘膜单纯疱疹病毒感染
+---
+疾病: 带状疱疹
+推荐药物:
+1. Valacyclovir (抗病毒药) - 匹配疾病: 带状疱疹
+2. Gabapentin (抗惊厥药) - 匹配疾病: nerve pain
+3. acyclovir (oral) (嘌呤核苷类) - 匹配疾病: 带状疱疹
+4. Acyclovir (抗病毒药) - 匹配疾病: 带状疱疹
+---
+疾病: 流感
+推荐药物:
+1. Oseltamivir (神经氨酸酶抑制剂) - 匹配疾病: 流感
+2. Ibuprofen (非甾体抗炎药) - 匹配疾病: 发热
+3. Amantadine (抗病毒/抗帕金森药) - 匹配疾病: 流感
+4. Rimantadine (抗病毒药) - 匹配疾病: 流感
+---
+疾病: 新冠
+推荐药物:
+1. Dexamethasone (皮质类固醇) - 匹配疾病: covid-19 需要氧气
+2. Naproxen (非甾体抗炎药) - 匹配疾病: 发热
+3. Tocilizumab (IL-6受体拮抗剂) - 匹配疾病: 新冠
+4. sotrovimab (其他抗病毒药) - 匹配疾病: 新冠
+---
+疾病: 艾滋病
+推荐药物:
+1. Delavirdine (NNRTI(非核苷逆转录酶抑制剂)) - 匹配疾病: hiv
+2. Tenofovir (NRTI(核苷逆转录酶抑制剂)) - 匹配疾病: hiv
+3. Nevirapine (NNRTI(非核苷逆转录酶抑制剂)) - 匹配疾病: hiv
+4. Maraviroc (CCR5拮抗剂) - 匹配疾病: hiv

@@ -1,0 +1,243 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e200] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e201]: 新对话
+          - button [ref=e202]:
+            - img [ref=e206]
+        - link "药物交互作用列表生成" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e36]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e38]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e40]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e42]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e44]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e46]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e48]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e50]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e52]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e54]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e56]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e58]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e60]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e62]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e64]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e66]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e68]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e70]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e72]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e74]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e76]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e78]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e80]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e82]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e84]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e86]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e88]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e90]: HIV药物禁忌症生成
+      - generic [ref=e91]:
+        - generic [ref=e92]: 昨天
+        - link "药物禁忌症列表生成" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e94]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e96]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e100]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e102]: 药物适应症列表生成
+      - generic [ref=e103]:
+        - generic [ref=e104]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e106]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e108]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e110]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e112]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e114]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e116]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e118]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e120]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e122]: 生成数据训练请求
+    - generic [ref=e124] [cursor=pointer]:
+      - img [ref=e127]
+      - generic [ref=e130]: 132******38
+      - img [ref=e132]
+  - generic [ref=e137]:
+    - generic [ref=e210]:
+      - generic [ref=e212]:
+        - generic [ref=e213] [cursor=pointer]: 新对话
+        - generic [ref=e214]:
+          - img [ref=e216]
+          - generic [ref=e218]: 专家模式
+      - button [ref=e219] [cursor=pointer]:
+        - img [ref=e222]
+    - generic [ref=e225]:
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - generic [ref=e230]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: carboplatin Brand name: Paraplatin | 类别: Alkylating agents | 适应症: advanced ovarian carcinoma|small cell lung cancer|non-small cell lung cancer|head and neck cancer|germ cell tumors|bladder cancer | 妊娠分级: D chlorambucil | 类别: Alkylating agents | 适应症: chronic lymphocytic leukemia|hodgkin's lymphoma|non-hodgkin's lymphoma | 妊娠分级: D Chlorambucil Brand name: Leukeran | 类别: Alkylating agents | 适应症: chronic lymphocytic leukemia|hodgkin lymphoma|non-hodgkin lymphoma | 妊娠分级: D fluorouracil (injection) | 类别: Antimetabolites | 适应症: colorectal cancer|breast cancer|stomach cancer|pancreatic cancer|basal cell carcinoma | 妊娠分级: D etoposide (oral) | 类别: Mitotic inhibitors | 适应症: small cell lung cancer|testicular cancer|lymphomas | 妊娠分级: D cyclophosphamide (oral/injection) | 类别: Alkylating agents | 适应症: breast cancer|lymphomas|leukemias|systemic lupus erythematosus|rheumatoid arthritis|nephrotic syndrome | 妊娠分级: D etoposide phosphate | 类别: Mitotic inhibitors | 适应症: small cell lung cancer|testicular cancer | 妊娠分级: D etoposide (injection) | 类别: Mitotic inhibitors | 适应症: small cell lung cancer|testicular cancer|lymphomas | 妊娠分级: D topotecan (oral/injection) | 类别: Miscellaneous antineoplastics | 适应症: small cell lung cancer|ovarian cancer|cervical cancer | 妊娠分级: D fludarabine (injection) | 类别: Antimetabolites | 适应症: chronic lymphocytic leukemia|non-hodgkin's lymphoma | 妊娠分级: D atorvastatin | 类别: Statins | 适应症: hyperlipidemia|hypercholesterolemia|prevention of cardiovascular disease | 妊娠分级: X evolocumab | 类别: PCSK9 inhibitors | 适应症: hypercholesterolemia|prevention of cardiovascular events|homozygous familial hypercholesterolemia | 妊娠分级: N alirocumab | 类别: PCSK9 inhibitors | 适应症: hypercholesterolemia|prevention of cardiovascular events|homozygous familial hypercholesterolemia | 妊娠分级: N evolocumab Brand name: Repatha | 类别: PCSK9 inhibitors | 适应症: heterozygous familial hypercholesterolemia|homozygous familial hypercholesterolemia|established atherosclerotic cardiovascular disease|primary hyperlipidemia | 妊娠分级: N rosuvastatin Brand names: Crestor , Ezallor Sprinkle | 类别: Statins | 适应症: hypercholesterolemia|hypertriglyceridemia|primary dysbetalipoproteinemia|homozygous familial hypercholesterolemia|prevention of cardiovascular disease | 妊娠分级: X ezetimibe and simvastatin | 类别: Antihyperlipidemic combinations | 适应症: hyperlipidemia|hypercholesterolemia | 妊娠分级: X niacin (nicotinic acid) | 类别: Miscellaneous antihyperlipidemic agents, Vitamins | 适应症: hyperlipidemia|pellagra|prevention of cardiovascular disease | 妊娠分级: C fenofibric acid | 类别: Fibric acid derivatives | 适应症: mixed dyslipidemia|hypertriglyceridemia | 妊娠分级: C niacin (oral route) | 类别: Miscellaneous antihyperlipidemic agents, Vitamins | 适应症: hyperlipidemia|niacin deficiency (pellagra)|cardiovascular risk reduction | 妊娠分级: C Simvastatin Oral Suspension | 类别: Statins | 适应症: hyperlipidemia|hypercholesterolemia | 妊娠分级: X mycophenolate mofetil (oral/injection) | 类别: Selective immunosuppressants | 适应症: lupus nephritis|prophylaxis of organ transplant rejection | 妊娠分级: D ezetimibe and rosuvastatin | 类别: Antihyperlipidemic combinations | 适应症: hyperlipidemia|hypercholesterolemia | 妊娠分级: N inclisiran | 类别: Miscellaneous antihyperlipidemic agents | 适应症: hypercholesterolemia|prevention of cardiovascular events | 妊娠分级: N lomitapide | 类别: Miscellaneous antihyperlipidemic agents | 适应症: homozygous familial hypercholesterolemia | 妊娠分级: X ezetimibe and atorvastatin | 类别: Antihyperlipidemic combinations | 适应症: hyperlipidemia|hypercholesterolemia | 妊娠分级: X acetaminophen, dextromethorphan, doxylamine, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: cold symptoms|cough|nasal congestion|sinus pressure | 妊娠分级: N acetaminophen, dextromethorphan, and doxylamine | 类别: Upper respiratory combinations | 适应症: cold symptoms|cough|sleeplessness | 妊娠分级: N chlorpheniramine | 类别: Antihistamines | 适应症: allergic rhinitis|urticaria|common cold symptoms | 妊娠分级: B acetaminophen and chlorpheniramine | 类别: Upper respiratory combinations | 适应症: cold symptoms|allergic rhinitis|pain|fever | 妊娠分级: N acetaminophen, dextromethorphan, guaifenesin, and phenylephrine | 类别: Upper respiratory combinations | 适应症: cold symptoms|cough|chest congestion|nasal congestion | 妊娠分级: N Diphenhydramine Chewable Tablets and Orally-Disintegrating Tablets | 类别: Anticholinergic antiemetics, Anticholinergic antiparkinson agents, Antihistamines, Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: allergic reactions|insomnia|motion sickness|allergic rhinitis | 妊娠分级: B acetaminophen, dextromethorphan, and phenylephrine | 类别: Upper respiratory combinations | 适应症: sinus congestion|cough|headache|minor aches and pains|fever|nasal congestion | 妊娠分级: N acetaminophen, dextromethorphan, doxylamine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|cough|headache|minor aches and pains|fever|sneezing|runny nose|insomnia associated with cold or flu symptoms | 妊娠分级: N dextromethorphan and promethazine | 类别: Upper respiratory combinations | 适应症: cough|runny nose|sneezing|allergic rhinitis | 妊娠分级: C camphor, eucalyptus, and menthol topical | 类别: Topical rubefacient | 适应症: chest congestion|cough associated with cold|minor muscle and joint pain|nasal congestion | 妊娠分级: N acetaminophen, chlorpheniramine, and dextromethorphan | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N acetaminophen, diphenhydramine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|insomnia associated with cold or flu symptoms | 妊娠分级: C acetaminophen, chlorpheniramine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Diphenhydramine Capsules and Tablets | 类别: Anticholinergic antiemetics, Anticholinergic antiparkinson agents, Antihistamines, Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: allergic rhinitis|urticaria|motion sickness|insomnia|parkinsonism|nausea and vomiting|common cold | 妊娠分级: B Acetaminophen, Diphenhydramine, and Phenylephrine Tablets | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|insomnia associated with cold or flu symptoms | 妊娠分级: C pseudoephedrine and triprolidine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis|eustachian tube congestion | 妊娠分级: C chlorpheniramine and hydrocodone | 类别: Upper respiratory combinations | 适应症: cough suppression|relief of nasal congestion due to allergies or common cold|upper respiratory symptoms associated with allergic rhinitis | 妊娠分级: C diphenhydramine hydrochloride | 类别: Anticholinergic antiemetics, Anticholinergic antiparkinson agents, Antihistamines, Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: allergic rhinitis|urticaria|motion sickness|insomnia|parkinsonism|nausea and vomiting|common cold | 妊娠分级: B Acetaminophen/Chlorpheniramine/Dextromethorphan/Pseudoephedrine Caps & Tabs | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Ephedrine and Guaifenesin | 类别: Upper respiratory combinations | 适应症: chest congestion|productive cough|nasal congestion | 妊娠分级: N chlorpheniramine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N codeine, guaifenesin, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: cough|chest congestion|nasal congestion|sinus congestion | 妊娠分级: C acetaminophen and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|headache|minor aches and pains|fever | 妊娠分级: C Acetaminophen, Dextromethorphan, Guaifenesin, Phenylephrine Caps & Tabs | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|cough|chest congestion|headache|minor aches and pains|fever | 妊娠分级: N acetaminophen, chlorpheniramine, dextromethorphan, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e233]:
+            - button [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+            - button [ref=e239] [cursor=pointer]:
+              - img [ref=e242]
+        - generic [ref=e246]:
+          - generic [ref=e248] [cursor=pointer]:
+            - img [ref=e250]
+            - generic [ref=e253]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e255]
+          - generic [ref=e261]:
+            - paragraph [ref=e262]: "我们被要求生成一个JSON，包含每个药物的交互列表，格式如示例。输入是药物列表，包括carboplatin, chlorambucil, 氟尿嘧啶， 依托泊苷， 环磷酰胺， 拓扑替康， 氟达拉滨， 阿托伐他汀， evolocumab, alirocumab, 瑞舒伐他汀， 依折麦布辛伐他汀， 烟酸， 非诺贝特酸， 辛伐他汀口服混悬液， 吗替麦考酚酯， 依折麦布瑞舒伐他汀， inclisiran， 洛美他派， 依折麦布阿托伐他汀， 然后是一大堆上呼吸道组合药物，含对乙酰氨基酚等。需要注意重复的药物：比如chlorambucil出现了两次（名称一样？输入有chlorambucil和Chlorambucil Brand name: Leukeran，但都是同一个药物，所以合并）。同样，etoposide有口服和注射，以及etoposide phosphate。我们可以将这些视为分开的药物，但要求是“为以下每种药物生成重要的药物交互”，那么列表中的每一项都是输入。有些是组合药物，例如“ezetimibe and simvastatin”是一个组合，我们需要列出每个成分的交互？要求说：“对于组合药物,列出每个成分的交互”。但是输入中也有许多上呼吸道组合，比如acetaminophen, dextromethorphan, doxylamine, and pseudoephedrine， 我们需要为这个组合药物列出每个成分的交互？可能意味着在interactions中，列出组合内每个成分与其他药物的交互，但会属于这个组合药物。例如，对于ezetimibe and simvastatin，输出generic_name是\"ezetimibe and simvastatin\"，然后interactions里包括simvastatin的交互和ezetimibe的交互。类似地，对于 acetaminophen, dextromethorphan, doxylamine, and pseudoephedrine，我们需要收集每个活性成分的重要交互。这工作量巨大。但是我们要只输出JSON。需要确保临床意义。我们最好涵盖主要类别：对于化疗药，常见交互是与疫苗（活疫苗）、肾毒性药物、CYP酶影响、免疫抑制剂等。对于他汀类药物，常见交互与CYP3A4抑制剂、环孢素、吉非贝齐等。对于PCSK9抑制剂，交互很少，主要是与他汀类无临床意义的交互。对于烟酸，与他汀合用可能增加肌病风险，但通常不是严重交互。但我们需要主要和中等。非诺贝特酸与他汀合用增加肌肉毒性风险。吗替麦考酚酯与抗酸药、铁剂、质子泵抑制剂等降低吸收，与别嘌醇等可能增加骨髓抑制，与活疫苗等。上呼吸道组合：对乙酰氨基酚的主要交互是与酒精、华法林（可能增加INR，但临床意义有争议，但可能被列为中等？对乙酰氨基酚与口服抗凝药：定期高剂量对乙酰氨基酚可能增强华法林效果，增加出血风险，属于中等）。右美沙芬与MAOIs合用可引起5-羟色胺综合征，严重交互。多西拉敏与其他中枢神经抑制剂合用增加镇静作用，中等。伪麻黄碱与MAOIs可引起高血压危象，严重交互。苯海拉明有抗胆碱能作用，与其它抗胆碱能药物增加副作用，与镇静剂增加镇静。氯苯那敏类似。可待因与乙醇、中枢神经抑制剂等。右美沙芬与某些抗抑郁药（氟西汀、帕罗西汀等，CYP2D6抑制剂）可能增加右美沙芬水平，但一般中等。等等。"
+            - paragraph [ref=e294]: 我们需要为每个输入药物构建interactions列表。有些输入是品牌名，但generic_name应该用通用名。比如“Carboplatin”就是“carboplatin”，“Chlorambucil”就是“chlorambucil”，“fluorouracil (injection)”就是“fluorouracil”，“etoposide (oral)”是“etoposide”，“cyclophosphamide (oral/injection)”是“cyclophosphamide”，“etoposide phosphate”就是“etoposide phosphate”，它与etoposide不同但相关，但都作为独立的项。topotecan, fludarabine, atorvastatin, evolocumab, alirocumab, 品牌 Repatha 就是 evolocumab，已经有一个evolocumab，所以我们会合并，但输入有两个evolocumab条目，我们只需要生成一个条目 “evolocumab”。同样 rosuvastatin 有一个品牌名条目，我们可合并为 rosuvastatin。 “ezetimibe and simvastatin” 是组合，“niacin (nicotinic acid)” 和“niacin (oral route)” 应该合并为 niacin。 fenofibric acid 独立。 “Simvastatin Oral Suspension” 应该是 simvastatin，与前面合并不了，因为不同剂型，但通用名是 simvastatin，我们可以与任何simvastatin交互合并，但输入没有单独的simvastatin，只有组合里面有。但这里单独出现Simvastatin Oral Suspension，我们可以把它当作simvastatin。mycophenolate mofetil 是独立。 “ezetimibe and rosuvastatin” 组合。 inclisiran 独立。 lomitapide 独立。 “ezetimibe and atorvastatin” 组合。然后一堆上呼吸道组合，有些成分重复。我们应该为每个组合输出一个drug，例如 "acetaminophen, dextromethorphan, doxylamine, and pseudoephedrine"，然后它的interactions包含这四个成分的交互。但因为同一成分可能在不同组合中，我们需要重复工作。简便做法：对于每个组合药物，名字保留为输入中的字符串，作为 "generic_name"，然后里面的interactions列出所有成分各自的交互，并注明成分名称？要求中说：“对于组合药物,列出每个成分的交互”，可能意味着，interactions中的drug_a仍用该组合名称，但交互描述里可以指出是哪个成分造成？或者仍然用drug_a为组合名称。例如"acetaminophen, dextromethorphan, doxylamine, and pseudoephedrine" 和 MAO inhibitors 产生严重交互（因为dextromethorphan和pseudoephedrine），那么drug_a就是这个长的组合名，drug_b是"MAO inhibitors"，交互类型major，临床效果“高血压危象、5-羟色胺综合征风险”，机制“伪麻黄碱和右美沙芬与MAOIs的相互作用”。这样可行。那就需要为每个组合挑选出其主要交互。
+            - paragraph [ref=e295]: "开始组织列表。需要先列出每个药物/组合的重要交互。关注化疗药：carboplatin: 主要交互包括活疫苗（免疫抑制风险感染）、肾毒性药物如氨基糖苷类（增加肾毒性）、抗凝药（增加出血风险？可能由于血小板减少，但中等）。氯霉素：与活疫苗，与对乙酰氨基酚（? 烷化剂可能增加肝毒性）。fluorouracil: 与抗凝药（华法林）增加INR，与CYP2C9抑制剂/诱导剂？5-FU经DPD代谢，相关的药物如索利夫定（抗病毒）会导致严重毒性，但这不是常见类别。注意5-FU与叶酸或甲酰四氢叶酸合用增加疗效及毒性。与甲硝唑可能增加5-FU毒性。我们选择重要：与华法林（中度交互，增加出血风险，机制可能是抑制CYP2C9）。与疫苗（中度）。与苯妥英（5-FU可能降低苯妥英水平？实则增加？查：5-FU可降低苯妥英血药浓度，癫痫发作风险，但中度）。我们提供几个。"
+            - paragraph [ref=e296]: "etoposide: 与活疫苗，与CYP3A4抑制剂/诱导剂，因为依托泊苷经CYP3A4代谢。与环孢素可能增加依托泊苷水平并减少环孢素水平。与华法林可能增加INR。主要交互：CYP3A4抑制剂如酮康唑、伊曲康唑等增加依托泊苷毒性（骨髓抑制），严重？可能是中等。CYP3A4诱导剂如利福平降低疗效。与活疫苗。"
+            - paragraph [ref=e297]: "cyclophosphamide: 与活疫苗，与琥珀酰胆碱（延长呼吸暂停，因为抑制假性胆碱酯酶），这是一种严重交互。与别嘌醇可能增加骨髓抑制。与华法林？环磷酰胺可能增强抗凝作用。与CYP2B6、3A4相关。还有与阿霉素可能增加心脏毒性，但这是中度交互。选严重：与活疫苗，与琥珀酰胆碱（严重）。"
+            - paragraph [ref=e298]: "topotecan: 拓扑替康是拓扑异构酶I抑制剂，与活疫苗，与其他骨髓抑制剂。与粒细胞集落刺激因子（G-CSF）在24小时内合用可能增加骨髓抑制。中等。与苯妥英、卡马西平可能降低拓扑替康效果。可以是中等。"
+            - paragraph [ref=e299]: "fludarabine: 与喷司他丁合用可能引起致死性肺毒性，这是严重交互。与活疫苗。与阿糖胞苷可能有拮抗作用，但不太重要。选：喷司他丁。"
+            - paragraph [ref=e300]: 他汀类：atorvastatin 代谢经CYP3A4，严重交互有CYP3A4强抑制剂（如克拉霉素、伊曲康唑、酮康唑、利托那韦等蛋白酶抑制剂），增加横纹肌溶解风险。与吉非贝齐增加肌病风险（严重或中等，通常列为禁忌或严重）。与环孢素显著增加他汀水平，严重。与华法林轻度增加INR，中等。与秋水仙碱可能增加肌病，中等。选：CYP3A4强抑制剂，环孢素，吉非贝齐。
+            - paragraph [ref=e301]: rosuvastatin：不完全由CYP代谢，与环孢素增加水平，与蛋白酶抑制剂如洛匹那韦/利托那韦有交互，与吉非贝齐禁忌（增加肌病风险）。还有与抗酸药含铝镁降低吸收，但中等。我们列出严重：环孢素（严重），吉非贝齐（严重），与蛋白酶抑制剂（严重或中等）。与华法林中等。
+            - paragraph [ref=e302]: "simvastatin: 与CYP3A4强抑制剂显著增加风险，禁忌与多种药。严重：伊曲康唑、酮康唑、泊沙康唑、伏立康唑、大环内酯类（红霉素、克拉霉素）、蛋白酶抑制剂、环孢素、吉非贝齐、达那唑等。与氨氯地平（中等，增加肌病风险，simvastatin剂量限制）。与胺碘酮（中等）。"
+            - paragraph [ref=e303]: "ezetimibe and simvastatin: 含有simvastatin，交互同simvastatin。另外ezetimibe与环孢素合用增加ezetimibe水平，中等。与华法林可能有交互，中等。与贝特类增加胆石症风险？但主要交互来自辛伐他汀。"
+            - paragraph [ref=e304]: "niacin (nicotinic acid): 与他汀类合用可能增加横纹肌溶解风险，但多为中等。与阿司匹林可能增加烟酸潮红。与抗高血压药物，烟酸可能增强降压作用，中等。这里列出与他汀类（中重度）。但烟酸与他汀合用导致肌病的证据不太强，通常标为中等。与酒精增加肝毒性。"
+            - paragraph [ref=e305]: "fenofibric acid: 与非诺贝特类似。与HMG-CoA还原酶抑制剂（他汀类）增加横纹肌溶解风险，禁忌？通常为严重交互，有黑框警告。与华法林增强抗凝作用，严重交互（增加出血，监测INR）。与环孢素可能增加肾毒性。与胆汁酸螯合剂降低非诺贝特吸收，中等。"
+            - paragraph [ref=e306]: "evolocumab, alirocumab: PCSK9抑制剂，无显著药代相互作用，被认为与他汀类药物无临床相互作用，但与他汀合用是常见的，无重要交互。可能与免疫抑制剂？机制上无，所以可能没有major或moderate交互。我们可输出空腹通用名无交互？按照要求，如果药物没有严重或中度交互，可返回空列表。"
+            - paragraph [ref=e307]: "inclisiran: siRNA，无预期的药物交互，因为不通过CYP酶代谢。空列表。"
+            - paragraph [ref=e308]: "lomitapide: 用于纯合子高胆固醇血症，与CYP3A4抑制剂显著增加肝毒性，禁忌与中强度CYP3A4抑制剂合用。与华法林可能增加出血风险，与胆汁酸螯合剂降低吸收。与酒精加重肝毒性。严重：CYP3A4抑制剂如酮康唑、克拉霉素等。与葡萄柚汁。与辛伐他汀联用增加他汀水平，但洛美他派通常与他汀同用，但需要限制辛伐他汀剂量。我们包括CYP3A4抑制剂（严重）。"
+            - paragraph [ref=e309]: "mycophenolate mofetil: 与含镁铝抗酸药、铁剂、钙剂、司维拉姆等降低吸收，中度。与质子泵抑制剂（如兰索拉唑）可能降低霉酚酸水平，中度。与别嘌醇增加骨髓抑制，中度。与活疫苗禁忌（严重）。与阿昔洛韦/伐昔洛韦竞争肾小管分泌可能增加两者浓度，中度。与华法林？无显著。与口服避孕药可能降低孕激素水平，降低避孕效果，中度。"
+            - paragraph [ref=e310]: 上呼吸道组合药物：需要为每个组合构建交互。我们要识别成分：对乙酰氨基酚（APAP）、右美沙芬（DM）、多西拉敏、伪麻黄碱、氯苯那敏、苯海拉明、愈创甘油醚、去氧肾上腺素、可待因、普马嗪、樟脑/桉树/薄荷脑外用剂、曲普利啶、氢可酮、等等。
+            - paragraph [ref=e311]: 列举重要的交互类别：
+            - list [ref=e312]:
+              - listitem [ref=e313]:
+                - paragraph [ref=e314]: "对乙酰氨基酚：与酒精（慢性酒精滥用）增加肝毒性风险（严重？通常标注为重度饮酒者增加肝损伤风险，可能为中等或只是警告。有些列为中度）。与华法林（长期高剂量对乙酰氨基酚可能增强抗凝效果，增加出血，中度交互，常规剂量几乎无影响）。与苯巴比妥、苯妥英、卡马西平等肝酶诱导剂可能增加对乙酰氨基酚的肝毒性代谢产物生成，严重交互，需要监测。通常列为严重（可能导致肝损伤）或中等。我们选：酒精（长期重度饮酒，严重，增加肝毒性），肝酶诱导剂（如苯巴比妥、卡马西平，严重，增加肝损伤风险）。与唑吡坦（未知）。但一般教科书，对乙酰氨基酚的主要交互是与酒精和华法林。在临床上，与华法林为中等，因为需要高剂量。我们可包括：drug_b: \"warfarin\"，moderate，增加出血风险。drug_b: \"alcohol (chronic use)\"，major，增加肝毒性。"
+              - listitem [ref=e315]:
+                - paragraph [ref=e316]: 右美沙芬：主要交互与MAOIs（如苯乙肼、反苯环丙胺、司来吉兰等），可导致5-羟色胺综合征，严重交互（禁忌）。与SSRIs如氟西汀、帕罗西汀（CYP2D6抑制）增加右美沙芬水平，可能导致5-羟色胺综合征，中度。与其它5-羟色胺能药物如曲马多、芬太尼、锂等增加5-羟色胺综合征风险，中度。我们选MAOIs为严重，SSRIs为中度。
+              - listitem [ref=e317]:
+                - paragraph [ref=e318]: 多西拉敏：抗组胺，镇静，与其他CNS抑制剂（酒精、苯二氮卓类、阿片类等）增强镇静作用，中度。与抗胆碱能药增加不良反应，中度。与MAOIs可能延长并加重抗胆碱能作用，中度。
+              - listitem [ref=e319]:
+                - paragraph [ref=e320]: 伪麻黄碱：交感神经兴奋剂，与MAOIs合用可导致高血压危象，严重交互。与其它拟交感神经药（如其他减充血剂）增加心血管效应，中度。与抗高血压药可能降低降压效果，中度。与麦角胺可能加重血管收缩，中等。选MAOIs为严重。
+              - listitem [ref=e321]:
+                - paragraph [ref=e322]: 去氧肾上腺素：类似伪麻黄碱，与MAOIs严重，高血压危象。与抗高血压药拮抗，中等。
+              - listitem [ref=e323]:
+                - paragraph [ref=e324]: 苯海拉明：与MAOIs可能延长抗胆碱能效果，严重？通常中枢作用增强。与酒精、CNS抑制剂中度镇静。与其它抗胆碱能药中度。
+              - listitem [ref=e325]:
+                - paragraph [ref=e326]: 氯苯那敏：与MAOIs可能延长抗胆碱能反应，中度。与CNS抑制剂中度镇静。
+              - listitem [ref=e327]:
+                - paragraph [ref=e328]: 愈创甘油醚：几乎无显著交互。
+              - listitem [ref=e329]:
+                - paragraph [ref=e330]: 可待因：为阿片类，与酒精、CNS抑制剂增强呼吸抑制，严重。与MAOIs可导致严重反应，避免合用。与CYP2D6抑制剂减弱镇痛效果（因为可待因需经CYP2D6转化为吗啡）。与抗凝药无明显交互。
+              - listitem [ref=e331]:
+                - paragraph [ref=e332]: 普马嗪：与可待因联用。普马嗪为吩噻嗪抗组胺，镇静止吐。与CNS抑制剂增强呼吸抑制和镇静。与MAOIs可能产生类似反应。与抗胆碱能药。我们考虑组合dextromethorphan and promethazine：右美沙芬+普马嗪。该组合主要的交互：右美沙芬+MAOIs 严重；普马嗪+MAOIs可能加强镇静及椎体外系反应等，严重？通常认为MAOIs与吩噻嗪类可能有严重相互作用，导致低血压和锥体外系症状。我们列为严重。另外CNS抑制剂为中度。
+              - listitem [ref=e333]:
+                - paragraph [ref=e334]: 氢可酮：与可待因类似，阿片类。主要严重交互：与MAOIs（避免），与CNS抑制剂（酒精、苯二氮卓类等）重度镇静、呼吸抑制。与CYP3A4抑制剂/诱导剂影响代谢。
+              - listitem [ref=e335]:
+                - paragraph [ref=e336]: 曲普利啶：抗组胺，与CNS抑制剂中度。
+              - listitem [ref=e337]:
+                - paragraph [ref=e338]: 樟脑/桉树/薄荷脑外用：局部，基本无交互。
+            - paragraph [ref=e339]: "我们需要为每个组合生成一个条目。有些组合成分多。我会列举常见成分交互组合。由于列表很长，可以自动化思考，但需要手动写出每个组合的JSON。可以编写一个脚本，但不能执行。所以我将手动构建JSON，确保每个输入都有条目。注意重复条目：chlorambucil出现了两次，一个是\"chlorambucil\"，一个是\"Chlorambucil Brand name: Leukeran\"，但我应该为\"chlorambucil\"输出一次，因为通用名相同。还有\"etoposide (oral)\"、\"etoposide (injection)\"、\"etoposide phosphate\"，这三个都要单独列出，因为它们被指定不同input。evolocumab有两个输入，一个无品牌，一个有品牌，但都是evolocumab，可合并为一项\"evolocumab\"。rosuvastatin有品牌名，可合并为rosuvastatin。niacin有两个，合并为niacin。simvastatin有口服混悬液，合并为simvastatin。diphenhydramine有两个剂型，但都是diphenhydramine，可合并。\"Acetaminophen, Diphen"
+      - generic [ref=e263]:
+        - generic [ref=e266]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e268]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e269]:
+            - button "深度思考" [ref=e270] [cursor=pointer]:
+              - img [ref=e272]
+              - generic [ref=e275]: 深度思考
+            - button "智能搜索" [ref=e276] [cursor=pointer]:
+              - img [ref=e278]
+              - generic [ref=e280]: 智能搜索
+            - generic [ref=e281]:
+              - button [ref=e282] [cursor=pointer]:
+                - img [ref=e285]
+              - button [ref=e288] [cursor=pointer]:
+                - img [ref=e291]
+        - generic [ref=e293]: 内容由 AI 生成，请仔细甄别

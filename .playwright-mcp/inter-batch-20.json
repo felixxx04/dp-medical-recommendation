@@ -1,0 +1,861 @@
+[
+  {
+    "generic_name": "aztreonam (inhalation)",
+    "interactions": []
+  },
+  {
+    "generic_name": "penicillin V potassium",
+    "interactions": [
+      {
+        "drug_a": "penicillin V potassium",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险（骨髓抑制、黏膜炎）",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "penicillin V potassium",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用，增加出血风险",
+        "mechanism": "可能影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "penicillin V potassium",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高青霉素血药浓度",
+        "mechanism": "竞争肾小管分泌，减少青霉素排泄"
+      }
+    ]
+  },
+  {
+    "generic_name": "vancomycin (oral)",
+    "interactions": [
+      {
+        "drug_a": "vancomycin (oral)",
+        "drug_b": "bile acid sequestrants (e.g., cholestyramine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低万古霉素疗效",
+        "mechanism": "阴离子交换树脂结合万古霉素，减少游离药物"
+      }
+    ]
+  },
+  {
+    "generic_name": "vancomycin (intravenous)",
+    "interactions": [
+      {
+        "drug_a": "vancomycin (intravenous)",
+        "drug_b": "aminoglycosides",
+        "interaction_type": "major",
+        "clinical_effect": "增加肾毒性和耳毒性风险",
+        "mechanism": "协同肾/耳毒性作用"
+      },
+      {
+        "drug_a": "vancomycin (intravenous)",
+        "drug_b": "loop diuretics (e.g., furosemide)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加耳毒性风险",
+        "mechanism": "叠加耳毒性效应"
+      },
+      {
+        "drug_a": "vancomycin (intravenous)",
+        "drug_b": "neuromuscular blocking agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增强神经肌肉阻滞作用",
+        "mechanism": "万古霉素可能增强神经肌肉阻断剂效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "amikacin",
+    "interactions": [
+      {
+        "drug_a": "amikacin",
+        "drug_b": "other nephrotoxic agents (e.g., vancomycin, amphotericin B, cyclosporine)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加肾毒性风险",
+        "mechanism": "叠加肾毒性效应"
+      },
+      {
+        "drug_a": "amikacin",
+        "drug_b": "loop diuretics (e.g., furosemide)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加耳毒性风险",
+        "mechanism": "叠加耳毒性效应"
+      },
+      {
+        "drug_a": "amikacin",
+        "drug_b": "neuromuscular blocking agents",
+        "interaction_type": "major",
+        "clinical_effect": "增强并延长神经肌肉阻滞，可能导致呼吸抑制",
+        "mechanism": "阿米卡星降低乙酰胆碱释放，强化肌松作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "ampicillin / sulbactam",
+    "interactions": [
+      {
+        "drug_a": "ampicillin",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性（骨髓抑制、黏膜炎）",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "ampicillin",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用，增加出血风险",
+        "mechanism": "可能影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "ampicillin / sulbactam",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高氨苄西林和舒巴坦血药浓度",
+        "mechanism": "竞争肾小管分泌，减少排泄"
+      },
+      {
+        "drug_a": "ampicillin",
+        "drug_b": "allopurinol",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加皮疹发生率",
+        "mechanism": "机制未明，可能与免疫反应有关"
+      }
+    ]
+  },
+  {
+    "generic_name": "avibactam / ceftazidime",
+    "interactions": [
+      {
+        "drug_a": "avibactam / ceftazidime",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用，增加出血风险",
+        "mechanism": "广谱头孢菌素影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "avibactam / ceftazidime",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高阿维巴坦血药浓度",
+        "mechanism": "丙磺舒抑制OAT介导的阿维巴坦肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "aztreonam (injection)",
+    "interactions": [
+      {
+        "drug_a": "aztreonam (injection)",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增加抗凝作用",
+        "mechanism": "影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "aztreonam (injection)",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "轻度升高氨曲南血药浓度",
+        "mechanism": "竞争肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "bacitracin (injection)",
+    "interactions": [
+      {
+        "drug_a": "bacitracin (injection)",
+        "drug_b": "nephrotoxic agents (e.g., aminoglycosides, vancomycin, amphotericin B)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加肾毒性风险",
+        "mechanism": "叠加肾毒性效应"
+      },
+      {
+        "drug_a": "bacitracin (injection)",
+        "drug_b": "neuromuscular blocking agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增强神经肌肉阻滞作用",
+        "mechanism": "杆菌肽具有潜在神经肌肉阻滞特性"
+      }
+    ]
+  },
+  {
+    "generic_name": "delafloxacin",
+    "interactions": [
+      {
+        "drug_a": "delafloxacin",
+        "drug_b": "antacids or supplements containing aluminum, magnesium, calcium, iron, zinc",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低德拉沙星口服吸收，可能导致治疗失败",
+        "mechanism": "多价阳离子螯合氟喹诺酮类药物"
+      },
+      {
+        "drug_a": "delafloxacin",
+        "drug_b": "QT-prolonging agents (e.g., class IA/III antiarrhythmics, macrolides, antipsychotics)",
+        "interaction_type": "major",
+        "clinical_effect": "增加QT间期延长和尖端扭转型室性心动过速风险",
+        "mechanism": "叠加心脏复极化延长效应"
+      },
+      {
+        "drug_a": "delafloxacin",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用，增加出血风险",
+        "mechanism": "可能抑制华法林代谢或影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "delafloxacin",
+        "drug_b": "oral hypoglycemic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增强降糖作用，导致低血糖",
+        "mechanism": "氟喹诺酮类可能干扰葡萄糖代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "penicillin G benzathine / penicillin G procaine",
+    "interactions": [
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用",
+        "mechanism": "可能影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "penicillin G procaine",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高青霉素血药浓度",
+        "mechanism": "竞争肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "cefotetan",
+    "interactions": [
+      {
+        "drug_a": "cefotetan",
+        "drug_b": "alcohol",
+        "interaction_type": "major",
+        "clinical_effect": "双硫仑样反应（潮红、心动过速、低血压等）",
+        "mechanism": "头孢替坦的N-甲基硫四氮唑侧链抑制乙醛脱氢酶"
+      },
+      {
+        "drug_a": "cefotetan",
+        "drug_b": "warfarin",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加出血风险",
+        "mechanism": "抑制维生素K依赖性凝血因子的合成"
+      }
+    ]
+  },
+  {
+    "generic_name": "ceftolozane / tazobactam",
+    "interactions": [
+      {
+        "drug_a": "ceftolozane / tazobactam",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增强抗凝作用",
+        "mechanism": "广谱头孢菌素影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "ceftolozane / tazobactam",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "轻度升高他唑巴坦血药浓度",
+        "mechanism": "竞争肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "lefamulin",
+    "interactions": [
+      {
+        "drug_a": "lefamulin",
+        "drug_b": "strong CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加来法莫林暴露量，增加QT延长和不良反应风险",
+        "mechanism": "CYP3A4强效抑制减少来法莫林代谢"
+      },
+      {
+        "drug_a": "lefamulin",
+        "drug_b": "strong CYP3A4 inducers (e.g., rifampin, carbamazepine)",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低来法莫林血药浓度，可能导致治疗失败",
+        "mechanism": "诱导CYP3A4加速来法莫林代谢"
+      },
+      {
+        "drug_a": "lefamulin",
+        "drug_b": "QT-prolonging agents (e.g., class IA/III antiarrhythmics, antipsychotics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT间期延长风险",
+        "mechanism": "叠加心脏复极化延长效应"
+      },
+      {
+        "drug_a": "lefamulin",
+        "drug_b": "CYP3A4 substrates with narrow therapeutic index (e.g., cyclosporine, simvastatin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高合用药物的血药浓度，增加毒性风险",
+        "mechanism": "来法莫林时间依赖性抑制CYP3A4"
+      }
+    ]
+  },
+  {
+    "generic_name": "nafcillin",
+    "interactions": [
+      {
+        "drug_a": "nafcillin",
+        "drug_b": "warfarin",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低抗凝作用，增加血栓风险",
+        "mechanism": "萘夫西林强效诱导CYP2C9/3A4，加速华法林代谢"
+      },
+      {
+        "drug_a": "nafcillin",
+        "drug_b": "cyclosporine",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低环孢素血药浓度，增加排斥反应风险",
+        "mechanism": "强效诱导CYP3A4，加速环孢素代谢"
+      },
+      {
+        "drug_a": "nafcillin",
+        "drug_b": "oral contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低避孕效果，可能导致意外妊娠",
+        "mechanism": "诱导CYP3A4，加速激素类避孕药代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "omadacycline",
+    "interactions": [
+      {
+        "drug_a": "omadacycline",
+        "drug_b": "antacids or supplements containing aluminum, magnesium, calcium, iron, zinc",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低奥马环素口服吸收，可能导致治疗失败",
+        "mechanism": "多价阳离子螯合四环素类药物"
+      },
+      {
+        "drug_a": "omadacycline",
+        "drug_b": "retinoids (e.g., acitretin, isotretinoin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加假性脑瘤风险",
+        "mechanism": "两类药物均可升高颅内压，效应叠加"
+      },
+      {
+        "drug_a": "omadacycline",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用，增加出血风险",
+        "mechanism": "可能干扰肠道菌群维生素K合成，减少凝血因子生成"
+      },
+      {
+        "drug_a": "omadacycline",
+        "drug_b": "oral contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低避孕效果",
+        "mechanism": "影响肠肝循环，干扰激素类避孕药再吸收"
+      }
+    ]
+  },
+  {
+    "generic_name": "oxacillin",
+    "interactions": [
+      {
+        "drug_a": "oxacillin",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "oxacillin",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低抗凝作用",
+        "mechanism": "苯唑西林轻度诱导CYP450，加速华法林代谢"
+      },
+      {
+        "drug_a": "oxacillin",
+        "drug_b": "cyclosporine",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低环孢素血药浓度",
+        "mechanism": "轻度诱导CYP3A4酶"
+      }
+    ]
+  },
+  {
+    "generic_name": "penicillin G potassium",
+    "interactions": [
+      {
+        "drug_a": "penicillin G potassium",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用",
+        "mechanism": "影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高青霉素血药浓度",
+        "mechanism": "竞争肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "penicillin G sodium",
+    "interactions": [
+      {
+        "drug_a": "penicillin G sodium",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用",
+        "mechanism": "影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高青霉素血药浓度",
+        "mechanism": "竞争肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "procaine penicillin",
+    "interactions": [
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争肾小管分泌，减少甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "penicillin G",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗凝作用",
+        "mechanism": "影响肠道菌群维生素K合成"
+      },
+      {
+        "drug_a": "penicillin G procaine",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高青霉素血药浓度",
+        "mechanism": "竞争肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "ustekinumab",
+    "interactions": [
+      {
+        "drug_a": "ustekinumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "免疫抑制作用可能导致活疫苗病毒扩散"
+      },
+      {
+        "drug_a": "ustekinumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "抑制慢性炎症可恢复正常CYP酶活性，加速底物药物代谢"
+      },
+      {
+        "drug_a": "ustekinumab",
+        "drug_b": "other immunosuppressants (biologics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和严重感染风险",
+        "mechanism": "叠加免疫抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "secukinumab",
+    "interactions": [
+      {
+        "drug_a": "secukinumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "免疫抑制作用"
+      },
+      {
+        "drug_a": "secukinumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "炎症抑制后CYP酶活性恢复正常，加速底物代谢"
+      },
+      {
+        "drug_a": "secukinumab",
+        "drug_b": "other immunosuppressants (biologics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "ixekizumab",
+    "interactions": [
+      {
+        "drug_a": "ixekizumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "免疫抑制作用"
+      },
+      {
+        "drug_a": "ixekizumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "炎症抑制后CYP酶活性恢复正常，加速底物代谢"
+      },
+      {
+        "drug_a": "ixekizumab",
+        "drug_b": "other immunosuppressants (biologics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "risankizumab",
+    "interactions": [
+      {
+        "drug_a": "risankizumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "免疫抑制作用"
+      },
+      {
+        "drug_a": "risankizumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "炎症抑制后CYP酶活性恢复正常，加速底物代谢"
+      },
+      {
+        "drug_a": "risankizumab",
+        "drug_b": "other immunosuppressants (biologics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "guselkumab",
+    "interactions": [
+      {
+        "drug_a": "guselkumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "免疫抑制作用"
+      },
+      {
+        "drug_a": "guselkumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "炎症抑制后CYP酶活性恢复正常，加速底物代谢"
+      },
+      {
+        "drug_a": "guselkumab",
+        "drug_b": "other immunosuppressants (biologics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "tildrakizumab",
+    "interactions": [
+      {
+        "drug_a": "tildrakizumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "免疫抑制作用"
+      },
+      {
+        "drug_a": "tildrakizumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "炎症抑制后CYP酶活性恢复正常，加速底物代谢"
+      },
+      {
+        "drug_a": "tildrakizumab",
+        "drug_b": "other immunosuppressants (biologics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "infliximab",
+    "interactions": [
+      {
+        "drug_a": "infliximab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性疫苗相关感染风险，应避免",
+        "mechanism": "TNF抑制剂削弱免疫应答"
+      },
+      {
+        "drug_a": "infliximab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "抗炎作用可能使CYP酶活性恢复正常，加速代谢"
+      },
+      {
+        "drug_a": "infliximab",
+        "drug_b": "other biologic immunosuppressants (e.g., abatacept, IL-1/IL-17 inhibitors)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "halobetasol / tazarotene topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "calcipotriene topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "acitretin",
+    "interactions": [
+      {
+        "drug_a": "acitretin",
+        "drug_b": "alcohol",
+        "interaction_type": "major",
+        "clinical_effect": "促进阿维A反向转化为阿维A酯，显著延长致畸风险",
+        "mechanism": "酒精增加阿维A酯的形成"
+      },
+      {
+        "drug_a": "acitretin",
+        "drug_b": "tetracycline antibiotics",
+        "interaction_type": "major",
+        "clinical_effect": "增加假性脑瘤风险",
+        "mechanism": "两类药物同时升高颅内压"
+      },
+      {
+        "drug_a": "acitretin",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重肝毒性风险",
+        "mechanism": "肝毒性效应叠加"
+      },
+      {
+        "drug_a": "acitretin",
+        "drug_b": "vitamin A supplements",
+        "interaction_type": "major",
+        "clinical_effect": "增加维生素A过多症风险（肝毒性、高钙血症等）",
+        "mechanism": "叠加维生素A效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "betamethasone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "betamethasone / calcipotriene topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "cyclosporine",
+    "interactions": [
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "azole antifungals (e.g., ketoconazole, itraconazole)",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高环孢素血药浓度，增加肾毒性和神经毒性风险",
+        "mechanism": "强效抑制CYP3A4和P-gp"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "macrolide antibiotics (e.g., clarithromycin, erythromycin)",
+        "interaction_type": "major",
+        "clinical_effect": "升高环孢素浓度，增加肾毒性风险",
+        "mechanism": "抑制CYP3A4介导的环孢素代谢"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "rifampin and other CYP3A4 inducers (e.g., carbamazepine, St. John's wort)",
+        "interaction_type": "major",
+        "clinical_effect": "显著降低环孢素血药浓度，增加排斥反应风险",
+        "mechanism": "强效诱导CYP3A4和P-gp"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "HMG-CoA reductase inhibitors (statins, especially simvastatin, lovastatin, atorvastatin)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加肌病和横纹肌溶解风险",
+        "mechanism": "环孢素抑制OATP1B1和CYP3A4，升高他汀暴露量"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "aminoglycosides and other nephrotoxic agents (e.g., vancomycin, amphotericin B)",
+        "interaction_type": "major",
+        "clinical_effect": "增加肾毒性风险",
+        "mechanism": "叠加肾毒性效应"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "colchicine",
+        "interaction_type": "major",
+        "clinical_effect": "增加神经肌肉毒性和横纹肌溶解风险，尤其在肾功能不全时",
+        "mechanism": "环孢素抑制P-gp减少秋水仙碱排泄"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "potassium-sparing diuretics (e.g., spironolactone, amiloride)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高钾血症风险",
+        "mechanism": "减少钾排泄的效应叠加"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "NSAIDs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性风险，尤其脱水时",
+        "mechanism": "前列腺素合成抑制叠加肾血管收缩效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "methotrexate",
+    "interactions": [
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "NSAIDs (e.g., ibuprofen, ketorolac)",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加甲氨蝶呤毒性（骨髓抑制、肾损伤）",
+        "mechanism": "减少肾血流量并竞争肾小管分泌，降低甲氨蝶呤清除"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "penicillin antibiotics",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "竞争肾小管主动分泌，减少甲氨蝶呤排泄"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "trimethoprim/sulfamethoxazole",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重骨髓抑制风险",
+        "mechanism": "双重叶酸代谢抑制，抗叶酸作用叠加"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "probenecid",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加甲氨蝶呤毒性",
+        "mechanism": "强效抑制肾小管分泌，大幅减少清除"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "proton pump inhibitors (e.g., omeprazole)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能延迟甲氨蝶呤清除，增加毒性风险",
+        "mechanism": "可能抑制肾小管H⁺/K⁺-ATP酶或乳腺癌耐药蛋白，减少分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "tacrolimus topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "calcitriol topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "coal tar topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "methoxsalen (oral)",
+    "interactions": [
+      {
+        "drug_a": "methoxsalen (oral)",
+        "drug_b": "photosensitizing agents (e.g., tetracyclines, fluoroquinolones, thiazide diuretics, phenothiazines)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重光毒性反应风险",
+        "mechanism": "光敏效应叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "adalimumab",
+    "interactions": [
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加全身性感染风险，应避免接种活疫苗",
+        "mechanism": "TNF抑制剂削弱免疫应答"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (e.g., warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低合用药物的疗效",
+        "mechanism": "抗炎作用使CYP酶活性恢复正常，加速底物代谢"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "other biologic immunosuppressants (e.g., abatacept, IL-1/IL-17 inhibitors)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制效应"
+      }
+    ]
+  }
+]

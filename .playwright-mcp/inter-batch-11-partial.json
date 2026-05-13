@@ -1,0 +1,439 @@
+[
+  {
+    "generic_name": "opium preparation",
+    "interactions": [
+      {
+        "drug_a": "opium preparation",
+        "drug_b": "CNS depressants (benzodiazepines, alcohol, sedative-hypnotics)",
+        "interaction_type": "major",
+        "clinical_effect": "增强中枢神经系统抑制，导致深度镇静、呼吸抑制、昏迷甚至死亡",
+        "mechanism": "药效学协同——叠加CNS抑制效应"
+      },
+      {
+        "drug_a": "opium preparation",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能引发5-羟色胺综合征或严重呼吸抑制",
+        "mechanism": "中枢神经系统5-羟色胺能活性增强及阿片类代谢抑制"
+      },
+      {
+        "drug_a": "opium preparation",
+        "drug_b": "CYP3A4 inhibitors (ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "阿片类药物血药浓度升高，增加呼吸抑制和镇静风险",
+        "mechanism": "CYP3A4代谢抑制"
+      },
+      {
+        "drug_a": "opium preparation",
+        "drug_b": "buprenorphine, nalbuphine, butorphanol",
+        "interaction_type": "moderate",
+        "clinical_effect": "阿片类镇痛效果降低，可能诱发戒断症状",
+        "mechanism": "μ阿片受体部分激动/拮抗作用"
+      },
+      {
+        "drug_a": "opium preparation",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险，可能导致麻痹性肠梗阻",
+        "mechanism": "药效学协同——叠加胃肠动力抑制和抗胆碱能效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "crofelemer",
+    "interactions": [
+      {
+        "drug_a": "crofelemer",
+        "drug_b": "CYP3A4 substrates with narrow therapeutic index (warfarin, cyclosporine, tacrolimus)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能轻微影响合用药物的全身暴露量",
+        "mechanism": "体外研究显示crofelemer及其代谢物对CYP3A4有微弱抑制作用，但临床意义有限"
+      }
+    ]
+  },
+  {
+    "generic_name": "Electrolyte Oral Solution, Freezer-Pops, and Jell Cups",
+    "interactions": [
+      {
+        "drug_a": "Electrolyte Oral Solution",
+        "drug_b": "potassium-sparing diuretics (spironolactone, eplerenone, amiloride, triamterene)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能引起高钾血症，尤其肾功能不全者",
+        "mechanism": "外源性钾补充与保钾利尿剂的钾潴留效应叠加"
+      },
+      {
+        "drug_a": "Electrolyte Oral Solution",
+        "drug_b": "ACE inhibitors / ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高钾血症风险",
+        "mechanism": "肾素-血管紧张素系统抑制导致醛固酮减少，与外源性钾补充叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "carbohydrate and electrolyte combination (oral route)",
+    "interactions": [
+      {
+        "drug_a": "carbohydrate and electrolyte combination",
+        "drug_b": "potassium-sparing diuretics (spironolactone, eplerenone, amiloride, triamterene)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能引起高钾血症",
+        "mechanism": "外源性钾补充与保钾利尿剂的钾潴留效应叠加"
+      },
+      {
+        "drug_a": "carbohydrate and electrolyte combination",
+        "drug_b": "ACE inhibitors / ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高钾血症风险",
+        "mechanism": "醛固酮抑制减少钾排泄，与外源性钾补充叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "Electrolyte Tablets",
+    "interactions": [
+      {
+        "drug_a": "Electrolyte Tablets",
+        "drug_b": "potassium-sparing diuretics (spironolactone, eplerenone, amiloride, triamterene)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能引起高钾血症，尤其肾功能不全者",
+        "mechanism": "外源性钾补充与保钾利尿剂的钾潴留效应叠加"
+      },
+      {
+        "drug_a": "Electrolyte Tablets",
+        "drug_b": "ACE inhibitors / ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高钾血症风险",
+        "mechanism": "醛固酮抑制减少钾排泄，与外源性钾补充叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "difenoxin and atropine (oral route)",
+    "interactions": [
+      {
+        "drug_a": "difenoxin and atropine",
+        "drug_b": "CNS depressants (benzodiazepines, alcohol, opioids, sedative-hypnotics)",
+        "interaction_type": "major",
+        "clinical_effect": "增强中枢神经系统抑制，导致深度镇静和呼吸抑制",
+        "mechanism": "药效学协同——叠加CNS抑制效应"
+      },
+      {
+        "drug_a": "difenoxin and atropine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能引发高血压危象",
+        "mechanism": "地芬诺辛结构类似哌替啶，与MAOI合用时机制可能类似哌替啶-MAOI交互"
+      },
+      {
+        "drug_a": "difenoxin and atropine",
+        "drug_b": "potassium-depleting diuretics (furosemide, hydrochlorothiazide)",
+        "interaction_type": "moderate",
+        "clinical_effect": "阿托品可能掩盖利尿剂引起的低钾血症心电图改变",
+        "mechanism": "阿托品改变心率，可能掩盖低钾的心电图表现"
+      },
+      {
+        "drug_a": "difenoxin and atropine",
+        "drug_b": "anticholinergic drugs (antihistamines, tricyclic antidepressants, antipsychotics)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗胆碱能副作用——便秘、尿潴留、视力模糊、高热",
+        "mechanism": "药效学协同——叠加抗胆碱能效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "triamcinolone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "mometasone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "dupilumab",
+    "interactions": [
+      {
+        "drug_a": "dupilumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能导致疫苗相关感染，接种活疫苗不安全",
+        "mechanism": "免疫调节作用可能增加活疫苗病原体复制和感染风险"
+      },
+      {
+        "drug_a": "dupilumab",
+        "drug_b": "CYP450 substrates with narrow therapeutic index (warfarin, cyclosporine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "理论上dupilumab引起的炎症状态改变可能影响CYP酶活性，改变合用药物的血药浓度",
+        "mechanism": "慢性炎症状态改善可能导致CYP酶活性恢复正常，影响底物药物代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "hydrocortisone rectal (cream, suppository)",
+    "interactions": []
+  },
+  {
+    "generic_name": "methotrexate (oral)",
+    "interactions": [
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "NSAIDs (ibuprofen, naproxen, diclofenac, aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "甲氨蝶呤清除率降低，增加严重骨髓抑制、肾衰竭和胃肠道毒性风险",
+        "mechanism": "NSAIDs抑制肾前列腺素合成，减少甲氨蝶呤肾小管分泌，降低清除"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "proton pump inhibitors (omeprazole, pantoprazole, esomeprazole)",
+        "interaction_type": "moderate",
+        "clinical_effect": "甲氨蝶呤血药浓度升高，增加毒性风险（骨髓抑制、肝毒性）",
+        "mechanism": "PPIs抑制甲氨蝶呤的肾小管主动分泌（通过抑制OAT转运蛋白）"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "penicillins (amoxicillin, piperacillin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "甲氨蝶呤清除减少，增加毒性风险",
+        "mechanism": "青霉素类药物竞争性抑制甲氨蝶呤肾小管分泌"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "trimethoprim-sulfamethoxazole",
+        "interaction_type": "major",
+        "clinical_effect": "增加骨髓抑制（全血细胞减少）风险，可能致命",
+        "mechanism": "协同抗叶酸作用——两者均抑制二氢叶酸还原酶"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "alcohol",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "协同肝毒性效应"
+      },
+      {
+        "drug_a": "methotrexate",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能导致疫苗相关感染",
+        "mechanism": "免疫抑制状态增加活疫苗病原体复制风险"
+      }
+    ]
+  },
+  {
+    "generic_name": "clobetasol topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "pimecrolimus topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluocinonide topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "desonide topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "desoximetasone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "hydrocortisone (topical application route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "halobetasol topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluocinolone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluocinolone otic",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluticasone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "alclometasone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "clocortolone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "cyclosporine (oral/injection)",
+    "interactions": [
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin, ritonavir, grapefruit juice)",
+        "interaction_type": "major",
+        "clinical_effect": "环孢素血药浓度显著升高，增加肾毒性和神经毒性风险",
+        "mechanism": "CYP3A4代谢抑制"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "CYP3A4 inducers (rifampin, phenytoin, carbamazepine, St. John's Wort)",
+        "interaction_type": "major",
+        "clinical_effect": "环孢素血药浓度显著降低，可能导致器官排斥反应或治疗失败",
+        "mechanism": "CYP3A4代谢诱导"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "nephrotoxic drugs (NSAIDs, aminoglycosides, amphotericin B, tacrolimus)",
+        "interaction_type": "major",
+        "clinical_effect": "增加肾毒性风险，可能导致急性肾损伤",
+        "mechanism": "药效学协同——叠加肾毒性效应"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "potassium-sparing diuretics / ACE inhibitors / ARBs / potassium supplements",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高钾血症风险",
+        "mechanism": "环孢素降低醛固酮分泌，与保钾药物或补钾协同引起钾潴留"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "statins (atorvastatin, simvastatin)",
+        "interaction_type": "major",
+        "clinical_effect": "他汀类药物血药浓度显著升高，增加横纹肌溶解和肌病风险",
+        "mechanism": "环孢素抑制OATP1B1转运蛋白和CYP3A4，显著减少他汀类药物肝脏摄取和代谢"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能导致疫苗相关感染",
+        "mechanism": "免疫抑制状态增加活疫苗病原体复制风险"
+      },
+      {
+        "drug_a": "cyclosporine",
+        "drug_b": "methotrexate",
+        "interaction_type": "moderate",
+        "clinical_effect": "两者同时使用时免疫抑制增强，增加感染和淋巴增殖性疾病风险",
+        "mechanism": "协同免疫抑制效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "triamcinolone (topical application route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "hydrocortisone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "flurandrenolide topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "triamcinolone acetonide",
+    "interactions": []
+  },
+  {
+    "generic_name": "halcinonide topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "hydrocortisone acetate",
+    "interactions": []
+  },
+  {
+    "generic_name": "amcinonide topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "diflorasone topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "hydrocortisone butyrate",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluocinolone topical oil",
+    "interactions": []
+  },
+  {
+    "generic_name": "clobetasol (topical application route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "doxepin topical",
+    "interactions": [
+      {
+        "drug_a": "doxepin topical",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "理论上大剂量大面积外用可能有少量系统吸收，增强镇静作用",
+        "mechanism": "多塞平为三环类抗抑郁药，大量吸收后可能产生中枢H1和组胺受体拮抗所致的镇静效应"
+      },
+      {
+        "drug_a": "doxepin topical",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "大面积使用下理论上有相互作用风险",
+        "mechanism": "大剂量外用导致系统吸收，与MAOI合用时可能出现TCA-MAOI交互"
+      }
+    ]
+  },
+  {
+    "generic_name": "hydrocortisone and iodochlorhydroxyquin",
+    "interactions": []
+  },
+  {
+    "generic_name": "aloe polysaccharides, hydrocortisone, and iodoquinol (topical)",
+    "interactions": []
+  },
+  {
+    "generic_name": "Iodoquinol",
+    "interactions": []
+  },
+  {
+    "generic_name": "Halobetasol Cream and Ointment with Lactic Acid Cream",
+    "interactions": []
+  },
+  {
+    "generic_name": "ammonium lactate and urea (topical)",
+    "interactions": []
+  },
+  {
+    "generic_name": "hydrocortisone and iodoquinol",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluocinolone (topical application route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "prednicarbate (topical application route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "Iodoquinol and Hydrocortisone Cream",
+    "interactions": []
+  },
+  {
+    "generic_name": "halobetasol propionate",
+    "interactions": []
+  },
+  {
+    "generic_name": "Urea in Ammonium Lactate Cream",
+    "interactions": []
+  },
+  {
+    "generic_name": "prednicarbate topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "fluocinolone acetonide",
+    "interactions": []
+  }
+]

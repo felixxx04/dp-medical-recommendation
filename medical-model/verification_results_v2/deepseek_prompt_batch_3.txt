@@ -1,0 +1,99 @@
+请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。
+
+评分标准:
+- APPROPRIATE: 推荐药物完全适合治疗该疾病
+- PARTIALLY: 部分推荐适合，部分不适合
+- INAPPROPRIATE: 推荐药物完全不适合
+
+疾病: 心衰 (heart failure / congestive heart failure)
+推荐药物: Amlodipine-Valsartan(钙通道阻滞剂+ARB); Benazepril(ACE抑制剂); Bumetanide(袢利尿剂); Canagliflozin(SGLT2抑制剂); Candesartan(ARB(血管紧张素受体阻断剂))
+
+疾病: 念珠菌性阴道炎 (vulvovaginal candidiasis / urinary tract infection)
+推荐药物: Amikacin(氨基糖苷类抗生素); Butoconazole(抗真菌药); Amoxicillin(青霉素类抗生素); Amoxicillin-Clavulanate(青霉素+β-内酰胺酶抑制剂); Cefaclor(头孢菌素类抗生素)
+
+疾病: 急性疼痛 (back pain / chronic pain / joint pain)
+推荐药物: Aspirin(非甾体抗炎药/抗血小板); Tapentadol(阿片激动剂); Diclofenac(非甾体抗炎药); Baclofen(骨骼肌松弛剂); Carisoprodol(骨骼肌松弛剂)
+
+疾病: 恶心 (nausea)
+推荐药物: Dexamethasone(皮质类固醇); Lorazepam(苯二氮卓类); Metoclopramide(多巴胺拮抗剂); Meclizine(抗组胺药); Prochlorperazine(典型的抗精神病/止吐药)
+
+疾病: 惊恐障碍 (panic disorder / anxiety / bipolar disorder)
+推荐药物: Alprazolam(苯二氮卓类); Aripiprazole(非典型抗精神病药); Venlafaxine(SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)); Alprazolam Oral Solution(苯二氮卓类); venlafaxine hydrochloride(5-HT-NE再摄取抑制剂)
+
+疾病: 感冒 (upper respiratory infection / common cold)
+推荐药物: Diphenhydramine(抗组胺药); Doxylamine(其他抗焦虑药, 镇静剂和催眠药); diphenhydramine hydrochloride(抗胆碱类止吐药, 抗胆碱类抗帕金森药, 抗组胺药, 其他抗焦虑药, 镇静剂和催眠药); chlorpheniramine(抗组胺药); Promethazine(抗组胺药/止吐药)
+
+疾病: 慢性疼痛 (chronic pain)
+推荐药物: Tapentadol(阿片激动剂); Buprenorphine(阿片部分激动剂); Fentanyl(阿片激动剂); oxycodone (oral route)(阿片类(麻醉镇痛药)); Dronabinol(大麻素类)
+
+疾病: 慢性肾病 (chronic kidney disease / ckd / renal disease)
+推荐药物: Bumetanide(袢利尿剂); Linagliptin(DPP-4抑制剂); Metolazone(噻嗪样利尿剂); Sevelamer(磷结合剂); Torsemide(袢利尿剂)
+
+疾病: 慢性阻塞性肺疾病 (chronic obstructive pulmonary disease / copd / copd exacerbation)
+推荐药物: Albuterol-Ipratropium(短效β2激动剂+抗胆碱药); Formoterol(长效β2受体激动剂); Ipratropium(抗胆碱药); Olodaterol(长效β2受体激动剂); Umeclidinium(抗胆碱药)
+
+疾病: 慢阻肺 (chronic obstructive pulmonary disease / copd / copd exacerbation)
+推荐药物: Albuterol-Ipratropium(短效β2激动剂+抗胆碱药); Formoterol(长效β2受体激动剂); Ipratropium(抗胆碱药); Olodaterol(长效β2受体激动剂); Umeclidinium(抗胆碱药)
+
+疾病: 憩室炎 (diverticulitis / diverticulitis of gastrointestinal tract / stomach pain)
+推荐药物: Amikacin(氨基糖苷类抗生素); Ciprofloxacin(氟喹诺酮类); Tigecycline(甘氨环素类抗生素); Amoxicillin(青霉素类抗生素); Ampicillin-Sulbactam(青霉素+β-内酰胺酶抑制剂)
+
+疾病: 戒烟 (smoking cessation / nicotine dependence / anxiety)
+推荐药物: Bupropion(非典型抗抑郁药); Alprazolam(苯二氮卓类); Varenicline(烟碱乙酰胆碱受体部分激动剂); bupropion (oral route)(其他抗抑郁药); bupropion hydrochloride(其他抗抑郁药)
+
+疾病: 房颤 (atrial fibrillation / arrhythmia)
+推荐药物: Apixaban(直接口服抗凝剂（Xa 因子抑制剂）); Bisoprolol(β受体阻断剂); Verapamil(非二氢吡啶类钙通道阻滞剂); Rivaroxaban(直接口服抗凝剂（Xa 因子抑制剂）); verapamil (oral/injection)(钙通道阻滞剂, IV类抗心律失常药)
+
+疾病: 扁桃体炎 (tonsillitis / bacterial infections / fever)
+推荐药物: Cefadroxil(头孢菌素类抗生素); Ibuprofen(非甾体抗炎药); Cefprozil(头孢菌素类抗生素); Indomethacin(非甾体抗炎药); Naproxen(非甾体抗炎药)
+
+疾病: 打喷嚏 (allergic rhinitis / sneezing)
+推荐药物: Cetirizine(抗组胺药); Mometasone(外用/吸入皮质类固醇); Olopatadine(抗组胺药/肥大细胞稳定剂); fluticasone propionate(鼻腔类固醇); Loratadine(抗组胺药)
+
+疾病: 抑郁 (depression)
+推荐药物: Alprazolam(苯二氮卓类); Citalopram(SSRI(选择性5-羟色胺再摄取抑制剂)); Clomipramine(三环类抗抑郁药); Desipramine(三环类抗抑郁药); Doxepin(三环类抗抑郁药)
+
+疾病: 抑郁症 (major depressive disorder / depression / depressive disorder)
+推荐药物: Amitriptyline(三环类抗抑郁药); Alprazolam(苯二氮卓类); desipramine (oral route)(三环类抗抑郁药); nortriptyline (oral route)(三环类抗抑郁药); protriptyline (oral route)(三环类抗抑郁药)
+
+疾病: 接触性皮炎 (contact dermatitis / atopic dermatitis)
+推荐药物: Desonide(外用皮质类固醇); Betamethasone(皮质类固醇); fluocinolone acetonide(外用类固醇); hydrocortisone (topical application route)(外用类固醇); hydrocortisone topical(外用类固醇)
+
+疾病: 支气管炎 (bronchitis / common cold / cough)
+推荐药物: dyphylline and guaifenesin(抗哮喘组合); Benzonatate(镇咳药); Hydrocodone(阿片激动剂); Codeine(阿片激动剂); codeine, phenylephrine, and triprolidine(上呼吸道组合药)
+
+疾病: 新冠 (covid-19 / coronavirus infection / fever)
+推荐药物: Dexamethasone(皮质类固醇); Ibuprofen(非甾体抗炎药); Tocilizumab(IL-6受体拮抗剂); sotrovimab(其他抗病毒药); bebtelovimab(其他抗病毒药)
+
+疾病: 晕眩 (vertigo / dizziness)
+推荐药物: Meclizine(抗组胺药); Prochlorperazine(典型的抗精神病/止吐药); diphenhydramine hydrochloride(抗胆碱类止吐药, 抗胆碱类抗帕金森药, 抗组胺药, 其他抗焦虑药, 镇静剂和催眠药); dimenhydrinate(抗胆碱类止吐药); Temsirolimus(mTOR抑制剂)
+
+疾病: 更年期综合征 (menopause / anxiety / depression)
+推荐药物: Conjugated Estrogens(雌激素); Alprazolam(苯二氮卓类); Estradiol(雌激素); Medroxyprogesterone(孕激素); Progesterone(孕激素)
+
+疾病: 月经不调 (menstrual irregularity / anemia)
+推荐药物: Folic Acid(维生素); Ferrous Sulfate(铁补充剂); Epoetin Alfa(促红细胞生成药); Meperidine(阿片激动剂); Zidovudine(NRTI(核苷逆转录酶抑制剂))
+
+疾病: 术后疼痛 (postoperative pain / chronic pain / back pain)
+推荐药物: Ketorolac(非甾体抗炎药); Aspirin(非甾体抗炎药/抗血小板); Ropivacaine(局部麻醉药); oliceridine(阿片类(麻醉镇痛药)); Sufentanil(阿片激动剂)
+
+疾病: 梅毒 (syphilis / bacterial infections)
+推荐药物: Penicillin G(青霉素类抗生素); penicillin G benzathine and penicillin G procaine(天然青霉素类); procaine penicillin(天然青霉素类); penicillin G potassium(天然青霉素类); penicillin G sodium(天然青霉素类)
+
+疾病: 水肿 (edema / swelling)
+推荐药物: Bumetanide(袢利尿剂); Chlorthalidone(噻嗪类利尿剂); Enalapril-Hydrochlorothiazide(ACE抑制剂+噻嗪利尿剂); Eplerenone(醛固酮拮抗剂); Furosemide(袢利尿剂)
+
+疾病: 流感 (influenza / flu / fever)
+推荐药物: Oseltamivir(神经氨酸酶抑制剂); Ibuprofen(非甾体抗炎药); Amantadine(抗病毒/抗帕金森药); Zanamivir(神经氨酸酶抑制剂); Rimantadine(抗病毒药)
+
+疾病: 流鼻涕 (allergic rhinitis / common cold / runny nose)
+推荐药物: Cetirizine(抗组胺药); Diphenhydramine(抗组胺药); Desloratadine(抗组胺药); Loratadine(抗组胺药); Mometasone(外用/吸入皮质类固醇)
+
+疾病: 消化道出血 (peptic ulcer / gastroesophageal reflux disease / stomach pain)
+推荐药物: Cimetidine(H2受体阻断剂); Dexlansoprazole(质子泵抑制剂); Esomeprazole(质子泵抑制剂); Erythromycin(大环内酯类抗生素); Famotidine(H2受体阻断剂)
+
+疾病: 淋巴瘤 (lymphoma / anemia)
+推荐药物: Methoxsalen(补骨脂素); Folic Acid(维生素); Doxorubicin(蒽环类抗生素); Ifosfamide(烷化剂); Etoposide(拓扑异构酶抑制剂)
+
+
+请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。

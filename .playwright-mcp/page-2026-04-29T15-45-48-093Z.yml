@@ -1,0 +1,204 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e7] [cursor=pointer]
+        - button [ref=e19] [cursor=pointer]:
+          - img [ref=e22]
+      - generic [ref=e24] [cursor=pointer]:
+        - img [ref=e26]
+        - generic [ref=e28]: 开启新对话
+        - text: Ctrl + J
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]: 今天
+          - link "药物交互作用列表生成" [ref=e102] [cursor=pointer]:
+            - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+            - generic [ref=e103]: 药物交互作用列表生成
+          - link "药物交互列表生成" [ref=e104] [cursor=pointer]:
+            - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+            - generic [ref=e105]: 药物交互列表生成
+          - link "糖尿病药物交互列表生成" [ref=e106] [cursor=pointer]:
+            - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+            - generic [ref=e107]: 糖尿病药物交互列表生成
+          - link "COVID19疫苗年龄变体药物交互生成" [ref=e108] [cursor=pointer]:
+            - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+            - generic [ref=e109]: COVID19疫苗年龄变体药物交互生成
+          - link "药物交互作用列表生成" [ref=e110] [cursor=pointer]:
+            - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+            - generic [ref=e111]: 药物交互作用列表生成
+          - link "药物相互作用临床分析" [ref=e112] [cursor=pointer]:
+            - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+            - generic [ref=e113]: 药物相互作用临床分析
+          - link "布洛芬去氧肾上腺素交互列表" [ref=e114] [cursor=pointer]:
+            - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+            - generic [ref=e115]: 布洛芬去氧肾上腺素交互列表
+          - link "临床药学专家药物相互作用列表生成" [ref=e116] [cursor=pointer]:
+            - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+            - generic [ref=e117]: 临床药学专家药物相互作用列表生成
+          - link "药物交互作用列表生成" [ref=e118] [cursor=pointer]:
+            - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+            - generic [ref=e119]: 药物交互作用列表生成
+          - link "药物交互作用列表生成" [ref=e120] [cursor=pointer]:
+            - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+            - generic [ref=e121]: 药物交互作用列表生成
+          - link "药物交互作用列表生成" [ref=e122] [cursor=pointer]:
+            - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+            - generic [ref=e123]: 药物交互作用列表生成
+          - link "药物交互列表生成" [ref=e124] [cursor=pointer]:
+            - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+            - generic [ref=e125]: 药物交互列表生成
+          - link "药物交互分析请求" [ref=e126] [cursor=pointer]:
+            - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+            - generic [ref=e127]: 药物交互分析请求
+          - link "临床药学药物交互作用列表" [ref=e128] [cursor=pointer]:
+            - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+            - generic [ref=e129]: 临床药学药物交互作用列表
+          - link "药物交互作用列表生成" [ref=e130] [cursor=pointer]:
+            - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+            - generic [ref=e131]: 药物交互作用列表生成
+          - link "药物交互作用列表生成" [ref=e132] [cursor=pointer]:
+            - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+            - generic [ref=e133]: 药物交互作用列表生成
+          - link "临床药学专家药物禁忌症列表生成" [ref=e134] [cursor=pointer]:
+            - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+            - generic [ref=e135]: 临床药学专家药物禁忌症列表生成
+          - link "临床药学专家药物禁忌症生成" [ref=e136] [cursor=pointer]:
+            - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+            - generic [ref=e137]: 临床药学专家药物禁忌症生成
+          - link "临床药学专家药物禁忌症列表生成" [ref=e138] [cursor=pointer]:
+            - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+            - generic [ref=e139]: 临床药学专家药物禁忌症列表生成
+          - link "临床药学专家生成药物禁忌症列表" [ref=e140] [cursor=pointer]:
+            - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+            - generic [ref=e141]: 临床药学专家生成药物禁忌症列表
+          - link "药物禁忌症生成对话" [ref=e142] [cursor=pointer]:
+            - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+            - generic [ref=e143]: 药物禁忌症生成对话
+          - link "药物禁忌症列表生成" [ref=e144] [cursor=pointer]:
+            - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+            - generic [ref=e145]: 药物禁忌症列表生成
+          - link "临床药学专家药物禁忌症列表生成" [ref=e146] [cursor=pointer]:
+            - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+            - generic [ref=e147]: 临床药学专家药物禁忌症列表生成
+          - link "药物禁忌症JSON生成" [ref=e148] [cursor=pointer]:
+            - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+            - generic [ref=e149]: 药物禁忌症JSON生成
+          - link "临床药学专家药物禁忌症列表" [ref=e150] [cursor=pointer]:
+            - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+            - generic [ref=e151]: 临床药学专家药物禁忌症列表
+          - link "药物禁忌症列表生成" [ref=e152] [cursor=pointer]:
+            - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+            - generic [ref=e153]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e154] [cursor=pointer]:
+            - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+            - generic [ref=e155]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e156] [cursor=pointer]:
+            - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+            - generic [ref=e157]: 药物禁忌症列表生成
+          - link "糖尿病药物禁忌症列表生成" [ref=e158] [cursor=pointer]:
+            - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+            - generic [ref=e159]: 糖尿病药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e160] [cursor=pointer]:
+            - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+            - generic [ref=e161]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e162] [cursor=pointer]:
+            - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+            - generic [ref=e163]: 药物禁忌症列表生成
+          - link "临床药学禁忌症列表生成" [ref=e164] [cursor=pointer]:
+            - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+            - generic [ref=e165]: 临床药学禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e166] [cursor=pointer]:
+            - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+            - generic [ref=e167]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e168] [cursor=pointer]:
+            - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+            - generic [ref=e169]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e170] [cursor=pointer]:
+            - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+            - generic [ref=e171]: 药物禁忌症列表生成
+          - link "HIV药物禁忌症列表生成" [ref=e172] [cursor=pointer]:
+            - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+            - generic [ref=e173]: HIV药物禁忌症列表生成
+          - link "HIV药物禁忌症生成" [ref=e174] [cursor=pointer]:
+            - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+            - generic [ref=e175]: HIV药物禁忌症生成
+        - generic [ref=e176]:
+          - generic [ref=e177]: 昨天
+          - link "药物禁忌症列表生成" [ref=e178] [cursor=pointer]:
+            - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+            - generic [ref=e179]: 药物禁忌症列表生成
+          - link "药物禁忌症生成" [ref=e180] [cursor=pointer]:
+            - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+            - generic [ref=e181]: 药物禁忌症生成
+          - link "药物禁忌症列表生成" [ref=e182] [cursor=pointer]:
+            - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+            - generic [ref=e183]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e184] [cursor=pointer]:
+            - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+            - generic [ref=e185]: 药物禁忌症列表生成
+          - link "药物适应症列表生成" [ref=e186] [cursor=pointer]:
+            - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+            - generic [ref=e187]: 药物适应症列表生成
+        - generic [ref=e188]:
+          - generic [ref=e189]: 7 天内
+          - link "药学知识专家验证药物适应症" [ref=e190] [cursor=pointer]:
+            - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+            - generic [ref=e191]: 药学知识专家验证药物适应症
+          - link "差分隐私推荐系统问题分析" [ref=e192] [cursor=pointer]:
+            - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+            - generic [ref=e193]: 差分隐私推荐系统问题分析
+          - link "药物适应症补充任务" [ref=e194] [cursor=pointer]:
+            - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+            - generic [ref=e195]: 药物适应症补充任务
+          - link "药物适应症补充任务" [ref=e196] [cursor=pointer]:
+            - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+            - generic [ref=e197]: 药物适应症补充任务
+          - link "药物适应症批量处理" [ref=e198] [cursor=pointer]:
+            - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+            - generic [ref=e199]: 药物适应症批量处理
+          - link "药物适应症补充任务" [ref=e200] [cursor=pointer]:
+            - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+            - generic [ref=e201]: 药物适应症补充任务
+          - link "药物交互数据提取结果" [ref=e202] [cursor=pointer]:
+            - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+            - generic [ref=e203]: 药物交互数据提取结果
+          - link "Simvastatin禁忌症生成" [ref=e204] [cursor=pointer]:
+            - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+            - generic [ref=e205]: Simvastatin禁忌症生成
+          - link "生成数据训练请求" [ref=e206] [cursor=pointer]:
+            - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+            - generic [ref=e207]: 生成数据训练请求
+      - generic [ref=e32] [cursor=pointer]:
+        - img [ref=e35]
+        - generic [ref=e38]: 132******38
+        - img [ref=e40]
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - img [ref=e52]
+        - generic [ref=e55]: 使用专家模式开始对话
+      - radiogroup [ref=e57]:
+        - radio "快速模式" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]:
+            - img [ref=e208]
+            - generic [ref=e63]: 快速模式
+        - radio "专家模式" [checked] [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]:
+            - img [ref=e210]
+            - generic [ref=e69]: 专家模式
+      - generic [ref=e72]:
+        - textbox "给 DeepSeek 发送消息" [ref=e74]:
+          - /placeholder: "给 DeepSeek 发送消息 "
+        - generic [ref=e75]:
+          - button "深度思考" [active] [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e81]: 深度思考
+          - button "智能搜索" [ref=e82] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e86]: 智能搜索
+          - generic [ref=e87]:
+            - button [ref=e88] [cursor=pointer]:
+              - img [ref=e91]
+            - button [disabled] [ref=e94] [cursor=pointer]:
+              - img [ref=e96]
+  - generic [ref=e215]: 先思考后回答，解决推理问题

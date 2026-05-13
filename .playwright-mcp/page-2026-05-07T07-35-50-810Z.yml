@@ -1,0 +1,127 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "智医荐药隐私保护 · 智能推荐" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: 智医荐药隐私保护 · 智能推荐
+      - navigation [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img [ref=e13]
+          - text: 首页
+        - link "患者档案" [ref=e15] [cursor=pointer]:
+          - /url: /patients
+          - img [ref=e16]
+          - text: 患者档案
+        - link "隐私配置" [ref=e21] [cursor=pointer]:
+          - /url: /privacy
+          - img [ref=e22]
+          - text: 隐私配置
+        - link "用药推荐" [ref=e24] [cursor=pointer]:
+          - /url: /recommendation
+          - img [ref=e25]
+          - text: 用药推荐
+        - link "效果可视化" [ref=e29] [cursor=pointer]:
+          - /url: /visualization
+          - img [ref=e30]
+          - text: 效果可视化
+        - link "后台管理" [ref=e32] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e33]
+          - text: 后台管理
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - generic [ref=e42]:
+            - generic [ref=e43]: admin
+            - generic [ref=e44]: 管理员
+        - button [ref=e45] [cursor=pointer]:
+          - img [ref=e46]
+  - main [ref=e49]:
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - heading "精准用药推荐 守护患者隐私" [level=1] [ref=e55]:
+            - text: 精准用药推荐
+            - text: 守护患者隐私
+          - paragraph [ref=e56]: 融合差分隐私技术与深度学习算法，在严格保护患者隐私的前提下， 提供精准、安全、个性化的医疗用药推荐服务
+          - generic [ref=e57]:
+            - link "开始用药推荐" [ref=e58] [cursor=pointer]:
+              - /url: /recommendation
+              - button "开始用药推荐" [ref=e59]:
+                - text: 开始用药推荐
+                - img [ref=e60]
+            - link "效果可视化" [ref=e62] [cursor=pointer]:
+              - /url: /visualization
+              - button "效果可视化" [ref=e63]:
+                - img [ref=e64]
+                - text: 效果可视化
+            - link "管理后台" [ref=e66] [cursor=pointer]:
+              - /url: /admin
+              - button "管理后台" [ref=e67]:
+                - img [ref=e68]
+                - text: 管理后台
+        - generic [ref=e72]:
+          - generic [ref=e73]: ε
+          - generic [ref=e74]: Differential Privacy
+          - generic [ref=e76]: ≤ 1.0
+          - generic [ref=e77]: PRIVACY BUDGET
+      - generic [ref=e78]:
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - generic [ref=e84]: ε ≤ 1.0
+          - generic [ref=e85]: 隐私保护等级
+        - generic [ref=e87]:
+          - img [ref=e89]
+          - generic [ref=e92]: 92%+
+          - generic [ref=e93]: 推荐准确率
+        - generic [ref=e95]:
+          - img [ref=e97]
+          - generic [ref=e101]: 5,000+
+          - generic [ref=e102]: 药物种类
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - generic [ref=e111]: 10,000+
+          - generic [ref=e112]: 服务患者
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - heading "核心功能" [level=2] [ref=e115]
+          - paragraph [ref=e116]: 本系统结合医疗用药场景的数据特点与隐私保护需求，打造全方位的智能用药推荐解决方案
+        - generic [ref=e117]:
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - heading "差分隐私保护" [level=3] [ref=e123]
+            - paragraph [ref=e124]: 采用先进的差分隐私技术，为患者医疗数据提供可证明的隐私保障
+          - generic [ref=e126]:
+            - img [ref=e128]
+            - heading "深度学习推荐" [level=3] [ref=e131]
+            - paragraph [ref=e132]: 基于深度因子分解机模型，精准捕捉药物-疾病-患者之间的复杂关系
+          - generic [ref=e134]:
+            - img [ref=e136]
+            - heading "个性化用药" [level=3] [ref=e138]
+            - paragraph [ref=e139]: 综合考虑患者个体差异、疾病特征、药物相互作用，提供定制化建议
+          - generic [ref=e141]:
+            - img [ref=e143]
+            - heading "安全可控" [level=3] [ref=e146]
+            - paragraph [ref=e147]: 隐私预算可调、噪声机制可选，在隐私保护与推荐性能间实现最佳平衡
+      - generic [ref=e148]:
+        - heading "准备好开始了吗？" [level=2] [ref=e149]
+        - paragraph [ref=e150]: 体验隐私保护与智能推荐的完美结合，为医疗用药决策提供科学依据
+        - generic [ref=e151]:
+          - link "管理患者档案" [ref=e152] [cursor=pointer]:
+            - /url: /patients
+            - button "管理患者档案" [ref=e153]:
+              - img [ref=e154]
+              - text: 管理患者档案
+          - link "获取用药推荐" [ref=e159] [cursor=pointer]:
+            - /url: /recommendation
+            - button "获取用药推荐" [ref=e160]:
+              - img [ref=e161]
+              - text: 获取用药推荐
+  - contentinfo [ref=e165]:
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - img [ref=e170]
+        - generic [ref=e172]: 智医荐药差分隐私保护的智能用药推荐系统
+      - paragraph [ref=e173]: 基于差分隐私的 AI 个性化医疗用药推荐系统 · 保护隐私 · 精准推荐

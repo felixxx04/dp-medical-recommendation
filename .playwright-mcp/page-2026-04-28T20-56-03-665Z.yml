@@ -1,0 +1,514 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e630]:
+      - img [ref=e632] [cursor=pointer]
+      - generic [ref=e635]:
+        - button [ref=e636] [cursor=pointer]:
+          - img [ref=e639]
+        - button [ref=e641] [cursor=pointer]:
+          - img [ref=e644]
+    - generic:
+      - generic:
+        - generic:
+          - img
+        - button [active]:
+          - generic:
+            - img
+      - generic:
+        - generic:
+          - img
+        - generic: 开启新对话
+        - text: Ctrl + J
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: 今天
+              - link "临床药学专家药物禁忌症列表生成":
+                - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+                - generic: 临床药学专家药物禁忌症列表生成
+                - button [ref=e183] [cursor=pointer]:
+                  - img [ref=e187]
+              - link "临床药学专家生成药物禁忌症列表":
+                - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+                - generic: 临床药学专家生成药物禁忌症列表
+              - link "药物禁忌症生成对话":
+                - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+                - generic: 药物禁忌症生成对话
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+                - generic: 药物禁忌症列表生成
+              - link "临床药学专家药物禁忌症列表生成":
+                - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+                - generic: 临床药学专家药物禁忌症列表生成
+              - link "药物禁忌症JSON生成":
+                - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+                - generic: 药物禁忌症JSON生成
+              - link "临床药学专家药物禁忌症列表":
+                - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+                - generic: 临床药学专家药物禁忌症列表
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+                - generic: 药物禁忌症列表生成
+              - link "糖尿病药物禁忌症列表生成":
+                - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+                - generic: 糖尿病药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+                - generic: 药物禁忌症列表生成
+              - link "临床药学禁忌症列表生成":
+                - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+                - generic: 临床药学禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+                - generic: 药物禁忌症列表生成
+              - link "HIV药物禁忌症列表生成":
+                - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+                - generic: HIV药物禁忌症列表生成
+              - link "HIV药物禁忌症生成":
+                - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+                - generic: HIV药物禁忌症生成
+            - generic:
+              - generic: 昨天
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症生成":
+                - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+                - generic: 药物禁忌症生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+                - generic: 药物禁忌症列表生成
+              - link "药物禁忌症列表生成":
+                - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+                - generic: 药物禁忌症列表生成
+              - link "药物适应症列表生成":
+                - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+                - generic: 药物适应症列表生成
+            - generic:
+              - generic: 7 天内
+              - link "药学知识专家验证药物适应症":
+                - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+                - generic: 药学知识专家验证药物适应症
+              - link "差分隐私推荐系统问题分析":
+                - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+                - generic: 差分隐私推荐系统问题分析
+              - link "药物适应症补充任务":
+                - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+                - generic: 药物适应症补充任务
+              - link "药物适应症补充任务":
+                - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+                - generic: 药物适应症补充任务
+              - link "药物适应症批量处理":
+                - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+                - generic: 药物适应症批量处理
+              - link "药物适应症补充任务":
+                - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+                - generic: 药物适应症补充任务
+              - link "药物交互数据提取结果":
+                - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+                - generic: 药物交互数据提取结果
+              - link "Simvastatin禁忌症生成":
+                - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+                - generic: Simvastatin禁忌症生成
+              - link "生成数据训练请求":
+                - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+                - generic: 生成数据训练请求
+      - generic:
+        - generic:
+          - generic:
+            - img
+        - generic: 132******38
+        - generic:
+          - img
+  - generic [ref=e45]:
+    - generic [ref=e191]:
+      - generic [ref=e193]:
+        - generic [ref=e194] [cursor=pointer]: 临床药学专家药物禁忌症列表生成
+        - generic [ref=e195]:
+          - img [ref=e197]
+          - generic [ref=e199]: 专家模式
+      - button [ref=e200] [cursor=pointer]:
+        - img [ref=e203]
+    - generic [ref=e206]:
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e211]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: aztreonam (inhalation) | 类别: Miscellaneous antibiotics | 适应症: cystic fibrosis|pseudomonas aeruginosa infection|bronchiectasis | 妊娠分级: B Penicillin V Potassium Oral Solution | 类别: Natural penicillins | 适应症: bacterial infection|streptococcal pharyngitis|skin and soft tissue infection|dental infection | 妊娠分级: B Vancomycin Capsules | 类别: Glycopeptide antibiotics | 适应症: clostridium difficile infection|staphylococcal enterocolitis | 妊娠分级: C vancomycin (intravenous route) | 类别: Glycopeptide antibiotics | 适应症: bacterial infection|skin and soft tissue infection|endocarditis|osteomyelitis|meningitis|sepsis | 妊娠分级: C vancomycin (oral route) | 类别: Glycopeptide antibiotics | 适应症: clostridium difficile infection|staphylococcal enterocolitis | 妊娠分级: C amikacin (injection route) | 类别: Aminoglycosides | 适应症: bacterial infection|urinary tract infection|intra-abdominal infection|sepsis|meningitis | 妊娠分级: D ampicillin and sulbactam | 类别: Beta-lactamase inhibitors | 适应症: bacterial infection|skin and soft tissue infection|intra-abdominal infection|pelvic inflammatory disease | 妊娠分级: B avibactam and ceftazidime | 类别: Cephalosporins / beta-lactamase inhibitors | 适应症: bacterial infection|complicated intra-abdominal infection|complicated urinary tract infection|hospital-acquired pneumonia | 妊娠分级: B aztreonam (injection) | 类别: Miscellaneous antibiotics | 适应症: bacterial infection|urinary tract infection|intra-abdominal infection|pneumonia|sepsis | 妊娠分级: B bacitracin (injection) | 类别: Miscellaneous antibiotics | 适应症: bacterial infection|pneumonia|empyema | 妊娠分级: C delafloxacin (oral/injection) | 类别: Quinolones | 适应症: bacterial infection|skin and soft tissue infection|community-acquired pneumonia | 妊娠分级: N penicillin G benzathine and penicillin G procaine | 类别: Natural penicillins | 适应症: bacterial infection|syphilis|streptococcal infection | 妊娠分级: B cefotetan | 类别: Second generation cephalosporins | 适应症: bacterial infection|intra-abdominal infection|pelvic inflammatory disease|endometritis | 妊娠分级: B ceftolozane and tazobactam | 类别: Cephalosporins / beta-lactamase inhibitors | 适应症: bacterial infection|complicated intra-abdominal infection|complicated urinary tract infection|hospital-acquired pneumonia | 妊娠分级: B lefamulin (oral/injection) | 类别: Miscellaneous antibiotics | 适应症: community-acquired pneumonia|bacterial infection | 妊娠分级: N nafcillin (injection) | 类别: Penicillinase resistant penicillins | 适应症: bacterial infection|staphylococcal infection|endocarditis|osteomyelitis | 妊娠分级: B omadacycline (oral/injection) | 类别: Tetracyclines | 适应症: community-acquired pneumonia|skin and soft tissue infection|bacterial infection | 妊娠分级: N oxacillin (injection) | 类别: Penicillinase resistant penicillins | 适应症: bacterial infection|staphylococcal infection|endocarditis | 妊娠分级: B penicillin G potassium | 类别: Natural penicillins | 适应症: bacterial infection|streptococcal infection|syphilis|endocarditis | 妊娠分级: B penicillin G sodium | 类别: Natural penicillins | 适应症: bacterial infection|streptococcal infection|syphilis|endocarditis | 妊娠分级: B procaine penicillin | 类别: Natural penicillins | 适应症: bacterial infection|syphilis|streptococcal infection | 妊娠分级: B ustekinumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis | 妊娠分级: B Ustekinumab Brand name: Stelara | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis | 妊娠分级: B secukinumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis|hidradenitis suppurativa | 妊娠分级: B ixekizumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis | 妊娠分级: N risankizumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|Crohn's disease | 妊娠分级: N guselkumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ulcerative colitis | 妊娠分级: N tildrakizumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis | 妊娠分级: N infliximab-axxq | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis|psoriasis|psoriatic arthritis | 妊娠分级: B halobetasol and tazarotene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: N guselkumab Brand name: Tremfya | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ulcerative colitis | 妊娠分级: N infliximab-dyyb | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis|psoriasis|psoriatic arthritis | 妊娠分级: B ixekizumab Brand name: Taltz | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis | 妊娠分级: N infliximab-abda | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis|psoriasis|psoriatic arthritis | 妊娠分级: B secukinumab Brand name: Cosentyx | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis|hidradenitis suppurativa | 妊娠分级: B calcipotriene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C acitretin | 类别: Antipsoriatics | 适应症: psoriasis|ichthyosis|lichen planus | 妊娠分级: X betamethasone topical | 类别: Topical steroids | 适应症: eczema|psoriasis|allergic contact dermatitis|pruritus | 妊娠分级: C betamethasone and calcipotriene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C cyclosporine (oral route) | 类别: Calcineurin inhibitors | 适应症: transplant rejection prophylaxis|rheumatoid arthritis|psoriasis|nephrotic syndrome|uveitis | 妊娠分级: C methotrexate (injection) | 类别: Antimetabolites, Antipsoriatics, Antirheumatics, Other immunosuppressants | 适应症: rheumatoid arthritis|psoriasis|cancer|ectopic pregnancy|inflammatory bowel disease | 妊娠分级: X tacrolimus topical | 类别: Miscellaneous topical agents | 适应症: eczema|psoriasis|vitiligo | 妊娠分级: C calcitriol (topical) | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C coal tar topical | 类别: Miscellaneous topical agents | 适应症: psoriasis|seborrheic dermatitis|eczema | 妊娠分级: C methotrexate (injection route, subcutaneous route) | 类别: | 适应症: rheumatoid arthritis|psoriasis|cancer|inflammatory bowel disease | 妊娠分级: X betamethasone and calcipotriene (topical application route) | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C methoxsalen (oral) | 类别: Psoralens | 适应症: psoriasis|vitiligo|cutaneous T-cell lymphoma | 妊娠分级: D adalimumab-afzb (subcutaneous route) | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis | 妊娠分级: B adalimumab-atto (subcutaneous route) | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis | 妊娠分级: B Pramoxine and Hydrocortisone Rectal Cream | 类别: Anorectal preparations | 适应症: hemorrhoids|pruritus ani|anal fissure | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e214]:
+            - button [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+            - button [ref=e220] [cursor=pointer]:
+              - img [ref=e223]
+        - generic [ref=e225]:
+          - generic [ref=e228]:
+            - generic [ref=e231]:
+              - generic [ref=e232]: json
+              - generic [ref=e234]:
+                - button "复制" [ref=e235] [cursor=pointer]:
+                  - img [ref=e237]
+                  - generic [ref=e239]: 复制
+                - button "下载" [ref=e240] [cursor=pointer]:
+                  - img [ref=e242]
+                  - generic [ref=e244]: 下载
+            - generic [ref=e245]:
+              - generic [ref=e246]: "["
+              - generic [ref=e247]: "{"
+              - generic [ref=e248]: "\"generic_name\": \"aztreonam (inhalation)\","
+              - generic [ref=e249]: "\"contraindications\": ["
+              - generic [ref=e250]: "{\"contraindication_name\": \"aztreonam allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to aztreonam or any component of the formulation\"},"
+              - generic [ref=e251]: "{\"contraindication_name\": \"beta-lactam allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Limited cross-reactivity data; use with caution in patients with history of severe hypersensitivity to other beta-lactams (e.g., penicillins, cephalosporins) due to potential cross-reactivity risk\"}"
+              - generic [ref=e252]: "]"
+              - generic [ref=e253]: "},"
+              - generic [ref=e254]: "{"
+              - generic [ref=e255]: "\"generic_name\": \"Penicillin V Potassium Oral Solution\","
+              - generic [ref=e256]: "\"contraindications\": ["
+              - generic [ref=e257]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to penicillins or any component, including immediate-type reactions like urticaria, angioedema, or anaphylaxis\"},"
+              - generic [ref=e294]: "{\"contraindication_name\": \"cephalosporin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Potential cross-reactivity in patients with a history of severe hypersensitivity to cephalosporins; caution warranted\"}"
+              - generic [ref=e295]: "]"
+              - generic [ref=e296]: "},"
+              - generic [ref=e297]: "{"
+              - generic [ref=e298]: "\"generic_name\": \"Vancomycin Capsules\","
+              - generic [ref=e299]: "\"contraindications\": ["
+              - generic [ref=e300]: "{\"contraindication_name\": \"vancomycin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to vancomycin or any component of the formulation\"},"
+              - generic [ref=e301]: "{\"contraindication_name\": \"systemic vancomycin contraindication in C. difficile infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Oral vancomycin must only be used for enteric infections; parenteral vancomycin is not effective for treating C. difficile colitis.\"}"
+              - generic [ref=e302]: "]"
+              - generic [ref=e303]: "},"
+              - generic [ref=e304]: "{"
+              - generic [ref=e305]: "\"generic_name\": \"vancomycin (intravenous route)\","
+              - generic [ref=e306]: "\"contraindications\": ["
+              - generic [ref=e307]: "{\"contraindication_name\": \"vancomycin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to vancomycin or any component of the formulation\"},"
+              - generic [ref=e308]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Increased risk of nephrotoxicity and ototoxicity; requires careful dose adjustment and therapeutic drug monitoring\"},"
+              - generic [ref=e309]: "{\"contraindication_name\": \"pre-existing hearing loss\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Risk of additive ototoxicity, especially at high doses or with concomitant ototoxic agents\"}"
+              - generic [ref=e310]: "]"
+              - generic [ref=e311]: "},"
+              - generic [ref=e312]: "{"
+              - generic [ref=e313]: "\"generic_name\": \"vancomycin (oral route)\","
+              - generic [ref=e314]: "\"contraindications\": ["
+              - generic [ref=e315]: "{\"contraindication_name\": \"vancomycin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to vancomycin or any component of the formulation\"},"
+              - generic [ref=e316]: "{\"contraindication_name\": \"systemic infection treatment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Oral vancomycin is not systemically absorbed; it is not effective for treating systemic infections and must not be used for this purpose\"}"
+              - generic [ref=e317]: "]"
+              - generic [ref=e318]: "},"
+              - generic [ref=e319]: "{"
+              - generic [ref=e320]: "\"generic_name\": \"amikacin (injection route)\","
+              - generic [ref=e321]: "\"contraindications\": ["
+              - generic [ref=e322]: "{\"contraindication_name\": \"amikacin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to amikacin, other aminoglycosides, or any component\"},"
+              - generic [ref=e323]: "{\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Pregnancy Category D; can cause fetal harm, including irreversible bilateral congenital deafness, when administered to a pregnant woman\"},"
+              - generic [ref=e324]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Increased risk of nephrotoxicity and ototoxicity due to reduced drug clearance; requires dose adjustment\"},"
+              - generic [ref=e325]: "{\"contraindication_name\": \"pre-existing hearing loss or vestibular dysfunction\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Risk of additive ototoxicity and vestibulotoxicity\"},"
+              - generic [ref=e326]: "{\"contraindication_name\": \"myasthenia gravis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Aminoglycosides can impair neuromuscular transmission and may precipitate or exacerbate muscle weakness\"},"
+              - generic [ref=e327]: "{\"contraindication_name\": \"concurrent potent diuretics\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Loop diuretics (e.g., furosemide) may potentiate aminoglycoside ototoxicity\"}"
+              - generic [ref=e328]: "]"
+              - generic [ref=e329]: "},"
+              - generic [ref=e330]: "{"
+              - generic [ref=e331]: "\"generic_name\": \"ampicillin and sulbactam\","
+              - generic [ref=e332]: "\"contraindications\": ["
+              - generic [ref=e333]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ampicillin, sulbactam, or any penicillin, including anaphylaxis, angioedema, or severe skin reactions\"},"
+              - generic [ref=e334]: "{\"contraindication_name\": \"infectious mononucleosis\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Ampicillin is associated with a high incidence of non-allergic morbilliform skin rash in patients with Epstein-Barr virus infection\"},"
+              - generic [ref=e335]: "{\"contraindication_name\": \"cephalosporin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Potential cross-reactivity in patients with a history of severe hypersensitivity to cephalosporins\"},"
+              - generic [ref=e336]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Sulbactam and ampicillin are renally cleared; dose adjustment required to prevent accumulation and toxicity\"}"
+              - generic [ref=e337]: "]"
+              - generic [ref=e338]: "},"
+              - generic [ref=e339]: "{"
+              - generic [ref=e340]: "\"generic_name\": \"avibactam and ceftazidime\","
+              - generic [ref=e341]: "\"contraindications\": ["
+              - generic [ref=e342]: "{\"contraindication_name\": \"ceftazidime or avibactam allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ceftazidime, avibactam, or any component\"},"
+              - generic [ref=e343]: "{\"contraindication_name\": \"severe penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Ceftazidime, a cephalosporin, may cross-react in patients with a history of immediate-type hypersensitivity reaction (e.g., anaphylaxis) to penicillins\"},"
+              - generic [ref=e344]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Both components are renally cleared; dose adjustment is required to prevent seizure and other toxicities\"}"
+              - generic [ref=e345]: "]"
+              - generic [ref=e346]: "},"
+              - generic [ref=e347]: "{"
+              - generic [ref=e348]: "\"generic_name\": \"aztreonam (injection)\","
+              - generic [ref=e349]: "\"contraindications\": ["
+              - generic [ref=e350]: "{\"contraindication_name\": \"aztreonam allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to aztreonam or any component\"},"
+              - generic [ref=e351]: "{\"contraindication_name\": \"severe beta-lactam allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Potential cross-reactivity exists, particularly with ceftazidime due to a shared side chain; caution in severe hypersensitivity to other beta-lactams (except for this specific side chain issue)\"}"
+              - generic [ref=e352]: "]"
+              - generic [ref=e353]: "},"
+              - generic [ref=e354]: "{"
+              - generic [ref=e355]: "\"generic_name\": \"bacitracin (injection)\","
+              - generic [ref=e356]: "\"contraindications\": ["
+              - generic [ref=e357]: "{\"contraindication_name\": \"bacitracin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to bacitracin or any component\"},"
+              - generic [ref=e358]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Bacitracin injection is nephrotoxic; contraindicated in patients with pre-existing severe renal disease due to high risk of acute kidney injury\"},"
+              - generic [ref=e359]: "{\"contraindication_name\": \"concurrent nephrotoxic drugs\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive nephrotoxicity risk with other nephrotoxic agents (e.g., aminoglycosides, cisplatin)\"}"
+              - generic [ref=e360]: "]"
+              - generic [ref=e361]: "},"
+              - generic [ref=e362]: "{"
+              - generic [ref=e363]: "\"generic_name\": \"delafloxacin (oral/injection)\","
+              - generic [ref=e364]: "\"contraindications\": ["
+              - generic [ref=e365]: "{\"contraindication_name\": \"fluoroquinolone allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to delafloxacin or any fluoroquinolone\"},"
+              - generic [ref=e366]: "{\"contraindication_name\": \"myasthenia gravis\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Fluoroquinolones may exacerbate muscle weakness in patients with myasthenia gravis, potentially causing life-threatening respiratory depression\"},"
+              - generic [ref=e367]: "{\"contraindication_name\": \"pediatric patients\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Potential risk of arthropathy and tendon injury in weight-bearing joints in children; use reserved for serious infections when no alternatives exist\"},"
+              - generic [ref=e368]: "{\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Limited data; potential risk of fetal cartilage damage based on juvenile animal studies\"},"
+              - generic [ref=e369]: "{\"contraindication_name\": \"tendon disorders\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Increased risk of tendonitis and tendon rupture, particularly in patients >60, on corticosteroids, or with history of tendon disorders\"}"
+              - generic [ref=e370]: "]"
+              - generic [ref=e371]: "},"
+              - generic [ref=e372]: "{"
+              - generic [ref=e373]: "\"generic_name\": \"penicillin G benzathine and penicillin G procaine\","
+              - generic [ref=e374]: "\"contraindications\": ["
+              - generic [ref=e375]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to penicillins or components, including procaine\"},"
+              - generic [ref=e376]: "{\"contraindication_name\": \"procaine allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to procaine or other ester-type anesthetics\"},"
+              - generic [ref=e377]: "{\"contraindication_name\": \"intravenous administration\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"This formulation is for deep intramuscular injection only; intravenous administration can cause cardiorespiratory arrest and death\"},"
+              - generic [ref=e378]: "{\"contraindication_name\": \"inadvertent intravascular injection risk\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Aspirate prior to injection to avoid accidental intravascular delivery, which can cause anaphylactoid reaction to procaine or vascular occlusion by benzathine crystals\"}"
+              - generic [ref=e379]: "]"
+              - generic [ref=e380]: "},"
+              - generic [ref=e381]: "{"
+              - generic [ref=e382]: "\"generic_name\": \"cefotetan\","
+              - generic [ref=e383]: "\"contraindications\": ["
+              - generic [ref=e384]: "{\"contraindication_name\": \"cephalosporin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to cefotetan or any cephalosporin\"},"
+              - generic [ref=e385]: "{\"contraindication_name\": \"severe penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Cross-reactivity risk in patients with history of immediate-type hypersensitivity (e.g., anaphylaxis) to penicillins\"},"
+              - generic [ref=e386]: "{\"contraindication_name\": \"coagulopathy or vitamin K deficiency\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Cefotetan contains an N-methylthiotetrazole side chain, which can cause hypoprothrombinemia and increase bleeding risk\"},"
+              - generic [ref=e387]: "{\"contraindication_name\": \"concurrent warfarin therapy\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Potentiation of anticoagulant effects due to hypoprothrombinemia; requires close monitoring of INR\"},"
+              - generic [ref=e388]: "{\"contraindication_name\": \"renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Dose adjustment required based on creatinine clearance to prevent accumulation and neurotoxicity\"}"
+              - generic [ref=e389]: "]"
+              - generic [ref=e390]: "},"
+              - generic [ref=e391]: "{"
+              - generic [ref=e392]: "\"generic_name\": \"ceftolozane and tazobactam\","
+              - generic [ref=e393]: "\"contraindications\": ["
+              - generic [ref=e394]: "{\"contraindication_name\": \"cephalosporin or beta-lactamase inhibitor allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ceftolozane, tazobactam, any cephalosporin, or any component\"},"
+              - generic [ref=e395]: "{\"contraindication_name\": \"severe penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Potential cross-reactivity with cephalosporins in patients with a history of severe hypersensitivity to penicillins\"},"
+              - generic [ref=e396]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Both components are renally excreted; dose adjustment necessary to avoid accumulation and neurotoxicity\"}"
+              - generic [ref=e397]: "]"
+              - generic [ref=e398]: "},"
+              - generic [ref=e399]: "{"
+              - generic [ref=e400]: "\"generic_name\": \"lefamulin (oral/injection)\","
+              - generic [ref=e401]: "\"contraindications\": ["
+              - generic [ref=e402]: "{\"contraindication_name\": \"lefamulin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to lefamulin or any components\"},"
+              - generic [ref=e403]: "{\"contraindication_name\": \"QT prolongation\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Lefamulin prolongs the QT interval, which can cause torsades de pointes; contraindicated in patients with known QT prolongation, congenital long QT syndrome, or those on Class IA/III antiarrhythmics\"},"
+              - generic [ref=e404]: "{\"contraindication_name\": \"concurrent CYP3A4 inhibitors that prolong QT\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Concomitant use of strong CYP3A4 inducers or substrates with known risk of QT prolongation is contraindicated due to increased exposure and risk of arrhythmias\"},"
+              - generic [ref=e405]: "{\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Lefamulin primarily metabolized by liver; increased exposure risk in severe hepatic impairment; use with caution\"},"
+              - generic [ref=e406]: "{\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Limited data; potential fetal harm based on animal reproductive studies\"}"
+              - generic [ref=e407]: "]"
+              - generic [ref=e408]: "},"
+              - generic [ref=e409]: "{"
+              - generic [ref=e410]: "\"generic_name\": \"nafcillin (injection)\","
+              - generic [ref=e411]: "\"contraindications\": ["
+              - generic [ref=e412]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to nafcillin, penicillins, or any component\"},"
+              - generic [ref=e413]: "{\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Nafcillin is primarily hepatically cleared; risk of accumulation and worsening of hepatotoxicity in severe liver disease\"},"
+              - generic [ref=e414]: "{\"contraindication_name\": \"cephalosporin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Caution in patients with history of severe hypersensitivity to cephalosporins due to potential cross-reactivity\"}"
+              - generic [ref=e415]: "]"
+              - generic [ref=e416]: "},"
+              - generic [ref=e417]: "{"
+              - generic [ref=e418]: "\"generic_name\": \"omadacycline (oral/injection)\","
+              - generic [ref=e419]: "\"contraindications\": ["
+              - generic [ref=e420]: "{\"contraindication_name\": \"tetracycline allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to omadacycline, any tetracycline, or any component\"},"
+              - generic [ref=e421]: "{\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Can cause fetal harm including discoloration of deciduous teeth and inhibition of bone growth when administered during the second and third trimester\"},"
+              - generic [ref=e422]: "{\"contraindication_name\": \"pediatric patients < 8 years\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Risk of permanent tooth discoloration and enamel hypoplasia, and reversible inhibition of bone growth\"},"
+              - generic [ref=e423]: "{\"contraindication_name\": \"lactation\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Limited data; potential for tooth discoloration and bone growth inhibition in the nursing infant\"}"
+              - generic [ref=e424]: "]"
+              - generic [ref=e425]: "},"
+              - generic [ref=e426]: "{"
+              - generic [ref=e427]: "\"generic_name\": \"oxacillin (injection)\","
+              - generic [ref=e428]: "\"contraindications\": ["
+              - generic [ref=e429]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to oxacillin, penicillins, or any component\"},"
+              - generic [ref=e430]: "{\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Oxacillin has been associated with idiosyncratic hepatotoxicity; caution in pre-existing liver disease\"},"
+              - generic [ref=e431]: "{\"contraindication_name\": \"cephalosporin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Potential cross-reactivity in patients with severe cephalosporin hypersensitivity\"}"
+              - generic [ref=e432]: "]"
+              - generic [ref=e433]: "},"
+              - generic [ref=e434]: "{"
+              - generic [ref=e435]: "\"generic_name\": \"penicillin G potassium\","
+              - generic [ref=e436]: "\"contraindications\": ["
+              - generic [ref=e437]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to penicillins or any component\"},"
+              - generic [ref=e438]: "{\"contraindication_name\": \"hyperkalemia\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Penicillin G potassium contains 1.7 mEq of potassium per million units; high doses may exacerbate hyperkalemia, especially in renal impairment\"},"
+              - generic [ref=e439]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"High potassium load and reduced renal excretion increase risk of hyperkalemia and neurotoxicity\"}"
+              - generic [ref=e440]: "]"
+              - generic [ref=e441]: "},"
+              - generic [ref=e442]: "{"
+              - generic [ref=e443]: "\"generic_name\": \"penicillin G sodium\","
+              - generic [ref=e444]: "\"contraindications\": ["
+              - generic [ref=e445]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to penicillins or any component\"},"
+              - generic [ref=e446]: "{\"contraindication_name\": \"congestive heart failure or sodium-restricted diet\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"High sodium content (2.0 mEq of sodium per million units); use with caution in patients with heart failure, edema, or hypertension\"},"
+              - generic [ref=e447]: "{\"contraindication_name\": \"severe renal impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Risk of sodium overload and neurotoxicity due to reduced drug clearance; dose adjustment required\"}"
+              - generic [ref=e448]: "]"
+              - generic [ref=e449]: "},"
+              - generic [ref=e450]: "{"
+              - generic [ref=e451]: "\"generic_name\": \"procaine penicillin\","
+              - generic [ref=e452]: "\"contraindications\": ["
+              - generic [ref=e453]: "{\"contraindication_name\": \"penicillin allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to penicillins, procaine, or any component\"},"
+              - generic [ref=e454]: "{\"contraindication_name\": \"procaine allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to procaine or other ester-type local anesthetics\"},"
+              - generic [ref=e455]: "{\"contraindication_name\": \"intravenous or intra-arterial administration\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Must only be administered by deep intramuscular injection; intravascular injection can cause a severe anaphylactoid reaction to procaine and/or vascular occlusion\"},"
+              - generic [ref=e456]: "{\"contraindication_name\": \"pregnancy (unintended)\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Procaine penicillin accidental intravascular injection during near-term pregnancy has been associated with maternal and fetal distress; otherwise, indicated for syphilis in pregnancy\"}"
+              - generic [ref=e457]: "]"
+              - generic [ref=e458]: "},"
+              - generic [ref=e459]: "{"
+              - generic [ref=e460]: "\"generic_name\": \"ustekinumab\","
+              - generic [ref=e461]: "\"contraindications\": ["
+              - generic [ref=e462]: "{\"contraindication_name\": \"ustekinumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ustekinumab or any component\"},"
+              - generic [ref=e463]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Immunosuppressive effect may worsen active infections; must resolve infection before initiating therapy\"},"
+              - generic [ref=e464]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB before initiation; untreated latent TB can reactivate; initiate anti-TB therapy prior to starting ustekinumab\"},"
+              - generic [ref=e465]: "{\"contraindication_name\": \"history of malignancy\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Immunosuppression may increase risk of malignancy; caution in patients with history of cancer\"},"
+              - generic [ref=e466]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during treatment; BCG vaccines should not be given within one year of initiating ustekinumab\"}"
+              - generic [ref=e467]: "]"
+              - generic [ref=e468]: "},"
+              - generic [ref=e469]: "{"
+              - generic [ref=e470]: "\"generic_name\": \"Ustekinumab Brand name: Stelara\","
+              - generic [ref=e471]: "\"contraindications\": ["
+              - generic [ref=e472]: "{\"contraindication_name\": \"ustekinumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ustekinumab or any component\"},"
+              - generic [ref=e473]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Immunosuppressive effect may worsen active infections; must resolve infection before initiating therapy\"},"
+              - generic [ref=e474]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB before initiation; untreated latent TB can reactivate; initiate anti-TB therapy prior to starting ustekinumab\"},"
+              - generic [ref=e475]: "{\"contraindication_name\": \"history of malignancy\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Immunosuppression may increase risk of malignancy; caution in patients with history of cancer\"},"
+              - generic [ref=e476]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during treatment; BCG vaccines should not be given within one year of initiating ustekinumab\"}"
+              - generic [ref=e477]: "]"
+              - generic [ref=e478]: "},"
+              - generic [ref=e479]: "{"
+              - generic [ref=e480]: "\"generic_name\": \"secukinumab\","
+              - generic [ref=e481]: "\"contraindications\": ["
+              - generic [ref=e482]: "{\"contraindication_name\": \"secukinumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to secukinumab or any component\"},"
+              - generic [ref=e483]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Can impair immune response; risk of worsening infection\"},"
+              - generic [ref=e484]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; cases of reactivation reported with IL-17 inhibitors; treat latent TB before starting\"},"
+              - generic [ref=e485]: "{\"contraindication_name\": \"active Crohn's disease\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Secukinumab may exacerbate Crohn's disease; use with caution in inflammatory bowel disease\"},"
+              - generic [ref=e486]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"}"
+              - generic [ref=e487]: "]"
+              - generic [ref=e488]: "},"
+              - generic [ref=e489]: "{"
+              - generic [ref=e490]: "\"generic_name\": \"ixekizumab\","
+              - generic [ref=e491]: "\"contraindications\": ["
+              - generic [ref=e492]: "{\"contraindication_name\": \"ixekizumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ixekizumab or any component\"},"
+              - generic [ref=e493]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Risk of worsening infection due to immunosuppression\"},"
+              - generic [ref=e494]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; treat latent TB before initiating therapy\"},"
+              - generic [ref=e495]: "{\"contraindication_name\": \"active inflammatory bowel disease\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Potential for exacerbation of Crohn's disease and ulcerative colitis reported\"},"
+              - generic [ref=e496]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"}"
+              - generic [ref=e497]: "]"
+              - generic [ref=e498]: "},"
+              - generic [ref=e499]: "{"
+              - generic [ref=e500]: "\"generic_name\": \"risankizumab\","
+              - generic [ref=e501]: "\"contraindications\": ["
+              - generic [ref=e502]: "{\"contraindication_name\": \"risankizumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to risankizumab or any component\"},"
+              - generic [ref=e503]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Immunosuppression can exacerbate infections\"},"
+              - generic [ref=e504]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; initiate anti-TB therapy prior to treatment\"},"
+              - generic [ref=e505]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during treatment\"}"
+              - generic [ref=e506]: "]"
+              - generic [ref=e507]: "},"
+              - generic [ref=e508]: "{"
+              - generic [ref=e509]: "\"generic_name\": \"guselkumab\","
+              - generic [ref=e510]: "\"contraindications\": ["
+              - generic [ref=e511]: "{\"contraindication_name\": \"guselkumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to guselkumab or any component\"},"
+              - generic [ref=e512]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Immunosuppressive effect can worsen active infections\"},"
+              - generic [ref=e513]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; treat latent TB prior to initiating therapy\"},"
+              - generic [ref=e514]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during treatment\"}"
+              - generic [ref=e515]: "]"
+              - generic [ref=e516]: "},"
+              - generic [ref=e517]: "{"
+              - generic [ref=e518]: "\"generic_name\": \"tildrakizumab\","
+              - generic [ref=e519]: "\"contraindications\": ["
+              - generic [ref=e520]: "{\"contraindication_name\": \"tildrakizumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to tildrakizumab or any component\"},"
+              - generic [ref=e521]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Immunosuppression may exacerbate infections\"},"
+              - generic [ref=e522]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; initate anti-TB therapy before starting tildrakizumab\"},"
+              - generic [ref=e523]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"}"
+              - generic [ref=e524]: "]"
+              - generic [ref=e525]: "},"
+              - generic [ref=e526]: "{"
+              - generic [ref=e527]: "\"generic_name\": \"infliximab-axxq\","
+              - generic [ref=e528]: "\"contraindications\": ["
+              - generic [ref=e529]: "{\"contraindication_name\": \"infliximab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to infliximab, murine proteins, or any component\"},"
+              - generic [ref=e530]: "{\"contraindication_name\": \"moderate to severe heart failure (NYHA Class III/IV)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Infliximab doses >5 mg/kg associated with increased mortality and hospitalization due to worsening heart failure\"},"
+              - generic [ref=e531]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"TNF-alpha inhibition can significantly worsen infections and lead to sepsis\"},"
+              - generic [ref=e532]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Screen for TB; reactivation of latent TB is common; anti-TB therapy must be initiated before starting infliximab\"},"
+              - generic [ref=e533]: "{\"contraindication_name\": \"hepatitis B reactivation risk\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for HBV; risk of reactivation; consider antiviral prophylaxis\"},"
+              - generic [ref=e534]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"},"
+              - generic [ref=e535]: "{\"contraindication_name\": \"history of demyelinating disorder\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"TNF inhibitors may exacerbate or initiate CNS demyelination; avoid in multiple sclerosis\"}"
+              - generic [ref=e536]: "]"
+              - generic [ref=e537]: "},"
+              - generic [ref=e538]: "{"
+              - generic [ref=e539]: "\"generic_name\": \"halobetasol and tazarotene topical\","
+              - generic [ref=e540]: "\"contraindications\": ["
+              - generic [ref=e541]: "{\"contraindication_name\": \"component allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to halobetasol, tazarotene, or any component\"},"
+              - generic [ref=e542]: "{\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Tazarotene is a retinoid and teratogen; must not be used in pregnant women or those planning pregnancy; obtain negative pregnancy test before initiation and ensure effective contraception\"},"
+              - generic [ref=e543]: "{\"contraindication_name\": \"viral skin infection (e.g., herpes simplex, varicella)\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Corticosteroid and retinoid may exacerbate viral skin infections\"},"
+              - generic [ref=e544]: "{\"contraindication_name\": \"application to sunburned skin or eczema\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Can cause severe irritation or increase systemic absorption; avoid use on damaged or eczematous skin\"}"
+              - generic [ref=e545]: "]"
+              - generic [ref=e546]: "},"
+              - generic [ref=e547]: "{"
+              - generic [ref=e548]: "\"generic_name\": \"guselkumab Brand name: Tremfya\","
+              - generic [ref=e549]: "\"contraindications\": ["
+              - generic [ref=e550]: "{\"contraindication_name\": \"guselkumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to guselkumab or any component\"},"
+              - generic [ref=e551]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Immunosuppressive effect can worsen active infections\"},"
+              - generic [ref=e552]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; treat latent TB prior to initiating therapy\"},"
+              - generic [ref=e553]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during treatment\"}"
+              - generic [ref=e554]: "]"
+              - generic [ref=e555]: "},"
+              - generic [ref=e556]: "{"
+              - generic [ref=e557]: "\"generic_name\": \"infliximab-dyyb\","
+              - generic [ref=e558]: "\"contraindications\": ["
+              - generic [ref=e559]: "{\"contraindication_name\": \"infliximab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to infliximab, murine proteins, or any component\"},"
+              - generic [ref=e560]: "{\"contraindication_name\": \"moderate to severe heart failure (NYHA Class III/IV)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Infliximab doses >5 mg/kg associated with increased mortality and hospitalization due to worsening heart failure\"},"
+              - generic [ref=e561]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"TNF-alpha inhibition can significantly worsen infections and lead to sepsis\"},"
+              - generic [ref=e562]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Screen for TB; reactivation of latent TB is common; anti-TB therapy must be initiated before starting infliximab\"},"
+              - generic [ref=e563]: "{\"contraindication_name\": \"hepatitis B reactivation risk\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for HBV; risk of reactivation; consider antiviral prophylaxis\"},"
+              - generic [ref=e564]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"},"
+              - generic [ref=e565]: "{\"contraindication_name\": \"history of demyelinating disorder\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"TNF inhibitors may exacerbate or initiate CNS demyelination; avoid in multiple sclerosis\"}"
+              - generic [ref=e566]: "]"
+              - generic [ref=e567]: "},"
+              - generic [ref=e568]: "{"
+              - generic [ref=e569]: "\"generic_name\": \"ixekizumab Brand name: Taltz\","
+              - generic [ref=e570]: "\"contraindications\": ["
+              - generic [ref=e571]: "{\"contraindication_name\": \"ixekizumab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to ixekizumab or any component\"},"
+              - generic [ref=e572]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Risk of worsening infection due to immunosuppression\"},"
+              - generic [ref=e573]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for TB; treat latent TB before initiating therapy\"},"
+              - generic [ref=e574]: "{\"contraindication_name\": \"active inflammatory bowel disease\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Potential for exacerbation of Crohn's disease and ulcerative colitis reported\"},"
+              - generic [ref=e575]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"}"
+              - generic [ref=e576]: "]"
+              - generic [ref=e577]: "},"
+              - generic [ref=e578]: "{"
+              - generic [ref=e579]: "\"generic_name\": \"infliximab-abda\","
+              - generic [ref=e580]: "\"contraindications\": ["
+              - generic [ref=e581]: "{\"contraindication_name\": \"infliximab allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of hypersensitivity to infliximab, murine proteins, or any component\"},"
+              - generic [ref=e582]: "{\"contraindication_name\": \"moderate to severe heart failure (NYHA Class III/IV)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Infliximab doses >5 mg/kg associated with increased mortality and hospitalization due to worsening heart failure\"},"
+              - generic [ref=e583]: "{\"contraindication_name\": \"active serious infection\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"TNF-alpha inhibition can significantly worsen infections and lead to sepsis\"},"
+              - generic [ref=e584]: "{\"contraindication_name\": \"latent tuberculosis\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Screen for TB; reactivation of latent TB is common; anti-TB therapy must be initiated before starting infliximab\"},"
+              - generic [ref=e585]: "{\"contraindication_name\": \"hepatitis B reactivation risk\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Screen for HBV; risk of reactivation; consider antiviral prophylaxis\"},"
+              - generic [ref=e586]: "{\"contraindication_name\": \"concurrent live vaccines\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Avoid live vaccines during therapy\"},"
+              - generic [ref=e587]: "{\"contraindication_name\": \"history of demyelinating disorder\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"TNF inhibitors may exacerbate or initiate CNS demyelination; avoid in multiple sclerosis\"}"
+              - generic [ref=e588]: "]"
+              - generic [ref=e589]: "},"
+              - generic [ref=e590]: "{"
+              - generic [ref=e591]: "\"generic_name\": \"secukinumab Brand name: Cosentyx\","
+              - generic [ref=e592]: "\"contraindications\": ["
+              - generic [ref=e593]: "{\"contraindication_name\":"
+            - img [ref=e258]
+            - img [ref=e260]
+          - generic [ref=e594]:
+            - generic [ref=e595]:
+              - button [ref=e596] [cursor=pointer]:
+                - img [ref=e599]
+              - button [ref=e601] [cursor=pointer]:
+                - img [ref=e604]
+              - button [ref=e606] [cursor=pointer]:
+                - img [ref=e609]
+              - button [ref=e611] [cursor=pointer]:
+                - img [ref=e614]
+              - button [ref=e616] [cursor=pointer]:
+                - img [ref=e619]
+            - button "继续生成" [ref=e622] [cursor=pointer]:
+              - generic [ref=e623]: 继续生成
+      - generic [ref=e262]:
+        - generic [ref=e265]:
+          - textbox "给 DeepSeek 发送消息" [ref=e267]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+            - text: "上一次生成被截断了,请继续为以下16种药物生成禁忌症数据,格式与之前完全相同: secukinumab Brand name: Cosentyx | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis|hidradenitis suppurativa | 妊娠分级: B calcipotriene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C acitretin | 类别: Antipsoriatics | 适应症: psoriasis|ichthyosis|lichen planus | 妊娠分级: X betamethasone topical | 类别: Topical steroids | 适应症: eczema|psoriasis|allergic contact dermatitis|pruritus | 妊娠分级: C betamethasone and calcipotriene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C cyclosporine (oral route) | 类别: Calcineurin inhibitors | 适应症: transplant rejection prophylaxis|rheumatoid arthritis|psoriasis|nephrotic syndrome|uveitis | 妊娠分级: C methotrexate (injection) | 类别: Antimetabolites, Antipsoriatics, Antirheumatics, Other immunosuppressants | 适应症: rheumatoid arthritis|psoriasis|cancer|ectopic pregnancy|inflammatory bowel disease | 妊娠分级: X tacrolimus topical | 类别: Miscellaneous topical agents | 适应症: eczema|psoriasis|vitiligo | 妊娠分级: C calcitriol (topical) | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C coal tar topical | 类别: Miscellaneous topical agents | 适应症: psoriasis|seborrheic dermatitis|eczema | 妊娠分级: C methotrexate (injection route, subcutaneous route) | 类别: | 适应症: rheumatoid arthritis|psoriasis|cancer|inflammatory bowel disease | 妊娠分级: X betamethasone and calcipotriene (topical application route) | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C methoxsalen (oral) | 类别: Psoralens | 适应症: psoriasis|vitiligo|cutaneous T-cell lymphoma | 妊娠分级: D adalimumab-afzb (subcutaneous route) | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis | 妊娠分级: B adalimumab-atto (subcutaneous route) | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis | 妊娠分级: B Pramoxine and Hydrocortisone Rectal Cream | 类别: Anorectal preparations | 适应症: hemorrhoids|pruritus ani|anal fissure | 妊娠分级: C 请输出JSON格式,只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e268]:
+            - button "深度思考" [ref=e269] [cursor=pointer]:
+              - img [ref=e271]
+              - generic [ref=e274]: 深度思考
+            - button "智能搜索" [ref=e275] [cursor=pointer]:
+              - img [ref=e277]
+              - generic [ref=e279]: 智能搜索
+            - generic [ref=e280]:
+              - button [ref=e281] [cursor=pointer]:
+                - img [ref=e284]
+              - button [ref=e287] [cursor=pointer]:
+                - img [ref=e624]
+        - generic [ref=e292]: 内容由 AI 生成，请仔细甄别

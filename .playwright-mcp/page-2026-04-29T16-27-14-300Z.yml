@@ -1,0 +1,557 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e229] [cursor=pointer]:
+          - /url: /a/chat/s/dadb6b40-edb1-497b-85cf-1d908a363d87
+          - generic [ref=e230]: 新对话
+          - button [ref=e231]:
+            - img [ref=e235]
+        - link "临床药学专家生成药物交互列表" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/4f673188-ac15-45da-a360-766681d189ca
+          - generic [ref=e36]: 临床药学专家生成药物交互列表
+        - link "药物交互作用列表生成" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/396da42e-e60a-42d9-8950-e2d1de7ba0b8
+          - generic [ref=e38]: 药物交互作用列表生成
+      - generic [ref=e39]:
+        - generic [ref=e40]: 昨天
+        - link "药物交互作用列表生成" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/43d465df-a130-493c-a502-f7871df35a84
+          - generic [ref=e42]: 药物交互作用列表生成
+        - link "dupilumab药物交互补充生成" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/ddc8880c-a441-4331-baa5-33dbff16164e
+          - generic [ref=e44]: dupilumab药物交互补充生成
+        - link "药物交互作用列表生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+          - generic [ref=e46]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+          - generic [ref=e48]: 药物交互列表生成
+        - link "糖尿病药物交互列表生成" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e50]: 糖尿病药物交互列表生成
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e52]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e54]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e56]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e58]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e60]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e62]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e64]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e66]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e68]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e70]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e72]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e74]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e76]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e78]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e80]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e82]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e84]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e86]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e88]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e90]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e92]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e94]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e96]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e100]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e102]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e108]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e110]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e114]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e116]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e118]: HIV药物禁忌症生成
+      - generic [ref=e119]:
+        - generic [ref=e120]: 7 天内
+        - link "药物禁忌症列表生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e122]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e124]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e126]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e128]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e130]: 药物适应症列表生成
+        - link "药学知识专家验证药物适应症" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e132]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e134]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e136]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e138]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e140]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e142]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e144]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e146]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e148]: 生成数据训练请求
+    - generic [ref=e150] [cursor=pointer]:
+      - img [ref=e153]
+      - generic [ref=e156]: 132******38
+      - img [ref=e158]
+  - generic [ref=e163]:
+    - generic [ref=e239]:
+      - generic [ref=e241]:
+        - generic [ref=e242] [cursor=pointer]: 新对话
+        - generic [ref=e243]:
+          - img [ref=e245]
+          - generic [ref=e247]: 专家模式
+      - button [ref=e248] [cursor=pointer]:
+        - img [ref=e251]
+    - generic [ref=e254]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - generic [ref=e259]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: isradipine | 类别: Calcium channel blocking agents | 适应症: hypertension|angina pectoris | 妊娠分级: C metoprolol and hydrochlorothiazide (oral route) | 类别: Beta blockers with thiazides | 适应症: hypertension | 妊娠分级: C Hydrochlorothiazide and Triamterene | 类别: Potassium sparing diuretics with thiazides | 适应症: hypertension|edema associated with heart failure|edema associated with liver cirrhosis | 妊娠分级: C mecamylamine | 类别: Antiadrenergic agents, peripherally acting | 适应症: moderate to severe hypertension|smoking cessation | 妊娠分级: C moexipril | 类别: Angiotensin Converting Enzyme Inhibitors | 适应症: hypertension | 妊娠分级: D nebivolol and valsartan | 类别: Miscellaneous antihypertensive combinations | 适应症: hypertension | 妊娠分级: N nicardipine (oral/injection) | 类别: Calcium channel blocking agents | 适应症: hypertension|angina pectoris|hypertensive emergencies | 妊娠分级: C trandolapril and verapamil | 类别: ACE inhibitors with calcium channel blocking agents | 适应症: hypertension|stable angina | 妊娠分级: D Atenolol and Chlorthalidone | 类别: Beta blockers with thiazides | 适应症: hypertension|angina pectoris | 妊娠分级: D levothyroxine (oral/injection) | 类别: Thyroid drugs | 适应症: hypothyroidism|thyroid cancer (tsh suppression)|goiter|myxedema coma | 妊娠分级: A thyroid desiccated | 类别: Thyroid drugs | 适应症: hypothyroidism|thyroid cancer (tsh suppression) | 妊娠分级: A levothyroxine (oral route) | 类别: Thyroid drugs | 适应症: hypothyroidism|thyroid cancer (tsh suppression)|goiter | 妊娠分级: A levothyroxine sodium | 类别: Thyroid drugs | 适应症: hypothyroidism|thyroid cancer (tsh suppression) | 妊娠分级: A liothyronine (intravenous route) | 类别: Thyroid drugs | 适应症: myxedema coma|severe hypothyroidism | 妊娠分级: A budesonide (oral) | 类别: Glucocorticoids, Inhaled corticosteroids | 适应症: inflammatory bowel disease (crohn's disease, ulcerative colitis)|eosinophilic esophagitis|microscopic colitis | 妊娠分级: C mesalamine (oral) | 类别: 5-aminosalicylates | 适应症: ulcerative colitis|crohn's disease | 妊娠分级: B mesalamine (oral route) | 类别: 5-aminosalicylates | 适应症: ulcerative colitis|crohn's disease | 妊娠分级: B infliximab, inliximab-abda, infliximab-axxq, infliximab-dyyb, infliximab-qbtx Brand names: Remicade , Avsola , Inflectra , Ixifi , Renflexis | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|ankylosing spondylitis|psoriatic arthritis|plaque psoriasis|crohn's disease|ulcerative colitis | 妊娠分级: B mesalamine Brand names: Rowasa, sfRowasa | 类别: 5-aminosalicylates | 适应症: mild to moderate ulcerative colitis|ulcerative proctitis|ulcerative proctosigmoiditis | 妊娠分级: B hydrocortisone (oral) | 类别: Glucocorticoids | 适应症: adrenal insufficiency|inflammatory bowel disease|asthma|allergic disorders|rheumatoid arthritis | 妊娠分级: C cromolyn sodium (oral) | 类别: Mast cell stabilizers | 适应症: mastocytosis|allergic disorders|inflammatory bowel disease | 妊娠分级: B hydrocortisone (oral route) | 类别: Glucocorticoids | 适应症: adrenal insufficiency|inflammatory bowel disease|asthma | 妊娠分级: C hydrocortisone rectal (foam, enema) | 类别: Glucocorticoids | 适应症: ulcerative colitis|proctitis|crohn's disease with rectal involvement | 妊娠分级: C hydrocortisone (injection) | 类别: Glucocorticoids | 适应症: adrenal insufficiency|inflammatory bowel disease|asthma|septic shock|acute allergic reaction | 妊娠分级: C oxybutynin (oral) | 类别: Urinary antispasmodics | 适应症: overactive bladder|urinary incontinence|neurogenic bladder|hyperhidrosis | 妊娠分级: B oxybutynin (transdermal) | 类别: Urinary antispasmodics | 适应症: overactive bladder|urinary incontinence | 妊娠分级: B oxybutynin (topical) | 类别: Urinary antispasmodics | 适应症: hyperhidrosis|overactive bladder | 妊娠分级: B onabotulinumtoxinA | 类别: Skeletal muscle relaxants | 适应症: muscle spasticity|cervical dystonia|blepharospasm|chronic migraine|overactive bladder|hyperhidrosis|strabismus|hemifacial spasm | 妊娠分级: C darifenacin | 类别: Urinary antispasmodics | 适应症: overactive bladder|urinary incontinence | 妊娠分级: C flavoxate | 类别: Urinary antispasmodics | 适应症: overactive bladder|urinary incontinence|dysuria|urinary frequency|nocturia | 妊娠分级: B onabotulinumtoxinA (Botox) | 类别: Skeletal muscle relaxants | 适应症: muscle spasticity|cervical dystonia|blepharospasm|chronic migraine|overactive bladder|hyperhidrosis|strabismus|hemifacial spasm | 妊娠分级: C suvorexant | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia | 妊娠分级: C lemborexant | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia | 妊娠分级: N daridorexant | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia | 妊娠分级: N zolpidem (oral route) | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|sleep onset latency|sleep maintenance | 妊娠分级: C ramelteon | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia characterized by difficulty with sleep onset|chronic insomnia | 妊娠分级: C diphenhydramine and ibuprofen | 类别: Analgesic combinations | 适应症: pain with associated sleeplessness|headache with sleeplessness|minor aches and pains with sleeplessness | 妊娠分级: N quazepam | 类别: Benzodiazepines | 适应症: insomnia|chronic insomnia | 妊娠分级: C acetaminophen and diphenhydramine | 类别: Analgesic combinations | 适应症: pain with associated sleeplessness|headache with sleeplessness|minor aches and pains with sleeplessness | 妊娠分级: N Chloral Hydrate Capsules | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|sedation before procedures|alcohol withdrawal | 妊娠分级: C dimenhydrinate | 类别: Anticholinergic antiemetics | 适应症: motion sickness|nausea and vomiting|vertigo | 妊娠分级: B Diphenhydramine (Sleep Aid) Capsules and Tablets | 类别: Anticholinergic antiemetics, Anticholinergic antiparkinson agents, Antihistamines, Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|allergic rhinitis|motion sickness|parkinsonism|nausea and vomiting | 妊娠分级: B pentobarbital (injection) | 类别: Barbiturates | 适应症: insomnia|sedation before surgery|status epilepticus|intracranial hypertension | 妊娠分级: D Diphenhydramine (Sleep Aid) Orally Disintegrating Tablets | 类别: Anticholinergic antiemetics, Anticholinergic antiparkinson agents, Antihistamines, Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|allergic rhinitis|motion sickness | 妊娠分级: B zolpidem oral spray, metered | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia | 妊娠分级: C Doxylamine | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|allergic rhinitis|common cold | 妊娠分级: B diphenhydramine and naproxen | 类别: Analgesic combinations | 适应症: pain with associated sleeplessness|headache with sleeplessness | 妊娠分级: C diphenhydramine and magnesium salicylate | 类别: Analgesic combinations | 适应症: pain with associated sleeplessness|headache with sleeplessness | 妊娠分级: N zopiclone | 类别: | 适应症: insomnia (short-term treatment) | 妊娠分级: N esterified estrogens and methyltestosterone | 类别: Sex hormone combinations | 适应症: menopausal symptoms|postmenopausal osteoporosis | 妊娠分级: X 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e262]:
+            - button [ref=e263] [cursor=pointer]:
+              - img [ref=e266]
+            - button [ref=e268] [cursor=pointer]:
+              - img [ref=e271]
+        - generic [ref=e276]:
+          - generic [ref=e279]:
+            - generic [ref=e280]: json
+            - generic [ref=e282]:
+              - button "复制" [disabled] [ref=e283]:
+                - img [ref=e285]
+                - generic [ref=e287]: 复制
+              - button "下载" [disabled] [ref=e288]:
+                - img [ref=e290]
+                - generic [ref=e292]: 下载
+          - generic [ref=e293]:
+            - generic [ref=e294]: "["
+            - generic [ref=e295]: "{"
+            - generic [ref=e296]: "\"generic_name\": \"isradipine\","
+            - generic [ref=e297]: "\"interactions\": ["
+            - generic [ref=e298]: "{"
+            - generic [ref=e299]: "\"drug_a\": \"isradipine\","
+            - generic [ref=e300]: "\"drug_b\": \"CYP3A4 inhibitors\","
+            - generic [ref=e301]: "\"interaction_type\": \"major\","
+            - generic [ref=e302]: "\"clinical_effect\": \"显著增加低血压、心动过缓和周围性水肿风险\","
+            - generic [ref=e303]: "\"mechanism\": \"CYP3A4强抑制剂显著降低isradipine的肝代谢清除率，导致血药浓度升高\""
+            - generic [ref=e304]: "},"
+            - generic [ref=e305]: "{"
+            - generic [ref=e306]: "\"drug_a\": \"isradipine\","
+            - generic [ref=e307]: "\"drug_b\": \"CYP3A4 inducers\","
+            - generic [ref=e308]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e309]: "\"clinical_effect\": \"降低降压效果\","
+            - generic [ref=e310]: "\"mechanism\": \"CYP3A4诱导剂加速isradipine代谢，降低血药浓度\""
+            - generic [ref=e346]: "},"
+            - generic [ref=e347]: "{"
+            - generic [ref=e348]: "\"drug_a\": \"isradipine\","
+            - generic [ref=e349]: "\"drug_b\": \"beta blockers\","
+            - generic [ref=e350]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e351]: "\"clinical_effect\": \"增加负性肌力作用，可能引起严重低血压或心力衰竭加重\","
+            - generic [ref=e352]: "\"mechanism\": \"药效学协同抑制心肌收缩力和房室传导\""
+            - generic [ref=e353]: "}"
+            - generic [ref=e354]: "]"
+            - generic [ref=e355]: "},"
+            - generic [ref=e356]: "{"
+            - generic [ref=e357]: "\"generic_name\": \"metoprolol and hydrochlorothiazide\","
+            - generic [ref=e358]: "\"interactions\": ["
+            - generic [ref=e359]: "{"
+            - generic [ref=e360]: "\"drug_a\": \"metoprolol\","
+            - generic [ref=e361]: "\"drug_b\": \"CYP2D6 inhibitors\","
+            - generic [ref=e362]: "\"interaction_type\": \"major\","
+            - generic [ref=e363]: "\"clinical_effect\": \"显著增加心动过缓、低血压和支气管痉挛风险\","
+            - generic [ref=e364]: "\"mechanism\": \"CYP2D6抑制剂降低metoprolol代谢，导致血药浓度升高及心脏选择性丧失\""
+            - generic [ref=e365]: "},"
+            - generic [ref=e366]: "{"
+            - generic [ref=e367]: "\"drug_a\": \"metoprolol\","
+            - generic [ref=e368]: "\"drug_b\": \"non-dihydropyridine calcium channel blockers\","
+            - generic [ref=e369]: "\"interaction_type\": \"major\","
+            - generic [ref=e370]: "\"clinical_effect\": \"严重心动过缓、心脏传导阻滞、心力衰竭\","
+            - generic [ref=e371]: "\"mechanism\": \"药效学协同抑制窦房结和房室结功能\""
+            - generic [ref=e372]: "},"
+            - generic [ref=e373]: "{"
+            - generic [ref=e374]: "\"drug_a\": \"hydrochlorothiazide\","
+            - generic [ref=e375]: "\"drug_b\": \"nonsteroidal anti-inflammatory drugs\","
+            - generic [ref=e376]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e377]: "\"clinical_effect\": \"降低利尿和降压效果，增加急性肾损伤风险\","
+            - generic [ref=e378]: "\"mechanism\": \"NSAIDs抑制肾脏前列腺素合成，拮抗利尿钠排泌并减少肾血流\""
+            - generic [ref=e379]: "},"
+            - generic [ref=e380]: "{"
+            - generic [ref=e381]: "\"drug_a\": \"hydrochlorothiazide\","
+            - generic [ref=e382]: "\"drug_b\": \"lithium\","
+            - generic [ref=e383]: "\"interaction_type\": \"major\","
+            - generic [ref=e384]: "\"clinical_effect\": \"锂中毒风险显著升高（震颤、意识障碍、心律失常）\","
+            - generic [ref=e385]: "\"mechanism\": \"噻嗪类利尿剂减少肾脏锂清除率\""
+            - generic [ref=e386]: "}"
+            - generic [ref=e387]: "]"
+            - generic [ref=e388]: "},"
+            - generic [ref=e389]: "{"
+            - generic [ref=e390]: "\"generic_name\": \"Hydrochlorothiazide and Triamterene\","
+            - generic [ref=e391]: "\"interactions\": ["
+            - generic [ref=e392]: "{"
+            - generic [ref=e393]: "\"drug_a\": \"hydrochlorothiazide\","
+            - generic [ref=e394]: "\"drug_b\": \"ACE inhibitors\","
+            - generic [ref=e395]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e396]: "\"clinical_effect\": \"首剂低血压风险增加\","
+            - generic [ref=e397]: "\"mechanism\": \"利尿剂诱导容量不足，增强ACEI的初始降压反应\""
+            - generic [ref=e398]: "},"
+            - generic [ref=e399]: "{"
+            - generic [ref=e400]: "\"drug_a\": \"triamterene\","
+            - generic [ref=e401]: "\"drug_b\": \"potassium supplements\","
+            - generic [ref=e402]: "\"interaction_type\": \"major\","
+            - generic [ref=e403]: "\"clinical_effect\": \"致命性高钾血症风险\","
+            - generic [ref=e404]: "\"mechanism\": \"药效学协同保留钾离子\""
+            - generic [ref=e405]: "},"
+            - generic [ref=e406]: "{"
+            - generic [ref=e407]: "\"drug_a\": \"triamterene\","
+            - generic [ref=e408]: "\"drug_b\": \"NSAIDs\","
+            - generic [ref=e409]: "\"interaction_type\": \"major\","
+            - generic [ref=e410]: "\"clinical_effect\": \"急性肾衰竭和高钾血症风险显著增加\","
+            - generic [ref=e411]: "\"mechanism\": \"肾血流动力学损害叠加钾排泄减少\""
+            - generic [ref=e412]: "},"
+            - generic [ref=e413]: "{"
+            - generic [ref=e414]: "\"drug_a\": \"triamterene\","
+            - generic [ref=e415]: "\"drug_b\": \"ACE inhibitors\","
+            - generic [ref=e416]: "\"interaction_type\": \"major\","
+            - generic [ref=e417]: "\"clinical_effect\": \"危及生命的高钾血症\","
+            - generic [ref=e418]: "\"mechanism\": \"双重抑制肾素-血管紧张素系统醛固酮分泌及直接抑制肾远曲小管钾分泌\""
+            - generic [ref=e419]: "},"
+            - generic [ref=e420]: "{"
+            - generic [ref=e421]: "\"drug_a\": \"hydrochlorothiazide\","
+            - generic [ref=e422]: "\"drug_b\": \"lithium\","
+            - generic [ref=e423]: "\"interaction_type\": \"major\","
+            - generic [ref=e424]: "\"clinical_effect\": \"锂中毒风险\","
+            - generic [ref=e425]: "\"mechanism\": \"噻嗪类减少锂清除\""
+            - generic [ref=e426]: "}"
+            - generic [ref=e427]: "]"
+            - generic [ref=e428]: "},"
+            - generic [ref=e429]: "{"
+            - generic [ref=e430]: "\"generic_name\": \"mecamylamine\","
+            - generic [ref=e431]: "\"interactions\": ["
+            - generic [ref=e432]: "{"
+            - generic [ref=e433]: "\"drug_a\": \"mecamylamine\","
+            - generic [ref=e434]: "\"drug_b\": \"antihypertensives\","
+            - generic [ref=e435]: "\"interaction_type\": \"major\","
+            - generic [ref=e436]: "\"clinical_effect\": \"严重低血压，可能导致重要器官灌注不足\","
+            - generic [ref=e437]: "\"mechanism\": \"药效学协同降低交感神经张力\""
+            - generic [ref=e438]: "},"
+            - generic [ref=e439]: "{"
+            - generic [ref=e440]: "\"drug_a\": \"mecamylamine\","
+            - generic [ref=e441]: "\"drug_b\": \"alcohol\","
+            - generic [ref=e442]: "\"interaction_type\": \"major\","
+            - generic [ref=e443]: "\"clinical_effect\": \"严重低血压和中枢神经系统抑制\","
+            - generic [ref=e444]: "\"mechanism\": \"药效学协同血管扩张和中枢抑制\""
+            - generic [ref=e445]: "},"
+            - generic [ref=e446]: "{"
+            - generic [ref=e447]: "\"drug_a\": \"mecamylamine\","
+            - generic [ref=e448]: "\"drug_b\": \"anesthetic agents\","
+            - generic [ref=e449]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e450]: "\"clinical_effect\": \"术中血压过度降低\","
+            - generic [ref=e451]: "\"mechanism\": \"交感神经阻滞效应与麻醉药血管扩张作用叠加\""
+            - generic [ref=e452]: "},"
+            - generic [ref=e453]: "{"
+            - generic [ref=e454]: "\"drug_a\": \"mecamylamine\","
+            - generic [ref=e455]: "\"drug_b\": \"sulfonamides\","
+            - generic [ref=e456]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e457]: "\"clinical_effect\": \"mecamylamine降压效果减弱\","
+            - generic [ref=e458]: "\"mechanism\": \"尿液碱化降低mecamylamine肾清除率，但竞争其肾小管分泌\""
+            - generic [ref=e459]: "}"
+            - generic [ref=e460]: "]"
+            - generic [ref=e461]: "},"
+            - generic [ref=e462]: "{"
+            - generic [ref=e463]: "\"generic_name\": \"moexipril\","
+            - generic [ref=e464]: "\"interactions\": ["
+            - generic [ref=e465]: "{"
+            - generic [ref=e466]: "\"drug_a\": \"moexipril\","
+            - generic [ref=e467]: "\"drug_b\": \"potassium-sparing diuretics\","
+            - generic [ref=e468]: "\"interaction_type\": \"major\","
+            - generic [ref=e469]: "\"clinical_effect\": \"危及生命的高钾血症\","
+            - generic [ref=e470]: "\"mechanism\": \"协同抑制醛固酮介导的钾排泄\""
+            - generic [ref=e471]: "},"
+            - generic [ref=e472]: "{"
+            - generic [ref=e473]: "\"drug_a\": \"moexipril\","
+            - generic [ref=e474]: "\"drug_b\": \"aliskiren\","
+            - generic [ref=e475]: "\"interaction_type\": \"major\","
+            - generic [ref=e476]: "\"clinical_effect\": \"低血压、晕厥、高钾血症及肾功能恶化，糖尿病患者禁忌\","
+            - generic [ref=e477]: "\"mechanism\": \"双重阻断肾素-血管紧张素系统\""
+            - generic [ref=e478]: "},"
+            - generic [ref=e479]: "{"
+            - generic [ref=e480]: "\"drug_a\": \"moexipril\","
+            - generic [ref=e481]: "\"drug_b\": \"NSAIDs\","
+            - generic [ref=e482]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e483]: "\"clinical_effect\": \"降压效果减弱，肾功能恶化风险增加\","
+            - generic [ref=e484]: "\"mechanism\": \"NSAIDs抑制血管扩张性前列腺素合成并减少肾血流\""
+            - generic [ref=e485]: "},"
+            - generic [ref=e486]: "{"
+            - generic [ref=e487]: "\"drug_a\": \"moexipril\","
+            - generic [ref=e488]: "\"drug_b\": \"lithium\","
+            - generic [ref=e489]: "\"interaction_type\": \"major\","
+            - generic [ref=e490]: "\"clinical_effect\": \"锂中毒\","
+            - generic [ref=e491]: "\"mechanism\": \"ACEI减少锂排泄\""
+            - generic [ref=e492]: "}"
+            - generic [ref=e493]: "]"
+            - generic [ref=e494]: "},"
+            - generic [ref=e495]: "{"
+            - generic [ref=e496]: "\"generic_name\": \"nebivolol and valsartan\","
+            - generic [ref=e497]: "\"interactions\": ["
+            - generic [ref=e498]: "{"
+            - generic [ref=e499]: "\"drug_a\": \"nebivolol\","
+            - generic [ref=e500]: "\"drug_b\": \"CYP2D6 inhibitors\","
+            - generic [ref=e501]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e502]: "\"clinical_effect\": \"增强β受体阻滞作用，增加心动过缓风险\","
+            - generic [ref=e503]: "\"mechanism\": \"CYP2D6抑制剂抑制nebivolol代谢\""
+            - generic [ref=e504]: "},"
+            - generic [ref=e505]: "{"
+            - generic [ref=e506]: "\"drug_a\": \"valsartan\","
+            - generic [ref=e507]: "\"drug_b\": \"aliskiren\","
+            - generic [ref=e508]: "\"interaction_type\": \"major\","
+            - generic [ref=e509]: "\"clinical_effect\": \"低血压、高钾血症、肾功能恶化，糖尿病患者禁忌\","
+            - generic [ref=e510]: "\"mechanism\": \"双重抑制肾素-血管紧张素系统\""
+            - generic [ref=e511]: "},"
+            - generic [ref=e512]: "{"
+            - generic [ref=e513]: "\"drug_a\": \"nebivolol\","
+            - generic [ref=e514]: "\"drug_b\": \"non-dihydropyridine calcium channel blockers\","
+            - generic [ref=e515]: "\"interaction_type\": \"major\","
+            - generic [ref=e516]: "\"clinical_effect\": \"严重心动过缓、完全性心脏传导阻滞\","
+            - generic [ref=e517]: "\"mechanism\": \"药效学协同抑制心脏传导系统\""
+            - generic [ref=e518]: "},"
+            - generic [ref=e519]: "{"
+            - generic [ref=e520]: "\"drug_a\": \"valsartan\","
+            - generic [ref=e521]: "\"drug_b\": \"potassium-sparing diuretics\","
+            - generic [ref=e522]: "\"interaction_type\": \"major\","
+            - generic [ref=e523]: "\"clinical_effect\": \"高钾血症\","
+            - generic [ref=e524]: "\"mechanism\": \"协同减少钾排泄\""
+            - generic [ref=e525]: "}"
+            - generic [ref=e526]: "]"
+            - generic [ref=e527]: "},"
+            - generic [ref=e528]: "{"
+            - generic [ref=e529]: "\"generic_name\": \"nicardipine\","
+            - generic [ref=e530]: "\"interactions\": ["
+            - generic [ref=e531]: "{"
+            - generic [ref=e532]: "\"drug_a\": \"nicardipine\","
+            - generic [ref=e533]: "\"drug_b\": \"CYP3A4 inhibitors\","
+            - generic [ref=e534]: "\"interaction_type\": \"major\","
+            - generic [ref=e535]: "\"clinical_effect\": \"严重低血压和心动过缓\","
+            - generic [ref=e536]: "\"mechanism\": \"抑制肝脏CYP3A4首过代谢，显著增加nicardipine生物利用度\""
+            - generic [ref=e537]: "},"
+            - generic [ref=e538]: "{"
+            - generic [ref=e539]: "\"drug_a\": \"nicardipine\","
+            - generic [ref=e540]: "\"drug_b\": \"beta blockers\","
+            - generic [ref=e541]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e542]: "\"clinical_effect\": \"心力衰竭加重或低血压\","
+            - generic [ref=e543]: "\"mechanism\": \"负性肌力作用相加\""
+            - generic [ref=e544]: "},"
+            - generic [ref=e545]: "{"
+            - generic [ref=e546]: "\"drug_a\": \"nicardipine\","
+            - generic [ref=e547]: "\"drug_b\": \"cyclosporine\","
+            - generic [ref=e548]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e549]: "\"clinical_effect\": \"环孢素血药浓度升高，增加肾毒性和高血压风险\","
+            - generic [ref=e550]: "\"mechanism\": \"nicardipine抑制CYP3A4介导的环孢素代谢\""
+            - generic [ref=e551]: "}"
+            - generic [ref=e552]: "]"
+            - generic [ref=e553]: "},"
+            - generic [ref=e554]: "{"
+            - generic [ref=e555]: "\"generic_name\": \"trandolapril and verapamil\","
+            - generic [ref=e556]: "\"interactions\": ["
+            - generic [ref=e557]: "{"
+            - generic [ref=e558]: "\"drug_a\": \"trandolapril\","
+            - generic [ref=e559]: "\"drug_b\": \"aliskiren\","
+            - generic [ref=e560]: "\"interaction_type\": \"major\","
+            - generic [ref=e561]: "\"clinical_effect\": \"低血压、高钾血症、肾功能恶化\","
+            - generic [ref=e562]: "\"mechanism\": \"双重RAS阻断\""
+            - generic [ref=e563]: "},"
+            - generic [ref=e564]: "{"
+            - generic [ref=e565]: "\"drug_a\": \"verapamil\","
+            - generic [ref=e566]: "\"drug_b\": \"beta blockers\","
+            - generic [ref=e567]: "\"interaction_type\": \"major\","
+            - generic [ref=e568]: "\"clinical_effect\": \"心肌抑制、严重心动过缓、心脏停搏\","
+            - generic [ref=e569]: "\"mechanism\": \"协同抑制心脏传导和收缩功能\""
+            - generic [ref=e570]: "},"
+            - generic [ref=e571]: "{"
+            - generic [ref=e572]: "\"drug_a\": \"verapamil\","
+            - generic [ref=e573]: "\"drug_b\": \"CYP3A4 inhibitors\","
+            - generic [ref=e574]: "\"interaction_type\": \"major\","
+            - generic [ref=e575]: "\"clinical_effect\": \"严重心动过缓和低血压\","
+            - generic [ref=e576]: "\"mechanism\": \"抑制verapamil代谢，显著升高血药浓度\""
+            - generic [ref=e577]: "},"
+            - generic [ref=e578]: "{"
+            - generic [ref=e579]: "\"drug_a\": \"trandolapril\","
+            - generic [ref=e580]: "\"drug_b\": \"potassium-sparing diuretics\","
+            - generic [ref=e581]: "\"interaction_type\": \"major\","
+            - generic [ref=e582]: "\"clinical_effect\": \"致命性高钾血症\","
+            - generic [ref=e583]: "\"mechanism\": \"协同钾保留\""
+            - generic [ref=e584]: "},"
+            - generic [ref=e585]: "{"
+            - generic [ref=e586]: "\"drug_a\": \"trandolapril\","
+            - generic [ref=e587]: "\"drug_b\": \"NSAIDs\","
+            - generic [ref=e588]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e589]: "\"clinical_effect\": \"降压效果减弱，肾功能损害风险增加\","
+            - generic [ref=e590]: "\"mechanism\": \"前列腺素合成抑制导致肾血流减少\""
+            - generic [ref=e591]: "}"
+            - generic [ref=e592]: "]"
+            - generic [ref=e593]: "},"
+            - generic [ref=e594]: "{"
+            - generic [ref=e595]: "\"generic_name\": \"Atenolol and Chlorthalidone\","
+            - generic [ref=e596]: "\"interactions\": ["
+            - generic [ref=e597]: "{"
+            - generic [ref=e598]: "\"drug_a\": \"atenolol\","
+            - generic [ref=e599]: "\"drug_b\": \"non-dihydropyridine calcium channel blockers\","
+            - generic [ref=e600]: "\"interaction_type\": \"major\","
+            - generic [ref=e601]: "\"clinical_effect\": \"严重心动过缓、完全性房室传导阻滞\","
+            - generic [ref=e602]: "\"mechanism\": \"药效学协同抑制房室传导\""
+            - generic [ref=e603]: "},"
+            - generic [ref=e604]: "{"
+            - generic [ref=e605]: "\"drug_a\": \"chlorthalidone\","
+            - generic [ref=e606]: "\"drug_b\": \"lithium\","
+            - generic [ref=e607]: "\"interaction_type\": \"major\","
+            - generic [ref=e608]: "\"clinical_effect\": \"锂中毒\","
+            - generic [ref=e609]: "\"mechanism\": \"噻嗪类利尿剂减少锂肾清除\""
+            - generic [ref=e610]: "},"
+            - generic [ref=e611]: "{"
+            - generic [ref=e612]: "\"drug_a\": \"chlorthalidone\","
+            - generic [ref=e613]: "\"drug_b\": \"NSAIDs\","
+            - generic [ref=e614]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e615]: "\"clinical_effect\": \"利尿和降压效果降低\","
+            - generic [ref=e616]: "\"mechanism\": \"前列腺素抑制导致钠水潴留和血管收缩\""
+            - generic [ref=e617]: "},"
+            - generic [ref=e618]: "{"
+            - generic [ref=e619]: "\"drug_a\": \"atenolol\","
+            - generic [ref=e620]: "\"drug_b\": \"clonidine\","
+            - generic [ref=e621]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e622]: "\"clinical_effect\": \"反跳性高血压\","
+            - generic [ref=e623]: "\"mechanism\": \"停用clonidine时未撤β阻滞剂可致未对抗的α肾上腺素能血管收缩\""
+            - generic [ref=e624]: "}"
+            - generic [ref=e625]: "]"
+            - generic [ref=e626]: "},"
+            - generic [ref=e627]: "{"
+            - generic [ref=e628]: "\"generic_name\": \"levothyroxine\","
+            - generic [ref=e629]: "\"interactions\": ["
+            - generic [ref=e630]: "{"
+            - generic [ref=e631]: "\"drug_a\": \"levothyroxine\","
+            - generic [ref=e632]: "\"drug_b\": \"oral anticoagulants\","
+            - generic [ref=e633]: "\"interaction_type\": \"major\","
+            - generic [ref=e634]: "\"clinical_effect\": \"增加出血风险（INR显著升高）\","
+            - generic [ref=e635]: "\"mechanism\": \"甲状腺激素增加凝血因子分解代谢，恢复甲状腺功能后华法林效应增强\""
+            - generic [ref=e636]: "},"
+            - generic [ref=e637]: "{"
+            - generic [ref=e638]: "\"drug_a\": \"levothyroxine\","
+            - generic [ref=e639]: "\"drug_b\": \"calcium carbonate\","
+            - generic [ref=e640]: "\"interaction_type\": \"moderate\","
+            - generic [ref=e641]: "\"clinical_effect\": \"降低levothyroxine吸收，导致甲状腺功能减退控制不佳\","
+            - generic [ref=e642]: "\"mechanism\": \"肠道内形成不溶性络合物减少吸收\""
+            - generic [ref=e643]: "},"
+            - generic [ref=e644]: "{"
+            - generic [ref=e645]: "\"drug_a\": \"levothyroxine\","
+            - text: "\"drug_b\": \"ferrous sulfate\", \"interaction"
+          - img [ref=e311]
+          - img [ref=e313]
+      - generic [ref=e315]:
+        - generic [ref=e318]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e320]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e321]:
+            - button "深度思考" [ref=e322] [cursor=pointer]:
+              - img [ref=e324]
+              - generic [ref=e327]: 深度思考
+            - button "智能搜索" [ref=e328] [cursor=pointer]:
+              - img [ref=e330]
+              - generic [ref=e332]: 智能搜索
+            - generic [ref=e333]:
+              - button [ref=e334] [cursor=pointer]:
+                - img [ref=e337]
+              - button [ref=e340] [cursor=pointer]:
+                - img [ref=e343]
+        - generic [ref=e345]: 内容由 AI 生成，请仔细甄别

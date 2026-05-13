@@ -1,0 +1,92 @@
+请评估以下6例用药推荐是否正确。对每例，回答：1)推荐药物是否匹配疾病适应症(正确/部分正确/错误) 2)是否有禁忌冲突 3)排序是否合理 4)如有错误应推荐什么
+
+【病例P0030】
+请评估以下用药推荐是否正确。
+患者疾病: common cold, depression, heart failure, hypertension
+推荐药物:
+  氨氯地平-贝那普利 (Amlodipine-Benazepril) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  依普罗沙坦 (Eprosartan) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  胍法辛 (Guanfacine) - 匹配疾病: 高血压, 适应症: adhd, hypertension, 分数: 1.0
+  硝苯地平 (Nifedipine) - 匹配疾病: 高血压, 适应症: angina, hypertension, preterm labor, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0146】
+请评估以下用药推荐是否正确。
+患者疾病: bacterial urinary tract infection, conjunctivitis
+推荐药物:
+  阿莫西林克拉维酸 (Amoxicillin-Clavulanate) - 匹配疾病: bacterial skin infection, 适应症: bacterial infections, bacterial skin infection, otitis media, 分数: 1.0
+  头孢克洛 (Cefaclor) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+  头孢吡肟 (Cefepime) - 匹配疾病: bacterial skin infection, 适应症: bacterial skin infection, bacterial urinary tract infection, pneumonia, 分数: 1.0
+  头孢克肟 (Cefixime) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0440】
+请评估以下用药推荐是否正确。
+患者疾病: constipation, hypertension, urinary tract infection
+推荐药物:
+  氨氯地平-贝那普利 (Amlodipine-Benazepril) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  氨氯地平缬沙坦 (Amlodipine-Valsartan) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  贝那普利 (Benazepril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0
+  头孢克洛 (Cefaclor) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0018】
+请评估以下用药推荐是否正确。
+患者疾病: deep vein thrombosis
+推荐药物:
+  达比加群 (Dabigatran) - 匹配疾病: 深静脉血栓, 适应症: arrhythmia, deep vein thrombosis, stroke prevention in atrial fibrillation, 分数: 1.0
+  噻氯匹定 (Ticlopidine) - 匹配疾病: 预防支架内血栓形成, 适应症: stroke prevention, 分数: 1.0
+  氯吡格雷 (Clopidogrel) - 匹配疾病: 深静脉血栓, 适应症: angina, arrhythmia, cardiovascular event prevention, 分数: 0.962
+  肝素 (Heparin) - 匹配疾病: 深静脉血栓, 适应症: angina, deep vein thrombosis, pulmonary embolism, 分数: 0.844
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0023】
+请评估以下用药推荐是否正确。
+患者疾病: depression, diabetes, urinary tract infection
+推荐药物:
+  头孢克洛 (Cefaclor) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+  头孢噻肟 (Cefotaxime) - 匹配疾病: 尿路感染, 适应症: bacterial infections, meningitis, pneumonia, 分数: 1.0
+  头孢克肟 (Cefixime) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+  头孢泊肟 (Cefpodoxime) - 匹配疾病: 尿路感染, 适应症: common cold, otitis media, pharyngitis due to streptococcus pyogenes, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0009】
+请评估以下用药推荐是否正确。
+患者疾病: diabetes, gastroesophageal reflux disease, gout
+推荐药物:
+  布美他尼 (Bumetanide) - 匹配疾病: 与肾脏疾病相关的水肿, 适应症: edema, heart failure, hypertension, 分数: 1.0
+  头孢呋辛 (Cefuroxime) - 匹配疾病: 莱姆病（早期）, 适应症: bacterial urinary tract infection, common cold, impetigo, 分数: 1.0
+  利格列汀 (Linagliptin) - 匹配疾病: 慢性肾病, 适应症: chronic kidney disease, diabetes, type 2 diabetes, 分数: 1.0
+  培哚普利 (Perindopril) - 匹配疾病: 稳定型冠状动脉疾病, 适应症: angina, heart failure, hypertension, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+

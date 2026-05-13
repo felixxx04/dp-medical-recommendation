@@ -1,0 +1,1849 @@
+{
+  "summary": {
+    "totalTested": 50,
+    "apiSuccessCount": 50,
+    "avgAccuracy": 0.66,
+    "avgGtCoverage": 0.116,
+    "perfectCount": 23,
+    "zeroCount": 7,
+    "categoryStats": {
+      "cardiovascular": {
+        "count": 3,
+        "avgAccuracy": 0.667,
+        "avgGtCoverage": 0.162
+      },
+      "dermatological": {
+        "count": 4,
+        "avgAccuracy": 0.812,
+        "avgGtCoverage": 0.104
+      },
+      "endocrine": {
+        "count": 1,
+        "avgAccuracy": 0.75,
+        "avgGtCoverage": 0.038
+      },
+      "gastrointestinal": {
+        "count": 3,
+        "avgAccuracy": 0.75,
+        "avgGtCoverage": 0.103
+      },
+      "infectious": {
+        "count": 4,
+        "avgAccuracy": 0.125,
+        "avgGtCoverage": 0.018
+      },
+      "musculoskeletal": {
+        "count": 2,
+        "avgAccuracy": 1.0,
+        "avgGtCoverage": 0.103
+      },
+      "neurological": {
+        "count": 3,
+        "avgAccuracy": 0.167,
+        "avgGtCoverage": 0.037
+      },
+      "oncological": {
+        "count": 2,
+        "avgAccuracy": 0.625,
+        "avgGtCoverage": 0.207
+      },
+      "ophthalmological": {
+        "count": 1,
+        "avgAccuracy": 1.0,
+        "avgGtCoverage": 0.364
+      },
+      "other": {
+        "count": 21,
+        "avgAccuracy": 0.726,
+        "avgGtCoverage": 0.135
+      },
+      "psychiatric": {
+        "count": 1,
+        "avgAccuracy": 0.5,
+        "avgGtCoverage": 0.091
+      },
+      "renal": {
+        "count": 1,
+        "avgAccuracy": 1.0,
+        "avgGtCoverage": 0.222
+      },
+      "respiratory": {
+        "count": 4,
+        "avgAccuracy": 0.688,
+        "avgGtCoverage": 0.055
+      }
+    }
+  },
+  "results": [
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.097,
+      "recommendedDrugs": [
+        "Metoprolol",
+        "Nicardipine",
+        "Perindopril",
+        "Pindolol"
+      ],
+      "correctDrugs": [
+        "Metoprolol",
+        "Nicardipine",
+        "Pindolol"
+      ],
+      "incorrectDrugs": [
+        "Perindopril"
+      ],
+      "matchedDisease": [
+        "心绞痛",
+        "心绞痛",
+        "心绞痛",
+        "心绞痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "angina pectoris",
+      "category": "cardiovascular",
+      "groundTruthDrugCount": 32
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.056,
+      "recommendedDrugs": [
+        "Amlodipine-Valsartan",
+        "Bumetanide",
+        "Benazepril",
+        "Captopril"
+      ],
+      "correctDrugs": [
+        "Bumetanide"
+      ],
+      "incorrectDrugs": [
+        "Amlodipine-Valsartan",
+        "Benazepril",
+        "Captopril"
+      ],
+      "matchedDisease": [
+        "心力衰竭",
+        "心力衰竭",
+        "心力衰竭",
+        "心力衰竭"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "edema associated with heart failure",
+      "category": "cardiovascular",
+      "groundTruthDrugCount": 19
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.333,
+      "recommendedDrugs": [
+        "Aspirin",
+        "Clopidogrel",
+        "Enoxaparin",
+        "Prasugrel"
+      ],
+      "correctDrugs": [
+        "Aspirin",
+        "Clopidogrel",
+        "Enoxaparin",
+        "Prasugrel"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "急性冠状动脉综合征",
+        "急性冠状动脉综合征",
+        "急性冠状动脉综合征",
+        "急性冠状动脉综合征"
+      ],
+      "scores": [
+        0.593,
+        0.571,
+        0.447,
+        0.411
+      ],
+      "disease": "acute coronary syndrome",
+      "category": "cardiovascular",
+      "groundTruthDrugCount": 12
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.053,
+      "recommendedDrugs": [
+        "Erythromycin",
+        "Spironolactone",
+        "Tazarotene",
+        "Oxytetracycline"
+      ],
+      "correctDrugs": [
+        "Erythromycin",
+        "Spironolactone",
+        "Tazarotene",
+        "Oxytetracycline"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "痤疮",
+        "痤疮",
+        "痤疮",
+        "痤疮"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "acne vulgaris",
+      "category": "dermatological",
+      "groundTruthDrugCount": 76
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.038,
+      "recommendedDrugs": [
+        "Canagliflozin",
+        "Colesevelam",
+        "Empagliflozin",
+        "Glimepiride"
+      ],
+      "correctDrugs": [
+        "Canagliflozin",
+        "Empagliflozin",
+        "Glimepiride"
+      ],
+      "incorrectDrugs": [
+        "Colesevelam"
+      ],
+      "matchedDisease": [
+        "糖尿病",
+        "2 型糖尿病（作为辅助）",
+        "糖尿病",
+        "糖尿病"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "type 2 diabetes mellitus",
+      "category": "endocrine",
+      "groundTruthDrugCount": 79
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.125,
+      "recommendedDrugs": [
+        "Golimumab",
+        "Budesonide",
+        "Infliximab",
+        "Tofacitinib"
+      ],
+      "correctDrugs": [
+        "Golimumab",
+        "Budesonide",
+        "Infliximab",
+        "Tofacitinib"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "溃疡性结肠炎",
+        "溃疡性结肠炎",
+        "溃疡性结肠炎",
+        "溃疡性结肠炎"
+      ],
+      "scores": [
+        0.751,
+        0.467,
+        0.321,
+        0.317
+      ],
+      "disease": "ulcerative colitis",
+      "category": "gastrointestinal",
+      "groundTruthDrugCount": 32
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.036,
+      "recommendedDrugs": [
+        "Lansoprazole",
+        "Magnesium Hydroxide",
+        "Rabeprazole",
+        "Omeprazole"
+      ],
+      "correctDrugs": [
+        "Magnesium Hydroxide"
+      ],
+      "incorrectDrugs": [
+        "Lansoprazole",
+        "Rabeprazole",
+        "Omeprazole"
+      ],
+      "matchedDisease": [
+        "胃痛",
+        "便秘",
+        "胃痛",
+        "胃痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "constipation",
+      "category": "gastrointestinal",
+      "groundTruthDrugCount": 29
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.148,
+      "recommendedDrugs": [
+        "Esomeprazole",
+        "Lansoprazole",
+        "Omeprazole",
+        "Pantoprazole"
+      ],
+      "correctDrugs": [
+        "Esomeprazole",
+        "Lansoprazole",
+        "Omeprazole",
+        "Pantoprazole"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "消化性溃疡",
+        "消化性溃疡",
+        "消化性溃疡",
+        "消化性溃疡"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "peptic ulcer disease",
+      "category": "gastrointestinal",
+      "groundTruthDrugCount": 27
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.022,
+      "recommendedDrugs": [
+        "Amikacin",
+        "Cefotaxime",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "correctDrugs": [
+        "Cefotaxime"
+      ],
+      "incorrectDrugs": [
+        "Amikacin",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "matchedDisease": [
+        "尿路感染",
+        "尿路感染",
+        "病毒感染",
+        "细菌感染"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.693,
+        1.0
+      ],
+      "disease": "skin and soft tissue infection",
+      "category": "infectious",
+      "groundTruthDrugCount": 46
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Amikacin",
+        "Cefotaxime",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Amikacin",
+        "Cefotaxime",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "matchedDisease": [
+        "尿路感染",
+        "尿路感染",
+        "病毒感染",
+        "细菌感染"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.693,
+        1.0
+      ],
+      "disease": "bacterial infection",
+      "category": "infectious",
+      "groundTruthDrugCount": 33
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Amikacin",
+        "Cefotaxime",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Amikacin",
+        "Cefotaxime",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "matchedDisease": [
+        "尿路感染",
+        "尿路感染",
+        "病毒感染",
+        "细菌感染"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.693,
+        1.0
+      ],
+      "disease": "intra-abdominal infection",
+      "category": "infectious",
+      "groundTruthDrugCount": 22
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.05,
+      "recommendedDrugs": [
+        "Amikacin",
+        "Cefotaxime",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "correctDrugs": [
+        "Cefotaxime"
+      ],
+      "incorrectDrugs": [
+        "Amikacin",
+        "Echinacea",
+        "Loracarbef"
+      ],
+      "matchedDisease": [
+        "尿路感染",
+        "尿路感染",
+        "病毒感染",
+        "细菌感染"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.693,
+        1.0
+      ],
+      "disease": "complicated urinary tract infection",
+      "category": "infectious",
+      "groundTruthDrugCount": 20
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.103,
+      "recommendedDrugs": [
+        "Golimumab",
+        "Apremilast",
+        "Leflunomide",
+        "Infliximab"
+      ],
+      "correctDrugs": [
+        "Golimumab",
+        "Apremilast",
+        "Leflunomide",
+        "Infliximab"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "银屑病关节炎",
+        "银屑病关节炎",
+        "银屑病关节炎",
+        "银屑病关节炎"
+      ],
+      "scores": [
+        0.751,
+        0.693,
+        0.517,
+        0.321
+      ],
+      "disease": "psoriatic arthritis",
+      "category": "musculoskeletal",
+      "groundTruthDrugCount": 39
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Diclofenac",
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Diclofenac",
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "matchedDisease": [
+        "疼痛",
+        "疼痛",
+        "疼痛",
+        "疼痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "neuropathic pain",
+      "category": "neurological",
+      "groundTruthDrugCount": 24
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 2,
+      "accuracy": 0.5,
+      "groundTruthCoverage": 0.111,
+      "recommendedDrugs": [
+        "Diclofenac",
+        "Ibuprofen",
+        "Lisinopril",
+        "Metoprolol"
+      ],
+      "correctDrugs": [
+        "Lisinopril",
+        "Metoprolol"
+      ],
+      "incorrectDrugs": [
+        "Diclofenac",
+        "Ibuprofen"
+      ],
+      "matchedDisease": [
+        "偏头痛",
+        "偏头痛",
+        "偏头痛预防",
+        "偏头痛预防"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "migraine prophylaxis",
+      "category": "neurological",
+      "groundTruthDrugCount": 19
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Cyclobenzaprine",
+        "Lisinopril",
+        "Diclofenac",
+        "Mefenamic Acid"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Cyclobenzaprine",
+        "Lisinopril",
+        "Diclofenac",
+        "Mefenamic Acid"
+      ],
+      "matchedDisease": [
+        "紧张性头痛",
+        "偏头痛预防",
+        "偏头痛",
+        "头痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "cluster headache",
+      "category": "neurological",
+      "groundTruthDrugCount": 16
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.231,
+      "recommendedDrugs": [
+        "Methotrexate",
+        "Doxorubicin",
+        "Cyclophosphamide",
+        "Pembrolizumab"
+      ],
+      "correctDrugs": [
+        "Methotrexate",
+        "Doxorubicin",
+        "Cyclophosphamide"
+      ],
+      "incorrectDrugs": [
+        "Pembrolizumab"
+      ],
+      "matchedDisease": [
+        "非霍奇金淋巴瘤",
+        "淋巴瘤",
+        "非霍奇金淋巴瘤",
+        "霍奇金淋巴瘤"
+      ],
+      "scores": [
+        0.558,
+        0.38,
+        0.337,
+        0.324
+      ],
+      "disease": "non-hodgkin's lymphoma",
+      "category": "oncological",
+      "groundTruthDrugCount": 13
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 2,
+      "accuracy": 0.5,
+      "groundTruthCoverage": 0.182,
+      "recommendedDrugs": [
+        "Methotrexate",
+        "Doxorubicin",
+        "Ibrutinib",
+        "Fludarabine"
+      ],
+      "correctDrugs": [
+        "Ibrutinib",
+        "Fludarabine"
+      ],
+      "incorrectDrugs": [
+        "Methotrexate",
+        "Doxorubicin"
+      ],
+      "matchedDisease": [
+        "白血病",
+        "白血病",
+        "慢性淋巴细胞白血病",
+        "慢性淋巴细胞白血病"
+      ],
+      "scores": [
+        0.558,
+        0.38,
+        0.341,
+        0.312
+      ],
+      "disease": "chronic lymphocytic leukemia",
+      "category": "oncological",
+      "groundTruthDrugCount": 11
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.364,
+      "recommendedDrugs": [
+        "Cetirizine",
+        "Olopatadine",
+        "Levocabastine",
+        "Lodoxamide"
+      ],
+      "correctDrugs": [
+        "Cetirizine",
+        "Olopatadine",
+        "Levocabastine",
+        "Lodoxamide"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "过敏性结膜炎",
+        "结膜炎",
+        "结膜炎",
+        "结膜炎"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "allergic conjunctivitis",
+      "category": "ophthalmological",
+      "groundTruthDrugCount": 11
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.042,
+      "recommendedDrugs": [
+        "Diclofenac",
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "correctDrugs": [
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "incorrectDrugs": [
+        "Diclofenac"
+      ],
+      "matchedDisease": [
+        "疼痛",
+        "疼痛",
+        "疼痛",
+        "疼痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "pain",
+      "category": "other",
+      "groundTruthDrugCount": 72
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.07,
+      "recommendedDrugs": [
+        "Benzonatate",
+        "Hydrocodone",
+        "Codeine",
+        "codeine, phenylephrine, and triprolidine"
+      ],
+      "correctDrugs": [
+        "Benzonatate",
+        "Hydrocodone",
+        "Codeine",
+        "codeine, phenylephrine, and triprolidine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "咳嗽",
+        "咳嗽",
+        "咳嗽",
+        "咳嗽"
+      ],
+      "scores": [
+        0.421,
+        0.365,
+        0.337,
+        0.225
+      ],
+      "disease": "cough",
+      "category": "other",
+      "groundTruthDrugCount": 57
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.07,
+      "recommendedDrugs": [
+        "codeine, phenylephrine, and triprolidine",
+        "brompheniramine maleate",
+        "acetaminophen, chlorpheniramine, and phenylephrine",
+        "chlorpheniramine and phenylephrine"
+      ],
+      "correctDrugs": [
+        "codeine, phenylephrine, and triprolidine",
+        "brompheniramine maleate",
+        "acetaminophen, chlorpheniramine, and phenylephrine",
+        "chlorpheniramine and phenylephrine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "打喷嚏",
+        "打喷嚏",
+        "打喷嚏",
+        "打喷嚏"
+      ],
+      "scores": [
+        0.176,
+        0.153,
+        0.147,
+        0.147
+      ],
+      "disease": "sneezing",
+      "category": "other",
+      "groundTruthDrugCount": 57
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.07,
+      "recommendedDrugs": [
+        "codeine, phenylephrine, and triprolidine",
+        "brompheniramine maleate",
+        "acetaminophen, chlorpheniramine, and phenylephrine",
+        "chlorpheniramine and phenylephrine"
+      ],
+      "correctDrugs": [
+        "codeine, phenylephrine, and triprolidine",
+        "brompheniramine maleate",
+        "acetaminophen, chlorpheniramine, and phenylephrine",
+        "chlorpheniramine and phenylephrine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "流鼻涕",
+        "流鼻涕",
+        "流鼻涕",
+        "流鼻涕"
+      ],
+      "scores": [
+        0.176,
+        0.153,
+        0.147,
+        0.147
+      ],
+      "disease": "runny nose",
+      "category": "other",
+      "groundTruthDrugCount": 57
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.02,
+      "recommendedDrugs": [
+        "Diclofenac",
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "correctDrugs": [
+        "Diclofenac"
+      ],
+      "incorrectDrugs": [
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "matchedDisease": [
+        "疼痛",
+        "疼痛",
+        "疼痛",
+        "疼痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "acute pain",
+      "category": "other",
+      "groundTruthDrugCount": 52
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.091,
+      "recommendedDrugs": [
+        "Nefazodone",
+        "Paroxetine",
+        "Clomipramine",
+        "Phenelzine"
+      ],
+      "correctDrugs": [
+        "Nefazodone",
+        "Paroxetine",
+        "Clomipramine",
+        "Phenelzine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "重度抑郁症",
+        "重度抑郁症",
+        "重度抑郁症",
+        "重度抑郁症"
+      ],
+      "scores": [
+        1.0,
+        0.963,
+        0.962,
+        0.954
+      ],
+      "disease": "major depressive disorder",
+      "category": "other",
+      "groundTruthDrugCount": 44
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 2,
+      "accuracy": 0.5,
+      "groundTruthCoverage": 0.059,
+      "recommendedDrugs": [
+        "acetaminophen and diphenhydramine",
+        "diphenhydramine and ibuprofen",
+        "acetaminophen and caffeine",
+        "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen"
+      ],
+      "correctDrugs": [
+        "acetaminophen and caffeine",
+        "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen"
+      ],
+      "incorrectDrugs": [
+        "acetaminophen and diphenhydramine",
+        "diphenhydramine and ibuprofen"
+      ],
+      "matchedDisease": [
+        "轻微疼痛并伴有失眠",
+        "轻微疼痛并伴有失眠",
+        "轻微疼痛",
+        "轻微疼痛"
+      ],
+      "scores": [
+        0.225,
+        0.198,
+        0.189,
+        0.148
+      ],
+      "disease": "minor aches and pains",
+      "category": "other",
+      "groundTruthDrugCount": 35
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.129,
+      "recommendedDrugs": [
+        "Guanfacine",
+        "Clonidine",
+        "Desipramine",
+        "Selegiline"
+      ],
+      "correctDrugs": [
+        "Guanfacine",
+        "Clonidine",
+        "Desipramine",
+        "Selegiline"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "多动症",
+        "注意力缺陷多动障碍",
+        "多动症",
+        "注意力缺陷多动障碍"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.881,
+        0.746
+      ],
+      "disease": "attention deficit hyperactivity disorder",
+      "category": "other",
+      "groundTruthDrugCount": 31
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.143,
+      "recommendedDrugs": [
+        "Doxepin",
+        "Hydroxyzine",
+        "hydrocortisone acetate",
+        "Nalbuphine"
+      ],
+      "correctDrugs": [
+        "Doxepin",
+        "Hydroxyzine",
+        "hydrocortisone acetate",
+        "Nalbuphine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "瘙痒",
+        "瘙痒",
+        "瘙痒",
+        "瘙痒"
+      ],
+      "scores": [
+        0.816,
+        0.562,
+        0.421,
+        0.359
+      ],
+      "disease": "pruritus",
+      "category": "other",
+      "groundTruthDrugCount": 28
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 2,
+      "accuracy": 0.5,
+      "groundTruthCoverage": 0.105,
+      "recommendedDrugs": [
+        "Omeprazole",
+        "Magaldrate",
+        "Magnesium Hydroxide",
+        "Calcium Carbonate"
+      ],
+      "correctDrugs": [
+        "Magaldrate",
+        "Calcium Carbonate"
+      ],
+      "incorrectDrugs": [
+        "Omeprazole",
+        "Magnesium Hydroxide"
+      ],
+      "matchedDisease": [
+        "功能性消化不良",
+        "消化不良",
+        "消化不良（抗酸药用途）",
+        "消化不良"
+      ],
+      "scores": [
+        0.995,
+        0.853,
+        0.792,
+        0.667
+      ],
+      "disease": "dyspepsia",
+      "category": "other",
+      "groundTruthDrugCount": 20
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.2,
+      "recommendedDrugs": [
+        "Lorazepam",
+        "Phenytoin",
+        "Diazepam",
+        "Lacosamide"
+      ],
+      "correctDrugs": [
+        "Lorazepam",
+        "Phenytoin",
+        "Diazepam",
+        "Lacosamide"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "癫痫持续状态",
+        "癫痫持续状态",
+        "癫痫持续状态",
+        "癫痫持续状态"
+      ],
+      "scores": [
+        0.898,
+        0.884,
+        0.863,
+        0.806
+      ],
+      "disease": "status epilepticus",
+      "category": "other",
+      "groundTruthDrugCount": 20
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Naproxen",
+        "Diclofenac",
+        "Mefenamic Acid",
+        "Etodolac"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Naproxen",
+        "Diclofenac",
+        "Mefenamic Acid",
+        "Etodolac"
+      ],
+      "matchedDisease": [
+        "痛经",
+        "痛经",
+        "痛经",
+        "痛经"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "primary dysmenorrhea",
+      "category": "other",
+      "groundTruthDrugCount": 18
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.222,
+      "recommendedDrugs": [
+        "camphor, eucalyptus, and menthol topical",
+        "camphor and menthol topical",
+        "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen",
+        "guaifenesin (oral route)"
+      ],
+      "correctDrugs": [
+        "camphor, eucalyptus, and menthol topical",
+        "camphor and menthol topical",
+        "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen",
+        "guaifenesin (oral route)"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "胸闷",
+        "胸闷",
+        "胸闷",
+        "胸闷"
+      ],
+      "scores": [
+        0.217,
+        0.217,
+        0.148,
+        0.147
+      ],
+      "disease": "chest congestion",
+      "category": "other",
+      "groundTruthDrugCount": 18
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.267,
+      "recommendedDrugs": [
+        "Prednisone",
+        "Prednisolone",
+        "Triamcinolone",
+        "cortisone"
+      ],
+      "correctDrugs": [
+        "Prednisone",
+        "Prednisolone",
+        "Triamcinolone",
+        "cortisone"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "炎症",
+        "炎症",
+        "炎症",
+        "炎症"
+      ],
+      "scores": [
+        1.0,
+        0.924,
+        0.501,
+        0.29
+      ],
+      "disease": "inflammation",
+      "category": "other",
+      "groundTruthDrugCount": 15
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Diclofenac",
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Diclofenac",
+        "Flurbiprofen",
+        "Ibuprofen",
+        "Ketoprofen"
+      ],
+      "matchedDisease": [
+        "疼痛",
+        "疼痛",
+        "疼痛",
+        "疼痛"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "musculoskeletal pain",
+      "category": "other",
+      "groundTruthDrugCount": 15
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.214,
+      "recommendedDrugs": [
+        "Cefaclor",
+        "Cefadroxil",
+        "Cefdinir",
+        "Cefixime"
+      ],
+      "correctDrugs": [
+        "Cefaclor",
+        "Cefdinir",
+        "Cefixime"
+      ],
+      "incorrectDrugs": [
+        "Cefadroxil"
+      ],
+      "matchedDisease": [
+        "中耳炎",
+        "中耳炎",
+        "中耳炎",
+        "中耳炎"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "acute otitis media",
+      "category": "other",
+      "groundTruthDrugCount": 14
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.286,
+      "recommendedDrugs": [
+        "Lansoprazole",
+        "Omeprazole",
+        "Rabeprazole",
+        "Pantoprazole"
+      ],
+      "correctDrugs": [
+        "Lansoprazole",
+        "Omeprazole",
+        "Rabeprazole",
+        "Pantoprazole"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "佐林格-埃里森综合征",
+        "佐林格-埃里森综合征",
+        "佐林格-埃里森综合征",
+        "佐林格-埃里森综合征"
+      ],
+      "scores": [
+        1.0,
+        0.995,
+        0.995,
+        0.969
+      ],
+      "disease": "zollinger-ellison syndrome",
+      "category": "other",
+      "groundTruthDrugCount": 14
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 0,
+      "accuracy": 0.0,
+      "groundTruthCoverage": 0.0,
+      "recommendedDrugs": [
+        "Metoclopramide",
+        "Lorazepam",
+        "Dexamethasone",
+        "Meclizine"
+      ],
+      "correctDrugs": [],
+      "incorrectDrugs": [
+        "Metoclopramide",
+        "Lorazepam",
+        "Dexamethasone",
+        "Meclizine"
+      ],
+      "matchedDisease": [
+        "恶心",
+        "恶心",
+        "恶心",
+        "恶心"
+      ],
+      "scores": [
+        0.896,
+        0.891,
+        0.885,
+        0.555
+      ],
+      "disease": "nausea and vomiting",
+      "category": "other",
+      "groundTruthDrugCount": 14
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.25,
+      "recommendedDrugs": [
+        "Clomipramine",
+        "Sodium Oxybate",
+        "Methylphenidate",
+        "Dextroamphetamine"
+      ],
+      "correctDrugs": [
+        "Sodium Oxybate",
+        "Methylphenidate",
+        "Dextroamphetamine"
+      ],
+      "incorrectDrugs": [
+        "Clomipramine"
+      ],
+      "matchedDisease": [
+        "发作性睡病中的猝倒",
+        "发作性睡病",
+        "发作性睡病",
+        "发作性睡病"
+      ],
+      "scores": [
+        0.962,
+        0.335,
+        0.207,
+        0.205
+      ],
+      "disease": "narcolepsy",
+      "category": "other",
+      "groundTruthDrugCount": 12
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 3,
+      "accuracy": 0.75,
+      "groundTruthCoverage": 0.273,
+      "recommendedDrugs": [
+        "Norethindrone",
+        "Medroxyprogesterone",
+        "Etonogestrel",
+        "Progesterone"
+      ],
+      "correctDrugs": [
+        "Norethindrone",
+        "Medroxyprogesterone",
+        "Progesterone"
+      ],
+      "incorrectDrugs": [
+        "Etonogestrel"
+      ],
+      "matchedDisease": [
+        "避孕",
+        "避孕",
+        "避孕",
+        "避孕"
+      ],
+      "scores": [
+        0.971,
+        0.949,
+        0.579,
+        0.559
+      ],
+      "disease": "contraception",
+      "category": "other",
+      "groundTruthDrugCount": 12
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.333,
+      "recommendedDrugs": [
+        "Lidocaine",
+        "Pentafluoropropane and Tetrafluoroethane",
+        "Ropivacaine",
+        "benzocaine"
+      ],
+      "correctDrugs": [
+        "Lidocaine",
+        "Pentafluoropropane and Tetrafluoroethane",
+        "Ropivacaine",
+        "benzocaine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "局部麻醉",
+        "局部麻醉",
+        "局部麻醉",
+        "局部麻醉"
+      ],
+      "scores": [
+        0.829,
+        0.259,
+        0.24,
+        0.239
+      ],
+      "disease": "local anesthesia",
+      "category": "other",
+      "groundTruthDrugCount": 12
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 2,
+      "accuracy": 0.5,
+      "groundTruthCoverage": 0.091,
+      "recommendedDrugs": [
+        "Citalopram",
+        "Clomipramine",
+        "Fluoxetine",
+        "Fluvoxamine"
+      ],
+      "correctDrugs": [
+        "Citalopram",
+        "Fluoxetine"
+      ],
+      "incorrectDrugs": [
+        "Clomipramine",
+        "Fluvoxamine"
+      ],
+      "matchedDisease": [
+        "焦虑",
+        "焦虑",
+        "焦虑",
+        "焦虑"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "generalized anxiety disorder",
+      "category": "psychiatric",
+      "groundTruthDrugCount": 22
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.222,
+      "recommendedDrugs": [
+        "Irbesartan",
+        "Captopril",
+        "Losartan",
+        "Olmesartan"
+      ],
+      "correctDrugs": [
+        "Irbesartan",
+        "Captopril",
+        "Losartan",
+        "Olmesartan"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "糖尿病肾病",
+        "糖尿病肾病",
+        "糖尿病肾病",
+        "糖尿病肾病"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "diabetic nephropathy",
+      "category": "renal",
+      "groundTruthDrugCount": 18
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.056,
+      "recommendedDrugs": [
+        "Cetirizine",
+        "Loratadine",
+        "Desloratadine",
+        "Levocetirizine"
+      ],
+      "correctDrugs": [
+        "Cetirizine",
+        "Loratadine",
+        "Desloratadine",
+        "Levocetirizine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "鼻塞",
+        "鼻塞",
+        "鼻塞",
+        "鼻塞"
+      ],
+      "scores": [
+        0.911,
+        0.703,
+        0.653,
+        0.581
+      ],
+      "disease": "nasal congestion",
+      "category": "respiratory",
+      "groundTruthDrugCount": 73
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.065,
+      "recommendedDrugs": [
+        "Pseudoephedrine",
+        "codeine, phenylephrine, and triprolidine",
+        "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen",
+        "acetaminophen, chlorpheniramine, and phenylephrine"
+      ],
+      "correctDrugs": [
+        "Pseudoephedrine",
+        "codeine, phenylephrine, and triprolidine",
+        "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen",
+        "acetaminophen, chlorpheniramine, and phenylephrine"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "鼻窦充血",
+        "鼻窦充血",
+        "鼻窦充血",
+        "鼻窦充血"
+      ],
+      "scores": [
+        0.267,
+        0.176,
+        0.148,
+        0.147
+      ],
+      "disease": "sinus congestion",
+      "category": "respiratory",
+      "groundTruthDrugCount": 63
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.03,
+      "recommendedDrugs": [
+        "Cefaclor",
+        "Cefadroxil",
+        "Cefazolin",
+        "Cefdinir"
+      ],
+      "correctDrugs": [
+        "Cefdinir"
+      ],
+      "incorrectDrugs": [
+        "Cefaclor",
+        "Cefadroxil",
+        "Cefazolin"
+      ],
+      "matchedDisease": [
+        "肺炎",
+        "肺炎",
+        "肺炎",
+        "肺炎"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "community-acquired pneumonia",
+      "category": "respiratory",
+      "groundTruthDrugCount": 33
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.103,
+      "recommendedDrugs": [
+        "Naproxen",
+        "Diclofenac",
+        "Indomethacin",
+        "Piroxicam"
+      ],
+      "correctDrugs": [
+        "Naproxen",
+        "Diclofenac",
+        "Indomethacin",
+        "Piroxicam"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "强直性脊柱炎",
+        "强直性脊柱炎",
+        "强直性脊柱炎",
+        "强直性脊柱炎"
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "disease": "ankylosing spondylitis",
+      "category": "musculoskeletal",
+      "groundTruthDrugCount": 39
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 2,
+      "accuracy": 0.5,
+      "groundTruthCoverage": 0.069,
+      "recommendedDrugs": [
+        "Albuterol-Ipratropium",
+        "Ipratropium",
+        "Methylprednisolone",
+        "Prednisone"
+      ],
+      "correctDrugs": [
+        "Albuterol-Ipratropium",
+        "Ipratropium"
+      ],
+      "incorrectDrugs": [
+        "Methylprednisolone",
+        "Prednisone"
+      ],
+      "matchedDisease": [
+        "慢性阻塞性肺疾病",
+        "慢性阻塞性肺疾病",
+        "哮喘",
+        "哮喘"
+      ],
+      "scores": [
+        1.0,
+        0.811,
+        0.967,
+        0.95
+      ],
+      "disease": "chronic obstructive pulmonary disease",
+      "category": "respiratory",
+      "groundTruthDrugCount": 29
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.143,
+      "recommendedDrugs": [
+        "Desoximetasone",
+        "Fluocinolone",
+        "Desonide",
+        "Fluocinonide"
+      ],
+      "correctDrugs": [
+        "Desoximetasone",
+        "Fluocinolone",
+        "Desonide",
+        "Fluocinonide"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "接触性皮炎",
+        "接触性皮炎",
+        "接触性皮炎",
+        "接触性皮炎"
+      ],
+      "scores": [
+        0.92,
+        0.901,
+        0.867,
+        0.68
+      ],
+      "disease": "contact dermatitis",
+      "category": "dermatological",
+      "groundTruthDrugCount": 28
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 4,
+      "accuracy": 1.0,
+      "groundTruthCoverage": 0.174,
+      "recommendedDrugs": [
+        "Fluocinolone",
+        "Desonide",
+        "Pimecrolimus",
+        "Selenium Sulfide"
+      ],
+      "correctDrugs": [
+        "Fluocinolone",
+        "Desonide",
+        "Pimecrolimus",
+        "Selenium Sulfide"
+      ],
+      "incorrectDrugs": [],
+      "matchedDisease": [
+        "脂溢性皮炎",
+        "脂溢性皮炎",
+        "脂溢性皮炎",
+        "脂溢性皮炎"
+      ],
+      "scores": [
+        0.901,
+        0.867,
+        0.826,
+        0.341
+      ],
+      "disease": "seborrheic dermatitis",
+      "category": "dermatological",
+      "groundTruthDrugCount": 23
+    },
+    {
+      "apiSuccess": true,
+      "recommendedCount": 4,
+      "correctCount": 1,
+      "accuracy": 0.25,
+      "groundTruthCoverage": 0.045,
+      "recommendedDrugs": [
+        "Cetirizine",
+        "Ranitidine",
+        "Famotidine",
+        "Loratadine"
+      ],
+      "correctDrugs": [
+        "Ranitidine"
+      ],
+      "incorrectDrugs": [
+        "Cetirizine",
+        "Famotidine",
+        "Loratadine"
+      ],
+      "matchedDisease": [
+        "慢性荨麻疹",
+        "荨麻疹",
+        "荨麻疹（辅助）",
+        "慢性特发性荨麻疹"
+      ],
+      "scores": [
+        0.911,
+        0.893,
+        0.849,
+        0.703
+      ],
+      "disease": "urticaria",
+      "category": "dermatological",
+      "groundTruthDrugCount": 22
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+[
+  {
+    "generic_name": "dapagliflozin",
+    "interactions": [
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "loop diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "Increased risk of volume depletion, hypotension, and acute kidney injury due to additive effects on intravascular volume contraction.",
+        "mechanism": "SGLT-2 inhibitors promote osmotic diuresis and natriuresis; concomitant loop diuretic use may exacerbate intravascular volume depletion."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "thiazide diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "Additive hypotensive effect and increased risk of dehydration and renal impairment.",
+        "mechanism": "Both agents reduce blood pressure and can cause volume depletion; combined use increases risk of symptomatic hypotension."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "insulin",
+        "interaction_type": "moderate",
+        "clinical_effect": "Increased risk of hypoglycemia when SGLT-2 inhibitor is added to insulin therapy; insulin dose reduction may be required.",
+        "mechanism": "SGLT-2 inhibitors lower blood glucose independently of insulin; additive glucose-lowering effect necessitates insulin dose adjustment."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "sulfonylureas",
+        "interaction_type": "moderate",
+        "clinical_effect": "Increased risk of hypoglycemia due to additive glucose-lowering effects.",
+        "mechanism": "Both classes stimulate insulin secretion or reduce glucose reabsorption; concurrent use may require sulfonylurea dose reduction."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "ACE inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "Enhanced blood pressure-lowering effect and increased risk of hyperkalemia and renal impairment, particularly in patients with pre-existing kidney disease.",
+        "mechanism": "Both drug classes affect renal hemodynamics and the renin-angiotensin-aldosterone system; combined use may potentiate renal effects."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "angiotensin II receptor blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "Potentiated hypotensive effects and increased risk of acute kidney injury, especially in volume-depleted patients.",
+        "mechanism": "Additive effects on renal function and blood pressure regulation through different but complementary mechanisms."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "NSAIDs",
+        "interaction_type": "moderate",
+        "clinical_effect": "Increased risk of acute kidney injury and reduced efficacy of SGLT-2 inhibitor; fluid retention may occur.",
+        "mechanism": "NSAIDs can reduce renal function and antagonize the diuretic effect; combined use may impair renal compensatory mechanisms."
+      },
+      {
+        "drug_a": "dapagliflozin",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "Altered lithium serum concentrations; potential for reduced lithium efficacy or toxicity.",
+        "mechanism": "SGLT-2 inhibitors may affect renal sodium handling, potentially altering lithium reabsorption in the proximal tubule."
+      }
+    ]
+  },
+  {
+    "generic_name": "semaglutide",
+    "interactions": [
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "insulin",
+        "interaction_type": "major",
+        "clinical_effect": "Significantly increased risk of severe hypoglycemia, especially when initiating semaglutide or changing doses.",
+        "mechanism": "Gastrointestinal adverse effects of semaglutide may reduce food intake; additive glucose-lowering effect potentiates insulin action."
+      },
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "sulfonylureas",
+        "interaction_type": "major",
+        "clinical_effect": "Severe hypoglycemia risk due to combined stimulation of insulin secretion and delayed gastric emptying.",
+        "mechanism": "GLP-1 receptor agonists enhance glucose-dependent insulin secretion and slow gastric emptying; sulfonylureas add independent insulinotropic effect."
+      },
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "Altered anticoagulation effect; close monitoring of INR is recommended upon initiation or dose adjustment of semaglutide.",
+        "mechanism": "Delayed gastric emptying by semaglutide may alter the absorption kinetics of oral warfarin."
+      },
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "oral contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "Reduced contraceptive efficacy due to decreased absorption of oral contraceptive steroids.",
+        "mechanism": "Delayed gastric emptying caused by GLP-1 receptor agonists may decrease the rate and extent of absorption of oral contraceptives."
+      },
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "levothyroxine",
+        "interaction_type": "moderate",
+        "clinical_effect": "Reduced levothyroxine absorption and efficacy; may lead to hypothyroidism symptoms.",
+        "mechanism": "Delayed gastric emptying reduces gastrointestinal absorption of levothyroxine; timing of administration may need adjustment."
+      },
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "acetaminophen",
+        "interaction_type": "moderate",
+        "clinical_effect": "Delayed onset of analgesic effect due to slowed gastric emptying; peak concentration may be reduced.",
+        "mechanism": "Semaglutide delays gastric emptying, decreasing the rate of acetaminophen absorption from the stomach and small intestine."
+      },
+      {
+        "drug_a": "semaglutide",
+        "drug_b": "antibiotics",
+        "interaction_type": "moderate",
+        "clinical_effect": "Delayed or reduced absorption of oral antibiotics, potentially compromising treatment of infections.",
+        "mechanism": "Slowed gastric emptying may decrease the rate and extent of antibiotic absorption from the gastrointestinal tract."
+      }
+    ]
+  },
+  {
+    "generic_name": "tirzepatide",
+    "interactions": [
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "insulin",
+        "interaction_type": "major",
+        "clinical_effect": "High risk of severe hypoglycemia due to potent combined glucose-lowering effects; insulin dose reduction is critical.",
+        "mechanism": "Dual GIP/GLP-1 receptor agonism synergistically reduces blood glucose; additive effect with exogenous insulin may cause profound hypoglycemia."
+      },
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "sulfonylureas",
+        "interaction_type": "major",
+        "clinical_effect": "Markedly increased risk of severe hypoglycemia; sulfonylurea dose reduction often required.",
+        "mechanism": "Combined insulinotropic effects of GIP/GLP-1 receptor activation and sulfonylurea-mediated insulin secretion."
+      },
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "Altered anticoagulation parameters; frequent INR monitoring recommended during dose titration.",
+        "mechanism": "Significant delay in gastric emptying with tirzepatide may alter the rate and extent of oral warfarin absorption."
+      },
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "oral contraceptives",
+        "interaction_type": "major",
+        "clinical_effect": "Potential contraceptive failure due to severely reduced absorption of oral contraceptive hormones; use of non-oral backup contraception for 4 weeks is recommended.",
+        "mechanism": "Marked delay in gastric emptying significantly reduces peak concentration and overall exposure of oral contraceptive steroids."
+      },
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "levothyroxine",
+        "interaction_type": "moderate",
+        "clinical_effect": "Decreased levothyroxine absorption; may result in inadequate thyroid hormone replacement.",
+        "mechanism": "Gastric emptying delay reduces levothyroxine bioavailability; may need to separate administration times."
+      },
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "acetaminophen",
+        "interaction_type": "moderate",
+        "clinical_effect": "Delayed analgesic onset and reduced peak concentration; may affect acute pain management.",
+        "mechanism": "Tirzepatide significantly slows gastric emptying, delaying acetaminophen absorption kinetics."
+      },
+      {
+        "drug_a": "tirzepatide",
+        "drug_b": "oral antibiotics",
+        "interaction_type": "moderate",
+        "clinical_effect": "Delayed or reduced antibiotic absorption potentially leading to treatment failure in acute infections.",
+        "mechanism": "Slowed gastrointestinal transit reduces the rate and extent of oral antibiotic absorption."
+      }
+    ]
+  },
+  {
+    "generic_name": "semaglutide injection",
+    "interactions": [
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "insulin",
+        "interaction_type": "major",
+        "clinical_effect": "Severe hypoglycemia risk when initiating or uptitrating semaglutide injection in insulin-treated patients.",
+        "mechanism": "Additive glucose-lowering effects; delayed gastric emptying further complicates glucose control timing with prandial insulin."
+      },
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "sulfonylureas",
+        "interaction_type": "major",
+        "clinical_effect": "Significant hypoglycemia risk requiring preemptive sulfonylurea dose reduction upon semaglutide injection initiation.",
+        "mechanism": "GLP-1 receptor agonism combined with sulfonylurea-induced insulin secretion intensifies hypoglycemic potential."
+      },
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "Altered INR; close monitoring is required during semaglutide injection dose changes.",
+        "mechanism": "Significant gastric emptying delay alters the gastrointestinal absorption profile of warfarin."
+      },
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "oral contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "Reduced contraceptive efficacy; additional barrier contraception may be needed.",
+        "mechanism": "Delayed gastric emptying decreases the rate and extent of absorption of contraceptive steroids."
+      },
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "ACE inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "Enhanced blood pressure-lowering effect; may increase risk of symptomatic hypotension.",
+        "mechanism": "Semaglutide injection has cardiovascular effects including blood pressure reduction, which may be additive with antihypertensives."
+      },
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "beta blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "Additive heart rate reduction and potential for excessive bradycardia.",
+        "mechanism": "GLP-1 receptor agonists can increase heart rate slightly, but combined with beta blockers, may unpredictably affect heart rate control."
+      },
+      {
+        "drug_a": "semaglutide injection",
+        "drug_b": "levothyroxine",
+        "interaction_type": "moderate",
+        "clinical_effect": "Decreased levothyroxine absorption; thyroid function should be monitored.",
+        "mechanism": "Gastric emptying delay reduces bioavailability of orally administered levothyroxine."
+      }
+    ]
+  },
+  {
+    "generic_name": "exenatide",
+    "interactions": [
+      {
+        "drug_a": "exenatide",
+        "drug_b": "insulin",
+        "interaction_type": "major",
+        "clinical_effect": "Serious risk of severe hypoglycemia, particularly with rapid-acting or premixed insulins; requires proactive insulin dose reduction.",
+        "mechanism": "Additive hypoglycemic effect from GLP-1 receptor agonism and exogenous insulin; altered gastric emptying exacerbates glucose variability."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "sulfonylureas",
+        "interaction_type": "major",
+        "clinical_effect": "High risk of severe hypoglycemia; sulfonylurea dose must be reduced at exenatide initiation.",
+        "mechanism": "Combined insulinotropic effects from GLP-1 receptor activation and sulfonylurea action on pancreatic beta cells."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "warfarin",
+        "interaction_type": "major",
+        "clinical_effect": "Significantly altered INR and increased risk of bleeding or thrombosis; intensive INR monitoring is mandatory.",
+        "mechanism": "Exenatide profoundly delays gastric emptying, markedly affecting warfarin absorption; this interaction is more pronounced with exenatide than other GLP-1 agonists."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "oral contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "Reduced contraceptive reliability; backup non-hormonal contraception is advised.",
+        "mechanism": "Delayed gastric emptying decreases oral contraceptive absorption; exenatide has a pronounced effect on gastrointestinal motility."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "acetaminophen",
+        "interaction_type": "moderate",
+        "clinical_effect": "Delayed onset and reduced peak analgesic effect; may compromise fever or pain management.",
+        "mechanism": "Slow gastric emptying induced by exenatide reduces the rate of acetaminophen absorption."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "digoxin",
+        "interaction_type": "moderate",
+        "clinical_effect": "Altered digoxin pharmacokinetics; potential for reduced therapeutic effect or increased toxicity.",
+        "mechanism": "Delayed gastric emptying changes the dissolution and absorption profile of oral digoxin."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "ACE inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "Additive blood pressure reduction; may cause symptomatic hypotension in susceptible patients.",
+        "mechanism": "Exenatide has modest blood pressure-lowering effects that are additive with antihypertensive medications."
+      },
+      {
+        "drug_a": "exenatide",
+        "drug_b": "statins",
+        "interaction_type": "moderate",
+        "clinical_effect": "Altered statin absorption; lipid-lowering effect may be diminished if timing of doses overlaps.",
+        "mechanism": "Gastric emptying delay may reduce the bioavailability of orally administered statins."
+      }
+    ]
+  },
+  {
+    "generic_name": "loperamide hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "CYP3A4 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "Significantly increased loperamide plasma concentrations leading to risk of QT prolongation, torsades de pointes, and cardiac arrest.",
+        "mechanism": "Loperamide is a substrate of CYP3A4 and P-glycoprotein; strong CYP3A4 inhibition substantially increases systemic exposure."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "CYP2C8 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "Elevated loperamide levels with risk of serious cardiotoxicity including QT prolongation and ventricular arrhythmias.",
+        "mechanism": "Loperamide is metabolized by CYP2C8; inhibition of this pathway increases systemic concentrations and cardiac risk."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "quinidine",
+        "interaction_type": "major",
+        "clinical_effect": "Markedly increased loperamide levels and additive cardiac effects; high risk of serious arrhythmias.",
+        "mechanism": "Quinidine inhibits P-glycoprotein-mediated efflux of loperamide, increasing central nervous system penetration and systemic exposure."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "amiodarone",
+        "interaction_type": "major",
+        "clinical_effect": "Severe risk of QT prolongation and life-threatening ventricular arrhythmias including torsades de pointes.",
+        "mechanism": "Both drugs independently prolong QT interval; amiodarone also inhibits loperamide metabolism via CYP3A4 inhibition."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "class IA antiarrhythmics",
+        "interaction_type": "major",
+        "clinical_effect": "Additive QT prolongation; significant risk of torsades de pointes and sudden cardiac death.",
+        "mechanism": "Both drug classes independently delay cardiac repolarization; combined use produces synergistic proarrhythmic effect."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "class III antiarrhythmics",
+        "interaction_type": "major",
+        "clinical_effect": "Profound QT prolongation, high risk of polymorphic ventricular tachycardia and cardiac arrest.",
+        "mechanism": "Additive effects on cardiac potassium channels prolong repolarization, amplifying proarrhythmic risk."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "antipsychotics",
+        "interaction_type": "major",
+        "clinical_effect": "Increased risk of QT prolongation and serious ventricular arrhythmias.",
+        "mechanism": "Many antipsychotics prolong QT interval; additive effects with loperamide elevate risk of cardiotoxicity."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "opioid analgesics",
+        "interaction_type": "major",
+        "clinical_effect": "Risk of severe constipation, paralytic ileus, and central nervous system depression; increased risk of toxic megacolon.",
+        "mechanism": "Additive mu-opioid receptor agonism in the gastrointestinal tract significantly reduces motility; combined central effects possible at high doses."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "ritonavir",
+        "interaction_type": "major",
+        "clinical_effect": "Dramatically increased loperamide concentrations; serious risk of cardiotoxicity and neurotoxicity.",
+        "mechanism": "Ritonavir is a potent CYP3A4 and P-glycoprotein inhibitor; co-administration causes significant loperamide accumulation."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "anticholinergics",
+        "interaction_type": "moderate",
+        "clinical_effect": "Increased risk of severe constipation and ileus due to additive inhibition of gastrointestinal motility.",
+        "mechanism": "Both drug classes reduce gut motility through different mechanisms, producing a synergistic constipating effect."
+      },
+      {
+        "drug_a": "loperamide hydrochloride",
+        "drug_b": "macrolide antibiotics",
+        "interaction_type": "moderate",
+        "clinical_effect": "Elevated loperamide levels and increased risk of QT prolongation.",
+        "mechanism": "Macrolides inhibit CYP3A4 and also independently prolong QT interval; combined effects increase cardiac risk."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Recommendation-Flow" id="0">
+    <mxGraphModel dx="855" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="750" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;1.获取患者信息&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;基本信息/疾病史/过敏史&lt;br&gt;当前用药/生理指标&lt;br&gt;(肾功能,肝功能,BMI等)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;2.疾病名称映射&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;DiseaseMapper&lt;br&gt;中文疾病→英文编码&lt;br&gt;SEMANTIC_VOCAB_MAP补全&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="40" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;3.药物候选检索&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;1815种药物候选集&lt;br&gt;适应症匹配筛选&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="60" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;4.SafetyFilter安全过滤&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;绝对禁忌症/过敏冲突排除&lt;br&gt;妊娠X类/重大药物交互排除&lt;br&gt;儿科禁忌排除(确定性硬排除)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="150" x="30" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;5.RuleMarker规则标记&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;相对禁忌警告/中等交互标记&lt;br&gt;妊娠C/D类标记(软标记,不排除)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="160" x="222.5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;6.DeepFM个性化评分&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;FM:一阶+二阶特征交互&lt;br&gt;Deep:MLP非线性建模&lt;br&gt;连续特征旁路→融合输出&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="130" x="222.5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="step7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;7. 差分隐私噪声注入&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;Laplace 噪声:尺度 =Δf/ε&lt;br&gt;Gaussian噪声:σ= Δf√(2ln1.25/δ)/ε&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="140" x="222.5" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="step8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;8.临床阈值后处理&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;得分&amp;lt;0.15→置零(安全排除)&lt;br&gt;min(1.0,raw+0.35)上限约束&lt;br&gt;置信区间计算(95% CI)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="145" x="222.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="step9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;9.输出推荐结果&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;按评分排序的推荐列表&lt;br&gt;含安全标记/置信区间/解释&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="140" x="222.5" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e_1_2" edge="1" parent="1" source="step1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_2_3" edge="1" parent="1" source="step2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_3_4" edge="1" parent="1" source="step3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_4_5" edge="1" parent="1" source="step4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;" target="step5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="340" />
+              <mxPoint x="200" y="340" />
+              <mxPoint x="200" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_5_6" edge="1" parent="1" source="step5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_6_7" edge="1" parent="1" source="step6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_7_8" edge="1" parent="1" source="step7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_8_9" edge="1" parent="1" source="step8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="step9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_left" parent="1" style="text;html=1;fontSize=11;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;数据准备与安全过滤&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="25" width="170" x="20" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_right" parent="1" style="text;html=1;fontSize=11;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;个性化推荐与隐私保护&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="25" width="170" x="210" y="5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

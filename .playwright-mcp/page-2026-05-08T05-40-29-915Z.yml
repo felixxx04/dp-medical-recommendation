@@ -1,0 +1,131 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e88]:
+      - generic [ref=e90]:
+        - generic [ref=e91] [cursor=pointer]: 新对话
+        - generic [ref=e92]:
+          - img [ref=e94]
+          - generic [ref=e96]: 专家模式
+      - button [ref=e97] [cursor=pointer]:
+        - img [ref=e100]
+    - generic [ref=e103]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e108]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 呕吐 | Dexamethasone; Lorazepam; Metoclopramide; Meclizine; Prochlorperazine 疾病: 咳嗽 | Dexamethasone; Diphenhydramine; Benzonatate; Hydrocodone; Codeine 疾病: 咽炎 | Amoxicillin; Azithromycin; Ceftibuten; Loracarbef; cefuroxime 疾病: 哮喘 | Dexamethasone; Epinephrine; Formoterol; Methylprednisolone; Mometasone 疾病: 嗓子疼 | Amoxicillin; Azithromycin; Cefaclor; Cefadroxil; Cefdinir 疾病: 坐骨神经痛 | Aspirin; Amitriptyline; Baclofen; Carbamazepine; Carisoprodol 疾病: 外周动脉疾病 | Clopidogrel; Amlodipine; alprostadil; Amlodipine-Benazepril; Amlodipine-Valsartan 疾病: 多动症 | Clonidine; Alprazolam; viloxazine; dexmethylphenidate; Methylphenidate 疾病: 多囊卵巢综合征 | Metformin; Canagliflozin; Spironolactone; Clomiphene; Flutamide 疾病: 失眠 | Alprazolam; Amitriptyline; Chlordiazepoxide; Clonazepam; Clorazepate 疾病: 头痛 | Cyclobenzaprine; Amitriptyline; Diclofenac; Etodolac; Flurbiprofen 疾病: 子宫内膜异位症 | Goserelin; Cimetidine; Dexlansoprazole; Esomeprazole; Famotidine 疾病: 宫颈炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Cefaclor; Cefadroxil 疾病: 寄生虫感染 | Paromomycin; Albendazole; Ivermectin; Mebendazole; Praziquantel 疾病: 尿失禁 | oxybutynin(oral); Amikacin; oxybutynin(transdermal); flavoxate; darifenacin 疾病: 尿路感染 | Amikacin; Fosfomycin; acetohydroxamic acid; Phenazopyridine; Gentamicin 疾病: 尿路结石 | Allopurinol; Colchicine; Diclofenac; Etodolac; Flurbiprofen 疾病: 帕金森病 | Selegiline; Alprazolam; Rasagiline; Entacapone; Tolcapone 疾病: 带状疱疹 | Valacyclovir; Amitriptyline; acyclovir(oral); Acyclovir; Famciclovir 疾病: 带状疱疹后神经痛 | Gabapentin; Amitriptyline; lidocaine topical; lidocaine(topical); Capsaicin+Lidocaine 疾病: 干眼症 | Fluorometholone; Cetirizine; Brimonidine; Brinzolamide; Latanoprost 疾病: 强直性脊柱炎 | Diclofenac; Aspirin; Golimumab; Indomethacin; Naproxen 疾病: 强迫症 | Alprazolam; Aripiprazole; Bupropion; Buspirone; Chlordiazepoxide 疾病: 心力衰竭 | Amlodipine-Valsartan; Benazepril; Bumetanide; Canagliflozin; Candesartan 疾病: 心律失常 | Bisoprolol; Carvedilol; Diltiazem; Dofetilide; Esmolol 疾病: 心房颤动 | Apixaban; Bisoprolol; Verapamil; Rivaroxaban; verapamil(oral/injection) 疾病: 心梗 | Captopril; Amlodipine-Valsartan; Prasugrel; Ticagrelor; Eptifibatide 疾病: 心绞痛 | Amlodipine; Amlodipine-Valsartan; Bisoprolol; Bisoprolol-HCTZ; Carvedilol 疾病: 心肌梗死 | Captopril; Amlodipine-Valsartan; Prasugrel; Ticagrelor; Eptifibatide 疾病: 心肌病 | Amlodipine-Valsartan; Benazepril; Bumetanide; Canagliflozin; Candesartan 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e111]:
+            - button [ref=e112] [cursor=pointer]:
+              - img [ref=e115]
+            - button [ref=e117] [cursor=pointer]:
+              - img [ref=e120]
+        - generic [ref=e124]:
+          - generic [ref=e126] [cursor=pointer]:
+            - img [ref=e128]
+            - generic [ref=e131]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e133]
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: 我们被要求评估每个疾病对应的药物推荐是否适当。需要给出评分和简要理由，以表格形式输出。我将逐一分析。
+            - paragraph [ref=e141]: "疾病: 呕吐 | Dexamethasone; Lorazepam; Metoclopramide; Meclizine; Prochlorperazine"
+            - list [ref=e142]:
+              - listitem [ref=e143]:
+                - paragraph [ref=e144]: "Dexamethasone: 皮质类固醇，用于化疗引起的呕吐（与5-HT3拮抗剂联用）或脑水肿引起的呕吐等。但不是一线常规止吐药。在化疗止吐中可用。对于一般呕吐，不是首选。不过在某些指南中，地塞米松用于预防术后恶心呕吐。可以视为适当，但不是所有呕吐都需要。"
+              - listitem [ref=e145]:
+                - paragraph [ref=e146]: "Lorazepam: 苯二氮卓类，用于预期性呕吐（化疗前焦虑引起），或作为止吐辅助。并非标准止吐药，但用于特定情况。"
+              - listitem [ref=e147]:
+                - paragraph [ref=e148]: "Metoclopramide: 多巴胺拮抗剂，促动力，止吐，适合。"
+              - listitem [ref=e181]:
+                - paragraph [ref=e182]: "Meclizine: 抗组胺药，用于晕动病、眩晕引起的呕吐，适合。"
+              - listitem [ref=e183]:
+                - paragraph [ref=e184]:
+                  - text: "Prochlorperazine: 吩噻嗪类止吐药，适合。"
+                  - text: 总体来看，这些药物都可用于呕吐的不同病因。地塞米松和劳拉西泮用于化疗相关或预期性呕吐，但也算止吐。可能评为APPROPRIATE或PARTIALLY。由于它问的是“是否适合治疗该疾病”，通常呕吐可以有多种药物。所有5个均在适应症内。我倾向APPROPRIATE。
+            - paragraph [ref=e185]: 咳嗽 | Dexamethasone; Diphenhydramine; Benzonatate; Hydrocodone; Codeine
+            - list [ref=e186]:
+              - listitem [ref=e187]:
+                - paragraph [ref=e188]: "Dexamethasone: 皮质类固醇，用于炎症性咳嗽（哮喘、哮吼等），但不是常规镇咳药。"
+              - listitem [ref=e189]:
+                - paragraph [ref=e190]: "Diphenhydramine: 抗组胺药，用于过敏引起的咳嗽，有镇咳作用。"
+              - listitem [ref=e191]:
+                - paragraph [ref=e192]: "Benzonatate: 外周镇咳药，适合。"
+              - listitem [ref=e193]:
+                - paragraph [ref=e194]: "Hydrocodone: 阿片类镇咳药，适合。"
+              - listitem [ref=e195]:
+                - paragraph [ref=e196]:
+                  - text: "Codeine: 阿片类镇咳药，适合。"
+                  - text: 咳嗽治疗中，地塞米松可能用于某些咳嗽（如喉炎、哮喘），但作为止咳推荐可能不是一线。通常咳嗽药包括镇咳、祛痰。Diphenhydramine 用于过敏性咳嗽。总体部分适合，但地塞米松不是常规止咳。评为PARTIALLY。
+            - paragraph [ref=e197]:
+              - text: 咽炎 | Amoxicillin; Azithromycin; Ceftibuten; Loracarbef; cefuroxime
+              - text: 咽炎通常是病毒性，不需要抗生素。如果是细菌性（A组链球菌），青霉素或阿莫西林是一线。这些抗生素都可用于细菌性咽炎，但很多是不必要或不推荐的。阿莫西林适当；阿奇霉素可用于青霉素过敏；头孢菌素类也可。但全部推荐抗生素可能导致过度使用。问题可能是：推荐这些药物治疗咽炎是否适当？这些药物是抗生素，对病毒性咽炎无效。但临床上对细菌性咽炎可以用。然而推荐前5个药物全是抗生素，可能暗示全部是抗生素，对咽炎并非所有都需要抗生素。从药物治疗角度看，这5个药都可以治疗细菌性咽炎。我判断PARTIALLY，因为咽炎多为病毒性，这些药并不总是适合。或INAPPROPRIATE？取决于解读。如果严格按照疾病，咽炎可以是细菌性，所以抗生素是适当的。但是否“完全适合治疗该疾病”？通常咽炎治疗推荐镇痛、润喉，除非细菌感染。但问题可能考察药物是否对症。这5个抗生素通常用于咽炎治疗指南中。Loracarbef是二代头孢，已撤市？但仍是抗生素。我会评为PARTIALLY，因为不是所有咽炎都需抗生素，全部推荐抗生素可能不当。或者更严格，APPROPRIATE仅当药物是指南推荐一线。阿莫西林是，阿奇霉素是替代，头孢类也可。或许PARTIALLY。
+            - paragraph [ref=e198]: 哮喘 | Dexamethasone; Epinephrine; Formoterol; Methylprednisolone; Mometasone
+            - list [ref=e199]:
+              - listitem [ref=e200]:
+                - paragraph [ref=e201]: "Dexamethasone: 全身性糖皮质激素，用于急性重症哮喘，适当。"
+              - listitem [ref=e202]:
+                - paragraph [ref=e203]: "Epinephrine: 用于严重哮喘发作，适当。"
+              - listitem [ref=e204]:
+                - paragraph [ref=e205]: "Formoterol: 长效β2激动剂（LABA），用于维持治疗，不用于急性发作，但可与ICS联用。适当。"
+              - listitem [ref=e206]:
+                - paragraph [ref=e207]: "Methylprednisolone: 全身用激素，用于急性加重，适当。"
+              - listitem [ref=e208]:
+                - paragraph [ref=e209]:
+                  - text: "Mometasone: 吸入性糖皮质激素（ICS），适合哮喘控制。"
+                  - text: 所有药物均用于哮喘。但Epinephrine不太常规（一般用于过敏性反应或严重哮喘）。Formoterol单药不适合（哮喘需与ICS联用），但本身可用于哮喘。总体都是哮喘用药。我评APPROPRIATE。
+            - paragraph [ref=e210]:
+              - text: 嗓子疼 | Amoxicillin; Azithromycin; Cefaclor; Cefadroxil; Cefdinir
+              - text: 同咽炎，抗菌药物。嗓子疼多为病毒性，抗生素不常规推荐。全部是抗生素。评PARTIALLY或INAPPROPRIATE？我会给PARTIALLY。
+            - paragraph [ref=e211]: 坐骨神经痛 | Aspirin; Amitriptyline; Baclofen; Carbamazepine; Carisoprodol
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - paragraph [ref=e214]: "Aspirin: NSAID，镇痛抗炎，适合。"
+              - listitem [ref=e215]:
+                - paragraph [ref=e216]: "Amitriptyline: 三环类抗抑郁药，用于神经性疼痛，适合。"
+              - listitem [ref=e217]:
+                - paragraph [ref=e218]: "Baclofen: 肌肉松弛剂，用于肌肉痉挛，可能用于坐骨神经痛相关的肌肉痉挛，适当。"
+              - listitem [ref=e219]:
+                - paragraph [ref=e220]: "Carbamazepine: 抗惊厥药，用于神经性疼痛（如三叉神经痛），有时用于坐骨神经痛？不是典型一线。可能部分适当。"
+              - listitem [ref=e221]:
+                - paragraph [ref=e222]:
+                  - text: "Carisoprodol: 肌肉松弛剂，用于肌肉骨骼痛，适当。"
+                  - text: 多数药物可用于坐骨神经痛的症状管理。卡马西平一般用于神经痛，但坐骨神经痛是神经根痛，有时使用加巴喷丁或普瑞巴林，卡马西平也可用。可评APPROPRIATE。
+            - paragraph [ref=e223]: 外周动脉疾病 | Clopidogrel; Amlodipine; alprostadil; Amlodipine-Benazepril; Amlodipine-Valsartan
+            - list [ref=e224]:
+              - listitem [ref=e225]:
+                - paragraph [ref=e226]: "Clopidogrel: 抗血小板，用于有症状的PAD，适当。"
+              - listitem [ref=e227]:
+                - paragraph [ref=e228]: "Amlodipine: 钙通道阻滞剂，用于高血压和冠心病，PAD患者常见合并症，非直接治疗PAD，但可控制危险因素，适当。"
+              - listitem [ref=e229]:
+                - paragraph [ref=e230]: "alprostadil: 前列腺素E1，用于改善严重肢体缺血，适当。"
+              - listitem [ref=e231]:
+                - paragraph [ref=e232]: "Amlodipine-Benazepril: 降压药，组合，控制危险因素。"
+              - listitem [ref=e233]:
+                - paragraph [ref=e234]: Amlodip
+      - generic [ref=e150]:
+        - generic [ref=e153]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e155]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e156]:
+            - button "深度思考" [pressed] [ref=e157] [cursor=pointer]:
+              - img [ref=e159]
+              - generic [ref=e162]: 深度思考
+            - button "智能搜索" [pressed] [ref=e163] [cursor=pointer]:
+              - img [ref=e165]
+              - generic [ref=e167]: 智能搜索
+            - generic [ref=e168]:
+              - button [ref=e169] [cursor=pointer]:
+                - img [ref=e172]
+              - button [ref=e175] [cursor=pointer]:
+                - img [ref=e178]
+        - generic [ref=e180]: 内容由 AI 生成，请仔细甄别

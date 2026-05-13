@@ -1,0 +1,231 @@
+<h2>PatientRecords 患者管理 — 精简方案</h2>
+<p class="subtitle">22个表单字段、卡片头部5+信息、临床指标12个输入</p>
+
+<div class="split">
+  <!-- 当前版本 -->
+  <div class="mockup">
+    <div class="mockup-header">当前版本 — 信息过载</div>
+    <div class="mockup-body" style="font-size:12px;padding:16px;background:#0f1729;color:#e2e8f0">
+      <!-- 统计卡片 -->
+      <div style="display:flex;gap:4px;margin-bottom:10px">
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">患者总数</div><div style="font-weight:bold">25</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">平均年龄</div><div style="font-weight:bold">58</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">慢病种类</div><div style="font-weight:bold">12</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">平均BMI</div><div style="font-weight:bold">24.3</div>
+        </div>
+      </div>
+
+      <!-- 图表 -->
+      <div style="display:flex;gap:4px;margin-bottom:10px">
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:8px;height:80px;display:flex;align-items:center;justify-content:center;color:#94a3b8;font-size:9px">📊 年龄分布图</div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:8px;height:80px;display:flex;align-items:center;justify-content:center;color:#94a3b8;font-size:9px">📊 疾病分布图</div>
+      </div>
+
+      <!-- 患者卡片头部 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:10px;margin-bottom:6px">
+        <div style="display:flex;justify-content:space-between;align-items:start">
+          <div style="display:flex;gap:8px;align-items:start">
+            <div style="width:28px;height:28px;background:linear-gradient(135deg,#0ea5e9,#0284c7);border-radius:4px;display:flex;align-items:center;justify-content:center;color:white;font-size:10px">👤</div>
+            <div>
+              <div style="font-weight:bold">张三 <span style="background:#1e293b;color:#38bdf8;padding:1px 5px;border-radius:3px;font-size:9px;border:1px solid #334155">男 · 65 岁</span></div>
+              <div style="display:flex;gap:6px;font-size:9px;color:#94a3b8;margin-top:3px">
+                <span>📊 BMI: 24.1 (正常)</span>
+                <span>⚠️ 2项过敏</span>
+                <span>📅 建档: 2026-03-15</span>
+              </div>
+              <div style="display:flex;gap:3px;margin-top:3px">
+                <span style="background:#0c2d48;color:#38bdf8;padding:1px 5px;border-radius:3px;font-size:8px">高血压</span>
+                <span style="background:#0c2d48;color:#38bdf8;padding:1px 5px;border-radius:3px;font-size:8px">2型糖尿病</span>
+                <span style="background:#0c2d48;color:#38bdf8;padding:1px 5px;border-radius:3px;font-size:8px">冠心病</span>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex;gap:2px">
+            <span style="background:#0c2d48;color:#38bdf8;padding:2px 6px;border-radius:3px;font-size:8px">🔬推荐</span>
+            <span style="background:#1e293b;color:#94a3b8;padding:2px 6px;border-radius:3px;font-size:8px;border:1px solid #334155">✏️</span>
+            <span style="background:#1e293b;color:#94a3b8;padding:2px 6px;border-radius:3px;font-size:8px;border:1px solid #334155">🗑️</span>
+            <span style="background:#1e293b;color:#94a3b8;padding:2px 6px;border-radius:3px;font-size:8px;border:1px solid #334155">▾</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 添加患者表单 -->
+      <div style="background:#1e293b;border:1px solid #38bdf8/30;border-radius:6px;padding:8px;margin-bottom:8px">
+        <div style="font-size:10px;font-weight:bold;color:#38bdf8;margin-bottom:6px">添加新患者</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;font-size:8px">
+          <div>姓名 *</div><div>年龄 *</div>
+          <div>性别 *</div><div>身高 / 体重</div>
+          <div>联系电话</div><div></div>
+          <div style="grid-column:1/-1">过敏史（逗号分隔）</div>
+          <div style="grid-column:1/-1">慢病（逗号分隔）</div>
+          <div style="grid-column:1/-1">当前用药（逗号分隔）</div>
+          <div style="grid-column:1/-1">既往病史 (textarea)</div>
+        </div>
+      </div>
+
+      <!-- 临床指标 tab -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px">
+        <div style="font-size:9px;font-weight:bold;margin-bottom:4px;color:#f59e0b">临床指标 (12个输入)</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;font-size:7px;color:#94a3b8">
+          <div>肾功能 ▾</div><div>肝功能 ▾</div>
+          <div>吸烟状态 ▾</div><div>饮酒状态 ▾</div>
+          <div>收缩压 mmHg</div><div>舒张压 mmHg</div>
+          <div>空腹血糖</div><div>糖化血红蛋白</div>
+          <div>总胆固醇</div><div>LDL胆固醇</div>
+          <div>心率</div><div>[保存按钮]</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 精简版本 -->
+  <div class="mockup">
+    <div class="mockup-header" style="background:#052e16;color:#22c55e">精简版本 — 重点突出</div>
+    <div class="mockup-body" style="font-size:12px;padding:16px;background:#0f1729;color:#e2e8f0">
+      <!-- 统计合并为一行 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:4px;padding:8px;margin-bottom:10px;display:flex;justify-content:space-around;font-size:10px">
+        <div style="text-align:center"><div style="font-weight:bold;font-size:14px">25</div><div style="color:#94a3b8;font-size:8px">患者</div></div>
+        <div style="text-align:center"><div style="font-weight:bold;font-size:14px">58</div><div style="color:#94a3b8;font-size:8px">平均年龄</div></div>
+        <div style="text-align:center"><div style="font-weight:bold;font-size:14px">12</div><div style="color:#94a3b8;font-size:8px">慢病种类</div></div>
+        <div style="text-align:center"><div style="font-weight:bold;font-size:14px">24.3</div><div style="color:#94a3b8;font-size:8px">平均BMI</div></div>
+      </div>
+
+      <!-- 图表 默认折叠 -->
+      <div style="display:flex;justify-content:space-between;align-items:center;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px 8px;margin-bottom:10px;font-size:10px;color:#94a3b8;cursor:pointer">
+        <span>📊 年龄/疾病分布图</span>
+        <span>展开 ▾</span>
+      </div>
+
+      <!-- 患者卡片头部 精简 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:10px;margin-bottom:6px">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div>
+            <div style="font-weight:bold">张三 <span style="font-size:9px;color:#94a3b8">男 · 65岁</span></div>
+            <div style="display:flex;gap:3px;margin-top:3px">
+              <span style="background:#0c2d48;color:#38bdf8;padding:1px 5px;border-radius:3px;font-size:8px">高血压</span>
+              <span style="background:#0c2d48;color:#38bdf8;padding:1px 5px;border-radius:3px;font-size:8px">2型糖尿病</span>
+            </div>
+          </div>
+          <div style="display:flex;gap:3px">
+            <span style="background:#0c2d48;color:#38bdf8;padding:2px 6px;border-radius:3px;font-size:8px">🔬推荐</span>
+            <span style="color:#94a3b8;font-size:10px">▾</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 添加表单 精简: 分步 -->
+      <div style="background:#1e293b;border:1px solid #38bdf8/30;border-radius:6px;padding:8px;margin-bottom:8px">
+        <div style="font-size:10px;font-weight:bold;color:#38bdf8;margin-bottom:6px">添加新患者</div>
+        <div style="display:flex;gap:8px;margin-bottom:6px;font-size:9px">
+          <span style="color:#38bdf8;border-bottom:2px solid #38bdf8;padding-bottom:2px">① 基本信息</span>
+          <span style="color:#94a3b8">② 健康档案</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;font-size:8px">
+          <div>姓名 *</div><div>年龄 *</div>
+          <div>性别 *</div><div>身高 / 体重</div>
+        </div>
+        <div style="text-align:right;font-size:8px;color:#38bdf8;margin-top:4px">下一步 →</div>
+      </div>
+
+      <!-- 临床指标 分组 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+          <div style="font-size:9px;font-weight:bold;color:#f59e0b">临床指标</div>
+          <span style="font-size:8px;color:#94a3b8">3/6 已填写</span>
+        </div>
+        <div style="font-size:8px;color:#94a3b8;margin-bottom:4px">器官功能</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;font-size:7px;color:#94a3b8;margin-bottom:6px">
+          <div>肾功能: 正常</div><div>肝功能: 轻度受损</div>
+        </div>
+        <div style="font-size:8px;color:#94a3b8;margin-bottom:4px">心血管指标</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;font-size:7px;color:#94a3b8;margin-bottom:6px">
+          <div>血压: 145/90</div><div>心率: 72</div>
+        </div>
+        <div style="font-size:8px;color:#94a3b8;margin-bottom:4px">代谢指标</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;font-size:7px;color:#94a3b8">
+          <div>血糖: 6.8</div><div>HbA1c: —</div>
+          <div>总胆固醇: —</div><div>LDL: —</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px">
+  <h3>具体精简措施</h3>
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#f59e0b;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">折叠</span>
+      <div>
+        <strong>统计4卡 → 合并为一行</strong><br/>
+        <span style="color:#888;font-size:13px">4个独立卡片改为单行横排数字展示，省去大量纵向空间</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#f59e0b;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">折叠</span>
+      <div>
+        <strong>2个分布图 → 默认折叠</strong><br/>
+        <span style="color:#888;font-size:13px">对日常管理不是核心信息，改为"📊 年龄/疾病分布图 ▾"折叠按钮</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#ef4444;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">删除</span>
+      <div>
+        <strong>卡片头部精简：去掉BMI/过敏数/建档日期</strong><br/>
+        <span style="color:#888;font-size:13px">BMI和建档日期移入展开的"基本信息"tab；过敏数量在过敏史tab中自然体现，无需重复显示</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#ef4444;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">删除</span>
+      <div>
+        <strong>操作按钮：编辑/删除移入展开区</strong><br/>
+        <span style="color:#888;font-size:13px">卡片头部只保留"推荐"按钮，编辑和删除移入展开后的tab区域，减少视觉噪声</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#22c55e;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">重组</span>
+      <div>
+        <strong>添加表单10字段 → 分步表单（2步）</strong><br/>
+        <span style="color:#888;font-size:13px">①基本信息（姓名/年龄/性别/身高/体重）→ ②健康档案（过敏/慢病/用药/病史）。减少首屏表单面积</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#22c55e;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">重组</span>
+      <div>
+        <strong>临床指标12字段 → 分3组 + 已填写进度</strong><br/>
+        <span style="color:#888;font-size:13px">分组：器官功能（肾/肝）、心血管（血压/心率）、代谢（血糖/HbA1c/胆固醇/LDL）+ 吸烟饮酒归入"生活习惯"。已填/总数进度提示</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="options" style="margin-top:24px">
+  <div class="option" data-choice="approve-patient" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>同意此方案</h3>
+      <p>统计合并、图表折叠、卡片精简、表单分步、临床分组</p>
+    </div>
+  </div>
+  <div class="option" data-choice="keep-charts" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>保留图表默认展示</h3>
+      <p>统计合并+卡片精简+表单分步同意，但图表不要折叠，保持默认展示</p>
+    </div>
+  </div>
+  <div class="option" data-choice="no-step-form" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>不做分步表单</h3>
+      <p>其余都同意，但添加表单保持一页展示，不分步骤（分步增加操作步骤）</p>
+    </div>
+  </div>
+</div>

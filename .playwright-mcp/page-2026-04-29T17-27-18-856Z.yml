@@ -1,0 +1,438 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]: 今天
+        - link "新对话" [ref=e234] [cursor=pointer]:
+          - /url: /a/chat/s/6935fe34-4fc3-40e1-83af-40a4b80d370a
+          - generic [ref=e235]: 新对话
+          - button [ref=e236]:
+            - img [ref=e240]
+        - link "药物交互作用列表生成" [ref=e102] [cursor=pointer]:
+          - /url: /a/chat/s/be31615e-2a9f-4c42-b517-819ea0c04a77
+          - generic [ref=e103]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e104] [cursor=pointer]:
+          - /url: /a/chat/s/29105585-9eea-4649-8ae0-d8fef6960494
+          - generic [ref=e105]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e106] [cursor=pointer]:
+          - /url: /a/chat/s/96ed9973-46c4-4bfb-86d5-f8a71ec1be90
+          - generic [ref=e107]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e108] [cursor=pointer]:
+          - /url: /a/chat/s/47ca44ac-64df-40b8-8b21-b9fbadeecea5
+          - generic [ref=e109]: 药物交互列表生成
+        - link "临床药学专家药物交互生成" [ref=e110] [cursor=pointer]:
+          - /url: /a/chat/s/dadb6b40-edb1-497b-85cf-1d908a363d87
+          - generic [ref=e111]: 临床药学专家药物交互生成
+        - link "临床药学专家生成药物交互列表" [ref=e112] [cursor=pointer]:
+          - /url: /a/chat/s/4f673188-ac15-45da-a360-766681d189ca
+          - generic [ref=e113]: 临床药学专家生成药物交互列表
+        - link "药物交互作用列表生成" [ref=e114] [cursor=pointer]:
+          - /url: /a/chat/s/396da42e-e60a-42d9-8950-e2d1de7ba0b8
+          - generic [ref=e115]: 药物交互作用列表生成
+      - generic [ref=e116]:
+        - generic [ref=e117]: 昨天
+        - link "药物交互作用列表生成" [ref=e118] [cursor=pointer]:
+          - /url: /a/chat/s/43d465df-a130-493c-a502-f7871df35a84
+          - generic [ref=e119]: 药物交互作用列表生成
+        - link "dupilumab药物交互补充生成" [ref=e120] [cursor=pointer]:
+          - /url: /a/chat/s/ddc8880c-a441-4331-baa5-33dbff16164e
+          - generic [ref=e121]: dupilumab药物交互补充生成
+        - link "药物交互作用列表生成" [ref=e122] [cursor=pointer]:
+          - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+          - generic [ref=e123]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e124] [cursor=pointer]:
+          - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+          - generic [ref=e125]: 药物交互列表生成
+        - link "糖尿病药物交互列表生成" [ref=e126] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e127]: 糖尿病药物交互列表生成
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e128] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e129]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e130] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e131]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e132] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e133]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e134] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e135]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e136] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e137]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e138] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e139]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e140] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e141]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e142] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e143]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e144] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e145]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e146] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e147]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e148] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e149]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e150] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e151]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e152] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e153]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e154] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e155]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e156] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e157]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e158] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e159]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e160] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e161]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e162] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e163]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e164] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e165]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e166] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e167]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e168] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e169]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e170] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e171]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e172] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e173]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e174] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e175]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e176] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e177]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e178] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e179]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e180] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e181]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e182] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e183]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e184] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e185]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e186] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e187]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e188] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e189]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e190] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e191]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e192] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e193]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e194] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e195]: HIV药物禁忌症生成
+      - generic [ref=e196]:
+        - generic [ref=e197]: 7 天内
+        - link "药物禁忌症列表生成" [ref=e198] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e199]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e200] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e201]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e202] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e203]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e204] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e205]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e206] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e207]: 药物适应症列表生成
+        - link "药学知识专家验证药物适应症" [ref=e208] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e209]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e210] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e211]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e212] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e213]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e214] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e215]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e216] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e217]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e218] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e219]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e220] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e221]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e222] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e223]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e224] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e225]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e35]
+      - generic [ref=e38]: 132******38
+      - img [ref=e40]
+  - generic [ref=e45]:
+    - generic [ref=e244]:
+      - generic [ref=e246]:
+        - generic [ref=e247] [cursor=pointer]: 新对话
+        - generic [ref=e248]:
+          - img [ref=e250]
+          - generic [ref=e252]: 专家模式
+      - button [ref=e253] [cursor=pointer]:
+        - img [ref=e256]
+    - generic [ref=e259]:
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e264]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: aztreonam (inhalation) | 类别: Miscellaneous antibiotics | 适应症: cystic fibrosis|pseudomonas aeruginosa infection|bronchiectasis | 妊娠分级: B Penicillin V Potassium Oral Solution | 类别: Natural penicillins | 适应症: bacterial infection|streptococcal pharyngitis|skin and soft tissue infection|dental infection | 妊娠分级: B Vancomycin Capsules | 类别: Glycopeptide antibiotics | 适应症: clostridium difficile infection|staphylococcal enterocolitis | 妊娠分级: C vancomycin (intravenous route) | 类别: Glycopeptide antibiotics | 适应症: bacterial infection|skin and soft tissue infection|endocarditis|osteomyelitis|meningitis|sepsis | 妊娠分级: C vancomycin (oral route) | 类别: Glycopeptide antibiotics | 适应症: clostridium difficile infection|staphylococcal enterocolitis | 妊娠分级: C amikacin (injection route) | 类别: Aminoglycosides | 适应症: bacterial infection|urinary tract infection|intra-abdominal infection|sepsis|meningitis | 妊娠分级: D ampicillin and sulbactam | 类别: Beta-lactamase inhibitors | 适应症: bacterial infection|skin and soft tissue infection|intra-abdominal infection|pelvic inflammatory disease | 妊娠分级: B avibactam and ceftazidime | 类别: Cephalosporins / beta-lactamase inhibitors | 适应症: bacterial infection|complicated intra-abdominal infection|complicated urinary tract infection|hospital-acquired pneumonia | 妊娠分级: B aztreonam (injection) | 类别: Miscellaneous antibiotics | 适应症: bacterial infection|urinary tract infection|intra-abdominal infection|pneumonia|sepsis | 妊娠分级: B bacitracin (injection) | 类别: Miscellaneous antibiotics | 适应症: bacterial infection|pneumonia|empyema | 妊娠分级: C delafloxacin (oral/injection) | 类别: Quinolones | 适应症: bacterial infection|skin and soft tissue infection|community-acquired pneumonia | 妊娠分级: N penicillin G benzathine and penicillin G procaine | 类别: Natural penicillins | 适应症: bacterial infection|syphilis|streptococcal infection | 妊娠分级: B cefotetan | 类别: Second generation cephalosporins | 适应症: bacterial infection|intra-abdominal infection|pelvic inflammatory disease|endometritis | 妊娠分级: B ceftolozane and tazobactam | 类别: Cephalosporins / beta-lactamase inhibitors | 适应症: bacterial infection|complicated intra-abdominal infection|complicated urinary tract infection|hospital-acquired pneumonia | 妊娠分级: B lefamulin (oral/injection) | 类别: Miscellaneous antibiotics | 适应症: community-acquired pneumonia|bacterial infection | 妊娠分级: N nafcillin (injection) | 类别: Penicillinase resistant penicillins | 适应症: bacterial infection|staphylococcal infection|endocarditis|osteomyelitis | 妊娠分级: B omadacycline (oral/injection) | 类别: Tetracyclines | 适应症: community-acquired pneumonia|skin and soft tissue infection|bacterial infection | 妊娠分级: N oxacillin (injection) | 类别: Penicillinase resistant penicillins | 适应症: bacterial infection|staphylococcal infection|endocarditis | 妊娠分级: B penicillin G potassium | 类别: Natural penicillins | 适应症: bacterial infection|streptococcal infection|syphilis|endocarditis | 妊娠分级: B penicillin G sodium | 类别: Natural penicillins | 适应症: bacterial infection|streptococcal infection|syphilis|endocarditis | 妊娠分级: B procaine penicillin | 类别: Natural penicillins | 适应症: bacterial infection|syphilis|streptococcal infection | 妊娠分级: B ustekinumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis | 妊娠分级: B Ustekinumab Brand name: Stelara | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis | 妊娠分级: B secukinumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis|hidradenitis suppurativa | 妊娠分级: B ixekizumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis | 妊娠分级: N risankizumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|Crohn's disease | 妊娠分级: N guselkumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ulcerative colitis | 妊娠分级: N tildrakizumab | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis | 妊娠分级: N infliximab-axxq | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis|psoriasis|psoriatic arthritis | 妊娠分级: B halobetasol and tazarotene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: N guselkumab Brand name: Tremfya | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ulcerative colitis | 妊娠分级: N infliximab-dyyb | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis|psoriasis|psoriatic arthritis | 妊娠分级: B ixekizumab Brand name: Taltz | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis | 妊娠分级: N infliximab-abda | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis|psoriasis|psoriatic arthritis | 妊娠分级: B secukinumab Brand name: Cosentyx | 类别: Interleukin inhibitors | 适应症: psoriasis|psoriatic arthritis|ankylosing spondylitis|hidradenitis suppurativa | 妊娠分级: B calcipotriene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C acitretin | 类别: Antipsoriatics | 适应症: psoriasis|ichthyosis|lichen planus | 妊娠分级: X betamethasone topical | 类别: Topical steroids | 适应症: eczema|psoriasis|allergic contact dermatitis|pruritus | 妊娠分级: C betamethasone and calcipotriene topical | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C cyclosporine (oral route) | 类别: Calcineurin inhibitors | 适应症: transplant rejection prophylaxis|rheumatoid arthritis|psoriasis|nephrotic syndrome|uveitis | 妊娠分级: C methotrexate (injection) | 类别: Antimetabolites, Antipsoriatics, Antirheumatics, Other immunosuppressants | 适应症: rheumatoid arthritis|psoriasis|cancer|ectopic pregnancy|inflammatory bowel disease | 妊娠分级: X tacrolimus topical | 类别: Miscellaneous topical agents | 适应症: eczema|psoriasis|vitiligo | 妊娠分级: C calcitriol (topical) | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C coal tar topical | 类别: Miscellaneous topical agents | 适应症: psoriasis|seborrheic dermatitis|eczema | 妊娠分级: C methotrexate (injection route, subcutaneous route) | 类别: | 适应症: rheumatoid arthritis|psoriasis|cancer|inflammatory bowel disease | 妊娠分级: X betamethasone and calcipotriene (topical application route) | 类别: Topical antipsoriatics | 适应症: psoriasis|eczema | 妊娠分级: C methoxsalen (oral) | 类别: Psoralens | 适应症: psoriasis|vitiligo|cutaneous T-cell lymphoma | 妊娠分级: D adalimumab-afzb (subcutaneous route) | 类别: TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis | 妊娠分级: B adalimumab-atto (subcutaneous route) | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriasis|psoriatic arthritis|Crohn's disease|ulcerative colitis|ankylosing spondylitis | 妊娠分级: B Pramoxine and Hydrocortisone Rectal Cream | 类别: Anorectal preparations | 适应症: hemorrhoids|pruritus ani|anal fissure | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e267]:
+            - button [ref=e268] [cursor=pointer]:
+              - img [ref=e271]
+            - button [ref=e273] [cursor=pointer]:
+              - img [ref=e276]
+        - generic [ref=e280]:
+          - generic [ref=e282] [cursor=pointer]:
+            - img [ref=e284]
+            - generic [ref=e287]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e289]
+          - generic [ref=e295]:
+            - paragraph [ref=e296]: 我们需要为输入的药物列表生成重要的药物交互列表。先理解要求：只列major和moderate交互，不列minor。交互要有临床意义。每个交互包含 drug_a (当前药物), drug_b (交互药物类别名), interaction_type, clinical_effect, mechanism。优先列出与常见药物类的交互（抗凝药、抗抑郁药、抗真菌药、抗酸药等）。对于组合药物，列出每个成分的交互。
+            - paragraph [ref=e297]: 输入药物列表包括：
+            - list [ref=e298]:
+              - listitem [ref=e299]:
+                - paragraph [ref=e300]: aztreonam (inhalation)
+              - listitem [ref=e301]:
+                - paragraph [ref=e302]: Penicillin V Potassium Oral Solution
+              - listitem [ref=e303]:
+                - paragraph [ref=e304]: Vancomycin Capsules (口服，用于艰难梭菌)
+              - listitem [ref=e305]:
+                - paragraph [ref=e306]: vancomycin (intravenous route)
+              - listitem [ref=e307]:
+                - paragraph [ref=e308]: vancomycin (oral route) （与Vancomycin Capsules类似）
+              - listitem [ref=e309]:
+                - paragraph [ref=e310]: amikacin (injection route)
+              - listitem [ref=e311]:
+                - paragraph [ref=e312]: ampicillin and sulbactam
+              - listitem [ref=e313]:
+                - paragraph [ref=e314]: avibactam and ceftazidime
+              - listitem [ref=e315]:
+                - paragraph [ref=e316]: aztreonam (injection)
+              - listitem [ref=e317]:
+                - paragraph [ref=e318]: bacitracin (injection)
+              - listitem [ref=e350]:
+                - paragraph [ref=e351]: delafloxacin (oral/injection)
+              - listitem [ref=e352]:
+                - paragraph [ref=e353]: penicillin G benzathine and penicillin G procaine
+              - listitem [ref=e354]:
+                - paragraph [ref=e355]: cefotetan
+              - listitem [ref=e356]:
+                - paragraph [ref=e357]: ceftolozane and tazobactam
+              - listitem [ref=e358]:
+                - paragraph [ref=e359]: lefamulin (oral/injection)
+              - listitem [ref=e360]:
+                - paragraph [ref=e361]: nafcillin (injection)
+              - listitem [ref=e362]:
+                - paragraph [ref=e363]: omadacycline (oral/injection)
+              - listitem [ref=e364]:
+                - paragraph [ref=e365]: oxacillin (injection)
+              - listitem [ref=e366]:
+                - paragraph [ref=e367]: penicillin G potassium
+              - listitem [ref=e368]:
+                - paragraph [ref=e369]: penicillin G sodium
+              - listitem [ref=e370]:
+                - paragraph [ref=e371]: procaine penicillin
+              - listitem [ref=e372]:
+                - paragraph [ref=e373]: ustekinumab (and brand Stelara)
+              - listitem [ref=e374]:
+                - paragraph [ref=e375]: secukinumab
+              - listitem [ref=e376]:
+                - paragraph [ref=e377]: ixekizumab
+              - listitem [ref=e378]:
+                - paragraph [ref=e379]: risankizumab
+              - listitem [ref=e380]:
+                - paragraph [ref=e381]: guselkumab (and brand Tremfya)
+              - listitem [ref=e382]:
+                - paragraph [ref=e383]: tildrakizumab
+              - listitem [ref=e384]:
+                - paragraph [ref=e385]: infliximab-axxq
+              - listitem [ref=e386]:
+                - paragraph [ref=e387]: halobetasol and tazarotene topical
+              - listitem [ref=e388]:
+                - paragraph [ref=e389]: infliximab-dyyb
+              - listitem [ref=e390]:
+                - paragraph [ref=e391]: ixekizumab brand Taltz (重复)
+              - listitem [ref=e392]:
+                - paragraph [ref=e393]: infliximab-abda
+              - listitem [ref=e394]:
+                - paragraph [ref=e395]: secukinumab brand Cosentyx (重复)
+              - listitem [ref=e396]:
+                - paragraph [ref=e397]: calcipotriene topical
+              - listitem [ref=e398]:
+                - paragraph [ref=e399]: acitretin
+              - listitem [ref=e400]:
+                - paragraph [ref=e401]: betamethasone topical
+              - listitem [ref=e402]:
+                - paragraph [ref=e403]: betamethasone and calcipotriene topical
+              - listitem [ref=e404]:
+                - paragraph [ref=e405]: cyclosporine (oral route)
+              - listitem [ref=e406]:
+                - paragraph [ref=e407]: methotrexate (injection)
+              - listitem [ref=e408]:
+                - paragraph [ref=e409]: tacrolimus topical
+              - listitem [ref=e410]:
+                - paragraph [ref=e411]: calcitriol (topical)
+              - listitem [ref=e412]:
+                - paragraph [ref=e413]: coal tar topical
+              - listitem [ref=e414]:
+                - paragraph [ref=e415]: methotrexate (injection route, subcutaneous route) (重复)
+              - listitem [ref=e416]:
+                - paragraph [ref=e417]: betamethasone and calcipotriene (topical application route) (重复)
+              - listitem [ref=e418]:
+                - paragraph [ref=e419]: methoxsalen (oral)
+              - listitem [ref=e420]:
+                - paragraph [ref=e421]: adalimumab-afzb (subcutaneous)
+              - listitem [ref=e422]:
+                - paragraph [ref=e423]: adalimumab-atto (subcutaneous)
+              - listitem [ref=e424]:
+                - paragraph [ref=e425]: Pramoxine and Hydrocortisone Rectal Cream
+            - paragraph [ref=e426]: "需要为每种药物生成交互。注意有的药物是同一个generic但不同剂型或品牌，需合并处理。例如 ustekinumab 和 Ustekinumab Brand name: Stelara 可以合并为 ustekinumab。同样 secukinumab, ixekizumab, guselkumab, infliximab 的不同品牌或生物类似药，本质上是同一活性成分，交互相同。输入中还有 methotrexate (injection) 和 methotrexate (injection route, subcutaneous route) 都是methotrexate注射，可合并。另外 vancomycin 口服和注射有不同适应症，但药物交互可能不同，需要考虑口服几乎不吸收，主要作用于肠道，系统交互少。但 vancomycin capsules 和 vancomycin (oral route) 相同。同样，aztreonam inhalation 可能主要是局部，但仍有吸收，但通常系统交互较少。需要查一下临床知识：氨曲南吸入可能用于囊性纤维化，可能与其他药物，但主要看机制。下面我需要基于药物知识生成交互列表。确保优先列出与常见药物类的交互，如抗凝药（warfarin），抗抑郁药（MAO inhibitors, SSRIs等），抗真菌药（azole antifungals），抗酸药（antacids），还有其它如他汀类、降压药等。对于抗生素，常见交互包括：与抗凝药（增强抗凝）、与口服避孕药（可能降低效果）、与丙戊酸、与甲氨蝶呤（某些抗生素增加毒性）、与神经肌肉阻滞剂（氨基糖苷类）、耳毒性/肾毒性药物等。还有QT延长、光敏等。对于生物制剂（白介素抑制剂、TNF抑制剂），交互包括：与活疫苗（禁忌）、与其他免疫抑制剂（增加感染风险）、与CYP代谢的窄治疗药物（某些生物制剂可能影响细胞因子调节CYP酶，导致药物代谢改变，如IL-6抑制剂托珠单抗会影响CYP，但这里的是IL-17, IL-23, IL-12/23抑制剂，ustekinumab是IL-12/23，secukinumab、ixekizumab是IL-17A，guselkumab、tildrakizumab、risankizumab是IL-23抑制剂。这类药物可能通过抑制慢性炎症可能恢复CYP酶活性，理论上可降低经CYP代谢的药物的浓度，如华法林，环孢素等。但通常对于IL-17, IL-23抑制剂，这种影响没有像IL-6抑制剂那样明确，但说明书可能提及与CYP底物合用应当监测。TNF抑制剂与华法林？也可能。需要分析。acitretin是维A酸类，有与维生素A、四环素类、甲氨蝶呤、酒精等的交互。methotrexate有与NSAIDs、质子泵抑制剂、青霉素、TMP/SMX、酒精等交互。cyclosporine有许多交互：与CYP3A4抑制剂/诱导剂，与保钾利尿剂、他克莫司、他汀类、秋水仙碱等。amikacin是与肾毒性/耳毒性药物、神经肌肉阻滞剂、袢利尿剂等。delafloxacin是喹诺酮类，有QT延长、与螯合剂（抗酸药、钙、铁、锌）、华法林、降糖药等。lefamulin是截短侧耳素类，CYP3A4底物和抑制剂？需要确认。是CYP3A4底物，与强CYP3A4抑制剂或诱导剂相互作用，也有QT延长。omadacycline是四环素类，与螯合剂、抗凝药、口服避孕药等。cefotetan有甲基四氮唑侧链，与酒精（双硫仑样反应），与抗凝药增加出血风险。ampicillin/sulbactam，青霉素类，可能与甲氨蝶呤（减少甲氨蝶呤清除）、抗凝药（可能增强）。avibactam/ceftazidime，头孢类，与丙磺舒、抗凝药。ceftolozane/tazobactam，头孢/β内酰胺酶抑制剂。nafcillin, oxacillin是耐青霉素酶青霉素，强CYP诱导剂，可降低华法林、环孢素、口服避孕药等。penicillin V, penicillin G等，主要与甲氨蝶呤、抗凝药。还有procaine penicillin，普鲁卡因成分可能与磺胺类、胆碱酯酶抑制剂等。bacitracin注射有肾毒性，与其他肾毒性药物相互作用。pramoxine and hydrocortisone rectal cream，局部用药，几乎不吸收，系统交互可能性小，但氢化可的松直肠可能吸收，尤其是破损，但口服或周身用药物交互？但可能无major/moderate交互，但可考虑与抗凝药（局部类固醇？）无。可能需要列无显著交互，但要求为每种药物生成重要的交互，不能为空。如果实在没有，可以留空数组？要求每个药物生成列表，但可以空列表。最好找出至少一个moderate交互。例如氢化可的松局部/直肠：与口服降糖药？没有。与去氨加压素有风险低钠？无。"
+            - paragraph [ref=e427]: 我需为每个独特generic name（合并品牌）生成交互。注意有些剂型不同，如aztreonam inhalation和aztreonam injection分别列出。同样vancomycin oral和IV route分别列出，因为口服不吸收，系统交互少，可能只有与口服胆汁酸螯合剂（消胆胺）结合，或与具耳毒性口服药物？但几乎没有严重交互。vancomycin口服可与胆囊酸结合树脂？不确定。但可以标识口服几乎没有药物交互，但可以提及若同时使用消胆胺可降低万古霉素疗效，Moderate。对于vancomycin IV，与肾毒性药物（氨基糖苷类、两性霉素B、环孢素等）、耳毒性药物等。amikacin注射有交互。bacitracin注射有肾毒性风险。等等。
+            - paragraph [ref=e428]: 需要谨慎，确保交互有临床意义。还要用通用药物类别名：如"warfarin"，"MAO inhibitors"，"CYP3A4 inhibitors"，"loop diuretics"，"antacids"等。
+            - paragraph [ref=e429]: 输出格式：一个JSON数组，每个元素是对象，有generic_name和interactions数组。generic_name可能要区分剂型？如"aztreonam (inhalation)", "penicillin V potassium (oral)", "vancomycin (oral)", "vancomycin (intravenous)"等。为了明确，可以这样命名。如： "aztreonam (inhalation)", "penicillin V potassium", "vancomycin capsules", "vancomycin (intravenous)", "amikacin", "ampicillin / sulbactam", "avibactam / ceftazidime", "aztreonam (injection)", "bacitracin (injection)", "delafloxacin", "penicillin G benzathine / penicillin G procaine", "cefotetan", "ceftolozane / tazobactam", "lefamulin", "nafcillin", "omadacycline", "oxacillin", "penicillin G potassium", "penicillin G sodium", "procaine penicillin", "ustekinumab", "secukinumab", "ixekizumab", "risankizumab", "guselkumab", "tildrakizumab", "infliximab", "halobetasol / tazarotene topical", "calcipotriene topical", "acitretin", "betamethasone topical", "betamethasone / calcipotriene topical", "cyclosporine", "methotrexate", "tacrolimus topical", "calcitriol topical", "coal tar topical", "methoxsalen", "adalimumab", "pramoxine / hydrocortisone rectal"。
+            - paragraph [ref=e430]: 注意输入有infliximab-axxq, -dyyb, -abda 都是infliximab。adalimumab-afzb, -atto 都是adalimumab。secukinumab brand, ixekizumab brand 等，可合并为通用名。
+            - paragraph [ref=e431]: 所以最终独特药物列表（去除重复剂型/品牌，但保留不同剂型）：
+            - list [ref=e432]:
+              - listitem [ref=e433]:
+                - paragraph [ref=e434]: aztreonam (inhalation)
+              - listitem [ref=e435]:
+                - paragraph [ref=e436]: Penicillin V Potassium 口服溶液 (可命名为 penicillin V potassium)
+              - listitem [ref=e437]:
+                - paragraph [ref=e438]: Vancomycin Capsules (口服，仅用于肠道感染) 和 vancomycin (oral route) 一样，统一为 vancomycin (oral)
+              - listitem [ref=e439]:
+                - paragraph [ref=e440]: vancomycin (intravenous)
+              - listitem [ref=e441]:
+                - paragraph [ref=e442]: amikacin (injection)
+              - listitem [ref=e443]:
+                - paragraph [ref=e444]: ampicillin / sulbactam (注射)
+              - listitem [ref=e445]:
+                - paragraph [ref=e446]: avibactam / ceftazidime (注射)
+              - listitem [ref=e447]:
+                - paragraph [ref=e448]: aztreonam (injection)
+              - listitem [ref=e449]:
+                - paragraph [ref=e450]: bacitracin (injection)
+              - listitem [ref=e451]:
+                - paragraph [ref=e452]: delafloxacin (oral/injection)
+              - listitem [ref=e453]:
+                - paragraph [ref=e454]: penicillin G benzathine / penicillin G procaine (注射)
+              - listitem [ref=e455]:
+                - paragraph [ref=e456]: cefotetan (注射)
+              - listitem [ref=e457]:
+                - paragraph [ref=e458]: ceftolozane / tazobactam (注射)
+              - listitem [ref=e459]:
+                - paragraph [ref=e460]: lefamulin (oral/injection)
+              - listitem [ref=e461]:
+                - paragraph [ref=e462]: nafcillin (injection)
+              - listitem [ref=e463]:
+                - paragraph [ref=e464]: omadacycline (oral/injection)
+              - listitem [ref=e465]:
+                - paragraph [ref=e466]: oxacillin (injection)
+              - listitem [ref=e467]:
+                - paragraph [ref=e468]: penicillin G potassium (注射/口服？输入只是penicillin G potassium，可能注射，但一般化为 penicillin G potassium)
+              - listitem [ref=e469]:
+                - paragraph [ref=e470]: penicillin G sodium (类似)
+              - listitem [ref=e471]:
+                - paragraph [ref=e472]: procaine penicillin (注射，单独)
+              - listitem [ref=e473]:
+                - paragraph [ref=e474]: ustekinumab
+              - listitem [ref=e475]:
+                - paragraph [ref=e476]: secukinumab
+              - listitem [ref=e477]:
+                - paragraph [ref=e478]: ixekizumab
+              - listitem [ref=e479]:
+                - paragraph [ref=e480]: risankizumab
+              - listitem [ref=e481]:
+                - paragraph [ref=e482]: guselkumab
+              - listitem [ref=e483]:
+                - paragraph [ref=e484]: tildrakizumab
+              - listitem [ref=e485]:
+                - paragraph [ref=e486]: infliximab
+              - listitem [ref=e487]:
+                - paragraph [ref=e488]: halobetasol / tazarotene topical
+              - listitem [ref=e489]:
+                - paragraph [ref=e490]: calcipotriene topical
+              - listitem [ref=e491]:
+                - paragraph [ref=e492]: acitretin
+              - listitem [ref=e493]:
+                - paragraph [ref=e494]: betamethasone topical
+              - listitem [ref=e495]:
+                - paragraph [ref=e496]: betamethasone / calcipotriene topical
+              - listitem [ref=e497]:
+                - paragraph [ref=e498]: cyclosporine (oral)
+              - listitem [ref=e499]:
+                - paragraph [ref=e500]: methotrexate (injection) (代表所有注射剂型)
+              - listitem [ref=e501]:
+                - paragraph [ref=e502]: tacrolimus topical
+              - listitem [ref=e503]:
+                - paragraph [ref=e504]: calcitriol topical
+              - listitem [ref=e505]:
+                - paragraph [ref=e506]: coal tar topical
+              - listitem [ref=e507]:
+                - paragraph [ref=e508]: methoxsalen (oral)
+              - listitem [ref=e509]:
+                - paragraph [ref=e510]: adalimumab
+              - listitem [ref=e511]:
+                - paragraph [ref=e512]: pramoxine / hydrocortisone rectal
+            - paragraph [ref=e513]: "注意 lefamulin: 主要用于社区获得性肺炎，口服/注射。已知是CYP3A4底物和转运动物？是CYP3A4底物，与强CYP3A4抑制剂酮康唑合用，lefamulin AUC增加，可能增加QT延长和副作用。与CYP3A4诱导剂利福平合用，浓度降低。也有QT延长，与其它延长QT药物合用增加风险。所以交互：与强CYP3A4抑制剂(如 ketoconazole, clarithromycin) etc. 和 强CYP3A4诱导剂，以及QT延长药物（如Class Ia, III抗心律失常药）等。"
+            - paragraph [ref=e514]: 对于生物制剂：IL-17/23抑制剂，理论上炎症恢复正常可能会逆转细胞因子对CYP酶的下调，导致CYP底物药物代谢加速，浓度降低。例如ustekinumab药品说明书“The formation of CYP450 enzymes can be altered by increased levels of certain cytokines during chronic inflammation. Thus, ustekinumab could normalize CYP450 enzyme activity, and this may lead to decreased systemic exposure of CYP450 substrates with a narrow therapeutic index. Monitoring is recommended... ” 所以与窄治疗指数CYP底物（如华法林，环孢素）为中度的交互。可列为 moderate，药物类别
+      - generic [ref=e319]:
+        - generic [ref=e322]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e324]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e325]:
+            - button "深度思考" [ref=e326] [cursor=pointer]:
+              - img [ref=e328]
+              - generic [ref=e331]: 深度思考
+            - button "智能搜索" [ref=e332] [cursor=pointer]:
+              - img [ref=e334]
+              - generic [ref=e336]: 智能搜索
+            - generic [ref=e337]:
+              - button [ref=e338] [cursor=pointer]:
+                - img [ref=e341]
+              - button [ref=e344] [cursor=pointer]:
+                - img [ref=e347]
+        - generic [ref=e349]: 内容由 AI 生成，请仔细甄别

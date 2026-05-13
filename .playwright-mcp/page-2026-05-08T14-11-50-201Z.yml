@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e92]:
+      - generic [ref=e94]:
+        - generic [ref=e95] [cursor=pointer]: 临床药学评估药物适当性
+        - generic [ref=e96]:
+          - img [ref=e98]
+          - generic [ref=e100]: 专家模式
+      - button [ref=e101] [cursor=pointer]:
+        - img [ref=e104]
+    - generic [ref=e107]:
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e112]: "请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。 疾病: 高血压 推荐药物: 1. Benazepril (ACE抑制剂) - 匹配疾病: 高血压 2. Bumetanide (袢利尿剂) - 匹配疾病: 高血压 3. Chlorthalidone (噻嗪类利尿剂) - 匹配疾病: 高血压 4. Clonidine (α2激动剂) - 匹配疾病: 高血压 --- 疾病: 低血压 推荐药物: 1. Norepinephrine (α激动剂) - 匹配疾病: hypotension 2. Fludrocortisone (皮质类固醇) - 匹配疾病: hypotension 3. Midodrine (Alpha-1激动剂) - 匹配疾病: hypotension 4. Telmisartan (ARB(血管紧张素受体阻断剂)) - 匹配疾病: None --- 疾病: 冠心病 推荐药物: 1. Perindopril (ACE抑制剂) - 匹配疾病: 心绞痛 2. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 慢性稳定性心绞痛 3. amlodipine and benazepril (ACE抑制剂+钙通道阻滞剂) - 匹配疾病: 冠心病 4. amlodipine and perindopril (ACE抑制剂+钙通道阻滞剂) - 匹配疾病: 冠心病 --- 疾病: 心绞痛 推荐药物: 1. Carvedilol (α/β受体阻断剂) - 匹配疾病: 心绞痛 2. Propranolol (β受体阻断剂) - 匹配疾病: 心绞痛 3. Verapamil (非二氢吡啶类钙通道阻滞剂) - 匹配疾病: 心绞痛 4. diltiazem hydrochloride (钙通道阻滞剂) - 匹配疾病: 心绞痛 --- 疾病: 心肌梗死 推荐药物: 1. Captopril (ACE抑制剂) - 匹配疾病: 心肌梗塞后左心室功能障碍 2. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 3. Prasugrel (抗血小板药) - 匹配疾病: 心肌梗死 4. Ticagrelor (P2Y12抑制剂) - 匹配疾病: 心肌梗死 --- 疾病: 心梗 推荐药物: 1. Captopril (ACE抑制剂) - 匹配疾病: 心肌梗塞后左心室功能障碍 2. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 3. Prasugrel (抗血小板药) - 匹配疾病: 心肌梗死 4. Ticagrelor (P2Y12抑制剂) - 匹配疾病: 心肌梗死 --- 疾病: 心力衰竭 推荐药物: 1. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 心力衰竭 2. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 3. Bumetanide (袢利尿剂) - 匹配疾病: 心力衰竭 4. Canagliflozin (SGLT2抑制剂) - 匹配疾病: 心力衰竭 --- 疾病: 心衰 推荐药物: 1. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 2. Bumetanide (袢利尿剂) - 匹配疾病: 心力衰竭 3. Canagliflozin (SGLT2抑制剂) - 匹配疾病: 心力衰竭 4. Captopril (ACE抑制剂) - 匹配疾病: 心力衰竭 --- 疾病: 心房颤动 推荐药物: 1. Dofetilide (抗心律失常药(III类)) - 匹配疾病: 心律失常 2. Esmolol (β受体阻断剂) - 匹配疾病: 心律失常 3. Verapamil (非二氢吡啶类钙通道阻滞剂) - 匹配疾病: 心房颤动 4. Rivaroxaban (直接口服抗凝剂（Xa 因子抑制剂）) - 匹配疾病: 心房颤动 --- 疾病: 房颤 推荐药物: 1. Dofetilide (抗心律失常药(III类)) - 匹配疾病: 心律失常 2. Ibutilide (抗心律失常药(III类)) - 匹配疾病: 心律失常 3. Verapamil (非二氢吡啶类钙通道阻滞剂) - 匹配疾病: 心房颤动 4. Rivaroxaban (直接口服抗凝剂（Xa 因子抑制剂）) - 匹配疾病: 心房颤动"
+          - generic [ref=e115]:
+            - button [ref=e116] [cursor=pointer]:
+              - img [ref=e119]
+            - button [ref=e121] [cursor=pointer]:
+              - img [ref=e124]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - paragraph [ref=e129]:
+                - text: 高血压
+                - text: PARTIALLY
+              - paragraph [ref=e130]:
+                - text: 低血压
+                - text: INAPPROPRIATE
+              - paragraph [ref=e131]:
+                - text: 冠心病
+                - text: APPROPRIATE
+              - paragraph [ref=e132]:
+                - text: 心绞痛
+                - text: APPROPRIATE
+              - paragraph [ref=e133]:
+                - text: 心肌梗死
+                - text: APPROPRIATE
+              - paragraph [ref=e134]:
+                - text: 心梗
+                - text: APPROPRIATE
+              - paragraph [ref=e135]:
+                - text: 心力衰竭
+                - text: PARTIALLY
+              - paragraph [ref=e136]:
+                - text: 心衰
+                - text: PARTIALLY
+              - paragraph [ref=e137]:
+                - text: 心房颤动
+                - text: APPROPRIATE
+              - paragraph [ref=e138]:
+                - text: 房颤
+                - text: APPROPRIATE
+            - generic [ref=e139]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+          - generic [ref=e141]:
+            - button [ref=e142] [cursor=pointer]:
+              - img [ref=e145]
+            - button [ref=e147] [cursor=pointer]:
+              - img [ref=e150]
+            - button [ref=e152] [cursor=pointer]:
+              - img [ref=e155]
+            - button [ref=e157] [cursor=pointer]:
+              - img [ref=e160]
+            - button [ref=e162] [cursor=pointer]:
+              - img [ref=e165]
+      - generic [ref=e168]:
+        - generic [ref=e171]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e173]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e174]:
+            - button "深度思考" [ref=e175] [cursor=pointer]:
+              - img [ref=e177]
+              - generic [ref=e180]: 深度思考
+            - button "智能搜索" [ref=e181] [cursor=pointer]:
+              - img [ref=e183]
+              - generic [ref=e185]: 智能搜索
+            - generic [ref=e186]:
+              - button [ref=e187] [cursor=pointer]:
+                - img [ref=e190]
+              - button [disabled] [ref=e193] [cursor=pointer]:
+                - img [ref=e195]
+        - generic [ref=e197]: 内容由 AI 生成，请仔细甄别

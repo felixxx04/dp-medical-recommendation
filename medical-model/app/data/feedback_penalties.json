@@ -1,0 +1,10 @@
+{
+  "penalties": {
+    "diarrhea|proton pump inhibitor": 0.7,
+    "diarrhea|drug:omeprazole": 0.6
+  },
+  "rejection_counts": {
+    "diarrhea|proton pump inhibitor": 1
+  },
+  "updated_at": 1778403161.4814522
+}

@@ -1,0 +1,186 @@
+<h2>AdminDashboard 管理后台 — 精简方案</h2>
+<p class="subtitle">4大区块纵向堆叠、5个统计卡、隐私台账3卡+30行表格</p>
+
+<div class="split">
+  <!-- 当前版本 -->
+  <div class="mockup">
+    <div class="mockup-header">当前版本 — 区块堆叠</div>
+    <div class="mockup-body" style="font-size:12px;padding:16px;background:#0f1729;color:#e2e8f0">
+      <!-- 管理员身份卡 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center">
+        <div style="display:flex;gap:6px;align-items:center">
+          <div style="width:24px;height:24px;background:linear-gradient(135deg,#0ea5e9,#0284c7);border-radius:4px;display:flex;align-items:center;justify-content:center;color:white;font-size:8px">👤</div>
+          <div><div style="font-weight:bold;font-size:10px">admin</div><div style="font-size:8px;color:#94a3b8"><span style="background:#0c2d48;color:#38bdf8;padding:0 4px;border-radius:2px">管理员</span> 已登录</div></div>
+        </div>
+        <div style="font-size:8px;color:#94a3b8">隐私预算剩余: <span style="color:#f59e0b">9.50</span></div>
+      </div>
+
+      <!-- 系统总览 5卡 -->
+      <div style="display:flex;gap:4px;margin-bottom:8px">
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">患者总数</div><div style="font-weight:bold">25</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">系统用户</div><div style="font-weight:bold">5</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">今日推理</div><div style="font-weight:bold">8</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">账本事件</div><div style="font-weight:bold">42</div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:4px;padding:6px;text-align:center">
+          <div style="font-size:8px;color:#94a3b8">推荐总数</div><div style="font-weight:bold">156</div>
+        </div>
+      </div>
+      <div style="font-size:8px;color:#94a3b8;margin-bottom:10px">已消耗 ε：0.500 · 剩余 ε：9.500</div>
+
+      <!-- 用户管理表格 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px;margin-bottom:8px">
+        <div style="font-size:10px;font-weight:bold;margin-bottom:6px">👥 用户管理</div>
+        <table style="width:100%;font-size:8px;border-collapse:collapse">
+          <tr style="border-bottom:1px solid #334155;color:#94a3b8"><th style="text-align:left;padding:3px">账号</th><th>角色</th><th>最近登录</th><th>状态</th><th>操作</th></tr>
+          <tr style="border-bottom:1px solid #1e293b"><td style="padding:3px">admin</td><td style="text-align:center">管理员</td><td style="text-align:center;color:#94a3b8">2026-05-14</td><td style="text-align:center"><span style="background:#052e16;color:#22c55e;padding:0 4px;border-radius:2px;font-size:7px">正常</span></td><td style="text-align:center"><span style="font-size:7px;color:#94a3b8">[禁用][删除]</span></td></tr>
+          <tr style="border-bottom:1px solid #1e293b"><td style="padding:3px">doctor1</td><td style="text-align:center">普通用户</td><td style="text-align:center;color:#94a3b8">2026-05-13</td><td style="text-align:center"><span style="background:#052e16;color:#22c55e;padding:0 4px;border-radius:2px;font-size:7px">正常</span></td><td style="text-align:center"><span style="font-size:7px;color:#94a3b8">[禁用][删除]</span></td></tr>
+        </table>
+      </div>
+
+      <!-- 模型训练 -->
+      <div style="display:flex;gap:6px;margin-bottom:8px">
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px">
+          <div style="font-size:10px;font-weight:bold;margin-bottom:4px">🧠 训练控制</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;font-size:7px;color:#94a3b8;margin-bottom:4px">
+            <div>当前机制: laplace</div><div>注入阶段: ranking</div>
+            <div>每轮预算: 0.0010</div><div>预算剩余: 9.50</div>
+          </div>
+          <div style="font-size:7px;color:#94a3b8">训练轮次: [10]</div>
+          <div style="margin-top:4px"><span style="background:#0ea5e9;color:white;padding:2px 8px;border-radius:3px;font-size:7px">▶ 启动训练</span></div>
+        </div>
+        <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px;height:100px;display:flex;align-items:center;justify-content:center;color:#94a3b8;font-size:9px">📈 训练曲线图</div>
+      </div>
+
+      <!-- 隐私账本 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px">
+        <div style="font-size:10px;font-weight:bold;margin-bottom:4px">🛡️ 隐私预算账本</div>
+        <div style="display:flex;gap:3px;margin-bottom:6px">
+          <div style="flex:1;background:#1e293b;border:1px solid #334155;border-radius:3px;padding:4px;text-align:center;font-size:7px">总预算<br/><b>10.0</b></div>
+          <div style="flex:1;background:#450a0a/10;border:1px solid #f87171/30;border-radius:3px;padding:4px;text-align:center;font-size:7px">已消耗<br/><b style="color:#f87171">0.50</b></div>
+          <div style="flex:1;background:#0c2d48;border:1px solid #1e4d7a;border-radius:3px;padding:4px;text-align:center;font-size:7px">剩余<br/><b style="color:#22c55e">9.50</b></div>
+        </div>
+        <div style="height:4px;background:#1e293b;border-radius:2px;margin-bottom:6px"><div style="height:100%;width:5%;background:#38bdf8;border-radius:2px"></div></div>
+        <table style="width:100%;font-size:7px;border-collapse:collapse;color:#94a3b8">
+          <tr style="border-bottom:1px solid #334155"><th style="text-align:left;padding:2px">时间</th><th>类型</th><th>消耗ε</th><th>备注</th></tr>
+          <tr><td style="padding:1px">05-14 10:23</td><td>推荐推理</td><td style="color:#38bdf8">+ε 0.0500</td><td>高血压推荐</td></tr>
+          <tr><td style="padding:1px">05-14 09:45</td><td>训练轮次</td><td style="color:#38bdf8">+ε 0.0100</td><td>Epoch #3</td></tr>
+          <tr><td style="padding:1px">05-13 16:20</td><td>推荐推理</td><td style="color:#38bdf8">+ε 0.0500</td><td>糖尿病推荐</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 精简版本 -->
+  <div class="mockup">
+    <div class="mockup-header" style="background:#052e16;color:#22c55e">精简版本 — 标签页组织</div>
+    <div class="mockup-body" style="font-size:12px;padding:16px;background:#0f1729;color:#e2e8f0">
+      <!-- 管理员+统计 合并为一行 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px">
+        <div style="display:flex;gap:6px;align-items:center">
+          <div style="width:24px;height:24px;background:linear-gradient(135deg,#0ea5e9,#0284c7);border-radius:4px;display:flex;align-items:center;justify-content:center;color:white;font-size:8px">👤</div>
+          <div style="font-weight:bold;font-size:10px">admin <span style="font-size:8px;color:#94a3b8">管理员</span></div>
+        </div>
+        <div style="display:flex;gap:8px;font-size:9px;color:#94a3b8">
+          <span>患者 <b style="color:#e2e8f0">25</b></span>
+          <span>用户 <b style="color:#e2e8f0">5</b></span>
+          <span>今日推理 <b style="color:#e2e8f0">8</b></span>
+          <span>推荐总数 <b style="color:#e2e8f0">156</b></span>
+          <span>ε剩余 <b style="color:#f59e0b">9.50</b></span>
+        </div>
+      </div>
+
+      <!-- Tab 导航 -->
+      <div style="display:flex;gap:0;border-bottom:2px solid #334155;margin-bottom:10px">
+        <div style="padding:6px 12px;font-size:10px;font-weight:bold;color:#38bdf8;border-bottom:2px solid #38bdf8;margin-bottom:-2px">用户管理</div>
+        <div style="padding:6px 12px;font-size:10px;color:#94a3b8;cursor:pointer">模型训练</div>
+        <div style="padding:6px 12px;font-size:10px;color:#94a3b8;cursor:pointer">隐私账本</div>
+      </div>
+
+      <!-- 用户管理 Tab 内容 -->
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <div style="font-size:10px;font-weight:bold">👥 用户管理</div>
+          <span style="background:#0ea5e9;color:white;padding:2px 8px;border-radius:3px;font-size:7px;cursor:pointer">+ 新增用户</span>
+        </div>
+        <table style="width:100%;font-size:8px;border-collapse:collapse">
+          <tr style="border-bottom:1px solid #334155;color:#94a3b8"><th style="text-align:left;padding:3px">账号</th><th>角色</th><th>状态</th><th>操作</th></tr>
+          <tr><td style="padding:3px">admin</td><td style="text-align:center">管理员</td><td style="text-align:center"><span style="background:#052e16;color:#22c55e;padding:0 4px;border-radius:2px;font-size:7px">正常</span></td><td style="text-align:center"><span style="font-size:7px;color:#94a3b8">[禁用][删除]</span></td></tr>
+          <tr><td style="padding:3px">doctor1</td><td style="text-align:center">医生</td><td style="text-align:center"><span style="background:#052e16;color:#22c55e;padding:0 4px;border-radius:2px;font-size:7px">正常</span></td><td style="text-align:center"><span style="font-size:7px;color:#94a3b8">[禁用][删除]</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px">
+  <h3>具体精简措施</h3>
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#22c55e;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">重组</span>
+      <div>
+        <strong>4大区块 → 标签页(Tab)切换</strong><br/>
+        <span style="color:#888;font-size:13px">当前4个section纵向堆叠导致页面很长。改为Tab导航：「用户管理」「模型训练」「隐私账本」，同一时间只显示一个区块</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#f59e0b;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">合并</span>
+      <div>
+        <strong>管理员身份卡 + 5个统计卡 → 合并为一行</strong><br/>
+        <span style="color:#888;font-size:13px">"admin 管理员 | 患者25 用户5 今日推理8 推荐总数156 ε剩余9.50" 一行搞定，省去5个独立卡片</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#f59e0b;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">合并</span>
+      <div>
+        <strong>账本3卡(总预算/已消耗/剩余) → 合并到进度条旁</strong><br/>
+        <span style="color:#888;font-size:13px">进度条两端直接标注数值，不需要3个独立小卡片。保留进度条+表格</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#ef4444;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">删除</span>
+      <div>
+        <strong>用户表格"最近登录"列 → 移入hover提示</strong><br/>
+        <span style="color:#888;font-size:13px">最近登录时间不是核心操作信息，鼠标悬停在用户名上时显示即可，减少表格宽度</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:start">
+      <span style="background:#ef4444;color:white;padding:2px 8px;border-radius:3px;font-size:11px;white-space:nowrap">删除</span>
+      <div>
+        <strong>ε 摘要行（"已消耗ε: 0.500 · 剩余ε: 9.500"）→ 合并入顶部统计行</strong><br/>
+        <span style="color:#888;font-size:13px">顶部统计行已有"ε剩余9.50"，无需再重复一行</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="options" style="margin-top:24px">
+  <div class="option" data-choice="approve-admin" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>同意此方案</h3>
+      <p>Tab切换 + 统计合并一行 + 账本3卡合并</p>
+    </div>
+  </div>
+  <div class="option" data-choice="no-tabs" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>不用Tab，保留纵向布局</h3>
+      <p>统计合并+账本精简同意，但4个区块还是保持纵向排列，不用Tab切换（Tab增加点击操作）</p>
+    </div>
+  </div>
+  <div class="option" data-choice="keep-cards" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>保留统计卡片</h3>
+      <p>Tab+账本精简同意，但5个统计卡保持独立卡片展示（视觉更清晰）</p>
+    </div>
+  </div>
+</div>

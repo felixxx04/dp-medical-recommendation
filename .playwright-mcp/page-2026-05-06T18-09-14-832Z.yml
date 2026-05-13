@@ -1,0 +1,746 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "用药推荐评估请求" [ref=e235] [cursor=pointer]:
+          - /url: /a/chat/s/326e0077-b52e-49bd-8aac-4a5ca69045ef
+          - generic [ref=e236]: 用药推荐评估请求
+          - button [ref=e237]:
+            - img [ref=e241]
+        - link "用药推荐评估分析" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/d3b1978d-eed3-4492-9860-7d2c691d9847
+          - generic [ref=e98]: 用药推荐评估分析
+      - generic [ref=e99]:
+        - generic [ref=e100]: 7 天内
+        - link "白裙T恤搭配建议" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/5f713c67-2dfe-4723-b9e6-236eab7d0bab
+          - generic [ref=e102]: 白裙T恤搭配建议
+        - link "DeepSeek V4 Pro视觉功能" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/63735635-b4bb-4b9c-a325-46e72e470ba2
+          - generic [ref=e104]: DeepSeek V4 Pro视觉功能
+      - generic [ref=e105]:
+        - generic [ref=e106]: 30 天内
+        - link "临床药学专家药物交互作用列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/54250521-1cde-4a01-a32f-dd2e41595cec
+          - generic [ref=e108]: 临床药学专家药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/c07eb7fd-78ee-4912-ad12-aa01b963c14d
+          - generic [ref=e110]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/6935fe34-4fc3-40e1-83af-40a4b80d370a
+          - generic [ref=e112]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/be31615e-2a9f-4c42-b517-819ea0c04a77
+          - generic [ref=e114]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/29105585-9eea-4649-8ae0-d8fef6960494
+          - generic [ref=e116]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/96ed9973-46c4-4bfb-86d5-f8a71ec1be90
+          - generic [ref=e118]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/47ca44ac-64df-40b8-8b21-b9fbadeecea5
+          - generic [ref=e120]: 药物交互列表生成
+        - link "临床药学专家药物交互生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/dadb6b40-edb1-497b-85cf-1d908a363d87
+          - generic [ref=e122]: 临床药学专家药物交互生成
+        - link "临床药学专家生成药物交互列表" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/4f673188-ac15-45da-a360-766681d189ca
+          - generic [ref=e124]: 临床药学专家生成药物交互列表
+        - link "药物交互作用列表生成" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/396da42e-e60a-42d9-8950-e2d1de7ba0b8
+          - generic [ref=e126]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/43d465df-a130-493c-a502-f7871df35a84
+          - generic [ref=e128]: 药物交互作用列表生成
+        - link "dupilumab药物交互补充生成" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/ddc8880c-a441-4331-baa5-33dbff16164e
+          - generic [ref=e130]: dupilumab药物交互补充生成
+        - link "药物交互作用列表生成" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+          - generic [ref=e132]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+          - generic [ref=e134]: 药物交互列表生成
+        - link "糖尿病药物交互列表生成" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e136]: 糖尿病药物交互列表生成
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e138]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e140]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e142]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e144]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e146]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e148]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e149] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e150]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e151] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e152]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e153] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e154]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e155] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e156]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e157] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e158]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e159] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e160]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e161] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e162]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e163] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e164]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e165] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e166]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e167] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e168]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e169] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e170]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e171] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e172]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e173] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e174]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e175] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e176]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e177] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e178]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e179] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e180]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e181] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e182]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e183] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e184]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e185] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e186]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e187] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e188]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e189] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e190]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e191] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e192]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e193] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e194]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e195] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e196]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e197] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e198]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e199] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e200]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e201] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e202]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e203] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e204]: HIV药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e205] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e206]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e207] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e208]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e209] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e210]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e211] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e212]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e213] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e214]: 药物适应症列表生成
+        - link "药学知识专家验证药物适应症" [ref=e215] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e216]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e217] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e218]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e219] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e220]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e221] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e222]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e223] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e224]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e225] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e226]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e227] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e228]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e229] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e230]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e231] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e232]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e233]
+      - generic [ref=e234]: likeuuu
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e245]:
+      - generic [ref=e247]:
+        - generic [ref=e248] [cursor=pointer]: 用药推荐评估请求
+        - generic [ref=e249]:
+          - img [ref=e251]
+          - generic [ref=e253]: 快速模式
+      - button [ref=e254] [cursor=pointer]:
+        - img [ref=e257]
+    - generic [ref=e260]:
+      - generic [ref=e262]:
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - paragraph [ref=e330]: 我将逐条评估您提供的两个病例。由于您只给出了病例P0218和P0065中第一项药物的详细信息，我会先基于已有信息作答，并说明需要补充的内容。
+              - separator [ref=e331]
+              - heading "【病例P0218】患者疾病：双相障碍、高血压、胃痛" [level=2] [ref=e332]
+              - paragraph [ref=e333]: 推荐药物清单：
+              - list [ref=e334]:
+                - listitem [ref=e335]:
+                  - paragraph [ref=e336]: 氨氯地平（匹配高血压，适应症含高血压，分数1.0）
+                - listitem [ref=e337]:
+                  - paragraph [ref=e338]: 氨氯地平-贝那普利（匹配高血压，适应症含高血压，分数1.0）
+                - listitem [ref=e339]:
+                  - paragraph [ref=e340]: 卡托普利（匹配高血压，适应症含高血压，分数1.0）
+                - listitem [ref=e341]:
+                  - paragraph [ref=e342]: 氯噻酮（匹配高血压，适应症含高血压，分数1.0）
+              - heading "1. 推荐药物是否匹配患者疾病适应症？" [level=3] [ref=e343]
+              - paragraph [ref=e344]:
+                - strong [ref=e345]: 部分正确
+              - list [ref=e346]:
+                - listitem [ref=e347]:
+                  - paragraph [ref=e348]:
+                    - text: 患者有
+                    - strong [ref=e349]: 高血压
+                    - text: ，以上4种药物均适用于高血压 → 匹配正确。
+                - listitem [ref=e350]:
+                  - paragraph [ref=e351]:
+                    - text: 患者还有
+                    - strong [ref=e352]: 双相障碍
+                    - text: 和
+                    - strong [ref=e353]: 胃痛
+                    - text: ，推荐的药物无一针对这两种疾病 → 未覆盖全部疾病。
+              - heading "2. 是否有禁忌冲突？" [level=3] [ref=e354]
+              - paragraph [ref=e355]:
+                - strong [ref=e356]: 需要补充信息才能判断
+                - text: ：
+              - list [ref=e357]:
+                - listitem [ref=e358]:
+                  - paragraph [ref=e359]:
+                    - strong [ref=e360]: 胃痛
+                    - text: ：如果胃痛是由于消化性溃疡或胃食管反流，卡托普利等ACEI可能引起干咳，但非绝对禁忌；利尿剂（氯噻酮）一般无直接禁忌。
+                - listitem [ref=e361]:
+                  - paragraph [ref=e362]:
+                    - strong [ref=e363]: 双相障碍
+                    - text: ：这些降压药通常无禁忌，但某些降压药（如利血平，此处未列出）可能诱发抑郁。上述药物无明确禁忌。
+                - listitem [ref=e364]:
+                  - paragraph [ref=e365]:
+                    - strong [ref=e366]: 高血压合并胃痛
+                    - text: ：如果患者服用非甾体抗炎药（NSAIDs）止痛，利尿剂和ACEI降压效果可能减弱，但不是绝对禁忌。
+              - heading "3. 排序是否合理？" [level=3] [ref=e367]
+              - paragraph [ref=e368]:
+                - strong [ref=e369]: 不合理
+              - list [ref=e370]:
+                - listitem [ref=e371]:
+                  - paragraph [ref=e372]: 患者同时有高血压、双相障碍、胃痛，降压治疗应优先选择对情绪和胃部影响较小的药物。
+                - listitem [ref=e373]:
+                  - paragraph [ref=e374]: 推荐清单只列出了4种降压药，且无任何针对双相障碍或胃痛的药物，排序没有体现综合治疗。
+                - listitem [ref=e375]:
+                  - paragraph [ref=e376]:
+                    - text: 氨氯地平、ACEI、利尿剂联合使用在许多高血压患者中是合理的，但不应
+                    - strong [ref=e377]: 替代
+                    - text: 情绪稳定剂或胃药。
+              - heading "4. 如果有错误，应推荐什么药物？" [level=3] [ref=e378]
+              - paragraph [ref=e379]:
+                - strong [ref=e380]: 错误
+                - text: ：遗漏了双相障碍和胃痛的药物治疗，且联合多种降压药可能导致血压过低或电解质紊乱，未说明患者当前血压水平及是否已用一种降压药。
+                - strong [ref=e381]: 补充推荐
+                - text: ：
+              - list [ref=e382]:
+                - listitem [ref=e383]:
+                  - paragraph [ref=e384]:
+                    - text: 针对
+                    - strong [ref=e385]: 双相障碍
+                    - text: ：情绪稳定剂如
+                    - strong [ref=e386]: 锂盐、丙戊酸盐、拉莫三嗪
+                    - text: 或非典型抗精神病药（如喹硫平，兼具情绪稳定和部分降压作用）。
+                - listitem [ref=e387]:
+                  - paragraph [ref=e388]:
+                    - text: 针对
+                    - strong [ref=e389]: 胃痛
+                    - text: ：根据病因选择抑酸药（
+                    - strong [ref=e390]: 奥美拉唑
+                    - text: 等PPI）、胃黏膜保护剂（
+                    - strong [ref=e391]: 硫糖铝
+                    - text: ）或解痉药（
+                    - strong [ref=e392]: 匹维溴铵
+                    - text: ）。
+                - listitem [ref=e393]:
+                  - paragraph [ref=e394]:
+                    - text: 针对
+                    - strong [ref=e395]: 高血压
+                    - text: ：通常
+                    - strong [ref=e396]: 单药起始
+                    - text: （如氨氯地平或ACEI/ARB），若血压控制不佳再加用利尿剂。避免同时起始4种降压药。
+              - separator [ref=e397]
+              - heading "【病例P0065】患者疾病：背痛、乳腺癌、痛风、高血压" [level=2] [ref=e398]
+              - paragraph [ref=e399]: 推荐药物（仅列出第一个）：
+              - list [ref=e400]:
+                - listitem [ref=e401]:
+                  - paragraph [ref=e402]: 氨氯地平 - 匹配疾病：高血压，适应症：angina, hypercholesterolemia, hypertension，分数：1.0
+              - heading "1. 推荐药物是否匹配患者疾病适应症？" [level=3] [ref=e403]
+              - paragraph [ref=e404]:
+                - strong [ref=e405]: 部分正确
+              - list [ref=e406]:
+                - listitem [ref=e407]:
+                  - paragraph [ref=e408]:
+                    - text: 氨氯地平用于
+                    - strong [ref=e409]: 高血压
+                    - text: → 匹配正确。
+                - listitem [ref=e410]:
+                  - paragraph [ref=e411]: 但患者还有背痛、乳腺癌、痛风，氨氯地平不治疗这三种疾病 → 未覆盖全部疾病。
+              - heading "2. 是否有禁忌冲突？" [level=3] [ref=e412]
+              - paragraph [ref=e413]:
+                - strong [ref=e414]: 可能有相对禁忌
+                - text: ：
+              - list [ref=e415]:
+                - listitem [ref=e416]:
+                  - paragraph [ref=e417]:
+                    - strong [ref=e418]: 痛风
+                    - text: ：氨氯地平对尿酸影响较小，通常可安全使用。但噻嗪类利尿剂（未推荐）会升高尿酸，应避免。
+                - listitem [ref=e419]:
+                  - paragraph [ref=e420]:
+                    - strong [ref=e421]: 乳腺癌
+                    - text: ：氨氯地平无明确禁忌。但某些钙通道阻滞剂（如维拉帕米）与乳腺癌药物（如某些化疗药）有相互作用，氨氯地平相互作用较少。
+                - listitem [ref=e422]:
+                  - paragraph [ref=e423]:
+                    - text: 需要知道患者是否正在接受
+                    - strong [ref=e424]: 芳香化酶抑制剂
+                    - text: （如来曲唑）治疗乳腺癌，因为这类药物可能引起关节痛（背痛）。氨氯地平不影响其疗效。
+              - heading "3. 排序是否合理？" [level=3] [ref=e425]
+              - paragraph [ref=e426]:
+                - strong [ref=e427]: 无法判断
+              - list [ref=e428]:
+                - listitem [ref=e429]:
+                  - paragraph [ref=e430]:
+                    - text: 只给了一种药物，没有排序的必要。但若这是一份完整推荐清单（仅氨氯地平），则
+                    - strong [ref=e431]: 不合理
+                    - text: ，因为遗漏了背痛、乳腺癌、痛风的治疗。
+              - heading "4. 如果有错误，应推荐什么药物？" [level=3] [ref=e432]
+              - paragraph [ref=e433]:
+                - strong [ref=e434]: 错误
+                - text: ：推荐不完整，未治疗背痛、乳腺癌、痛风。
+                - strong [ref=e435]: 应补充推荐
+                - text: ：
+              - list [ref=e436]:
+                - listitem [ref=e437]:
+                  - paragraph [ref=e438]:
+                    - strong [ref=e439]: 背痛
+                    - text: ：对乙酰氨基酚（首选，不影响痛风或高血压）；如果疼痛严重，短期使用非甾体抗炎药（如布洛芬），但会升高血压且可能加重痛风？实际上NSAIDs可缓解痛风急性发作，但长期使用升高血压。患者有高血压需谨慎。可考虑外用NSAIDs或曲马多。
+                - listitem [ref=e440]:
+                  - paragraph [ref=e441]:
+                    - strong [ref=e442]: 乳腺癌
+                    - text: ：根据分期和受体状态选择化疗、内分泌治疗（他莫昔芬、来曲唑等）、靶向治疗等。
+                - listitem [ref=e443]:
+                  - paragraph [ref=e444]:
+                    - strong [ref=e445]: 痛风
+                    - text: ：急性期可用秋水仙碱、NSAIDs或糖皮质激素；慢性期降尿酸治疗（别嘌醇、非布司他）。注意别嘌醇与某些乳腺癌化疗药（如环磷酰胺）相互作用需监测。
+                - listitem [ref=e446]:
+                  - paragraph [ref=e447]:
+                    - strong [ref=e448]: 高血压
+                    - text: ：氨氯地平是合理选择。若患者正在服用
+                    - strong [ref=e449]: 非甾类抗炎药
+                    - text: 止痛，血压更难控制，可考虑ACEI/ARB（如赖诺普利、氯沙坦）。
+              - separator [ref=e450]
+              - paragraph [ref=e451]: 请您补充以下信息，以便更精确评估：
+              - list [ref=e452]:
+                - listitem [ref=e453]:
+                  - paragraph [ref=e454]: 【P0218】患者胃痛的具体原因（溃疡、胃炎、功能性？），双相障碍目前用药或发作状态，当前血压及是否已服用降压药。
+                - listitem [ref=e455]:
+                  - paragraph [ref=e456]: 【P0065】患者背痛是否与乳腺癌骨转移有关？乳腺癌是否正在接受化疗/内分泌治疗？痛风是急性期还是间歇期？
+            - generic [ref=e457]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+          - generic [ref=e459]:
+            - button [ref=e460] [cursor=pointer]:
+              - img [ref=e463]
+            - button [ref=e465] [cursor=pointer]:
+              - img [ref=e468]
+            - button [ref=e470] [cursor=pointer]:
+              - img [ref=e473]
+            - button [ref=e475] [cursor=pointer]:
+              - img [ref=e478]
+            - button [ref=e480] [cursor=pointer]:
+              - img [ref=e483]
+        - generic [ref=e544]:
+          - generic [ref=e546]: "请继续评估以下4例（你只评估了P0218和P0065，还有4例需要评估）： 【病例P0441】 患者疾病: bronchitis, gastroesophageal reflux disease 推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 冠心病, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 培哚普利 (Perindopril) - 匹配疾病: 稳定型冠状动脉疾病, 适应症: angina, heart failure, hypertension, 分数: 1.0 托塞米 (Torsemide) - 匹配疾病: 肝病引起的水肿, 适应症: edema, hypertension, 分数: 1.0 兰索拉唑 (Lansoprazole) - 匹配疾病: 消化性溃疡, 适应症: acid reflux, gastroesophageal reflux disease, h. pylori eradication, 分数: 1.0 【病例P0027】 患者疾病: chronic kidney disease, hypertension 推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 慢性稳定性心绞痛, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 贝那普利 (Benazepril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 坎地沙坦 (Candesartan) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 卡托普利 (Captopril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 【病例P0508】 患者疾病: chronic obstructive pulmonary disease, diverticulitis of gastrointestinal tract 推荐药物: 氨氯地平缬沙坦 (Amlodipine-Valsartan) - 匹配疾病: 慢性稳定性心绞痛, 适应症: hypertension, 分数: 1.0 布美他尼 (Bumetanide) - 匹配疾病: 与肾脏疾病相关的水肿, 适应症: edema, heart failure, hypertension, 分数: 1.0 头孢克洛 (Cefaclor) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0 头孢羟氨苄 (Cefadroxil) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0 【病例P0954】 患者疾病: chronic pain 推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 慢性稳定性心绞痛, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 奥沙普嗪 (Oxaprozin) - 匹配疾病: 疼痛, 适应症: gout, headache, joint pain, 分数: 1.0 硝苯地平 (Nifedipine) - 匹配疾病: 慢性稳定性心绞痛, 适应症: angina, hypertension, preterm labor, 分数: 1.0 萘普生 (Naproxen) - 匹配疾病: 疼痛, 适应症: fever, gout, headache, 分数: 1.0 对每例请回答：1)推荐药物是否匹配疾病适应症(正确/部分正确/错误) 2)是否有禁忌冲突 3)排序是否合理 4)如有错误应推荐什么"
+          - generic [ref=e549]:
+            - button [ref=e550] [cursor=pointer]:
+              - img [ref=e553]
+            - button [ref=e555] [cursor=pointer]:
+              - img [ref=e558]
+        - generic [ref=e560]:
+          - generic [ref=e561]:
+            - generic [ref=e562]:
+              - paragraph [ref=e563]: 感谢补充。以下是对剩余4例的逐条评估。
+              - separator [ref=e564]
+              - heading "【病例P0441】患者疾病：支气管炎、胃食管反流病" [level=2] [ref=e565]
+              - heading "推荐药物" [level=3] [ref=e566]
+              - list [ref=e567]:
+                - listitem [ref=e568]:
+                  - paragraph [ref=e569]: 氨氯地平（匹配冠心病，适应症含高血压等）
+                - listitem [ref=e570]:
+                  - paragraph [ref=e571]: 培哚普利（匹配稳定型冠状动脉疾病，适应症含高血压等）
+                - listitem [ref=e572]:
+                  - paragraph [ref=e573]: 托塞米（匹配肝病引起的水肿，适应症含水肿、高血压）
+                - listitem [ref=e574]:
+                  - paragraph [ref=e575]: 兰索拉唑（匹配消化性溃疡，适应症含胃食管反流病）
+              - heading "1. 推荐药物是否匹配患者疾病适应症？" [level=3] [ref=e576]
+              - paragraph [ref=e577]:
+                - strong [ref=e578]: 部分正确
+              - list [ref=e579]:
+                - listitem [ref=e580]:
+                  - paragraph [ref=e581]:
+                    - text: 兰索拉唑（PPI）可用于
+                    - strong [ref=e582]: 胃食管反流病
+                    - text: ✅
+                - listitem [ref=e583]:
+                  - paragraph [ref=e584]:
+                    - text: 氨氯地平、培哚普利、托塞米均不用于
+                    - strong [ref=e585]: 支气管炎
+                    - text: ，患者也无高血压、冠心病、水肿等诊断 ❌
+              - heading "2. 是否有禁忌冲突？" [level=3] [ref=e586]
+              - paragraph [ref=e587]:
+                - strong [ref=e588]: 无明显禁忌，但诸多不合理
+              - list [ref=e589]:
+                - listitem [ref=e590]:
+                  - paragraph [ref=e591]: 支气管炎多为病毒性或细菌性，无使用上述降压/利尿药的指征
+                - listitem [ref=e592]:
+                  - paragraph [ref=e593]: 胃食管反流病使用PPI合理
+                - listitem [ref=e594]:
+                  - paragraph [ref=e595]: 托塞米为袢利尿剂，无水肿使用可导致脱水、电解质紊乱
+              - heading "3. 排序是否合理？" [level=3] [ref=e596]
+              - paragraph [ref=e597]:
+                - strong [ref=e598]: 不合理
+              - list [ref=e599]:
+                - listitem [ref=e600]:
+                  - paragraph [ref=e601]: 兰索拉唑应排序第一，其余三种药物均不必要且排序混乱
+              - heading "4. 如有错误应推荐什么？" [level=3] [ref=e602]
+              - paragraph [ref=e603]:
+                - strong [ref=e604]: 错误
+                - text: ：推荐了3种无关药物（氨氯地平、培哚普利、托塞米）
+                - strong [ref=e605]: 应推荐
+                - text: ：
+              - list [ref=e606]:
+                - listitem [ref=e607]:
+                  - paragraph [ref=e608]: 支气管炎：对症治疗（如右美沙芬镇咳、氨溴索化痰），如为细菌性可用抗生素（阿莫西林、多西环素）
+                - listitem [ref=e609]:
+                  - paragraph [ref=e610]: 胃食管反流病：PPI（兰索拉唑、奥美拉唑）或H2受体拮抗剂（法莫替丁）
+              - separator [ref=e611]
+              - heading "【病例P0027】患者疾病：慢性肾病、高血压" [level=2] [ref=e612]
+              - heading "推荐药物" [level=3] [ref=e613]
+              - list [ref=e614]:
+                - listitem [ref=e615]:
+                  - paragraph [ref=e616]: 氨氯地平（匹配慢性稳定性心绞痛）
+                - listitem [ref=e617]:
+                  - paragraph [ref=e618]: 贝那普利（匹配高血压）
+                - listitem [ref=e619]:
+                  - paragraph [ref=e620]: 坎地沙坦（匹配高血压）
+                - listitem [ref=e621]:
+                  - paragraph [ref=e622]: 卡托普利（匹配高血压）
+              - heading "1. 推荐药物是否匹配患者疾病适应症？" [level=3] [ref=e623]
+              - paragraph [ref=e624]:
+                - strong [ref=e625]: 正确
+              - list [ref=e626]:
+                - listitem [ref=e627]:
+                  - paragraph [ref=e628]:
+                    - text: 所有药物均可用于
+                    - strong [ref=e629]: 高血压
+                    - text: ✅
+                - listitem [ref=e630]:
+                  - paragraph [ref=e631]: 慢性肾病患者常用氨氯地平、ACEI（贝那普利、卡托普利）、ARB（坎地沙坦）控制血压及保护肾脏 ✅
+              - heading "2. 是否有禁忌冲突？" [level=3] [ref=e632]
+              - paragraph [ref=e633]:
+                - strong [ref=e634]: 需要注意
+              - list [ref=e635]:
+                - listitem [ref=e636]:
+                  - paragraph [ref=e637]:
+                    - strong [ref=e638]: 肾动脉狭窄
+                    - text: （未提供排除）：ACEI/ARB禁用
+                - listitem [ref=e639]:
+                  - paragraph [ref=e640]:
+                    - strong [ref=e641]: 血钾>5.5 mmol/L
+                    - text: 或
+                    - strong [ref=e642]: 血肌酐显著升高
+                    - text: （未提供）：ACEI/ARB需谨慎
+                - listitem [ref=e643]:
+                  - paragraph [ref=e644]:
+                    - text: 同时使用
+                    - strong [ref=e645]: ACEI+ARB
+                    - text: （贝那普利+坎地沙坦）不推荐，增加高钾血症、急性肾损伤风险，无额外获益
+                - listitem [ref=e646]:
+                  - paragraph [ref=e647]: 卡托普利半衰期短，需每日多次服药，非慢性肾病首选
+              - heading "3. 排序是否合理？" [level=3] [ref=e648]
+              - paragraph [ref=e649]:
+                - strong [ref=e650]: 不合理
+              - list [ref=e651]:
+                - listitem [ref=e652]:
+                  - paragraph [ref=e653]: 不应同时推荐ACEI+ARB，两者选其一即可
+                - listitem [ref=e654]:
+                  - paragraph [ref=e655]: 氨氯地平可联用，但排序应将ACEI或ARB放在首位（肾脏保护）
+                - listitem [ref=e656]:
+                  - paragraph [ref=e657]: 卡托普利应排最后或不推荐
+              - heading "4. 如有错误应推荐什么？" [level=3] [ref=e658]
+              - paragraph [ref=e659]:
+                - strong [ref=e660]: 错误
+                - text: ：同时推荐ACEI+ARB
+                - strong [ref=e661]: 应推荐
+                - text: （单药起始，逐渐加量）：
+              - list [ref=e662]:
+                - listitem [ref=e663]:
+                  - paragraph [ref=e664]: 首选：ACEI（贝那普利、赖诺普利）或ARB（坎地沙坦、氯沙坦）
+                - listitem [ref=e665]:
+                  - paragraph [ref=e666]: 如血压不达标：加用氨氯地平或利尿剂（如氯噻酮，注意eGFR<30时用袢利尿剂）
+              - separator [ref=e667]
+              - heading "【病例P0508】患者疾病：慢阻肺、憩室炎" [level=2] [ref=e668]
+              - heading "推荐药物" [level=3] [ref=e669]
+              - list [ref=e670]:
+                - listitem [ref=e671]:
+                  - paragraph [ref=e672]: 氨氯地平缬沙坦（匹配慢性稳定性心绞痛，适应症高血压）
+                - listitem [ref=e673]:
+                  - paragraph [ref=e674]: 布美他尼（匹配肾脏疾病相关水肿）
+                - listitem [ref=e675]:
+                  - paragraph [ref=e676]: 头孢克洛（匹配细菌性尿路感染）
+                - listitem [ref=e677]:
+                  - paragraph [ref=e678]: 头孢羟氨苄（匹配细菌性尿路感染）
+              - heading "1. 推荐药物是否匹配患者疾病适应症？" [level=3] [ref=e679]
+              - paragraph [ref=e680]:
+                - strong [ref=e681]: 部分正确
+              - list [ref=e682]:
+                - listitem [ref=e683]:
+                  - paragraph [ref=e684]: 憩室炎（细菌感染）：头孢克洛、头孢羟氨苄可用于肠道感染（但适应症写的是尿路感染，仍属抗生素）✅
+                - listitem [ref=e685]:
+                  - paragraph [ref=e686]: 慢阻肺：无匹配药物 ❌
+                - listitem [ref=e687]:
+                  - paragraph [ref=e688]: 布美他尼：无水肿、心衰指征 ❌
+                - listitem [ref=e689]:
+                  - paragraph [ref=e690]: 氨氯地平缬沙坦：无高血压、冠心病 ❌
+              - heading "2. 是否有禁忌冲突？" [level=3] [ref=e691]
+              - paragraph [ref=e692]:
+                - strong [ref=e693]: 无明显禁忌，但严重不必要
+              - list [ref=e694]:
+                - listitem [ref=e695]:
+                  - paragraph [ref=e696]: 慢阻肺患者可使用β受体阻滞剂以外的降压药，但患者无高血压诊断
+                - listitem [ref=e697]:
+                  - paragraph [ref=e698]: 抗生素选择上，憩室炎轻症可用头孢类+甲硝唑覆盖厌氧菌，头孢克洛单用可能覆盖不足
+              - heading "3. 排序是否合理？" [level=3] [ref=e699]
+              - paragraph [ref=e700]:
+                - strong [ref=e701]: 不合理
+              - list [ref=e702]:
+                - listitem [ref=e703]:
+                  - paragraph [ref=e704]: 推荐了无关药物（氨氯地平缬沙坦、布美他尼）且排序在前，完全错误
+              - heading "4. 如有错误应推荐什么？" [level=3] [ref=e705]
+              - paragraph [ref=e706]:
+                - strong [ref=e707]: 错误
+                - text: ：未覆盖慢阻肺治疗，憩室炎抗生素选择不典型
+                - strong [ref=e708]: 应推荐
+                - text: ：
+              - list [ref=e709]:
+                - listitem [ref=e710]:
+                  - paragraph [ref=e711]:
+                    - strong [ref=e712]: 慢阻肺
+                    - text: ：支气管舒张剂（沙丁胺醇、异丙托溴铵、LAMA如噻托溴铵）、吸入糖皮质激素（根据分期）
+                - listitem [ref=e713]:
+                  - paragraph [ref=e714]:
+                    - strong [ref=e715]: 憩室炎
+                    - text: ：轻症口服抗生素（阿莫西林克拉维酸钾，或头孢克肟+甲硝唑，或左氧氟沙星+甲硝唑）；重症需住院静脉抗生素
+              - separator [ref=e716]
+              - heading "【病例P0954】患者疾病：慢性疼痛" [level=2] [ref=e717]
+              - heading "推荐药物" [level=3] [ref=e718]
+              - list [ref=e719]:
+                - listitem [ref=e720]:
+                  - paragraph [ref=e721]: 氨氯地平（匹配慢性稳定性心绞痛）
+                - listitem [ref=e722]:
+                  - paragraph [ref=e723]: 奥沙普嗪（匹配疼痛，适应症含关节痛）
+                - listitem [ref=e724]:
+                  - paragraph [ref=e725]: 硝苯地平（匹配慢性稳定性心绞痛）
+                - listitem [ref=e726]:
+                  - paragraph [ref=e727]: 萘普生（匹配疼痛）
+              - heading "1. 推荐药物是否匹配患者疾病适应症？" [level=3] [ref=e728]
+              - paragraph [ref=e729]:
+                - strong [ref=e730]: 部分正确
+              - list [ref=e731]:
+                - listitem [ref=e732]:
+                  - paragraph [ref=e733]:
+                    - text: 奥沙普嗪（丙酸类NSAID）、萘普生（萘丙酸类NSAID）可用于
+                    - strong [ref=e734]: 慢性疼痛
+                    - text: ✅
+                - listitem [ref=e735]:
+                  - paragraph [ref=e736]: 氨氯地平、硝苯地平不治疗慢性疼痛 ❌
+              - heading "2. 是否有禁忌冲突？" [level=3] [ref=e737]
+              - paragraph [ref=e738]:
+                - strong [ref=e739]: 有重要禁忌/风险
+              - list [ref=e740]:
+                - listitem [ref=e741]:
+                  - paragraph [ref=e742]:
+                    - text: 同时使用两种NSAID（奥沙普嗪+萘普生）：
+                    - strong [ref=e743]: 绝对不推荐
+                    - text: ，增加消化道出血、肾损伤、心血管风险 ❌
+                - listitem [ref=e744]:
+                  - paragraph [ref=e745]: 慢性疼痛长期使用NSAID需评估胃肠道、肾脏、心血管风险
+                - listitem [ref=e746]:
+                  - paragraph [ref=e747]: 患者无高血压或心绞痛，使用钙通道阻滞剂无指征
+              - heading "3. 排序是否合理？" [level=3] [ref=e748]
+              - paragraph [ref=e749]:
+                - strong [ref=e750]: 不合理
+              - list [ref=e751]:
+                - listitem [ref=e752]:
+                  - paragraph [ref=e753]: 两种NSAID排2、4位，但不应同时使用
+                - listitem [ref=e754]:
+                  - paragraph [ref=e755]: 钙通道阻滞剂排1、3位，完全不相关
+              - heading "4. 如有错误应推荐什么？" [level=3] [ref=e756]
+              - paragraph [ref=e757]:
+                - strong [ref=e758]: 错误
+                - text: ：联用两种NSAID + 使用无关降压药
+                - strong [ref=e759]: 应推荐
+                - text: （单模式或多模式镇痛）：
+              - list [ref=e760]:
+                - listitem [ref=e761]:
+                  - paragraph [ref=e762]:
+                    - strong [ref=e763]: 一线
+                    - text: ：对乙酰氨基酚（安全性好）
+                - listitem [ref=e764]:
+                  - paragraph [ref=e765]:
+                    - strong [ref=e766]: 二线
+                    - text: ：单一NSAID（如萘普生、布洛芬、塞来昔布），必要时加用胃保护剂（PPI）
+                - listitem [ref=e767]:
+                  - paragraph [ref=e768]:
+                    - strong [ref=e769]: 辅助药物
+                    - text: ：根据慢性疼痛类型（神经病理性痛可使用加巴喷丁、普瑞巴林、度洛西汀）
+                - listitem [ref=e770]:
+                  - paragraph [ref=e771]:
+                    - strong [ref=e772]: 非药物治疗
+                    - text: ：物理治疗、心理干预
+              - separator [ref=e773]
+              - heading "总结表格" [level=2] [ref=e774]
+              - table [ref=e776]:
+                - rowgroup [ref=e777]:
+                  - row "病例 适应症匹配 禁忌冲突 排序合理 主要错误 应推荐" [ref=e778]:
+                    - columnheader "病例" [ref=e779]
+                    - columnheader "适应症匹配" [ref=e780]
+                    - columnheader "禁忌冲突" [ref=e781]
+                    - columnheader "排序合理" [ref=e782]
+                    - columnheader "主要错误" [ref=e783]
+                    - columnheader "应推荐" [ref=e784]
+                - rowgroup [ref=e785]:
+                  - row "P0441 部分正确 无冲突但托塞米无指征 否 3种无关降压/利尿药 支气管炎对症/抗生素 + PPI" [ref=e786]:
+                    - cell "P0441" [ref=e787]
+                    - cell "部分正确" [ref=e788]
+                    - cell "无冲突但托塞米无指征" [ref=e789]
+                    - cell "否" [ref=e790]
+                    - cell "3种无关降压/利尿药" [ref=e791]
+                    - cell "支气管炎对症/抗生素 + PPI" [ref=e792]
+                  - row "P0027 正确 ACEI+ARB联用风险 否 联用ACEI+ARB 单用ACEI或ARB ± 氨氯地平" [ref=e793]:
+                    - cell "P0027" [ref=e794]
+                    - cell "正确" [ref=e795]
+                    - cell "ACEI+ARB联用风险" [ref=e796]
+                    - cell "否" [ref=e797]
+                    - cell "联用ACEI+ARB" [ref=e798]
+                    - cell "单用ACEI或ARB ± 氨氯地平" [ref=e799]
+                  - row "P0508 部分正确 无明显禁忌 否 多种无关药物，未治慢阻肺 慢阻肺支气管舒张剂 + 憩室炎抗感染" [ref=e800]:
+                    - cell "P0508" [ref=e801]
+                    - cell "部分正确" [ref=e802]
+                    - cell "无明显禁忌" [ref=e803]
+                    - cell "否" [ref=e804]
+                    - cell "多种无关药物，未治慢阻肺" [ref=e805]
+                    - cell "慢阻肺支气管舒张剂 + 憩室炎抗感染" [ref=e806]
+                  - row "P0954 部分正确 联用两种NSAID 否 联用NSAID + 无关降压药 单种NSAID或对乙酰氨基酚 ± 辅助镇痛药" [ref=e807]:
+                    - cell "P0954" [ref=e808]
+                    - cell "部分正确" [ref=e809]
+                    - cell "联用两种NSAID" [ref=e810]
+                    - cell "否" [ref=e811]
+                    - cell "联用NSAID + 无关降压药" [ref=e812]
+                    - cell "单种NSAID或对乙酰氨基酚 ± 辅助镇痛药" [ref=e813]
+            - generic [ref=e814]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+          - generic [ref=e816]:
+            - button [ref=e817] [cursor=pointer]:
+              - img [ref=e820]
+            - button [ref=e822] [cursor=pointer]:
+              - img [ref=e825]
+            - button [ref=e827] [cursor=pointer]:
+              - img [ref=e830]
+            - button [ref=e832] [cursor=pointer]:
+              - img [ref=e835]
+            - button [ref=e837] [cursor=pointer]:
+              - img [ref=e840]
+      - generic [ref=e485]:
+        - generic [ref=e488]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e491]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e492]:
+            - button "深度思考" [ref=e493] [cursor=pointer]:
+              - img [ref=e495]
+              - generic [ref=e498]: 深度思考
+            - button "智能搜索" [ref=e499] [cursor=pointer]:
+              - img [ref=e501]
+              - generic [ref=e503]: 智能搜索
+            - generic [ref=e504]:
+              - button [ref=e505] [cursor=pointer]:
+                - img [ref=e508]
+              - button [disabled] [ref=e511] [cursor=pointer]:
+                - img [ref=e842]
+        - generic [ref=e516]: 内容由 AI 生成，请仔细甄别
+    - generic [ref=e517]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic: 请评估以下6例用药推荐是否正确。对每例，回答：1)推荐药物是否匹配疾病适应症(正确/部分正确/错误) 2)是否有禁忌冲突 3)排序是否合理 4)如有错误应推荐什么
+              - generic:
+                - generic: "【病例P0218】请评估以下用药推荐是否正确。患者疾病: bipolar disorder, hypertension, stomach pain推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 高血压, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 氨氯地平-贝那普利 (Amlodipine-Benazepril) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0 卡托普利 (Captopril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 氯噻酮 (Chlorthalidone) - 匹配疾病: 高血压, 适应症: edema, hypertension, 分数: 1.0请回答:1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）2. 是否有禁忌冲突？3. 排序是否合理？4. 如果有错误，应该推荐什么药物？【病例P0065】请评估以下用药推荐是否正确。患者疾病: back pain, breast cancer, gout, hypertension推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 高血压, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0"
+              - generic:
+                - generic: "请继续评估以下4例（你只评估了P0218和P0065，还有4例需要评估）： 【病例P0441】 患者疾病: bronchitis, gastroesophageal reflux disease 推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 冠心病, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 培哚普利 (Perindopril) - 匹配疾病: 稳定型冠状动脉疾病, 适应症: angina, heart failure, hypertension, 分数: 1.0 托塞米 (Torsemide) - 匹配疾病: 肝病引起的水肿, 适应症: edema, hypertension, 分数: 1.0 兰索拉唑 (Lansoprazole) - 匹配疾病: 消化性溃疡, 适应症: acid reflux, gastroesophageal reflux disease, h. pylori eradication, 分数: 1.0 【病例P0027】 患者疾病: chronic kidney disease, hypertension 推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 慢性稳定性心绞痛, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 贝那普利 (Benazepril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 坎地沙坦 (Candesartan) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 卡托普利 (Captopril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0 【病例P0508】 患者疾病: chronic obstructive pulmonary disease, diverticulitis of gastrointestinal tract 推荐药物: 氨氯地平缬沙坦 (Amlodipine-Valsartan) - 匹配疾病: 慢性稳定性心绞痛, 适应症: hypertension, 分数: 1.0 布美他尼 (Bumetanide) - 匹配疾病: 与肾脏疾病相关的水肿, 适应症: edema, heart failure, hypertension, 分数: 1.0 头孢克洛 (Cefaclor) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0 头孢羟氨苄 (Cefadroxil) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0 【病例P0954】 患者疾病: chronic pain 推荐药物: 氨氯地平 (Amlodipine) - 匹配疾病: 慢性稳定性心绞痛, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0 奥沙普嗪 (Oxaprozin) - 匹配疾病: 疼痛, 适应症: gout, headache, joint pain, 分数: 1.0 硝苯地平 (Nifedipine) - 匹配疾病: 慢性稳定性心绞痛, 适应症: angina, hypertension, preterm labor, 分数: 1.0 萘普生 (Naproxen) - 匹配疾病: 疼痛, 适应症: fever, gout, headache, 分数: 1.0 对每例请回答：1)推荐药物是否匹配疾病适应症(正确/部分正确/错误) 2)是否有禁忌冲突 3)排序是否合理 4)如有错误应推荐什么"

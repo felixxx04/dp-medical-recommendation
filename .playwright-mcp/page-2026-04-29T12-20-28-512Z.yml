@@ -1,0 +1,983 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e1085]:
+      - generic [ref=e1086]:
+        - img [ref=e1088] [cursor=pointer]
+        - button [ref=e1100] [cursor=pointer]:
+          - img [ref=e1103]
+      - generic [ref=e1105] [cursor=pointer]:
+        - img [ref=e1107]
+        - generic [ref=e1109]: 开启新对话
+        - text: Ctrl + J
+      - generic [ref=e1113]:
+        - generic [ref=e1114]:
+          - generic [ref=e1115]: 今天
+          - link "临床药学药物交互作用列表" [ref=e3086] [cursor=pointer]:
+            - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+            - generic [ref=e2268]: 临床药学药物交互作用列表
+            - button [ref=e2269]:
+              - img [ref=e2273]
+          - link "药物交互作用列表生成" [ref=e1116] [cursor=pointer]:
+            - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+            - generic [ref=e1117]: 药物交互作用列表生成
+          - link "药物交互作用列表生成" [ref=e1126] [cursor=pointer]:
+            - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+            - generic [ref=e1127]: 药物交互作用列表生成
+          - link "临床药学专家药物禁忌症列表生成" [ref=e1128] [cursor=pointer]:
+            - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+            - generic [ref=e1129]: 临床药学专家药物禁忌症列表生成
+          - link "临床药学专家药物禁忌症生成" [ref=e1130] [cursor=pointer]:
+            - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+            - generic [ref=e1131]: 临床药学专家药物禁忌症生成
+          - link "临床药学专家药物禁忌症列表生成" [ref=e1132] [cursor=pointer]:
+            - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+            - generic [ref=e1133]: 临床药学专家药物禁忌症列表生成
+          - link "临床药学专家生成药物禁忌症列表" [ref=e1134] [cursor=pointer]:
+            - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+            - generic [ref=e1135]: 临床药学专家生成药物禁忌症列表
+          - link "药物禁忌症生成对话" [ref=e1136] [cursor=pointer]:
+            - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+            - generic [ref=e1137]: 药物禁忌症生成对话
+          - link "药物禁忌症列表生成" [ref=e1138] [cursor=pointer]:
+            - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+            - generic [ref=e1139]: 药物禁忌症列表生成
+          - link "临床药学专家药物禁忌症列表生成" [ref=e1140] [cursor=pointer]:
+            - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+            - generic [ref=e1141]: 临床药学专家药物禁忌症列表生成
+          - link "药物禁忌症JSON生成" [ref=e1142] [cursor=pointer]:
+            - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+            - generic [ref=e1143]: 药物禁忌症JSON生成
+          - link "临床药学专家药物禁忌症列表" [ref=e1144] [cursor=pointer]:
+            - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+            - generic [ref=e1145]: 临床药学专家药物禁忌症列表
+          - link "药物禁忌症列表生成" [ref=e1146] [cursor=pointer]:
+            - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+            - generic [ref=e1147]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1148] [cursor=pointer]:
+            - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+            - generic [ref=e1149]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1150] [cursor=pointer]:
+            - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+            - generic [ref=e1151]: 药物禁忌症列表生成
+          - link "糖尿病药物禁忌症列表生成" [ref=e1152] [cursor=pointer]:
+            - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+            - generic [ref=e1153]: 糖尿病药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1154] [cursor=pointer]:
+            - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+            - generic [ref=e1155]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1156] [cursor=pointer]:
+            - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+            - generic [ref=e1157]: 药物禁忌症列表生成
+          - link "临床药学禁忌症列表生成" [ref=e1158] [cursor=pointer]:
+            - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+            - generic [ref=e1159]: 临床药学禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1160] [cursor=pointer]:
+            - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+            - generic [ref=e1161]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1162] [cursor=pointer]:
+            - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+            - generic [ref=e1163]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1164] [cursor=pointer]:
+            - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+            - generic [ref=e1165]: 药物禁忌症列表生成
+          - link "HIV药物禁忌症列表生成" [ref=e1166] [cursor=pointer]:
+            - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+            - generic [ref=e1167]: HIV药物禁忌症列表生成
+          - link "HIV药物禁忌症生成" [ref=e1168] [cursor=pointer]:
+            - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+            - generic [ref=e1169]: HIV药物禁忌症生成
+        - generic [ref=e1170]:
+          - generic [ref=e1171]: 昨天
+          - link "药物禁忌症列表生成" [ref=e1172] [cursor=pointer]:
+            - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+            - generic [ref=e1173]: 药物禁忌症列表生成
+          - link "药物禁忌症生成" [ref=e1174] [cursor=pointer]:
+            - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+            - generic [ref=e1175]: 药物禁忌症生成
+          - link "药物禁忌症列表生成" [ref=e1176] [cursor=pointer]:
+            - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+            - generic [ref=e1177]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e1178] [cursor=pointer]:
+            - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+            - generic [ref=e1179]: 药物禁忌症列表生成
+          - link "药物适应症列表生成" [ref=e1180] [cursor=pointer]:
+            - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+            - generic [ref=e1181]: 药物适应症列表生成
+        - generic [ref=e1182]:
+          - generic [ref=e1183]: 7 天内
+          - link "药学知识专家验证药物适应症" [ref=e1184] [cursor=pointer]:
+            - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+            - generic [ref=e1185]: 药学知识专家验证药物适应症
+          - link "差分隐私推荐系统问题分析" [ref=e1186] [cursor=pointer]:
+            - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+            - generic [ref=e1187]: 差分隐私推荐系统问题分析
+          - link "药物适应症补充任务" [ref=e1188] [cursor=pointer]:
+            - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+            - generic [ref=e1189]: 药物适应症补充任务
+          - link "药物适应症补充任务" [ref=e1190] [cursor=pointer]:
+            - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+            - generic [ref=e1191]: 药物适应症补充任务
+          - link "药物适应症批量处理" [ref=e1192] [cursor=pointer]:
+            - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+            - generic [ref=e1193]: 药物适应症批量处理
+          - link "药物适应症补充任务" [ref=e1194] [cursor=pointer]:
+            - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+            - generic [ref=e1195]: 药物适应症补充任务
+          - link "药物交互数据提取结果" [ref=e1196] [cursor=pointer]:
+            - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+            - generic [ref=e1197]: 药物交互数据提取结果
+          - link "Simvastatin禁忌症生成" [ref=e1198] [cursor=pointer]:
+            - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+            - generic [ref=e1199]: Simvastatin禁忌症生成
+          - link "生成数据训练请求" [ref=e1200] [cursor=pointer]:
+            - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+            - generic [ref=e1201]: 生成数据训练请求
+      - generic [ref=e1203] [cursor=pointer]:
+        - img [ref=e1206]
+        - generic [ref=e1209]: 132******38
+        - img [ref=e1211]
+    - generic [ref=e20]:
+      - generic [ref=e2277]:
+        - generic [ref=e2279]:
+          - generic [ref=e2280] [cursor=pointer]: 临床药学药物交互作用列表
+          - generic [ref=e2281]:
+            - img [ref=e2283]
+            - generic [ref=e2285]: 专家模式
+        - button [ref=e2286] [cursor=pointer]:
+          - img [ref=e2288]
+      - generic [ref=e2291]:
+        - generic [ref=e2293]:
+          - generic [ref=e2350]:
+            - generic [ref=e2352]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: benzoyl peroxide and hydrocortisone topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C benzoyl peroxide and salicylic acid (topical) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C benzoyl peroxide and tretinoin topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N benzoyl peroxide | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C clascoterone topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N Magnesium Hydroxide Suspension | 类别: Antacids, Laxatives | 适应症: constipation|dyspepsia|heartburn | 妊娠分级: N ethinyl estradiol and norethindrone (HRT) | 类别: Contraceptives, Sex hormone combinations | 适应症: menopausal symptoms|osteoporosis prevention | 妊娠分级: X Salicylic Acid Cream, Gel, Liquid, and Lotion (Acne) | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris | 妊娠分级: C Sulfur and Salicylic Acid Soap | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N salicylic acid and sulfur (topical route) | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N Benzoyl Peroxide Pads with Vitamin E Capsules | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C sulfur topical | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis|scabies | 妊娠分级: N Ethinyl Estradiol and Drospirenone | 类别: Contraceptives | 适应症: contraception|acne vulgaris|premenstrual dysphoric disorder | 妊娠分级: X Sulfur and Salicylic Acid Shampoo | 类别: Miscellaneous topical agents | 适应症: dandruff|seborrheic dermatitis | 妊娠分级: N Sulfur and Salicylic Acid Lotion | 类别: Miscellaneous topical agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N Salicylic Acid Pads (Acne) | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris | 妊娠分级: C resorcinol (topical) | 类别: Topical antipsoriatics | 适应症: acne vulgaris|eczema|seborrheic dermatitis | 妊娠分级: N sulfacetamide sodium and sulfur | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C Salicylic Acid Pads and Plaster (Corns) | 类别: Topical acne agents, Topical keratolytics | 适应症: corns|calluses | 妊娠分级: C Ethinyl Estradiol and Norgestimate | 类别: Contraceptives | 适应症: contraception|acne vulgaris | 妊娠分级: X trifarotene topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N benzoyl peroxide and tretinoin | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N clascoterone | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N lisdexamfetamine | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|binge eating disorder | 妊娠分级: C amphetamine and dextroamphetamine | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C methylphenidate (oral) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C methylphenidate (transdermal route) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C methylphenidate hydrochloride | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C dexmethylphenidate and serdexmethylphenidate | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: N viloxazine | 类别: Adrenergic uptake inhibitors for ADHD | 适应症: attention deficit hyperactivity disorder | 妊娠分级: N atomoxetine | 类别: Adrenergic uptake inhibitors for ADHD | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C clonidine (oral) | 类别: Antiadrenergic agents, centrally acting | 适应症: hypertension|attention deficit hyperactivity disorder|opioid withdrawal|tourette's syndrome | 妊娠分级: C methamphetamine | 类别: Anorexiants, CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C methylphenidate (oral route) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C omega-3 polyunsaturated fatty acids | 类别: Nutraceutical products | 适应症: secondary prevention of cardiovascular disease|hypertriglyceridemia | 妊娠分级: C selegiline (oral) | 类别: Dopaminergic antiparkinsonism agents, Monoamine oxidase inhibitors | 适应症: parkinson's disease|major depressive disorder | 妊娠分级: C desvenlafaxine | 类别: Serotonin-norepinephrine reuptake inhibitors | 适应症: major depressive disorder|hot flashes | 妊娠分级: C amphetamine and dextroamphetamine mixed salts | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C emtricitabine and tenofovir disoproxil fumarate | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B bictegravir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N abacavir, dolutegravir, and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C cobicistat, elvitegravir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B efavirenz, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: D emtricitabine and tenofovir alafenamide | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: N dolutegravir and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N dolutegravir | 类别: Integrase strand transfer inhibitor | 适应症: hiv infection | 妊娠分级: B cabotegravir and rilpivirine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N emtricitabine, rilpivirine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B atazanavir | 类别: Protease inhibitors | 适应症: hiv infection | 妊娠分级: B abacavir and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+            - generic [ref=e2355]:
+              - button [ref=e2356] [cursor=pointer]:
+                - img [ref=e2359]
+              - button [ref=e2361] [cursor=pointer]:
+                - img [ref=e2364]
+          - generic [ref=e2366]:
+            - generic [ref=e2367]:
+              - generic [ref=e2369]:
+                - generic [ref=e2372]:
+                  - generic [ref=e2373]: json
+                  - generic [ref=e2375]:
+                    - button "复制" [ref=e2376] [cursor=pointer]:
+                      - img [ref=e2378]
+                      - generic [ref=e2380]: 复制
+                    - button "下载" [ref=e2381] [cursor=pointer]:
+                      - img [ref=e2383]
+                      - generic [ref=e2385]: 下载
+                - generic [ref=e2386]:
+                  - generic [ref=e2387]: "["
+                  - generic [ref=e2388]: "{"
+                  - generic [ref=e2389]: "\"generic_name\": \"benzoyl peroxide and hydrocortisone topical\","
+                  - generic [ref=e2390]: "\"interactions\": ["
+                  - generic [ref=e2391]: "{"
+                  - generic [ref=e2392]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2393]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene, tazarotene)\","
+                  - generic [ref=e2394]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2395]: "\"clinical_effect\": \"降低维A酸类药物疗效，增加皮肤刺激性\","
+                  - generic [ref=e2396]: "\"mechanism\": \"过氧化苯甲酰的氧化作用可能降解维A酸分子；两者联用增加皮肤干燥和刺激\""
+                  - generic [ref=e2397]: "},"
+                  - generic [ref=e2398]: "{"
+                  - generic [ref=e2399]: "\"drug_a\": \"hydrocortisone topical\","
+                  - generic [ref=e2400]: "\"drug_b\": \"topical salicylic acid\","
+                  - generic [ref=e2401]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2402]: "\"clinical_effect\": \"增加皮肤萎缩和全身吸收风险\","
+                  - generic [ref=e2403]: "\"mechanism\": \"水杨酸的角质剥脱作用增加糖皮质激素的经皮渗透\""
+                  - generic [ref=e2404]: "}"
+                  - generic [ref=e2405]: "]"
+                  - generic [ref=e2406]: "},"
+                  - generic [ref=e2407]: "{"
+                  - generic [ref=e2408]: "\"generic_name\": \"benzoyl peroxide and salicylic acid (topical)\","
+                  - generic [ref=e2409]: "\"interactions\": ["
+                  - generic [ref=e2410]: "{"
+                  - generic [ref=e2411]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2412]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene, tazarotene)\","
+                  - generic [ref=e2413]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2414]: "\"clinical_effect\": \"降低维A酸类药物疗效，增加皮肤刺激性\","
+                  - generic [ref=e2415]: "\"mechanism\": \"过氧化苯甲酰的氧化作用可降解维A酸分子\""
+                  - generic [ref=e2416]: "},"
+                  - generic [ref=e2417]: "{"
+                  - generic [ref=e2418]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2419]: "\"drug_b\": \"topical corticosteroids\","
+                  - generic [ref=e2420]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2421]: "\"clinical_effect\": \"增加糖皮质激素全身吸收和局部不良反应风险\","
+                  - generic [ref=e2422]: "\"mechanism\": \"水杨酸的角质剥脱作用增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2423]: "},"
+                  - generic [ref=e2424]: "{"
+                  - generic [ref=e2425]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2426]: "\"drug_b\": \"other topical keratolytics (urea, lactic acid)\","
+                  - generic [ref=e2427]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2428]: "\"clinical_effect\": \"增加皮肤刺激、干燥和剥脱\","
+                  - generic [ref=e2429]: "\"mechanism\": \"叠加的角质剥脱效应\""
+                  - generic [ref=e2430]: "}"
+                  - generic [ref=e2431]: "]"
+                  - generic [ref=e2432]: "},"
+                  - generic [ref=e2433]: "{"
+                  - generic [ref=e2434]: "\"generic_name\": \"benzoyl peroxide and tretinoin topical\","
+                  - generic [ref=e2435]: "\"interactions\": ["
+                  - generic [ref=e2436]: "{"
+                  - generic [ref=e2437]: "\"drug_a\": \"tretinoin\","
+                  - generic [ref=e2438]: "\"drug_b\": \"topical photosensitizing agents (sulfonamides, thiazides, tetracyclines, fluoroquinolones, phenothiazines)\","
+                  - generic [ref=e2439]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2440]: "\"clinical_effect\": \"增加光敏反应风险\","
+                  - generic [ref=e2441]: "\"mechanism\": \"药效学叠加光敏效应\""
+                  - generic [ref=e2442]: "},"
+                  - generic [ref=e2443]: "{"
+                  - generic [ref=e2444]: "\"drug_a\": \"tretinoin\","
+                  - generic [ref=e2445]: "\"drug_b\": \"topical medications with strong drying effects (benzoyl peroxide, salicylic acid, sulfur, resorcinol)\","
+                  - generic [ref=e2446]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2447]: "\"clinical_effect\": \"增加皮肤刺激、脱屑和干燥\","
+                  - generic [ref=e2448]: "\"mechanism\": \"叠加的皮肤刺激和干燥效应\""
+                  - generic [ref=e2449]: "},"
+                  - generic [ref=e2450]: "{"
+                  - generic [ref=e2451]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2452]: "\"drug_b\": \"topical retinoids (adapalene, tazarotene)\","
+                  - generic [ref=e2453]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2454]: "\"clinical_effect\": \"降低维A酸类药物疗效\","
+                  - generic [ref=e2455]: "\"mechanism\": \"过氧化苯甲酰的氧化作用降解维A酸分子\""
+                  - generic [ref=e2456]: "}"
+                  - generic [ref=e2457]: "]"
+                  - generic [ref=e2458]: "},"
+                  - generic [ref=e2459]: "{"
+                  - generic [ref=e2460]: "\"generic_name\": \"benzoyl peroxide\","
+                  - generic [ref=e2461]: "\"interactions\": ["
+                  - generic [ref=e2462]: "{"
+                  - generic [ref=e2463]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2464]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene, tazarotene, trifarotene)\","
+                  - generic [ref=e2465]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2466]: "\"clinical_effect\": \"降低维A酸类疗效，增加皮肤刺激\","
+                  - generic [ref=e2467]: "\"mechanism\": \"过氧化苯甲酰的氧化作用可降解维A酸分子；叠加皮肤刺激效应\""
+                  - generic [ref=e2468]: "},"
+                  - generic [ref=e2469]: "{"
+                  - generic [ref=e2470]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2471]: "\"drug_b\": \"sulfone antibiotics (dapsone topical)\","
+                  - generic [ref=e2472]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2473]: "\"clinical_effect\": \"皮肤和毛发出现暂时性黄橙色变色\","
+                  - generic [ref=e2474]: "\"mechanism\": \"联合使用时发生氧化反应导致色素变化\""
+                  - generic [ref=e2475]: "}"
+                  - generic [ref=e2476]: "]"
+                  - generic [ref=e2477]: "},"
+                  - generic [ref=e2478]: "{"
+                  - generic [ref=e2479]: "\"generic_name\": \"clascoterone topical\","
+                  - generic [ref=e2480]: "\"interactions\": []"
+                  - generic [ref=e2481]: "},"
+                  - generic [ref=e2482]: "{"
+                  - generic [ref=e2483]: "\"generic_name\": \"Magnesium Hydroxide Suspension\","
+                  - generic [ref=e2484]: "\"interactions\": ["
+                  - generic [ref=e2485]: "{"
+                  - generic [ref=e2486]: "\"drug_a\": \"magnesium hydroxide\","
+                  - generic [ref=e2487]: "\"drug_b\": \"tetracycline antibiotics (doxycycline, minocycline)\","
+                  - generic [ref=e2488]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2489]: "\"clinical_effect\": \"降低四环素类抗生素吸收和疗效\","
+                  - generic [ref=e2490]: "\"mechanism\": \"镁离子与四环素类螯合，减少其胃肠道吸收\""
+                  - generic [ref=e2491]: "},"
+                  - generic [ref=e2492]: "{"
+                  - generic [ref=e2493]: "\"drug_a\": \"magnesium hydroxide\","
+                  - generic [ref=e2494]: "\"drug_b\": \"fluoroquinolone antibiotics (ciprofloxacin, levofloxacin, moxifloxacin)\","
+                  - generic [ref=e2495]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2496]: "\"clinical_effect\": \"显著降低氟喹诺酮类抗生素吸收和疗效\","
+                  - generic [ref=e2497]: "\"mechanism\": \"镁离子与氟喹诺酮类螯合，减少其胃肠道吸收\""
+                  - generic [ref=e2498]: "},"
+                  - generic [ref=e2499]: "{"
+                  - generic [ref=e2500]: "\"drug_a\": \"magnesium hydroxide\","
+                  - generic [ref=e2501]: "\"drug_b\": \"bisphosphonates (alendronate, risedronate)\","
+                  - generic [ref=e2502]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2503]: "\"clinical_effect\": \"降低双膦酸盐类药物的吸收\","
+                  - generic [ref=e2504]: "\"mechanism\": \"镁离子与双膦酸盐形成不溶性复合物\""
+                  - generic [ref=e2505]: "},"
+                  - generic [ref=e2506]: "{"
+                  - generic [ref=e2507]: "\"drug_a\": \"magnesium hydroxide\","
+                  - generic [ref=e2508]: "\"drug_b\": \"levothyroxine\","
+                  - generic [ref=e2509]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2510]: "\"clinical_effect\": \"降低左甲状腺素的吸收和疗效\","
+                  - generic [ref=e2519]: "\"mechanism\": \"镁离子在胃肠道与左甲状腺素结合，减少其吸收\""
+                  - generic [ref=e2520]: "},"
+                  - generic [ref=e2521]: "{"
+                  - generic [ref=e2522]: "\"drug_a\": \"magnesium hydroxide\","
+                  - generic [ref=e2523]: "\"drug_b\": \"gabapentin\","
+                  - generic [ref=e2524]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2525]: "\"clinical_effect\": \"降低加巴喷丁的吸收\","
+                  - generic [ref=e2526]: "\"mechanism\": \"抗酸药使胃pH升高并形成物理屏障，减少加巴喷丁吸收\""
+                  - generic [ref=e2527]: "},"
+                  - generic [ref=e2528]: "{"
+                  - generic [ref=e2529]: "\"drug_a\": \"magnesium hydroxide\","
+                  - generic [ref=e2530]: "\"drug_b\": \"iron supplements\","
+                  - generic [ref=e2531]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2532]: "\"clinical_effect\": \"降低口服铁剂的吸收\","
+                  - generic [ref=e2533]: "\"mechanism\": \"抗酸药升高胃pH，减少铁剂的溶解和吸收\""
+                  - generic [ref=e2534]: "}"
+                  - generic [ref=e2535]: "]"
+                  - generic [ref=e2536]: "},"
+                  - generic [ref=e2537]: "{"
+                  - generic [ref=e2538]: "\"generic_name\": \"ethinyl estradiol and norethindrone (HRT)\","
+                  - generic [ref=e2539]: "\"interactions\": ["
+                  - generic [ref=e2540]: "{"
+                  - generic [ref=e2541]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2542]: "\"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin, St. John's wort, efavirenz)\","
+                  - generic [ref=e2543]: "\"interaction_type\": \"major\","
+                  - generic [ref=e2544]: "\"clinical_effect\": \"降低激素疗效，可能导致突破性出血或激素治疗失败\","
+                  - generic [ref=e2545]: "\"mechanism\": \"CYP3A4诱导加速雌激素和孕激素代谢\""
+                  - generic [ref=e2546]: "},"
+                  - generic [ref=e2547]: "{"
+                  - generic [ref=e2548]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2549]: "\"drug_b\": \"CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin, grapefruit juice)\","
+                  - generic [ref=e2550]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2551]: "\"clinical_effect\": \"增加激素相关不良反应风险(血栓栓塞、恶心、乳房胀痛)\","
+                  - generic [ref=e2552]: "\"mechanism\": \"CYP3A4抑制减少雌激素代谢，升高血药浓度\""
+                  - generic [ref=e2553]: "},"
+                  - generic [ref=e2554]: "{"
+                  - generic [ref=e2555]: "\"drug_a\": \"norethindrone\","
+                  - generic [ref=e2556]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2557]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2558]: "\"clinical_effect\": \"改变抗凝效果(可能增强或降低)\","
+                  - generic [ref=e2559]: "\"mechanism\": \"雌激素可增加凝血因子合成，孕激素影响华法林代谢\""
+                  - generic [ref=e2560]: "},"
+                  - generic [ref=e2561]: "{"
+                  - generic [ref=e2562]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2563]: "\"drug_b\": \"lamotrigine\","
+                  - generic [ref=e2564]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2565]: "\"clinical_effect\": \"降低拉莫三嗪血药浓度，增加癫痫发作风险\","
+                  - generic [ref=e2566]: "\"mechanism\": \"雌激素加速拉莫三嗪的葡萄糖醛酸化代谢\""
+                  - generic [ref=e2567]: "}"
+                  - generic [ref=e2568]: "]"
+                  - generic [ref=e2569]: "},"
+                  - generic [ref=e2570]: "{"
+                  - generic [ref=e2571]: "\"generic_name\": \"Salicylic Acid Cream, Gel, Liquid, and Lotion (Acne)\","
+                  - generic [ref=e2572]: "\"interactions\": ["
+                  - generic [ref=e2573]: "{"
+                  - generic [ref=e2574]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2575]: "\"drug_b\": \"topical corticosteroids\","
+                  - generic [ref=e2576]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2577]: "\"clinical_effect\": \"增加糖皮质激素全身吸收和局部不良反应\","
+                  - generic [ref=e2578]: "\"mechanism\": \"水杨酸的角质剥脱作用增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2579]: "},"
+                  - generic [ref=e2580]: "{"
+                  - generic [ref=e2581]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2582]: "\"drug_b\": \"other topical keratolytics (benzoyl peroxide, sulfur, resorcinol, tretinoin)\","
+                  - generic [ref=e2583]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2584]: "\"clinical_effect\": \"增加皮肤刺激、干燥和过度剥脱\","
+                  - generic [ref=e2585]: "\"mechanism\": \"叠加的角质剥脱和刺激性效应\""
+                  - generic [ref=e2586]: "},"
+                  - generic [ref=e2587]: "{"
+                  - generic [ref=e2588]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2589]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2590]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2591]: "\"clinical_effect\": \"大面积长期使用可能增加出血风险\","
+                  - generic [ref=e2592]: "\"mechanism\": \"水杨酸大范围经皮吸收后具有抗血小板聚集作用，与华法林药效学叠加\""
+                  - generic [ref=e2593]: "}"
+                  - generic [ref=e2594]: "]"
+                  - generic [ref=e2595]: "},"
+                  - generic [ref=e2596]: "{"
+                  - generic [ref=e2597]: "\"generic_name\": \"Sulfur and Salicylic Acid Soap\","
+                  - generic [ref=e2598]: "\"interactions\": ["
+                  - generic [ref=e2599]: "{"
+                  - generic [ref=e2600]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2601]: "\"drug_b\": \"topical corticosteroids\","
+                  - generic [ref=e2602]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2603]: "\"clinical_effect\": \"增加糖皮质激素全身吸收和局部不良反应\","
+                  - generic [ref=e2604]: "\"mechanism\": \"水杨酸的角质剥脱作用增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2605]: "},"
+                  - generic [ref=e2606]: "{"
+                  - generic [ref=e2607]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2608]: "\"drug_b\": \"other topical keratolytics (benzoyl peroxide, tretinoin, resorcinol)\","
+                  - generic [ref=e2609]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2610]: "\"clinical_effect\": \"增加皮肤刺激、干燥和过度剥脱\","
+                  - generic [ref=e2611]: "\"mechanism\": \"叠加的角质剥脱效应\""
+                  - generic [ref=e2612]: "},"
+                  - generic [ref=e2613]: "{"
+                  - generic [ref=e2614]: "\"drug_a\": \"sulfur\","
+                  - generic [ref=e2615]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene)\","
+                  - generic [ref=e2616]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2617]: "\"clinical_effect\": \"增加皮肤刺激和脱屑\","
+                  - generic [ref=e2618]: "\"mechanism\": \"叠加的皮肤干燥和刺激性效应\""
+                  - generic [ref=e2619]: "}"
+                  - generic [ref=e2620]: "]"
+                  - generic [ref=e2621]: "},"
+                  - generic [ref=e2622]: "{"
+                  - generic [ref=e2623]: "\"generic_name\": \"salicylic acid and sulfur (topical route)\","
+                  - generic [ref=e2624]: "\"interactions\": ["
+                  - generic [ref=e2625]: "{"
+                  - generic [ref=e2626]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2627]: "\"drug_b\": \"topical corticosteroids\","
+                  - generic [ref=e2628]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2629]: "\"clinical_effect\": \"增加糖皮质激素全身吸收和局部不良反应\","
+                  - generic [ref=e2630]: "\"mechanism\": \"角质剥脱作用增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2631]: "},"
+                  - generic [ref=e2632]: "{"
+                  - generic [ref=e2633]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2634]: "\"drug_b\": \"other topical keratolytics (benzoyl peroxide, tretinoin, resorcinol)\","
+                  - generic [ref=e2635]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2636]: "\"clinical_effect\": \"增加皮肤刺激和过度剥脱\","
+                  - generic [ref=e2637]: "\"mechanism\": \"叠加的角质剥脱效应\""
+                  - generic [ref=e2638]: "},"
+                  - generic [ref=e2639]: "{"
+                  - generic [ref=e2640]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2641]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2642]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2643]: "\"clinical_effect\": \"大面积长期使用可能增加出血风险\","
+                  - generic [ref=e2644]: "\"mechanism\": \"水杨酸经皮吸收后具有抗血小板作用\""
+                  - generic [ref=e2645]: "}"
+                  - generic [ref=e2646]: "]"
+                  - generic [ref=e2647]: "},"
+                  - generic [ref=e2648]: "{"
+                  - generic [ref=e2649]: "\"generic_name\": \"Benzoyl Peroxide Pads with Vitamin E Capsules\","
+                  - generic [ref=e2650]: "\"interactions\": ["
+                  - generic [ref=e2651]: "{"
+                  - generic [ref=e2652]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2653]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene, tazarotene, trifarotene)\","
+                  - generic [ref=e2654]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2655]: "\"clinical_effect\": \"降低维A酸类疗效，增加皮肤刺激\","
+                  - generic [ref=e2656]: "\"mechanism\": \"过氧化苯甲酰氧化降解维A酸分子\""
+                  - generic [ref=e2657]: "},"
+                  - generic [ref=e2658]: "{"
+                  - generic [ref=e2659]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2660]: "\"drug_b\": \"dapsone topical\","
+                  - generic [ref=e2661]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2662]: "\"clinical_effect\": \"皮肤和毛发出现暂时性黄橙色变色\","
+                  - generic [ref=e2663]: "\"mechanism\": \"联合使用时发生氧化反应导致色素变化\""
+                  - generic [ref=e2664]: "},"
+                  - generic [ref=e2665]: "{"
+                  - generic [ref=e2666]: "\"drug_a\": \"vitamin E\","
+                  - generic [ref=e2667]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2668]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2669]: "\"clinical_effect\": \"大剂量使用可能增加出血风险\","
+                  - generic [ref=e2670]: "\"mechanism\": \"维生素E具有抗血小板聚集作用，与华法林药效学协同\""
+                  - generic [ref=e2671]: "}"
+                  - generic [ref=e2672]: "]"
+                  - generic [ref=e2673]: "},"
+                  - generic [ref=e2674]: "{"
+                  - generic [ref=e2675]: "\"generic_name\": \"sulfur topical\","
+                  - generic [ref=e2676]: "\"interactions\": ["
+                  - generic [ref=e2677]: "{"
+                  - generic [ref=e2678]: "\"drug_a\": \"sulfur\","
+                  - generic [ref=e2679]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene, tazarotene)\","
+                  - generic [ref=e2680]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2681]: "\"clinical_effect\": \"增加皮肤刺激、干燥和脱屑\","
+                  - generic [ref=e2682]: "\"mechanism\": \"叠加的皮肤干燥和刺激性效应\""
+                  - generic [ref=e2683]: "},"
+                  - generic [ref=e2684]: "{"
+                  - generic [ref=e2685]: "\"drug_a\": \"sulfur\","
+                  - generic [ref=e2686]: "\"drug_b\": \"other topical keratolytics (benzoyl peroxide, salicylic acid, resorcinol)\","
+                  - generic [ref=e2687]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2688]: "\"clinical_effect\": \"增加皮肤刺激和过度剥脱\","
+                  - generic [ref=e2689]: "\"mechanism\": \"叠加的角质剥脱和刺激性效应\""
+                  - generic [ref=e2690]: "}"
+                  - generic [ref=e2691]: "]"
+                  - generic [ref=e2692]: "},"
+                  - generic [ref=e2693]: "{"
+                  - generic [ref=e2694]: "\"generic_name\": \"Ethinyl Estradiol and Drospirenone\","
+                  - generic [ref=e2695]: "\"interactions\": ["
+                  - generic [ref=e2696]: "{"
+                  - generic [ref=e2697]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2698]: "\"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin, St. John's wort, efavirenz, griseofulvin)\","
+                  - generic [ref=e2699]: "\"interaction_type\": \"major\","
+                  - generic [ref=e2700]: "\"clinical_effect\": \"降低避孕效果，导致意外妊娠风险增加\","
+                  - generic [ref=e2701]: "\"mechanism\": \"CYP3A4诱导加速雌激素和孕激素代谢\""
+                  - generic [ref=e2702]: "},"
+                  - generic [ref=e2703]: "{"
+                  - generic [ref=e2704]: "\"drug_a\": \"drospirenone\","
+                  - generic [ref=e2705]: "\"drug_b\": \"ACE inhibitors (lisinopril, enalapril)\","
+                  - generic [ref=e2706]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2707]: "\"clinical_effect\": \"增加高钾血症风险\","
+                  - generic [ref=e2708]: "\"mechanism\": \"屈螺酮具有抗盐皮质激素作用，与ACEI叠加升高血钾\""
+                  - generic [ref=e2709]: "},"
+                  - generic [ref=e2710]: "{"
+                  - generic [ref=e2711]: "\"drug_a\": \"drospirenone\","
+                  - generic [ref=e2712]: "\"drug_b\": \"ARBs (losartan, valsartan)\","
+                  - generic [ref=e2713]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2714]: "\"clinical_effect\": \"增加高钾血症风险\","
+                  - generic [ref=e2715]: "\"mechanism\": \"屈螺酮的抗盐皮质激素活性与ARB叠加引起钾潴留\""
+                  - generic [ref=e2716]: "},"
+                  - generic [ref=e2717]: "{"
+                  - generic [ref=e2718]: "\"drug_a\": \"drospirenone\","
+                  - generic [ref=e2719]: "\"drug_b\": \"potassium-sparing diuretics (spironolactone, eplerenone)\","
+                  - generic [ref=e2720]: "\"interaction_type\": \"major\","
+                  - generic [ref=e2721]: "\"clinical_effect\": \"显著增加高钾血症风险\","
+                  - generic [ref=e2722]: "\"mechanism\": \"屈螺酮具有类似螺内酯的抗盐皮质激素作用，与保钾利尿剂药效学协同\""
+                  - generic [ref=e2723]: "},"
+                  - generic [ref=e2724]: "{"
+                  - generic [ref=e2725]: "\"drug_a\": \"drospirenone\","
+                  - generic [ref=e2726]: "\"drug_b\": \"NSAIDs (ibuprofen, naproxen, indomethacin)\","
+                  - generic [ref=e2727]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2728]: "\"clinical_effect\": \"增加高钾血症风险，尤其用于肾功能受损患者\","
+                  - generic [ref=e2729]: "\"mechanism\": \"NSAIDs减少肾素和醛固酮分泌，与屈螺酮的抗盐皮质激素作用叠加\""
+                  - generic [ref=e2730]: "},"
+                  - generic [ref=e2731]: "{"
+                  - generic [ref=e2732]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2733]: "\"drug_b\": \"lamotrigine\","
+                  - generic [ref=e2734]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2735]: "\"clinical_effect\": \"降低拉莫三嗪血药浓度，增加癫痫发作风险\","
+                  - generic [ref=e2736]: "\"mechanism\": \"雌激素加速拉莫三嗪的葡萄糖醛酸化代谢\""
+                  - generic [ref=e2737]: "}"
+                  - generic [ref=e2738]: "]"
+                  - generic [ref=e2739]: "},"
+                  - generic [ref=e2740]: "{"
+                  - generic [ref=e2741]: "\"generic_name\": \"Sulfur and Salicylic Acid Shampoo\","
+                  - generic [ref=e2742]: "\"interactions\": ["
+                  - generic [ref=e2743]: "{"
+                  - generic [ref=e2744]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2745]: "\"drug_b\": \"topical corticosteroids (scalp application)\","
+                  - generic [ref=e2746]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2747]: "\"clinical_effect\": \"增加糖皮质激素经皮吸收\","
+                  - generic [ref=e2748]: "\"mechanism\": \"水杨酸的角质剥脱作用增加糖皮质激素渗透\""
+                  - generic [ref=e2749]: "},"
+                  - generic [ref=e2750]: "{"
+                  - generic [ref=e2751]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2752]: "\"drug_b\": \"other keratolytic shampoos (coal tar, selenium sulfide)\","
+                  - generic [ref=e2753]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2754]: "\"clinical_effect\": \"增加头皮刺激和干燥\","
+                  - generic [ref=e2755]: "\"mechanism\": \"叠加的角质剥脱和去脂效应\""
+                  - generic [ref=e2756]: "}"
+                  - generic [ref=e2757]: "]"
+                  - generic [ref=e2758]: "},"
+                  - generic [ref=e2759]: "{"
+                  - generic [ref=e2760]: "\"generic_name\": \"Sulfur and Salicylic Acid Lotion\","
+                  - generic [ref=e2761]: "\"interactions\": ["
+                  - generic [ref=e2762]: "{"
+                  - generic [ref=e2763]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2764]: "\"drug_b\": \"topical corticosteroids\","
+                  - generic [ref=e2765]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2766]: "\"clinical_effect\": \"增加糖皮质激素全身吸收和局部不良反应\","
+                  - generic [ref=e2767]: "\"mechanism\": \"水杨酸角质剥脱作用增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2768]: "},"
+                  - generic [ref=e2769]: "{"
+                  - generic [ref=e2770]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2771]: "\"drug_b\": \"other topical keratolytics (benzoyl peroxide, tretinoin, resorcinol)\","
+                  - generic [ref=e2772]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2773]: "\"clinical_effect\": \"增加皮肤刺激、干燥和过度剥脱\","
+                  - generic [ref=e2774]: "\"mechanism\": \"叠加的角质剥脱效应\""
+                  - generic [ref=e2775]: "},"
+                  - generic [ref=e2776]: "{"
+                  - generic [ref=e2777]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2778]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2779]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2780]: "\"clinical_effect\": \"大面积长期使用可能增加出血风险\","
+                  - generic [ref=e2781]: "\"mechanism\": \"水杨酸大范围经皮吸收后具有抗血小板作用\""
+                  - generic [ref=e2782]: "}"
+                  - generic [ref=e2783]: "]"
+                  - generic [ref=e2784]: "},"
+                  - generic [ref=e2785]: "{"
+                  - generic [ref=e2786]: "\"generic_name\": \"Salicylic Acid Pads (Acne)\","
+                  - generic [ref=e2787]: "\"interactions\": ["
+                  - generic [ref=e2788]: "{"
+                  - generic [ref=e2789]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2790]: "\"drug_b\": \"topical corticosteroids\","
+                  - generic [ref=e2791]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2792]: "\"clinical_effect\": \"增加糖皮质激素全身吸收和局部不良反应\","
+                  - generic [ref=e2793]: "\"mechanism\": \"水杨酸的角质剥脱作用增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2794]: "},"
+                  - generic [ref=e2795]: "{"
+                  - generic [ref=e2796]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2797]: "\"drug_b\": \"other topical keratolytics (benzoyl peroxide, tretinoin, sulfur, resorcinol)\","
+                  - generic [ref=e2798]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2799]: "\"clinical_effect\": \"增加皮肤刺激、干燥和过度剥脱\","
+                  - generic [ref=e2800]: "\"mechanism\": \"叠加的角质剥脱效应\""
+                  - generic [ref=e2801]: "},"
+                  - generic [ref=e2802]: "{"
+                  - generic [ref=e2803]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2804]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2805]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2806]: "\"clinical_effect\": \"大面积长期使用可能增加出血风险\","
+                  - generic [ref=e2807]: "\"mechanism\": \"水杨酸经皮吸收后具有抗血小板聚集作用\""
+                  - generic [ref=e2808]: "}"
+                  - generic [ref=e2809]: "]"
+                  - generic [ref=e2810]: "},"
+                  - generic [ref=e2811]: "{"
+                  - generic [ref=e2812]: "\"generic_name\": \"resorcinol (topical)\","
+                  - generic [ref=e2813]: "\"interactions\": ["
+                  - generic [ref=e2814]: "{"
+                  - generic [ref=e2815]: "\"drug_a\": \"resorcinol\","
+                  - generic [ref=e2816]: "\"drug_b\": \"other topical keratolytics (salicylic acid, benzoyl peroxide, sulfur, tretinoin)\","
+                  - generic [ref=e2817]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2818]: "\"clinical_effect\": \"增加皮肤刺激、干燥和过度剥脱\","
+                  - generic [ref=e2819]: "\"mechanism\": \"叠加的角质剥脱和刺激性效应\""
+                  - generic [ref=e2820]: "},"
+                  - generic [ref=e2821]: "{"
+                  - generic [ref=e2822]: "\"drug_a\": \"resorcinol\","
+                  - generic [ref=e2823]: "\"drug_b\": \"topical agents with high alcohol content\","
+                  - generic [ref=e2824]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2825]: "\"clinical_effect\": \"增加皮肤刺激和干燥\","
+                  - generic [ref=e2826]: "\"mechanism\": \"叠加的皮肤干燥和刺激性\""
+                  - generic [ref=e2827]: "}"
+                  - generic [ref=e2828]: "]"
+                  - generic [ref=e2829]: "},"
+                  - generic [ref=e2830]: "{"
+                  - generic [ref=e2831]: "\"generic_name\": \"sulfacetamide sodium and sulfur\","
+                  - generic [ref=e2832]: "\"interactions\": ["
+                  - generic [ref=e2833]: "{"
+                  - generic [ref=e2834]: "\"drug_a\": \"sulfacetamide sodium\","
+                  - generic [ref=e2835]: "\"drug_b\": \"silver-containing preparations (silver sulfadiazine)\","
+                  - generic [ref=e2836]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2837]: "\"clinical_effect\": \"可能相互拮抗抗菌效果\","
+                  - generic [ref=e2838]: "\"mechanism\": \"磺胺类药物与银制剂可能发生相互作用影响抗菌活性\""
+                  - generic [ref=e2839]: "},"
+                  - generic [ref=e2840]: "{"
+                  - generic [ref=e2841]: "\"drug_a\": \"sulfacetamide sodium\","
+                  - generic [ref=e2842]: "\"drug_b\": \"benzoyl peroxide\","
+                  - generic [ref=e2843]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2844]: "\"clinical_effect\": \"增加皮肤刺激和干燥\","
+                  - generic [ref=e2845]: "\"mechanism\": \"叠加的皮肤刺激性效应\""
+                  - generic [ref=e2846]: "},"
+                  - generic [ref=e2847]: "{"
+                  - generic [ref=e2848]: "\"drug_a\": \"sulfur\","
+                  - generic [ref=e2849]: "\"drug_b\": \"topical retinoids (tretinoin, adapalene)\","
+                  - generic [ref=e2850]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2851]: "\"clinical_effect\": \"增加皮肤刺激和脱屑\","
+                  - generic [ref=e2852]: "\"mechanism\": \"叠加的皮肤干燥和刺激性效应\""
+                  - generic [ref=e2853]: "},"
+                  - generic [ref=e2854]: "{"
+                  - generic [ref=e2855]: "\"drug_a\": \"sulfacetamide sodium\","
+                  - generic [ref=e2856]: "\"drug_b\": \"PABA-containing sunscreens\","
+                  - generic [ref=e2857]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2858]: "\"clinical_effect\": \"可能降低磺胺类药物的抗菌活性\","
+                  - generic [ref=e2859]: "\"mechanism\": \"PABA可拮抗磺胺类药物的抗菌作用\""
+                  - generic [ref=e2860]: "}"
+                  - generic [ref=e2861]: "]"
+                  - generic [ref=e2862]: "},"
+                  - generic [ref=e2863]: "{"
+                  - generic [ref=e2864]: "\"generic_name\": \"Salicylic Acid Pads and Plaster (Corns)\","
+                  - generic [ref=e2865]: "\"interactions\": ["
+                  - generic [ref=e2866]: "{"
+                  - generic [ref=e2867]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2868]: "\"drug_b\": \"topical corticosteroids (on same area)\","
+                  - generic [ref=e2869]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2870]: "\"clinical_effect\": \"增加糖皮质激素全身吸收\","
+                  - generic [ref=e2871]: "\"mechanism\": \"水杨酸强效角质剥脱作用显著增加糖皮质激素经皮渗透\""
+                  - generic [ref=e2872]: "},"
+                  - generic [ref=e2873]: "{"
+                  - generic [ref=e2874]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2875]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e2876]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2877]: "\"clinical_effect\": \"大面积或封包使用可能增加出血风险\","
+                  - generic [ref=e2878]: "\"mechanism\": \"封包条件下水杨酸经皮吸收增加，发挥抗血小板作用\""
+                  - generic [ref=e2879]: "},"
+                  - generic [ref=e2880]: "{"
+                  - generic [ref=e2881]: "\"drug_a\": \"salicylic acid\","
+                  - generic [ref=e2882]: "\"drug_b\": \"oral hypoglycemic agents (sulfonylureas)\","
+                  - generic [ref=e2883]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2884]: "\"clinical_effect\": \"可能增强降糖效果\","
+                  - generic [ref=e2885]: "\"mechanism\": \"水杨酸大剂量吸收后可从蛋白结合位点置换磺脲类药物\""
+                  - generic [ref=e2886]: "}"
+                  - generic [ref=e2887]: "]"
+                  - generic [ref=e2888]: "},"
+                  - generic [ref=e2889]: "{"
+                  - generic [ref=e2890]: "\"generic_name\": \"Ethinyl Estradiol and Norgestimate\","
+                  - generic [ref=e2891]: "\"interactions\": ["
+                  - generic [ref=e2892]: "{"
+                  - generic [ref=e2893]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2894]: "\"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin, St. John's wort, efavirenz, griseofulvin)\","
+                  - generic [ref=e2895]: "\"interaction_type\": \"major\","
+                  - generic [ref=e2896]: "\"clinical_effect\": \"降低避孕效果，导致意外妊娠风险增加\","
+                  - generic [ref=e2897]: "\"mechanism\": \"CYP3A4诱导加速雌激素和孕激素代谢\""
+                  - generic [ref=e2898]: "},"
+                  - generic [ref=e2899]: "{"
+                  - generic [ref=e2900]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2901]: "\"drug_b\": \"CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin, grapefruit juice)\","
+                  - generic [ref=e2902]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2903]: "\"clinical_effect\": \"增加激素相关不良反应(血栓栓塞、恶心)\","
+                  - generic [ref=e2904]: "\"mechanism\": \"CYP3A4抑制减少雌激素代谢，升高血药浓度\""
+                  - generic [ref=e2905]: "},"
+                  - generic [ref=e2906]: "{"
+                  - generic [ref=e2907]: "\"drug_a\": \"ethinyl estradiol\","
+                  - generic [ref=e2908]: "\"drug_b\": \"lamotrigine\","
+                  - generic [ref=e2909]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2910]: "\"clinical_effect\": \"降低拉莫三嗪血药浓度，增加癫痫发作风险\","
+                  - generic [ref=e2911]: "\"mechanism\": \"雌激素加速拉莫三嗪的葡萄糖醛酸化代谢\""
+                  - generic [ref=e2912]: "},"
+                  - generic [ref=e2913]: "{"
+                  - generic [ref=e2914]: "\"drug_a\": \"norgestimate\","
+                  - generic [ref=e2915]: "\"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine)\","
+                  - generic [ref=e2916]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2917]: "\"clinical_effect\": \"降低孕激素浓度和避孕效果\","
+                  - generic [ref=e2918]: "\"mechanism\": \"CYP3A4诱导加速诺孕酯代谢\""
+                  - generic [ref=e2919]: "}"
+                  - generic [ref=e2920]: "]"
+                  - generic [ref=e2921]: "},"
+                  - generic [ref=e2922]: "{"
+                  - generic [ref=e2923]: "\"generic_name\": \"trifarotene topical\","
+                  - generic [ref=e2924]: "\"interactions\": ["
+                  - generic [ref=e2925]: "{"
+                  - generic [ref=e2926]: "\"drug_a\": \"trifarotene\","
+                  - generic [ref=e2927]: "\"drug_b\": \"benzoyl peroxide\","
+                  - generic [ref=e2928]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2929]: "\"clinical_effect\": \"可能降低trifarotene疗效，增加皮肤刺激\","
+                  - generic [ref=e2930]: "\"mechanism\": \"过氧化苯甲酰的氧化作用可能降解维A酸类药物\""
+                  - generic [ref=e2931]: "},"
+                  - generic [ref=e2932]: "{"
+                  - generic [ref=e2933]: "\"drug_a\": \"trifarotene\","
+                  - generic [ref=e2934]: "\"drug_b\": \"topical photosensitizing agents (sulfonamides, thiazides, fluoroquinolones, tetracyclines)\","
+                  - generic [ref=e2935]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2936]: "\"clinical_effect\": \"增加光敏反应风险\","
+                  - generic [ref=e2937]: "\"mechanism\": \"药效学叠加光敏效应\""
+                  - generic [ref=e2938]: "},"
+                  - generic [ref=e2939]: "{"
+                  - generic [ref=e2940]: "\"drug_a\": \"trifarotene\","
+                  - generic [ref=e2941]: "\"drug_b\": \"other topical keratolytics (salicylic acid, sulfur, resorcinol)\","
+                  - generic [ref=e2942]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2943]: "\"clinical_effect\": \"增加皮肤刺激、干燥和脱屑\","
+                  - generic [ref=e2944]: "\"mechanism\": \"叠加的皮肤干燥和刺激性效应\""
+                  - generic [ref=e2945]: "}"
+                  - generic [ref=e2946]: "]"
+                  - generic [ref=e2947]: "},"
+                  - generic [ref=e2948]: "{"
+                  - generic [ref=e2949]: "\"generic_name\": \"benzoyl peroxide and tretinoin\","
+                  - generic [ref=e2950]: "\"interactions\": ["
+                  - generic [ref=e2951]: "{"
+                  - generic [ref=e2952]: "\"drug_a\": \"benzoyl peroxide\","
+                  - generic [ref=e2953]: "\"drug_b\": \"topical retinoids (adapalene, tazarotene, trifarotene)\","
+                  - generic [ref=e2954]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2955]: "\"clinical_effect\": \"降低维A酸类药物疗效\","
+                  - generic [ref=e2956]: "\"mechanism\": \"过氧化苯甲酰的氧化作用降解维A酸分子\""
+                  - generic [ref=e2957]: "},"
+                  - generic [ref=e2958]: "{"
+                  - generic [ref=e2959]: "\"drug_a\": \"tretinoin\","
+                  - generic [ref=e2960]: "\"drug_b\": \"topical photosensitizing agents (sulfonamides, thiazides, tetracyclines, fluoroquinolones)\","
+                  - generic [ref=e2961]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2962]: "\"clinical_effect\": \"增加光敏反应风险\","
+                  - generic [ref=e2963]: "\"mechanism\": \"药效学叠加光敏效应\""
+                  - generic [ref=e2964]: "},"
+                  - generic [ref=e2965]: "{"
+                  - generic [ref=e2966]: "\"drug_a\": \"tretinoin\","
+                  - generic [ref=e2967]: "\"drug_b\": \"topical medications with strong drying effects (salicylic acid, sulfur, resorcinol)\","
+                  - generic [ref=e2968]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2969]: "\"clinical_effect\": \"增加皮肤刺激和过度脱屑\","
+                  - generic [ref=e2970]: "\"mechanism\": \"叠加的皮肤干燥和刺激性效应\""
+                  - generic [ref=e2971]: "}"
+                  - generic [ref=e2972]: "]"
+                  - generic [ref=e2973]: "},"
+                  - generic [ref=e2974]: "{"
+                  - generic [ref=e2975]: "\"generic_name\": \"clascoterone\","
+                  - generic [ref=e2976]: "\"interactions\": []"
+                  - generic [ref=e2977]: "},"
+                  - generic [ref=e2978]: "{"
+                  - generic [ref=e2979]: "\"generic_name\": \"lisdexamfetamine\","
+                  - generic [ref=e2980]: "\"interactions\": ["
+                  - generic [ref=e2981]: "{"
+                  - generic [ref=e2982]: "\"drug_a\": \"lisdexamfetamine\","
+                  - generic [ref=e2983]: "\"drug_b\": \"MAO inhibitors (phenelzine, tranylcypromine, selegiline, linezolid)\","
+                  - generic [ref=e2984]: "\"interaction_type\": \"major\","
+                  - generic [ref=e2985]: "\"clinical_effect\": \"高血压危象、高热、可能致死\","
+                  - generic [ref=e2986]: "\"mechanism\": \"MAOIs抑制去甲肾上腺素和多巴胺代谢，与苯丙胺类兴奋剂协同引起严重的儿茶酚胺蓄积\""
+                  - generic [ref=e2987]: "},"
+                  - generic [ref=e2988]: "{"
+                  - generic [ref=e2989]: "\"drug_a\": \"lisdexamfetamine\","
+                  - generic [ref=e2990]: "\"drug_b\": \"SSRIs (fluoxetine, paroxetine, sertraline)\","
+                  - generic [ref=e2991]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2992]: "\"clinical_effect\": \"增加5-羟色胺综合征风险(激越、高热、肌肉强直)\","
+                  - generic [ref=e2993]: "\"mechanism\": \"SSRIs抑制5-HT再摄取，苯丙胺类促进5-HT释放，协同增加5-HT能活性\""
+                  - generic [ref=e2994]: "},"
+                  - generic [ref=e2995]: "{"
+                  - generic [ref=e2996]: "\"drug_a\": \"lisdexamfetamine\","
+                  - generic [ref=e2997]: "\"drug_b\": \"SNRIs (venlafaxine, desvenlafaxine, duloxetine)\","
+                  - generic [ref=e2998]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e2999]: "\"clinical_effect\": \"增加5-羟色胺综合征和心血管不良反应风险\","
+                  - generic [ref=e3000]: "\"mechanism\": \"双重5-HT和NE活性叠加\""
+                  - generic [ref=e3001]: "},"
+                  - generic [ref=e3002]: "{"
+                  - generic [ref=e3003]: "\"drug_a\": \"lisdexamfetamine\","
+                  - generic [ref=e3004]: "\"drug_b\": \"tricyclic antidepressants (amitriptyline, nortriptyline)\","
+                  - generic [ref=e3005]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3006]: "\"clinical_effect\": \"增加心血管不良反应和5-羟色胺综合征风险\","
+                  - generic [ref=e3007]: "\"mechanism\": \"TCAs抑制NE和5-HT再摄取，与苯丙胺类协同增加单胺能活性\""
+                  - generic [ref=e3008]: "},"
+                  - generic [ref=e3009]: "{"
+                  - generic [ref=e3010]: "\"drug_a\": \"lisdexamfetamine\","
+                  - generic [ref=e3011]: "\"drug_b\": \"acidifying agents (ascorbic acid, ammonium chloride)\","
+                  - generic [ref=e3012]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3013]: "\"clinical_effect\": \"降低苯丙胺血药浓度和疗效\","
+                  - generic [ref=e3014]: "\"mechanism\": \"尿液酸化加速苯丙胺类药物的排泄\""
+                  - generic [ref=e3015]: "},"
+                  - generic [ref=e3016]: "{"
+                  - generic [ref=e3017]: "\"drug_a\": \"lisdexamfetamine\","
+                  - generic [ref=e3018]: "\"drug_b\": \"alkalinizing agents (sodium bicarbonate, acetazolamide)\","
+                  - generic [ref=e3019]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3020]: "\"clinical_effect\": \"增加苯丙胺血药浓度和毒性风险\","
+                  - generic [ref=e3021]: "\"mechanism\": \"尿液碱化减少苯丙胺类药物的排泄\""
+                  - generic [ref=e3022]: "}"
+                  - generic [ref=e3023]: "]"
+                  - generic [ref=e3024]: "},"
+                  - generic [ref=e3025]: "{"
+                  - generic [ref=e3026]: "\"generic_name\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3027]: "\"interactions\": ["
+                  - generic [ref=e3028]: "{"
+                  - generic [ref=e3029]: "\"drug_a\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3030]: "\"drug_b\": \"MAO inhibitors (phenelzine, tranylcypromine, selegiline, linezolid)\","
+                  - generic [ref=e3031]: "\"interaction_type\": \"major\","
+                  - generic [ref=e3032]: "\"clinical_effect\": \"高血压危象、高热、可能致死\","
+                  - generic [ref=e3033]: "\"mechanism\": \"MAOIs抑制儿茶酚胺代谢，与苯丙胺类协同引起严重的儿茶酚胺蓄积\""
+                  - generic [ref=e3034]: "},"
+                  - generic [ref=e3035]: "{"
+                  - generic [ref=e3036]: "\"drug_a\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3037]: "\"drug_b\": \"SSRIs (fluoxetine, paroxetine, sertraline)\","
+                  - generic [ref=e3038]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3039]: "\"clinical_effect\": \"增加5-羟色胺综合征风险\","
+                  - generic [ref=e3040]: "\"mechanism\": \"SSRIs抑制5-HT再摄取，苯丙胺类促进5-HT释放，协同增加5-HT能活性\""
+                  - generic [ref=e3041]: "},"
+                  - generic [ref=e3042]: "{"
+                  - generic [ref=e3043]: "\"drug_a\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3044]: "\"drug_b\": \"SNRIs (venlafaxine, desvenlafaxine, duloxetine)\","
+                  - generic [ref=e3045]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3046]: "\"clinical_effect\": \"增加5-羟色胺综合征和心血管不良反应风险\","
+                  - generic [ref=e3047]: "\"mechanism\": \"双重5-HT和NE活性叠加\""
+                  - generic [ref=e3048]: "},"
+                  - generic [ref=e3049]: "{"
+                  - generic [ref=e3050]: "\"drug_a\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3051]: "\"drug_b\": \"tricyclic antidepressants (amitriptyline, nortriptyline)\","
+                  - generic [ref=e3052]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3053]: "\"clinical_effect\": \"增加心血管不良反应和5-羟色胺综合征风险\","
+                  - generic [ref=e3054]: "\"mechanism\": \"TCAs抑制NE和5-HT再摄取，与苯丙胺类协同增加单胺能活性\""
+                  - generic [ref=e3055]: "},"
+                  - generic [ref=e3056]: "{"
+                  - generic [ref=e3057]: "\"drug_a\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3058]: "\"drug_b\": \"acidifying agents (ascorbic acid, ammonium chloride)\","
+                  - generic [ref=e3059]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3060]: "\"clinical_effect\": \"降低苯丙胺血药浓度和疗效\","
+                  - generic [ref=e3061]: "\"mechanism\": \"尿液酸化加速苯丙胺类药物排泄\""
+                  - generic [ref=e3062]: "},"
+                  - generic [ref=e3063]: "{"
+                  - generic [ref=e3064]: "\"drug_a\": \"amphetamine and dextroamphetamine\","
+                  - generic [ref=e3065]: "\"drug_b\": \"alkalinizing agents (sodium bicarbonate, acetazolamide)\","
+                  - generic [ref=e3066]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3067]: "\"clinical_effect\": \"增加苯丙胺血药浓度和毒性风险\","
+                  - generic [ref=e3068]: "\"mechanism\": \"尿液碱化减少苯丙胺类药物排泄\""
+                  - generic [ref=e3069]: "}"
+                  - generic [ref=e3070]: "]"
+                  - generic [ref=e3071]: "},"
+                  - generic [ref=e3072]: "{"
+                  - generic [ref=e3073]: "\"generic_name\": \"methylphenidate (oral)\","
+                  - generic [ref=e3074]: "\"interactions\": ["
+                  - generic [ref=e3075]: "{"
+                  - generic [ref=e3076]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3077]: "\"drug_b\": \"MAO inhibitors (phenelzine, tranylcypromine, selegiline, linezolid)\","
+                  - generic [ref=e3078]: "\"interaction_type\": \"major\","
+                  - generic [ref=e3079]: "\"clinical_effect\": \"高血压危象风险\","
+                  - generic [ref=e3080]: "\"mechanism\": \"MAOIs抑制儿茶酚胺代谢，与哌甲酯协同增加去甲肾上腺素和多巴胺活性\""
+                  - generic [ref=e3081]: "},"
+                  - generic [ref=e3082]: "{"
+                  - generic [ref=e3083]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3084]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e3085]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3087]: "\"clinical_effect\": \"可能增加抗凝效果和出血风险\","
+                  - generic [ref=e3088]: "\"mechanism\": \"哌甲酯可能抑制华法林代谢(CYP2C9)\""
+                  - generic [ref=e3089]: "},"
+                  - generic [ref=e3090]: "{"
+                  - generic [ref=e3091]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3092]: "\"drug_b\": \"tricyclic antidepressants (amitriptyline, nortriptyline)\","
+                  - generic [ref=e3093]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3094]: "\"clinical_effect\": \"增加心血管不良反应和降压效果降低\","
+                  - generic [ref=e3095]: "\"mechanism\": \"哌甲酯可能抑制TCAs代谢，协同增加NE活性\""
+                  - generic [ref=e3096]: "},"
+                  - generic [ref=e3097]: "{"
+                  - generic [ref=e3098]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3099]: "\"drug_b\": \"antihypertensive agents (beta-blockers, clonidine)\","
+                  - generic [ref=e3100]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3101]: "\"clinical_effect\": \"降低降压药物疗效\","
+                  - generic [ref=e3102]: "\"mechanism\": \"哌甲酯的中枢兴奋和外周血管加压作用与降压药产生药效学拮抗\""
+                  - generic [ref=e3103]: "},"
+                  - generic [ref=e3104]: "{"
+                  - generic [ref=e3105]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3106]: "\"drug_b\": \"CYP2D6 inhibitors (fluoxetine, paroxetine, bupropion)\","
+                  - generic [ref=e3107]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3108]: "\"clinical_effect\": \"可能增加哌甲酯血药浓度和不良反应\","
+                  - generic [ref=e3109]: "\"mechanism\": \"CYP2D6抑制减少哌甲酯代谢\""
+                  - generic [ref=e3110]: "}"
+                  - generic [ref=e3111]: "]"
+                  - generic [ref=e3112]: "},"
+                  - generic [ref=e3113]: "{"
+                  - generic [ref=e3114]: "\"generic_name\": \"methylphenidate (transdermal route)\","
+                  - generic [ref=e3115]: "\"interactions\": ["
+                  - generic [ref=e3116]: "{"
+                  - generic [ref=e3117]: "\"drug_a\": \"methylphenidate transdermal\","
+                  - generic [ref=e3118]: "\"drug_b\": \"MAO inhibitors (phenelzine, tranylcypromine, selegiline, linezolid)\","
+                  - generic [ref=e3119]: "\"interaction_type\": \"major\","
+                  - generic [ref=e3120]: "\"clinical_effect\": \"高血压危象风险\","
+                  - generic [ref=e3121]: "\"mechanism\": \"MAOIs抑制儿茶酚胺代谢，与哌甲酯协同增加去甲肾上腺素和多巴胺活性\""
+                  - generic [ref=e3122]: "},"
+                  - generic [ref=e3123]: "{"
+                  - generic [ref=e3124]: "\"drug_a\": \"methylphenidate transdermal\","
+                  - generic [ref=e3125]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e3126]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3127]: "\"clinical_effect\": \"可能增加抗凝效果和出血风险\","
+                  - generic [ref=e3128]: "\"mechanism\": \"哌甲酯可能抑制华法林代谢(CYP2C9)\""
+                  - generic [ref=e3129]: "},"
+                  - generic [ref=e3130]: "{"
+                  - generic [ref=e3131]: "\"drug_a\": \"methylphenidate transdermal\","
+                  - generic [ref=e3132]: "\"drug_b\": \"tricyclic antidepressants (amitriptyline, nortriptyline)\","
+                  - generic [ref=e3133]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3134]: "\"clinical_effect\": \"增加心血管不良反应\","
+                  - generic [ref=e3135]: "\"mechanism\": \"哌甲酯可能抑制TCAs代谢，协同增加NE活性\""
+                  - generic [ref=e3136]: "},"
+                  - generic [ref=e3137]: "{"
+                  - generic [ref=e3138]: "\"drug_a\": \"methylphenidate transdermal\","
+                  - generic [ref=e3139]: "\"drug_b\": \"antihypertensive agents (beta-blockers, clonidine)\","
+                  - generic [ref=e3140]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3141]: "\"clinical_effect\": \"降低降压药物疗效\","
+                  - generic [ref=e3142]: "\"mechanism\": \"哌甲酯的中枢兴奋和外周血管加压作用与降压药产生药效学拮抗\""
+                  - generic [ref=e3143]: "}"
+                  - generic [ref=e3144]: "]"
+                  - generic [ref=e3145]: "},"
+                  - generic [ref=e3146]: "{"
+                  - generic [ref=e3147]: "\"generic_name\": \"methylphenidate hydrochloride\","
+                  - generic [ref=e3148]: "\"interactions\": ["
+                  - generic [ref=e3149]: "{"
+                  - generic [ref=e3150]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3151]: "\"drug_b\": \"MAO inhibitors (phenelzine, tranylcypromine, selegiline, linezolid)\","
+                  - generic [ref=e3152]: "\"interaction_type\": \"major\","
+                  - generic [ref=e3153]: "\"clinical_effect\": \"高血压危象风险\","
+                  - generic [ref=e3154]: "\"mechanism\": \"MAOIs抑制儿茶酚胺代谢，与哌甲酯协同增加去甲肾上腺素和多巴胺活性\""
+                  - generic [ref=e3155]: "},"
+                  - generic [ref=e3156]: "{"
+                  - generic [ref=e3157]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3158]: "\"drug_b\": \"warfarin\","
+                  - generic [ref=e3159]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3160]: "\"clinical_effect\": \"可能增加抗凝效果和出血风险\","
+                  - generic [ref=e3161]: "\"mechanism\": \"哌甲酯可能抑制华法林代谢\""
+                  - generic [ref=e3162]: "},"
+                  - generic [ref=e3163]: "{"
+                  - generic [ref=e3164]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3165]: "\"drug_b\": \"tricyclic antidepressants (amitriptyline, nortriptyline)\","
+                  - generic [ref=e3166]: "\"interaction_type\": \"moderate\","
+                  - generic [ref=e3167]: "\"clinical_effect\": \"增加心血管不良反应和降压效果降低\","
+                  - generic [ref=e3168]: "\"mechanism\": \"协同增加NE活性，哌甲酯可能抑制TCAs代谢\""
+                  - generic [ref=e3169]: "},"
+                  - generic [ref=e3170]: "{"
+                  - generic [ref=e3171]: "\"drug_a\": \"methylphenidate\","
+                  - generic [ref=e3172]: "\"drug_b\": \"antihypertensive agents (beta-blockers, clonidine)\","
+                  - generic [ref=e3173]: "\"interaction_type\": \"moderate\","
+                - img [ref=e2511]
+                - img [ref=e2513]
+              - generic [ref=e3174]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+            - generic [ref=e3175]:
+              - generic [ref=e3176]:
+                - button [ref=e3177] [cursor=pointer]:
+                  - img [ref=e3180]
+                - button [ref=e3182] [cursor=pointer]:
+                  - img [ref=e3185]
+                - button [ref=e3187] [cursor=pointer]:
+                  - img [ref=e3190]
+                - button [ref=e3192] [cursor=pointer]:
+                  - img [ref=e3195]
+                - button [ref=e3197] [cursor=pointer]:
+                  - img [ref=e3200]
+              - button "继续生成" [ref=e3203] [cursor=pointer]:
+                - generic [ref=e3204]: 继续生成
+        - generic [ref=e2317]:
+          - generic [ref=e2320]:
+            - textbox "给 DeepSeek 发送消息" [ref=e2322]:
+              - /placeholder: "给 DeepSeek 发送消息 "
+              - text: "请继续为以下药物生成药物交互数据(JSON格式)。上一轮已生成了24种药物(benzoyl peroxide系列到amphetamine and dextroamphetamine)，请从以下第25种药物继续: methylphenidate (oral) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C methylphenidate (transdermal route) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C methylphenidate hydrochloride | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C dexmethylphenidate and serdexmethylphenidate | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: N viloxazine | 类别: Adrenergic uptake inhibitors for ADHD | 适应症: attention deficit hyperactivity disorder | 妊娠分级: N atomoxetine | 类别: Adrenergic uptake inhibitors for ADHD | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C clonidine (oral) | 类别: Antiadrenergic agents, centrally acting | 适应症: hypertension|attention deficit hyperactivity disorder|opioid withdrawal|tourette's syndrome | 妊娠分级: C methamphetamine | 类别: Anorexiants, CNS stimulants | 适应症: attention deficit hyperactivity disorder | 妊娠分级: C methylphenidate (oral route) | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C omega-3 polyunsaturated fatty acids | 类别: Nutraceutical products | 适应症: secondary prevention of cardiovascular disease|hypertriglyceridemia | 妊娠分级: C selegiline (oral) | 类别: Dopaminergic antiparkinsonism agents, Monoamine oxidase inhibitors | 适应症: parkinson's disease|major depressive disorder | 妊娠分级: C desvenlafaxine | 类别: Serotonin-norepinephrine reuptake inhibitors | 适应症: major depressive disorder|hot flashes | 妊娠分级: C amphetamine and dextroamphetamine mixed salts | 类别: CNS stimulants | 适应症: attention deficit hyperactivity disorder|narcolepsy | 妊娠分级: C emtricitabine and tenofovir disoproxil fumarate | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B bictegravir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N abacavir, dolutegravir, and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C cobicistat, elvitegravir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B efavirenz, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: D emtricitabine and tenofovir alafenamide | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: N dolutegravir and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N dolutegravir | 类别: Integrase strand transfer inhibitor | 适应症: hiv infection | 妊娠分级: B cabotegravir and rilpivirine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N emtricitabine, rilpivirine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B atazanavir | 类别: Protease inhibitors | 适应症: hiv infection | 妊娠分级: B abacavir and lamivudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C 注意: 只输出JSON,格式同上。"
+            - generic [ref=e2323]:
+              - button "深度思考" [active] [ref=e2324] [cursor=pointer]:
+                - img [ref=e2326]
+                - generic [ref=e2329]: 深度思考
+              - button "智能搜索" [ref=e2330] [cursor=pointer]:
+                - img [ref=e2332]
+                - generic [ref=e2334]: 智能搜索
+              - generic [ref=e2335]:
+                - button [ref=e2336] [cursor=pointer]:
+                  - img [ref=e2338]
+                - button [ref=e2341] [cursor=pointer]:
+                  - img [ref=e3206]
+          - generic [ref=e2348]: 内容由 AI 生成，请仔细甄别
+  - generic [ref=e3209]: 先思考后回答，解决推理问题

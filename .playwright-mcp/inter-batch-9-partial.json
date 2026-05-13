@@ -1,0 +1,1464 @@
+[
+  {
+    "generic_name": "anakinra",
+    "interactions": [
+      {
+        "drug_a": "anakinra",
+        "drug_b": "TNF-alpha inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重感染风险显著增加，包括机会性感染",
+        "mechanism": "双重免疫抑制导致宿主防御机制严重受损"
+      },
+      {
+        "drug_a": "anakinra",
+        "drug_b": "live attenuated vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能发生疫苗株引起的严重播散性感染",
+        "mechanism": "免疫抑制状态下活疫苗病毒不受控制复制"
+      },
+      {
+        "drug_a": "anakinra",
+        "drug_b": "other biologic DMARDs",
+        "interaction_type": "major",
+        "clinical_effect": "严重免疫抑制叠加，感染和恶性肿瘤风险增高",
+        "mechanism": "多重免疫通路同时抑制的叠加效应"
+      },
+      {
+        "drug_a": "anakinra",
+        "drug_b": "cytochrome P450 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "CYP450底物药物血药浓度可能降低，疗效减弱",
+        "mechanism": "炎症状态下细胞因子水平降低导致CYP450酶活性恢复，加速底物代谢"
+      },
+      {
+        "drug_a": "anakinra",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗凝疗效可能变化，需加强INR监测",
+        "mechanism": "炎症缓解后CYP2C9活性恢复影响华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "COVID-19 (coronavirus 2019) vaccine, Moderna",
+    "interactions": [
+      {
+        "drug_a": "COVID-19 vaccine, Moderna",
+        "drug_b": "immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "疫苗免疫应答可能减弱，保护效力降低",
+        "mechanism": "免疫抑制状态抑制疫苗诱导的体液和细胞免疫应答"
+      },
+      {
+        "drug_a": "COVID-19 vaccine, Moderna",
+        "drug_b": "other vaccines",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能影响免疫应答或增加不良反应",
+        "mechanism": "同时接种可能干扰免疫应答尚不明确，建议间隔接种"
+      }
+    ]
+  },
+  {
+    "generic_name": "baricitinib",
+    "interactions": [
+      {
+        "drug_a": "baricitinib",
+        "drug_b": "live attenuated vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能发生疫苗株引起的严重播散性感染",
+        "mechanism": "JAK抑制导致免疫应答受损，活疫苗病毒复制失控"
+      },
+      {
+        "drug_a": "baricitinib",
+        "drug_b": "biologic DMARDs",
+        "interaction_type": "major",
+        "clinical_effect": "严重免疫抑制叠加，感染风险显著升高",
+        "mechanism": "JAK通路与其他免疫通路同时抑制产生协同免疫抑制效应"
+      },
+      {
+        "drug_a": "baricitinib",
+        "drug_b": "potent immunosuppressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重感染包括机会性感染风险增加",
+        "mechanism": "多种免疫抑制机制叠加"
+      },
+      {
+        "drug_a": "baricitinib",
+        "drug_b": "OAT3 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "底物药物血药浓度升高，增加毒性风险",
+        "mechanism": "baricitinib抑制有机阴离子转运体3介导的肾小管分泌"
+      },
+      {
+        "drug_a": "baricitinib",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "baricitinib血药浓度升高，不良反应风险增加",
+        "mechanism": "probenecid抑制OAT3减少baricitinib肾小管分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "molnupiravir",
+    "interactions": [
+      {
+        "drug_a": "molnupiravir",
+        "drug_b": "hormonal contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "激素类避孕药避孕效果可能降低",
+        "mechanism": "机制尚不明确，建议治疗期间及治疗后数日采用额外屏障避孕措施"
+      }
+    ]
+  },
+  {
+    "generic_name": "molnupiravir (oral route)",
+    "interactions": [
+      {
+        "drug_a": "molnupiravir",
+        "drug_b": "hormonal contraceptives",
+        "interaction_type": "moderate",
+        "clinical_effect": "激素类避孕药避孕效果可能降低",
+        "mechanism": "机制尚不明确，建议治疗期间及治疗后数日采用额外屏障避孕措施"
+      }
+    ]
+  },
+  {
+    "generic_name": "casirivimab and imdevimab",
+    "interactions": [
+      {
+        "drug_a": "casirivimab and imdevimab",
+        "drug_b": "COVID-19 vaccines",
+        "interaction_type": "moderate",
+        "clinical_effect": "疫苗接种时机可能受影响，建议间隔接种",
+        "mechanism": "单克隆抗体可能干扰疫苗诱导的免疫应答，建议完成治疗后间隔至少90天再接种"
+      }
+    ]
+  },
+  {
+    "generic_name": "sotrovimab",
+    "interactions": [
+      {
+        "drug_a": "sotrovimab",
+        "drug_b": "COVID-19 vaccines",
+        "interaction_type": "moderate",
+        "clinical_effect": "疫苗接种时机可能受影响",
+        "mechanism": "单克隆抗体可能干扰疫苗免疫应答，建议完成治疗后间隔适当时间再接种"
+      }
+    ]
+  },
+  {
+    "generic_name": "bebtelovimab",
+    "interactions": [
+      {
+        "drug_a": "bebtelovimab",
+        "drug_b": "COVID-19 vaccines",
+        "interaction_type": "moderate",
+        "clinical_effect": "疫苗接种时机可能受影响",
+        "mechanism": "单克隆抗体可能干扰疫苗免疫应答，建议完成治疗后间隔适当时间再接种"
+      }
+    ]
+  },
+  {
+    "generic_name": "COVID-19 Vaccine, mRNA",
+    "interactions": [
+      {
+        "drug_a": "COVID-19 Vaccine, mRNA",
+        "drug_b": "immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "疫苗诱导的免疫应答可能减弱",
+        "mechanism": "免疫抑制状态影响抗体产生和细胞免疫应答"
+      },
+      {
+        "drug_a": "COVID-19 Vaccine, mRNA",
+        "drug_b": "other vaccines",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能影响安全性或免疫应答",
+        "mechanism": "同时接种数据有限，建议与其他疫苗间隔至少14天"
+      }
+    ]
+  },
+  {
+    "generic_name": "nirmatrelvir and ritonavir",
+    "interactions": [
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "strong CYP3A inducers",
+        "interaction_type": "major",
+        "clinical_effect": "nirmatrelvir血药浓度显著降低，抗病毒疗效丧失，可能导致治疗失败和病毒耐药",
+        "mechanism": "利福平等强效CYP3A诱导剂显著加速nirmatrelvir代谢清除"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "CYP3A substrates with narrow therapeutic index",
+        "interaction_type": "major",
+        "clinical_effect": "底物药物血药浓度极度升高，可导致危及生命的毒性反应",
+        "mechanism": "ritonavir强效不可逆抑制CYP3A4，显著降低底物药物首过效应和全身清除率"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "antiarrhythmics",
+        "interaction_type": "major",
+        "clinical_effect": "严重心律失常风险，如尖端扭转型室速",
+        "mechanism": "ritonavir抑制CYP3A4代谢导致胺碘酮等抗心律失常药血药浓度显著升高"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "statins",
+        "interaction_type": "major",
+        "clinical_effect": "横纹肌溶解症和急性肾损伤风险显著增加",
+        "mechanism": "ritonavir强效抑制CYP3A4，辛伐他汀和洛伐他汀代谢受阻，血药浓度可升高数十倍"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "sedative hypnotics",
+        "interaction_type": "major",
+        "clinical_effect": "过度镇静、呼吸抑制甚至死亡",
+        "mechanism": "ritonavir抑制CYP3A4代谢，咪达唑仑、三唑仑等血药浓度显著升高"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "ergot alkaloids",
+        "interaction_type": "major",
+        "clinical_effect": "严重麦角中毒，包括血管痉挛和组织缺血坏死",
+        "mechanism": "ritonavir强效抑制CYP3A4导致麦角生物碱代谢受阻"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "PDE5 inhibitors for pulmonary hypertension",
+        "interaction_type": "major",
+        "clinical_effect": "PDE5抑制剂血药浓度显著升高，导致严重低血压等毒性",
+        "mechanism": "ritonavir抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "colchicine",
+        "interaction_type": "major",
+        "clinical_effect": "严重血液学毒性和神经肌肉毒性",
+        "mechanism": "ritonavir抑制CYP3A4和P-gp，秋水仙碱血药浓度显著升高"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "anticoagulants",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗凝疗效改变，出血或血栓风险增加",
+        "mechanism": "ritonavir通过CYP450酶和转运体影响利伐沙班、阿哌沙班等代谢"
+      },
+      {
+        "drug_a": "nirmatrelvir and ritonavir",
+        "drug_b": "anticonvulsants",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗癫痫药血药浓度可能改变，癫痫控制受影响",
+        "mechanism": "ritonavir对CYP450酶的双向调节作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "COVID-19 bivalent booster vaccine, Pfizer",
+    "interactions": [
+      {
+        "drug_a": "COVID-19 bivalent booster vaccine, Pfizer",
+        "drug_b": "immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "加强针免疫应答可能减弱",
+        "mechanism": "免疫抑制状态影响抗体和细胞免疫应答的增强"
+      },
+      {
+        "drug_a": "COVID-19 bivalent booster vaccine, Pfizer",
+        "drug_b": "other vaccines",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能影响安全性或免疫应答评估",
+        "mechanism": "同时接种其他疫苗的数据有限"
+      }
+    ]
+  },
+  {
+    "generic_name": "venlafaxine hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "venlafaxine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险，表现为高热、肌阵挛、意识改变，可危及生命",
+        "mechanism": "5-羟色胺再摄取抑制与单胺氧化酶抑制产生协同5-羟色胺能效应"
+      },
+      {
+        "drug_a": "venlafaxine",
+        "drug_b": "other serotonergic drugs",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险显著增加",
+        "mechanism": "多种5-羟色胺能药物的叠加效应，包括SSRIs、曲坦类、芬太尼、锂盐等"
+      },
+      {
+        "drug_a": "venlafaxine",
+        "drug_b": "CYP2D6 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "底物药物代谢受抑，血药浓度升高增加毒性",
+        "mechanism": "venlafaxine及其代谢物对CYP2D6的竞争性抑制"
+      },
+      {
+        "drug_a": "venlafaxine",
+        "drug_b": "anticoagulants/antiplatelets",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血风险增加，尤其是上消化道出血",
+        "mechanism": "SNRI抑制血小板5-羟色胺再摄取，削弱血小板聚集功能"
+      },
+      {
+        "drug_a": "venlafaxine",
+        "drug_b": "NSAIDs",
+        "interaction_type": "moderate",
+        "clinical_effect": "上消化道出血风险增加",
+        "mechanism": "5-羟色胺能血小板的抑制与NSAID胃肠道黏膜损伤协同作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "l-methylfolate",
+    "interactions": [
+      {
+        "drug_a": "l-methylfolate",
+        "drug_b": "antiepileptic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗癫痫药血药浓度可能降低，癫痫控制受影响",
+        "mechanism": "叶酸可诱导苯妥英等药物的肝酶代谢，降低其血药浓度"
+      },
+      {
+        "drug_a": "l-methylfolate",
+        "drug_b": "methotrexate",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能减弱甲氨蝶呤的抗风湿或抗肿瘤疗效",
+        "mechanism": "外源性叶酸补充可能拮抗甲氨蝶呤对二氢叶酸还原酶的抑制作用"
+      },
+      {
+        "drug_a": "l-methylfolate",
+        "drug_b": "antifolates",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能影响抗叶酸药物的治疗效果",
+        "mechanism": "叶酸补充可能逆转抗叶酸药物的药理学效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "bupropion hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "bupropion",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象和中毒性反应风险",
+        "mechanism": "单胺氧化酶抑制剂与安非他酮的多巴胺能和去甲肾上腺素能效应协同导致儿茶酚胺蓄积"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "drugs lowering seizure threshold",
+        "interaction_type": "major",
+        "clinical_effect": "癫痫发作风险显著增加",
+        "mechanism": "安非他酮自身有剂量依赖性致痫作用，与其他降惊厥阈药物协同"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "CYP2B6 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "底物药物血药浓度改变，影响疗效和安全性",
+        "mechanism": "安非他酮及其代谢物抑制CYP2B6酶活性"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "CYP2B6 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "安非他酮血药浓度降低，抗抑郁或戒烟疗效减弱",
+        "mechanism": "CYP2B6诱导剂加速安非他酮代谢清除"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "serotonergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "5-羟色胺综合征风险增加",
+        "mechanism": "与SSRI、SNRI等合用增加5-羟色胺能活性"
+      }
+    ]
+  },
+  {
+    "generic_name": "bupropion (oral route)",
+    "interactions": [
+      {
+        "drug_a": "bupropion",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象风险",
+        "mechanism": "儿茶酚胺蓄积效应"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "drugs lowering seizure threshold",
+        "interaction_type": "major",
+        "clinical_effect": "癫痫发作风险显著增加",
+        "mechanism": "致痫作用叠加"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "CYP2B6 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "底物药物代谢受抑，毒性风险增加",
+        "mechanism": "CYP2B6酶抑制"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "serotonergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "5-羟色胺综合征风险",
+        "mechanism": "5-羟色胺能活性叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "bupropion hydrobromide extended-release tablets",
+    "interactions": [
+      {
+        "drug_a": "bupropion",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象风险",
+        "mechanism": "儿茶酚胺蓄积"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "drugs lowering seizure threshold",
+        "interaction_type": "major",
+        "clinical_effect": "癫痫发作风险增加",
+        "mechanism": "致痫作用叠加"
+      },
+      {
+        "drug_a": "bupropion",
+        "drug_b": "CYP2B6 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "底物药物血药浓度升高",
+        "mechanism": "CYP2B6酶抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "trazodone (oral route)",
+    "interactions": [
+      {
+        "drug_a": "trazodone",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险",
+        "mechanism": "5-羟色胺再摄取抑制与单胺氧化酶抑制协同"
+      },
+      {
+        "drug_a": "trazodone",
+        "drug_b": "other serotonergic drugs",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险显著增加",
+        "mechanism": "多种5-羟色胺能药物叠加"
+      },
+      {
+        "drug_a": "trazodone",
+        "drug_b": "CYP3A4 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "曲唑酮血药浓度升高，镇静和低血压风险增加",
+        "mechanism": "强CYP3A4抑制剂（如酮康唑、利托那韦）显著减少曲唑酮代谢"
+      },
+      {
+        "drug_a": "trazodone",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静和精神运动功能损害加重",
+        "mechanism": "苯二氮卓类、酒精等与曲唑酮的CNS抑制效应叠加"
+      },
+      {
+        "drug_a": "trazodone",
+        "drug_b": "QT-prolonging drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "QT间期延长和尖端扭转型室速风险增加",
+        "mechanism": "曲唑酮有轻度QT延长作用，与其它致QT延长药物协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "levomilnacipran",
+    "interactions": [
+      {
+        "drug_a": "levomilnacipran",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险，可危及生命",
+        "mechanism": "SNRI与MAOI协同增加5-羟色胺能活性"
+      },
+      {
+        "drug_a": "levomilnacipran",
+        "drug_b": "other serotonergic drugs",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险",
+        "mechanism": "5-羟色胺能效应叠加"
+      },
+      {
+        "drug_a": "levomilnacipran",
+        "drug_b": "NSAIDs/anticoagulants",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血风险增加",
+        "mechanism": "抑制血小板5-羟色胺再摄取影响血小板功能"
+      },
+      {
+        "drug_a": "levomilnacipran",
+        "drug_b": "CYP3A4 substrates with narrow therapeutic index",
+        "interaction_type": "moderate",
+        "clinical_effect": "合用药物血药浓度可能变化",
+        "mechanism": "左旋米那普仑对CYP3A4的潜在影响"
+      }
+    ]
+  },
+  {
+    "generic_name": "tranylcypromine",
+    "interactions": [
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "SSRIs/SNRIs",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征，严重可致死",
+        "mechanism": "不可逆MAO抑制与5-羟色胺再摄取抑制协同导致5-羟色胺过量蓄积"
+      },
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "sympathomimetic amines",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象，可致颅内出血",
+        "mechanism": "MAO抑制导致儿茶酚胺代谢受阻，间接拟交感胺促儿茶酚胺释放引起急剧血压升高"
+      },
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "foods high in tyramine",
+        "interaction_type": "major",
+        "clinical_effect": "急性高血压危象（奶酪反应）",
+        "mechanism": "MAO-A不可逆抑制导致酪胺在体内大量蓄积，促去甲肾上腺素大量释放"
+      },
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS毒性、高热、惊厥",
+        "mechanism": "儿茶酚胺和5-羟色胺蓄积的叠加效应"
+      },
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "meperidine",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征、严重呼吸抑制、可致死",
+        "mechanism": "哌替啶5-羟色胺能活性与MAOI协同"
+      },
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "dextromethorphan",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征、精神病样反应",
+        "mechanism": "右美沙芬5-羟色胺再摄取抑制与MAOI协同"
+      },
+      {
+        "drug_a": "tranylcypromine",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "体位性低血压加重",
+        "mechanism": "MAOI本身可致体位性低血压，与降压药协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "amoxapine",
+    "interactions": [
+      {
+        "drug_a": "amoxapine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重5-羟色胺综合征、高热、惊厥",
+        "mechanism": "TCA的5-羟色胺和去甲肾上腺素再摄取抑制与MAOI协同"
+      },
+      {
+        "drug_a": "amoxapine",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "阿莫沙平血药浓度升高，心脏毒性和中枢神经系统毒性风险增加",
+        "mechanism": "强CYP2D6抑制剂减少阿莫沙平代谢清除"
+      },
+      {
+        "drug_a": "amoxapine",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能不良反应加重，肠梗阻、尿潴留风险",
+        "mechanism": "抗胆碱能效应叠加"
+      },
+      {
+        "drug_a": "amoxapine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静和精神运动损害",
+        "mechanism": "CNS抑制效应协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "nortriptyline (oral route)",
+    "interactions": [
+      {
+        "drug_a": "nortriptyline",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重5-羟色胺综合征和高热风险",
+        "mechanism": "5-羟色胺能和去甲肾上腺素能效应叠加"
+      },
+      {
+        "drug_a": "nortriptyline",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "去甲替林血药浓度显著升高，心脏毒性风险增加",
+        "mechanism": "CYP2D6是去甲替林的主要代谢酶，强抑制剂如氟西汀、帕罗西汀可显著升高其浓度"
+      },
+      {
+        "drug_a": "nortriptyline",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用加重",
+        "mechanism": "抗胆碱能效应叠加"
+      },
+      {
+        "drug_a": "nortriptyline",
+        "drug_b": "antiarrhythmics",
+        "interaction_type": "moderate",
+        "clinical_effect": "心脏传导阻滞和心律失常风险增加",
+        "mechanism": "去甲替林有奎尼丁样心脏作用，与其它抗心律失常药协同影响传导"
+      }
+    ]
+  },
+  {
+    "generic_name": "selegiline (transdermal)",
+    "interactions": [
+      {
+        "drug_a": "selegiline",
+        "drug_b": "SSRIs/SNRIs",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征风险",
+        "mechanism": "高剂量透皮司来吉兰可抑制MAO-A，与5-羟色胺再摄取抑制剂协同"
+      },
+      {
+        "drug_a": "selegiline",
+        "drug_b": "meperidine",
+        "interaction_type": "major",
+        "clinical_effect": "严重5-羟色胺综合征，可致死",
+        "mechanism": "哌替啶5-羟色胺能活性与MAOI协同"
+      },
+      {
+        "drug_a": "selegiline",
+        "drug_b": "sympathomimetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血压风险增加",
+        "mechanism": "高剂量司来吉兰MAO-A抑制导致儿茶酚胺蓄积"
+      }
+    ]
+  },
+  {
+    "generic_name": "ketamine",
+    "interactions": [
+      {
+        "drug_a": "ketamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、血流动力学不稳定",
+        "mechanism": "苯二氮卓类、阿片类、丙泊酚等与氯胺酮的CNS和呼吸抑制效应协同"
+      },
+      {
+        "drug_a": "ketamine",
+        "drug_b": "sympathomimetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重高血压和心动过速",
+        "mechanism": "氯胺酮的交感兴奋作用与拟交感药协同"
+      },
+      {
+        "drug_a": "ketamine",
+        "drug_b": "thyroid hormones",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血压和心动过速风险增加",
+        "mechanism": "甲状腺激素增加儿茶酚胺敏感性，与氯胺酮交感兴奋协同"
+      },
+      {
+        "drug_a": "ketamine",
+        "drug_b": "CYP3A4 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "氯胺酮血药浓度升高，镇静延长",
+        "mechanism": "氯胺酮主要经CYP3A4和CYP2B6代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "desipramine (oral route)",
+    "interactions": [
+      {
+        "drug_a": "desipramine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS毒性、高热、惊厥",
+        "mechanism": "去甲肾上腺素能效应叠加"
+      },
+      {
+        "drug_a": "desipramine",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "地昔帕明血药浓度显著升高，心脏毒性风险增加",
+        "mechanism": "CYP2D6强抑制剂显著减少地昔帕明代谢"
+      },
+      {
+        "drug_a": "desipramine",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能不良反应加重",
+        "mechanism": "抗胆碱能效应叠加"
+      },
+      {
+        "drug_a": "desipramine",
+        "drug_b": "sympathomimetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "升压效应增强",
+        "mechanism": "去甲肾上腺素再摄取抑制与拟交感药协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "isocarboxazid",
+    "interactions": [
+      {
+        "drug_a": "isocarboxazid",
+        "drug_b": "SSRIs/SNRIs",
+        "interaction_type": "major",
+        "clinical_effect": "5-羟色胺综合征，可致死",
+        "mechanism": "不可逆MAO抑制与5-羟色胺再摄取抑制协同"
+      },
+      {
+        "drug_a": "isocarboxazid",
+        "drug_b": "sympathomimetic amines",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "MAO抑制导致儿茶酚胺代谢受阻"
+      },
+      {
+        "drug_a": "isocarboxazid",
+        "drug_b": "foods high in tyramine",
+        "interaction_type": "major",
+        "clinical_effect": "急性高血压危象",
+        "mechanism": "MAO-A不可逆抑制导致酪胺蓄积"
+      },
+      {
+        "drug_a": "isocarboxazid",
+        "drug_b": "meperidine",
+        "interaction_type": "major",
+        "clinical_effect": "严重5-羟色胺综合征、可致死",
+        "mechanism": "哌替啶5-羟色胺能活性与MAOI协同"
+      },
+      {
+        "drug_a": "isocarboxazid",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS毒性",
+        "mechanism": "神经递质蓄积叠加"
+      },
+      {
+        "drug_a": "isocarboxazid",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重体位性低血压",
+        "mechanism": "降压效应叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "protriptyline (oral route)",
+    "interactions": [
+      {
+        "drug_a": "protriptyline",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS毒性、高热、惊厥",
+        "mechanism": "神经递质蓄积协同效应"
+      },
+      {
+        "drug_a": "protriptyline",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "普罗替林血药浓度升高，心脏毒性风险增加",
+        "mechanism": "CYP2D6酶抑制减少代谢"
+      },
+      {
+        "drug_a": "protriptyline",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能不良反应加重",
+        "mechanism": "抗胆碱能效应叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "esketamine (nasal)",
+    "interactions": [
+      {
+        "drug_a": "esketamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、意识丧失风险显著增加",
+        "mechanism": "苯二氮卓类、阿片类、酒精等与艾司氯胺酮的CNS抑制效应协同"
+      },
+      {
+        "drug_a": "esketamine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压显著升高",
+        "mechanism": "艾司氯胺酮的交感兴奋作用与MAOI协同"
+      },
+      {
+        "drug_a": "esketamine",
+        "drug_b": "psychostimulants",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压过度升高风险",
+        "mechanism": "拟交感效应叠加"
+      },
+      {
+        "drug_a": "esketamine",
+        "drug_b": "CYP2B6 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "艾司氯胺酮血药浓度降低，疗效减弱",
+        "mechanism": "CYP2B6诱导剂加速艾司氯胺酮代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "Methylfolate",
+    "interactions": [
+      {
+        "drug_a": "methylfolate",
+        "drug_b": "antiepileptic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗癫痫药血药浓度可能降低",
+        "mechanism": "叶酸诱导肝酶代谢"
+      },
+      {
+        "drug_a": "methylfolate",
+        "drug_b": "methotrexate",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能减弱甲氨蝶呤疗效",
+        "mechanism": "拮抗二氢叶酸还原酶抑制效应"
+      },
+      {
+        "drug_a": "methylfolate",
+        "drug_b": "antifolates",
+        "interaction_type": "moderate",
+        "clinical_effect": "影响抗叶酸药物治疗效果",
+        "mechanism": "药理学拮抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "protriptyline",
+    "interactions": [
+      {
+        "drug_a": "protriptyline",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS毒性、高热、惊厥",
+        "mechanism": "神经递质蓄积协同效应"
+      },
+      {
+        "drug_a": "protriptyline",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "普罗替林血药浓度升高",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "protriptyline",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能不良反应加重",
+        "mechanism": "效应叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "trimipramine (oral route)",
+    "interactions": [
+      {
+        "drug_a": "trimipramine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重CNS毒性、高热",
+        "mechanism": "神经递质蓄积协同"
+      },
+      {
+        "drug_a": "trimipramine",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "曲米帕明血药浓度升高",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "trimipramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "镇静效应叠加"
+      },
+      {
+        "drug_a": "trimipramine",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用加重",
+        "mechanism": "效应叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "thyroid (desiccated)",
+    "interactions": [
+      {
+        "drug_a": "thyroid desiccated",
+        "drug_b": "oral anticoagulants",
+        "interaction_type": "major",
+        "clinical_effect": "抗凝效应显著增强，出血风险增加",
+        "mechanism": "甲状腺激素增加凝血因子分解代谢，增强华法林等抗凝药对维生素K依赖性凝血因子的抑制"
+      },
+      {
+        "drug_a": "thyroid desiccated",
+        "drug_b": "digitalis glycosides",
+        "interaction_type": "moderate",
+        "clinical_effect": "地高辛血药浓度降低，疗效减弱",
+        "mechanism": "甲状腺功能恢复正常后肾清除率增加，分布容积改变"
+      },
+      {
+        "drug_a": "thyroid desiccated",
+        "drug_b": "sympathomimetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "心血管毒性风险增加，包括心动过速、高血压、心律失常",
+        "mechanism": "甲状腺激素增加心肌对儿茶酚胺的敏感性"
+      },
+      {
+        "drug_a": "thyroid desiccated",
+        "drug_b": "insulin/oral hypoglycemics",
+        "interaction_type": "moderate",
+        "clinical_effect": "胰岛素或降糖药需求增加，血糖控制恶化",
+        "mechanism": "甲状腺激素增加糖异生和糖原分解，并可能增加胰岛素抵抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin glargine",
+    "interactions": [
+      {
+        "drug_a": "insulin glargine",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和充血性心力衰竭风险显著增加",
+        "mechanism": "胰岛素与TZD类对钠重吸收和血管通透性的协同效应"
+      },
+      {
+        "drug_a": "insulin glargine",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖（心悸、震颤），恢复延迟，可致严重低血糖未被察觉",
+        "mechanism": "非选择性β阻滞剂掩盖低血糖交感神经兴奋症状，并可能抑制肝糖输出"
+      },
+      {
+        "drug_a": "insulin glargine",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "胰岛素需求显著增加，高血糖风险",
+        "mechanism": "糖皮质激素增加肝糖异生并诱导外周胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin glargine",
+        "drug_b": "atypical antipsychotics",
+        "interaction_type": "moderate",
+        "clinical_effect": "胰岛素需求增加，血糖控制恶化",
+        "mechanism": "奥氮平、氯氮平等诱导胰岛素抵抗和体重增加"
+      },
+      {
+        "drug_a": "insulin glargine",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重血糖波动，包括重度低血糖和高血糖",
+        "mechanism": "氟喹诺酮类药物影响胰岛β细胞ATP敏感性钾通道，改变胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin aspart and insulin aspart protamine",
+    "interactions": [
+      {
+        "drug_a": "insulin aspart",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "胰岛素与TZD协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin aspart",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "β阻滞抑制低血糖交感神经反应"
+      },
+      {
+        "drug_a": "insulin aspart",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险，胰岛素需求增加",
+        "mechanism": "糖皮质激素诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin aspart",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖急剧波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "Insulin Lispro (U-200) Pens",
+    "interactions": [
+      {
+        "drug_a": "insulin lispro",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留效应"
+      },
+      {
+        "drug_a": "insulin lispro",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin lispro",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin lispro",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin degludec",
+    "interactions": [
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin isophane",
+    "interactions": [
+      {
+        "drug_a": "insulin isophane",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin isophane",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin isophane",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin isophane",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin regular",
+    "interactions": [
+      {
+        "drug_a": "insulin regular",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin regular",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin regular",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin regular",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin human",
+    "interactions": [
+      {
+        "drug_a": "insulin human",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin human",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin human",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin human",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin isophane and insulin regular",
+    "interactions": [
+      {
+        "drug_a": "insulin isophane/regular",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin isophane/regular",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin isophane/regular",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin isophane/regular",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin lispro and insulin lispro protamine",
+    "interactions": [
+      {
+        "drug_a": "insulin lispro/lispro protamine",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin lispro/lispro protamine",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin lispro/lispro protamine",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin lispro/lispro protamine",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin glargine-aglr",
+    "interactions": [
+      {
+        "drug_a": "insulin glargine-aglr",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin glargine-aglr",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin glargine-aglr",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin glargine-aglr",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "Insulin Glargine (U-300) Pens",
+    "interactions": [
+      {
+        "drug_a": "insulin glargine U-300",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin glargine U-300",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin glargine U-300",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin glargine U-300",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin regular, concentrated (U-500)",
+    "interactions": [
+      {
+        "drug_a": "insulin regular U-500",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险显著增加，尤其在大剂量胰岛素时",
+        "mechanism": "大剂量胰岛素与TZD协同导致显著钠水潴留"
+      },
+      {
+        "drug_a": "insulin regular U-500",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖，严重低血糖更难察觉",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin regular U-500",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "胰岛素需求显著增加，严重高血糖风险",
+        "mechanism": "糖皮质激素诱导显著胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin regular U-500",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖急剧波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "octreotide (oral/injection)",
+    "interactions": [
+      {
+        "drug_a": "octreotide",
+        "drug_b": "insulin and oral hypoglycemics",
+        "interaction_type": "major",
+        "clinical_effect": "低血糖或高血糖风险，血糖控制显著改变",
+        "mechanism": "奥曲肽抑制生长激素和胰高血糖素分泌，改变外周胰岛素敏感性"
+      },
+      {
+        "drug_a": "octreotide",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重心动过缓和心脏传导阻滞风险",
+        "mechanism": "奥曲肽与β阻滞剂对房室传导的抑制效应叠加"
+      },
+      {
+        "drug_a": "octreotide",
+        "drug_b": "QT-prolonging drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "QT间期延长和尖端扭转型室速风险增加",
+        "mechanism": "奥曲肽可引起QT延长，与其它致QT延长药物协同"
+      },
+      {
+        "drug_a": "octreotide",
+        "drug_b": "cyclosporine",
+        "interaction_type": "moderate",
+        "clinical_effect": "环孢素血药浓度降低，移植排斥风险增加",
+        "mechanism": "奥曲肽减少肠道对环孢素的吸收"
+      },
+      {
+        "drug_a": "octreotide",
+        "drug_b": "bromocriptine",
+        "interaction_type": "moderate",
+        "clinical_effect": "溴隐亭血药浓度升高",
+        "mechanism": "奥曲肽影响溴隐亭代谢或清除"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin (inhalation)",
+    "interactions": [
+      {
+        "drug_a": "insulin inhalation",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留效应"
+      },
+      {
+        "drug_a": "insulin inhalation",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin inhalation",
+        "drug_b": "bronchodilators",
+        "interaction_type": "moderate",
+        "clinical_effect": "胰岛素吸收改变，血糖控制波动",
+        "mechanism": "支气管扩张剂可能改变肺血流量或上皮通透性，影响吸入胰岛素的吸收"
+      },
+      {
+        "drug_a": "insulin inhalation",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin inhalation",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  },
+  {
+    "generic_name": "insulin degludec Brand name: Tresiba",
+    "interactions": [
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "thiazolidinediones",
+        "interaction_type": "major",
+        "clinical_effect": "液体潴留和心力衰竭风险增加",
+        "mechanism": "协同钠水潴留"
+      },
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "低血糖症状被掩盖",
+        "mechanism": "抑制交感神经反应"
+      },
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "高血糖风险",
+        "mechanism": "诱导胰岛素抵抗"
+      },
+      {
+        "drug_a": "insulin degludec",
+        "drug_b": "fluoroquinolones",
+        "interaction_type": "moderate",
+        "clinical_effect": "血糖波动",
+        "mechanism": "影响胰岛素分泌"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "disease": "银屑病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "痤疮",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "皮疹",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "带状疱疹后神经痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "贫血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "白血病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "乳腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "痘痘",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "过敏性皮炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "牛皮癣",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "缺铁性贫血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "淋巴瘤",
+    "rating": "APPROPRIATE"
+  }
+]

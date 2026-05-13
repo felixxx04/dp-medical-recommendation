@@ -1,0 +1,84 @@
+<h2>P0 修复完成 — 可用性大幅提升</h2>
+<p class="subtitle">一轮 DeepSeek API 批量修复三个问题：翻译修正 + 口语表扩充 + 症状组合扩充</p>
+
+<div class="section">
+  <h3>核心指标：修复前 → 修复后</h3>
+  <table style="width:100%; border-collapse:collapse; font-size:13px; color:#ccc;">
+    <tr style="background:#0d3b2e;">
+      <th style="padding:10px; text-align:left; border-bottom:1px solid #333;">指标</th>
+      <th style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">修复前</th>
+      <th style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;">修复后</th>
+      <th style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">提升</th>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #333;">L1 患者口语表</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">71</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;"><strong>154</strong></td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">2.2x</td>
+    </tr>
+    <tr style="background:#16213e;">
+      <td style="padding:10px; border-bottom:1px solid #333;">L2 知识路由覆盖</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">1,253</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;"><strong>1,495</strong></td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">+242</td>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #333;">L3 路由规则</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">185</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;"><strong>200</strong></td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">+15</td>
+    </tr>
+    <tr style="background:#16213e;">
+      <td style="padding:10px; border-bottom:1px solid #333;">适应症覆盖率</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">77.2%</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;"><strong>92.5%</strong></td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">+15.3%</td>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #333;">中文疾病映射</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">1,088</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;"><strong>1,295</strong></td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">+207</td>
+    </tr>
+    <tr style="background:#16213e;">
+      <td style="padding:10px; border-bottom:1px solid #333;">症状组合规则</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ef4444;">8</td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#00d4aa;"><strong>30</strong></td>
+      <td style="padding:10px; text-align:center; border-bottom:1px solid #333; color:#ffd93d;">3.8x</td>
+    </tr>
+  </table>
+</div>
+
+<div class="section" style="margin-top:16px;">
+  <h3>新增L1口语词示例</h3>
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:4px; font-size:11px; color:#888;">
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">窜稀 → watery diarrhea</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">闹肚子 → diarrhea, gastroenteritis</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">水样便 → watery stool</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">抽筋 → muscle cramp, spasm</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">扭伤 → sprain, strain</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">痒 → pruritus, itching</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">打嗝 → hiccup, belching</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">嗳气 → eructation, burping</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">口腔溃疡 → oral ulcer, mouth ulcer</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">眼干 → dry eye, xerophthalmia</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">耳鸣 → tinnitus</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">痰多 → productive cough</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">干咳 → dry cough</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">夜咳 → nocturnal cough</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">心口疼 → chest pain, angina</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">心跳乱 → palpitations, arrhythmia</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">脚肿 → ankle edema, foot swelling</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">手抖 → tremor, hand shaking</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">怕冷 → cold intolerance, chills</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">盗汗 → night sweats</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">血尿 → hematuria, blood in urine</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">便血 → hematochezia, blood in stool</div>
+    <div style="padding:4px 8px; background:#16213e; border-radius:3px;">牙疼 → toothache, dental pain</div>
+  </div>
+</div>
+
+<div style="margin-top:20px; padding:16px; background:#0d3b2e; border-radius:10px; border:1px solid #00d4aa; text-align:center;">
+  <div style="font-size:16px; font-weight:bold; color:#00d4aa;">P0 全部完成 — 系统可用性显著提升</div>
+  <div style="font-size:13px; color:#888; margin-top:4px;">覆盖率 77.2%→92.5% · 口语表扩充2.2倍 · 症状组合3.8倍 · L2路由+242条</div>
+</div>

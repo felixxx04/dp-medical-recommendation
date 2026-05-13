@@ -1,0 +1,2378 @@
+[
+  {
+    "generic_name": "acetaminophen and oxycodone",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量对乙酰氨基酚可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加对乙酰氨基酚的NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征、严重呼吸抑制或高血压危象风险",
+        "mechanism": "阿片类与MAOI协同导致5-羟色胺蓄积及交感神经兴奋"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加羟考酮血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的羟考酮代谢"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低羟考酮血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速羟考酮代谢"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "acetaminophen and oxycodone",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "paracetamol",
+    "interactions": [
+      {
+        "drug_a": "paracetamol",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "paracetamol",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "paracetamol",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "paracetamol",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "ketorolac (nasal)",
+    "interactions": [
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加锂血浓度及毒性",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "ketorolac (nasal)",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性",
+        "mechanism": "协同肾毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen Controlled-Release Tablets",
+    "interactions": [
+      {
+        "drug_a": "Acetaminophen Controlled-Release Tablets",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "Acetaminophen Controlled-Release Tablets",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "Acetaminophen Controlled-Release Tablets",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "Acetaminophen Controlled-Release Tablets",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "morphine (oral)",
+    "interactions": [
+      {
+        "drug_a": "morphine (oral)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "morphine (oral)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和低血压风险",
+        "mechanism": "MAOI与吗啡协同引起血流动力学改变和中枢抑制"
+      },
+      {
+        "drug_a": "morphine (oral)",
+        "drug_b": "gabapentinoids (gabapentin, pregabalin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和呼吸抑制风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "morphine (oral)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "morphine (oral)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "吗啡可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "Fentanyl Transdermal System",
+    "interactions": [
+      {
+        "drug_a": "Fentanyl Transdermal System",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "Fentanyl Transdermal System",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋"
+      },
+      {
+        "drug_a": "Fentanyl Transdermal System",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加芬太尼血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的芬太尼代谢"
+      },
+      {
+        "drug_a": "Fentanyl Transdermal System",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低芬太尼血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速芬太尼代谢"
+      },
+      {
+        "drug_a": "Fentanyl Transdermal System",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "Fentanyl Transdermal System",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen and tramadol",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量对乙酰氨基酚可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征和癫痫发作风险",
+        "mechanism": "曲马多抑制5-HT再摄取，MAOI抑制5-HT代谢，协同5-HT蓄积"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "SSRIs, SNRIs, tricyclic antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征和癫痫发作风险",
+        "mechanism": "协同5-羟色胺能作用，降低癫痫阈值"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低曲马多镇痛效果",
+        "mechanism": "抑制曲马多经CYP2D6代谢为活性代谢物M1"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "other serotonergic drugs (lithium, triptans)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征风险",
+        "mechanism": "相加的5-羟色胺能效应"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "acetaminophen and tramadol",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "hydrocodone and ibuprofen",
+    "interactions": [
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "阿片类与MAOI协同CNS抑制和交感兴奋"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加氢可酮血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的氢可酮代谢"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性，并可能降低利尿剂疗效",
+        "mechanism": "前列腺素抑制和阿片类ADH释放作用"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加锂血浓度及毒性",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性",
+        "mechanism": "协同肾毒性"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低氢可酮血浓度，导致镇痛不足",
+        "mechanism": "诱导CYP3A4加速氢可酮代谢"
+      },
+      {
+        "drug_a": "hydrocodone and ibuprofen",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "fentanyl",
+    "interactions": [
+      {
+        "drug_a": "fentanyl",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "fentanyl",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋"
+      },
+      {
+        "drug_a": "fentanyl",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加芬太尼血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低芬太尼血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "fentanyl",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "oxymorphone",
+    "interactions": [
+      {
+        "drug_a": "oxymorphone",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "oxymorphone",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和低血压风险",
+        "mechanism": "阿片类与MAOI协同中枢抑制"
+      },
+      {
+        "drug_a": "oxymorphone",
+        "drug_b": "gabapentinoids (gabapentin, pregabalin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和呼吸抑制风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "oxymorphone",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "oxymorphone",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen (oral route, rectal route)",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen (oral route, rectal route)",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen (oral route, rectal route)",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen (oral route, rectal route)",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen (oral route, rectal route)",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen (rectal)",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen (rectal)",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen (rectal)",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen (rectal)",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen (rectal)",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "diclofenac topical system (patch)",
+    "interactions": [
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡及出血风险（全身吸收低但不得排除）",
+        "mechanism": "协同抑制前列腺素合成，即使局部应用仍有全身吸收"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集，全身吸收后产生抗凝协同作用"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "附加抗血小板效应"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "methotrexate",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加甲氨蝶呤毒性风险",
+        "mechanism": "可能减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能降低利尿效果并增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同影响血小板功能"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增加锂血浓度",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "diclofenac topical system (patch)",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增加肾毒性",
+        "mechanism": "协同肾毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "meperidine (oral/injection)",
+    "interactions": [
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "发生5-羟色胺综合征（高热、抽搐、死亡）",
+        "mechanism": "哌替啶抑制5-HT再摄取，MAOI抑制5-HT代谢，导致5-HT危象"
+      },
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加哌替啶和毒性代谢物去甲哌替啶水平，导致癫痫和呼吸抑制",
+        "mechanism": "抑制CYP3A4和CYP2B6代谢"
+      },
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "SSRIs, SNRIs, tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征风险",
+        "mechanism": "协同5-HT活性"
+      },
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "CYP3A4 inducers (rifampin, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低镇痛效果，可能增加去甲哌替啶毒性",
+        "mechanism": "诱导代谢酶改变代谢途径"
+      },
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "meperidine (oral/injection)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "ibuprofen injection",
+    "interactions": [
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加锂血浓度及毒性",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "ibuprofen injection",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性",
+        "mechanism": "协同肾毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen Liquid",
+    "interactions": [
+      {
+        "drug_a": "Acetaminophen Liquid",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "Acetaminophen Liquid",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "Acetaminophen Liquid",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "Acetaminophen Liquid",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "fentanyl transdermal (skin patch)",
+    "interactions": [
+      {
+        "drug_a": "fentanyl transdermal (skin patch)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "fentanyl transdermal (skin patch)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋"
+      },
+      {
+        "drug_a": "fentanyl transdermal (skin patch)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加芬太尼血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl transdermal (skin patch)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低芬太尼血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl transdermal (skin patch)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "fentanyl transdermal (skin patch)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen Suspension Drops",
+    "interactions": [
+      {
+        "drug_a": "Acetaminophen Suspension Drops",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "Acetaminophen Suspension Drops",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "Acetaminophen Suspension Drops",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "Acetaminophen Suspension Drops",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen Dispersible Tablets",
+    "interactions": [
+      {
+        "drug_a": "Acetaminophen Dispersible Tablets",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "Acetaminophen Dispersible Tablets",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "Acetaminophen Dispersible Tablets",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "Acetaminophen Dispersible Tablets",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "Ibuprofen Chewable Tablets",
+    "interactions": [
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加锂血浓度及毒性",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "Ibuprofen Chewable Tablets",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性",
+        "mechanism": "协同肾毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen (injection)",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen (injection)",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen (injection)",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen (injection)",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen (injection)",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "tramadol hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征和癫痫发作风险",
+        "mechanism": "曲马多抑制5-HT再摄取，MAOI抑制5-HT代谢，协同5-HT蓄积"
+      },
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "SSRIs, SNRIs, tricyclic antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征和癫痫发作风险",
+        "mechanism": "协同5-羟色胺能作用，降低癫痫阈值"
+      },
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低曲马多镇痛效果",
+        "mechanism": "抑制曲马多经CYP2D6代谢为活性代谢物M1"
+      },
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "other serotonergic drugs (lithium, triptans)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加5-羟色胺综合征风险",
+        "mechanism": "相加的5-羟色胺能效应"
+      },
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "tramadol hydrochloride",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen Capsules and Tablets",
+    "interactions": [
+      {
+        "drug_a": "Acetaminophen Capsules and Tablets",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢"
+      },
+      {
+        "drug_a": "Acetaminophen Capsules and Tablets",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "Acetaminophen Capsules and Tablets",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "Acetaminophen Capsules and Tablets",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "fentanyl citrate (oral transmucosal)",
+    "interactions": [
+      {
+        "drug_a": "fentanyl citrate (oral transmucosal)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "fentanyl citrate (oral transmucosal)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋"
+      },
+      {
+        "drug_a": "fentanyl citrate (oral transmucosal)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加芬太尼血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl citrate (oral transmucosal)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低芬太尼血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl citrate (oral transmucosal)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "fentanyl citrate (oral transmucosal)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "meloxicam (intravenous route)",
+    "interactions": [
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加锂血浓度及毒性",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "meloxicam (intravenous route)",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性",
+        "mechanism": "协同肾毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "oxycodone (oral route)",
+    "interactions": [
+      {
+        "drug_a": "oxycodone (oral route)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "oxycodone (oral route)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制或5-羟色胺综合征风险",
+        "mechanism": "阿片类与MAOI协同CNS抑制和可能5-HT蓄积"
+      },
+      {
+        "drug_a": "oxycodone (oral route)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加羟考酮血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的羟考酮代谢"
+      },
+      {
+        "drug_a": "oxycodone (oral route)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低羟考酮血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速羟考酮代谢"
+      },
+      {
+        "drug_a": "oxycodone (oral route)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "oxycodone (oral route)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "Lidocaine Aerosol",
+    "interactions": [
+      {
+        "drug_a": "Lidocaine Aerosol",
+        "drug_b": "class I antiarrhythmics (e.g., mexiletine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加全身毒性风险（心脏或神经毒性）",
+        "mechanism": "相加的局麻药作用，特别是大量吸收时"
+      },
+      {
+        "drug_a": "Lidocaine Aerosol",
+        "drug_b": "other local anesthetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加全身毒性风险",
+        "mechanism": "相加的局麻药作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "lidocaine (topical application route)",
+    "interactions": [
+      {
+        "drug_a": "lidocaine (topical application route)",
+        "drug_b": "class I antiarrhythmics (e.g., mexiletine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加全身毒性风险（心脏或神经毒性）",
+        "mechanism": "相加的局麻药作用，特别是大量使用或破损皮肤吸收"
+      },
+      {
+        "drug_a": "lidocaine (topical application route)",
+        "drug_b": "other local anesthetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加全身毒性风险",
+        "mechanism": "相加的局麻药作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "morphine (injection route)",
+    "interactions": [
+      {
+        "drug_a": "morphine (injection route)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "morphine (injection route)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和低血压风险",
+        "mechanism": "MAOI与吗啡协同引起血流动力学改变和中枢抑制"
+      },
+      {
+        "drug_a": "morphine (injection route)",
+        "drug_b": "gabapentinoids (gabapentin, pregabalin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和呼吸抑制风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "morphine (injection route)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "morphine (injection route)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "吗啡可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "buprenorphine (oral/buccal)",
+    "interactions": [
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能增加呼吸抑制和5-羟色胺效应",
+        "mechanism": "MAOI延缓丁丙诺啡代谢，协同中枢抑制"
+      },
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加丁丙诺啡血浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的丁丙诺啡代谢"
+      },
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "full opioid agonists (e.g., morphine, oxycodone)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低全激动剂镇痛效果或诱发戒断症状",
+        "mechanism": "部分μ受体激动剂拮抗全激动剂效应"
+      },
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低丁丙诺啡水平，导致戒断或镇痛不足",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "buprenorphine (oral/buccal)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "menthol topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "butorphanol (injection)",
+    "interactions": [
+      {
+        "drug_a": "butorphanol (injection)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "butorphanol (injection)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能增加严重呼吸抑制",
+        "mechanism": "MAOI与阿片类激动-拮抗剂协同中枢抑制"
+      },
+      {
+        "drug_a": "butorphanol (injection)",
+        "drug_b": "full opioid agonists (e.g., morphine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低镇痛效果或诱发戒断症状",
+        "mechanism": "κ激动/μ拮抗剂拮抗全激动剂效应"
+      },
+      {
+        "drug_a": "butorphanol (injection)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "butorphanol (injection)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "buprenorphine transdermal (skin patch)",
+    "interactions": [
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能增加呼吸抑制和5-羟色胺效应",
+        "mechanism": "MAOI延缓丁丙诺啡代谢，协同中枢抑制"
+      },
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加丁丙诺啡血浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的丁丙诺啡代谢"
+      },
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "full opioid agonists (e.g., morphine, oxycodone)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低全激动剂镇痛效果或诱发戒断",
+        "mechanism": "部分μ受体激动剂拮抗全激动剂效应"
+      },
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低丁丙诺啡水平，导致戒断或镇痛不足",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "buprenorphine transdermal (skin patch)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "lidocaine hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "lidocaine hydrochloride",
+        "drug_b": "class I antiarrhythmics (e.g., mexiletine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加全身毒性风险（心脏或神经毒性）",
+        "mechanism": "相加的局麻药作用，特别是大量或破损皮肤使用"
+      },
+      {
+        "drug_a": "lidocaine hydrochloride",
+        "drug_b": "other local anesthetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加全身毒性风险",
+        "mechanism": "相加的局麻药作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "Diphenhydramine (topical)",
+    "interactions": [
+      {
+        "drug_a": "Diphenhydramine (topical)",
+        "drug_b": "CNS depressants (benzodiazepines, alcohol, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加嗜睡和中枢抑制风险（大面积或破损皮肤使用全身吸收增加）",
+        "mechanism": "相加的抗组胺能和中枢抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "clonidine (injection)",
+    "interactions": [
+      {
+        "drug_a": "clonidine (injection)",
+        "drug_b": "CNS depressants (benzodiazepines, opioids, alcohol)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同中枢抑制"
+      },
+      {
+        "drug_a": "clonidine (injection)",
+        "drug_b": "other antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压和心动过缓风险",
+        "mechanism": "相加的降压效应"
+      },
+      {
+        "drug_a": "clonidine (injection)",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加反跳性高血压风险（突然停药时）或加重心动过缓",
+        "mechanism": "交感神经张力反跳及相加的负性频率作用"
+      },
+      {
+        "drug_a": "clonidine (injection)",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低可乐定降压效果",
+        "mechanism": "三环类拮抗中枢α2受体"
+      }
+    ]
+  },
+  {
+    "generic_name": "morphine (injection)",
+    "interactions": [
+      {
+        "drug_a": "morphine (injection)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "morphine (injection)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和低血压风险",
+        "mechanism": "MAOI与吗啡协同引起血流动力学改变和中枢抑制"
+      },
+      {
+        "drug_a": "morphine (injection)",
+        "drug_b": "gabapentinoids (gabapentin, pregabalin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和呼吸抑制风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "morphine (injection)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "morphine (injection)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "吗啡可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "fentanyl (buccal/sublingual)",
+    "interactions": [
+      {
+        "drug_a": "fentanyl (buccal/sublingual)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "fentanyl (buccal/sublingual)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋"
+      },
+      {
+        "drug_a": "fentanyl (buccal/sublingual)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加芬太尼血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl (buccal/sublingual)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低芬太尼血浓度，导致镇痛不足或戒断症状",
+        "mechanism": "诱导CYP3A4加速芬太尼代谢"
+      },
+      {
+        "drug_a": "fentanyl (buccal/sublingual)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "fentanyl (buccal/sublingual)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "levorphanol (oral)",
+    "interactions": [
+      {
+        "drug_a": "levorphanol (oral)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "levorphanol (oral)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和低血压风险",
+        "mechanism": "阿片类与MAOI协同中枢抑制"
+      },
+      {
+        "drug_a": "levorphanol (oral)",
+        "drug_b": "gabapentinoids (gabapentin, pregabalin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和呼吸抑制风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "levorphanol (oral)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "levorphanol (oral)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "methadone (oral route)",
+    "interactions": [
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加5-羟色胺综合征、严重呼吸抑制风险",
+        "mechanism": "美沙酮具有5-HT再摄取抑制，MAOI致5-HT蓄积及协同中枢抑制"
+      },
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加美沙酮血药浓度，导致呼吸抑制和QT间期延长",
+        "mechanism": "抑制CYP3A4介导的美沙酮代谢"
+      },
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "QT-prolonging agents (Class Ia/III antiarrhythmics, macrolides, fluoroquinolones, antipsychotics)",
+        "interaction_type": "major",
+        "clinical_effect": "增加尖端扭转型室速风险",
+        "mechanism": "相加的QT间期延长效应"
+      },
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低美沙酮水平，导致戒断症状",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "methadone (oral route)",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "benzocaine (topical application route)",
+    "interactions": [
+      {
+        "drug_a": "benzocaine (topical application route)",
+        "drug_b": "methemoglobin-inducing agents (e.g., dapsone, nitrates, sulfonamides)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高铁血红蛋白血症风险",
+        "mechanism": "相加的氧化应激导致血红蛋白氧化"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen and benzhydrocodone",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量对乙酰氨基酚可能干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重呼吸抑制和高血压危象风险",
+        "mechanism": "阿片类与MAOI协同CNS抑制和交感兴奋"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)",
+        "interaction_type": "major",
+        "clinical_effect": "增加氢可酮血药浓度，导致呼吸抑制",
+        "mechanism": "抑制CYP3A4介导的氢可酮前药活化及代谢"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "CYP3A4 inducers (rifampin, carbamazepine, phenytoin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低氢可酮浓度，导致镇痛不足或戒断",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "acetaminophen and benzhydrocodone",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen, caffeine, and dihydrocodeine",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "长期或高剂量对乙酰氨基酚可能干扰华法林代谢"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "药效学协同CNS抑制"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起5-羟色胺综合征或严重呼吸抑制",
+        "mechanism": "双氢可待因与MAOI协同5-HT和CNS抑制"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低双氢可待因转化为活性代谢物，镇痛效果减弱",
+        "mechanism": "抑制CYP2D6介导的双氢可待因代谢活化"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "CYP1A2 inhibitors (fluvoxamine, ciprofloxacin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加咖啡因副作用（紧张、失眠、心悸）",
+        "mechanism": "抑制CYP1A2介导的咖啡因代谢"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "药效学协同抗胆碱能作用"
+      },
+      {
+        "drug_a": "acetaminophen, caffeine, and dihydrocodeine",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen and ibuprofen",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "对乙酰氨基酚可能干扰华法林代谢，布洛芬抑制血小板聚集"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导，增加NAPQI形成"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加对乙酰氨基酚的血药浓度及作用时间",
+        "mechanism": "抑制对乙酰氨基酚的葡萄糖醛酸化代谢"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "lithium",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加锂血浓度及毒性",
+        "mechanism": "减少锂的肾排泄"
+      },
+      {
+        "drug_a": "acetaminophen and ibuprofen",
+        "drug_b": "cyclosporine, tacrolimus",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肾毒性",
+        "mechanism": "协同肾毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+    "interactions": [
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险，需监测INR",
+        "mechanism": "对乙酰氨基酚干扰华法林代谢，水杨酰胺可能协同抗血小板"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "水杨酰胺抑制血小板聚集与抗凝协同作用"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "水杨酰胺与NSAIDs协同抑制前列腺素合成"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性",
+        "mechanism": "水杨酰胺减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "CNS depressants (benzodiazepines, alcohol, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静、嗜睡",
+        "mechanism": "苯托沙敏为第一代抗组胺药，相加中枢抑制"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能增强抗胆碱能作用和中枢抑制",
+        "mechanism": "MAOI延缓苯托沙敏代谢，增强抗组胺效应"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加口干、便秘、尿潴留风险",
+        "mechanism": "苯托沙敏的相加抗胆碱能作用"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "chronic alcohol use",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "对乙酰氨基酚经CYP2E1代谢毒性增加"
+      },
+      {
+        "drug_a": "Acetaminophen, Salicylamide, and Phenyltoloxamine",
+        "drug_b": "hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加肝毒性风险",
+        "mechanism": "CYP2E1诱导增加NAPQI形成"
+      }
+    ]
+  },
+  {
+    "generic_name": "aspirin and caffeine",
+    "interactions": [
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "other NSAIDs (including ibuprofen)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成，破坏胃黏膜保护"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "抑制血小板聚集及胃黏膜保护，协同抗凝作用"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "ACE inhibitors, ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾毒性风险",
+        "mechanism": "抑制前列腺素介导的肾血管扩张"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿效果，增加肾毒性",
+        "mechanism": "前列腺素抑制导致水钠潴留"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "SSRIs, SNRIs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "协同抑制血小板5-羟色胺摄取"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "药效学协同损伤胃黏膜"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "valproate",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加游离丙戊酸水平，可能增加毒性",
+        "mechanism": "阿司匹林置换血浆蛋白结合位点"
+      },
+      {
+        "drug_a": "aspirin and caffeine",
+        "drug_b": "CYP1A2 inhibitors (fluvoxamine, ciprofloxacin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加咖啡因副作用（紧张、失眠、心悸）",
+        "mechanism": "抑制CYP1A2介导的咖啡因代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "benzocaine topical",
+    "interactions": [
+      {
+        "drug_a": "benzocaine topical",
+        "drug_b": "methemoglobin-inducing agents (e.g., dapsone, nitrates, sulfonamides)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高铁血红蛋白血症风险",
+        "mechanism": "相加的氧化应激导致血红蛋白氧化"
+      }
+    ]
+  },
+  {
+    "generic_name": "Menthol Gel, Liquid, and Solution",
+    "interactions": []
+  },
+  {
+    "generic_name": "aspirin, carisoprodol, and codeine",
+    "interactions": [
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "other NSAIDs (including ibuprofen)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "协同抑制前列腺素合成"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "anticoagulants (warfarin, DOACs, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "阿司匹林抗血小板及胃黏膜损伤，协同抗凝"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "antiplatelet agents (clopidogrel, prasugrel)",
+        "interaction_type": "major",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "双重抗血小板效应"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性",
+        "mechanism": "阿司匹林减少甲氨蝶呤肾清除"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "benzodiazepines and other CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加深度镇静、呼吸抑制、昏迷和死亡风险",
+        "mechanism": "卡立普多、可待因与CNS抑制剂药效学协同"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起5-羟色胺综合征或严重呼吸抑制",
+        "mechanism": "可待因与MAOI协同5-HT和CNS抑制"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "CYP2C19 inhibitors (omeprazole, fluvoxamine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加卡立普多浓度，增强镇静",
+        "mechanism": "抑制卡立普多代谢为甲丙氨酯的CYP2C19通路"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低可待因镇痛效果",
+        "mechanism": "抑制CYP2D6介导的可待因转化为吗啡"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "valproate",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加游离丙戊酸水平",
+        "mechanism": "阿司匹林置换蛋白结合位点"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "anticholinergic drugs",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重便秘和尿潴留风险",
+        "mechanism": "可待因与抗胆碱能药协同"
+      },
+      {
+        "drug_a": "aspirin, carisoprodol, and codeine",
+        "drug_b": "diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿剂疗效",
+        "mechanism": "阿片类可能促进ADH释放"
+      }
+    ]
+  }
+]

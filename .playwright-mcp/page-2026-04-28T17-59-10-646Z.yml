@@ -1,0 +1,829 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e159] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e160]: 新对话
+          - button [ref=e161]:
+            - img [ref=e165]
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e100]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e108]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e110]: HIV药物禁忌症生成
+      - generic [ref=e111]:
+        - generic [ref=e112]: 昨天
+        - link "药物禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e114]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e116]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e118]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e120]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e122]: 药物适应症列表生成
+      - generic [ref=e123]:
+        - generic [ref=e124]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e126]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e128]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e130]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e132]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e134]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e136]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e138]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e140]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e142]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e144]
+      - generic [ref=e147]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e169]:
+      - generic [ref=e171]:
+        - generic [ref=e172] [cursor=pointer]: 新对话
+        - generic [ref=e173]:
+          - img [ref=e175]
+          - generic [ref=e177]: 专家模式
+      - button [ref=e178] [cursor=pointer]:
+        - img [ref=e181]
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - generic [ref=e189]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: anakinra | 类别: Antirheumatics, Interleukin inhibitors | 适应症: rheumatoid arthritis|cryopyrin-associated periodic syndromes|gout flares|macrophage activation syndrome|interleukin-1 receptor antagonist deficiency | 妊娠分级: B COVID-19 (coronavirus 2019) vaccine, Moderna | 类别: Viral vaccines | 适应症: prevention of coronavirus disease 2019 (covid-19) | 妊娠分级: N baricitinib | 类别: Antirheumatics, Selective immunosuppressants | 适应症: rheumatoid arthritis|atopic dermatitis|alopecia areata | 妊娠分级: N molnupiravir | 类别: Miscellaneous antivirals | 适应症: covid-19 | 妊娠分级: N casirivimab and imdevimab | 类别: Antiviral combinations | 适应症: covid-19 | 妊娠分级: N sotrovimab | 类别: Miscellaneous antivirals | 适应症: covid-19 | 妊娠分级: N molnupiravir (oral route) | 类别: Miscellaneous antivirals | 适应症: covid-19 | 妊娠分级: N bebtelovimab | 类别: Miscellaneous antivirals | 适应症: covid-19 | 妊娠分级: N COVID-19 Vaccine, mRNA | 类别: Viral vaccines | 适应症: covid-19 prevention | 妊娠分级: N nirmatrelvir and ritonavir Brand name: Paxlovid | 类别: Antiviral combinations | 适应症: treatment of mild to moderate coronavirus disease 2019 (covid-19) in high-risk patients aged 12 years and older | 妊娠分级: N COVID-19 (coronavirus 2019, 5y-11) bivalent booster vaccine, Pfizer | 类别: Viral vaccines | 适应症: covid-19 prevention in children 5-11 years | 妊娠分级: N COVID-19 (coronavirus 2019, 12y+) bivalent booster vaccine, Pfizer | 类别: Viral vaccines | 适应症: covid-19 prevention in individuals 12 years and older | 妊娠分级: N COVID-19 (coronavirus 2019, 6m-4y) vaccine, Pfizer | 类别: Viral vaccines | 适应症: covid-19 prevention in children 6 months to 4 years | 妊娠分级: N COVID-19 (coronavirus 2019, 6m-5y) vaccine, Moderna | 类别: Viral vaccines | 适应症: prevention of coronavirus disease 2019 (covid-19) | 妊娠分级: N COVID-19 (coronavirus 2019, 6y-11y) vaccine, Moderna | 类别: Viral vaccines | 适应症: prevention of coronavirus disease 2019 (covid-19) | 妊娠分级: N venlafaxine hydrochloride | 类别: Serotonin-norepinephrine reuptake inhibitors | 适应症: major depressive disorder|generalized anxiety disorder|social anxiety disorder|panic disorder | 妊娠分级: C l-methylfolate | 类别: Vitamins | 适应症: major depressive disorder (adjunctive therapy)|schizophrenia (adjunctive therapy)|hyperhomocysteinemia|folate deficiency | 妊娠分级: N bupropion hydrochloride | 类别: Miscellaneous antidepressants | 适应症: attention deficit hyperactivity disorder|major depressive disorder|seasonal affective disorder|smoking cessation | 妊娠分级: C bupropion (oral route) | 类别: Miscellaneous antidepressants | 适应症: major depressive disorder|seasonal affective disorder|smoking cessation | 妊娠分级: C bupropion hydrobromide extended-release tablets | 类别: Miscellaneous antidepressants | 适应症: major depressive disorder|seasonal affective disorder | 妊娠分级: C trazodone (oral route) | 类别: Phenylpiperazine antidepressants | 适应症: major depressive disorder|insomnia | 妊娠分级: C levomilnacipran | 类别: Serotonin-norepinephrine reuptake inhibitors | 适应症: major depressive disorder | 妊娠分级: C tranylcypromine | 类别: Monoamine oxidase inhibitors | 适应症: major depressive disorder|treatment-resistant depression | 妊娠分级: N amoxapine | 类别: Tricyclic antidepressants | 适应症: major depressive disorder|anxiety|psychotic depression | 妊娠分级: C nortriptyline (oral route) | 类别: Tricyclic antidepressants | 适应症: major depressive disorder|neuropathic pain|smoking cessation|attention deficit hyperactivity disorder | 妊娠分级: N selegiline (transdermal) | 类别: Dopaminergic antiparkinsonism agents, Monoamine oxidase inhibitors | 适应症: major depressive disorder | 妊娠分级: C ketamine | 类别: General anesthetics | 适应症: induction and maintenance of general anesthesia|procedural sedation|treatment-resistant depression|acute pain | 妊娠分级: N desipramine (oral route) | 类别: Tricyclic antidepressants | 适应症: major depressive disorder|attention deficit hyperactivity disorder|neuropathic pain | 妊娠分级: N isocarboxazid | 类别: Monoamine oxidase inhibitors | 适应症: major depressive disorder|social anxiety disorder|panic disorder | 妊娠分级: C protriptyline (oral route) | 类别: Tricyclic antidepressants | 适应症: major depressive disorder|attention deficit hyperactivity disorder|obstructive sleep apnea | 妊娠分级: N esketamine (nasal) | 类别: Miscellaneous antidepressants | 适应症: treatment-resistant depression|major depressive disorder with acute suicidal ideation or behavior | 妊娠分级: N Methylfolate | 类别: Vitamins | 适应症: major depressive disorder (adjunctive therapy)|schizophrenia (adjunctive therapy)|hyperhomocysteinemia|folate deficiency | 妊娠分级: N protriptyline | 类别: Tricyclic antidepressants | 适应症: major depressive disorder|attention deficit hyperactivity disorder|obstructive sleep apnea | 妊娠分级: N trimipramine (oral route) | 类别: Tricyclic antidepressants | 适应症: major depressive disorder|insomnia|anxiety | 妊娠分级: C thyroid (desiccated) | 类别: Thyroid drugs | 适应症: hypothyroidism|thyroid cancer (tsh suppression)|goiter | 妊娠分级: A insulin glargine | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C insulin aspart and insulin aspart protamine | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: B Insulin Lispro (U-200) Pens | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: B insulin degludec | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C insulin isophane | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus|gestational diabetes mellitus | 妊娠分级: B insulin regular | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus|hyperkalemia|diabetic ketoacidosis | 妊娠分级: B insulin human | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus|gestational diabetes mellitus | 妊娠分级: C insulin isophane and insulin regular | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: B insulin lispro and insulin lispro protamine | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: B insulin glargine-aglr, recombinant (subcutaneous route) | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C Insulin Glargine (U-300) Pens | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C insulin regular, concentrated (U-500) | 类别: Insulin | 适应症: type 1 diabetes mellitus with severe insulin resistance|type 2 diabetes mellitus with severe insulin resistance | 妊娠分级: B octreotide (oral/injection) | 类别: Somatostatin and somatostatin analogs | 适应症: vasoactive intestinal peptide tumors|esophageal varices bleeding|acromegaly|carcinoid tumors | 妊娠分级: B insulin (inhalation) | 类别: Insulin | 适应症: type 1 diabetes mellitus | 妊娠分级: C insulin degludec Brand name: Tresiba | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e192]:
+            - button [ref=e193] [cursor=pointer]:
+              - img [ref=e196]
+            - button [ref=e198] [cursor=pointer]:
+              - img [ref=e201]
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e207] [cursor=pointer]:
+              - img [ref=e209]
+              - generic [ref=e212]: 已思考（用时 132 秒）
+              - img [ref=e214]
+            - generic [ref=e220]:
+              - paragraph [ref=e221]: 我们被要求输出JSON，只输出JSON。需要为每个药物生成完整的禁忌症列表。注意药物列表中有重复或变体（如不同品牌、不同剂型），但要求是针对每个输入生成独立的条目。需要输出一个JSON数组，每个元素对应一个药物。注意不要输出任何解释文本。
+              - paragraph [ref=e222]: 我们要根据每个药物的类别、适应症、妊娠分级等信息推断禁忌症。禁忌症分为疾病禁忌、过敏类型、生理状态禁忌、药物类禁忌。严重程度分为绝对和相对。
+              - paragraph [ref=e223]: 需要确保禁忌症具体且临床相关。对于组合药物，需要列出每个成分的禁忌症。但输入中的组合很少：casirivimab and imdevimab，以及nirmatrelvir and ritonavir，insulin aspart and insulin aspart protamine等。要列出每个成分的禁忌症？对于单克隆抗体组合，可能成分都是单抗，禁忌症类似。对于Paxlovid，有nirmatrelvir和ritonavir，ritonavir是CYP3A强抑制剂，有很多药物相互作用禁忌。但这里要求禁忌症类型有drug_class，例如与CYP3A底物等。我需要推断。
+              - paragraph [ref=e255]: 对于COVID-19疫苗，禁忌症通常包括对前一剂或成分过敏等。妊娠分级N表示未分级，但通常疫苗在妊娠期不是绝对禁忌，而是相对。需要谨慎。
+              - paragraph [ref=e256]: 我将根据专业知识和通用信息构建禁忌症。注意输出JSON。
+              - paragraph [ref=e257]: 我会一一生成每个药物的禁忌症。确保没有解释文本，只输出JSON。
+              - paragraph [ref=e258]: 开始构建JSON数组。药物列表按照给出的顺序。我需注意每个药物名字准确。包括剂型信息的也作为不同药物。
+              - paragraph [ref=e259]: 下面逐个分析：
+              - list [ref=e260]:
+                - listitem [ref=e261]:
+                  - paragraph [ref=e262]: anakinra：白介素-1受体拮抗剂，用于类风湿关节炎、CAPS等。禁忌症：对anakinra或大肠杆菌衍生蛋白过敏；活动性严重感染（如败血症），因为免疫抑制；中性粒细胞减少症（ANC < 1.5 x 10^9/L）时禁止开始治疗；同时使用TNF阻滞剂会增加严重感染风险，相对禁忌；妊娠分级B，动物未见风险，但缺少人类数据，属于相对禁忌；哺乳期慎用；儿童<2岁不推荐（相对）。绝对禁忌：过敏、活动性严重感染。药物类：与TNF抑制剂合用增加感染风险相对。生理状态：妊娠和哺乳相对。疾病：严重肾损害（CrCl<30mL/min）可能需要调整但非禁忌？anakinra由肾脏排泄，严重肾功能不全慎用，相对禁忌。
+                - listitem [ref=e263]:
+                  - paragraph [ref=e264]: COVID-19 vaccine, Moderna (mRNA疫苗)：禁忌症：对疫苗任何成分（如PEG，聚乙二醇，tromethamine等）有严重过敏史（anaphylaxis）; 对先前相同疫苗或mRNA疫苗有严重过敏反应。相对禁忌：急性发热性疾病（暂缓接种）；血小板减少症或凝血功能障碍（肌肉注射出血风险）；免疫缺陷（可能有效性降低但非禁忌）；妊娠N，但通常认为可接种，非禁忌。生理状态：未批准用于特定年龄以下？适应症是预防COVID-19，未提及年龄限制，但一般适用于成人和儿童。对婴幼儿可能尚未批准？但这里没有年龄，认为是通用。绝对禁忌：对前剂或成分严重过敏。相对禁忌：急性严重发热疾病。
+                - listitem [ref=e265]:
+                  - paragraph [ref=e266]: baricitinib：JAK抑制剂，用于RA、特应性皮炎、斑秃。禁忌症：绝对：活动性严重感染包括结核；淋巴细胞绝对计数<0.5 x 10^9/L, ANC <1 x 10^9/L, 血红蛋白 <8 g/dL 时不应启动；严重肝功能损害；妊娠（基于动物研究有生殖毒性，妊娠分级N但应避免）；哺乳期（相对）。相对：复发感染史；血栓栓塞风险（JAK抑制剂增加血栓风险，尤其在有风险因素者）；恶性肿瘤史；与生物DMARD或强免疫抑制剂合用（增加免疫抑制）；同时使用OAT3底物（可能抑制OAT3，增加药物浓度，如baricitinib是OAT3抑制剂，但可能增加其他药毒性），药物相互作用的相对禁忌。绝对禁忌：已知过敏；活动性严重感染；严重血液学异常；严重肝损伤；妊娠。
+                - listitem [ref=e267]:
+                  - paragraph [ref=e268]: molnupiravir：抗病毒药，用于COVID-19。禁忌症：妊娠（绝对禁忌，动物研究显示胚胎-胎儿毒性，妊娠分级N，但基于机制和动物数据，不应用于妊娠期）；哺乳期（治疗期间和治疗后4天内停止哺乳）；对成分过敏；严重肾功能损害（eGFR <30 mL/min/1.73 m2，缺乏数据，不推荐）；儿童（<18岁，可能影响骨骼和软骨发育，相对禁忌，未授权用于儿童）。绝对禁忌：妊娠，过敏。相对禁忌：哺乳期，严重肾功能不全，儿科。
+                - listitem [ref=e269]:
+                  - paragraph [ref=e270]: casirivimab and imdevimab：两种单克隆抗体组合（抗SARS-CoV-2刺突蛋白）。禁忌症：过敏史；妊娠哺乳期安全性未建立，相对禁忌。无特定疾病禁忌，但用于COVID-19治疗。绝对：对任何成分严重过敏。相对：妊娠，哺乳。
+                - listitem [ref=e271]:
+                  - paragraph [ref=e272]: sotrovimab：单抗。禁忌症：过敏；妊娠哺乳相对；无特定疾病禁忌。绝对：过敏史（尤其是对sotrovimab或辅料）。相对：妊娠，哺乳。
+                - listitem [ref=e273]:
+                  - paragraph [ref=e274]: molnupiravir (oral route)：与前面molnupiravir相同，列出同样禁忌症。
+                - listitem [ref=e275]:
+                  - paragraph [ref=e276]: bebtelovimab：单抗，用于COVID-19。禁忌症：过敏；妊娠哺乳相对；类似sotrovimab。绝对：对bebtelovimab或任何成分过敏（包括聚山梨酯等）。相对：妊娠，哺乳。
+                - listitem [ref=e277]:
+                  - paragraph [ref=e278]: COVID-19 Vaccine, mRNA：通用mRNA疫苗，可能指Moderna或Pfizer，根据成分。禁忌症类似Moderna疫苗：对PEG或相关成分严重过敏；对前一剂mRNA疫苗严重过敏。相对：急性发热疾病。
+                - listitem [ref=e279]:
+                  - paragraph [ref=e280]: nirmatrelvir and ritonavir (Paxlovid)：两种药物组合：nirmatrelvir是SARS-CoV-2蛋白酶抑制剂，ritonavir是CYP3A抑制剂，用于增强。禁忌症：
+              - list [ref=e281]:
+                - listitem [ref=e282]:
+                  - paragraph [ref=e283]: 对nirmatrelvir、ritonavir或任何辅料过敏。
+                - listitem [ref=e284]:
+                  - paragraph [ref=e285]: 强CYP3A诱导剂药物合用，因会显著降低nirmatrelvir和ritonavir浓度，导致病毒学应答丧失和潜在耐药，例如：卡马西平、苯巴比妥、苯妥英、利福平、圣约翰草等。绝对禁忌症。
+                - listitem [ref=e286]:
+                  - paragraph [ref=e287]: 由于ritonavir是CYP3A强抑制剂，与某些主要经CYP3A代谢且浓度升高会导致严重和/或危及生命的反应的药物合用：如阿夫唑嗪、哌替啶、吡罗昔康、丙氧芬、胺碘酮、决奈达隆、雷诺嗪、氯氮平、喹硫平、鲁拉西酮、匹莫齐特、麦角衍生物、西沙必利、洛伐他汀、辛伐他汀、西地那非（当用于肺动脉高压时）、地西泮、口服咪达唑仑、三唑仑等。这些是绝对禁忌（与高度依赖CYP3A清除的药物合用，且血药浓度升高可致严重事件）。
+                - listitem [ref=e288]:
+                  - paragraph [ref=e289]: 严重肝功能损害（Child-Pugh C级）禁用，因ritonavir主要经肝脏代谢，nirmatrelvir也经肝脏代谢，肝损加重。
+                - listitem [ref=e290]:
+                  - paragraph [ref=e291]: 严重肾功能损害（eGFR <30 mL/min）禁忌nirmatrelvir（因无法调整剂量，且赋形剂蓄积风险），中度肾损需减量。绝对禁忌严重肾损。
+                - listitem [ref=e292]:
+                  - paragraph [ref=e293]: 相对禁忌：中度肝功能损害；与CYP3A底物但可能通过监测调整，还要注意许多药物相互作用。
+              - paragraph [ref=e294]: 因此禁忌症：疾病：严重肝损伤（Child-Pugh C）、严重肾功能不全（eGFR<30）。药物类：CYP3A强诱导剂、CYP3A窄治疗指数底物。生理：妊娠分级N，动物研究无致畸但缺乏人类数据，相对禁忌，哺乳期相对。要列出很多具体药物类禁忌。
+              - list [ref=e295]:
+                - listitem [ref=e296]:
+                  - paragraph [ref=e297]: COVID-19 bivalent booster vaccine, Pfizer (5-11y)：禁忌症：对疫苗任何成分（PEG、等）严重过敏；对前一剂辉瑞疫苗严重过敏。相对：急性发热。此年龄组批准，所以儿科不是禁忌，已经是适应症人群。
+                - listitem [ref=e298]:
+                  - paragraph [ref=e299]: COVID-19 bivalent booster vaccine, Pfizer (12y+)：类似，对成分过敏史绝对禁忌。
+                - listitem [ref=e300]:
+                  - paragraph [ref=e301]: COVID-19 vaccine, Pfizer (6m-4y)：禁忌症：对成分过敏史绝对禁忌。
+                - listitem [ref=e302]:
+                  - paragraph [ref=e303]: COVID-19 vaccine, Moderna (6m-5y)：对成分过敏绝对禁忌。
+                - listitem [ref=e304]:
+                  - paragraph [ref=e305]: COVID-19 vaccine, Moderna (6y-11y)：对成分过敏绝对禁忌。
+                - listitem [ref=e306]:
+                  - paragraph [ref=e307]: venlafaxine hydrochloride：SNRI。禁忌症：绝对：同时使用单胺氧化酶抑制剂（MAOIs），包括利奈唑胺、亚甲蓝等，因可致5-HT综合征；对文拉法辛过敏。相对：未控制的窄角型青光眼；严重心脏疾病如近期心肌梗死、不稳定心脏病；高血压未控制（可升高血压）；癫痫病史；低钠血症风险；妊娠分级C，晚期妊娠使用可能导致新生儿持续肺动脉高压和撤药综合征，相对；哺乳期；双相情感障碍可诱发躁狂；同时使用其他5-HT能药物（曲普坦、SSRIs等）增加血清素综合征风险，相对。疾病：窄角型青光眼，未控制高血压，癫痫。生理：妊娠，哺乳。药物类：MAOIs（绝对），其他5-HT能药物（相对）。
+                - listitem [ref=e308]:
+                  - paragraph [ref=e309]: l-methylfolate：叶酸活性形式。禁忌症：对成分过敏；注意叶酸可能掩盖恶性贫血的血液学表现，但不可逆转神经损害，因此未纠正的维生素B12缺乏导致的巨幼细胞性贫血是一个相对禁忌（使用前排除B12缺乏）。绝对禁忌：过敏。相对：未治疗的维生素B12缺乏。
+                - listitem [ref=e310]:
+                  - paragraph [ref=e311]: bupropion hydrochloride：NDRI。禁忌症：绝对：癫痫发作病史或现患癫痫；进食障碍（神经性厌食症或贪食症）目前或既往史，因会增加癫痫发作风险；突然停用酒精、镇静剂、抗癫痫药等；同时使用MAOIs（必须间隔14天）；对安非他酮过敏；严重肝损伤；脑肿瘤。相对：双相障碍可诱发躁狂；近期心肌梗死或不稳定心脏病；窄角型青光眼；妊娠分级C；哺乳期；同时使用其他降低癫痫阈值的药物（如抗精神病药、皮质类固醇、茶碱等）。疾病：癫痫、进食障碍、严重肝硬化。药物：MAOIs绝对。生理：妊娠、哺乳相对。
+                - listitem [ref=e312]:
+                  - paragraph [ref=e313]: bupropion (oral route)：同bupropion hydrochloride，相同。
+                - listitem [ref=e314]:
+                  - paragraph [ref=e315]: bupropion hydrobromide extended-release tablets：同样，禁忌类似。
+                - listitem [ref=e316]:
+                  - paragraph [ref=e317]: trazodone：SARI。禁忌症：绝对：同时使用MAOIs；对曲唑酮过敏；从急性心肌梗死恢复期（相对？通常慎用）。相对：心律失常史、QT延长；肝肾功能损害；妊娠C；哺乳；双相抑郁可能诱发躁狂；老年人低血压和镇静。注意曲唑酮有α1阻断作用，可引起体位性低血压，严重低血压相对禁忌。药物类：MAOIs绝对。
+                - listitem [ref=e318]:
+                  - paragraph [ref=e319]: levomilnacipran：SNRI。禁忌症：与MAOIs合用绝对禁忌；对左旋米那普仑过敏；未控制的窄角型青光眼。相对：心血管疾病如未控制高血压、心动过速、近期心肌梗死；癫痫；低钠血症；出血风险（与抗凝药合用）；肝功能损害；重度肾损（需减量），终末期肾病（ESRD）不推荐；妊娠C；哺乳；同时使用5-HT能药物。药物类：MAOIs绝对。
+                - listitem [ref=e320]:
+                  - paragraph [ref=e321]: tranylcypromine：MAOI。禁忌症：绝对：同时使用其他MAOIs或利奈唑胺、哌替啶、曲马多、SSRIs、SNRIs、TCAs、NDRIs、曲坦类药物、拟交感神经胺（包括减充血剂、兴奋剂）、右美沙芬、多巴胺等，因为可导致高血压危象或5-HT综合征；同时需要富含酪胺的饮食限制，但这不是禁忌症，而是预防措施。禁忌：严重心脏病、脑血管疾病、嗜铬细胞瘤（高血压危象风险）；肝功能损害；对反苯环丙胺过敏；计划进行择期手术需要麻醉（相对禁忌），因为与麻醉药相互作用。绝对禁忌：同时使用上述药物；嗜铬细胞瘤；心血管疾病如冠脉疾病、心力衰竭。相对：妊娠N，但常避免使用；哺乳；癫痫。药物类广泛。
+                - listitem [ref=e322]:
+                  - paragraph [ref=e323]: amoxapine：三环类抗抑郁药，也代谢为洛沙平，有抗精神病特性。禁忌症：绝对：同时使用MAOIs；急性心肌梗死恢复期（相对，但通常禁用TCAs）；对阿莫沙平过敏；严重肝损伤；癫痫发作史（因降低癫痫阈值）；心律失常（尤其是QT延长、束支阻滞）。相对：窄角型青光眼；前列腺增生尿潴留；甲状腺功能亢进；妊娠C；哺乳；同时使用CYP2D6抑制剂；有自杀风险。药物类：MAOIs绝对。
+                - listitem [ref=e324]:
+                  - paragraph [ref=e325]: nortriptyline (oral route)：TCA。禁忌症：绝对：同时使用MAOIs；急性心肌梗死恢复期；对去甲替林过敏；严重肝损伤。相对：窄角型青光眼；尿潴留；心律失常（如传导阻滞）；癫痫；甲状腺功能亢进；妊娠N（但权衡）；哺乳；老年人；同时使用多种药物。疾病：心肌梗死恢复期、心律失常。药物：MAOIs绝对。
+                - listitem [ref=e326]:
+                  - paragraph [ref=e327]: selegiline (transdermal)：MAOI透皮贴剂，用于抑郁症。禁忌症：绝对：同时使用其他MAOIs，哌替啶、曲马多、SSRIs、SNRIs、TCAs、安非他酮、米氮平、曲坦类、拟交感神经药、减充血剂（含伪麻黄碱等）、右美沙芬、圣约翰草等，易致5-HT综合征或高血压危象。贴片6mg/24h以上需要饮食酪胺限制；低剂量透皮可能不需饮食限制，但高剂量需要。肝损害；嗜铬细胞瘤；对司来吉兰过敏。相对：心血管疾病；精神分裂症等精神病史；妊娠C；哺乳；帕金森病合用左旋多巴可能增加不良反应。药物类更多。
+                - listitem [ref=e328]:
+                  - paragraph [ref=e329]: ketamine：麻醉药。禁忌症：绝对：对氯胺酮过敏；任何情况是血压或颅内压显著升高会构成危险的患者（如严重高血压、颅内压升高、眼内压升高、脑动脉瘤、头部外伤）；严重心血管疾病如失代偿性心力衰竭、近期心肌梗死；妊娠（诱发宫缩？相对，但用于麻醉可能，分级N）；精神病如精神分裂症（可加重）。相对：眼内压增高（青光眼）；卟啉病；甲状腺功能亢进未被控制；酒精中毒；哺乳。
+                - listitem [ref=e330]:
+                  - paragraph [ref=e331]: desipramine (oral route)：TCA。禁忌症：同去甲替林类似，MAOIs绝对禁忌；急性心梗恢复期；过敏。相对：窄角青光眼、尿潴留、心律失常、癫痫、甲状腺功能亢进、妊娠N、哺乳等。
+                - listitem [ref=e332]:
+                  - paragraph [ref=e333]: isocarboxazid：MAOI。禁忌症：与反苯环丙胺类似，绝对禁忌：同时使用SSRIs、SNRIs、TCAs、其他MAOIs、哌替啶、曲马多、拟交感药、右美沙芬、多巴胺、酪胺含量高的食物（需避免），但因服用药物后必须遵循饮食限制；严重心脏病、脑血管疾病、嗜铬细胞瘤、肝病。过敏。相对：妊娠C；哺乳；精神分裂症等。
+                - listitem [ref=e334]:
+                  - paragraph [ref=e335]: protriptyline (oral route)：TCA。禁忌症：MAOIs绝对禁忌；急性心梗恢复期；过敏；严重肝病。相对：窄角青光眼、尿潴留、心律失常、癫痫、甲亢、妊娠N、哺乳。
+                - listitem [ref=e336]:
+                  - paragraph [ref=e337]: esketamine (nasal)：用于耐药抑郁和急性自杀意念。禁忌症：绝对：对艾司氯胺酮、氯胺酮或任何辅料过敏；动脉瘤性血管疾病（包括胸腹主动脉、颅内动脉）或动静脉畸形；脑内出血病史；未受控制的高血压；同时使用MAOIs？艾司氯胺酮与MAOIs无已知严重相互作用，但可能引起血压升高；注意可能镇静、解离。禁忌症包括：狭窄未控制高血压，动脉瘤等。相对：精神病史；妊娠（分级N，但动物有发育毒性）；哺乳；物质使用障碍风险；肝功能损害。
+                - listitem [ref=e338]:
+                  - paragraph [ref=e339]: Methylfolate：与l-methylfolate相同。禁忌症：过敏，未治疗维生素B12缺乏相对。
+                - listitem [ref=e340]:
+                  - paragraph [ref=e341]: protriptyline：与protriptyline oral route一样。禁忌症相同。
+                - listitem [ref=e342]:
+                  - paragraph [ref=e343]: trimipramine (oral route)：TCA。禁忌症：MAOIs绝对；急性心梗恢复期；过敏；严重肝病。相对：窄角青光眼、尿潴留、心律失常、癫痫、甲亢、妊娠C、哺乳。
+                - listitem [ref=e344]:
+                  - paragraph [ref=e345]: thyroid (desiccated)：甲状腺片。禁忌症：绝对：未纠正的肾上腺皮质功能不全（甲状腺激素增加代谢，可诱发肾上腺危象）；急性心肌梗死、未控制的高血压、心绞痛等（甲状腺激素增加心肌耗氧）；甲状腺毒症。相对：心血管疾病如心律不齐；糖尿病（增加胰岛素需求）；骨质疏松；妊娠A（可安全使用，但需调整剂量），不是禁忌。药物：与口服抗凝药等相互作用但非禁忌。
+                - listitem [ref=e346]:
+                  - paragraph [ref=e347]: insulin glargine：胰岛素。禁忌症：绝对：低血糖；对胰岛素glargine或任何辅料过敏。相对：肝肾功能不全（需调整剂量）；妊娠C；哺乳期；同时使用噻唑烷二酮类（TZDs）可增加心衰风险，相对。
+                - listitem [ref=e348]:
+                  - paragraph [ref=e349]: insulin aspart and insulin aspart protamine：胰岛素。禁忌症：低血糖；过敏。相对：肝肾功能不全，妊娠B，相对安全；TZDs等。
+                - listitem [ref=e350]:
+                  - paragraph [ref=e351]: Insulin Lispro (U-200) Pens：低血糖；过敏。相对：肝肾功能不全，妊娠B。
+                - listitem [ref=e352]:
+                  - paragraph [ref=e353]: insulin degludec：低血糖；过敏。相对：肝肾功能不全，妊娠C。
+                - listitem [ref=e354]:
+                  - paragraph [ref=e355]: insulin isophane (NPH)：低血糖；过敏。相对：肝肾功能不全，妊娠B；TZDs。
+                - listitem [ref=e356]:
+                  - paragraph [ref=e357]: insulin regular：低血糖；过敏。相对：肝肾功能不全，妊娠B；静脉使用注意低钾血症等。
+                - listitem [ref=e358]:
+                  - paragraph [ref=e359]: insulin human：同regular和NPH组合，低血糖；过敏。妊娠C。
+                - listitem [ref=e360]:
+                  - paragraph [ref=e361]: insulin isophane and insulin regular (70/30等)：低血糖；过敏。相对：妊娠B。
+                - listitem [ref=e362]:
+                  - paragraph [ref=e363]: insulin lispro and insulin lispro protamine：低血糖；过敏。相对：妊娠B。
+                - listitem [ref=e364]:
+                  - paragraph [ref=e365]: insulin glargine-aglr, recombinant (皮下)：同insulin glargine。
+                - listitem [ref=e366]:
+                  - paragraph [ref=e367]: Insulin Glargine (U-300) Pens：低血糖；过敏。
+                - listitem [ref=e368]:
+                  - paragraph [ref=e369]: insulin regular, concentrated (U-500)：低血糖；过敏；注意严重胰岛素抵抗患者使用，但禁忌仍是低血糖。相对：肝肾功能不全。
+                - listitem [ref=e370]:
+                  - paragraph [ref=e371]: octreotide (oral/injection)：生长抑素类似物。禁忌症：对奥曲肽或任何成分过敏。相对：胆结石或胆汁淤积（可导致胆石症）；糖尿病（影响血糖控制）；甲状腺功能减退（抑制TSH）；心血管疾病如心动过缓、心律失常；妊娠B；哺乳。疾病：严重肝功能衰竭？没有绝对禁忌，有胆石症相对。
+                - listitem [ref=e372]:
+                  - paragraph [ref=e373]: insulin (inhalation)：吸入胰岛素。禁忌症：低血糖；过敏；慢性肺病如哮喘、COPD（因可能导致支气管痉挛或肺功能恶化）；急性支气管痉挛；吸烟者（增加胰岛素吸收，低血糖风险）。相对：吸烟、肺功能下降。疾病：哮喘、COPD绝对? 吸入胰岛素在肺病患者中禁忌。所以绝对禁忌：慢性肺病（哮喘、COPD等）；对胰岛素或辅料过敏；低血糖。
+                - listitem [ref=e374]:
+                  - paragraph [ref=e375]: "insulin degludec Brand name: Tresiba：与39相同，低血糖；过敏；相对肝肾损害、妊娠C。"
+              - paragraph [ref=e376]: 遵循这些构建JSON。需要为每个药物生成列表。输出时将按顺序列出。注意不要遗漏任何药物。我会仔细检查每个。
+              - paragraph [ref=e377]: 开始生成JSON。
+          - paragraph [ref=e379]:
+            - text: "["
+            - text: "{"
+            - text: "\"generic_name\": \"anakinra\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to anakinra or E. coli-derived proteins\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of allergic reactions including anaphylaxis\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"active severe infections (including sepsis)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Immunosuppression may worsen infection\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"neutropenia (ANC <1.5 x10^9/L) prior to initiation\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased risk of serious infection\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant use of TNF-alpha inhibitors\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Increased risk of severe infections without added efficacy\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Reduced drug clearance, accumulation risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Limited human data; only if clearly needed (Pregnancy Category B)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Excretion in breast milk unknown; caution advised\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 (coronavirus 2019) vaccine, Moderna\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction (e.g., anaphylaxis) to a previous dose of this vaccine or to any component, including PEG\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of life-threatening hypersensitivity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to a previous mRNA COVID-19 vaccine\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Cross-reactive hypersensitivity risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute moderate to severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Vaccination may be deferred to avoid diagnostic confusion or worsening\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"thrombocytopenia or coagulation disorder\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Intramuscular injection may cause bleeding\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Can be offered; risk-benefit assessment (Pregnancy Category N)\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"baricitinib\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to baricitinib or excipients\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic reactions including anaphylaxis\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"active serious infections, including tuberculosis\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"JAK inhibition increases infection risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"absolute lymphocyte count <0.5 x10^9/L, ANC <1 x10^9/L, or hemoglobin <8 g/dL\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Do not initiate in severe cytopenias\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Not studied; potential for increased toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Animal reproductive toxicity; avoid pregnancy during and after treatment (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Excreted in animal milk; avoid during treatment\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of recurrent infections\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Weigh benefit-risk; increased infection risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant use of biologic DMARDs or strong immunosuppressants\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Additive immunosuppression\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"venous thromboembolism risk factors\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"JAK inhibitors associated with increased thrombotic events\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"coadministration with OAT3 substrates with narrow therapeutic index\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Baricitinib inhibits OAT3 and may increase exposure\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"molnupiravir\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Animal studies show embryo-fetal toxicity; not recommended in pregnancy (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to molnupiravir or any excipient\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic reaction potential\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Breastfeeding not recommended during treatment and for 4 days after last dose\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe renal impairment (eGFR <30 mL/min/1.73 m2)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Lack of data; not recommended\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pediatric use (<18 years)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"May affect bone and cartilage growth; not authorized for children\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"casirivimab and imdevimab\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hypersensitivity to casirivimab, imdevimab, or any excipient\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of anaphylaxis\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Limited human data; use only if benefit outweighs risk (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Unknown excretion in human milk; caution advised\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"sotrovimab\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hypersensitivity to sotrovimab or to any component\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of anaphylaxis, infusion-related reactions\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Limited data; use only if benefit outweighs risk (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Unknown safety; consider maternal benefit\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"molnupiravir (oral route)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Embryo-fetal toxicity in animals; contraindicated in pregnancy (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to molnupiravir\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergy risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Discontinue breastfeeding during treatment and for 4 days after\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe renal impairment (eGFR <30 mL/min)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Not recommended due to lack of data\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pediatric patients (<18 years)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Potential bone/cartilage toxicity; not authorized\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"bebtelovimab\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hypersensitivity to bebtelovimab or any excipients (including polysorbate)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of anaphylaxis\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"No human data; use only if clearly needed (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Safety unknown; consider benefit-risk\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 Vaccine, mRNA\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction (anaphylaxis) to prior dose of mRNA COVID-19 vaccine or any component (e.g., PEG)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Life-threatening hypersensitivity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute moderate to severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Vaccination can be deferred\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"thrombocytopenia or bleeding disorder\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Bleeding risk from intramuscular injection\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Can be administered; risk-benefit discussion (Pregnancy Category N)\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"nirmatrelvir and ritonavir\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to nirmatrelvir, ritonavir, or excipients\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of allergic reactions\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"coadministration with strong CYP3A inducers (e.g., rifampin, carbamazepine, phenobarbital, phenytoin, St. John's wort)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Significantly reduced nirmatrelvir/ritonavir levels leading to loss of antiviral efficacy and resistance\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"coadministration with drugs highly dependent on CYP3A for clearance and whose elevated levels are life-threatening (e.g., alfuzosin, pimozide, ergotamine, lovastatin, simvastatin, triazolam, oral midazolam, sildenafil for PAH)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Ritonavir-mediated CYP3A inhibition causes potentially fatal toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Lack of safety data; impaired metabolism risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe renal impairment (eGFR <30 mL/min)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Not recommended due to lack of appropriate dose form and excipient accumulation\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Limited human data; use only if benefit outweighs risk (Pregnancy Category N)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Unknown secretion in milk; avoid during treatment and for 7 days after\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"moderate hepatic impairment (Child-Pugh B)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"No data; caution advised\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 (coronavirus 2019, 5y-11) bivalent booster vaccine, Pfizer\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to prior dose of this vaccine or any component (including PEG)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Anaphylaxis risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to another mRNA COVID-19 vaccine\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Potential cross-reactivity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute moderate to severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Defer vaccination\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 (coronavirus 2019, 12y+) bivalent booster vaccine, Pfizer\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to prior dose of this vaccine or any component (e.g., PEG)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Life-threatening hypersensitivity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to an mRNA COVID-19 vaccine\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Cross-reactive allergy risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute moderate to severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Defer vaccination\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"thrombocytopenia or coagulation disorder\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Bleeding risk\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 (coronavirus 2019, 6m-4y) vaccine, Pfizer\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to a previous dose or any vaccine component (including PEG)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Anaphylaxis risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute moderate to severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Vaccination can be postponed\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 (coronavirus 2019, 6m-5y) vaccine, Moderna\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to prior dose or any component (including PEG, tromethamine)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Life-threatening allergy\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Defer until recovery\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"COVID-19 (coronavirus 2019, 6y-11y) vaccine, Moderna\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe allergic reaction to previous dose or any component (e.g., PEG)\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Anaphylaxis risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"acute moderate to severe febrile illness\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Defer vaccination\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"venlafaxine hydrochloride\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant use of monoamine oxidase inhibitors (MAOIs), including linezolid and methylene blue\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of serotonin syndrome\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to venlafaxine or excipients\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic reactions\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"uncontrolled narrow-angle glaucoma\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Mydriasis may elevate intraocular pressure\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"uncontrolled hypertension\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Can elevate blood pressure\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"recent myocardial infarction or unstable heart disease\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Increased heart rate and blood pressure\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of seizure disorder\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Lowers seizure threshold\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy (especially third trimester)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Neonatal persistent pulmonary hypertension and withdrawal syndrome possible (Pregnancy Category C)\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"breastfeeding\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Excreted in milk; risk to infant\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concomitant use of other serotonergic drugs (SSRIs, triptans, fentanyl, tramadol, etc.)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Additive serotonin risk\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"l-methylfolate\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to L-methylfolate or any component\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Allergic reaction\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"untreated vitamin B12 deficiency (pernicious anemia)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"May correct hematologic abnormalities but not prevent neurological deterioration\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"bupropion hydrochloride\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"seizure disorder or history of seizures\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Lowers seizure threshold\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"current or prior diagnosis of bulimia nervosa or anorexia nervosa\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased seizure risk in these patients\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"abrupt withdrawal of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Seizure risk during withdrawal\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraind"
+      - generic [ref=e224]:
+        - generic [ref=e227]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e229]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e230]:
+            - button "深度思考" [ref=e231] [cursor=pointer]:
+              - img [ref=e233]
+              - generic [ref=e236]: 深度思考
+            - button "智能搜索" [ref=e237] [cursor=pointer]:
+              - img [ref=e239]
+              - generic [ref=e241]: 智能搜索
+            - generic [ref=e242]:
+              - button [ref=e243] [cursor=pointer]:
+                - img [ref=e246]
+              - button [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+        - generic [ref=e254]: 内容由 AI 生成，请仔细甄别

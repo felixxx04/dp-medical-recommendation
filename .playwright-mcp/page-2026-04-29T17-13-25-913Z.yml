@@ -1,0 +1,1398 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e230] [cursor=pointer]:
+          - /url: /a/chat/s/29105585-9eea-4649-8ae0-d8fef6960494
+          - generic [ref=e231]: 新对话
+          - button [ref=e232]:
+            - img [ref=e236]
+        - link "药物交互作用列表生成" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/96ed9973-46c4-4bfb-86d5-f8a71ec1be90
+          - generic [ref=e36]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/47ca44ac-64df-40b8-8b21-b9fbadeecea5
+          - generic [ref=e38]: 药物交互列表生成
+        - link "临床药学专家药物交互生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/dadb6b40-edb1-497b-85cf-1d908a363d87
+          - generic [ref=e40]: 临床药学专家药物交互生成
+        - link "临床药学专家生成药物交互列表" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/4f673188-ac15-45da-a360-766681d189ca
+          - generic [ref=e42]: 临床药学专家生成药物交互列表
+        - link "药物交互作用列表生成" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/396da42e-e60a-42d9-8950-e2d1de7ba0b8
+          - generic [ref=e44]: 药物交互作用列表生成
+      - generic [ref=e45]:
+        - generic [ref=e46]: 昨天
+        - link "药物交互作用列表生成" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/43d465df-a130-493c-a502-f7871df35a84
+          - generic [ref=e48]: 药物交互作用列表生成
+        - link "dupilumab药物交互补充生成" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/ddc8880c-a441-4331-baa5-33dbff16164e
+          - generic [ref=e50]: dupilumab药物交互补充生成
+        - link "药物交互作用列表生成" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+          - generic [ref=e52]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+          - generic [ref=e54]: 药物交互列表生成
+        - link "糖尿病药物交互列表生成" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e56]: 糖尿病药物交互列表生成
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e58]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e60]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e62]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e64]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e66]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e68]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e70]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e72]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e74]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e76]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e78]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e80]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e82]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e84]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e86]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e88]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e90]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e92]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e94]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e96]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e98]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e100]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e108]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e110]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e114]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e116]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e118]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e120]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e122]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e124]: HIV药物禁忌症生成
+      - generic [ref=e125]:
+        - generic [ref=e126]: 7 天内
+        - link "药物禁忌症列表生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e128]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e130]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e132]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e134]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e136]: 药物适应症列表生成
+        - link "药学知识专家验证药物适应症" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e138]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e140]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e142]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e144]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e146]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e148]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e149] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e150]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e151] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e152]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e153] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e154]: 生成数据训练请求
+    - generic [ref=e156] [cursor=pointer]:
+      - img [ref=e159]
+      - generic [ref=e162]: 132******38
+      - img [ref=e164]
+  - generic [ref=e169]:
+    - generic [ref=e240]:
+      - generic [ref=e242]:
+        - generic [ref=e243] [cursor=pointer]: 新对话
+        - generic [ref=e244]:
+          - img [ref=e246]
+          - generic [ref=e248]: 专家模式
+      - button [ref=e249] [cursor=pointer]:
+        - img [ref=e252]
+    - generic [ref=e255]:
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - generic [ref=e260]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: acetaminophen and oxycodone | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: C paracetamol Brand names: Panadol, Calpol, Tylenol , Alvedon | 类别: Miscellaneous analgesics | 适应症: pain|fever|migraine|osteoarthritis | 妊娠分级: C ketorolac (nasal) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: acute pain|postoperative pain | 妊娠分级: C Acetaminophen Controlled-Release Tablets | 类别: Miscellaneous analgesics | 适应症: pain|fever|osteoarthritis | 妊娠分级: C morphine (oral) | 类别: Opioids (narcotic analgesics) | 适应症: pain|chronic pain|dyspnea | 妊娠分级: C Fentanyl Transdermal System | 类别: Opioids (narcotic analgesics) | 适应症: chronic pain|acute pain | 妊娠分级: C acetaminophen and tramadol | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: C hydrocodone and ibuprofen | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: C fentanyl Brand names: Actiq (lozenge), Lazanda (nasal spray), Fentora (sublingual tablet), Subsys (sublingual spray) | 类别: Opioids (narcotic analgesics) | 适应症: breakthrough cancer pain|chronic pain|acute pain | 妊娠分级: C oxymorphone | 类别: Opioids (narcotic analgesics) | 适应症: pain|chronic pain | 妊娠分级: C acetaminophen (oral route, rectal route) | 类别: Miscellaneous analgesics | 适应症: pain|fever|migraine | 妊娠分级: C acetaminophen (rectal) | 类别: Miscellaneous analgesics | 适应症: pain|fever | 妊娠分级: C diclofenac topical system (patch) | 类别: Topical non-steroidal anti-inflammatories | 适应症: acute pain|osteoarthritis|musculoskeletal pain | 妊娠分级: C meperidine (oral/injection) | 类别: Opioids (narcotic analgesics) | 适应症: pain|preoperative sedation | 妊娠分级: C acetaminophen | 类别: | 适应症: pain|fever|migraine|osteoarthritis | 妊娠分级: C ibuprofen injection | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|patent ductus arteriosus | 妊娠分级: C Acetaminophen Liquid | 类别: Miscellaneous analgesics | 适应症: pain|fever|migraine | 妊娠分级: C fentanyl transdermal (skin patch) | 类别: Opioids (narcotic analgesics) | 适应症: chronic pain|acute pain | 妊娠分级: C Acetaminophen Suspension Drops | 类别: Miscellaneous analgesics | 适应症: pain|fever | 妊娠分级: C Acetaminophen Dispersible Tablets | 类别: Miscellaneous analgesics | 适应症: pain|fever|migraine | 妊娠分级: C Ibuprofen Chewable Tablets | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|primary dysmenorrhea | 妊娠分级: C acetaminophen (injection) | 类别: Miscellaneous analgesics | 适应症: pain|fever|postoperative pain | 妊娠分级: C tramadol hydrochloride | 类别: Opioids (narcotic analgesics) | 适应症: pain|chronic pain|fibromyalgia | 妊娠分级: C Acetaminophen Capsules and Tablets | 类别: Miscellaneous analgesics | 适应症: pain|fever|migraine|osteoarthritis | 妊娠分级: C fentanyl citrate (oral transmucosal) | 类别: Opioids (narcotic analgesics) | 适应症: breakthrough cancer pain|chronic pain | 妊娠分级: C meloxicam (intravenous route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: acute pain|osteoarthritis|rheumatoid arthritis | 妊娠分级: C oxycodone (oral route) | 类别: Opioids (narcotic analgesics) | 适应症: pain|chronic pain|acute pain | 妊娠分级: N Lidocaine Aerosol | 类别: Topical anesthetics | 适应症: local anesthesia|minor skin irritation|pruritus | 妊娠分级: B lidocaine (topical application route) | 类别: Topical anesthetics | 适应症: local anesthesia|neuropathic pain|postherpetic neuralgia|pruritus | 妊娠分级: B morphine (injection route) | 类别: Opioids (narcotic analgesics) | 适应症: pain|acute pain|chronic pain|dyspnea | 妊娠分级: C buprenorphine (oral/buccal) | 类别: Opioids (narcotic analgesics) | 适应症: opioid use disorder|pain|chronic pain | 妊娠分级: C menthol topical | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|pruritus | 妊娠分级: N butorphanol (injection) | 类别: Opioids (narcotic analgesics) | 适应症: pain|migraine|postoperative pain | 妊娠分级: C buprenorphine transdermal (skin patch) | 类别: Opioids (narcotic analgesics) | 适应症: chronic pain|acute pain | 妊娠分级: C lidocaine hydrochloride | 类别: Topical anesthetics | 适应症: local anesthesia|ventricular arrhythmia|neuropathic pain | 妊娠分级: B Diphenhydramine (topical) | 类别: Topical antihistamines | 适应症: pruritus|insect bite|minor skin irritation | 妊娠分级: B clonidine (injection) | 类别: Antiadrenergic agents, centrally acting | 适应症: hypertension|pain|opioid withdrawal | 妊娠分级: C morphine (injection) | 类别: Opioids (narcotic analgesics) | 适应症: pain|acute pain|chronic pain|dyspnea | 妊娠分级: C fentanyl (buccal/sublingual) | 类别: Opioids (narcotic analgesics) | 适应症: breakthrough cancer pain|chronic pain | 妊娠分级: C levorphanol (oral) | 类别: Opioids (narcotic analgesics) | 适应症: pain|chronic pain|acute pain | 妊娠分级: C methadone (oral route) | 类别: Opioids (narcotic analgesics) | 适应症: pain|opioid use disorder|chronic pain | 妊娠分级: C benzocaine (topical application route) | 类别: Topical anesthetics | 适应症: local anesthesia|minor skin irritation|pruritus | 妊娠分级: B acetaminophen and benzhydrocodone | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: N acetaminophen, caffeine, and dihydrocodeine | 类别: Narcotic analgesic combinations | 适应症: acute pain|migraine | 妊娠分级: C acetaminophen and ibuprofen | 类别: Analgesic combinations | 适应症: pain|fever|migraine|osteoarthritis | 妊娠分级: N Acetaminophen, Salicylamide, and Phenyltoloxamine | 类别: Analgesic combinations | 适应症: pain|fever|headache | 妊娠分级: C aspirin and caffeine | 类别: Analgesic combinations | 适应症: pain|migraine|headache | 妊娠分级: N benzocaine topical | 类别: Topical anesthetics | 适应症: local anesthesia|pruritus|minor skin irritation | 妊娠分级: C Menthol Gel, Liquid, and Solution | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|pruritus | 妊娠分级: N aspirin, carisoprodol, and codeine | 类别: Skeletal muscle relaxant combinations | 适应症: acute musculoskeletal pain|muscle spasm | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e263]:
+            - button [ref=e264] [cursor=pointer]:
+              - img [ref=e267]
+            - button [ref=e269] [cursor=pointer]:
+              - img [ref=e272]
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e278] [cursor=pointer]:
+              - img [ref=e280]
+              - generic [ref=e283]: 已思考（用时 303 秒）
+              - img [ref=e285]
+            - generic [ref=e291]:
+              - paragraph [ref=e292]: "我们被要求生成一个JSON，用于多个药物。输入中列出了许多药物，其中许多是重复的（比如acetaminophen有多种剂型），但需要为每种药物生成其交互列表。然而，输出JSON的格式似乎是“generic_name”对应每个药物实体，可能有重复的通用名但我们应合并相似的？仔细阅读要求：“为以下每种药物生成重要的药物交互(interactions)列表。” 输入药物列表中有许多条目，如“acetaminophen and oxycodone”，“paracetamol Brand names: ...”，等等。我们需要为每个条目生成一个对象。但是许多药物只是同一活性成分的不同剂型或品牌名。例如，有多个“acetaminophen”条目（口服、直肠、注射液、控释片、胶囊片剂、液体、悬浮滴剂、分散片等），还有“paracetamol”（对乙酰氨基酚的另一种名称）。另外有“acetaminophen and oxycodone”等复方。我们需要为每一个列表项生成一个JSON对象，即使活性成分相同，因为“generic_name”可能根据输入的药物名。检查输入：“acetaminophen (oral route, rectal route)”等。为确保完整性，我们可能需要为每个条目输出，但我们可以合并相同通用名但不同给药途径？指令说“为以下每种药物生成”，也就是说输入列表中的每一行视为一种药物。所以我们必须为每个药物项创建一个对象。但是，其中一些药物的相互作用可能完全相同，比如所有仅含对乙酰氨基酚的制剂（各种剂型）的相互作用相同。我们可以复制相同交互列表。但为简洁，或许可以给出相同的互动。然而输出格式中generic_name可能是“acetaminophen (oral route, rectal route)”这样的，但要求“generic_name”用“药物名称(当前药物)”，这可能就是条目中给出的名称。但是最好使用干净的通用名？指令：“drug_a: 药物名称(当前药物)”，那可能应该用我们输出的generic_name。但在interactions内部，drug_a应是当前药物名，我们可以用generic_name。"
+              - paragraph [ref=e324]: 我们需要列出每个药物的严重和中度相互作用。涵盖的类别包括阿片类镇痛药、对乙酰氨基酚、非甾体抗炎药、局部麻醉药、局部抗组胺药等。对于每个药物，我们需要给出与常见药物类的交互，如抗凝药、抗抑郁药、抗真菌药、抗酸药等。我们需要列出有临床意义的相互作用。
+              - paragraph [ref=e325]: 我们需快速生成许多条目。我将一次生成一个集合，按通用名分类，然后为每个条目复制。
+              - paragraph [ref=e326]: 首先，识别主要类别：
+              - list [ref=e327]:
+                - listitem [ref=e328]:
+                  - paragraph [ref=e329]: 对乙酰氨基酚 (acetaminophen, paracetamol) - 单方
+                - listitem [ref=e330]:
+                  - paragraph [ref=e331]: 阿片类：羟考酮、吗啡、芬太尼、曲马多、氢可酮、羟吗啡酮、美沙酮、左啡诺、丁丙诺啡、哌替啶、布托啡诺，以及复方制剂（对乙酰氨基酚+羟考酮，对乙酰氨基酚+曲马多，氢可酮+布洛芬，对乙酰氨基酚+苯并氢可酮，对乙酰氨基酚+咖啡因+双氢可待因，阿司匹林+卡立普多+可待因等）
+                - listitem [ref=e332]:
+                  - paragraph [ref=e333]: 非甾体抗炎药：酮咯酸（鼻用）、布洛芬注射液、美洛昔康静脉、双氯芬酸贴片、布洛芬咀嚼片，对乙酰氨基酚+布洛芬，阿司匹林+咖啡因等。
+                - listitem [ref=e334]:
+                  - paragraph [ref=e335]: 局部麻醉药：利多卡因（气雾剂、外用）、苯佐卡因外用等。
+                - listitem [ref=e336]:
+                  - paragraph [ref=e337]: 局部抗组胺药：苯海拉明外用。
+                - listitem [ref=e338]:
+                  - paragraph [ref=e339]: 局部刺激剂：薄荷醇外用。
+                - listitem [ref=e340]:
+                  - paragraph [ref=e341]: 可乐定（注射） - 中枢α2激动剂。
+                - listitem [ref=e342]:
+                  - paragraph [ref=e343]: 还有对乙酰氨基酚、水杨酰胺和苯托沙敏的复方，阿司匹林+咖啡因等。
+              - paragraph [ref=e344]: 我们需要为每种药物提供相互作用，专注于严重的和中度的。我将创建一份全面的相互作用列表，覆盖主要药物：对乙酰氨基酚单方、扑热息痛（相同）、阿片类药物（共同相互作用）、NSAIDs（共同相互作用）、复方中每个成分的相互作用。必须考虑药物组合，列出每个成分的交互。
+              - paragraph [ref=e345]: 为了满足“对于组合药物，列出每个成分的交互”，在interactions数组中我们可以列出drug_a是复方，而drug_b可能是某个药物，但临床效果和机制应考虑两个成分。例如，“acetaminophen and oxycodone”：交互可能来自对乙酰氨基酚（例如与华法林增加INR）和来自羟考酮（例如与苯二氮卓类增加镇静作用）。我们需要在同一个drug_a下列出所有交互。这样正确。
+              - paragraph [ref=e346]: 按照要求：优先列出与常见药物类的交互（抗凝药、抗抑郁药、抗真菌药、抗酸药等）。因此，每个药物都应包含与这些类的交互（如果有）。
+              - paragraph [ref=e347]: 现在我将系统地为每个药物生成相互作用。我将以输出JSON为目标。为了节省工作量，创建常见交互模板：
+              - paragraph [ref=e348]: 对乙酰氨基酚（单方）的主要相互作用：
+              - list [ref=e349]:
+                - listitem [ref=e350]:
+                  - paragraph [ref=e351]: 与华法林：长期高剂量（>2g/天）可能增加INR和出血风险 (moderate)，机制：可能抑制维生素K依赖性凝血因子的合成？已知为中度，临床效果：“增加出血风险，需监测INR”。
+                - listitem [ref=e352]:
+                  - paragraph [ref=e353]: 与酒精（慢性酗酒）：增加肝毒性风险 (major)，机制：CYP2E1诱导导致毒性代谢物NAPQI增加。
+                - listitem [ref=e354]:
+                  - paragraph [ref=e355]: 与肝酶诱导剂（如苯妥英、卡马西平、苯巴比妥）：增加肝毒性风险 (moderate)，机制：CYP2E1诱导? 对乙酰氨基酚代谢。列出moderate。
+                - listitem [ref=e356]:
+                  - paragraph [ref=e357]: 与丙磺舒：可能降低对乙酰氨基酚清除率，增强效应 (moderate)。
+                - listitem [ref=e358]:
+                  - paragraph [ref=e359]:
+                    - text: 与抗凝药如华法林的交互是主要的。还有可能与其他肝毒性药物（如异烟肼）增加风险。但这是moderate。
+                    - text: 需要提供。另一个：与抗酸药？无。
+              - paragraph [ref=e360]: 阿片类药物（如吗啡、羟考酮、芬太尼、氢可酮、羟吗啡酮、美沙酮、左啡诺、哌替啶、布托啡诺、丁丙诺啡、曲马多）共同的相互作用：
+              - list [ref=e361]:
+                - listitem [ref=e362]:
+                  - paragraph [ref=e363]: 与苯二氮卓类及其他CNS抑制剂（酒精、镇静催眠药、抗焦虑药、抗精神病药）：增加镇静作用、呼吸抑制、昏迷和死亡风险 (major)，机制：药效学相加性CNS抑制。
+                - listitem [ref=e364]:
+                  - paragraph [ref=e365]: 与MAO抑制剂：增加5-羟色胺综合征风险或高血压危象（特别是哌替啶、曲马多、芬太尼？多数阿片类与MAOIs有严重相互作用，禁忌）(major)。
+                - listitem [ref=e366]:
+                  - paragraph [ref=e367]: 与CYP3A4抑制剂（如大环内酯类、唑类抗真菌药、HIV蛋白酶抑制剂）：对由CYP3A4代谢的阿片类（如芬太尼、羟考酮、氢可酮、美沙酮）增加血药浓度，增加呼吸抑制风险 (major)。对于不主要经CYP3A4代谢的吗啡可能影响较小，但吗啡也有相互作用如与加巴喷丁类。
+                - listitem [ref=e368]:
+                  - paragraph [ref=e369]: 与CYP3A4诱导剂（如利福平、卡马西平）：降低阿片水平，导致戒断或镇痛不足 (moderate)。
+                - listitem [ref=e370]:
+                  - paragraph [ref=e371]: 与MAOIs，具体：哌替啶与MAOIs产生5-羟色胺综合征；美沙酮、曲马多也有风险。
+                - listitem [ref=e372]:
+                  - paragraph [ref=e373]: 与其他5-羟色胺能药物（曲马多、美沙酮、芬太尼、哌替啶）：当与SSRI、SNRI、三环类抗抑郁药、锂、圣约翰草等合用，增加5-羟色胺综合征风险 (major)。
+                - listitem [ref=e374]:
+                  - paragraph [ref=e375]: 曲马多还有降低癫痫阈值，与MAOIs、SSRIs等合用增加癫痫风险。
+                - listitem [ref=e376]:
+                  - paragraph [ref=e377]: 曲马多与CYP2D6抑制剂（如帕罗西汀、氟西汀）可能降低其活性代谢物M1的形成，从而降低镇痛效果 (moderate)。
+                - listitem [ref=e378]:
+                  - paragraph [ref=e379]: 丁丙诺啡：作为部分激动剂，可能沉淀戒断症状在全激动剂使用者中，与全阿片激动剂合用可能降低镇痛作用或引发戒断 (moderate)。与苯二氮卓类仍严重。
+                - listitem [ref=e380]:
+                  - paragraph [ref=e381]: 美沙酮：延长QTc间期，与其他延长QTc药物（如某些抗心律失常药、大环内酯类、抗精神病药）合用增加尖端扭转型室速风险 (major/moderate)。
+                - listitem [ref=e382]:
+                  - paragraph [ref=e383]: 所有阿片类与抗胆碱能药物合用增加便秘和尿潴留风险 (moderate)。
+                - listitem [ref=e384]:
+                  - paragraph [ref=e385]: 阿片类与利尿剂合用可能降低利尿剂效 (moderate)。
+                - listitem [ref=e386]:
+                  - paragraph [ref=e387]: 与单胺氧化酶抑制剂合用有高血压危象（芬太尼？不太确切，但多数资料列为禁忌）。
+                - listitem [ref=e388]:
+                  - paragraph [ref=e389]: 丁丙诺啡与CYP3A4抑制剂同上。
+              - paragraph [ref=e390]: 非甾体抗炎药（NSAIDs）：酮咯酸、布洛芬、美洛昔康、双氯芬酸等。注意：双氯芬酸外用贴剂全身吸收低，但仍有相互作用风险，可能较弱，但仍需列出如与其他NSAIDs、抗凝药等。
+              - list [ref=e391]:
+                - listitem [ref=e392]:
+                  - paragraph [ref=e393]: 与其他NSAIDs（包括阿司匹林）：增加消化道溃疡和出血风险，避免合用 (major)。
+                - listitem [ref=e394]:
+                  - paragraph [ref=e395]: 与抗凝药（华法林、肝素、新型口服抗凝药）：增加出血风险 (major)。
+                - listitem [ref=e396]:
+                  - paragraph [ref=e397]: 与抗血小板药（氯吡格雷、普拉格雷、替格瑞洛）：增加出血风险 (major)。
+                - listitem [ref=e398]:
+                  - paragraph [ref=e399]: 与SSRI抗抑郁药：增加上消化道出血风险 (moderate)。
+                - listitem [ref=e400]:
+                  - paragraph [ref=e401]: 与ACE抑制剂、ARB：降低降压效果并增加肾毒性风险，尤其是肾功能损害 (moderate)。
+                - listitem [ref=e402]:
+                  - paragraph [ref=e403]: 与利尿剂：降低利尿效果，增加肾毒性 (moderate)。
+                - listitem [ref=e404]:
+                  - paragraph [ref=e405]: 与甲氨蝶呤：增加甲氨蝶呤毒性（骨髓抑制、肾毒性）(major)。
+                - listitem [ref=e406]:
+                  - paragraph [ref=e407]: 与环孢素、他克莫司：增加肾毒性 (moderate)。
+                - listitem [ref=e408]:
+                  - paragraph [ref=e409]: 与锂：增加锂水平毒性 (moderate)。
+                - listitem [ref=e410]:
+                  - paragraph [ref=e411]: 与糖皮质激素：增加消化道溃疡风险 (moderate)。
+                - listitem [ref=e412]:
+                  - paragraph [ref=e413]: 酮咯酸仅限于短期使用，相互作用相同。
+                - listitem [ref=e414]:
+                  - paragraph [ref=e415]: 布洛芬注射液相同。
+                - listitem [ref=e416]:
+                  - paragraph [ref=e417]: 外用双氯芬酸：全身暴露量低，理论上与以上相互作用风险较低，但说明书仍警告。可列为 moderate 交互，如与抗凝药增加出血风险，与其他NSAIDs增加溃疡风险，虽然全身低。可列出。
+              - paragraph [ref=e418]: 局部麻醉药（利多卡因、苯佐卡因）：外用制剂全身吸收少，交互较少。
+              - list [ref=e419]:
+                - listitem [ref=e420]:
+                  - paragraph [ref=e421]: 利多卡因：可能与大剂量使用时，与其他局部麻醉剂或1类抗心律失常药（如美西律）合用有相加的全身毒性 (moderate)。但外用通常忽略。但为了完整性，苯佐卡因有高铁血红蛋白血症风险，与其他诱导高铁血红蛋白血症的药物（如氨苯砜、硝酸盐）合用增加风险 (moderate)。但这是外用的。
+              - paragraph [ref=e422]: 局部抗组胺药：苯海拉明外用，系统吸收少，与其他中枢抑制剂合用可能增加嗜睡，但因外用全身作用微弱，中度交互可以列出与CNS抑制剂的相加作用（如果大量使用吸收）。但一般不算。可以列出与MAOIs的相互作用？不大。或许不列，但要求生成交互，可能需要列出一些。
+              - paragraph [ref=e423]: 可乐定（注射）：中枢α2激动剂，用于高血压、疼痛和戒断。
+              - list [ref=e424]:
+                - listitem [ref=e425]:
+                  - paragraph [ref=e426]: 与其他降压药合用，可能增加低血压和心动过缓 (moderate)。
+                - listitem [ref=e427]:
+                  - paragraph [ref=e428]: 与β阻滞剂合用，突然停药可致反跳性高血压 (moderate)。
+                - listitem [ref=e429]:
+                  - paragraph [ref=e430]: 与三环类抗抑郁药：可能降低可乐定降压效果 (moderate)。
+                - listitem [ref=e431]:
+                  - paragraph [ref=e432]: 与CNS抑制剂：可乐定增加镇静作用 (moderate)。
+                - listitem [ref=e433]:
+                  - paragraph [ref=e434]: 与阿片类：增强镇痛和镇静，也有低血压风险 (moderate)。
+              - paragraph [ref=e435]: 薄荷醇外用：基本无已知全身相互作用。
+              - paragraph [ref=e436]: 复方制剂需要合并成分。对乙酰氨基酚和羟考酮：需要列出对乙酰氨基酚的交互（华法林、酒精、肝酶诱导剂等）和羟考酮的交互（CNS抑制剂、MAOIs、CYP3A4抑制剂等）。类似。
+              - paragraph [ref=e437]: 对乙酰氨基酚和曲马多：曲马多交互（5-羟色胺综合征风险、MAOIs、癫痫阈值降低、CYP2D6抑制剂）加上对乙酰氨基酚的。氢可酮和布洛芬：布洛芬交互（抗凝、抗血小板、甲氨蝶呤、锂等）加氢可酮交互。等等。
+              - paragraph [ref=e438]: 注意：一些药物重复出现，如acetaminophen and oxycodone 出现一次，后续有 oxycodone (oral route) 单方，又有对乙酰氨基酚单方。需要分别处理。
+              - paragraph [ref=e439]: 我们需要生成一个大的JSON数组，包含输入列表中所有药物。为节省令牌，我将利用通用模板，为每个药物生成。
+              - paragraph [ref=e440]: 我将创建以下药物名（与原列表一致）：
+              - list [ref=e441]:
+                - listitem [ref=e442]:
+                  - paragraph [ref=e443]: "\"acetaminophen and oxycodone\""
+                - listitem [ref=e444]:
+                  - paragraph [ref=e445]: "\"paracetamol\" (brand names...)"
+                - listitem [ref=e446]:
+                  - paragraph [ref=e447]: "\"ketorolac (nasal)\""
+                - listitem [ref=e448]:
+                  - paragraph [ref=e449]: "\"Acetaminophen Controlled-Release Tablets\""
+                - listitem [ref=e450]:
+                  - paragraph [ref=e451]: "\"morphine (oral)\""
+                - listitem [ref=e452]:
+                  - paragraph [ref=e453]: "\"Fentanyl Transdermal System\""
+                - listitem [ref=e454]:
+                  - paragraph [ref=e455]: "\"acetaminophen and tramadol\""
+                - listitem [ref=e456]:
+                  - paragraph [ref=e457]: "\"hydrocodone and ibuprofen\""
+                - listitem [ref=e458]:
+                  - paragraph [ref=e459]: "\"fentanyl\" (brand names Actiq, Lazanda...)"
+                - listitem [ref=e460]:
+                  - paragraph [ref=e461]: "\"oxymorphone\""
+                - listitem [ref=e462]:
+                  - paragraph [ref=e463]: "\"acetaminophen (oral route, rectal route)\""
+                - listitem [ref=e464]:
+                  - paragraph [ref=e465]: "\"acetaminophen (rectal)\""
+                - listitem [ref=e466]:
+                  - paragraph [ref=e467]: "\"diclofenac topical system (patch)\""
+                - listitem [ref=e468]:
+                  - paragraph [ref=e469]: "\"meperidine (oral/injection)\""
+                - listitem [ref=e470]:
+                  - paragraph [ref=e471]: "\"acetaminophen\""
+                - listitem [ref=e472]:
+                  - paragraph [ref=e473]: "\"ibuprofen injection\""
+                - listitem [ref=e474]:
+                  - paragraph [ref=e475]: "\"Acetaminophen Liquid\""
+                - listitem [ref=e476]:
+                  - paragraph [ref=e477]: "\"fentanyl transdermal (skin patch)\""
+                - listitem [ref=e478]:
+                  - paragraph [ref=e479]: "\"Acetaminophen Suspension Drops\""
+                - listitem [ref=e480]:
+                  - paragraph [ref=e481]: "\"Acetaminophen Dispersible Tablets\""
+                - listitem [ref=e482]:
+                  - paragraph [ref=e483]: "\"Ibuprofen Chewable Tablets\""
+                - listitem [ref=e484]:
+                  - paragraph [ref=e485]: "\"acetaminophen (injection)\""
+                - listitem [ref=e486]:
+                  - paragraph [ref=e487]: "\"tramadol hydrochloride\""
+                - listitem [ref=e488]:
+                  - paragraph [ref=e489]: "\"Acetaminophen Capsules and Tablets\""
+                - listitem [ref=e490]:
+                  - paragraph [ref=e491]: "\"fentanyl citrate (oral transmucosal)\""
+                - listitem [ref=e492]:
+                  - paragraph [ref=e493]: "\"meloxicam (intravenous route)\""
+                - listitem [ref=e494]:
+                  - paragraph [ref=e495]: "\"oxycodone (oral route)\""
+                - listitem [ref=e496]:
+                  - paragraph [ref=e497]: "\"Lidocaine Aerosol\""
+                - listitem [ref=e498]:
+                  - paragraph [ref=e499]: "\"lidocaine (topical application route)\""
+                - listitem [ref=e500]:
+                  - paragraph [ref=e501]: "\"morphine (injection route)\""
+                - listitem [ref=e502]:
+                  - paragraph [ref=e503]: "\"buprenorphine (oral/buccal)\""
+                - listitem [ref=e504]:
+                  - paragraph [ref=e505]: "\"menthol topical\""
+                - listitem [ref=e506]:
+                  - paragraph [ref=e507]: "\"butorphanol (injection)\""
+                - listitem [ref=e508]:
+                  - paragraph [ref=e509]: "\"buprenorphine transdermal (skin patch)\""
+                - listitem [ref=e510]:
+                  - paragraph [ref=e511]: "\"lidocaine hydrochloride\""
+                - listitem [ref=e512]:
+                  - paragraph [ref=e513]: "\"Diphenhydramine (topical)\""
+                - listitem [ref=e514]:
+                  - paragraph [ref=e515]: "\"clonidine (injection)\""
+                - listitem [ref=e516]:
+                  - paragraph [ref=e517]: "\"morphine (injection)\""
+                - listitem [ref=e518]:
+                  - paragraph [ref=e519]: "\"fentanyl (buccal/sublingual)\""
+                - listitem [ref=e520]:
+                  - paragraph [ref=e521]: "\"levorphanol (oral)\""
+                - listitem [ref=e522]:
+                  - paragraph [ref=e523]: "\"methadone (oral route)\""
+                - listitem [ref=e524]:
+                  - paragraph [ref=e525]: "\"benzocaine (topical application route)\""
+                - listitem [ref=e526]:
+                  - paragraph [ref=e527]: "\"acetaminophen and benzhydrocodone\""
+                - listitem [ref=e528]:
+                  - paragraph [ref=e529]: "\"acetaminophen, caffeine, and dihydrocodeine\""
+                - listitem [ref=e530]:
+                  - paragraph [ref=e531]: "\"acetaminophen and ibuprofen\""
+                - listitem [ref=e532]:
+                  - paragraph [ref=e533]: "\"Acetaminophen, Salicylamide, and Phenyltoloxamine\""
+                - listitem [ref=e534]:
+                  - paragraph [ref=e535]: "\"aspirin and caffeine\""
+                - listitem [ref=e536]:
+                  - paragraph [ref=e537]: "\"benzocaine topical\""
+                - listitem [ref=e538]:
+                  - paragraph [ref=e539]: "\"Menthol Gel, Liquid, and Solution\""
+                - listitem [ref=e540]:
+                  - paragraph [ref=e541]: "\"aspirin, carisoprodol, and codeine\""
+              - paragraph [ref=e542]: 现在为每个创建交互。交互列表可能重复。为了JSON大小合理，我将为相同活性成分的药物使用相似的一组交互。例如，所有仅含对乙酰氨基酚的（paracetamol， Controlled-Release Tablets， acetaminophen (oral route, rectal route)， rectal， Liquid， Suspension Drops， Dispersible Tablets， injection， Capsules and Tablets， 单独的 acetaminophen）这些交互相同。因此我可以为它们生成相同的interactions数组。阿片类药物如morphine (oral)， morphine (injection route)， morphine (injection) 这些基本一样，只是给药途径不同，但相互作用是全身性的，因此相同。fentanyl各种剂型（透皮贴、口腔黏膜等）类似。但注意fentanyl透皮系统与fentanyl制剂可能同样。oxycodone单方与复方分开。对于复方，包含各成分交互。
+              - paragraph [ref=e543]: 因此我将分组：
+              - list [ref=e544]:
+                - listitem [ref=e545]:
+                  - paragraph [ref=e546]: 对乙酰氨基酚单方（口服、直肠、注射液、控释片、液体、滴剂、分散片、胶囊片剂、paracetamol）交互：与华法林（moderate，增加出血），与酒精（major，肝毒性），与肝酶诱导剂（moderate，肝毒性），与长期高剂量时与华法林交互，已包括。还可加上与丙磺舒（moderate，增加对乙酰氨基酚水平）。可能还有与异烟肼（moderate，肝毒性）。但这些不是最常见药物类，但可以加。也可加与氟氯西林（导致高阴离子间隙代谢性酸中毒，但罕见）。我选择规范的：华法林、酒精、肝酶诱导抗癫痫药（苯妥英、卡马西平、苯巴比妥）。按照要求优先抗凝药、抗抑郁药、抗真菌药、抗酸药，但对乙酰氨基酚与这些类别无显著交互，除了华法林。所以提供这些。
+                - listitem [ref=e547]:
+                  - paragraph [ref=e548]: NSAIDs：ketorolac (nasal)， ibuprofen injection， Ibuprofen Chewable Tablets， meloxicam (intravenous)， diclofenac topical（贴片），以及复方中的ibuprofen。双氯芬酸贴片交互稍低。
+                - listitem [ref=e549]:
+                  - paragraph [ref=e550]: 阿片类全激动剂：morphine, fentanyl, oxycodone, oxymorphone, hydrocodone, levorphanol, meperidine, methadone, butorphanol (部分激动剂？布托啡诺是混合激动-拮抗剂，但交互类似)， hydromorphone 未列出但有氢可酮。曲马多分开，因为5-羟色胺作用。丁丙诺啡部分激动剂。哌替啶有独特MAOI交互。
+                - listitem [ref=e551]:
+                  - paragraph [ref=e552]: 氢可酮+布洛芬：列出布洛芬交互+氢可酮交互。
+                - listitem [ref=e553]:
+                  - paragraph [ref=e554]: 对乙酰氨基酚+苯并氢可酮：对乙酰氨基酚交互+氢可酮交互（苯并氢可酮是氢可酮前药）。苯并氢可酮与氢可酮类似。
+                - listitem [ref=e555]:
+                  - paragraph [ref=e556]: 对乙酰氨基酚+咖啡因+双氢可待因：对乙酰氨基酚交互+双氢可待因交互（类似可待因，可待因为前药，CYP2D6代谢为吗啡，与CYP2D6抑制剂相互作用；可待因和双氢可待因与CNS抑制剂合用；MAOIs等）。咖啡因：增加中枢神经刺激，与CNS兴奋剂合用增加刺激，但与MAOIs可能高血压？但通常咖啡因交互弱，可能不考虑。但作为复方，可以列出咖啡因与苯二氮卓类可能拮抗镇静效果？可以轻度。但重点在阿片和对乙酰氨基酚。
+                - listitem [ref=e557]:
+                  - paragraph [ref=e558]: 阿司匹林+咖啡因：阿司匹林（NSAID类似）与抗凝、甲氨蝶呤等交互。阿司匹林与其他NSAIDs、皮质类固醇等增加溃疡。咖啡因交互忽略或轻微。
+                - listitem [ref=e559]:
+                  - paragraph [ref=e560]: 阿司匹林+卡立普多+可待因：卡立普多是肌肉松弛剂，代谢为甲丙氨酯，具有CNS抑制作用，与CNS抑制剂增强镇静，与CYP2C19抑制剂如奥美拉唑可能增加水平？不重要。可待因的阿片类交互。阿司匹林交互。主要。
+                - listitem [ref=e561]:
+                  - paragraph [ref=e562]: 对乙酰氨基酚+水杨酰胺+苯托沙敏：水杨酰胺是NSAID类似（水杨酸盐），增加出血、与抗凝剂交互；苯托沙敏是第一代抗组胺药，具有镇静和抗胆碱能作用，与CNS抑制剂相加，与MAOIs可能延长抗胆碱能效应。列出相关。
+                - listitem [ref=e563]:
+                  - paragraph [ref=e564]: 对乙酰氨基酚+布洛芬：对乙酰氨基酚和布洛芬各自交互。
+                - listitem [ref=e565]:
+                  - paragraph [ref=e566]: 利多卡因外用：局限，与1类抗心律失常药如美西律合用可能相加毒性(moderate)，与其他局麻药相加。还有与西咪替丁可能抑制利多卡因代谢(如果大量吸收)。但我可列出与CYP1A2、3A4抑制剂理论上增加水平，但外用可忽略。仍可给出一两个中度，比如与其他局麻药同时使用增加全身毒性风险。
+                - listitem [ref=e567]:
+                  - paragraph [ref=e568]: 苯佐卡因外用：与可致高铁血红蛋白血症药物如氨苯砜、硝酸盐、磺胺类合用增加风险(moderate)。
+                - listitem [ref=e569]:
+                  - paragraph [ref=e570]: 苯海拉明外用：与CNS抑制剂增加嗜睡（如果广泛或破损皮肤），但外用中度。可以列出moderate交互。
+                - listitem [ref=e571]:
+                  - paragraph [ref=e572]: 薄荷醇外用：基本无交互。
+                - listitem [ref=e573]:
+                  - paragraph [ref=e574]: 可乐定注射：与CNS抑制剂、降压药、β阻滞剂、三环抗抑郁药等交互。
+                - listitem [ref=e575]:
+                  - paragraph [ref=e576]: 曲马多：5-羟色胺综合征风险药物（MAOIs, SSRIs, SNRIs, 三环，锂等），癫痫阈值降低药物（MAOIs, 抗精神病药，安非他酮等），CYP2D6抑制剂降低效果，与苯二氮卓类呼吸抑制，与阿片类拮抗剂等。
+                - listitem [ref=e577]:
+                  - paragraph [ref=e578]: 美沙酮：QT延长，与其他延长QT药物交互；CYP3A4抑制剂/诱导剂；苯二氮卓类；MAOIs。
+              - paragraph [ref=e579]: 我将构造具体列表时，每个交互包含drug_a（当前药物名），drug_b（通用类别），类型，效果，机制。必须使用通用药物类别名，如 "warfarin", "MAO inhibitors", "CYP3A4 inhibitors"。为各类药物生成。
+              - paragraph [ref=e580]: 为了保持一致，我会写出标准列表。鉴于有50种药物，我需要生成一个庞大的JSON。我将在思考中构建，然后输出。
+              - paragraph [ref=e581]: 为了减少错误，我会确保所有要求元素。提示中要求“交互应具有临床意义，影响用药安全或疗效”。避免微不足道的。
+              - paragraph [ref=e582]: 开始构建：
+              - paragraph [ref=e583]: 定义通用交互矩阵：
+              - list [ref=e584]:
+                - listitem [ref=e585]:
+                  - paragraph [ref=e586]: "对乙酰氨基酚:"
+                  - list [ref=e587]:
+                    - listitem [ref=e588]:
+                      - paragraph [ref=e589]: "drug_b: \"warfarin\", moderate, \"长期或高剂量使用增加出血风险，需监测INR\", \"可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\""
+                    - listitem [ref=e590]:
+                      - paragraph [ref=e591]: "drug_b: \"chronic alcohol use\", major, \"增加肝毒性风险\", \"CYP2E1诱导导致毒性代谢物NAPQI增加\""
+                    - listitem [ref=e592]:
+                      - paragraph [ref=e593]: "drug_b: \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", moderate, \"增加肝毒性风险\", \"CYP2E1诱导，增加NAPQI形成\""
+                    - listitem [ref=e594]:
+                      - paragraph [ref=e595]: "drug_b: \"probenecid\", moderate, \"增加对乙酰氨基酚的血药浓度及作用时间\", \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\""
+                - listitem [ref=e596]:
+                  - paragraph [ref=e597]: "NSAIDs (布洛芬, 酮咯酸, 美洛昔康):"
+                  - list [ref=e598]:
+                    - listitem [ref=e599]:
+                      - paragraph [ref=e600]: "drug_b: \"other NSAIDs (including aspirin)\", major, \"增加胃肠道溃疡及出血风险\", \"药效学协同，抑制前列腺素合成\""
+                    - listitem [ref=e601]:
+                      - paragraph [ref=e602]: "drug_b: \"anticoagulants (warfarin, DOACs, heparin)\", major, \"增加出血风险\", \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\""
+                    - listitem [ref=e603]:
+                      - paragraph [ref=e604]: "drug_b: \"antiplatelet agents (clopidogrel, prasugrel)\", major, \"增加出血风险\", \"双重抗血小板效应\""
+                    - listitem [ref=e605]:
+                      - paragraph [ref=e606]: "drug_b: \"methotrexate\", major, \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"减少甲氨蝶呤肾清除\""
+                    - listitem [ref=e607]:
+                      - paragraph [ref=e608]: "drug_b: \"ACE inhibitors, ARBs\", moderate, \"降低降压效果，增加肾毒性风险\", \"抑制前列腺素介导的肾血管扩张\""
+                    - listitem [ref=e609]:
+                      - paragraph [ref=e610]: "drug_b: \"diuretics\", moderate, \"降低利尿效果，增加肾毒性\", \"前列腺素抑制导致水钠潴留\""
+                    - listitem [ref=e611]:
+                      - paragraph [ref=e612]: "drug_b: \"SSRIs, SNRIs\", moderate, \"增加上消化道出血风险\", \"协同抑制血小板5-羟色胺摄取\""
+                    - listitem [ref=e613]:
+                      - paragraph [ref=e614]: "drug_b: \"corticosteroids\", moderate, \"增加胃肠道溃疡和出血风险\", \"药效学协同\""
+                    - listitem [ref=e615]:
+                      - paragraph [ref=e616]: "drug_b: \"lithium\", moderate, \"增加锂血浓度及毒性\", \"减少锂的肾排泄\""
+                    - listitem [ref=e617]:
+                      - paragraph [ref=e618]: "drug_b: \"cyclosporine, tacrolimus\", moderate, \"增加肾毒性\", \"协同肾毒性\""
+                - listitem [ref=e619]:
+                  - paragraph [ref=e620]: 对于双氯芬酸外用贴剂：全身吸收低，但仍具潜在交互，可列为moderate，并在机制中注明“尽管全身吸收低，仍具潜在风险”。使用相同交互，但type全为moderate？由于低吸收，严重风险可能降级。根据FDA标签，外用双氯芬酸仍警告与抗凝剂和华法林等合用增加出血风险，但未列出为禁忌。可以列为moderate。也可能与阿司匹林等。保守。
+                - listitem [ref=e621]:
+                  - paragraph [ref=e622]:
+                    - text: 阿片类 (全激动剂：吗啡，芬太尼，羟考酮，氢可酮，羟吗啡酮，左啡诺，哌替啶，美沙酮；部分激动剂布托啡诺，丁丙诺啡有特殊)：
+                    - text: 通用严重交互：
+                  - list [ref=e623]:
+                    - listitem [ref=e624]:
+                      - paragraph [ref=e625]: "drug_b: \"benzodiazepines and other CNS depressants (alcohol, sedatives, anxiolytics, antipsychotics)\", major, \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"药效学协同CNS抑制\""
+                    - listitem [ref=e626]:
+                      - paragraph [ref=e627]: "drug_b: \"MAO inhibitors\", major, \"增加5-羟色胺综合征、高血压危象或严重呼吸抑制风险\", \"代谢和药效学交互，MAOIs与某些阿片类（特别是哌替啶、曲马多、美沙酮）导致5-羟色胺蓄积\" （对于芬太尼等，可能与MAOI有高血压危象，但机制复杂。统一列为禁忌）"
+                    - listitem [ref=e628]:
+                      - paragraph [ref=e629]:
+                        - text: "drug_b: \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", major, \"增加阿片血药浓度，导致呼吸抑制\", \"抑制CYP3A4介导的阿片代谢\" (适用于芬太尼、羟考酮、氢可酮、美沙酮；吗啡不通过CYP3A4，但仍可列出与某些强抑制剂如西咪替丁？吗啡主要UGT代谢，可不列CYP3A4抑制剂，但可将吗啡的交互调整为中度：与加巴喷丁类药物增加呼吸抑制风险。等下处理)"
+                        - text: 中度交互：
+                    - listitem [ref=e630]:
+                      - paragraph [ref=e631]: "drug_b: \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", moderate, \"降低阿片血浓度，导致镇痛不足或戒断症状\", \"诱导CYP3A4加速代谢\""
+                    - listitem [ref=e632]:
+                      - paragraph [ref=e633]: "drug_b: \"anticholinergic drugs\", moderate, \"增加严重便秘、尿潴留风险\", \"药效学协同抗胆碱能作用\""
+                    - listitem [ref=e634]:
+                      - paragraph [ref=e635]: "drug_b: \"diuretics\", moderate, \"降低利尿剂疗效\", \"机制不明，可能ADH释放\""
+                  - paragraph [ref=e636]:
+                    - text: 对于特定阿片类：
+                    - text: 曲马多：与MAOIs major，5-HT综合征；与SSRIs、SNRIs、三环，major，5-HT综合征、癫痫发作；与CYP2D6抑制剂（帕罗西汀、氟西汀、安非他酮）moderate，降低镇痛效；癫痫发作风险与安非他酮等。
+                    - text: 哌替啶：与MAOIs major，5-HT综合征，致命。
+                    - text: 美沙酮：QT延长药物 (class Ia, III 抗心律失常药, 大环内酯类, 氟喹诺酮, 抗精神病药) major，尖端扭转型室速风险；CYP3A4抑制剂/诱导剂。
+                    - text: 丁丙诺啡：部分激动剂，与全阿片激动剂合用可能促发戒断或降低镇痛 (moderate)；与苯二氮卓类 major (呼吸抑制)；CYP3A4抑制剂 major。
+                    - text: 布托啡诺：类似，与全阿片激动剂拮抗镇痛 (moderate)；CNS抑制剂。
+              - paragraph [ref=e637]: "复方药物：对乙酰氨基酚和羟考酮：包括对乙酰氨基酚交互+羟考酮交互。注意勿重复drug_b，将它们合并。命名drug_a: \"acetaminophen and oxycodone\"。"
+              - paragraph [ref=e638]: 同样处理其他。
+              - list [ref=e639]:
+                - listitem [ref=e640]:
+                  - paragraph [ref=e641]:
+                    - text: 利多卡因外用/局部注射：
+                    - text: 与 "class I antiarrhythmics (e.g., mexiletine)" moderate，增加全身毒性风险（心脏或神经毒性），"相加的局麻药作用，如大量吸收"。
+                    - text: 与 "other local anesthetics" moderate，增加毒性风险，"相加效应"。
+                - listitem [ref=e642]:
+                  - paragraph [ref=e643]:
+                    - text: 苯佐卡因外用：
+                    - text: 与 "methemoglobin-inducing agents (e.g., dapsone, nitrates, sulfonamides)" moderate，增加高铁血红蛋白血症风险，"相加氧化应激"。
+                - listitem [ref=e644]:
+                  - paragraph [ref=e645]:
+                    - text: 苯海拉明外用：
+                    - text: 与 "CNS depressants" moderate，可能增加嗜睡（特别是大面积或破损皮肤使用），"相加中枢抑制作用"。
+                - listitem [ref=e646]:
+                  - paragraph [ref=e647]: 薄荷醇：无交互。
+                - listitem [ref=e648]:
+                  - paragraph [ref=e649]:
+                    - text: 可乐定注射：
+                    - text: 与 "CNS depressants (benzodiazepines, opioids, alcohol)" moderate，增强镇静和呼吸抑制，"药效学协同"。
+                    - text: 与 "other antihypertensives" moderate，增加低血压和心动过缓风险，"相加降压效应"。
+                    - text: 与 "beta-blockers" moderate，加重反跳性高血压（突然停药），"交感神经张力反跳"。
+                    - text: 与 "tricyclic antidepressants" moderate，可能降低可乐定降压效果，"拮抗α2受体"。
+                - listitem [ref=e650]:
+                  - paragraph [ref=e651]:
+                    - text: 水杨酰胺 (类似阿司匹林)：
+                    - text: 与 "anticoagulants" major 出血风险。
+                    - text: 与 "other NSAIDs" major 溃疡风险。
+                    - text: 与 "methotrexate" major 毒性。
+                - listitem [ref=e652]:
+                  - paragraph [ref=e653]:
+                    - text: 苯托沙敏 (第一代抗组胺药)：
+                    - text: 与 "CNS depressants" moderate 增强镇静。
+                    - text: 与 "MAO inhibitors" moderate 增强抗胆碱能效应。
+                    - text: 与 "anticholinergic drugs" moderate 增加口干、尿潴留。
+                - listitem [ref=e654]:
+                  - paragraph [ref=e655]:
+                    - text: 卡立普多 (肌肉松弛剂，代谢为甲丙氨酯)：
+                    - text: 与 "CNS depressants" major 深度镇静。
+                    - text: 与 "CYP2C19 inhibitors (omeprazole, fluvoxamine)" moderate 增加卡立普多浓度，增强镇静。
+                    - text: 与 "opioids" major 呼吸抑制。已经在复方中有阿片。
+                - listitem [ref=e656]:
+                  - paragraph [ref=e657]:
+                    - text: 可待因/双氢可待因 (前药，CYP2D6)：
+                    - text: 与 "CYP2D6 inhibitors (paroxetine, duloxetine, bupropion)" moderate 降低镇痛效果。
+                    - text: 与 "MAO inhibitors" major 5-HT综合征。
+                    - text: 与 CNS抑制剂 major。
+                - listitem [ref=e658]:
+                  - paragraph [ref=e659]: 阿司匹林交互：与 NSAIDs 类似。
+                  - list [ref=e660]:
+                    - listitem [ref=e661]:
+                      - paragraph [ref=e662]: "drug_b: \"other NSAIDs\", major 增加溃疡和出血。"
+                    - listitem [ref=e663]:
+                      - paragraph [ref=e664]: "drug_b: \"anticoagulants (warfarin, DOACs, heparin)\", major 增加出血风险。"
+                    - listitem [ref=e665]:
+                      - paragraph [ref=e666]: "drug_b: \"antiplatelet agents\", major 出血。"
+                    - listitem [ref=e667]:
+                      - paragraph [ref=e668]: "drug_b: \"methotrexate\", major 毒性。"
+                    - listitem [ref=e669]:
+                      - paragraph [ref=e670]: "drug_b: \"SSRIs\", moderate 上消化道出血。"
+                    - listitem [ref=e671]:
+                      - paragraph [ref=e672]: "drug_b: \"corticosteroids\", moderate 溃疡。"
+                    - listitem [ref=e673]:
+                      - paragraph [ref=e674]: "drug_b: \"ACE inhibitors, ARBs\", moderate 降压降低。"
+                    - listitem [ref=e675]:
+                      - paragraph [ref=e676]: "drug_b: \"valproate\", moderate 增加游离丙戊酸水平。"
+                    - listitem [ref=e677]:
+                      - paragraph [ref=e678]: 阿司匹林与咖啡因无关。
+                - listitem [ref=e679]:
+                  - paragraph [ref=e680]: "咖啡因: 忽略或轻中度：与CYP1A2抑制剂如氟伏沙明、环丙沙星可能增加咖啡因效应（神经紧张）。但复方中不列或中度？可以列出与氟伏沙明等 moderate，增加咖啡因副作用。但题目要求药物交互严格限于有临床意义的。我们在复方acetaminophen, caffeine, and dihydrocodeine中，可以为咖啡因列出与氟伏沙明、环丙沙星（CYP1A2抑制剂）的moderate交互。对于 aspirin and caffeine，同样。这使JSON更完整。"
+              - paragraph [ref=e681]: 现在开始构架。我将为每个药物生成interactions数组。重复使用变量。
+              - paragraph [ref=e682]: "因为JSON很大，我会在最终输出中直接写出。注意：所有“drug_a”字段应等于每个对象的“generic_name”。所以generic_name: \"acetaminophen and oxycodone\"，之后interactions里面的drug_a: \"acetaminophen and oxycodone\"。保持一致。"
+              - paragraph [ref=e683]: 开始编写。我将控制令牌限制，尽力详尽。
+              - paragraph [ref=e684]:
+                - text: 先处理对乙酰氨基酚单方变量：所有仅含对乙酰氨基酚的条目。
+                - text: 交互列表：
+              - list [ref=e685]:
+                - listitem [ref=e686]:
+                  - paragraph [ref=e687]: "{\"drug_a\": \"acetaminophen ...\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"}"
+                - listitem [ref=e688]:
+                  - paragraph [ref=e689]: "{\"drug_a\": \"...\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"}"
+                - listitem [ref=e690]:
+                  - paragraph [ref=e691]: "{\"drug_a\": \"...\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"}"
+                - listitem [ref=e692]:
+                  - paragraph [ref=e693]: "{\"drug_a\": \"...\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+              - paragraph [ref=e694]: 再加一个：与isoniazid moderate 肝毒性，但非必须。我就保持这四个。
+              - paragraph [ref=e695]: 对于paracetamol也是这些，只需改drug_a。
+              - paragraph [ref=e696]:
+                - text: NSAIDs通用：ketorolac, ibuprofen injection, Ibuprofen Chewable Tablets, meloxicam IV, 也包括复方里的ibuprofen。以下是NSAIDs交互，drug_a应为对应药物。
+                - text: 列表：
+              - list [ref=e697]:
+                - listitem [ref=e698]:
+                  - paragraph [ref=e699]: "\"other NSAIDs (including aspirin)\" major"
+                - listitem [ref=e700]:
+                  - paragraph [ref=e701]: "\"anticoagulants (warfarin, DOACs, heparin)\" major"
+                - listitem [ref=e702]:
+                  - paragraph [ref=e703]: "\"antiplatelet agents (clopidogrel, prasugrel)\" major"
+                - listitem [ref=e704]:
+                  - paragraph [ref=e705]: "\"methotrexate\" major"
+                - listitem [ref=e706]:
+                  - paragraph [ref=e707]: "\"ACE inhibitors, ARBs\" moderate"
+                - listitem [ref=e708]:
+                  - paragraph [ref=e709]: "\"diuretics\" moderate"
+                - listitem [ref=e710]:
+                  - paragraph [ref=e711]: "\"SSRIs, SNRIs\" moderate"
+                - listitem [ref=e712]:
+                  - paragraph [ref=e713]: "\"corticosteroids\" moderate"
+                - listitem [ref=e714]:
+                  - paragraph [ref=e715]: "\"lithium\" moderate"
+                - listitem [ref=e716]:
+                  - paragraph [ref=e717]: "\"cyclosporine, tacrolimus\" moderate"
+              - paragraph [ref=e718]: 外用双氯芬酸：类似但可能都列moderate，并注明机制低全身暴露，但不能排除风险。我仍用moderate，并说明。
+              - paragraph [ref=e719]:
+                - text: 阿片类通用：吗啡、羟考酮、氢可酮、羟吗啡酮等。不包括曲马多、美沙酮、丁丙诺啡等特殊。
+                - text: "interactions:"
+              - list [ref=e720]:
+                - listitem [ref=e721]:
+                  - paragraph [ref=e722]: benzodiazepines and other CNS depressants major
+                - listitem [ref=e723]:
+                  - paragraph [ref=e724]: MAO inhibitors major
+                - listitem [ref=e725]:
+                  - paragraph [ref=e726]: CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir) major (对吗啡除外，吗啡代谢非CYP3A4，吗啡可忽略此项，或列为不适用？为了准确性，吗啡无CYP3A4抑制剂交互，但可与加巴喷丁交互。文献记载吗啡与加巴喷丁合用增加呼吸抑制。我加入这条。吗啡：与gabapentinoids (gabapentin, pregabalin) moderate 增加呼吸抑制、镇静。所以吗啡可用此替换。但芬太尼等有CYP3A4。
+                - listitem [ref=e727]:
+                  - paragraph [ref=e728]: CYP3A4 inducers moderate
+                - listitem [ref=e729]:
+                  - paragraph [ref=e730]: anticholinergic drugs moderate
+                - listitem [ref=e731]:
+                  - paragraph [ref=e732]:
+                    - text: diuretics moderate
+                    - text: 此外，与部分激动剂如丁丙诺啡和布托啡诺有特殊。
+              - paragraph [ref=e733]: 现在针对各个药物：
+              - list [ref=e734]:
+                - listitem [ref=e735]:
+                  - paragraph [ref=e736]: "acetaminophen and oxycodone: 对乙酰氨基酚交互 + 羟考酮交互（羟考酮是CYP3A4底物，包含CYP3A4抑制剂等）。所以interactions包含来自对乙酰氨基酚的4条（drug_a为复方名），和羟考酮的阿片类交互，但去重。复方的drug_a: \"acetaminophen and oxycodone\"。我将列出。"
+                - listitem [ref=e737]:
+                  - paragraph [ref=e738]: "paracetamol: 同对乙酰氨基酚。"
+                - listitem [ref=e739]:
+                  - paragraph [ref=e740]: "ketorolac (nasal): NSAIDs列表。"
+                - listitem [ref=e741]:
+                  - paragraph [ref=e742]: "Acetaminophen Controlled-Release Tablets: 对乙酰氨基酚。"
+                - listitem [ref=e743]:
+                  - paragraph [ref=e744]: "morphine (oral): 阿片类，无CYP3A4，需加gabapentinoids。具体："
+              - list [ref=e745]:
+                - listitem [ref=e746]:
+                  - paragraph [ref=e747]: benzodiazepines and CNS depressants major
+                - listitem [ref=e748]:
+                  - paragraph [ref=e749]: MAO inhibitors major (虽非5-HT，但可致呼吸抑制，说明书禁忌)
+                - listitem [ref=e750]:
+                  - paragraph [ref=e751]: gabapentinoids (gabapentin, pregabalin) moderate 增加镇静和呼吸抑制
+                - listitem [ref=e752]:
+                  - paragraph [ref=e753]: anticholinergic drugs moderate
+                - listitem [ref=e754]:
+                  - paragraph [ref=e755]: diuretics moderate
+                - listitem [ref=e756]:
+                  - paragraph [ref=e757]: CYP3A4 inducers 无。不加。
+              - list [ref=e758]:
+                - listitem [ref=e759]:
+                  - paragraph [ref=e760]: "Fentanyl Transdermal System: 芬太尼，CYP3A4底物。所以："
+              - list [ref=e761]:
+                - listitem [ref=e762]:
+                  - paragraph [ref=e763]: benzodiazepines/CNS depressants major
+                - listitem [ref=e764]:
+                  - paragraph [ref=e765]: MAO inhibitors major
+                - listitem [ref=e766]:
+                  - paragraph [ref=e767]: CYP3A4 inhibitors major
+                - listitem [ref=e768]:
+                  - paragraph [ref=e769]: CYP3A4 inducers moderate
+                - listitem [ref=e770]:
+                  - paragraph [ref=e771]: anticholinergic drugs moderate
+                - listitem [ref=e772]:
+                  - paragraph [ref=e773]: diuretics moderate
+              - list [ref=e774]:
+                - listitem [ref=e775]:
+                  - paragraph [ref=e776]: "acetaminophen and tramadol: 对乙酰氨基酚交互 + 曲马多交互。曲马多："
+              - list [ref=e777]:
+                - listitem [ref=e778]:
+                  - paragraph [ref=e779]: benzodiazepines/CNS depressants major
+                - listitem [ref=e780]:
+                  - paragraph [ref=e781]: MAO inhibitors major (5-HT)
+                - listitem [ref=e782]:
+                  - paragraph [ref=e783]: SSRIs, SNRIs, tricyclic antidepressants major (5-HT, seizures)
+                - listitem [ref=e784]:
+                  - paragraph [ref=e785]: CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion) moderate 降低镇痛
+                - listitem [ref=e786]:
+                  - paragraph [ref=e787]: other serotonergic drugs (lithium, triptans) moderate 5-HT
+                - listitem [ref=e788]:
+                  - paragraph [ref=e789]: anticholinergics moderate
+                - listitem [ref=e790]:
+                  - paragraph [ref=e791]:
+                    - text: diuretics moderate
+                    - text: 同时加入对乙酰氨基酚的四条。为避免重复，如果drug_b重合（如MAO inhibitors已经出现，可从曲马多交互中是major，只保留一个）。我们将合并。
+              - list [ref=e792]:
+                - listitem [ref=e793]:
+                  - paragraph [ref=e794]: "hydrocodone and ibuprofen: 氢可酮合用布洛芬。氢可酮是CYP3A4底物，阿片类交互 + 布洛芬交互(NSAIDs)。需纳布洛芬的与抗凝剂等的交互。氢可酮阿片类交互如前。这是复方，交互列表合并。"
+                - listitem [ref=e795]:
+                  - paragraph [ref=e796]: "fentanyl: 同芬太尼透皮，但剂型不同。交互相同。"
+                - listitem [ref=e797]:
+                  - paragraph [ref=e798]: "oxymorphone: 羟吗啡酮，不依赖CYP3A4代谢（主要葡萄糖醛酸化），类似吗啡。交互同吗啡。"
+                - listitem [ref=e799]:
+                  - paragraph [ref=e800]: "acetaminophen (oral route, rectal route): 对乙酰氨基酚。"
+                - listitem [ref=e801]:
+                  - paragraph [ref=e802]: "acetaminophen (rectal): 同上。"
+                - listitem [ref=e803]:
+                  - paragraph [ref=e804]: "diclofenac topical system (patch): 外用，NSAID交互全部 moderate，drug_a是diclofenac topical system (patch)。"
+                - listitem [ref=e805]:
+                  - paragraph [ref=e806]: "meperidine (oral/injection): 哌替啶，特殊交互：与MAOIs major (5-HT综合征), 与所有CNS抑制剂 major, CYP3A4代谢？哌替啶主要CYP2B6和CYP3A4，与CYP3A4抑制剂也可严重。所以要加CYP3A4抑制剂 major, 诱导剂 moderate，以及其他阿片交互。还包括去甲哌替啶蓄积导致癫痫，与MAOIs。列出。"
+                - listitem [ref=e807]:
+                  - paragraph [ref=e808]: "acetaminophen: 同上单方。"
+                - listitem [ref=e809]:
+                  - paragraph [ref=e810]: "ibuprofen injection: NSAID。"
+                - listitem [ref=e811]:
+                  - paragraph [ref=e812]: "Acetaminophen Liquid: 单方。"
+                - listitem [ref=e813]:
+                  - paragraph [ref=e814]: "fentanyl transdermal (skin patch): 同芬太尼。"
+                - listitem [ref=e815]:
+                  - paragraph [ref=e816]: "Acetaminophen Suspension Drops: 单方。"
+                - listitem [ref=e817]:
+                  - paragraph [ref=e818]: "Acetaminophen Dispersible Tablets: 单方。"
+                - listitem [ref=e819]:
+                  - paragraph [ref=e820]: "Ibuprofen Chewable Tablets: NSAID。"
+                - listitem [ref=e821]:
+                  - paragraph [ref=e822]: "acetaminophen (injection): 单方。注意与华法林出血，酒精(如果输注但少见)，同样。"
+                - listitem [ref=e823]:
+                  - paragraph [ref=e824]: "tramadol hydrochloride: 曲马多交互（不含对乙酰氨基酚）。交互同上曲马多。"
+                - listitem [ref=e825]:
+                  - paragraph [ref=e826]: "Acetaminophen Capsules and Tablets: 单方。"
+                - listitem [ref=e827]:
+                  - paragraph [ref=e828]: "fentanyl citrate (oral transmucosal): 芬太尼。"
+                - listitem [ref=e829]:
+                  - paragraph [ref=e830]: "meloxicam (intravenous route): NSAID。"
+                - listitem [ref=e831]:
+                  - paragraph [ref=e832]: "oxycodone (oral route): 羟考酮单方，CYP3A4底物。"
+                - listitem [ref=e833]:
+                  - paragraph [ref=e834]: "Lidocaine Aerosol: 外用利多卡因。交互：与 class I antiarrhythmics (mexiletine) moderate，与其他局部麻醉剂 moderate。"
+                - listitem [ref=e835]:
+                  - paragraph [ref=e836]: "lidocaine (topical application route): 同上。"
+                - listitem [ref=e837]:
+                  - paragraph [ref=e838]: "morphine (injection route): 吗啡交互。"
+                - listitem [ref=e839]:
+                  - paragraph [ref=e840]: "buprenorphine (oral/buccal): 丁丙诺啡，部分激动剂。交互：与 benzodiazepines/CNS depressants major；与 CYP3A4 inhibitors major；与 CYP3A4 inducers moderate；与全阿片激动剂 (full opioid agonists) moderate 导致戒断或降低镇痛；与 MAO inhibitors？通常可严重，丁丙诺啡与MAOIs也可列major。加上 MAOIs major。抗胆碱 moderate，利尿 moderate。"
+                - listitem [ref=e841]:
+                  - paragraph [ref=e842]: "menthol topical: 无交互，输出空数组。"
+                - listitem [ref=e843]:
+                  - paragraph [ref=e844]: "butorphanol (injection): 布托啡诺，混合激动-拮抗剂。交互：CNS depressants major；与全阿片激动剂 moderate 降低镇痛/戒断；MAOIs major? 布托啡诺是κ激动剂和μ拮抗剂，与MAOI合用的严重性低于哌替啶，但仍可列major (如标签)。一般有警告，与MAOIs增加抑制，可列major。再加抗胆碱、利尿。"
+                - listitem [ref=e845]:
+                  - paragraph [ref=e846]: "buprenorphine transdermal (skin patch): 同丁丙诺啡。"
+                - listitem [ref=e847]:
+                  - paragraph [ref=e848]: "lidocaine hydrochloride: 外用。同利多卡因。"
+                - listitem [ref=e849]:
+                  - paragraph [ref=e850]: "Diphenhydramine (topical): 外用苯海拉明，与CNS depressants moderate 嗜睡。"
+                - listitem [ref=e851]:
+                  - paragraph [ref=e852]: "clonidine (injection): 可乐定交互。"
+                - listitem [ref=e853]:
+                  - paragraph [ref=e854]: "morphine (injection): 吗啡。"
+                - listitem [ref=e855]:
+                  - paragraph [ref=e856]: "fentanyl (buccal/sublingual): 芬太尼。"
+                - listitem [ref=e857]:
+                  - paragraph [ref=e858]: "levorphanol (oral): 左啡诺，非CYP3A4主要？左啡诺代谢为葡萄糖醛酸，类似吗啡。交互同吗啡。"
+                - listitem [ref=e859]:
+                  - paragraph [ref=e860]: "methadone (oral route): 美沙酮。交互："
+              - list [ref=e861]:
+                - listitem [ref=e862]:
+                  - paragraph [ref=e863]: benzodiazepines/CNS depressants major
+                - listitem [ref=e864]:
+                  - paragraph [ref=e865]: MAO inhibitors major
+                - listitem [ref=e866]:
+                  - paragraph [ref=e867]: CYP3A4 inhibitors major
+                - listitem [ref=e868]:
+                  - paragraph [ref=e869]: CYP3A4 inducers moderate
+                - listitem [ref=e870]:
+                  - paragraph [ref=e871]: QT-prolonging agents (Class Ia/III antiarrhythmics, macrolides, fluoroquinolones, antipsychotics) major 尖端扭转
+                - listitem [ref=e872]:
+                  - paragraph [ref=e873]: anticholinergics moderate
+                - listitem [ref=e874]:
+                  - paragraph [ref=e875]: diuretics moderate
+              - list [ref=e876]:
+                - listitem [ref=e877]:
+                  - paragraph [ref=e878]: "benzocaine (topical application route): 苯佐卡因交互。"
+                - listitem [ref=e879]:
+                  - paragraph [ref=e880]: "acetaminophen and benzhydrocodone: 对乙酰氨基酚 + 苯并氢可酮(氢可酮前药)。对乙酰氨基酚交互 + 氢可酮阿片交互（CYP3A4底物）。合并。"
+                - listitem [ref=e881]:
+                  - paragraph [ref=e882]: "acetaminophen, caffeine, and dihydrocodeine: 对乙酰氨基酚交互 + 咖啡因交互 (CYP1A2抑制剂如fluvoxamine, ciprofloxacin moderate 增加咖啡因作用) + 双氢可待因交互。双氢可待因类似可待因，前药CYP2D6，与CYP2D6抑制剂 moderate 降低镇痛；与MAOIs major；与CNS抑郁 major。合并。"
+                - listitem [ref=e883]:
+                  - paragraph [ref=e884]: "acetaminophen and ibuprofen: 对乙酰氨基酚 + 布洛芬，合并。"
+                - listitem [ref=e885]:
+                  - paragraph [ref=e886]: "Acetaminophen, Salicylamide, and Phenyltoloxamine: 对乙酰氨基酚 + 水杨酰胺（类似阿司匹林） + 苯托沙敏。水杨酰胺交互：抗凝、甲氨蝶呤、其它NSAIDs等。苯托沙敏：CNS抑制、抗胆碱、MAOIs。合并。"
+                - listitem [ref=e887]:
+                  - paragraph [ref=e888]: "aspirin and caffeine: 阿司匹林交互（同NSAIDs） + 咖啡因交互。"
+                - listitem [ref=e889]:
+                  - paragraph [ref=e890]: "benzocaine topical: 苯佐卡因。"
+                - listitem [ref=e891]:
+                  - paragraph [ref=e892]: "Menthol Gel, Liquid, and Solution: 薄荷醇，无交互。"
+                - listitem [ref=e893]:
+                  - paragraph [ref=e894]: "aspirin, carisoprodol, and codeine: 阿司匹林 + 卡立普多 + 可待因。卡立普多交互：CNS抑制剂，CYP2C19抑制剂；可待因：CNS抑制剂，CYP2D6抑制剂，MAOIs；阿司匹林交互。合并。"
+              - paragraph [ref=e895]: 开始构建JSON。我将创建数组，每个元素一个对象。注意所有字符串双引号转义。我会确保正确。
+              - paragraph [ref=e896]: 为节省空间，重复的交互列表可以大量复制。我将直接写出整个结构。由于响应长度限制，我尽量紧凑但保留必要的换行。好，开始输出。
+          - paragraph [ref=e898]:
+            - text: "["
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen and oxycodone\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量对乙酰氨基酚可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加对乙酰氨基酚的NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加5-羟色胺综合征、严重呼吸抑制或高血压危象风险\", \"mechanism\": \"阿片类与MAOI协同导致5-羟色胺蓄积及交感神经兴奋\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加羟考酮血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的羟考酮代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低羟考酮血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速羟考酮代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"acetaminophen and oxycodone\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"paracetamol\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"paracetamol\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"paracetamol\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"paracetamol\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"paracetamol\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"ketorolac (nasal)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加锂血浓度及毒性\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"ketorolac (nasal)\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肾毒性\", \"mechanism\": \"协同肾毒性\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Acetaminophen Controlled-Release Tablets\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Acetaminophen Controlled-Release Tablets\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Controlled-Release Tablets\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Controlled-Release Tablets\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Controlled-Release Tablets\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"morphine (oral)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"morphine (oral)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"morphine (oral)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和低血压风险\", \"mechanism\": \"MAOI与吗啡协同引起血流动力学改变和中枢抑制\"},"
+            - text: "{\"drug_a\": \"morphine (oral)\", \"drug_b\": \"gabapentinoids (gabapentin, pregabalin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加镇静和呼吸抑制风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"morphine (oral)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"morphine (oral)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"吗啡可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Fentanyl Transdermal System\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Fentanyl Transdermal System\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"Fentanyl Transdermal System\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋\"},"
+            - text: "{\"drug_a\": \"Fentanyl Transdermal System\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加芬太尼血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"Fentanyl Transdermal System\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低芬太尼血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"Fentanyl Transdermal System\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"Fentanyl Transdermal System\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen and tramadol\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量对乙酰氨基酚可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加5-羟色胺综合征和癫痫发作风险\", \"mechanism\": \"曲马多抑制5-HT再摄取，MAOI抑制5-HT代谢，协同5-HT蓄积\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"SSRIs, SNRIs, tricyclic antidepressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加5-羟色胺综合征和癫痫发作风险\", \"mechanism\": \"协同5-羟色胺能作用，降低癫痫阈值\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低曲马多镇痛效果\", \"mechanism\": \"抑制曲马多经CYP2D6代谢为活性代谢物M1\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"other serotonergic drugs (lithium, triptans)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加5-羟色胺综合征风险\", \"mechanism\": \"相加的5-羟色胺能效应\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"acetaminophen and tramadol\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"hydrocodone and ibuprofen\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"阿片类与MAOI协同CNS抑制和交感兴奋\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加氢可酮血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的氢可酮代谢\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性，并可能降低利尿剂疗效\", \"mechanism\": \"前列腺素抑制和阿片类ADH释放作用\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加锂血浓度及毒性\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肾毒性\", \"mechanism\": \"协同肾毒性\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低氢可酮血浓度，导致镇痛不足\", \"mechanism\": \"诱导CYP3A4加速氢可酮代谢\"},"
+            - text: "{\"drug_a\": \"hydrocodone and ibuprofen\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"fentanyl\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"fentanyl\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"fentanyl\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋\"},"
+            - text: "{\"drug_a\": \"fentanyl\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加芬太尼血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低芬太尼血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"fentanyl\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"oxymorphone\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"oxymorphone\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"oxymorphone\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和低血压风险\", \"mechanism\": \"阿片类与MAOI协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"oxymorphone\", \"drug_b\": \"gabapentinoids (gabapentin, pregabalin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加镇静和呼吸抑制风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"oxymorphone\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"oxymorphone\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen (oral route, rectal route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen (oral route, rectal route)\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen (oral route, rectal route)\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen (oral route, rectal route)\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen (oral route, rectal route)\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen (rectal)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen (rectal)\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen (rectal)\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen (rectal)\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen (rectal)\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"diclofenac topical system (patch)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险（全身吸收低但不得排除）\", \"mechanism\": \"协同抑制前列腺素合成，即使局部应用仍有全身吸收\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集，全身吸收后产生抗凝协同作用\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"附加抗血小板效应\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加甲氨蝶呤毒性风险\", \"mechanism\": \"可能减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"可能降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"可能降低利尿效果并增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同影响血小板功能\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"可能增加锂血浓度\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"diclofenac topical system (patch)\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"可能增加肾毒性\", \"mechanism\": \"协同肾毒性\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"meperidine (oral/injection)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"发生5-羟色胺综合征（高热、抽搐、死亡）\", \"mechanism\": \"哌替啶抑制5-HT再摄取，MAOI抑制5-HT代谢，导致5-HT危象\"},"
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加哌替啶和毒性代谢物去甲哌替啶水平，导致癫痫和呼吸抑制\", \"mechanism\": \"抑制CYP3A4和CYP2B6代谢\"},"
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"SSRIs, SNRIs, tricyclic antidepressants\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加5-羟色胺综合征风险\", \"mechanism\": \"协同5-HT活性\"},"
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"CYP3A4 inducers (rifampin, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低镇痛效果，可能增加去甲哌替啶毒性\", \"mechanism\": \"诱导代谢酶改变代谢途径\"},"
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"meperidine (oral/injection)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"ibuprofen injection\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加锂血浓度及毒性\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"ibuprofen injection\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肾毒性\", \"mechanism\": \"协同肾毒性\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Acetaminophen Liquid\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Acetaminophen Liquid\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Liquid\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Liquid\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Liquid\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"fentanyl transdermal (skin patch)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"fentanyl transdermal (skin patch)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"fentanyl transdermal (skin patch)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋\"},"
+            - text: "{\"drug_a\": \"fentanyl transdermal (skin patch)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加芬太尼血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl transdermal (skin patch)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低芬太尼血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl transdermal (skin patch)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"fentanyl transdermal (skin patch)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Acetaminophen Suspension Drops\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Acetaminophen Suspension Drops\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Suspension Drops\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Suspension Drops\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Suspension Drops\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Acetaminophen Dispersible Tablets\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Acetaminophen Dispersible Tablets\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Dispersible Tablets\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Dispersible Tablets\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Dispersible Tablets\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Ibuprofen Chewable Tablets\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加锂血浓度及毒性\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"Ibuprofen Chewable Tablets\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肾毒性\", \"mechanism\": \"协同肾毒性\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen (injection)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen (injection)\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen (injection)\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen (injection)\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen (injection)\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"tramadol hydrochloride\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加5-羟色胺综合征和癫痫发作风险\", \"mechanism\": \"曲马多抑制5-HT再摄取，MAOI抑制5-HT代谢，协同5-HT蓄积\"},"
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"SSRIs, SNRIs, tricyclic antidepressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加5-羟色胺综合征和癫痫发作风险\", \"mechanism\": \"协同5-羟色胺能作用，降低癫痫阈值\"},"
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低曲马多镇痛效果\", \"mechanism\": \"抑制曲马多经CYP2D6代谢为活性代谢物M1\"},"
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"other serotonergic drugs (lithium, triptans)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加5-羟色胺综合征风险\", \"mechanism\": \"相加的5-羟色胺能效应\"},"
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"tramadol hydrochloride\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Acetaminophen Capsules and Tablets\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Acetaminophen Capsules and Tablets\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量使用可能抑制维生素K依赖性凝血因子合成或干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Capsules and Tablets\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Capsules and Tablets\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"Acetaminophen Capsules and Tablets\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"fentanyl citrate (oral transmucosal)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"fentanyl citrate (oral transmucosal)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"fentanyl citrate (oral transmucosal)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋\"},"
+            - text: "{\"drug_a\": \"fentanyl citrate (oral transmucosal)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加芬太尼血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl citrate (oral transmucosal)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低芬太尼血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl citrate (oral transmucosal)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"fentanyl citrate (oral transmucosal)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"meloxicam (intravenous route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加锂血浓度及毒性\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"meloxicam (intravenous route)\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肾毒性\", \"mechanism\": \"协同肾毒性\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"oxycodone (oral route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"oxycodone (oral route)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"oxycodone (oral route)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制或5-羟色胺综合征风险\", \"mechanism\": \"阿片类与MAOI协同CNS抑制和可能5-HT蓄积\"},"
+            - text: "{\"drug_a\": \"oxycodone (oral route)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加羟考酮血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的羟考酮代谢\"},"
+            - text: "{\"drug_a\": \"oxycodone (oral route)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低羟考酮血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速羟考酮代谢\"},"
+            - text: "{\"drug_a\": \"oxycodone (oral route)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"oxycodone (oral route)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Lidocaine Aerosol\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Lidocaine Aerosol\", \"drug_b\": \"class I antiarrhythmics (e.g., mexiletine)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险（心脏或神经毒性）\", \"mechanism\": \"相加的局麻药作用，特别是大量吸收时\"},"
+            - text: "{\"drug_a\": \"Lidocaine Aerosol\", \"drug_b\": \"other local anesthetics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险\", \"mechanism\": \"相加的局麻药作用\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"lidocaine (topical application route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"lidocaine (topical application route)\", \"drug_b\": \"class I antiarrhythmics (e.g., mexiletine)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险（心脏或神经毒性）\", \"mechanism\": \"相加的局麻药作用，特别是大量使用或破损皮肤吸收\"},"
+            - text: "{\"drug_a\": \"lidocaine (topical application route)\", \"drug_b\": \"other local anesthetics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险\", \"mechanism\": \"相加的局麻药作用\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"morphine (injection route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"morphine (injection route)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"morphine (injection route)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和低血压风险\", \"mechanism\": \"MAOI与吗啡协同引起血流动力学改变和中枢抑制\"},"
+            - text: "{\"drug_a\": \"morphine (injection route)\", \"drug_b\": \"gabapentinoids (gabapentin, pregabalin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加镇静和呼吸抑制风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"morphine (injection route)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"morphine (injection route)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"吗啡可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"buprenorphine (oral/buccal)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"可能增加呼吸抑制和5-羟色胺效应\", \"mechanism\": \"MAOI延缓丁丙诺啡代谢，协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加丁丙诺啡血浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的丁丙诺啡代谢\"},"
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"full opioid agonists (e.g., morphine, oxycodone)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低全激动剂镇痛效果或诱发戒断症状\", \"mechanism\": \"部分μ受体激动剂拮抗全激动剂效应\"},"
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低丁丙诺啡水平，导致戒断或镇痛不足\", \"mechanism\": \"诱导CYP3A4加速代谢\"},"
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"buprenorphine (oral/buccal)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"menthol topical\","
+            - text: "\"interactions\": []"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"butorphanol (injection)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"butorphanol (injection)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"butorphanol (injection)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"可能增加严重呼吸抑制\", \"mechanism\": \"MAOI与阿片类激动-拮抗剂协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"butorphanol (injection)\", \"drug_b\": \"full opioid agonists (e.g., morphine)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低镇痛效果或诱发戒断症状\", \"mechanism\": \"κ激动/μ拮抗剂拮抗全激动剂效应\"},"
+            - text: "{\"drug_a\": \"butorphanol (injection)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"butorphanol (injection)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"buprenorphine transdermal (skin patch)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"可能增加呼吸抑制和5-羟色胺效应\", \"mechanism\": \"MAOI延缓丁丙诺啡代谢，协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加丁丙诺啡血浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的丁丙诺啡代谢\"},"
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"full opioid agonists (e.g., morphine, oxycodone)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低全激动剂镇痛效果或诱发戒断\", \"mechanism\": \"部分μ受体激动剂拮抗全激动剂效应\"},"
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低丁丙诺啡水平，导致戒断或镇痛不足\", \"mechanism\": \"诱导CYP3A4加速代谢\"},"
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"buprenorphine transdermal (skin patch)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"lidocaine hydrochloride\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"lidocaine hydrochloride\", \"drug_b\": \"class I antiarrhythmics (e.g., mexiletine)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险（心脏或神经毒性）\", \"mechanism\": \"相加的局麻药作用，特别是大量或破损皮肤使用\"},"
+            - text: "{\"drug_a\": \"lidocaine hydrochloride\", \"drug_b\": \"other local anesthetics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险\", \"mechanism\": \"相加的局麻药作用\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Diphenhydramine (topical)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Diphenhydramine (topical)\", \"drug_b\": \"CNS depressants (benzodiazepines, alcohol, opioids)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加嗜睡和中枢抑制风险（大面积或破损皮肤使用全身吸收增加）\", \"mechanism\": \"相加的抗组胺能和中枢抑制作用\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"clonidine (injection)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"clonidine (injection)\", \"drug_b\": \"CNS depressants (benzodiazepines, opioids, alcohol)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增强镇静和呼吸抑制\", \"mechanism\": \"药效学协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"clonidine (injection)\", \"drug_b\": \"other antihypertensives\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加低血压和心动过缓风险\", \"mechanism\": \"相加的降压效应\"},"
+            - text: "{\"drug_a\": \"clonidine (injection)\", \"drug_b\": \"beta-blockers\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加反跳性高血压风险（突然停药时）或加重心动过缓\", \"mechanism\": \"交感神经张力反跳及相加的负性频率作用\"},"
+            - text: "{\"drug_a\": \"clonidine (injection)\", \"drug_b\": \"tricyclic antidepressants\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低可乐定降压效果\", \"mechanism\": \"三环类拮抗中枢α2受体\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"morphine (injection)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"morphine (injection)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"morphine (injection)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和低血压风险\", \"mechanism\": \"MAOI与吗啡协同引起血流动力学改变和中枢抑制\"},"
+            - text: "{\"drug_a\": \"morphine (injection)\", \"drug_b\": \"gabapentinoids (gabapentin, pregabalin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加镇静和呼吸抑制风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"morphine (injection)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"morphine (injection)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"吗啡可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"fentanyl (buccal/sublingual)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"fentanyl (buccal/sublingual)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"fentanyl (buccal/sublingual)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"MAOI与芬太尼协同抑制MAO介导的代谢，可能引起交感兴奋\"},"
+            - text: "{\"drug_a\": \"fentanyl (buccal/sublingual)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加芬太尼血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl (buccal/sublingual)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低芬太尼血浓度，导致镇痛不足或戒断症状\", \"mechanism\": \"诱导CYP3A4加速芬太尼代谢\"},"
+            - text: "{\"drug_a\": \"fentanyl (buccal/sublingual)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"fentanyl (buccal/sublingual)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"levorphanol (oral)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"levorphanol (oral)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"levorphanol (oral)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和低血压风险\", \"mechanism\": \"阿片类与MAOI协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"levorphanol (oral)\", \"drug_b\": \"gabapentinoids (gabapentin, pregabalin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加镇静和呼吸抑制风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"levorphanol (oral)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"levorphanol (oral)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"methadone (oral route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加5-羟色胺综合征、严重呼吸抑制风险\", \"mechanism\": \"美沙酮具有5-HT再摄取抑制，MAOI致5-HT蓄积及协同中枢抑制\"},"
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加美沙酮血药浓度，导致呼吸抑制和QT间期延长\", \"mechanism\": \"抑制CYP3A4介导的美沙酮代谢\"},"
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"QT-prolonging agents (Class Ia/III antiarrhythmics, macrolides, fluoroquinolones, antipsychotics)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加尖端扭转型室速风险\", \"mechanism\": \"相加的QT间期延长效应\"},"
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低美沙酮水平，导致戒断症状\", \"mechanism\": \"诱导CYP3A4加速代谢\"},"
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"methadone (oral route)\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"benzocaine (topical application route)\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"benzocaine (topical application route)\", \"drug_b\": \"methemoglobin-inducing agents (e.g., dapsone, nitrates, sulfonamides)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加高铁血红蛋白血症风险\", \"mechanism\": \"相加的氧化应激导致血红蛋白氧化\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen and benzhydrocodone\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量对乙酰氨基酚可能干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加严重呼吸抑制和高血压危象风险\", \"mechanism\": \"阿片类与MAOI协同CNS抑制和交感兴奋\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, ritonavir)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加氢可酮血药浓度，导致呼吸抑制\", \"mechanism\": \"抑制CYP3A4介导的氢可酮前药活化及代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"CYP3A4 inducers (rifampin, carbamazepine, phenytoin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低氢可酮浓度，导致镇痛不足或戒断\", \"mechanism\": \"诱导CYP3A4加速代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"acetaminophen and benzhydrocodone\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen, caffeine, and dihydrocodeine\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"长期或高剂量对乙酰氨基酚可能干扰华法林代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"benzodiazepines and other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加深度镇静、呼吸抑制、昏迷和死亡风险\", \"mechanism\": \"药效学协同CNS抑制\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"可能引起5-羟色胺综合征或严重呼吸抑制\", \"mechanism\": \"双氢可待因与MAOI协同5-HT和CNS抑制\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低双氢可待因转化为活性代谢物，镇痛效果减弱\", \"mechanism\": \"抑制CYP2D6介导的双氢可待因代谢活化\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"CYP1A2 inhibitors (fluvoxamine, ciprofloxacin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加咖啡因副作用（紧张、失眠、心悸）\", \"mechanism\": \"抑制CYP1A2介导的咖啡因代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加严重便秘和尿潴留风险\", \"mechanism\": \"药效学协同抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"acetaminophen, caffeine, and dihydrocodeine\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿剂疗效\", \"mechanism\": \"阿片类可能促进ADH释放\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"acetaminophen and ibuprofen\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"对乙酰氨基酚可能干扰华法林代谢，布洛芬抑制血小板聚集\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导导致对乙酰氨基酚毒性代谢物NAPQI增加\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导，增加NAPQI形成\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"probenecid\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加对乙酰氨基酚的血药浓度及作用时间\", \"mechanism\": \"抑制对乙酰氨基酚的葡萄糖醛酸化代谢\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"lithium\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加锂血浓度及毒性\", \"mechanism\": \"减少锂的肾排泄\"},"
+            - text: "{\"drug_a\": \"acetaminophen and ibuprofen\", \"drug_b\": \"cyclosporine, tacrolimus\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肾毒性\", \"mechanism\": \"协同肾毒性\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险，需监测INR\", \"mechanism\": \"对乙酰氨基酚干扰华法林代谢，水杨酰胺可能协同抗血小板\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"水杨酰胺抑制血小板聚集与抗凝协同作用\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"other NSAIDs (including aspirin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"水杨酰胺与NSAIDs协同抑制前列腺素合成\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性\", \"mechanism\": \"水杨酰胺减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"CNS depressants (benzodiazepines, alcohol, opioids)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增强镇静、嗜睡\", \"mechanism\": \"苯托沙敏为第一代抗组胺药，相加中枢抑制\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"可能增强抗胆碱能作用和中枢抑制\", \"mechanism\": \"MAOI延缓苯托沙敏代谢，增强抗组胺效应\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"anticholinergic drugs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加口干、便秘、尿潴留风险\", \"mechanism\": \"苯托沙敏的相加抗胆碱能作用\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"chronic alcohol use\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"对乙酰氨基酚经CYP2E1代谢毒性增加\"},"
+            - text: "{\"drug_a\": \"Acetaminophen, Salicylamide, and Phenyltoloxamine\", \"drug_b\": \"hepatic enzyme-inducing antiepileptics (phenytoin, carbamazepine, phenobarbital)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加肝毒性风险\", \"mechanism\": \"CYP2E1诱导增加NAPQI形成\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"aspirin and caffeine\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"other NSAIDs (including ibuprofen)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道溃疡及出血风险\", \"mechanism\": \"协同抑制前列腺素合成，破坏胃黏膜保护\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"anticoagulants (warfarin, DOACs, heparin)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抑制血小板聚集及胃黏膜保护，协同抗凝作用\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"antiplatelet agents (clopidogrel, prasugrel)\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"双重抗血小板效应\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"减少甲氨蝶呤肾清除\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"ACE inhibitors, ARBs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾毒性风险\", \"mechanism\": \"抑制前列腺素介导的肾血管扩张\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果，增加肾毒性\", \"mechanism\": \"前列腺素抑制导致水钠潴留\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"SSRIs, SNRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抑制血小板5-羟色胺摄取\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"药效学协同损伤胃黏膜\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"valproate\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加游离丙戊酸水平，可能增加毒性\", \"mechanism\": \"阿司匹林置换血浆蛋白结合位点\"},"
+            - text: "{\"drug_a\": \"aspirin and caffeine\", \"drug_b\": \"CYP1A2 inhibitors (fluvoxamine, ciprofloxacin)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加咖啡因副作用（紧张、失眠、心悸）\", \"mechanism\": \"抑制CYP1A2介导的咖啡因代谢\"}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"benzocaine topical\","
+            - text: "\"interactions\": ["
+            - text: "{\"drug_a\": \"benzocaine topical\", \"drug_b\": \"methemoglobin-inducing agents (e.g., dapsone, nitrates, sulfonamides)\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加高铁血红蛋白血症风险\","
+      - generic [ref=e293]:
+        - generic [ref=e296]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e298]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e299]:
+            - button "深度思考" [ref=e300] [cursor=pointer]:
+              - img [ref=e302]
+              - generic [ref=e305]: 深度思考
+            - button "智能搜索" [ref=e306] [cursor=pointer]:
+              - img [ref=e308]
+              - generic [ref=e310]: 智能搜索
+            - generic [ref=e311]:
+              - button [ref=e312] [cursor=pointer]:
+                - img [ref=e315]
+              - button [ref=e318] [cursor=pointer]:
+                - img [ref=e321]
+        - generic [ref=e323]: 内容由 AI 生成，请仔细甄别

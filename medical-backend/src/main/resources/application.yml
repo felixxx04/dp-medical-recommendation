@@ -24,7 +24,7 @@ jwt:
   expiration: 86400000
 
 model-service:
-  url: http://localhost:8002
+  url: http://localhost:8001
   init-delay-ms: 2000
   connect-timeout-ms: 5000
   read-timeout-ms: 120000

@@ -1,0 +1,56 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e17]
+    - text: Ctrl + J
+  - generic [ref=e20]:
+    - generic [ref=e79]:
+      - generic [ref=e81]:
+        - generic [ref=e82] [cursor=pointer]: 新对话
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - generic [ref=e87]: 专家模式
+      - button [ref=e88] [cursor=pointer]:
+        - img [ref=e91]
+    - generic [ref=e94]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e99]: "你是一位临床药学专家。请评估以下医疗用药推荐系统对30种疾病的推荐结果是否临床适当。对每种疾病，判断推荐药物是APPROPRIATE（全部适当）、PARTIALLY（部分适当但有不适当药物）还是INAPPROPRIATE（主要药物不适当）。 疾病和推荐药物列表： 1. 冠心病(coronary artery disease): Perindopril, Amlodipine, amlodipine and benazepril, amlodipine and perindopril 2. 心肌梗死(myocardial infarction): Aspirin, Captopril, Prasugrel, Ticagrelor 3. 肺栓塞(pulmonary embolism): Apixaban, Enoxaparin, Rivaroxaban, Tenecteplase 4. 高血脂(hyperlipidemia): Pitavastatin, Pravastatin, amlodipine and atorvastatin, niacin 5. 1型糖尿病(type 1 diabetes): Insulin Aspart, Insulin Detemir, insulin inhalation, teplizumab-mzwv 6. 甲减(hypothyroidism): Liotrix, Levothyroxine, Liothyronine, levothyroxine oral/injection 7. 慢阻肺(COPD): Albuterol-Ipratropium, Ipratropium, Olodaterol, Umeclidinium 8. 胃溃疡(peptic ulcer): Cimetidine, Dexlansoprazole, aluminum hydroxide, calcium carbonate+famotidine+magnesium hydroxide 9. 溃疡性结肠炎(ulcerative colitis): Golimumab, Infliximab, Tofacitinib, Mesalamine 10. 克罗恩病(Crohn disease): Methotrexate, Infliximab, Mesalamine, Adalimumab 11. 肠易激综合征(IBS): Rifaximin, Dicyclomine, psyllium, polycarbophil 12. 便秘(constipation): Magnesium Hydroxide, Magnesium Oxide, Methylnaltrexone, Docusate 13. 肝炎(hepatitis): Tenofovir, Lamivudine, Sofosbuvir, Telbivudine 14. 抑郁症(major depressive disorder): Amitriptyline, Bupropion, desipramine, nortriptyline 15. 焦虑症(anxiety disorder): Alprazolam, Aripiprazole, Venlafaxine, venlafaxine HCl 16. 分簇性头痛(cluster headache): Ergotamine, Lithium, dihydroergotamine nasal, ergotamine+caffeine 17. 帕金森病(Parkinson disease): Selegiline, Rasagiline, Entacapone, Tolcapone 18. 多动症(ADHD): Clonidine, Bupropion, viloxazine, dexmethylphenidate+serdexmethylphenidate 19. 惊恐障碍(panic disorder): Alprazolam, Chlordiazepoxide, Venlafaxine, Alprazolam Oral Solution 20. 社交焦虑(social anxiety): Citalopram, Aripiprazole, Venlafaxine, venlafaxine HCl 21. 支气管炎(bronchitis): Lomefloxacin, dyphylline+guaifenesin, Sulfamethoxazole, Telithromycin 22. 感冒(common cold): Cefpodoxime, Cefixime, Cefaclor, Cefuroxime 23. 胆囊炎(cholecystitis): Lansoprazole, Omeprazole, Rabeprazole, Pantoprazole 24. 胆结石(cholelithiasis): Lansoprazole, Omeprazole, Rabeprazole, Pantoprazole 25. 阿尔茨海默病(Alzheimer disease): aducanumab, vitamin E variants, vitamin e oral 26. 强迫症(OCD): Propranolol, Nefazodone, Paroxetine, Clomipramine 27. 尿路结石(urinary calculi): Allopurinol, Cefepime, Cefpodoxime, Cefixime 28. 代谢综合征(metabolic syndrome): Captopril, Irbesartan, Losartan, Olmesartan 29. 肠炎(enteritis): Golimumab, Budesonide, Infliximab, Tofacitinib 30. 低血压(hypotension): Norepinephrine, Fludrocortisone, Captopril, Irbesartan 请用以下格式回复每种疾病的评估： 疾病编号: 判断(APPROPRIATE/PARTIALLY/INAPPROPRIATE) - 简要理由"
+          - generic [ref=e102]:
+            - button [ref=e103] [cursor=pointer]:
+              - img [ref=e106]
+            - button [ref=e108] [cursor=pointer]:
+              - img [ref=e111]
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: 以下是对30种疾病用药推荐结果的临床适当性评估：
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - paragraph [ref=e119]: "冠心病(coronary artery disease): APPROPRIATE - 培哚普利和氨氯地平是冠心病标准治疗药物，复方制剂组合也合理。"
+            - listitem [ref=e120]:
+              - paragraph [ref=e121]: "心肌梗死(myocardial infarction): APPROPRIATE - 阿司匹林、卡托普利、普拉格雷、替格瑞洛均为心梗后标准抗血小板和改善预后药物。"
+            - listitem [ref=e122]:
+              - paragraph [ref=e123]: "肺栓塞(pulmonary embolism): PARTIALLY - 阿哌沙班、依诺肝素、利伐沙班是标准抗凝药，但替奈普酶为溶栓药通常用于高危肺栓塞，非常规推荐且存在禁忌时风险高。"
+            - listitem [ref=e124]:
+              - paragraph [ref=e125]: "高血脂(hyperlipidemia): PARTIALLY - 匹伐他汀、普伐他汀及氨氯地平阿托伐他汀复方均适当，但烟酸因安全性和获益问题已"
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e132]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e133]:
+            - button "深度思考" [ref=e134] [cursor=pointer]:
+              - img [ref=e136]
+              - generic [ref=e139]: 深度思考
+            - button "智能搜索" [pressed] [ref=e140] [cursor=pointer]:
+              - img [ref=e142]
+              - generic [ref=e144]: 智能搜索
+            - generic [ref=e145]:
+              - button [ref=e146] [cursor=pointer]:
+                - img [ref=e149]
+              - button [ref=e152] [cursor=pointer]:
+                - img [ref=e155]
+        - generic [ref=e157]: 内容由 AI 生成，请仔细甄别

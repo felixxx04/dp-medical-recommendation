@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 肠易激综合征
+推荐药物:
+1. Rifaximin (抗生素) - 匹配疾病: 肠易激综合征
+2. Ciprofloxacin (氟喹诺酮类) - 匹配疾病: 腹泻
+3. Polycarbophil Tablets (泻药) - 匹配疾病: 肠易激综合征
+4. polycarbophil (泻药) - 匹配疾病: 肠易激综合征
+---
+疾病: 腹泻
+推荐药物:
+1. Loperamide (止泻药) - 匹配疾病: 腹泻
+2. Nitazoxanide (抗原虫药) - 匹配疾病: 腹泻
+3. bismuth subsalicylate (止泻药) - 匹配疾病: 腹泻
+4. saccharomyces boulardii lyo (止泻药, 益生菌) - 匹配疾病: 腹泻
+---
+疾病: 便秘
+推荐药物:
+1. Magnesium Hydroxide (抗酸药/泻药) - 匹配疾病: 便秘
+2. Magnesium Oxide (矿物质和电解质) - 匹配疾病: 便秘
+3. Methylnaltrexone (外周阿片受体拮抗剂) - 匹配疾病: 便秘
+4. Docusate (大便软化剂) - 匹配疾病: 便秘
+---
+疾病: 肝炎
+推荐药物:
+1. Tenofovir (NRTI(核苷逆转录酶抑制剂)) - 匹配疾病: 乙型肝炎
+2. Pantoprazole (质子泵抑制剂) - 匹配疾病: 反酸
+3. Lamivudine (NRTI(核苷逆转录酶抑制剂)) - 匹配疾病: 乙型肝炎
+4. Sofosbuvir (NS5B聚合酶抑制剂) - 匹配疾病: 丙型肝炎
+---
+疾病: 脂肪肝
+推荐药物:
+1. Vitamin E Capsules and Tablets (维生素类) - 匹配疾病: 非酒精性脂肪性肝炎
+2. Nizatidine (H2受体阻断剂) - 匹配疾病: 反酸
+3. vitamin E (VYE ta min E), tocopherol alpha Brand names: Aqua-E, Aquasol E , Aquavite-E, Aqueous Vitamin E, E-400 Clear (维生素类) - 匹配疾病: 非酒精性脂肪性肝炎
+4. vitamin e (oral route) (维生素类) - 匹配疾病: 非酒精性脂肪性肝炎
+---
+疾病: 肝硬化
+推荐药物:
+1. torsemide (oral/injection) (袢利尿剂) - 匹配疾病: 肝硬化相关水肿
+2. Dexlansoprazole (质子泵抑制剂) - 匹配疾病: 反酸
+3. hydrochlorothiazide (oral route) (噻嗪类利尿剂) - 匹配疾病: 肝硬化相关水肿
+4. hydrochlorothiazide and amiloride (保钾利尿剂+噻嗪类) - 匹配疾病: 肝硬化相关水肿
+---
+疾病: 胆囊炎
+推荐药物:
+1. Hyoscyamine (抗胆碱药) - 匹配疾病: 胃痛
+2. Famotidine (H2受体阻断剂) - 匹配疾病: 胃痛
+3. Magaldrate (抗酸药) - 匹配疾病: 胃痛
+4. Nizatidine (H2受体阻断剂) - 匹配疾病: 胃痛
+---
+疾病: 胆结石
+推荐药物:
+1. Hyoscyamine (抗胆碱药) - 匹配疾病: 胃痛
+2. Cimetidine (H2受体阻断剂) - 匹配疾病: 胃痛
+3. Nizatidine (H2受体阻断剂) - 匹配疾病: 胃痛
+4. Famotidine (H2受体阻断剂) - 匹配疾病: 胃痛
+---
+疾病: 抑郁症
+推荐药物:
+1. Amitriptyline (三环类抗抑郁药) - 匹配疾病: 抑郁症
+2. Alprazolam (苯二氮卓类) - 匹配疾病: 抑郁症
+3. desipramine (oral route) (三环类抗抑郁药) - 匹配疾病: 重度抑郁症
+4. nortriptyline (oral route) (三环类抗抑郁药) - 匹配疾病: 重度抑郁症
+---
+疾病: 抑郁
+推荐药物:
+1. Clomipramine (三环类抗抑郁药) - 匹配疾病: 抑郁症
+2. Desipramine (三环类抗抑郁药) - 匹配疾病: 抑郁症
+3. Fluoxetine (SSRI(选择性5-羟色胺再摄取抑制剂)) - 匹配疾病: 抑郁症
+4. Fluvoxamine (SSRI(选择性5-羟色胺再摄取抑制剂)) - 匹配疾病: 抑郁症

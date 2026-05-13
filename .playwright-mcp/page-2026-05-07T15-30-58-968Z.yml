@@ -1,0 +1,108 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e17]
+    - text: Ctrl + J
+  - generic [ref=e20]:
+    - generic [ref=e83]:
+      - generic [ref=e85]:
+        - generic [ref=e86] [cursor=pointer]: 新对话
+        - generic [ref=e87]:
+          - img [ref=e89]
+          - generic [ref=e91]: 专家模式
+      - button [ref=e92] [cursor=pointer]:
+        - img [ref=e95]
+    - generic [ref=e98]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e103]: "请评估以下6种疾病的用药推荐是否合理。对每种疾病，判断推荐药物是APPROPRIATE(完全适当)、PARTIALLY(部分适当)或INAPPROPRIATE(不适当)，并说明原因和应该推荐的正确药物。 1. 支气管炎(bronchitis)推荐: dyphylline and guaifenesin(on_label), Benzonatate(on_label), Hydrocodone(supportive), Codeine(supportive) 2. 感冒(common cold)推荐: Diphenhydramine(supportive), Doxylamine(on_label), diphenhydramine hydrochloride(on_label), chlorpheniramine(on_label) 3. 胆囊炎(cholecystitis)推荐: Metoclopramide(on_label), Lorazepam(on_label), Dexamethasone(supportive), Ranitidine(on_label) 4. 胆结石(cholelithiasis)推荐: Metoclopramide(on_label), Lorazepam(on_label), Dexamethasone(supportive), Ranitidine(on_label) 5. 尿路结石(urinary calculi)推荐: Allopurinol(on_label), Linagliptin(on_label), Empagliflozin(on_label), Sevelamer(on_label) 6. 肠炎(enteritis)推荐: Mercaptopurine(off_label), Ciprofloxacin(on_label), Metoclopramide(on_label), Dexamethasone(supportive) 请逐个评估，给出APPROPRIATE/PARTIALLY/INAPPROPRIATE评级。"
+          - generic [ref=e106]:
+            - button [ref=e107] [cursor=pointer]:
+              - img [ref=e110]
+            - button [ref=e112] [cursor=pointer]:
+              - img [ref=e115]
+        - generic [ref=e119]:
+          - generic [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e126]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e128]
+          - paragraph [ref=e135]: 用户要求评估6种疾病的用药推荐是否合理，并给出评级。我需要逐一分析每种疾病，判断推荐的药物是“完全适当”、“部分适当”还是“不适当”，并说明原因和应推荐的正确药物。为了全面获取信息，我需要同时进行多项搜索，覆盖所有疾病和药物。
+          - generic [ref=e171] [cursor=pointer]:
+            - img [ref=e173]
+            - generic [ref=e176]: 搜索到 53 个网页
+            - generic [ref=e177]:
+              - generic:
+                - generic:
+                  - img
+              - generic:
+                - img
+              - generic:
+                - img
+              - generic:
+                - img
+          - paragraph [ref=e183]: 搜索结果显示了一些相关资源。对于支气管炎，搜索结果中提到了“急性气管-支气管炎基层合理用药指南”。对于感冒，搜索结果提到了抗组胺药的使用。对于胆囊炎，搜索结果提到了甲氧氯普胺作为止吐药，但可能没有专门提及劳拉西泮、地塞米松和雷尼替丁。对于胆结石，搜索结果可能涉及疼痛管理。对于尿路结石，搜索结果提到了别嘌醇。对于肠炎，搜索结果提到了抗生素的使用。为了获取更详细的信息，我需要同时打开这些相关的链接。
+          - generic [ref=e184]:
+            - img [ref=e186]
+            - generic [ref=e190]:
+              - generic [ref=e191]: 浏览 7 个页面
+              - generic [ref=e192]:
+                - link "详情页 - 华中科技大学同济医学院附属同济医院机构库" [ref=e193] [cursor=pointer]:
+                  - /url: https://tjyy.jhjulian.com.cn/Web/Doc/3875231645149691904
+                - img [ref=e195]
+              - generic [ref=e197]:
+                - 'link "POTD: Flu-Like Symptoms — Maimonides Emergency Medicine Residency" [ref=e198] [cursor=pointer]':
+                  - /url: https://maimonidesem.squarespace.com/blog/potd-flu-like-symptoms
+                - img [ref=e200]
+              - generic [ref=e202]:
+                - link "NURS 6521 Week 4 Assignment - Pharmacotherapy for Gastrointestinal and Hepatobiliary Disorders" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.stuvia.com:443/doc/8579773/nurs-6521-week-4-assignment-pharmacotherapy-for-gastrointestinal-and-hepatobiliary-disorders
+                - img [ref=e205]
+              - generic [ref=e207]:
+                - link "Emergency Medicine" [ref=e208] [cursor=pointer]:
+                  - /url: https://issuhub.com/view/index/4321?pageIndex=289
+                - img [ref=e210]
+              - generic [ref=e212]:
+                - 'link "Gallstones (Cholelithiasis) Treatment & Management: Approach Considerations, Treatment of Asymptomatic Gallstones, Treatment of Patients with Symptomatic Gallstones" [ref=e213] [cursor=pointer]':
+                  - /url: https://emedicine.medscape.com/article/175667-treatment?form=fpf
+                - img [ref=e215]
+              - generic [ref=e218] [cursor=pointer]: 查看全部
+          - paragraph [ref=e224]: 搜索结果显示了一些相关信息。对于支气管炎，我需要进一步搜索关于二羟丙茶碱、愈创甘油醚、苯佐那酯、氢可酮和可待因在支气管炎中使用的资料。对于感冒，我需要搜索关于苯海拉明、多西拉敏、氯苯那敏的资料。对于胆囊炎和胆结石，我已查到一些资料，但需要确认地塞米松和雷尼替丁的用途。对于尿路结石，需要确认利格列汀、恩格列净和司维拉姆的用途。对于肠炎，需要确认巯嘌呤和地塞米松的用途。因此，我将同时进行多项搜索以获取这些信息。
+          - generic [ref=e225] [cursor=pointer]:
+            - img [ref=e227]
+            - generic [ref=e230]: 搜索到 81 个网页
+            - generic [ref=e231]:
+              - generic:
+                - img
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+              - generic:
+                - img
+          - paragraph [ref=e236]: 搜索结果显示，
+      - generic [ref=e140]:
+        - generic [ref=e143]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e145]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e146]:
+            - button "深度思考" [pressed] [ref=e147] [cursor=pointer]:
+              - img [ref=e149]
+              - generic [ref=e152]: 深度思考
+            - button "智能搜索" [pressed] [ref=e153] [cursor=pointer]:
+              - img [ref=e155]
+              - generic [ref=e157]: 智能搜索
+            - generic [ref=e158]:
+              - button [ref=e159] [cursor=pointer]:
+                - img [ref=e162]
+              - button [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+        - generic [ref=e170]: 内容由 AI 生成，请仔细甄别

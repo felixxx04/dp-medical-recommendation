@@ -1,0 +1,38 @@
+[
+  {
+    "disease": "鼻塞",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "充血",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "打喷嚏",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "急性疼痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "皮肤软组织感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "银屑病关节炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肌肉酸痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "咳嗽",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "流鼻涕",
+    "rating": "APPROPRIATE"
+  }
+]

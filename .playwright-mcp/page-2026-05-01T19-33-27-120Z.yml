@@ -1,0 +1,2164 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "智医荐药隐私保护 · 智能推荐" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: 智医荐药隐私保护 · 智能推荐
+      - button [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+  - main [ref=e13]:
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - img [ref=e27]
+        - paragraph [ref=e29]: 免责声明：本系统推荐结果由AI模型生成，仅供参考，不构成医疗诊断或处方建议。最终用药决策须由执业医师确认。
+      - generic [ref=e31]:
+        - img [ref=e33]
+        - generic [ref=e37]:
+          - heading "智能用药推荐" [level=1] [ref=e38]
+          - paragraph [ref=e39]: 基于深度学习模型的个性化用药建议，融合差分隐私保护技术
+          - generic [ref=e40]:
+            - generic [ref=e41]: DeepFM
+            - generic [ref=e42]: 注意力机制
+            - generic [ref=e43]: 图神经网络
+            - generic [ref=e44]: DP-SGD
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - generic [ref=e54]:
+              - heading "患者信息录入" [level=3] [ref=e55]
+              - paragraph [ref=e56]: 填写患者临床信息以获取个性化推荐
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - img [ref=e60]
+                - text: 从患者档案快速填充
+              - combobox "从患者档案快速填充" [ref=e65]:
+                - option "-- 选择已有患者（可选）--"
+                - option "11111 · 男 · 80岁 ·"
+                - option "李艳 · 女 · 79岁 ·"
+                - option "王刚 · 男 · 73岁 · 高血压、骨质疏松"
+                - option "陈玉 · 女 · 77岁 ·"
+                - option "肖飞 · 男 · 75岁 · 高血压、COPD"
+                - option "张霞 · 女 · 79岁 ·"
+                - option "文伟 · 男 · 73岁 · 高血压、糖尿病"
+                - option "龚雪 · 女 · 77岁 ·"
+                - option "赖刚 · 男 · 75岁 · 高血压、心力衰竭"
+                - option "贺琴 · 女 · 79岁 ·"
+                - option "乔辉 · 男 · 73岁 · 高血压、慢性肾病"
+                - option "武琳 · 女 · 77岁 ·"
+                - option "常飞 · 男 · 75岁 · 高血压、冠心病"
+                - option "易红 · 女 · 79岁 ·"
+                - option "黎涛 · 男 · 73岁 · 高血压、脑卒中后遗症"
+                - option "尹艳 · 女 · 77岁 · 高血压、骨质疏松"
+                - option "汤刚 · 男 · 75岁 · 高血压、冠心病"
+                - option "钱玉 · 女 · 79岁 ·"
+                - option "雷飞 · 男 · 73岁 · 高血压、COPD"
+                - option "段霞 · 女 · 77岁 · 高血压、骨质疏松"
+                - option "万伟 · 男 · 75岁 · 高血压、冠心病"
+                - option "龙琴 · 女 · 65岁 ·"
+                - option "孟辉 · 男 · 63岁 · 高血压"
+                - option "邵琳 · 女 · 67岁 ·"
+                - option "侯波 · 男 · 65岁 · 高血压、冠心病"
+                - option "顾艳 · 女 · 63岁 ·"
+                - option "史刚 · 男 · 67岁 ·"
+                - option "江红 · 女 · 65岁 ·"
+                - option "秦涛 · 男 · 63岁 · 高血压、2型糖尿病"
+                - option "邱玉 · 女 · 67岁 ·"
+                - option "毛飞 · 男 · 65岁 · 高血压"
+                - option "康霞 · 女 · 63岁 · 高血压、骨质疏松" [selected]
+                - option "崔伟 · 男 · 67岁 ·"
+                - option "白雪 · 女 · 65岁 ·"
+                - option "孔军 · 男 · 63岁 · 高血压、冠心病"
+                - option "郝琴 · 女 · 67岁 ·"
+                - option "陆辉 · 男 · 65岁 · 高血压"
+                - option "金艳 · 女 · 63岁 ·"
+                - option "熊刚 · 男 · 67岁 · 高血压、慢性肾病"
+                - option "邹琳 · 女 · 65岁 ·"
+                - option "谭涛 · 男 · 63岁 · 高血压"
+                - option "姚玉 · 女 · 67岁 ·"
+                - option "石飞 · 男 · 65岁 · 高血压、冠心病"
+                - option "方红 · 女 · 63岁 ·"
+                - option "范伟 · 男 · 67岁 · 高血压、脑卒中后遗症"
+                - option "姜霞 · 女 · 65岁 · 高血压"
+                - option "任波 · 男 · 63岁 · 高血压、2型糖尿病"
+                - option "田雪 · 女 · 67岁 ·"
+                - option "汪刚 · 男 · 65岁 · 高血压、冠心病"
+                - option "钟艳 · 女 · 63岁 ·"
+                - option "夏军 · 男 · 67岁 · COPD、高血压"
+                - option "戴琴 · 女 · 65岁 · 骨质疏松"
+                - option "杜辉 · 男 · 63岁 · 高血压、高脂血症"
+                - option "潘琳 · 女 · 67岁 · 高血压、2型糖尿病"
+                - option "余涛 · 男 · 65岁 · 高血压、慢性肾病"
+                - option "阎玉 · 女 · 63岁 ·"
+                - option "叶刚 · 男 · 67岁 · 高血压、冠心病"
+                - option "薛红 · 女 · 65岁 · 2型糖尿病、高血压"
+                - option "魏飞 · 男 · 63岁 · 高血压、脑卒中后遗症"
+                - option "丁霞 · 女 · 67岁 · 高血压、骨质疏松"
+                - option "贾伟 · 男 · 65岁 · 高血压、2型糖尿病"
+                - option "蔡艳 · 女 · 52岁 ·"
+                - option "蒋刚 · 男 · 54岁 · 高血压"
+                - option "卢琴 · 女 · 56岁 ·"
+                - option "苏辉 · 男 · 53岁 · 冠心病"
+                - option "吕霞 · 女 · 55岁 ·"
+                - option "彭涛 · 男 · 57岁 · 高血压"
+                - option "曾萍 · 女 · 52岁 ·"
+                - option "沈军 · 男 · 54岁 · 高血压、2型糖尿病"
+                - option "傅玉 · 女 · 56岁 · 高血压"
+                - option "许翔 · 男 · 53岁 ·"
+                - option "邓琳 · 女 · 55岁 ·"
+                - option "袁杰 · 男 · 57岁 · 高血压、高脂血症"
+                - option "曹红 · 女 · 52岁 · 2型糖尿病"
+                - option "程波 · 男 · 54岁 · 高血压"
+                - option "董雪 · 女 · 56岁 ·"
+                - option "冯刚 · 男 · 53岁 ·"
+                - option "韩艳 · 女 · 55岁 · 高血压、骨质疏松"
+                - option "唐飞 · 男 · 57岁 · 冠心病、高血压"
+                - option "谢琴 · 女 · 52岁 ·"
+                - option "梁辉 · 男 · 54岁 · 高血压"
+                - option "郑霞 · 女 · 56岁 ·"
+                - option "罗涛 · 男 · 53岁 · 高血压、2型糖尿病"
+                - option "高萍 · 女 · 55岁 ·"
+                - option "何军 · 男 · 57岁 · 高血压"
+                - option "林玉 · 女 · 52岁 ·"
+                - option "郭翔 · 男 · 54岁 · 高血压、高脂血症"
+                - option "胡琳 · 女 · 56岁 · 高血压"
+                - option "朱杰 · 男 · 53岁 ·"
+                - option "马红 · 女 · 55岁 · 2型糖尿病"
+                - option "孙波 · 男 · 57岁 · 高血压"
+                - option "徐雪 · 女 · 52岁 ·"
+                - option "吴刚 · 男 · 54岁 · COPD"
+                - option "周艳 · 女 · 56岁 ·"
+                - option "黄飞 · 男 · 53岁 · 高血压、2型糖尿病"
+                - option "杨琴 · 女 · 55岁 ·"
+                - option "刘辉 · 男 · 57岁 · 高血压、冠心病"
+                - option "赵敏 · 女 · 52岁 · 高血压"
+                - option "李东 · 男 · 54岁 · 2型糖尿病、高脂血症"
+                - option "王霞 · 女 · 56岁 ·"
+                - option "陈伟 · 男 · 53岁 · 高血压"
+                - option "陈萍 · 女 · 55岁 · 骨质疏松"
+                - option "肖军 · 男 · 57岁 · 高血压"
+                - option "张玉 · 女 · 52岁 · 甲状腺功能减退"
+                - option "文浩 · 男 · 54岁 · 高血压、冠心病"
+                - option "龚艳 · 女 · 56岁 ·"
+                - option "赖翔 · 男 · 53岁 · 高血压、2型糖尿病"
+                - option "贺娟 · 女 · 55岁 · 2型糖尿病"
+                - option "乔杰 · 男 · 57岁 · 高血压、高脂血症"
+                - option "武红 · 女 · 52岁 ·"
+                - option "常波 · 男 · 54岁 · 冠心病"
+                - option "易琳 · 女 · 56岁 · 高血压"
+                - option "黎刚 · 男 · 53岁 · 高血压、慢性肾病"
+                - option "尹雪 · 女 · 55岁 · 2型糖尿病、高血压"
+                - option "汤伟 · 男 · 57岁 · 高血压、脑卒中后遗症"
+                - option "钱颖 · 女 · 52岁 ·"
+                - option "雷强 · 男 · 54岁 · 高血压、冠心病"
+                - option "段丽 · 女 · 56岁 · 高血压、骨质疏松"
+                - option "万磊 · 男 · 53岁 · 2型糖尿病、高血压"
+                - option "龙艳 · 女 · 57岁 · 高血压、冠心病"
+                - option "孟涛 · 男 · 55岁 · 高血压、2型糖尿病"
+                - option "邵玲 · 女 · 46岁 ·"
+                - option "侯东 · 男 · 43岁 ·"
+                - option "顾琴 · 女 · 45岁 · 高血压"
+                - option "史辉 · 男 · 48岁 · COPD"
+                - option "江霞 · 女 · 44岁 ·"
+                - option "秦斌 · 男 · 47岁 · 高血压、冠心病"
+                - option "邱萍 · 女 · 42岁 ·"
+                - option "毛军 · 男 · 45岁 ·"
+                - option "康娟 · 女 · 48岁 · 2型糖尿病"
+                - option "崔浩 · 男 · 43岁 · 高血压"
+                - option "白梅 · 女 · 42岁 ·"
+                - option "孔翔 · 男 · 49岁 · 慢性肾病"
+                - option "郝艳 · 女 · 44岁 ·"
+                - option "陆飞 · 男 · 47岁 · 高血压"
+                - option "金雪 · 女 · 43岁 ·"
+                - option "熊伟 · 男 · 45岁 · 2型糖尿病、高血压"
+                - option "邹琳 · 女 · 49岁 · 高血压、冠心病"
+                - option "廖刚 · 男 · 42岁 ·"
+                - option "谭红 · 女 · 44岁 ·"
+                - option "姚杰 · 男 · 46岁 · 高血压、高脂血症"
+                - option "石燕 · 女 · 48岁 · 2型糖尿病"
+                - option "方强 · 男 · 43岁 · 高血压"
+                - option "范颖 · 女 · 45岁 ·"
+                - option "姜波 · 男 · 47岁 · 慢性胃炎"
+                - option "任敏 · 女 · 42岁 ·"
+                - option "田园 · 男 · 44岁 · 高血压"
+                - option "汪丽 · 女 · 49岁 · 高血压"
+                - option "钟磊 · 男 · 46岁 · 2型糖尿病"
+                - option "夏玉 · 女 · 43岁 ·"
+                - option "戴明 · 男 · 45岁 · 高血压、高脂血症"
+                - option "杜鹃 · 女 · 48岁 · 骨质疏松"
+                - option "潘涛 · 男 · 42岁 ·"
+                - option "余婷 · 女 · 44岁 · 高血压"
+                - option "阎鹏 · 男 · 47岁 · 冠心病"
+                - option "叶虹 · 女 · 43岁 ·"
+                - option "薛锋 · 男 · 45岁 · 高血压"
+                - option "魏珍 · 女 · 49岁 · 2型糖尿病、高血压"
+                - option "丁威 · 男 · 46岁 · 高脂血症"
+                - option "贾玲 · 女 · 42岁 ·"
+                - option "蔡东 · 男 · 44岁 · 高血压"
+                - option "蒋琴 · 女 · 47岁 ·"
+                - option "卢辉 · 男 · 43岁 · 2型糖尿病、高血压"
+                - option "苏芳 · 女 · 45岁 · 甲状腺功能减退"
+                - option "吕军 · 男 · 48岁 · 高血压、冠心病"
+                - option "彭霞 · 女 · 42岁 ·"
+                - option "曾勇 · 男 · 44岁 · 高血压"
+                - option "沈阳 · 女 · 46岁 · 2型糖尿病"
+                - option "傅斌 · 男 · 43岁 · 高脂血症、脂肪肝"
+                - option "许萍 · 女 · 47岁 · 高血压"
+                - option "邓华 · 男 · 45岁 · 高血压、2型糖尿病"
+                - option "袁莉 · 女 · 36岁 · 贫血"
+                - option "曹阳 · 男 · 34岁 ·"
+                - option "程颖 · 女 · 33岁 ·"
+                - option "董刚 · 男 · 37岁 · 高脂血症"
+                - option "冯梅 · 女 · 35岁 ·"
+                - option "韩冰 · 男 · 32岁 ·"
+                - option "唐娟 · 女 · 36岁 ·"
+                - option "谢浩 · 男 · 38岁 · 高血压"
+                - option "梁艳 · 女 · 34岁 ·"
+                - option "郑宇 · 男 · 33岁 · 2型糖尿病"
+                - option "罗琳 · 女 · 37岁 ·"
+                - option "高翔 · 男 · 35岁 ·"
+                - option "何雪 · 女 · 33岁 · 贫血、备孕"
+                - option "林峰 · 男 · 39岁 · 高血压、高脂血症"
+                - option "郭婷 · 女 · 31岁 · 甲状腺结节"
+                - option "胡军 · 男 · 36岁 ·"
+                - option "朱红 · 女 · 34岁 · 哮喘、妊娠"
+                - option "马超 · 男 · 33岁 ·"
+                - option "孙燕 · 女 · 37岁 ·"
+                - option "徐涛 · 男 · 35岁 ·"
+                - option "吴敏 · 女 · 33岁 ·"
+                - option "周杰 · 男 · 38岁 ·"
+                - option "黄丽 · 女 · 30岁 · 妊娠糖尿病、妊娠"
+                - option "赵磊 · 男 · 36岁 ·"
+                - option "杨静 · 女 · 32岁 · 妊娠期高血压、妊娠"
+                - option "陈明 · 男 · 34岁 · 高血压"
+                - option "刘芳 · 女 · 31岁 · 妊娠"
+                - option "王强 · 男 · 37岁 · 高脂血症"
+                - option "李娜 · 女 · 35岁 · 高血压"
+                - option "张伟 · 男 · 33岁 ·"
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - text: 年龄
+                - spinbutton "年龄" [ref=e68]: "63"
+              - generic [ref=e69]:
+                - text: 性别
+                - combobox "性别" [ref=e70]:
+                  - option "男"
+                  - option "女" [selected]
+            - generic [ref=e71]:
+              - text: 确诊疾病（逗号分隔）
+              - textbox "确诊疾病（逗号分隔）" [ref=e72]:
+                - /placeholder: 高血压，2型糖尿病
+                - text: 高血压，骨质疏松
+            - generic [ref=e73]:
+              - text: 主要症状
+              - textbox "主要症状" [ref=e74]:
+                - /placeholder: 头晕、胸闷、多尿、口渴
+                - text: 高血压、骨质疏松
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - text: 过敏史
+                - textbox "过敏史" [ref=e77]:
+                  - /placeholder: 青霉素，磺胺类
+              - generic [ref=e78]:
+                - text: 当前用药
+                - textbox "当前用药" [ref=e79]:
+                  - /placeholder: 二甲双胍，阿司匹林
+                  - text: 氯沙坦钾片，碳酸钙D3片
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]:
+                    - img [ref=e84]
+                    - text: 差分隐私推理开关
+                  - paragraph [ref=e86]: 关闭后展示「无 DP」基线结果；开启后对药物评分注入噪声，并记录隐私预算消耗。
+                - button "已开启" [ref=e87] [cursor=pointer]
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: 当前 ε
+                  - generic [ref=e91]: "1.000"
+                - generic [ref=e92]:
+                  - generic [ref=e93]: 噪声规模
+                  - generic [ref=e94]: b = 0.200
+                - generic [ref=e95]:
+                  - generic [ref=e96]: 预算剩余
+                  - generic [ref=e97]: ε_rem = 10.00
+            - button "开始智能推荐" [ref=e98] [cursor=pointer]:
+              - img [ref=e143]
+              - text: 开始智能推荐
+        - generic [ref=e102]:
+          - generic [ref=e104] [cursor=pointer]:
+            - heading "隐私保护状态" [level=3] [ref=e105]:
+              - img [ref=e106]
+              - text: 隐私保护状态
+              - img [ref=e108]
+            - paragraph [ref=e110]: 当前会话的隐私指标
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - img [ref=e114]
+                - generic [ref=e117]: 差分隐私机制
+              - generic [ref=e118]: laplace 扰动
+              - paragraph [ref=e119]: 注入阶段：梯度层
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - img [ref=e122]
+                - generic [ref=e126]: 隐私预算消耗
+              - generic [ref=e127]: ε_total = 10.0
+              - paragraph [ref=e129]: 已消耗 ε = 0.00 · 剩余 ε = 10.00
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - img [ref=e132]
+                - generic [ref=e134]: 噪声规模
+              - generic [ref=e135]: b = 0.200
+              - paragraph [ref=e136]: ε-DP（纯 DP）
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - img [ref=e139]
+                - generic [ref=e141]: 隐私保护说明
+              - paragraph [ref=e142]: 差分隐私噪声机制已应用于推荐评分，降低个体推断风险。DP仅保护排序隐私，不影响安全排除结果。计算在本地服务器环境中进行。
+      - generic [ref=e146]:
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - img [ref=e151]
+            - generic [ref=e155]:
+              - heading "推荐结果" [level=3] [ref=e156]
+              - paragraph [ref=e157]: 基于深度学习模型分析，为您生成以下个性化用药建议
+          - button "打印 / 导出" [ref=e158] [cursor=pointer]:
+            - img [ref=e159]
+            - text: 打印 / 导出
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - img [ref=e167]
+                - generic [ref=e172]: 有/无 DP 结果对比（Top-4）
+              - generic [ref=e173]: 当前展示：DP 结果
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: 无 DP（基线）
+                - list [ref=e177]:
+                  - listitem [ref=e178]:
+                    - generic [ref=e179]: 1. 多沙唑嗪
+                    - generic [ref=e180]: score 1.00
+                  - listitem [ref=e181]:
+                    - generic [ref=e182]: 2. 那格列奈
+                    - generic [ref=e183]: score 1.00
+                  - listitem [ref=e184]:
+                    - generic [ref=e185]: 3. 贝那普利
+                    - generic [ref=e186]: score 1.00
+                  - listitem [ref=e187]:
+                    - generic [ref=e188]: 4. 依那普利
+                    - generic [ref=e189]: score 1.00
+              - generic [ref=e190]:
+                - generic [ref=e191]: 差分隐私（噪声后）
+                - list [ref=e192]:
+                  - listitem [ref=e193]:
+                    - generic [ref=e194]: 1. 阿达木单抗
+                    - generic [ref=e195]: score 1.00 (noise +0.45)
+                  - listitem [ref=e196]:
+                    - generic [ref=e197]: 2. 沙丁胺醇-异丙托溴铵
+                    - generic [ref=e198]: score 1.00 (noise +0.08)
+                  - listitem [ref=e199]:
+                    - generic [ref=e200]: 3. 氨苄西林
+                    - generic [ref=e201]: score 1.00 (noise +0.09)
+                  - listitem [ref=e202]:
+                    - generic [ref=e203]: 4. 氨苄西林舒巴坦
+                    - generic [ref=e204]: score 1.00 (noise +0.32)
+          - generic [ref=e205]:
+            - generic [ref=e206] [cursor=pointer]:
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]:
+                    - img [ref=e210]
+                    - heading "阿达木单抗" [level=4] [ref=e213]
+                    - generic [ref=e214]: Adalimumab
+                    - generic [ref=e215]: 模型推理
+                  - generic [ref=e216]:
+                    - generic [ref=e217]: TNF阻断剂
+                    - generic [ref=e218]: 安全
+                - generic [ref=e219]:
+                  - generic [ref=e220]: 87.9%
+                  - generic [ref=e221]: 置信度
+              - generic [ref=e222]:
+                - img [ref=e223]
+                - generic [ref=e227]: 40 mg · every other week
+              - generic [ref=e228]:
+                - generic [ref=e229]: "原始评分: 0.879"
+                - generic [ref=e230]: →
+                - generic [ref=e231]: "DP评分: 1.000"
+                - generic [ref=e232]: (噪声 +0.452)
+                - generic [ref=e233]:
+                  - generic [ref=e234]: 置信区间
+                  - generic [ref=e238]: "[0.28–1.00]"
+            - generic [ref=e242] [cursor=pointer]:
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - img [ref=e246]
+                    - heading "沙丁胺醇-异丙托溴铵" [level=4] [ref=e249]
+                    - generic [ref=e250]: Albuterol-Ipratropium
+                    - generic [ref=e251]: 模型推理
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: 短效β2激动剂+抗胆碱药
+                    - generic [ref=e254]: 安全
+                - generic [ref=e255]:
+                  - generic [ref=e256]: 96.7%
+                  - generic [ref=e257]: 置信度
+              - generic [ref=e258]:
+                - img [ref=e259]
+                - generic [ref=e263]: 3 mL via nebulization · 4 times daily
+              - generic [ref=e264]:
+                - generic [ref=e265]: "原始评分: 0.967"
+                - generic [ref=e266]: →
+                - generic [ref=e267]: "DP评分: 1.000"
+                - generic [ref=e268]: (噪声 +0.081)
+                - generic [ref=e269]:
+                  - generic [ref=e270]: 置信区间
+                  - generic [ref=e274]: "[0.37–1.00]"
+            - generic [ref=e278] [cursor=pointer]:
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]:
+                    - img [ref=e282]
+                    - heading "氨苄西林" [level=4] [ref=e285]
+                    - generic [ref=e286]: Ampicillin
+                    - generic [ref=e287]: 模型推理
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: 青霉素类抗生素
+                    - generic [ref=e290]: 安全
+                - generic [ref=e291]:
+                  - generic [ref=e292]: 97.8%
+                  - generic [ref=e293]: 置信度
+              - generic [ref=e294]:
+                - img [ref=e295]
+                - generic [ref=e299]: 500 mg · every 6-8 hours
+              - generic [ref=e300]:
+                - generic [ref=e301]: "原始评分: 0.978"
+                - generic [ref=e302]: →
+                - generic [ref=e303]: "DP评分: 1.000"
+                - generic [ref=e304]: (噪声 +0.085)
+                - generic [ref=e305]:
+                  - generic [ref=e306]: 置信区间
+                  - generic [ref=e310]: "[0.38–1.00]"
+            - generic [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - img [ref=e318]
+                    - heading "氨苄西林舒巴坦" [level=4] [ref=e321]
+                    - generic [ref=e322]: Ampicillin-Sulbactam
+                    - generic [ref=e323]: 模型推理
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: 青霉素+β-内酰胺酶抑制剂
+                    - generic [ref=e326]: 安全
+                - generic [ref=e327]:
+                  - generic [ref=e328]: 95.4%
+                  - generic [ref=e329]: 置信度
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e335]: 3 g (2/1 g) · every 6 hours
+              - generic [ref=e336]:
+                - generic [ref=e337]: "原始评分: 0.954"
+                - generic [ref=e338]: →
+                - generic [ref=e339]: "DP评分: 1.000"
+                - generic [ref=e340]: (噪声 +0.315)
+                - generic [ref=e341]:
+                  - generic [ref=e342]: 置信区间
+                  - generic [ref=e346]: "[0.35–1.00]"
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - img [ref=e353]
+                - generic [ref=e355]: 安全排除药物（276 项）
+              - paragraph [ref=e356]: 以下药物因安全原因被排除，不受差分隐私噪声影响
+              - generic [ref=e357]:
+                - generic [ref=e358]:
+                  - generic [ref=e359]: ·
+                  - generic [ref=e360]:
+                    - text: 安非他明
+                    - generic [ref=e361]: (中枢兴奋药)
+                    - generic [ref=e362]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e363]:
+                  - generic [ref=e364]: ·
+                  - generic [ref=e365]:
+                    - text: 溴隐亭
+                    - generic [ref=e366]: (多巴胺激动剂)
+                    - generic [ref=e367]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e368]:
+                  - generic [ref=e369]: ·
+                  - generic [ref=e370]:
+                    - text: 卡麦角林
+                    - generic [ref=e371]: (多巴胺激动剂)
+                    - generic [ref=e372]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e373]:
+                  - generic [ref=e374]: ·
+                  - generic [ref=e375]:
+                    - text: 西多福韦
+                    - generic [ref=e376]: (抗病毒药)
+                    - generic [ref=e377]: — 肾功能不全禁忌
+                - generic [ref=e378]:
+                  - generic [ref=e379]: ·
+                  - generic [ref=e380]:
+                    - text: 顺铂
+                    - generic [ref=e381]: (烷化剂)
+                    - generic [ref=e382]: — 肾功能不全禁忌
+                - generic [ref=e383]:
+                  - generic [ref=e384]: ·
+                  - generic [ref=e385]:
+                    - text: 秋水仙碱
+                    - generic [ref=e386]: (抗痛风药)
+                    - generic [ref=e387]: — 肾功能不全禁忌
+                - generic [ref=e388]:
+                  - generic [ref=e389]: ·
+                  - generic [ref=e390]:
+                    - text: 达沙替尼
+                    - generic [ref=e391]: (激酶抑制剂)
+                    - generic [ref=e392]: "— 绝对禁忌: 肺动脉高压 (已确诊)"
+                - generic [ref=e393]:
+                  - generic [ref=e394]: ·
+                  - generic [ref=e395]:
+                    - text: 右哌甲酯
+                    - generic [ref=e396]: (中枢兴奋药)
+                    - generic [ref=e397]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e398]:
+                  - generic [ref=e399]: ·
+                  - generic [ref=e400]:
+                    - text: 二氢麦角胺
+                    - generic [ref=e401]: (麦角生物碱)
+                    - generic [ref=e402]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e403]:
+                  - generic [ref=e404]: ·
+                  - generic [ref=e405]:
+                    - text: 屈螺酮-乙炔雌二醇
+                    - generic [ref=e406]: (孕激素+雌激素)
+                    - generic [ref=e407]: — 肾功能不全禁忌
+                - generic [ref=e408]:
+                  - generic [ref=e409]: ·
+                  - generic [ref=e410]:
+                    - text: 依来曲普坦
+                    - generic [ref=e411]: (5-HT1激动剂)
+                    - generic [ref=e412]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e413]:
+                  - generic [ref=e414]: ·
+                  - generic [ref=e415]:
+                    - text: 阿尔法依泊汀
+                    - generic [ref=e416]: (促红细胞生成药)
+                    - generic [ref=e417]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e418]:
+                  - generic [ref=e419]: ·
+                  - generic [ref=e420]:
+                    - text: 麦角胺
+                    - generic [ref=e421]: (麦角生物碱)
+                    - generic [ref=e422]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e423]:
+                  - generic [ref=e424]: ·
+                  - generic [ref=e425]:
+                    - text: 夫罗曲坦
+                    - generic [ref=e426]: (5-HT1激动剂)
+                    - generic [ref=e427]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e428]:
+                  - generic [ref=e429]: ·
+                  - generic [ref=e430]:
+                    - text: 锂
+                    - generic [ref=e431]: (抗躁狂药)
+                    - generic [ref=e432]: "— 严重交互: 锂 + 洛沙坦"
+                - generic [ref=e433]:
+                  - generic [ref=e434]: ·
+                  - generic [ref=e435]:
+                    - text: 甲氨蝶呤
+                    - generic [ref=e436]: (抗代谢药)
+                    - generic [ref=e437]: — 肾功能不全禁忌
+                - generic [ref=e438]:
+                  - generic [ref=e439]: ·
+                  - generic [ref=e440]:
+                    - text: 甲基麦角新碱
+                    - generic [ref=e441]: (麦角生物碱)
+                    - generic [ref=e442]: "— 绝对禁忌: 高血压"
+                - generic [ref=e443]:
+                  - generic [ref=e444]: ·
+                  - generic [ref=e445]:
+                    - text: 米多君
+                    - generic [ref=e446]: (Alpha-1激动剂)
+                    - generic [ref=e447]: "— 绝对禁忌: 卧位 高血压"
+                - generic [ref=e448]:
+                  - generic [ref=e449]: ·
+                  - generic [ref=e450]:
+                    - text: 米拉贝隆
+                    - generic [ref=e451]: (Beta-3 肾上腺素激动剂)
+                    - generic [ref=e452]: "— 绝对禁忌: 重度 未控制 高血压 (SBP >180 或 DBP >110 mmHg)"
+                - generic [ref=e453]:
+                  - generic [ref=e454]: ·
+                  - generic [ref=e455]:
+                    - text: 那拉曲坦
+                    - generic [ref=e456]: (5-HT1激动剂)
+                    - generic [ref=e457]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e458]:
+                  - generic [ref=e459]: ·
+                  - generic [ref=e460]:
+                    - text: 呋喃妥因
+                    - generic [ref=e461]: (抗生素)
+                    - generic [ref=e462]: — 肾功能不全禁忌
+                - generic [ref=e463]:
+                  - generic [ref=e464]: ·
+                  - generic [ref=e465]:
+                    - text: 帕米膦酸
+                    - generic [ref=e466]: (双膦酸盐类)
+                    - generic [ref=e467]: — 肾功能不全禁忌
+                - generic [ref=e468]:
+                  - generic [ref=e469]: ·
+                  - generic [ref=e470]:
+                    - text: 利扎曲普坦
+                    - generic [ref=e471]: (5-HT1激动剂)
+                    - generic [ref=e472]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e473]:
+                  - generic [ref=e474]: ·
+                  - generic [ref=e475]:
+                    - text: 螺内酯
+                    - generic [ref=e476]: (醛固酮拮抗剂)
+                    - generic [ref=e477]: — 肾功能不全禁忌
+                - generic [ref=e478]:
+                  - generic [ref=e479]: ·
+                  - generic [ref=e480]:
+                    - text: 磺胺嘧啶
+                    - generic [ref=e481]: (磺胺类抗生素)
+                    - generic [ref=e482]: — 肾功能不全禁忌
+                - generic [ref=e483]:
+                  - generic [ref=e484]: ·
+                  - generic [ref=e485]:
+                    - text: 磺吡酮
+                    - generic [ref=e486]: (促尿酸排泄药)
+                    - generic [ref=e487]: — 肾功能不全禁忌
+                - generic [ref=e488]:
+                  - generic [ref=e489]: ·
+                  - generic [ref=e490]:
+                    - text: 舒马曲坦
+                    - generic [ref=e491]: (5-HT1激动剂)
+                    - generic [ref=e492]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e493]:
+                  - generic [ref=e494]: ·
+                  - generic [ref=e495]:
+                    - text: 群多普利
+                    - generic [ref=e496]: (ACE抑制剂)
+                    - generic [ref=e497]: — 肾功能不全禁忌
+                - generic [ref=e498]:
+                  - generic [ref=e499]: ·
+                  - generic [ref=e500]:
+                    - text: 氨苯蝶啶
+                    - generic [ref=e501]: (保钾利尿剂)
+                    - generic [ref=e502]: — 肾功能不全禁忌
+                - generic [ref=e503]:
+                  - generic [ref=e504]: ·
+                  - generic [ref=e505]:
+                    - text: 唑来膦酸
+                    - generic [ref=e506]: (双膦酸盐类)
+                    - generic [ref=e507]: — 肾功能不全禁忌
+                - generic [ref=e508]:
+                  - generic [ref=e509]: ·
+                  - generic [ref=e510]:
+                    - text: 佐米曲普坦
+                    - generic [ref=e511]: (5-HT1激动剂)
+                    - generic [ref=e512]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e513]:
+                  - generic [ref=e514]: ·
+                  - generic [ref=e515]:
+                    - text: 磺胺甲恶唑和甲氧苄啶
+                    - generic [ref=e516]: (磺胺类)
+                    - generic [ref=e517]: — 肾功能不全禁忌
+                - generic [ref=e518]:
+                  - generic [ref=e519]: ·
+                  - generic [ref=e520]:
+                    - text: 屈螺酮和乙炔雌二醇
+                    - generic [ref=e521]: (避孕药)
+                    - generic [ref=e522]: — 肾功能不全禁忌
+                - generic [ref=e523]:
+                  - generic [ref=e524]: ·
+                  - generic [ref=e525]:
+                    - text: 屈螺酮、乙炔雌二醇和左甲叶酸
+                    - generic [ref=e526]: (避孕药)
+                    - generic [ref=e527]: — 肾功能不全禁忌
+                - generic [ref=e528]:
+                  - generic [ref=e529]: ·
+                  - generic [ref=e530]:
+                    - text: 赖右苯丙胺
+                    - generic [ref=e531]: (中枢兴奋药)
+                    - generic [ref=e532]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e533]:
+                  - generic [ref=e534]: ·
+                  - generic [ref=e535]:
+                    - text: 安非他明和右旋安非他明
+                    - generic [ref=e536]: (中枢兴奋药)
+                    - generic [ref=e537]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e538]:
+                  - generic [ref=e539]: ·
+                  - generic [ref=e540]:
+                    - text: 冰毒
+                    - generic [ref=e541]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e542]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e543]:
+                  - generic [ref=e544]: ·
+                  - generic [ref=e545]:
+                    - text: 安非他明和右旋安非他明混合盐
+                    - generic [ref=e546]: (中枢兴奋药)
+                    - generic [ref=e547]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e548]:
+                  - generic [ref=e549]: ·
+                  - generic [ref=e550]:
+                    - text: 恩曲他滨和富马酸替诺福韦二吡呋酯
+                    - generic [ref=e551]: (抗病毒组合药)
+                    - generic [ref=e552]: — 肾功能不全禁忌
+                - generic [ref=e553]:
+                  - generic [ref=e554]: ·
+                  - generic [ref=e555]:
+                    - text: 右溴苯那敏和去氧肾上腺素
+                    - generic [ref=e556]: (上呼吸道组合药)
+                    - generic [ref=e557]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e558]:
+                  - generic [ref=e559]: ·
+                  - generic [ref=e560]:
+                    - text: 阿司匹林（口服）
+                    - generic [ref=e561]: (血小板聚集抑制剂, 水杨酸类)
+                    - generic [ref=e562]: — 肾功能不全禁忌
+                - generic [ref=e563]:
+                  - generic [ref=e564]: ·
+                  - generic [ref=e565]:
+                    - text: 阿司匹林（口服途径）
+                    - generic [ref=e566]: (血小板聚集抑制剂, 水杨酸类)
+                    - generic [ref=e567]: — 肾功能不全禁忌
+                - generic [ref=e568]:
+                  - generic [ref=e569]: ·
+                  - generic [ref=e570]:
+                    - text: 拓扑替康（口服/注射）
+                    - generic [ref=e571]: (其他抗肿瘤药)
+                    - generic [ref=e572]: — 肾功能不全禁忌
+                - generic [ref=e573]:
+                  - generic [ref=e574]: ·
+                  - generic [ref=e575]:
+                    - text: 氟达拉滨（注射液）
+                    - generic [ref=e576]: (抗代谢药)
+                    - generic [ref=e577]: — 肾功能不全禁忌
+                - generic [ref=e578]:
+                  - generic [ref=e579]: ·
+                  - generic [ref=e580]:
+                    - text: 非诺贝酸
+                    - generic [ref=e581]: (贝特类衍生物)
+                    - generic [ref=e582]: — 肾功能不全禁忌
+                - generic [ref=e583]:
+                  - generic [ref=e584]: ·
+                  - generic [ref=e585]:
+                    - text: 依折麦布和瑞舒伐他汀
+                    - generic [ref=e586]: (降脂组合药)
+                    - generic [ref=e587]: — 肾功能不全禁忌
+                - generic [ref=e588]:
+                  - generic [ref=e589]: ·
+                  - generic [ref=e590]:
+                    - text: 对乙酰氨基酚、右美沙芬、多西拉敏和伪麻黄碱
+                    - generic [ref=e591]: (上呼吸道组合药)
+                    - generic [ref=e592]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e593]:
+                  - generic [ref=e594]: ·
+                  - generic [ref=e595]:
+                    - text: 对乙酰氨基酚、右美沙芬、愈创甘油醚和去氧肾上腺素
+                    - generic [ref=e596]: (上呼吸道组合药)
+                    - generic [ref=e597]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e598]:
+                  - generic [ref=e599]: ·
+                  - generic [ref=e600]:
+                    - text: 对乙酰氨基酚、右美沙芬和去氧肾上腺素
+                    - generic [ref=e601]: (上呼吸道组合药)
+                    - generic [ref=e602]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e603]:
+                  - generic [ref=e604]: ·
+                  - generic [ref=e605]:
+                    - text: 对乙酰氨基酚、右美沙芬、多西拉敏和去氧肾上腺素
+                    - generic [ref=e606]: (上呼吸道组合药)
+                    - generic [ref=e607]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e608]:
+                  - generic [ref=e609]: ·
+                  - generic [ref=e610]:
+                    - text: 对乙酰氨基酚、苯海拉明和去氧肾上腺素
+                    - generic [ref=e611]: (上呼吸道组合药)
+                    - generic [ref=e612]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e613]:
+                  - generic [ref=e614]: ·
+                  - generic [ref=e615]:
+                    - text: 对乙酰氨基酚、扑尔敏和去氧肾上腺素
+                    - generic [ref=e616]: (上呼吸道组合药)
+                    - generic [ref=e617]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e618]:
+                  - generic [ref=e619]: ·
+                  - generic [ref=e620]:
+                    - text: 对乙酰氨基酚、苯海拉明和去氧肾上腺素片
+                    - generic [ref=e621]: (上呼吸道组合药)
+                    - generic [ref=e622]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e623]:
+                  - generic [ref=e624]: ·
+                  - generic [ref=e625]:
+                    - text: 伪麻黄碱和曲普立啶
+                    - generic [ref=e626]: (上呼吸道组合药)
+                    - generic [ref=e627]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e628]:
+                  - generic [ref=e629]: ·
+                  - generic [ref=e630]:
+                    - text: 对乙酰氨基酚/扑尔敏/右美沙芬/伪麻黄碱胶囊和药片
+                    - generic [ref=e631]: (上呼吸道组合药)
+                    - generic [ref=e632]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e633]:
+                  - generic [ref=e634]: ·
+                  - generic [ref=e635]:
+                    - text: 麻黄碱和愈创甘油醚
+                    - generic [ref=e636]: (上呼吸道组合药)
+                    - generic [ref=e637]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e638]:
+                  - generic [ref=e639]: ·
+                  - generic [ref=e640]:
+                    - text: 扑尔敏和去氧肾上腺素
+                    - generic [ref=e641]: (上呼吸道组合药)
+                    - generic [ref=e642]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e643]:
+                  - generic [ref=e644]: ·
+                  - generic [ref=e645]:
+                    - text: 可待因、愈创甘油醚和伪麻黄碱
+                    - generic [ref=e646]: (上呼吸道组合药)
+                    - generic [ref=e647]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e648]:
+                  - generic [ref=e649]: ·
+                  - generic [ref=e650]:
+                    - text: 对乙酰氨基酚和伪麻黄碱
+                    - generic [ref=e651]: (上呼吸道组合药)
+                    - generic [ref=e652]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e653]:
+                  - generic [ref=e654]: ·
+                  - generic [ref=e655]:
+                    - text: 对乙酰氨基酚、右美沙芬、愈创甘油醚、去氧肾上腺素胶囊和片剂
+                    - generic [ref=e656]: (上呼吸道组合药)
+                    - generic [ref=e657]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e658]:
+                  - generic [ref=e659]: ·
+                  - generic [ref=e660]:
+                    - text: 对乙酰氨基酚、扑尔敏、右美沙芬和伪麻黄碱
+                    - generic [ref=e661]: (上呼吸道组合药)
+                    - generic [ref=e662]: "— 绝对禁忌: 重度 高血压 或 重度 冠心病"
+                - generic [ref=e663]:
+                  - generic [ref=e664]: ·
+                  - generic [ref=e665]:
+                    - text: 扑尔敏、布洛芬和伪麻黄碱
+                    - generic [ref=e666]: (上呼吸道组合药)
+                    - generic [ref=e667]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e668]:
+                  - generic [ref=e669]: ·
+                  - generic [ref=e670]:
+                    - text: 阿司匹林、扑尔敏和去氧肾上腺素
+                    - generic [ref=e671]: (上呼吸道组合药)
+                    - generic [ref=e672]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e673]:
+                  - generic [ref=e674]: ·
+                  - generic [ref=e675]:
+                    - text: 苯海拉明和去氧肾上腺素
+                    - generic [ref=e676]: (上呼吸道组合药)
+                    - generic [ref=e677]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e678]:
+                  - generic [ref=e679]: ·
+                  - generic [ref=e680]:
+                    - text: 右溴苯那敏和伪麻黄碱
+                    - generic [ref=e681]: (上呼吸道组合药)
+                    - generic [ref=e682]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e683]:
+                  - generic [ref=e684]: ·
+                  - generic [ref=e685]:
+                    - text: 对乙酰氨基酚/扑尔敏/右美沙芬/去氧肾上腺素胶囊和药片
+                    - generic [ref=e686]: (上呼吸道组合药)
+                    - generic [ref=e687]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e688]:
+                  - generic [ref=e689]: ·
+                  - generic [ref=e690]:
+                    - text: 对乙酰氨基酚、扑尔敏、右美沙芬、去氧肾上腺素 液体
+                    - generic [ref=e691]: (上呼吸道组合药)
+                    - generic [ref=e692]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e693]:
+                  - generic [ref=e694]: ·
+                  - generic [ref=e695]:
+                    - text: 对乙酰氨基酚、右美沙芬、愈创甘油醚和伪麻黄碱
+                    - generic [ref=e696]: (上呼吸道组合药)
+                    - generic [ref=e697]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e698]:
+                  - generic [ref=e699]: ·
+                  - generic [ref=e700]:
+                    - text: 对乙酰氨基酚、右美沙芬和伪麻黄碱胶囊和片剂
+                    - generic [ref=e701]: (上呼吸道组合药)
+                    - generic [ref=e702]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e703]:
+                  - generic [ref=e704]: ·
+                  - generic [ref=e705]:
+                    - text: 对乙酰氨基酚、苯那敏和去氧肾上腺素
+                    - generic [ref=e706]: (上呼吸道组合药)
+                    - generic [ref=e707]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e708]:
+                  - generic [ref=e709]: ·
+                  - generic [ref=e710]:
+                    - text: 布洛芬和去氧肾上腺素
+                    - generic [ref=e711]: (上呼吸道组合药)
+                    - generic [ref=e712]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e713]:
+                  - generic [ref=e714]: ·
+                  - generic [ref=e715]:
+                    - text: 布洛芬和去氧肾上腺素
+                    - generic [ref=e716]: (上呼吸道组合药)
+                    - generic [ref=e717]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e718]:
+                  - generic [ref=e719]: ·
+                  - generic [ref=e720]:
+                    - text: 对乙酰氨基酚、扑尔敏和去氧肾上腺素片
+                    - generic [ref=e721]: (上呼吸道组合药)
+                    - generic [ref=e722]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e723]:
+                  - generic [ref=e724]: ·
+                  - generic [ref=e725]:
+                    - text: 右氯苯那敏、右美沙芬和伪麻黄碱
+                    - generic [ref=e726]: (上呼吸道组合药)
+                    - generic [ref=e727]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e728]:
+                  - generic [ref=e729]: ·
+                  - generic [ref=e730]:
+                    - text: 对乙酰氨基酚/扑尔敏/右美沙芬/伪麻黄碱液体和糖浆
+                    - generic [ref=e731]: (上呼吸道组合药)
+                    - generic [ref=e732]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e733]:
+                  - generic [ref=e734]: ·
+                  - generic [ref=e735]:
+                    - text: 扑尔敏、去氧肾上腺素和吡拉明
+                    - generic [ref=e736]: (上呼吸道组合药)
+                    - generic [ref=e737]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e738]:
+                  - generic [ref=e739]: ·
+                  - generic [ref=e740]:
+                    - text: 对乙酰氨基酚、右美沙芬和去氧肾上腺素胶囊和片剂
+                    - generic [ref=e741]: (上呼吸道组合药)
+                    - generic [ref=e742]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e743]:
+                  - generic [ref=e744]: ·
+                  - generic [ref=e745]:
+                    - text: 右氯苯那敏、右美沙芬和伪麻黄碱液体
+                    - generic [ref=e746]: (上呼吸道组合药)
+                    - generic [ref=e747]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e748]:
+                  - generic [ref=e749]: ·
+                  - generic [ref=e750]:
+                    - text: 去氧肾上腺素/吡拉明/右美沙芬糖浆
+                    - generic [ref=e751]: (上呼吸道组合药)
+                    - generic [ref=e752]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e753]:
+                  - generic [ref=e754]: ·
+                  - generic [ref=e755]:
+                    - text: 曲普立啶、去氧肾上腺素和右美沙芬糖浆
+                    - generic [ref=e756]: (上呼吸道组合药)
+                    - generic [ref=e757]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e758]:
+                  - generic [ref=e759]: ·
+                  - generic [ref=e760]:
+                    - text: 多西拉敏和去氧肾上腺素
+                    - generic [ref=e761]: (上呼吸道组合药)
+                    - generic [ref=e762]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e763]:
+                  - generic [ref=e764]: ·
+                  - generic [ref=e765]:
+                    - text: 去氧肾上腺素和异丙嗪
+                    - generic [ref=e766]: (上呼吸道组合药)
+                    - generic [ref=e767]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e768]:
+                  - generic [ref=e769]: ·
+                  - generic [ref=e770]:
+                    - text: 溴苯那敏、可待因和去氧肾上腺素
+                    - generic [ref=e771]: (上呼吸道组合药)
+                    - generic [ref=e772]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e773]:
+                  - generic [ref=e774]: ·
+                  - generic [ref=e775]:
+                    - text: 对乙酰氨基酚、苯海拉明和去氧肾上腺素液体
+                    - generic [ref=e776]: (上呼吸道组合药)
+                    - generic [ref=e777]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e778]:
+                  - generic [ref=e779]: ·
+                  - generic [ref=e780]:
+                    - text: 对乙酰氨基酚、扑尔敏、右美沙芬、去氧肾上腺素混悬液
+                    - generic [ref=e781]: (上呼吸道组合药)
+                    - generic [ref=e782]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e783]:
+                  - generic [ref=e784]: ·
+                  - generic [ref=e785]:
+                    - text: 苯那敏和去氧肾上腺素
+                    - generic [ref=e786]: (上呼吸道组合药)
+                    - generic [ref=e787]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e788]:
+                  - generic [ref=e789]: ·
+                  - generic [ref=e790]:
+                    - text: 曲普立啶伪麻黄碱液体
+                    - generic [ref=e791]: (上呼吸道组合药)
+                    - generic [ref=e792]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e793]:
+                  - generic [ref=e794]: ·
+                  - generic [ref=e795]:
+                    - text: 盐酸苯海拉明和盐酸去氧肾上腺素
+                    - generic [ref=e796]: (上呼吸道组合药)
+                    - generic [ref=e797]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e798]:
+                  - generic [ref=e799]: ·
+                  - generic [ref=e800]:
+                    - text: 氯苯酚、右氯苯那敏和伪麻黄碱
+                    - generic [ref=e801]: (上呼吸道组合药)
+                    - generic [ref=e802]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e803]:
+                  - generic [ref=e804]: ·
+                  - generic [ref=e805]:
+                    - text: 氯环嗪和去氧肾上腺素
+                    - generic [ref=e806]: (上呼吸道组合药)
+                    - generic [ref=e807]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e808]:
+                  - generic [ref=e809]: ·
+                  - generic [ref=e810]:
+                    - text: 扑尔敏、去氧肾上腺素和苯托沙明
+                    - generic [ref=e811]: (上呼吸道组合药)
+                    - generic [ref=e812]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e813]:
+                  - generic [ref=e814]: ·
+                  - generic [ref=e815]:
+                    - text: 扑尔敏、伪麻黄碱和可待因液体
+                    - generic [ref=e816]: (上呼吸道组合药)
+                    - generic [ref=e817]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e818]:
+                  - generic [ref=e819]: ·
+                  - generic [ref=e820]:
+                    - text: 可待因、去氧肾上腺素和曲普立啶
+                    - generic [ref=e821]: (上呼吸道组合药)
+                    - generic [ref=e822]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e823]:
+                  - generic [ref=e824]: ·
+                  - generic [ref=e825]:
+                    - text: 去氧肾上腺素/吡拉明/右美沙芬糖浆
+                    - generic [ref=e826]: (上呼吸道组合药)
+                    - generic [ref=e827]: "— 绝对禁忌: 重度 未控制 高血压"
+                - generic [ref=e828]:
+                  - generic [ref=e829]: ·
+                  - generic [ref=e830]:
+                    - text: 愈创甘油醚、伪麻黄碱和可待因
+                    - generic [ref=e831]: (上呼吸道组合药)
+                    - generic [ref=e832]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e833]:
+                  - generic [ref=e834]: ·
+                  - generic [ref=e835]:
+                    - text: 右美沙芬、苯海拉明和去氧肾上腺素
+                    - generic [ref=e836]: (上呼吸道组合药)
+                    - generic [ref=e837]: "— 绝对禁忌: 重度 未控制 高血压"
+                - generic [ref=e838]:
+                  - generic [ref=e839]: ·
+                  - generic [ref=e840]:
+                    - text: 右溴苯那敏伪麻黄碱缓释片
+                    - generic [ref=e841]: (上呼吸道组合药)
+                    - generic [ref=e842]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e843]:
+                  - generic [ref=e844]: ·
+                  - generic [ref=e845]:
+                    - text: 对乙酰氨基酚、扑尔敏和去氧肾上腺素泡腾片
+                    - generic [ref=e846]: (上呼吸道组合药)
+                    - generic [ref=e847]: "— 绝对禁忌: 重度 未控制 高血压"
+                - generic [ref=e848]:
+                  - generic [ref=e849]: ·
+                  - generic [ref=e850]:
+                    - text: 曲普立啶去氧肾上腺素糖浆
+                    - generic [ref=e851]: (上呼吸道组合药)
+                    - generic [ref=e852]: "— 绝对禁忌: 重度 高血压"
+                - generic [ref=e853]:
+                  - generic [ref=e854]: ·
+                  - generic [ref=e855]:
+                    - text: 扑尔敏和去氧肾上腺素液体
+                    - generic [ref=e856]: (上呼吸道组合药)
+                    - generic [ref=e857]: "— 绝对禁忌: 重度 未控制 高血压"
+                - generic [ref=e858]:
+                  - generic [ref=e859]: ·
+                  - generic [ref=e860]:
+                    - text: 扑尔敏、伪麻黄碱和可待因混悬液
+                    - generic [ref=e861]: (上呼吸道组合药)
+                    - generic [ref=e862]: "— 绝对禁忌: 重度 高血压 and 冠心病"
+                - generic [ref=e863]:
+                  - generic [ref=e864]: ·
+                  - generic [ref=e865]:
+                    - text: 磷酸氢二钠和磷酸钠（直肠）
+                    - generic [ref=e866]: (泻药)
+                    - generic [ref=e867]: — 肾功能不全禁忌
+                - generic [ref=e868]:
+                  - generic [ref=e869]: ·
+                  - generic [ref=e870]:
+                    - text: 磷酸氢二钠和磷酸钠（口服）
+                    - generic [ref=e871]: (泻药)
+                    - generic [ref=e872]: — 肾功能不全禁忌
+                - generic [ref=e873]:
+                  - generic [ref=e874]: ·
+                  - generic [ref=e875]:
+                    - text: 磷酸钾
+                    - generic [ref=e876]: (矿物质和电解质)
+                    - generic [ref=e877]: — 肾功能不全禁忌
+                - generic [ref=e878]:
+                  - generic [ref=e879]: ·
+                  - generic [ref=e880]:
+                    - text: 尼马曲韦和利托那韦
+                    - generic [ref=e881]: (抗病毒组合药)
+                    - generic [ref=e882]: — 肾功能不全禁忌
+                - generic [ref=e883]:
+                  - generic [ref=e884]: ·
+                  - generic [ref=e885]:
+                    - text: 氯胺酮
+                    - generic [ref=e886]: (全身麻醉药)
+                    - generic [ref=e887]: "— 绝对禁忌: conditions where significant elevation of blood pressure 或 intracranial pressure would be hazardous (例如, 重度 高血压, intracranial mass, head injury, cerebral aneurysm)"
+                - generic [ref=e888]:
+                  - generic [ref=e889]: ·
+                  - generic [ref=e890]:
+                    - text: 艾氯胺酮（鼻用）
+                    - generic [ref=e891]: (其他抗抑郁药)
+                    - generic [ref=e892]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e893]:
+                  - generic [ref=e894]: ·
+                  - generic [ref=e895]:
+                    - text: 甲状腺（干燥）
+                    - generic [ref=e896]: (甲状腺药物)
+                    - generic [ref=e897]: "— 绝对禁忌: 急性心肌梗死, un稳定型心绞痛, 或 未控制 高血压"
+                - generic [ref=e898]:
+                  - generic [ref=e899]: ·
+                  - generic [ref=e900]:
+                    - text: 达格列净
+                    - generic [ref=e901]: (SGLT-2抑制剂)
+                    - generic [ref=e902]: — 肾功能不全禁忌
+                - generic [ref=e903]:
+                  - generic [ref=e904]: ·
+                  - generic [ref=e905]:
+                    - text: 二甲双胍和西格列汀
+                    - generic [ref=e906]: (降糖组合药)
+                    - generic [ref=e907]: — 肾功能不全禁忌
+                - generic [ref=e908]:
+                  - generic [ref=e909]: ·
+                  - generic [ref=e910]:
+                    - text: 阿卡波糖
+                    - generic [ref=e911]: (α-葡萄糖苷酶抑制剂)
+                    - generic [ref=e912]: — 肾功能不全禁忌
+                - generic [ref=e913]:
+                  - generic [ref=e914]: ·
+                  - generic [ref=e915]:
+                    - text: 格列本脲和二甲双胍
+                    - generic [ref=e916]: (降糖组合药)
+                    - generic [ref=e917]: — 肾功能不全禁忌
+                - generic [ref=e918]:
+                  - generic [ref=e919]: ·
+                  - generic [ref=e920]:
+                    - text: 二甲双胍和沙格列汀
+                    - generic [ref=e921]: (降糖组合药)
+                    - generic [ref=e922]: — 肾功能不全禁忌
+                - generic [ref=e923]:
+                  - generic [ref=e924]: ·
+                  - generic [ref=e925]:
+                    - text: 达格列净和二甲双胍
+                    - generic [ref=e926]: (降糖组合药)
+                    - generic [ref=e927]: — 肾功能不全禁忌
+                - generic [ref=e928]:
+                  - generic [ref=e929]: ·
+                  - generic [ref=e930]:
+                    - text: 恩格列净和二甲双胍
+                    - generic [ref=e931]: (降糖组合药)
+                    - generic [ref=e932]: — 肾功能不全禁忌
+                - generic [ref=e933]:
+                  - generic [ref=e934]: ·
+                  - generic [ref=e935]:
+                    - text: 格列吡嗪和二甲双胍
+                    - generic [ref=e936]: (降糖组合药)
+                    - generic [ref=e937]: — 肾功能不全禁忌
+                - generic [ref=e938]:
+                  - generic [ref=e939]: ·
+                  - generic [ref=e940]:
+                    - text: 利格列汀和二甲双胍
+                    - generic [ref=e941]: (降糖组合药)
+                    - generic [ref=e942]: — 肾功能不全禁忌
+                - generic [ref=e943]:
+                  - generic [ref=e944]: ·
+                  - generic [ref=e945]:
+                    - text: 二甲双胍和吡格列酮
+                    - generic [ref=e946]: (降糖组合药)
+                    - generic [ref=e947]: — 肾功能不全禁忌
+                - generic [ref=e948]:
+                  - generic [ref=e949]: ·
+                  - generic [ref=e950]:
+                    - text: 阿格列汀和二甲双胍
+                    - generic [ref=e951]: (降糖组合药)
+                    - generic [ref=e952]: — 肾功能不全禁忌
+                - generic [ref=e953]:
+                  - generic [ref=e954]: ·
+                  - generic [ref=e955]:
+                    - text: 卡格列净和二甲双胍
+                    - generic [ref=e956]: (降糖组合药)
+                    - generic [ref=e957]: — 肾功能不全禁忌
+                - generic [ref=e958]:
+                  - generic [ref=e959]: ·
+                  - generic [ref=e960]:
+                    - text: 达格列净和沙格列汀
+                    - generic [ref=e961]: (降糖组合药)
+                    - generic [ref=e962]: — 肾功能不全禁忌
+                - generic [ref=e963]:
+                  - generic [ref=e964]: ·
+                  - generic [ref=e965]:
+                    - text: 恩格列净、利格列汀和二甲双胍
+                    - generic [ref=e966]: (降糖组合药)
+                    - generic [ref=e967]: — 肾功能不全禁忌
+                - generic [ref=e968]:
+                  - generic [ref=e969]: ·
+                  - generic [ref=e970]:
+                    - text: 恩格列净和利格列汀
+                    - generic [ref=e971]: (降糖组合药)
+                    - generic [ref=e972]: — 肾功能不全禁忌
+                - generic [ref=e973]:
+                  - generic [ref=e974]: ·
+                  - generic [ref=e975]:
+                    - text: 艾格列净和二甲双胍
+                    - generic [ref=e976]: (降糖组合药)
+                    - generic [ref=e977]: — 肾功能不全禁忌
+                - generic [ref=e978]:
+                  - generic [ref=e979]: ·
+                  - generic [ref=e980]:
+                    - text: 埃尔图列净和西格列汀
+                    - generic [ref=e981]: (降糖组合药)
+                    - generic [ref=e982]: — 肾功能不全禁忌
+                - generic [ref=e983]:
+                  - generic [ref=e984]: ·
+                  - generic [ref=e985]:
+                    - text: 艾格列净
+                    - generic [ref=e986]: (SGLT-2抑制剂)
+                    - generic [ref=e987]: — 肾功能不全禁忌
+                - generic [ref=e988]:
+                  - generic [ref=e989]: ·
+                  - generic [ref=e990]:
+                    - text: 电解质口服液、冷冻汽水和果冻杯
+                    - generic [ref=e991]: (矿物质和电解质)
+                    - generic [ref=e992]: — 肾功能不全禁忌
+                - generic [ref=e993]:
+                  - generic [ref=e994]: ·
+                  - generic [ref=e995]:
+                    - text: 碳水化合物和电解质组合（口服途径）
+                    - generic [ref=e996]: (矿物质和电解质)
+                    - generic [ref=e997]: — 肾功能不全禁忌
+                - generic [ref=e998]:
+                  - generic [ref=e999]: ·
+                  - generic [ref=e1000]:
+                    - text: 电解质片
+                    - generic [ref=e1001]: (矿物质和电解质)
+                    - generic [ref=e1002]: — 肾功能不全禁忌
+                - generic [ref=e1003]:
+                  - generic [ref=e1004]: ·
+                  - generic [ref=e1005]:
+                    - text: 甲氨蝶呤（口服）
+                    - generic [ref=e1006]: (抗代谢药, 抗牛皮癣药, 抗风湿药, 其他免疫抑制剂)
+                    - generic [ref=e1007]: — 肾功能不全禁忌
+                - generic [ref=e1008]:
+                  - generic [ref=e1009]: ·
+                  - generic [ref=e1010]:
+                    - text: 硫糖铝（口服）
+                    - generic [ref=e1011]: (其他胃肠药)
+                    - generic [ref=e1012]: — 肾功能不全禁忌
+                - generic [ref=e1013]:
+                  - generic [ref=e1014]: ·
+                  - generic [ref=e1015]:
+                    - text: 奥美拉唑和碳酸氢钠
+                    - generic [ref=e1016]: (质子泵抑制剂)
+                    - generic [ref=e1017]: — 肾功能不全禁忌
+                - generic [ref=e1018]:
+                  - generic [ref=e1019]: ·
+                  - generic [ref=e1020]:
+                    - text: 氢氧化铝、氢氧化镁和西甲硅油悬浮液
+                    - generic [ref=e1021]: (抗酸药)
+                    - generic [ref=e1022]: — 肾功能不全禁忌
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]: ·
+                  - generic [ref=e1025]:
+                    - text: 氢氧化铝、氢氧化镁和西甲硅油
+                    - generic [ref=e1026]: (抗酸药)
+                    - generic [ref=e1027]: — 肾功能不全禁忌
+                - generic [ref=e1028]:
+                  - generic [ref=e1029]: ·
+                  - generic [ref=e1030]:
+                    - text: 碳酸钙、法莫替丁和氢氧化镁
+                    - generic [ref=e1031]: (H2受体拮抗剂)
+                    - generic [ref=e1032]: — 肾功能不全禁忌
+                - generic [ref=e1033]:
+                  - generic [ref=e1034]: ·
+                  - generic [ref=e1035]:
+                    - text: 氢氧化铝和氢氧化镁咀嚼片
+                    - generic [ref=e1036]: (抗酸药)
+                    - generic [ref=e1037]: — 肾功能不全禁忌
+                - generic [ref=e1038]:
+                  - generic [ref=e1039]: ·
+                  - generic [ref=e1040]:
+                    - text: 碳酸钙和西甲硅油
+                    - generic [ref=e1041]: (抗酸药)
+                    - generic [ref=e1042]: — 肾功能不全禁忌
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]: ·
+                  - generic [ref=e1045]:
+                    - text: 氢氧化铝和碳酸镁
+                    - generic [ref=e1046]: (抗酸药)
+                    - generic [ref=e1047]: — 肾功能不全禁忌
+                - generic [ref=e1048]:
+                  - generic [ref=e1049]: ·
+                  - generic [ref=e1050]:
+                    - text: 氢氧化铝
+                    - generic [ref=e1051]: (抗酸药, 磷结合剂)
+                    - generic [ref=e1052]: — 肾功能不全禁忌
+                - generic [ref=e1053]:
+                  - generic [ref=e1054]: ·
+                  - generic [ref=e1055]:
+                    - text: 碳酸钙、氢氧化镁和西甲硅油
+                    - generic [ref=e1056]: (抗酸药)
+                    - generic [ref=e1057]: — 肾功能不全禁忌
+                - generic [ref=e1058]:
+                  - generic [ref=e1059]: ·
+                  - generic [ref=e1060]:
+                    - text: 氢氧化铝、氢氧化镁和西甲硅油咀嚼片
+                    - generic [ref=e1061]: (抗酸药)
+                    - generic [ref=e1062]: — 肾功能不全禁忌
+                - generic [ref=e1063]:
+                  - generic [ref=e1064]: ·
+                  - generic [ref=e1065]:
+                    - text: 二水柠檬酸三钠
+                    - generic [ref=e1066]: (尿液pH调节剂)
+                    - generic [ref=e1067]: — 肾功能不全禁忌
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]: ·
+                  - generic [ref=e1070]:
+                    - text: 盐酸西替利嗪
+                    - generic [ref=e1071]: (抗组胺药)
+                    - generic [ref=e1072]: — 肾功能不全禁忌
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]: ·
+                  - generic [ref=e1075]:
+                    - text: 非索非那定和伪麻黄碱
+                    - generic [ref=e1076]: (上呼吸道组合药)
+                    - generic [ref=e1077]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1078]:
+                  - generic [ref=e1079]: ·
+                  - generic [ref=e1080]:
+                    - text: 西替利嗪和伪麻黄碱
+                    - generic [ref=e1081]: (上呼吸道组合药)
+                    - generic [ref=e1082]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1083]:
+                  - generic [ref=e1084]: ·
+                  - generic [ref=e1085]:
+                    - text: 氯雷他定和伪麻黄碱
+                    - generic [ref=e1086]: (上呼吸道组合药)
+                    - generic [ref=e1087]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1088]:
+                  - generic [ref=e1089]: ·
+                  - generic [ref=e1090]:
+                    - text: 盐酸西替利嗪和盐酸伪麻黄碱
+                    - generic [ref=e1091]: (上呼吸道组合药)
+                    - generic [ref=e1092]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1093]:
+                  - generic [ref=e1094]: ·
+                  - generic [ref=e1095]:
+                    - text: 扑尔敏和伪麻黄碱
+                    - generic [ref=e1096]: (上呼吸道组合药)
+                    - generic [ref=e1097]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1098]:
+                  - generic [ref=e1099]: ·
+                  - generic [ref=e1100]:
+                    - text: 氯雷他定和伪麻黄碱（口服途径）
+                    - generic [ref=e1101]: (上呼吸道组合药)
+                    - generic [ref=e1102]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1103]:
+                  - generic [ref=e1104]: ·
+                  - generic [ref=e1105]:
+                    - text: 溴苯那敏和去氧肾上腺素
+                    - generic [ref=e1106]: (上呼吸道组合药)
+                    - generic [ref=e1107]: "— 绝对禁忌: phenylephrine: 重度 高血压"
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]: ·
+                  - generic [ref=e1110]:
+                    - text: 溴苯那敏和伪麻黄碱
+                    - generic [ref=e1111]: (上呼吸道组合药)
+                    - generic [ref=e1112]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1113]:
+                  - generic [ref=e1114]: ·
+                  - generic [ref=e1115]:
+                    - text: 地氯雷他定和伪麻黄碱
+                    - generic [ref=e1116]: (上呼吸道组合药)
+                    - generic [ref=e1117]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1118]:
+                  - generic [ref=e1119]: ·
+                  - generic [ref=e1120]:
+                    - text: 溴苯那敏和去氧肾上腺素液体
+                    - generic [ref=e1121]: (上呼吸道组合药)
+                    - generic [ref=e1122]: "— 绝对禁忌: phenylephrine: 重度 高血压"
+                - generic [ref=e1123]:
+                  - generic [ref=e1124]: ·
+                  - generic [ref=e1125]:
+                    - text: 扑尔敏伪麻黄碱液
+                    - generic [ref=e1126]: (上呼吸道组合药)
+                    - generic [ref=e1127]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]: ·
+                  - generic [ref=e1130]:
+                    - text: 右氯苯那敏和去氧肾上腺素
+                    - generic [ref=e1131]: (上呼吸道组合药)
+                    - generic [ref=e1132]: "— 绝对禁忌: phenylephrine: 重度 高血压"
+                - generic [ref=e1133]:
+                  - generic [ref=e1134]: ·
+                  - generic [ref=e1135]:
+                    - text: 阿克伐斯汀和伪麻黄碱（口服途径）
+                    - generic [ref=e1136]: (上呼吸道组合药)
+                    - generic [ref=e1137]: "— 绝对禁忌: 伪麻黄碱: 重度 高血压"
+                - generic [ref=e1138]:
+                  - generic [ref=e1139]: ·
+                  - generic [ref=e1140]:
+                    - text: 氢氯噻嗪和赖诺普利
+                    - generic [ref=e1141]: (ACE抑制剂+噻嗪类)
+                    - generic [ref=e1142]: — 肾功能不全禁忌
+                - generic [ref=e1143]:
+                  - generic [ref=e1144]: ·
+                  - generic [ref=e1145]:
+                    - text: 氢氯噻嗪和氯沙坦
+                    - generic [ref=e1146]: (ARB+噻嗪类)
+                    - generic [ref=e1147]: "— 严重交互: 氢氯噻嗪 and 洛沙坦 + 洛沙坦"
+                - generic [ref=e1148]:
+                  - generic [ref=e1149]: ·
+                  - generic [ref=e1150]:
+                    - text: 氢氯噻嗪和氨苯蝶啶
+                    - generic [ref=e1151]: (保钾利尿剂+噻嗪类)
+                    - generic [ref=e1152]: — 肾功能不全禁忌
+                - generic [ref=e1153]:
+                  - generic [ref=e1154]: ·
+                  - generic [ref=e1155]:
+                    - text: 氨氯地平和贝那普利
+                    - generic [ref=e1156]: (ACE抑制剂+钙通道阻滞剂)
+                    - generic [ref=e1157]: — 肾功能不全禁忌
+                - generic [ref=e1158]:
+                  - generic [ref=e1159]: ·
+                  - generic [ref=e1160]:
+                    - text: 氢氯噻嗪和缬沙坦
+                    - generic [ref=e1161]: (ARB+噻嗪类)
+                    - generic [ref=e1162]: — 肾功能不全禁忌
+                - generic [ref=e1163]:
+                  - generic [ref=e1164]: ·
+                  - generic [ref=e1165]:
+                    - text: 氢氯噻嗪和奥美沙坦
+                    - generic [ref=e1166]: (ARB+噻嗪类)
+                    - generic [ref=e1167]: — 肾功能不全禁忌
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]: ·
+                  - generic [ref=e1170]:
+                    - text: 氨氯地平和缬沙坦
+                    - generic [ref=e1171]: (ARB+钙通道阻滞剂)
+                    - generic [ref=e1172]: — 肾功能不全禁忌
+                - generic [ref=e1173]:
+                  - generic [ref=e1174]: ·
+                  - generic [ref=e1175]:
+                    - text: 氨氯地平和奥美沙坦
+                    - generic [ref=e1176]: (ARB+钙通道阻滞剂)
+                    - generic [ref=e1177]: — 肾功能不全禁忌
+                - generic [ref=e1178]:
+                  - generic [ref=e1179]: ·
+                  - generic [ref=e1180]:
+                    - text: 氨氯地平、氢氯噻嗪和缬沙坦
+                    - generic [ref=e1181]: (其他降压组合药)
+                    - generic [ref=e1182]: — 肾功能不全禁忌
+                - generic [ref=e1183]:
+                  - generic [ref=e1184]: ·
+                  - generic [ref=e1185]:
+                    - text: 氢氯噻嗪和厄贝沙坦
+                    - generic [ref=e1186]: (ARB+噻嗪类)
+                    - generic [ref=e1187]: — 肾功能不全禁忌
+                - generic [ref=e1188]:
+                  - generic [ref=e1189]: ·
+                  - generic [ref=e1190]:
+                    - text: 氢氯噻嗪和贝那普利
+                    - generic [ref=e1191]: (ACE抑制剂+噻嗪类)
+                    - generic [ref=e1192]: — 肾功能不全禁忌
+                - generic [ref=e1193]:
+                  - generic [ref=e1194]: ·
+                  - generic [ref=e1195]:
+                    - text: 依那普利（口服途径）
+                    - generic [ref=e1196]: (血管紧张素转换酶抑制剂)
+                    - generic [ref=e1197]: — 肾功能不全禁忌
+                - generic [ref=e1198]:
+                  - generic [ref=e1199]: ·
+                  - generic [ref=e1200]:
+                    - text: 福辛普利
+                    - generic [ref=e1201]: (血管紧张素转换酶抑制剂)
+                    - generic [ref=e1202]: — 肾功能不全禁忌
+                - generic [ref=e1203]:
+                  - generic [ref=e1204]: ·
+                  - generic [ref=e1205]:
+                    - text: 氢氯噻嗪和替米沙坦
+                    - generic [ref=e1206]: (ARB+噻嗪类)
+                    - generic [ref=e1207]: — 肾功能不全禁忌
+                - generic [ref=e1208]:
+                  - generic [ref=e1209]: ·
+                  - generic [ref=e1210]:
+                    - text: 氢氯噻嗪和喹那普利
+                    - generic [ref=e1211]: (ACE抑制剂+噻嗪类)
+                    - generic [ref=e1212]: — 肾功能不全禁忌
+                - generic [ref=e1213]:
+                  - generic [ref=e1214]: ·
+                  - generic [ref=e1215]:
+                    - text: 氨氯地平、氢氯噻嗪和奥美沙坦
+                    - generic [ref=e1216]: (其他降压组合药)
+                    - generic [ref=e1217]: — 肾功能不全禁忌
+                - generic [ref=e1218]:
+                  - generic [ref=e1219]: ·
+                  - generic [ref=e1220]:
+                    - text: 氨氯地平和培哚普利
+                    - generic [ref=e1221]: (ACE抑制剂+钙通道阻滞剂)
+                    - generic [ref=e1222]: — 肾功能不全禁忌
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]: ·
+                  - generic [ref=e1225]:
+                    - text: 氨氯地平和替米沙坦
+                    - generic [ref=e1226]: (ARB+钙通道阻滞剂)
+                    - generic [ref=e1227]: — 肾功能不全禁忌
+                - generic [ref=e1228]:
+                  - generic [ref=e1229]: ·
+                  - generic [ref=e1230]:
+                    - text: 氢氯噻嗪和坎地沙坦
+                    - generic [ref=e1231]: (ARB+噻嗪类)
+                    - generic [ref=e1232]: — 肾功能不全禁忌
+                - generic [ref=e1233]:
+                  - generic [ref=e1234]: ·
+                  - generic [ref=e1235]:
+                    - text: 阿齐沙坦和氯噻酮
+                    - generic [ref=e1236]: (ARB+噻嗪类)
+                    - generic [ref=e1237]: — 肾功能不全禁忌
+                - generic [ref=e1238]:
+                  - generic [ref=e1239]: ·
+                  - generic [ref=e1240]:
+                    - text: 阿齐沙坦酯
+                    - generic [ref=e1241]: (血管紧张素受体阻断剂)
+                    - generic [ref=e1242]: — 肾功能不全禁忌
+                - generic [ref=e1243]:
+                  - generic [ref=e1244]: ·
+                  - generic [ref=e1245]:
+                    - text: 氢氯噻嗪和卡托普利
+                    - generic [ref=e1246]: (ACE抑制剂+噻嗪类)
+                    - generic [ref=e1247]: — 肾功能不全禁忌
+                - generic [ref=e1248]:
+                  - generic [ref=e1249]: ·
+                  - generic [ref=e1250]:
+                    - text: 阿齐沙坦
+                    - generic [ref=e1251]: (血管紧张素受体阻断剂)
+                    - generic [ref=e1252]: — 肾功能不全禁忌
+                - generic [ref=e1253]:
+                  - generic [ref=e1254]: ·
+                  - generic [ref=e1255]:
+                    - text: 氢氯噻嗪和依那普利
+                    - generic [ref=e1256]: (ACE抑制剂+噻嗪类)
+                    - generic [ref=e1257]: — 肾功能不全禁忌
+                - generic [ref=e1258]:
+                  - generic [ref=e1259]: ·
+                  - generic [ref=e1260]:
+                    - text: 氢氯噻嗪和福辛普利
+                    - generic [ref=e1261]: (ACE抑制剂+噻嗪类)
+                    - generic [ref=e1262]: — 肾功能不全禁忌
+                - generic [ref=e1263]:
+                  - generic [ref=e1264]: ·
+                  - generic [ref=e1265]:
+                    - text: 氢氯噻嗪和氨苯蝶啶
+                    - generic [ref=e1266]: (保钾利尿剂+噻嗪类)
+                    - generic [ref=e1267]: — 肾功能不全禁忌
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]: ·
+                  - generic [ref=e1270]:
+                    - text: 美加明
+                    - generic [ref=e1271]: (抗肾上腺素能药, 外周作用药)
+                    - generic [ref=e1272]: "— 绝对禁忌: pregnancy-induced 高血压 (先兆子痫/子痫)"
+                - generic [ref=e1273]:
+                  - generic [ref=e1274]: ·
+                  - generic [ref=e1275]:
+                    - text: 莫西普利
+                    - generic [ref=e1276]: (血管紧张素转换酶抑制剂)
+                    - generic [ref=e1277]: — 肾功能不全禁忌
+                - generic [ref=e1278]:
+                  - generic [ref=e1279]: ·
+                  - generic [ref=e1280]:
+                    - text: 奈必洛尔和缬沙坦
+                    - generic [ref=e1281]: (其他降压组合药)
+                    - generic [ref=e1282]: — 肾功能不全禁忌
+                - generic [ref=e1283]:
+                  - generic [ref=e1284]: ·
+                  - generic [ref=e1285]:
+                    - text: 苯海拉明和布洛芬
+                    - generic [ref=e1286]: (镇痛组合药)
+                    - generic [ref=e1287]: — 肾功能不全禁忌
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]: ·
+                  - generic [ref=e1290]:
+                    - text: 水合氯醛胶囊
+                    - generic [ref=e1291]: (其他抗焦虑药, 镇静剂和催眠药)
+                    - generic [ref=e1292]: — 肾功能不全禁忌
+                - generic [ref=e1293]:
+                  - generic [ref=e1294]: ·
+                  - generic [ref=e1295]:
+                    - text: 苯海拉明和萘普生
+                    - generic [ref=e1296]: (镇痛组合药)
+                    - generic [ref=e1297]: — 肾功能不全禁忌
+                - generic [ref=e1298]:
+                  - generic [ref=e1299]: ·
+                  - generic [ref=e1300]:
+                    - text: 苯海拉明和水杨酸镁
+                    - generic [ref=e1301]: (镇痛组合药)
+                    - generic [ref=e1302]: — 肾功能不全禁忌
+                - generic [ref=e1303]:
+                  - generic [ref=e1304]: ·
+                  - generic [ref=e1305]:
+                    - text: 舒马曲坦（注射剂）
+                    - generic [ref=e1306]: (抗偏头痛药)
+                    - generic [ref=e1307]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1308]:
+                  - generic [ref=e1309]: ·
+                  - generic [ref=e1310]:
+                    - text: 舒马曲坦（口服/鼻用）
+                    - generic [ref=e1311]: (抗偏头痛药)
+                    - generic [ref=e1312]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1313]:
+                  - generic [ref=e1314]: ·
+                  - generic [ref=e1315]:
+                    - text: 佐米曲普坦（口服）
+                    - generic [ref=e1316]: (抗偏头痛药)
+                    - generic [ref=e1317]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1318]:
+                  - generic [ref=e1319]: ·
+                  - generic [ref=e1320]:
+                    - text: 对乙酰氨基酚、阿司匹林和咖啡因
+                    - generic [ref=e1321]: (镇痛组合药)
+                    - generic [ref=e1322]: — 肾功能不全禁忌
+                - generic [ref=e1323]:
+                  - generic [ref=e1324]: ·
+                  - generic [ref=e1325]:
+                    - text: 阿司匹林、布他比妥和咖啡因
+                    - generic [ref=e1326]: (镇痛组合药)
+                    - generic [ref=e1327]: — 肾功能不全禁忌
+                - generic [ref=e1328]:
+                  - generic [ref=e1329]: ·
+                  - generic [ref=e1330]:
+                    - text: 萘普生和舒马曲坦
+                    - generic [ref=e1331]: (抗偏头痛药)
+                    - generic [ref=e1332]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1333]:
+                  - generic [ref=e1334]: ·
+                  - generic [ref=e1335]:
+                    - text: 阿莫曲坦
+                    - generic [ref=e1336]: (抗偏头痛药)
+                    - generic [ref=e1337]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1338]:
+                  - generic [ref=e1339]: ·
+                  - generic [ref=e1340]:
+                    - text: 甲基麦角新碱（口服和注射）
+                    - generic [ref=e1341]: (子宫收缩药)
+                    - generic [ref=e1342]: "— 绝对禁忌: 高血压"
+                - generic [ref=e1343]:
+                  - generic [ref=e1344]: ·
+                  - generic [ref=e1345]:
+                    - text: 二氢麦角胺（鼻用）
+                    - generic [ref=e1346]: (抗偏头痛药)
+                    - generic [ref=e1347]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1348]:
+                  - generic [ref=e1349]: ·
+                  - generic [ref=e1350]:
+                    - text: 对乙酰氨基酚、阿司匹林、咖啡因和水杨酰胺片剂
+                    - generic [ref=e1351]: (镇痛组合药)
+                    - generic [ref=e1352]: — 肾功能不全禁忌
+                - generic [ref=e1353]:
+                  - generic [ref=e1354]: ·
+                  - generic [ref=e1355]:
+                    - text: 麦角胺和咖啡因（口服途径）
+                    - generic [ref=e1356]: (抗偏头痛药)
+                    - generic [ref=e1357]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]: ·
+                  - generic [ref=e1360]:
+                    - text: 二氢麦角胺（注射剂）
+                    - generic [ref=e1361]: (抗偏头痛药)
+                    - generic [ref=e1362]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1363]:
+                  - generic [ref=e1364]: ·
+                  - generic [ref=e1365]:
+                    - text: 麦角胺和咖啡因栓剂
+                    - generic [ref=e1366]: (抗偏头痛药)
+                    - generic [ref=e1367]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]: ·
+                  - generic [ref=e1370]:
+                    - text: 咖啡因和麦角胺（口服/直肠）
+                    - generic [ref=e1371]: (抗偏头痛药)
+                    - generic [ref=e1372]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1373]:
+                  - generic [ref=e1374]: ·
+                  - generic [ref=e1375]:
+                    - text: 二氢麦角胺（注射途径）
+                    - generic [ref=e1376]: (抗偏头痛药)
+                    - generic [ref=e1377]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1378]:
+                  - generic [ref=e1379]: ·
+                  - generic [ref=e1380]:
+                    - text: 舒马曲坦（鼻途径）
+                    - generic [ref=e1381]: (抗偏头痛药)
+                    - generic [ref=e1382]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1383]:
+                  - generic [ref=e1384]: ·
+                  - generic [ref=e1385]:
+                    - text: 对乙酰氨基酚、阿司匹林和咖啡因片
+                    - generic [ref=e1386]: (镇痛组合药)
+                    - generic [ref=e1387]: — 肾功能不全禁忌
+                - generic [ref=e1388]:
+                  - generic [ref=e1389]: ·
+                  - generic [ref=e1390]:
+                    - text: 布他比妥、阿司匹林和咖啡因（口服途径）
+                    - generic [ref=e1391]: (镇痛组合药)
+                    - generic [ref=e1392]: — 肾功能不全禁忌
+                - generic [ref=e1393]:
+                  - generic [ref=e1394]: ·
+                  - generic [ref=e1395]:
+                    - text: 对乙酰氨基酚、阿司匹林和咖啡因粉包
+                    - generic [ref=e1396]: (镇痛组合药)
+                    - generic [ref=e1397]: — 肾功能不全禁忌
+                - generic [ref=e1398]:
+                  - generic [ref=e1399]: ·
+                  - generic [ref=e1400]:
+                    - text: 对乙酰氨基酚、阿司匹林、咖啡因
+                    - generic [ref=e1401]: ()
+                    - generic [ref=e1402]: — 肾功能不全禁忌
+                - generic [ref=e1403]:
+                  - generic [ref=e1404]: ·
+                  - generic [ref=e1405]:
+                    - text: 甲磺酸二氢麦角胺
+                    - generic [ref=e1406]: (抗偏头痛药)
+                    - generic [ref=e1407]: "— 绝对禁忌: 未控制 高血压"
+                - generic [ref=e1408]:
+                  - generic [ref=e1409]: ·
+                  - generic [ref=e1410]:
+                    - text: 双氯芬酸和米索前列醇
+                    - generic [ref=e1411]: (非甾体抗炎药)
+                    - generic [ref=e1412]: — 肾功能不全禁忌
+                - generic [ref=e1413]:
+                  - generic [ref=e1414]: ·
+                  - generic [ref=e1415]:
+                    - text: 布洛芬（口服）
+                    - generic [ref=e1416]: (非甾体抗炎药)
+                    - generic [ref=e1417]: — 肾功能不全禁忌
+                - generic [ref=e1418]:
+                  - generic [ref=e1419]: ·
+                  - generic [ref=e1420]:
+                    - text: 埃索美拉唑和萘普生
+                    - generic [ref=e1421]: (非甾体抗炎药)
+                    - generic [ref=e1422]: — 肾功能不全禁忌
+                - generic [ref=e1423]:
+                  - generic [ref=e1424]: ·
+                  - generic [ref=e1425]:
+                    - text: 双氯芬酸（口服途径）
+                    - generic [ref=e1426]: (非甾体抗炎药)
+                    - generic [ref=e1427]: — 肾功能不全禁忌
+                - generic [ref=e1428]:
+                  - generic [ref=e1429]: ·
+                  - generic [ref=e1430]:
+                    - text: 吲哚美辛（口服）
+                    - generic [ref=e1431]: (非甾体抗炎药)
+                    - generic [ref=e1432]: — 肾功能不全禁忌
+                - generic [ref=e1433]:
+                  - generic [ref=e1434]: ·
+                  - generic [ref=e1435]:
+                    - text: 布洛芬胶囊
+                    - generic [ref=e1436]: (非甾体抗炎药)
+                    - generic [ref=e1437]: — 肾功能不全禁忌
+                - generic [ref=e1438]:
+                  - generic [ref=e1439]: ·
+                  - generic [ref=e1440]:
+                    - text: 法莫替丁和布洛芬
+                    - generic [ref=e1441]: (非甾体抗炎药)
+                    - generic [ref=e1442]: — 肾功能不全禁忌
+                - generic [ref=e1443]:
+                  - generic [ref=e1444]: ·
+                  - generic [ref=e1445]:
+                    - text: 布洛芬 200mg
+                    - generic [ref=e1446]: (非甾体抗炎药)
+                    - generic [ref=e1447]: — 肾功能不全禁忌
+                - generic [ref=e1448]:
+                  - generic [ref=e1449]: ·
+                  - generic [ref=e1450]:
+                    - text: 萘普生（口服途径）
+                    - generic [ref=e1451]: (非甾体抗炎药)
+                    - generic [ref=e1452]: — 肾功能不全禁忌
+                - generic [ref=e1453]:
+                  - generic [ref=e1454]: ·
+                  - generic [ref=e1455]:
+                    - text: 萘普生钠
+                    - generic [ref=e1456]: (非甾体抗炎药)
+                    - generic [ref=e1457]: — 肾功能不全禁忌
+                - generic [ref=e1458]:
+                  - generic [ref=e1459]: ·
+                  - generic [ref=e1460]:
+                    - text: 萘普生钠
+                    - generic [ref=e1461]: (非甾体抗炎药)
+                    - generic [ref=e1462]: — 肾功能不全禁忌
+                - generic [ref=e1463]:
+                  - generic [ref=e1464]: ·
+                  - generic [ref=e1465]:
+                    - text: 二氟尼柳
+                    - generic [ref=e1466]: (非甾体抗炎药, 水杨酸类)
+                    - generic [ref=e1467]: — 肾功能不全禁忌
+                - generic [ref=e1468]:
+                  - generic [ref=e1469]: ·
+                  - generic [ref=e1470]:
+                    - text: 二氟尼柳（口服途径）
+                    - generic [ref=e1471]: (非甾体抗炎药, 水杨酸类)
+                    - generic [ref=e1472]: — 肾功能不全禁忌
+                - generic [ref=e1473]:
+                  - generic [ref=e1474]: ·
+                  - generic [ref=e1475]:
+                    - text: 吡罗昔康（口服途径）
+                    - generic [ref=e1476]: (非甾体抗炎药)
+                    - generic [ref=e1477]: — 肾功能不全禁忌
+                - generic [ref=e1478]:
+                  - generic [ref=e1479]: ·
+                  - generic [ref=e1480]:
+                    - text: 双氯芬酸钾
+                    - generic [ref=e1481]: (非甾体抗炎药)
+                    - generic [ref=e1482]: — 肾功能不全禁忌
+                - generic [ref=e1483]:
+                  - generic [ref=e1484]: ·
+                  - generic [ref=e1485]:
+                    - text: 水杨酸
+                    - generic [ref=e1486]: (水杨酸类)
+                    - generic [ref=e1487]: — 肾功能不全禁忌
+                - generic [ref=e1488]:
+                  - generic [ref=e1489]: ·
+                  - generic [ref=e1490]:
+                    - text: 舒林酸（口服途径）
+                    - generic [ref=e1491]: (非甾体抗炎药)
+                    - generic [ref=e1492]: — 肾功能不全禁忌
+                - generic [ref=e1493]:
+                  - generic [ref=e1494]: ·
+                  - generic [ref=e1495]:
+                    - text: 三水杨酸胆碱镁
+                    - generic [ref=e1496]: (水杨酸类)
+                    - generic [ref=e1497]: — 肾功能不全禁忌
+                - generic [ref=e1498]:
+                  - generic [ref=e1499]: ·
+                  - generic [ref=e1500]:
+                    - text: 非诺洛芬
+                    - generic [ref=e1501]: (非甾体抗炎药)
+                    - generic [ref=e1502]: — 肾功能不全禁忌
+                - generic [ref=e1503]:
+                  - generic [ref=e1504]: ·
+                  - generic [ref=e1505]:
+                    - text: 甲氯芬那酯
+                    - generic [ref=e1506]: (非甾体抗炎药)
+                    - generic [ref=e1507]: — 肾功能不全禁忌
+                - generic [ref=e1508]:
+                  - generic [ref=e1509]: ·
+                  - generic [ref=e1510]:
+                    - text: 伊班膦酸钠（口服/注射）
+                    - generic [ref=e1511]: (双膦酸盐类)
+                    - generic [ref=e1512]: — 肾功能不全禁忌
+                - generic [ref=e1513]:
+                  - generic [ref=e1514]: ·
+                  - generic [ref=e1515]:
+                    - text: 酮咯酸（鼻用）
+                    - generic [ref=e1516]: (非甾体抗炎药)
+                    - generic [ref=e1517]: — 肾功能不全禁忌
+                - generic [ref=e1518]:
+                  - generic [ref=e1519]: ·
+                  - generic [ref=e1520]:
+                    - text: 氢可酮和布洛芬
+                    - generic [ref=e1521]: (麻醉镇痛组合药)
+                    - generic [ref=e1522]: — 肾功能不全禁忌
+                - generic [ref=e1523]:
+                  - generic [ref=e1524]: ·
+                  - generic [ref=e1525]:
+                    - text: 哌替啶（口服/注射）
+                    - generic [ref=e1526]: (阿片类(麻醉镇痛药))
+                    - generic [ref=e1527]: — 肾功能不全禁忌
+                - generic [ref=e1528]:
+                  - generic [ref=e1529]: ·
+                  - generic [ref=e1530]:
+                    - text: 布洛芬注射液
+                    - generic [ref=e1531]: (非甾体抗炎药)
+                    - generic [ref=e1532]: — 肾功能不全禁忌
+                - generic [ref=e1533]:
+                  - generic [ref=e1534]: ·
+                  - generic [ref=e1535]:
+                    - text: 布洛芬咀嚼片
+                    - generic [ref=e1536]: (非甾体抗炎药)
+                    - generic [ref=e1537]: — 肾功能不全禁忌
+                - generic [ref=e1538]:
+                  - generic [ref=e1539]: ·
+                  - generic [ref=e1540]:
+                    - text: 美洛昔康（静脉途径）
+                    - generic [ref=e1541]: (非甾体抗炎药)
+                    - generic [ref=e1542]: — 肾功能不全禁忌
+                - generic [ref=e1543]:
+                  - generic [ref=e1544]: ·
+                  - generic [ref=e1545]:
+                    - text: 对乙酰氨基酚和布洛芬
+                    - generic [ref=e1546]: (镇痛组合药)
+                    - generic [ref=e1547]: — 肾功能不全禁忌
+                - generic [ref=e1548]:
+                  - generic [ref=e1549]: ·
+                  - generic [ref=e1550]:
+                    - text: 对乙酰氨基酚、水杨酰胺和苯妥沙明
+                    - generic [ref=e1551]: (镇痛组合药)
+                    - generic [ref=e1552]: — 肾功能不全禁忌
+                - generic [ref=e1553]:
+                  - generic [ref=e1554]: ·
+                  - generic [ref=e1555]:
+                    - text: 阿司匹林和咖啡因
+                    - generic [ref=e1556]: (镇痛组合药)
+                    - generic [ref=e1557]: — 肾功能不全禁忌
+                - generic [ref=e1558]:
+                  - generic [ref=e1559]: ·
+                  - generic [ref=e1560]:
+                    - text: 阿司匹林、卡立普多和可待因
+                    - generic [ref=e1561]: (骨骼肌松弛组合药)
+                    - generic [ref=e1562]: — 肾功能不全禁忌
+                - generic [ref=e1563]:
+                  - generic [ref=e1564]: ·
+                  - generic [ref=e1565]:
+                    - text: 阿司匹林和咖啡因片
+                    - generic [ref=e1566]: (镇痛组合药)
+                    - generic [ref=e1567]: — 肾功能不全禁忌
+                - generic [ref=e1568]:
+                  - generic [ref=e1569]: ·
+                  - generic [ref=e1570]:
+                    - text: 阿司匹林和咖啡因粉
+                    - generic [ref=e1571]: (镇痛组合药)
+                    - generic [ref=e1572]: — 肾功能不全禁忌
+                - generic [ref=e1573]:
+                  - generic [ref=e1574]: ·
+                  - generic [ref=e1575]:
+                    - text: 塞来昔布和曲马多
+                    - generic [ref=e1576]: (麻醉镇痛组合药)
+                    - generic [ref=e1577]: — 肾功能不全禁忌
+                - generic [ref=e1578]:
+                  - generic [ref=e1579]: ·
+                  - generic [ref=e1580]:
+                    - text: 水杨酸镁
+                    - generic [ref=e1581]: (水杨酸类)
+                    - generic [ref=e1582]: — 肾功能不全禁忌
+                - generic [ref=e1583]:
+                  - generic [ref=e1584]: ·
+                  - generic [ref=e1585]:
+                    - text: 水杨酸镁
+                    - generic [ref=e1586]: (水杨酸类)
+                    - generic [ref=e1587]: — 肾功能不全禁忌
+                - generic [ref=e1588]:
+                  - generic [ref=e1589]: ·
+                  - generic [ref=e1590]:
+                    - text: 哌替啶（口服途径）
+                    - generic [ref=e1591]: (阿片类(麻醉镇痛药))
+                    - generic [ref=e1592]: — 肾功能不全禁忌
+                - generic [ref=e1593]:
+                  - generic [ref=e1594]: ·
+                  - generic [ref=e1595]:
+                    - text: 塞来昔布和盐酸曲马多
+                    - generic [ref=e1596]: (麻醉镇痛组合药)
+                    - generic [ref=e1597]: — 肾功能不全禁忌
+                - generic [ref=e1598]:
+                  - generic [ref=e1599]: ·
+                  - generic [ref=e1600]:
+                    - text: 利奈唑胺（口服/注射）
+                    - generic [ref=e1601]: (恶唑烷酮类抗生素)
+                    - generic [ref=e1602]: "— 绝对禁忌: 未控制 高血压, 嗜铬细胞瘤, 或 甲状腺毒症"
+                - generic [ref=e1603]:
+                  - generic [ref=e1604]: ·
+                  - generic [ref=e1605]:
+                    - text: 阿维A
+                    - generic [ref=e1606]: (抗牛皮癣药)
+                    - generic [ref=e1607]: — 肾功能不全禁忌
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]: ·
+                  - generic [ref=e1610]:
+                    - text: 甲氨蝶呤（注射剂）
+                    - generic [ref=e1611]: (抗代谢药, 抗牛皮癣药, 抗风湿药, 其他免疫抑制剂)
+                    - generic [ref=e1612]: — 肾功能不全禁忌
+                - generic [ref=e1613]:
+                  - generic [ref=e1614]: ·
+                  - generic [ref=e1615]:
+                    - text: 甲氨蝶呤（注射途径、皮下途径）
+                    - generic [ref=e1616]: ()
+                    - generic [ref=e1617]: — 肾功能不全禁忌
+                - generic [ref=e1618]:
+                  - generic [ref=e1619]: ·
+                  - generic [ref=e1620]:
+                    - text: 金诺芬
+                    - generic [ref=e1621]: (抗风湿药)
+                    - generic [ref=e1622]: — 肾功能不全禁忌
+                - generic [ref=e1623]:
+                  - generic [ref=e1624]: ·
+                  - generic [ref=e1625]:
+                    - text: 青霉胺
+                    - generic [ref=e1626]: (抗风湿药)
+                    - generic [ref=e1627]: — 肾功能不全禁忌
+                - generic [ref=e1628]:
+                  - generic [ref=e1629]: ·
+                  - generic [ref=e1630]:
+                    - text: 氨磺必利
+                    - generic [ref=e1631]: (非典型抗精神病药, 其他止吐药)
+                    - generic [ref=e1632]: — 肾功能不全禁忌
+                - generic [ref=e1633]:
+                  - generic [ref=e1634]: ·
+                  - generic [ref=e1635]:
+                    - text: 阿替普酶
+                    - generic [ref=e1636]: (溶栓药)
+                    - generic [ref=e1637]: "— 绝对禁忌: 重度 未控制 高血压 (BP >185/110 mmHg)"
+                - generic [ref=e1638]:
+                  - generic [ref=e1639]: ·
+                  - generic [ref=e1640]:
+                    - text: 乌洛托品
+                    - generic [ref=e1641]: (泌尿抗感染药)
+                    - generic [ref=e1642]: — 肾功能不全禁忌
+                - generic [ref=e1643]:
+                  - generic [ref=e1644]: ·
+                  - generic [ref=e1645]:
+                    - text: 天仙子胺、乌洛托品、亚甲蓝、水杨酸苯酯、磷酸二氢钠
+                    - generic [ref=e1646]: (泌尿解痉药)
+                    - generic [ref=e1647]: — 肾功能不全禁忌
+                - generic [ref=e1648]:
+                  - generic [ref=e1649]: ·
+                  - generic [ref=e1650]:
+                    - text: 呋喃妥因（口服）
+                    - generic [ref=e1651]: (泌尿抗感染药)
+                    - generic [ref=e1652]: — 肾功能不全禁忌
+                - generic [ref=e1653]:
+                  - generic [ref=e1654]: ·
+                  - generic [ref=e1655]:
+                    - text: 乌洛托品、水杨酸苯酯、亚甲蓝、苯甲酸、天仙子胺
+                    - generic [ref=e1656]: (泌尿解痉药)
+                    - generic [ref=e1657]: — 肾功能不全禁忌
+                - generic [ref=e1658]:
+                  - generic [ref=e1659]: ·
+                  - generic [ref=e1660]:
+                    - text: 天仙子胺、乌洛托品、亚甲蓝、水杨酸苯酯、磷酸氢二钠
+                    - generic [ref=e1661]: (泌尿解痉药)
+                    - generic [ref=e1662]: — 肾功能不全禁忌
+                - generic [ref=e1663]:
+                  - generic [ref=e1664]: ·
+                  - generic [ref=e1665]:
+                    - text: 乌洛托品、磷酸一钠、水杨酸苯酯、甲基蓝、天仙子胺
+                    - generic [ref=e1666]: (泌尿解痉药)
+                    - generic [ref=e1667]: — 肾功能不全禁忌
+                - generic [ref=e1668]:
+                  - generic [ref=e1669]: ·
+                  - generic [ref=e1670]:
+                    - text: 天仙子胺、乌洛托品、亚甲蓝和磷酸氢二钠
+                    - generic [ref=e1671]: (泌尿解痉药)
+                    - generic [ref=e1672]: — 肾功能不全禁忌
+                - generic [ref=e1673]:
+                  - generic [ref=e1674]: ·
+                  - generic [ref=e1675]:
+                    - text: 乙酰异羟肟酸
+                    - generic [ref=e1676]: (其他泌尿生殖道药)
+                    - generic [ref=e1677]: — 肾功能不全禁忌
+                - generic [ref=e1678]:
+                  - generic [ref=e1679]: ·
+                  - generic [ref=e1680]:
+                    - text: 天仙子胺、乌洛托品、亚甲蓝、水杨酸苯酯和磷酸钠（口服途径）
+                    - generic [ref=e1681]: (泌尿解痉药)
+                    - generic [ref=e1682]: — 肾功能不全禁忌
+                - generic [ref=e1683]:
+                  - generic [ref=e1684]: ·
+                  - generic [ref=e1685]:
+                    - text: 阿托品、天仙胺、乌洛托品、亚甲蓝、水杨酸苯酯和苯甲酸（口服途径）
+                    - generic [ref=e1686]: (泌尿解痉药)
+                    - generic [ref=e1687]: — 肾功能不全禁忌
+                - generic [ref=e1688]:
+                  - generic [ref=e1689]: ·
+                  - generic [ref=e1690]:
+                    - text: 乌洛托品、无水磷酸二氢钠、水杨酸苯酯、亚甲蓝和硫酸天仙子胺
+                    - generic [ref=e1691]: (泌尿解痉药)
+                    - generic [ref=e1692]: — 肾功能不全禁忌
+                - generic [ref=e1693]:
+                  - generic [ref=e1694]: ·
+                  - generic [ref=e1695]:
+                    - text: 乌洛托品、磷酸二氢钠、一水合物、水杨酸苯酯、亚甲蓝和硫酸天仙子胺
+                    - generic [ref=e1696]: (泌尿解痉药)
+                    - generic [ref=e1697]: — 肾功能不全禁忌
+                - generic [ref=e1698]:
+                  - generic [ref=e1699]: ·
+                  - generic [ref=e1700]:
+                    - text: 苯甲曲嗪
+                    - generic [ref=e1701]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e1702]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e1703]:
+                  - generic [ref=e1704]: ·
+                  - generic [ref=e1705]:
+                    - text: 二乙丙酸
+                    - generic [ref=e1706]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e1707]: "— 绝对禁忌: pulmonary 高血压"
+                - generic [ref=e1708]:
+                  - generic [ref=e1709]: ·
+                  - generic [ref=e1710]:
+                    - text: 芬特明和托吡酯
+                    - generic [ref=e1711]: (食欲抑制剂)
+                    - generic [ref=e1712]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e1713]:
+                  - generic [ref=e1714]: ·
+                  - generic [ref=e1715]:
+                    - text: 苯二甲嗪（口服）
+                    - generic [ref=e1716]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e1717]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e1718]:
+                  - generic [ref=e1719]: ·
+                  - generic [ref=e1720]:
+                    - text: 芬特明（口服途径）
+                    - generic [ref=e1721]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e1722]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e1723]:
+                  - generic [ref=e1724]: ·
+                  - generic [ref=e1725]:
+                    - text: 苯丙胺
+                    - generic [ref=e1726]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e1727]: "— 绝对禁忌: 中度至重度高血压"
+                - generic [ref=e1728]:
+                  - generic [ref=e1729]: ·
+                  - generic [ref=e1730]:
+                    - text: 芬氟拉明
+                    - generic [ref=e1731]: (食欲抑制剂, 中枢兴奋药, 其他抗惊厥药)
+                    - generic [ref=e1732]: "— 绝对禁忌: 肺动脉高压"
+                - generic [ref=e1733]:
+                  - generic [ref=e1734]: ·
+                  - generic [ref=e1735]:
+                    - text: 酒石酸苯二甲嗪
+                    - generic [ref=e1736]: (食欲抑制剂, 中枢兴奋药)
+                    - generic [ref=e1737]: "— 绝对禁忌: 中度至重度高血压"
+            - generic [ref=e1738]:
+              - generic [ref=e1739]:
+                - generic [ref=e1740]:
+                  - img [ref=e1741]
+                  - generic [ref=e1743]: 候选药物筛选
+                - generic [ref=e1744]:
+                  - generic [ref=e1745]:
+                    - generic [ref=e1746]: "1815"
+                    - generic [ref=e1747]: 总候选
+                  - generic [ref=e1748]:
+                    - generic [ref=e1749]: "276"
+                    - generic [ref=e1750]: 已排除
+                  - generic [ref=e1751]:
+                    - generic [ref=e1752]: "1539"
+                    - generic [ref=e1753]: 安全候选
+              - generic [ref=e1754]:
+                - generic [ref=e1755]:
+                  - img [ref=e1756]
+                  - generic [ref=e1759]: 本次查询隐私预算
+                - generic [ref=e1760]:
+                  - generic [ref=e1761]:
+                    - generic [ref=e1762]: ε 已消耗
+                    - generic [ref=e1763]: 8.7861 / 10.0
+                  - generic [ref=e1766]:
+                    - generic [ref=e1767]: "查询 #2"
+                    - generic [ref=e1768]: 剩余 12.1%
+  - contentinfo [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - img [ref=e20]
+        - generic [ref=e22]: 智医荐药差分隐私保护的智能用药推荐系统
+      - paragraph [ref=e23]: 基于差分隐私的 AI 个性化医疗用药推荐系统 · 保护隐私 · 精准推荐

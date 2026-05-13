@@ -1,0 +1,268 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e144] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e145]: 新对话
+          - button [ref=e146]:
+            - img [ref=e150]
+        - link "HIV药物禁忌症生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e98]: HIV药物禁忌症生成
+      - generic [ref=e99]:
+        - generic [ref=e100]: 昨天
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e104]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e108]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e110]: 药物适应症列表生成
+      - generic [ref=e111]:
+        - generic [ref=e112]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e114]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e116]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e118]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e120]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e122]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e124]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e126]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e128]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e130]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e132]
+      - generic [ref=e135]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e154]:
+      - generic [ref=e156]:
+        - generic [ref=e157] [cursor=pointer]: 新对话
+        - generic [ref=e158]:
+          - img [ref=e160]
+          - generic [ref=e162]: 专家模式
+      - button [ref=e163] [cursor=pointer]:
+        - img [ref=e166]
+    - generic [ref=e169]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e174]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: tenofovir disoproxil | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: B lopinavir and ritonavir | 类别: Protease inhibitors | 适应症: hiv infection | 妊娠分级: C etravirine | 类别: NNRTIs | 适应症: hiv infection | 妊娠分级: B abacavir | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection | 妊娠分级: C emtricitabine and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B cobicistat and darunavir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C lamivudine and zidovudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C zidovudine (oral/injection) | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|prevention of mother-to-child transmission of hiv | 妊娠分级: C emtricitabine | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B dolutegravir and rilpivirine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N cobicistat, darunavir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N abacavir, lamivudine, and zidovudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C lamivudine and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: N doravirine, lamivudine, and tenofovir disoproxil fumarate | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N efavirenz, lamivudine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N atazanavir and cobicistat | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B doravirine | 类别: NNRTIs | 适应症: hiv infection | 妊娠分级: N cobicistat | 类别: Antiviral boosters | 适应症: pharmacokinetic booster | 妊娠分级: B ibalizumab | 类别: Miscellaneous antivirals | 适应症: multidrug-resistant hiv infection | 妊娠分级: N immune globulin (IGIV) (intravenous) | 类别: Immune globulins | 适应症: primary immunodeficiency|immune thrombocytopenic purpura|kawasaki disease|chronic lymphocytic leukemia|multifocal motor neuropathy|chronic inflammatory demyelinating polyneuropathy | 妊娠分级: C fostemsavir (extended-release tablets) | 类别: Miscellaneous antivirals | 适应症: heavily treatment-experienced hiv infection | 妊娠分级: N lamivudine and tenofovir (oral route) | 类别: Antiviral combinations | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: N ibalizumab-uiyk | 类别: Miscellaneous antivirals | 适应症: multidrug-resistant hiv infection | 妊娠分级: N emtricitabine, lopinavir, ritonavir, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C emtricitabine, nelfinavir, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B cabotegravir | 类别: Integrase strand transfer inhibitor | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: N doravirine, lamivudine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N fostemsavir | 类别: Miscellaneous antivirals | 适应症: heavily treatment-experienced hiv infection | 妊娠分级: N doxylamine | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|nausea and vomiting of pregnancy | 妊娠分级: B corticotropin | 类别: Corticotropin | 适应症: infantile spasms|multiple sclerosis|rheumatic disorders|acute exacerbation of multiple sclerosis | 妊娠分级: C dexbrompheniramine | 类别: Antihistamines | 适应症: allergic rhinitis|urticaria|common cold symptoms | 妊娠分级: C dexbrompheniramine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|allergic rhinitis|sinus congestion | 妊娠分级: C doxylamine succinate | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|nausea and vomiting of pregnancy | 妊娠分级: B donepezil (oral) | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: C etanercept | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriatic arthritis|ankylosing spondylitis|plaque psoriasis|juvenile idiopathic arthritis|chronic moderate to severe plaque psoriasis in pediatric patients | 妊娠分级: B rivastigmine (oral) | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: B galantamine | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: C donepezil and memantine | 类别: Cholinesterase inhibitors | 适应症: moderate to severe alzheimer's disease | 妊娠分级: C vitamin E (VYE ta min E), tocopherol alpha Brand names: Aqua-E, Aquasol E , Aquavite-E, Aqueous Vitamin E, E-400 Clear | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C vitamin e (oral route) | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C aducanumab-avwa | 类别: Miscellaneous central nervous system agents | 适应症: alzheimer disease (mild cognitive impairment or mild dementia stage) | 妊娠分级: N Vitamin E Capsules and Tablets | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C aducanumab | 类别: Miscellaneous central nervous system agents | 适应症: alzheimer's disease | 妊娠分级: N aspirin (oral) | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events|prevention of stroke|rheumatic fever | 妊娠分级: N nitroglycerin (oral/sublingual) | 类别: Antianginal agents, Vasodilators | 适应症: angina pectoris | 妊娠分级: C ranolazine | 类别: Antianginal agents | 适应症: chronic angina | 妊娠分级: C nitroglycerin (sublingual) | 类别: Antianginal agents, Vasodilators | 适应症: acute angina pectoris | 妊娠分级: C metoprolol (oral route) | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure|myocardial infarction | 妊娠分级: C aspirin (oral route) | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events|prevention of stroke | 妊娠分级: N metoprolol succinate tablet, extended release | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e177]:
+            - button [ref=e178] [cursor=pointer]:
+              - img [ref=e181]
+            - button [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+        - generic [ref=e190]:
+          - generic [ref=e192] [cursor=pointer]:
+            - img [ref=e194]
+            - generic [ref=e197]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e199]
+          - generic [ref=e205]:
+            - paragraph [ref=e206]: 我们被要求以临床药学专家的身份，为给定的药物列表生成完整的禁忌症列表。输出为JSON格式。需要包括绝对禁忌症和相对禁忌症，类型分为disease、allergy_type、physiological_condition、drug_class，严重程度absolute或relative。注意对于组合药物，列出每个成分的禁忌症。注意妊娠分级在提示中给出，可以用来推断。需要基于已知的临床知识。我要为每个药物生成contraindications。需要生成一个JSON数组。
+            - paragraph [ref=e207]: 注意：有些药物名称有重复，如lamivudine and tenofovir 和 lamivudine and tenofovir (oral route)，视为同一药物。还有cobicistat, darunavir, emtricitabine, and tenofovir组合等。注意要具体且临床相关。我需要仔细为每个药物列出。
+            - paragraph [ref=e208]: 首先列出清单：
+            - list [ref=e209]:
+              - listitem [ref=e210]:
+                - paragraph [ref=e211]: tenofovir disoproxil
+              - listitem [ref=e212]:
+                - paragraph [ref=e213]: lopinavir and ritonavir
+              - listitem [ref=e214]:
+                - paragraph [ref=e215]: etravirine
+              - listitem [ref=e216]:
+                - paragraph [ref=e217]: abacavir
+              - listitem [ref=e249]:
+                - paragraph [ref=e250]: emtricitabine and tenofovir
+              - listitem [ref=e251]:
+                - paragraph [ref=e252]: cobicistat and darunavir
+              - listitem [ref=e253]:
+                - paragraph [ref=e254]: lamivudine and zidovudine
+              - listitem [ref=e255]:
+                - paragraph [ref=e256]: zidovudine (oral/injection)
+              - listitem [ref=e257]:
+                - paragraph [ref=e258]: emtricitabine
+              - listitem [ref=e259]:
+                - paragraph [ref=e260]: dolutegravir and rilpivirine
+              - listitem [ref=e261]:
+                - paragraph [ref=e262]: cobicistat, darunavir, emtricitabine, and tenofovir
+              - listitem [ref=e263]:
+                - paragraph [ref=e264]: abacavir, lamivudine, and zidovudine
+              - listitem [ref=e265]:
+                - paragraph [ref=e266]: lamivudine and tenofovir
+              - listitem [ref=e267]:
+                - paragraph [ref=e268]: doravirine, lamivudine, and tenofovir disoproxil fumarate
+              - listitem [ref=e269]:
+                - paragraph [ref=e270]: efavirenz, lamivudine, and tenofovir
+              - listitem [ref=e271]:
+                - paragraph [ref=e272]: atazanavir and cobicistat
+              - listitem [ref=e273]:
+                - paragraph [ref=e274]: doravirine
+              - listitem [ref=e275]:
+                - paragraph [ref=e276]: cobicistat
+              - listitem [ref=e277]:
+                - paragraph [ref=e278]: ibalizumab
+              - listitem [ref=e279]:
+                - paragraph [ref=e280]: immune globulin (IGIV) (intravenous)
+              - listitem [ref=e281]:
+                - paragraph [ref=e282]: fostemsavir (extended-release tablets)
+              - listitem [ref=e283]:
+                - paragraph [ref=e284]: lamivudine and tenofovir (oral route) (same as 13)
+              - listitem [ref=e285]:
+                - paragraph [ref=e286]: ibalizumab-uiyk (same as 19)
+              - listitem [ref=e287]:
+                - paragraph [ref=e288]: emtricitabine, lopinavir, ritonavir, and tenofovir
+              - listitem [ref=e289]:
+                - paragraph [ref=e290]: emtricitabine, nelfinavir, and tenofovir
+              - listitem [ref=e291]:
+                - paragraph [ref=e292]: cabotegravir
+              - listitem [ref=e293]:
+                - paragraph [ref=e294]: doravirine, lamivudine, and tenofovir (similar to 14, but without fumarate specified, but same active)
+              - listitem [ref=e295]:
+                - paragraph [ref=e296]: fostemsavir (same as 21)
+              - listitem [ref=e297]:
+                - paragraph [ref=e298]: doxylamine
+              - listitem [ref=e299]:
+                - paragraph [ref=e300]: corticotropin
+              - listitem [ref=e301]:
+                - paragraph [ref=e302]: dexbrompheniramine
+              - listitem [ref=e303]:
+                - paragraph [ref=e304]: dexbrompheniramine and phenylephrine
+              - listitem [ref=e305]:
+                - paragraph [ref=e306]: doxylamine succinate (same as 29)
+              - listitem [ref=e307]:
+                - paragraph [ref=e308]: donepezil (oral)
+              - listitem [ref=e309]:
+                - paragraph [ref=e310]: etanercept
+              - listitem [ref=e311]:
+                - paragraph [ref=e312]: rivastigmine (oral)
+              - listitem [ref=e313]:
+                - paragraph [ref=e314]: galantamine
+              - listitem [ref=e315]:
+                - paragraph [ref=e316]: donepezil and memantine
+              - listitem [ref=e317]:
+                - paragraph [ref=e318]: vitamin E (tocopherol alpha) (various brands)
+              - listitem [ref=e319]:
+                - paragraph [ref=e320]: vitamin e (oral route)
+              - listitem [ref=e321]:
+                - paragraph [ref=e322]: aducanumab-avwa
+              - listitem [ref=e323]:
+                - paragraph [ref=e324]: Vitamin E Capsules and Tablets (same)
+              - listitem [ref=e325]:
+                - paragraph [ref=e326]: aducanumab
+              - listitem [ref=e327]:
+                - paragraph [ref=e328]: aspirin (oral)
+              - listitem [ref=e329]:
+                - paragraph [ref=e330]: nitroglycerin (oral/sublingual)
+              - listitem [ref=e331]:
+                - paragraph [ref=e332]: ranolazine
+              - listitem [ref=e333]:
+                - paragraph [ref=e334]: nitroglycerin (sublingual)
+              - listitem [ref=e335]:
+                - paragraph [ref=e336]: metoprolol (oral route)
+              - listitem [ref=e337]:
+                - paragraph [ref=e338]: aspirin (oral route) (same as 44)
+              - listitem [ref=e339]:
+                - paragraph [ref=e340]: metoprolol succinate tablet, extended release
+            - paragraph [ref=e341]: 对于重复的药物，比如tenofovir disoproxil单独出现，在组合中出现，仍需为每个generic_name生成禁忌症。但组合药物列出每个成分的禁忌症，那么我可以结合成分的禁忌症。对于维生素E、阿司匹林等有多个条目但基本一样，可生成相同禁忌症。对于doxylamine和doxylamine succinate一样。对于nitroglycerin sublingual和oral/sublingual，一样。对于corticotropin，需要注意。对于etanercept等。
+            - paragraph [ref=e342]: 我需要生成准确、有临床依据的禁忌症。尽量不遗漏重要禁忌症。例如：
+            - list [ref=e343]:
+              - listitem [ref=e344]:
+                - paragraph [ref=e345]: "tenofovir disoproxil: 肾功能不全（eGFR < 某值）相对禁忌？其说明书：禁用于之前对替诺福韦过敏者。疾病：严重肾功能损害需调整剂量，但不是绝对禁忌？替诺福韦可能导致肾毒性，在eGFR < 50 mL/min时不推荐使用替诺福韦地索普西（富马酸替诺福韦二吡呋酯），因为需要调整剂量，但有的指南认为严重肾功能不全为相对禁忌，因为可能加重肾损伤。妊娠：B级，不是禁忌。说明书禁忌：已知对替诺福韦或任何辅料过敏。绝对。需要查实。最常见：替诺福韦地索普西禁用于严重肾功能不全（肌酐清除率 < 60 或 50？），其实富马酸替诺福韦二吡呋酯 300mg每日一次，在CrCl < 50 mL/min不推荐使用，因为研究不充分且肾毒性。所以严重肾损伤可作为相对禁忌或绝对？通常作为警告，可能需要减量或换用丙酚替诺福韦。我会将其列为相对禁忌：severe renal impairment (CrCl < 50 mL/min)，因为肾毒性风险增大。绝对禁忌：hypersensitivity to tenofovir or any component。"
+              - listitem [ref=e346]:
+                - paragraph [ref=e347]: "lopinavir and ritonavir：禁忌症：对洛匹那韦、利托那韦或任何辅料过敏。严重肝病(失代偿肝硬化) 绝对禁忌？洛匹那韦/利托那韦在严重肝损伤禁用。药物相互作用禁忌：与主要依赖CYP3A代谢且血药浓度升高导致严重和/或危及生命事件（如胺碘酮、奎尼丁、匹莫齐特、咪达唑仑、三唑仑、西沙必利、麦角衍生物、辛伐他汀、洛伐他汀等）禁止合用。与强CYP3A诱导剂如利福平、圣约翰草合并禁用，因可能导致抗病毒失败和耐药。与氟替卡松合用可能降低皮质醇浓度？其实与吸入或鼻用氟替卡松联用会导致库欣综合征，但不一定是绝对禁忌，但有些说明书列为禁忌。需要列几个关键。drug_class: CYP3A substrates with narrow therapeutic index, strong CYP3A inducers. 绝对禁忌。"
+              - listitem [ref=e348]:
+                - paragraph [ref=e349]: etravirine：禁忌症：对依曲韦林或任何辅料过敏。药物相互作用：禁止与强CYP3A诱导剂如卡马西平、苯妥英、苯巴比妥、利福平、利福喷丁等合用，会显著降低依曲韦林血药浓度导致病毒学失败。与仅依赖CYP3A消除的药物合用可能需调整。与其他抗逆转录病毒药如未增强蛋白酶抑制剂相关的相互作用。禁忌绝对：hypersensitivity；绝对：coadministration with strong CYP3A inducers that significantly reduce etravirine exposure. 许多国家说明书禁止与替拉那韦/利托那韦、福沙那韦等？不太确定，但一般NNRTI间可能交叉耐药。相对禁忌严重肝损伤？轻中度肝损伤不需调整，重度缺乏数据。妊娠B级。
+              - listitem [ref=e350]:
+                - paragraph [ref=e351]: abacavir：绝对禁忌症：HLA-B*5701等位基因阳性(超敏反应风险)。超敏反应史。对阿巴卡韦过敏。严重肝损伤(Child-Pugh > 6的严重)相对禁忌？阿巴卡韦主要通过醇脱氢酶代谢，轻中度肝损伤可使用，严重肝损伤不推荐。所以相对禁忌severe hepatic impairment。与酒精使用会增加阿巴卡韦水平？没有绝对禁忌。
+              - listitem [ref=e352]:
+                - paragraph [ref=e353]: emtricitabine and tenofovir（恩曲他滨替诺福韦）：组合。禁忌包括成分禁忌：恩曲他滨过敏，替诺福韦过敏。替诺福韦禁忌严重肾功能不全。恩曲他滨也要根据肾功能调整剂量，严重肾损伤禁用。恩曲他滨禁用于已知对恩曲他滨过敏。相对禁忌：CrCl < 50 mL/min（替诺福韦），或 < 30 mL/min（恩曲他滨）？恩曲他滨在CrCl < 30 mL/min不推荐。组合恩曲他滨替诺福韦（特鲁瓦达）禁用CrCl < 50 mL/min（因为替诺福韦）。绝对禁忌：hypersensitivity to any component。相对禁忌：severe renal impairment (CrCl < 50 mL/min). 恩曲他滨哺乳期？妊娠B。
+              - listitem [ref=e354]:
+                - paragraph [ref=e355]: cobicistat and darunavir：组合，包含达芦那韦和考比司他。禁忌：对任何成分过敏。严重肝损伤（失代偿）禁用（达芦那韦+考比司他）。药物相互作用：考比司他是强CYP3A抑制剂和CYP2D6底物，禁止与高度依赖CYP3A代谢且浓度升高导致严重风险（如阿普唑仑、三唑仑、咪达唑仑、赛迪那非、西沙必利、匹莫齐特、麦角衍生物、辛伐他汀、洛伐他汀等）合用。与强CYP3A诱导剂（利福平、卡马西平、苯妥英、圣约翰草）禁用，因可能减低达芦那韦/考比司他和水平导致耐药。绝对禁忌：与阿夫唑秦合用？阿夫唑秦也是CYP3A底物会升高。很多。我将列出关键的：CYP3A substrates that are highly dependent, strong CYP3A inducers. 绝对。妊娠C，相对禁忌妊娠？可能权衡利弊。
+              - listitem [ref=e356]:
+                - paragraph [ref=e357]: lamivudine and zidovudine（拉米夫定齐多夫定）：成分禁忌：拉米夫定过敏，齐多夫定过敏。齐多夫定禁忌于严重骨髓抑制（中性粒细胞 < 0.75x10^9/L，血红蛋白 < 7.5 g/dL）。肝功能？拉米夫定在严重肝功能不全慎用？齐多夫定肝毒性。拉米夫定主要经肾排出，肾功能不全需调整剂量，严重肾损伤禁忌？拉米夫定在CrCl < 50 mL/min需减量，CrCl < 5 mL/min不推荐。所以相对禁忌severe renal impairment (CrCl < 30 mL/min for lamivudine). 齐多夫定：严重骨髓抑制相对禁忌可能。绝对禁忌：hypersensitivity. 相对禁忌：severe bone marrow suppression, severe renal impairment.
+              - listitem [ref=e358]:
+                - paragraph [ref=e359]: zidovudine单独：过敏绝对。严重骨髓抑制相对禁忌，但通常列为警告，可能需停药。严重肝损伤相对。肌病？绝对禁忌症不多。可以列：已知过敏（绝对），严重中性粒细胞减少（<0.75x10^9/L）和严重贫血（Hb<7.5g/dL）为相对禁忌（需要密切监测）。妊娠C。
+              - listitem [ref=e360]:
+                - paragraph [ref=e361]: emtricitabine单独：过敏绝对。严重肾功能损伤（CrCl < 30 mL/min）需禁用（胶囊200mg，口服溶液可能需要调整），这是禁忌症。所以绝对：hypersensitivity to emtricitabine. 相对或绝对：end-stage renal disease requiring dialysis not using appropriate dose adjustment? 通常不推荐使用。说明书：恩曲他滨禁用于先前过敏者。未提肾功能不全为禁忌但需调整剂量。然而，有些剂型在CrCl < 30 mL/min禁用。我会列为相对禁忌：severe renal impairment (CrCl < 30 mL/min) without dose adjustment. 绝对：已知过敏。
+              - listitem [ref=e362]:
+                - paragraph [ref=e363]: dolutegravir and rilpivirine：成分：多替拉韦和利匹韦林。多替拉韦过敏绝对。利匹韦林过敏绝对。禁忌：多替拉韦与多非利特合用绝对禁忌（通过肾小管转运体）。强CYP3A诱导剂？利匹韦林禁忌与强CYP3A诱导剂（卡马西平、苯妥英、利福平、圣约翰草等）合用，因为降低利匹韦林血药浓度。质子泵抑制剂？利匹韦林需酸性环境，与质子泵抑制剂合用是禁忌（美国家说明书：禁忌）。多替拉韦与某些抗惊厥药如奥卡西平、苯妥英、卡马西平可能降低多替拉韦？但多替拉韦与强诱导剂合用可导致浓度降低，但不一定是绝对禁忌。但组合里包含利匹韦林，其依赖酸性环境，所以禁忌PPIs、H2受体拮抗剂需要注意，H2受体拮抗剂不是绝对禁忌但需时间隔开。绝对禁忌：与质子泵抑制剂合用（利匹韦林），与多非利特合用（多替拉韦）。绝对：对任何成分过敏。相对禁忌：严重肝功能障碍（Child-Pugh C）？多替拉韦和利匹韦林对严重肝损伤数据不足，可能相对。妊娠N。
+              - listitem [ref=e364]:
+                - paragraph [ref=e365]: "cobicistat, darunavir, emtricitabine, and tenofovir：所有成分的禁忌症综合。绝对：过敏。绝对：与高度依赖CYP3A的底物和强CYP3A诱导剂合用（考比司他、达芦那韦）。恩曲他滨替诺福韦的肾禁忌：CrCl < 50 mL/min 不推荐（因为替诺福韦）。因此，绝对：hypersensitivity; 药物相互作用：CYP3A narrow therapeutic index substrates, strong CYP3A inducers. 相对：severe renal impairment (CrCl < 50 mL/min). 此外，达芦那韦含磺胺基，磺胺过敏是否绝对禁忌？达芦那韦含磺酰胺结构，对磺胺过敏者慎用，非绝对禁忌，但可能交叉过敏。可列为relative: sulfonamide allergy (达芦那韦)。"
+              - listitem [ref=e366]:
+                - paragraph [ref=e367]: "abacavir, lamivudine, and zidovudine: 成分禁忌。绝对：HLA-B*5701阳性（阿巴卡韦）。对任何成分过敏。相对：齐多夫定的严重骨髓抑制，拉米夫定的严重肾损伤，齐多夫定的肝损伤等。绝对：HLA-B*5701 positive (abacavir). 绝对过敏。药物相互作用：阿巴卡韦、拉米夫定、齐多夫定无重大禁忌，但齐多夫定避免与司他夫定合用（拮抗）。可以加入：avoid concomitant stavudine (relative). 绝对禁忌：hypersensitivity, HLA-B*5701 allele."
+              - listitem [ref=e368]:
+                - paragraph [ref=e369]: "lamivudine and tenofovir: 拉米夫定和替诺福韦。过敏绝对。替诺福韦严重肾功能不全禁忌，拉米夫定严重肾损伤需减量。组合要求CrCl > 50 mL/min (替诺福韦)。所以相对禁忌：severe renal impairment (CrCl < 50 mL/min)。绝对过敏。无其他明确绝对禁忌。禁忌与其他含有拉米夫定或替诺福韦的药物合用（重复）。相对。"
+              - listitem [ref=e370]:
+                - paragraph [ref=e371]: "doravirine, lamivudine, and tenofovir disoproxil fumarate: 多拉韦林+3TC+TDF。禁忌：过敏绝对。多拉韦林禁忌与强CYP3A诱导剂：卡马西平、苯妥英、利福平、圣约翰草等合用（降低多拉韦林浓度）。替诺福韦严重肾损伤相对禁忌。绝对：hypersensitivity, coadministration with strong CYP3A inducers (如rifampicin, carbamazepine)。相对：severe renal impairment (CrCl < 50 mL/min)。"
+              - listitem [ref=e372]:
+                - paragraph [ref=e373]: "efavirenz, lamivudine, and tenofovir: 依非韦伦+3TC+TDF。依非韦伦过敏绝对，依非韦伦禁忌于严重肝损伤(Child-Pugh C)？依非韦伦有肝毒性和精神病学不良反应，严重肝病禁用。药物相互作用：依非韦伦是CYP3A诱导剂，也是CYP2B6底物。禁忌与标准剂量的伏立康唑合用（双向相互作用），与麦角衍生物、咪达唑仑、三唑仑等CYP3A底物禁忌？依非韦伦可能降低激素避孕药有效性。绝对禁忌：hypersensitivity to any component, coadministration with voriconazole (standard doses), and drugs highly dependent on CYP3A for clearance which elevated levels cause serious events? 其实依非韦伦是诱导剂，会降低这些底物的浓度，所以不是禁忌底物浓度升高。但依非韦伦禁止与 elbasvir/grazoprevir 合用，与某些抗丙型肝炎病毒药物。我应加入：绝对禁忌： concomitant use with voriconazole (standard dose)可能导致缺乏疗效？但依非韦伦降低伏立康唑，伏立康唑升高依非韦伦，可能需要调整剂量，是禁忌。另外相对禁忌：first trimester pregnancy (依非韦伦可能致神经管缺陷，妊娠分级D，但此处写妊娠分级N，但实际依非韦伦旧分级D，现在认为可能风险？妊娠情况相对禁忌，育龄妇女应避免妊娠。由于提示给的妊娠分级N，但依非韦伦曾有妊娠警告，我会列为相对禁忌：pregnancy (especially first trimester), 因为神经管缺陷。还有严重肝损伤禁用，绝对。精神病病史相对。绝对：severe hepatic impairment (Child-Pugh C), hypersensitivity。相对：pregnancy, psychiatric disorders."
+              - listitem [ref=e374]:
+                - paragraph [ref=e375]: "atazanavir and cobicistat: 阿扎那韦+考比司他。禁忌：过敏绝对。药物相互作用：考比司他是CYP3A强抑制剂，禁忌与高度依赖CYP3A代谢且浓度升高导致严重不良事件的药物（西沙必利、匹莫齐特、咪达唑仑、三唑仑、麦角衍生物、辛伐他汀、洛伐他汀等）。强CYP3A诱导剂如利福平禁用。阿扎那韦需要酸性环境，与质子泵抑制剂禁忌（绝对）。H2受体拮抗剂和抗酸剂需要分开。绝对禁忌：coadministration with proton pump inhibitors (PPIs) (atazanavir); coadministration with drugs highly dependent on CYP3A with narrow therapeutic index; strong CYP3A inducers. 严重肝损伤（阿扎那韦可能间接高胆红素血症，Child-Pugh B/C禁用）绝对。所以绝对：severe hepatic impairment。相对：bilirubin相关疾病，PR间期延长（阿扎那韦可能延长PR，慎用）。心律失常。过敏绝对。"
+              - listitem [ref=e376]:
+                - paragraph [ref=e377]: "doravirine: 禁忌绝对：过敏。绝对：与强CYP3A诱导剂（卡马西平、苯妥英、利福平、圣约翰草等）合用。相对：严重肝损伤？"
+              - listitem [ref=e378]:
+                - paragraph [ref=e379]: "cobicistat: 单独使用，作为增强剂。禁忌绝对：过敏。绝对：与高度依赖CYP3A代谢且浓度升高导致严重事件的药物合用（因为它是强CYP3A抑制剂）。绝对：与强CYP3A诱导剂合用。相对：严重肝损伤（禁用，因为考比司他与肝毒性？）。通常含考比司他的方案禁用于严重肝受损。所以绝对：severe hepatic impairment。"
+              - listitem [ref=e380]:
+                - paragraph [ref=e381]: "ibalizumab: 单克隆抗体，静脉注射。禁忌症：对ibalizumab-uiyk或任何辅料严重过敏。没有其他已知绝对禁忌。可能相对：活动性感染？需谨慎。我会列为绝对：prior severe hypersensitivity to ibalizumab. 无其他疾病禁忌。"
+              - listitem [ref=e382]:
+                - paragraph [ref=e383]: "immune globulin (IGIV) (intravenous): 禁忌症：对人免疫球蛋白过敏绝对；有抗IgA抗体合并IgA缺乏患者可能过敏，绝对禁忌。严重肾功能不全的相对禁忌，因为产品含蔗糖/麦芽糖可致渗透性肾病。高凝状态、血栓栓塞风险相对。绝对：hypersensitivity to immune globulin, IgA deficiency with antibodies to IgA. 相对：severe renal impairment, pre-existing thrombotic risk factors. 妊娠C。"
+              - listitem [ref=e384]:
+                - paragraph [ref=e385]: "fostemsavir: 富马酸福司艾韦？用于多药耐药HIV。禁忌：对fostemsavir过敏绝对。与强CYP3A诱导剂（利福平、卡马西平、圣约翰草等）合用会显著降低temavir（活性代谢物）水平，导致病毒学失败，绝对禁忌。通过CYP3A代谢。所以绝对：coadministration with strong CYP3A inducers。相对：肝毒性？转氨酶升高。"
+              - listitem [ref=e386]:
+                - paragraph [ref=e387]: "emtricitabine, lopinavir, ritonavir, and tenofovir: 组合。禁忌：所有成分禁忌汇总。绝对：过敏；严重肝病（洛匹那韦/利托那韦）；药物相互作用（CYP3A底物和诱导剂，洛匹那韦强CYP3A抑制剂，利托那韦也强抑制剂）。绝对：coadministration with drugs highly dependent on CYP3A clearance, strong CYP3A inducers. 替诺福韦肾毒性，相对CrCl < 50。恩曲他滨肾排泄，相对严重肾损伤。所以绝对：hypersensitivity, severe hepatic impairment, coadministration with narrow-therapeutic index CYP3A substrates, strong CYP3A inducers. 相对：severe renal impairment."
+              - listitem [ref=e388]:
+                - paragraph [ref=e389]: emtricitabine, nelfinavir, and ten
+      - generic [ref=e218]:
+        - generic [ref=e221]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e223]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e224]:
+            - button "深度思考" [ref=e225] [cursor=pointer]:
+              - img [ref=e227]
+              - generic [ref=e230]: 深度思考
+            - button "智能搜索" [ref=e231] [cursor=pointer]:
+              - img [ref=e233]
+              - generic [ref=e235]: 智能搜索
+            - generic [ref=e236]:
+              - button [ref=e237] [cursor=pointer]:
+                - img [ref=e240]
+              - button [ref=e243] [cursor=pointer]:
+                - img [ref=e246]
+        - generic [ref=e248]: 内容由 AI 生成，请仔细甄别

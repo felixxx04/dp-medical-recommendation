@@ -1,0 +1,357 @@
+- generic:
+  - generic [ref=e2]:
+    - generic:
+      - generic [ref=e3]:
+        - img [ref=e5] [cursor=pointer]
+        - generic [ref=e8]:
+          - button [ref=e9] [cursor=pointer]:
+            - img [ref=e12]
+          - button [ref=e14] [cursor=pointer]:
+            - img [ref=e17]
+      - text: Ctrl + J
+    - generic [ref=e20]:
+      - generic [ref=e73]:
+        - generic [ref=e75]:
+          - generic [ref=e76] [cursor=pointer]: 疾病用药验证请求
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - generic [ref=e81]: 快速模式
+        - button [ref=e82] [cursor=pointer]:
+          - img [ref=e85]
+      - generic [active] [ref=e88]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e93]: 请验证以下20种疾病的用药推荐是否正确。对每种疾病，判断推荐的4种药物是否为该疾病的标准治疗药物，评分APPROPRIATE(完全正确)/PARTIALLY(部分正确)/INAPPROPRIATE(不正确)，并简要说明理由。
+            - generic [ref=e96]:
+              - button [ref=e97] [cursor=pointer]:
+                - img [ref=e100]
+              - button [ref=e102] [cursor=pointer]:
+                - img [ref=e105]
+          - generic [ref=e107]:
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: 由于您未在消息中附上具体的“20种疾病”及其“推荐的4种药物”列表，我无法直接进行验证。
+              - paragraph [ref=e111]:
+                - strong [ref=e112]: 请补充以下信息：
+              - list [ref=e113]:
+                - listitem [ref=e114]:
+                  - paragraph [ref=e115]: 20种疾病的名称
+                - listitem [ref=e116]:
+                  - paragraph [ref=e117]: 每种疾病对应的4种推荐药物
+              - paragraph [ref=e118]: 收到后，我会严格按照以下标准逐条判断并给出理由：
+              - list [ref=e119]:
+                - listitem [ref=e120]:
+                  - paragraph [ref=e121]:
+                    - strong [ref=e122]: APPROPRIATE
+                    - text: ：4种药物均为该疾病公认的一线/标准治疗药物（基于主流指南，如中国指南、NICE、UpToDate、WHO EML等）。
+                - listitem [ref=e123]:
+                  - paragraph [ref=e124]:
+                    - strong [ref=e125]: PARTIALLY
+                    - text: ：部分药物为标准治疗，部分为二线/不常用/不推荐，或存在明显遗漏/错误。
+                - listitem [ref=e126]:
+                  - paragraph [ref=e127]:
+                    - strong [ref=e128]: INAPPROPRIATE
+                    - text: ：多数或全部药物与该疾病治疗无关，或为禁忌/已淘汰药物。
+              - paragraph [ref=e129]: 请提供列表。
+            - generic [ref=e131]:
+              - button [ref=e132] [cursor=pointer]:
+                - img [ref=e135]
+              - button [ref=e137] [cursor=pointer]:
+                - img [ref=e140]
+              - button [ref=e142] [cursor=pointer]:
+                - img [ref=e145]
+              - button [ref=e147] [cursor=pointer]:
+                - img [ref=e150]
+              - button [ref=e152] [cursor=pointer]:
+                - img [ref=e155]
+          - generic [ref=e189]:
+            - generic [ref=e191]: "1. hypertension: Amlodipine, Amlodipine-Benazepril, Amlodipine-Valsartan, Benazepril2. diabetes: Canagliflozin, Colesevelam, Empagliflozin, Glimepiride3. cluster headache: Lithium, Cyclobenzaprine, dihydroergotamine(nasal), Ergotamine+Caffeine4. constipation: Magnesium Hydroxide, Lansoprazole, Magnesium Oxide, Methylnaltrexone5. neuropathic pain: Desipramine, Diclofenac, Doxepin, Maprotiline6. hypothyroidism: Calcitriol, Cinacalcet, Liotrix, Levothyroxine7. bronchitis: Lomefloxacin, dyphylline+guaifenesin, Sulfamethoxazole, Telithromycin8. atrial fibrillation: Propranolol, Esmolol, Verapamil, Rivaroxaban9. copd: Albuterol-Ipratropium, Ipratropium, Formoterol, Fluticasone10. gout: Indomethacin, Meloxicam, Naproxen, Diclofenac11. epilepsy: Clonazepam, Lorazepam, Phenytoin, Clorazepate12. migraine: Lisinopril, Naproxen, Dicl"
+            - generic [ref=e194]:
+              - button [ref=e195] [cursor=pointer]:
+                - img [ref=e198]
+              - button [ref=e200] [cursor=pointer]:
+                - img [ref=e203]
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - paragraph [ref=e208]: 感谢提供列表。我将根据主流临床指南（如ACC/AHA、ADA、NICE、Cochrane、UpToDate、中国指南等）逐条验证。以下是前12项的结果（因消息被截断，第12项仅显示部分药物，暂不完整；第13–20项缺失，请补充）。
+                - separator [ref=e209]
+                - heading "1. Hypertension (高血压)" [level=3] [ref=e210]
+                - paragraph [ref=e211]:
+                  - strong [ref=e212]: 推荐药物
+                  - text: ：Amlodipine, Amlodipine-Benazepril, Amlodipine-Valsartan, Benazepril
+                  - strong [ref=e213]: 评分
+                  - text: ：
+                  - strong [ref=e214]: PARTIALLY
+                  - strong [ref=e215]: 理由
+                  - text: ：
+                - list [ref=e216]:
+                  - listitem [ref=e217]:
+                    - paragraph [ref=e218]: Amlodipine（氨氯地平，CCB）是一线。
+                  - listitem [ref=e219]:
+                    - paragraph [ref=e220]: Benazepril（贝那普利，ACEI）是一线。
+                  - listitem [ref=e221]:
+                    - paragraph [ref=e222]:
+                      - text: Amlodipine-Benazepril 和 Amlodipine-Valsartan 是有效的联合制剂，但固定复方并非所有人必需。主要问题是：
+                      - strong [ref=e223]: 缺少噻嗪类利尿剂/ARB（单方ARB如氯沙坦）
+                      - text: ，且该列表未包含所有主流一线类别（利尿剂、β阻滞剂在某些指南不是一线初始）。不过所列药物均正确用于高血压，故部分正确。
+                - separator [ref=e224]
+                - heading "2. Diabetes (糖尿病，推测2型)" [level=3] [ref=e225]
+                - paragraph [ref=e226]:
+                  - strong [ref=e231]: 推荐药物
+                  - text: ：Canagliflozin, Colesevelam, Empagliflozin, Glimepiride
+                  - strong [ref=e232]: 评分
+                  - text: ：
+                  - strong [ref=e233]: PARTIALLY
+                  - strong [ref=e234]: 理由
+                  - text: ：
+                - list [ref=e235]:
+                  - listitem [ref=e236]:
+                    - paragraph [ref=e237]: Canagliflozin 和 Empagliflozin (SGLT2抑制剂) 是现代标准治疗（尤其用于合并CKD/CVD）。
+                  - listitem [ref=e238]:
+                    - paragraph [ref=e239]: Glimepiride（磺脲类）是老药，仍可用但非一线首选（因低血糖风险）。
+                  - listitem [ref=e240]:
+                    - paragraph [ref=e241]:
+                      - strong [ref=e242]: Colesevelam（考来维仑）
+                      - text: ：FDA批准用于2型糖尿病，但降糖效果弱，极少作为常规治疗，且不在多数主要指南的一线/二线核心推荐中。因此整体部分正确，因包含了边缘药物。
+                - separator [ref=e243]
+                - heading "3. Cluster Headache (丛集性头痛)" [level=3] [ref=e244]
+                - paragraph [ref=e245]:
+                  - strong [ref=e246]: 推荐药物
+                  - text: ：Lithium, Cyclobenzaprine, Dihydroergotamine (nasal), Ergotamine+Caffeine
+                  - strong [ref=e247]: 评分
+                  - text: ：
+                  - strong [ref=e248]: PARTIALLY
+                  - strong [ref=e249]: 理由
+                  - text: ：
+                - list [ref=e250]:
+                  - listitem [ref=e251]:
+                    - paragraph [ref=e252]: Dihydroergotamine 鼻用是急性发作的标准治疗（正确）。
+                  - listitem [ref=e253]:
+                    - paragraph [ref=e254]: Ergotamine+Caffeine 过去用于急性，现在少用（被曲普坦类取代），但仍在某些指南中。
+                  - listitem [ref=e255]:
+                    - paragraph [ref=e256]: Lithium 用于预防慢性丛集性头痛（标准）。
+                  - listitem [ref=e257]:
+                    - paragraph [ref=e258]:
+                      - strong [ref=e259]: Cyclobenzaprine（环苯扎林）
+                      - text: ：肌肉松弛剂，
+                      - strong [ref=e260]: 不是
+                      - text: 丛集性头痛的标准治疗，无证据支持。因此部分正确。
+                - separator [ref=e261]
+                - heading "4. Constipation (便秘)" [level=3] [ref=e262]
+                - paragraph [ref=e263]:
+                  - strong [ref=e264]: 推荐药物
+                  - text: ：Magnesium Hydroxide, Lansoprazole, Magnesium Oxide, Methylnaltrexone
+                  - strong [ref=e265]: 评分
+                  - text: ：
+                  - strong [ref=e266]: INAPPROPRIATE
+                  - strong [ref=e267]: 理由
+                  - text: ：
+                - list [ref=e268]:
+                  - listitem [ref=e269]:
+                    - paragraph [ref=e270]: Magnesium Hydroxide（镁乳）和 Magnesium Oxide 为轻泻剂（正确）。
+                  - listitem [ref=e271]:
+                    - paragraph [ref=e272]: Methylnaltrexone 用于阿片类药物引起的便秘（特殊情况正确）。
+                  - listitem [ref=e273]:
+                    - paragraph [ref=e274]:
+                      - strong [ref=e275]: Lansoprazole（兰索拉唑，质子泵抑制剂）
+                      - text: ：用于胃酸相关疾病，不治疗便秘，甚至可能加重便秘。纳入此药完全不正确。整体评为不恰当。
+                - separator [ref=e276]
+                - heading "5. Neuropathic Pain (神经病理性疼痛)" [level=3] [ref=e277]
+                - paragraph [ref=e278]:
+                  - strong [ref=e279]: 推荐药物
+                  - text: ：Desipramine, Diclofenac, Doxepin, Maprotiline
+                  - strong [ref=e280]: 评分
+                  - text: ：
+                  - strong [ref=e281]: INAPPROPRIATE
+                  - strong [ref=e282]: 理由
+                  - text: ：
+                - list [ref=e283]:
+                  - listitem [ref=e284]:
+                    - paragraph [ref=e285]: Desipramine 和 Doxepin（三环类抗抑郁药）对神经痛有效，但非一线（常用阿米替林、去甲替林）。
+                  - listitem [ref=e286]:
+                    - paragraph [ref=e287]:
+                      - strong [ref=e288]: Diclofenac（双氯芬酸，NSAID）
+                      - text: ：对神经病理性疼痛无效（用于伤害性疼痛）。
+                  - listitem [ref=e289]:
+                    - paragraph [ref=e290]:
+                      - strong [ref=e291]: Maprotiline（马普替林，四环类抗抑郁药）
+                      - text: ：缺乏高质量证据推荐用于神经痛。
+                      - text: 含无效药物 → 不恰当。
+                - separator [ref=e292]
+                - heading "6. Hypothyroidism (甲状腺功能减退症)" [level=3] [ref=e293]
+                - paragraph [ref=e294]:
+                  - strong [ref=e295]: 推荐药物
+                  - text: ：Calcitriol, Cinacalcet, Liotrix, Levothyroxine
+                  - strong [ref=e296]: 评分
+                  - text: ：
+                  - strong [ref=e297]: INAPPROPRIATE
+                  - strong [ref=e298]: 理由
+                  - text: ：
+                - list [ref=e299]:
+                  - listitem [ref=e300]:
+                    - paragraph [ref=e301]: Levothyroxine（左甲状腺素）是标准治疗（正确）。
+                  - listitem [ref=e302]:
+                    - paragraph [ref=e303]: Liotrix（T3/T4混合）少用，但非主流一线。
+                  - listitem [ref=e304]:
+                    - paragraph [ref=e305]:
+                      - strong [ref=e306]: Calcitriol（骨化三醇，活性维生素D）
+                      - text: ：用于甲旁减/肾性骨病，非甲减。
+                  - listitem [ref=e307]:
+                    - paragraph [ref=e308]:
+                      - strong [ref=e309]: Cinacalcet（西那卡塞，拟钙剂）
+                      - text: ：用于甲旁亢。
+                      - text: 两个药物完全不相关 → 不恰当。
+                - separator [ref=e310]
+                - heading "7. Bronchitis (支气管炎，推测急性支气管炎)" [level=3] [ref=e311]
+                - paragraph [ref=e312]:
+                  - strong [ref=e313]: 推荐药物
+                  - text: ：Lomefloxacin, Dyphylline+guaifenesin, Sulfamethoxazole, Telithromycin
+                  - strong [ref=e314]: 评分
+                  - text: ：
+                  - strong [ref=e315]: INAPPROPRIATE
+                  - strong [ref=e316]: 理由
+                  - text: ：
+                - list [ref=e317]:
+                  - listitem [ref=e318]:
+                    - paragraph [ref=e319]: 急性支气管炎通常为病毒性，抗生素不常规推荐。
+                  - listitem [ref=e320]:
+                    - paragraph [ref=e321]: Lomefloxacin（洛美沙星）、Sulfamethoxazole（磺胺甲噁唑）、Telithromycin（泰利霉素）均为抗生素，属过度使用。
+                  - listitem [ref=e322]:
+                    - paragraph [ref=e323]:
+                      - text: Dyphylline+guaifenesin（茶碱衍生物+祛痰药）无高质量证据支持。
+                      - text: 几乎全部不恰当（除非慢性支气管炎急性加重且细菌感染证据，但仍不是这些药为标准）。
+                - separator [ref=e324]
+                - heading "8. Atrial Fibrillation (心房颤动)" [level=3] [ref=e325]
+                - paragraph [ref=e326]:
+                  - strong [ref=e327]: 推荐药物
+                  - text: ：Propranolol, Esmolol, Verapamil, Rivaroxaban
+                  - strong [ref=e328]: 评分
+                  - text: ：
+                  - strong [ref=e329]: PARTIALLY
+                  - strong [ref=e330]: 理由
+                  - text: ：
+                - list [ref=e331]:
+                  - listitem [ref=e332]:
+                    - paragraph [ref=e333]: Rivaroxaban（利伐沙班，抗凝）是一线卒中预防（正确）。
+                  - listitem [ref=e334]:
+                    - paragraph [ref=e335]: Verapamil（维拉帕米，非二氢吡啶类CCB）用于心率控制（正确）。
+                  - listitem [ref=e336]:
+                    - paragraph [ref=e337]: Esmolol（艾司洛尔，静脉β阻滞剂）用于急性心率控制（正确）。
+                  - listitem [ref=e338]:
+                    - paragraph [ref=e339]:
+                      - strong [ref=e340]: Propranolol（普萘洛尔，非心脏选择性β阻滞剂）
+                      - text: ：可用于心率控制，但不如美托洛尔/阿替洛尔在房颤常用，且对COPD/哮喘不安全。仍算可用，但整体缺胺碘酮、地高辛等。总体部分正确。
+                - separator [ref=e341]
+                - heading "9. COPD (慢性阻塞性肺疾病)" [level=3] [ref=e342]
+                - paragraph [ref=e343]:
+                  - strong [ref=e344]: 推荐药物
+                  - text: ：Albuterol-Ipratropium, Ipratropium, Formoterol, Fluticasone
+                  - strong [ref=e345]: 评分
+                  - text: ：
+                  - strong [ref=e346]: PARTIALLY
+                  - strong [ref=e347]: 理由
+                  - text: ：
+                - list [ref=e348]:
+                  - listitem [ref=e349]:
+                    - paragraph [ref=e350]: Albuterol-Ipratropium（沙丁胺醇+异丙托溴铵）及 Ipratropium（短效抗胆碱能）用于缓解或轻度。
+                  - listitem [ref=e351]:
+                    - paragraph [ref=e352]: Formoterol（福莫特罗，长效β激动剂）是标准。
+                  - listitem [ref=e353]:
+                    - paragraph [ref=e354]:
+                      - strong [ref=e355]: Fluticasone（氟替卡松，吸入糖皮质激素）
+                      - text: ：通常与LABA联用（如沙美特罗/氟替卡松），单用ICS不推荐在COPD（除非频繁急性加重且有嗜酸性粒细胞升高）。列表缺少LAMA（长效抗胆碱能如噻托溴铵）。因氟替卡松单用不合适，评部分正确。
+                - separator [ref=e356]
+                - heading "10. Gout (痛风)" [level=3] [ref=e357]
+                - paragraph [ref=e358]:
+                  - strong [ref=e359]: 推荐药物
+                  - text: ：Indomethacin, Meloxicam, Naproxen, Diclofenac
+                  - strong [ref=e360]: 评分
+                  - text: ：
+                  - strong [ref=e361]: PARTIALLY
+                  - strong [ref=e362]: 理由
+                  - text: ：
+                - list [ref=e363]:
+                  - listitem [ref=e364]:
+                    - paragraph [ref=e365]:
+                      - text: 四种都是NSAID，仅适用于
+                      - strong [ref=e366]: 急性发作
+                      - text: 治疗（标准之一，但首选推荐包括秋水仙碱、糖皮质激素）。
+                  - listitem [ref=e367]:
+                    - paragraph [ref=e368]:
+                      - text: 列表完全
+                      - strong [ref=e369]: 缺少降尿酸治疗
+                      - text: （别嘌醇、非布司他等），对于痛风长期管理不完整。
+                  - listitem [ref=e370]:
+                    - paragraph [ref=e371]: 仅针对急性期部分正确，但作为整体痛风治疗不恰当。评部分正确。
+                - separator [ref=e372]
+                - heading "11. Epilepsy (癫痫)" [level=3] [ref=e373]
+                - paragraph [ref=e374]:
+                  - strong [ref=e375]: 推荐药物
+                  - text: ：Clonazepam, Lorazepam, Phenytoin, Clorazepate
+                  - strong [ref=e376]: 评分
+                  - text: ：
+                  - strong [ref=e377]: PARTIALLY
+                  - strong [ref=e378]: 理由
+                  - text: ：
+                - list [ref=e379]:
+                  - listitem [ref=e380]:
+                    - paragraph [ref=e381]: Lorazepam（劳拉西泮）用于癫痫持续状态（一线）。
+                  - listitem [ref=e382]:
+                    - paragraph [ref=e383]: Phenytoin（苯妥英）是老药，仍用于部分局灶性发作及持续状态（但非一线首选）。
+                  - listitem [ref=e384]:
+                    - paragraph [ref=e385]: Clonazepam（氯硝西泮）用于某些癫痫综合征（如肌阵挛），但非广谱一线。
+                  - listitem [ref=e386]:
+                    - paragraph [ref=e387]:
+                      - strong [ref=e388]: Clorazepate（氯拉卓酸，苯二氮䓬类）
+                      - text: ：不常用作常规抗癫痫，主要辅助。缺少现代标准药物（左乙拉西坦、拉莫三嗪等）。部分正确。
+                - separator [ref=e389]
+                - heading "12. Migraine (偏头痛)" [level=3] [ref=e390]
+                - paragraph [ref=e391]:
+                  - strong [ref=e392]: 推荐药物
+                  - text: ：Lisinopril, Naproxen, Dicl… (列表不完整)
+                  - strong [ref=e393]: 请补充完整第12项药物以及第13–20项疾病和药物
+                  - text: ，我将继续验证。
+                - paragraph [ref=e394]:
+                  - text: 请提供：
+                  - text: 12. 第4个药物是什么？
+                  - text: 13. 疾病名 + 4种药物
+                  - text: … 至 20。
+              - generic [ref=e395]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+            - generic [ref=e397]:
+              - button [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+              - button [ref=e403] [cursor=pointer]:
+                - img [ref=e406]
+              - button [ref=e408] [cursor=pointer]:
+                - img [ref=e411]
+              - button [ref=e413] [cursor=pointer]:
+                - img [ref=e416]
+              - button [ref=e418] [cursor=pointer]:
+                - img [ref=e421]
+        - generic [ref=e158]:
+          - generic [ref=e161]:
+            - textbox "给 DeepSeek 发送消息" [ref=e163]:
+              - /placeholder: "给 DeepSeek 发送消息 "
+            - generic [ref=e164]:
+              - button "深度思考" [ref=e165] [cursor=pointer]:
+                - img [ref=e167]
+                - generic [ref=e170]: 深度思考
+              - button "智能搜索" [pressed] [ref=e171] [cursor=pointer]:
+                - img [ref=e173]
+                - generic [ref=e175]: 智能搜索
+              - generic [ref=e176]:
+                - button [ref=e177] [cursor=pointer]:
+                  - img [ref=e180]
+                - button [disabled] [ref=e183] [cursor=pointer]:
+                  - img [ref=e423]
+          - generic [ref=e188]: 内容由 AI 生成，请仔细甄别
+      - generic [ref=e229]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 请验证以下20种疾病的用药推荐是否正确。对每种疾病，判断推荐的4种药物是否为该疾病的标准治疗药物，评分APPROPRIATE(完全正确)/PARTIALLY(部分正确)/INAPPROPRIATE(不正确)，并简要说明理由。
+                - generic:
+                  - generic: "1. hypertension: Amlodipine, Amlodipine-Benazepril, Amlodipine-Valsartan, Benazepril2. diabetes: Canagliflozin, Colesevelam, Empagliflozin, Glimepiride3. cluster headache: Lithium, Cyclobenzaprine, dihydroergotamine(nasal), Ergotamine+Caffeine4. constipation: Magnesium Hydroxide, Lansoprazole, Magnesium Oxide, Methylnaltrexone5. neuropathic pain: Desipramine, Diclofenac, Doxepin, Maprotiline6. hypothyroidism: Calcitriol, Cinacalcet, Liotrix, Levothyroxine7. bronchitis: Lomefloxacin, dyphylline+guaifenesin, Sulfamethoxazole, Telithromycin8. atrial fibrillation: Propranolol, Esmolol, Verapamil, Rivaroxaban9. copd: Albuterol-Ipratropium, Ipratropium, Formoterol, Fluticasone10. gout: Indomethacin, Meloxicam, Naproxen, Diclofenac11. epilepsy: Clonazepam, Lorazepam, Phenytoin, Clorazepate12. migraine: Lisinopril, Naproxen, Dicl"
+  - generic [ref=e426]: 请输入你的问题

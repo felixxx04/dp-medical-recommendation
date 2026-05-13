@@ -1,0 +1,206 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e165] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e166]: 新对话
+          - button [ref=e167]:
+            - img [ref=e171]
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e100]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e106]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e108]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e110]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e114]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e116]: HIV药物禁忌症生成
+      - generic [ref=e117]:
+        - generic [ref=e118]: 昨天
+        - link "药物禁忌症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e120]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e122]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e124]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e126]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e128]: 药物适应症列表生成
+      - generic [ref=e129]:
+        - generic [ref=e130]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e132]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e134]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e136]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e138]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e140]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e142]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e144]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e146]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e148]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e150]
+      - generic [ref=e153]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e175]:
+      - generic [ref=e177]:
+        - generic [ref=e178] [cursor=pointer]: 新对话
+        - generic [ref=e179]:
+          - img [ref=e181]
+          - generic [ref=e183]: 专家模式
+      - button [ref=e184] [cursor=pointer]:
+        - img [ref=e187]
+    - generic [ref=e190]:
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - generic [ref=e195]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: hydrocortisone and iodoquinol (topical application route) | 类别: Topical steroids with anti-infectives | 适应症: eczema with suspected bacterial or fungal infection|contact dermatitis with suspected infection|diaper rash with suspected infection | 妊娠分级: C sildenafil (oral) | 类别: Agents for pulmonary hypertension, Impotence agents | 适应症: erectile dysfunction|pulmonary arterial hypertension|Raynaud's phenomenon|altitude sickness | 妊娠分级: B alprostadil | 类别: Impotence agents, Vasodilators | 适应症: erectile dysfunction|patent ductus arteriosus (in infants)|peripheral arterial disease | 妊娠分级: X alprostadil (injectable and transurethral) | 类别: Impotence agents, Vasodilators | 适应症: erectile dysfunction | 妊娠分级: X avanafil | 类别: Impotence agents | 适应症: erectile dysfunction | 妊娠分级: C alvimopan | 类别: Peripheral opioid receptor antagonists | 适应症: postoperative ileus | 妊娠分级: B lidocaine viscous | 类别: Topical anesthetics | 适应症: oral pain|pharyngeal pain|mucositis|esophagitis | 妊娠分级: B lidocaine topical | 类别: Topical anesthetics | 适应症: pruritus|insect bites|minor burns|postherpetic neuralgia|pre-procedural anesthesia | 妊娠分级: B Lidocaine Gel | 类别: Topical anesthetics | 适应症: topical anesthesia|urethral anesthesia for catheterization|mucositis | 妊娠分级: B pantoprazole (oral/injection) | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|zollinger-ellison syndrome|peptic ulcer disease|helicobacter pylori eradication (adjunctive)|stress ulcer prophylaxis | 妊娠分级: B esomeprazole magnesium (oral) | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|zollinger-ellison syndrome|helicobacter pylori eradication (adjunctive)|peptic ulcer disease | 妊娠分级: C esomeprazole (oral) | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|zollinger-ellison syndrome|helicobacter pylori eradication (adjunctive)|peptic ulcer disease | 妊娠分级: C sucralfate (oral) | 类别: Miscellaneous GI agents | 适应症: peptic ulcer disease|gastroesophageal reflux disease|mucositis | 妊娠分级: B famotidine (oral route) | 类别: H2 antagonists | 适应症: gastroesophageal reflux disease|peptic ulcer disease|zollinger-ellison syndrome|dyspepsia|urticaria | 妊娠分级: B Esomeprazole Delayed-Release Tablets | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|zollinger-ellison syndrome|helicobacter pylori eradication (adjunctive)|peptic ulcer disease | 妊娠分级: C pantoprazole (intravenous route) | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|peptic ulcer bleeding|zollinger-ellison syndrome | 妊娠分级: B metoclopramide (oral/injection) | 类别: GI stimulants, Miscellaneous antiemetics | 适应症: gastroparesis|nausea and vomiting|gastroesophageal reflux disease|migraine|lactation failure | 妊娠分级: B omeprazole and sodium bicarbonate | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|peptic ulcer disease | 妊娠分级: C Famotidine Chewable Tablets | 类别: H2 antagonists | 适应症: dyspepsia|gastroesophageal reflux disease|peptic ulcer disease | 妊娠分级: B Famotidine Oral Suspension | 类别: H2 antagonists | 适应症: gastroesophageal reflux disease|peptic ulcer disease|zollinger-ellison syndrome | 妊娠分级: B Aluminum Hydroxide, Magnesium Hydroxide, and Simethicone Suspension | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|flatulence|peptic ulcer disease | 妊娠分级: N esomeprazole (intravenous route) | 类别: Proton pump inhibitors | 适应症: gastroesophageal reflux disease|erosive esophagitis|peptic ulcer bleeding | 妊娠分级: C aluminum hydroxide, magnesium hydroxide, and simethicone | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|flatulence|peptic ulcer disease | 妊娠分级: N Calcium Carbonate Chewable Tablets | 类别: Antacids, Minerals and electrolytes | 适应症: dyspepsia|gastroesophageal reflux disease|calcium supplementation|hyperphosphatemia in chronic kidney disease | 妊娠分级: N calcium carbonate, famotidine, and magnesium hydroxide | 类别: H2 antagonists | 适应症: gastroesophageal reflux disease|dyspepsia|peptic ulcer disease | 妊娠分级: N Calcium Carbonate Chewable Tablets (Antacid) | 类别: Antacids, Minerals and electrolytes | 适应症: dyspepsia|gastroesophageal reflux disease|calcium supplementation | 妊娠分级: N Aluminum Hydroxide and Magnesium Hydroxide Chewable Tablets | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|peptic ulcer disease | 妊娠分级: N Calcium Carbonate and Simethicone | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|flatulence | 妊娠分级: C aluminum hydroxide and magnesium carbonate | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|peptic ulcer disease | 妊娠分级: N aluminum hydroxide | 类别: Antacids, Phosphate binders | 适应症: dyspeysia|gastroesophageal reflux disease|hyperphosphatemia in chronic kidney disease|peptic ulcer disease | 妊娠分级: N belladonna | 类别: Anticholinergics / antispasmodics | 适应症: irritable bowel syndrome|intestinal colic|bradycardia|hyperhidrosis | 妊娠分级: C calcium carbonate, magnesium hydroxide, and simethicone | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|flatulence|peptic ulcer disease | 妊娠分级: C Aluminum Hydroxide, Magnesium Hydroxide, and Simethicone Chewable Tablets | 类别: Antacids | 适应症: dyspepsia|gastroesophageal reflux disease|flatulence | 妊娠分级: N trisodium citrate dihydrate | 类别: Urinary pH modifiers | 适应症: urinary alkalinization|prevention of uric acid kidney stones|metabolic acidosis | 妊娠分级: C omeprazole, sodium bicarbonate and magnesium hydroxide Approval date: March 27, 2006 Company: Santarus, Inc. Treatment for: Heartburn/GERD, Erosive Esophagitis, Duodenal & Gastric Ulcers | 类别: | 适应症: heartburn|acid indigestion|gastroesophageal reflux disease|erosive esophagitis|duodenal ulcer|gastric ulcer | 妊娠分级: C febuxostat | 类别: Antihyperuricemic agents | 适应症: gout|hyperuricemia|tumor lysis syndrome prophylaxis | 妊娠分级: C allopurinol (oral route) | 类别: Antigout agents, Antihyperuricemic agents | 适应症: gout|hyperuricemia|kidney stones (uric acid)|tumor lysis syndrome prophylaxis|recurrent calcium oxalate stones in hyperuricosuria | 妊娠分级: C allopurinol (intravenous route) | 类别: Antigout agents, Antihyperuricemic agents | 适应症: tumor lysis syndrome prophylaxis/hyperuricemia in chemotherapy patients | 妊娠分级: C rilonacept | 类别: Interleukin inhibitors | 适应症: cryopyrin-associated periodic syndromes|pericarditis|gout | 妊娠分级: C minoxidil topical | 类别: Miscellaneous topical agents | 适应症: androgenetic alopecia|alopecia areata|female pattern hair loss | 妊娠分级: C sulfasalazine Brand names: Azulfidine , Azulfidine EN-tabs | 类别: 5-aminosalicylates, Antirheumatics | 适应症: ulcerative colitis|rheumatoid arthritis|crohn's disease | 妊娠分级: B triamcinolone (injection route) | 类别: Glucocorticoids | 适应症: rheumatoid arthritis|osteoarthritis|allergic rhinitis|asthma|inflammatory bowel disease|keloids | 妊娠分级: C minoxidil (topical route) | 类别: Miscellaneous topical agents | 适应症: androgenetic alopecia|alopecia areata|female pattern hair loss | 妊娠分级: C fluticasone nasal | 类别: Nasal steroids | 适应症: allergic rhinitis|non-allergic rhinitis|nasal polyps|sinusitis | 妊娠分级: C azelastine nasal | 类别: Nasal antihistamines and decongestants | 适应症: allergic rhinitis|vasomotor rhinitis|non-allergic rhinitis | 妊娠分级: C Fluticasone Nasal Spray | 类别: Nasal steroids | 适应症: allergic rhinitis|non-allergic rhinitis|nasal polyps | 妊娠分级: C azelastine and fluticasone nasal | 类别: Nasal antihistamines and decongestants, Nasal steroids | 适应症: allergic rhinitis|non-allergic rhinitis | 妊娠分级: C triamcinolone (nasal) | 类别: Nasal steroids | 适应症: allergic rhinitis|nasal polyps | 妊娠分级: C cetirizine hydrochloride | 类别: Antihistamines | 适应症: allergic rhinitis|urticaria|conjunctivitis|pruritus | 妊娠分级: B mometasone nasal | 类别: Nasal steroids | 适应症: allergic rhinitis|nasal polyps|sinusitis | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e198]:
+            - button [ref=e199] [cursor=pointer]:
+              - img [ref=e202]
+            - button [ref=e204] [cursor=pointer]:
+              - img [ref=e207]
+        - generic [ref=e211]:
+          - generic [ref=e213] [cursor=pointer]:
+            - img [ref=e215]
+            - generic [ref=e218]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e220]
+          - generic [ref=e226]:
+            - paragraph [ref=e227]: 我们被要求为一系列药物生成完整的禁忌症列表，输出JSON。需要仔细查看每个药物及其适应症和类别。下面逐一进行分析，生成具体且临床相关的禁忌症。
+            - paragraph [ref=e228]: 药物列表分为几大类别：外用激素加抗感染药、勃起功能障碍/肺动脉高压药物、局部麻醉药、质子泵抑制剂和H2受体拮抗剂等胃肠道药物、抗酸药、抗痛风/高尿酸血症药、局部外用米诺地尔、柳氮磺吡啶、曲安奈德注射、鼻用皮质类固醇和抗组胺药等。
+            - paragraph [ref=e229]: 我会基于药理学知识，组合药物的每个成分，以及适应症推断可能的禁忌症。
+            - list [ref=e230]:
+              - listitem [ref=e231]:
+                - paragraph [ref=e232]: hydrocortisone and iodoquinol (topical application route)
+            - list [ref=e233]:
+              - listitem [ref=e234]:
+                - paragraph [ref=e235]: 药物组合：氢化可的松（外用皮质类固醇）+ 碘喹啉（抗感染药，卤化羟基喹啉类）
+              - listitem [ref=e236]:
+                - paragraph [ref=e237]: 氢化可的松：外用皮质类固醇禁忌：皮肤感染未控制（细菌、真菌、病毒）、皮肤溃疡、痤疮、酒渣鼻、口周皮炎、过敏反应。生理状态：妊娠C级，相对禁忌。儿科：可能需谨慎（但可用于尿布疹？需要评估）。适应症包括湿疹、接触性皮炎、尿布疹伴感染，说明用于已感染或疑似感染。碘喹啉：含碘，可能对碘过敏者禁忌。碘喹啉外用可能被吸收，避免用于肝病、甲状腺疾病？口服碘喹啉可致亚急性脊髓-视神经病变，外用时可能吸收少，但仍需注意。禁忌：对氢化可的松、碘喹啉或任何成分过敏；皮肤结核、梅毒、病毒感染（如单纯疱疹、水痘）等；眼部使用（不可用于眼部）。碘过敏。相对禁忌：妊娠、哺乳、儿童（特别是大面积或封闭敷料），甲状腺功能异常。皮质类固醇长期使用可能导致全身吸收。所以禁忌症列表要具体。
+            - list [ref=e269]:
+              - listitem [ref=e270]:
+                - paragraph [ref=e271]: sildenafil (oral)
+            - list [ref=e272]:
+              - listitem [ref=e273]:
+                - paragraph [ref=e274]: PD5抑制剂，用于肺动脉高压和ED。禁忌：与硝酸酯类药物合用（绝对禁忌，严重低血压），因NO- cGMP途径叠加。严重心脏病，如近期心肌梗死、不稳定心绞痛、严重主动脉瓣狭窄、肥厚性心肌病、NYHA分级重度心衰、低血压（静息SBP<90mmHg）等。非动脉炎性前部缺血性视神经病变（NAION）病史，视网膜色素变性？相对禁忌：阴茎解剖畸形（如成角、海绵体纤维化）、易发生阴茎异常勃起的疾病（如镰状细胞贫血、多发性骨髓瘤、白血病）。与CYP3A4强抑制剂合用（如酮康唑、伊曲康唑、利托那韦）增加西地那非血药浓度，需要调整剂量。妊娠分级B，但不用於女性ED，无此问题。肺动脉高压患者另有注意事项。生理状态：儿童禁用。因为有肺动脉高压适应症，儿童可能使用，但有年龄限制。还需注意与α受体阻滞剂合用可能导致低血压。禁忌症中列出合用硝酸酯类的绝对禁忌。
+            - list [ref=e275]:
+              - listitem [ref=e276]:
+                - paragraph [ref=e277]: alprostadil (可能指所有剂型，但有单独列出注射和尿道内)。这里alprostadil可能是全身给药或阴茎海绵体内注射，尿道内。通用alprostadil包括注射用粉剂（用于ED）和注射用于婴儿PDA。适应症包括ED、PDA、外周动脉疾病。可能的禁忌：对前列腺素E1过敏；易发生阴茎异常勃起的疾病（镰状细胞性贫血、多发性骨髓瘤、白血病）；阴茎解剖畸形（如阴茎硬结症、成角、海绵体纤维化）；阴茎植入假体；有性传播疾病的患者（尿道内给药可能疼痛等）；严重心血管疾病，可能不宜进行性活动；妊娠X级（禁用于孕妇，但用于男性ED，但含孕妇禁用）；用于婴儿PDA时禁忌：与导管依赖型发绀性心脏病如法洛四联症、完全性大动脉转位等，可能加重低氧。此处列出通用？根据输入，可能指alprostadil各种途径。但后面有单独的alprostadil (injectable and transurethral)。所以这里的alprostadil可能指所有剂型？输入中alprostadil和alprostadil (injectable and transurethral) 分开。那么第一个alprostadil包括用于PDA的注射剂和外周动脉疾病？适应症有“erectile dysfunction|patent ductus arteriosus (in infants)|peripheral arterial disease”。所以是通用alprostadil。禁忌症根据各适应症来。需要涵盖PDA禁忌。绝对禁忌：对alprostadil过敏；PDA应用时，合并呼吸窘迫综合征？不，PDA适应症就是保留动脉导管开放，用于依赖动脉导管存活的先天性心脏病，如大动脉转位、肺动脉闭锁等，禁忌：严重低血压、高凝状态？实际上，婴儿用前列腺素E1维持PDA开放，常见不良反应为呼吸暂停、低血压、发热等。禁忌症包括：高血钙？无。应该更具体：对药物过敏；同时使用抗血小板或抗凝（有可能增加出血风险，但用于PDA可忽略）。生理状态：妊娠X级绝对禁忌女性。相对禁忌：有出血倾向、严重肝病。用于ED时禁忌与前列地尔海绵体注射相同：阴茎异常勃起倾向、解剖畸形。所以列出。
+              - listitem [ref=e278]:
+                - paragraph [ref=e279]: alprostadil (injectable and transurethral) 专门用于ED。禁忌症：对前列地尔过敏；阴茎异常勃起倾向（镰状细胞性贫血、多发性骨髓瘤、白血病）；阴茎解剖异常（阴茎硬结症、成角、海绵体纤维化、尿道狭窄（对于尿道给药））；阴茎植入假体；不宜性活动的心脏病；妊娠X级（与女性伴侣怀孕可能？药物本身禁用于孕妇，但男性用，女性接触可能需避免？妊娠X级，绝对禁忌用于女性，这里男性使用，标记生理条件禁忌：妊娠（女性使用绝对禁忌）。可列出，但用于ED的男性，似乎妊娠禁忌是针对女性的，但我们仍需列出。相对禁忌：出血性疾病，使用抗凝剂；尿道感染（对尿道给药）；严重肝肾功能不全（经验性）。所以列出。
+              - listitem [ref=e280]:
+                - paragraph [ref=e281]: avanafil PD5抑制剂，ED。禁忌与sildenafil类似。绝对禁忌：与任何硝酸酯类药物合用（包括短效和长效，如硝酸甘油、单硝酸异山梨酯）；与可溶性鸟苷酸环化酶（sGC）刺激剂（如riociguat）合用导致低血压；严重心脏病（近期MI、卒中、不稳定心绞痛、已知NYHA III/IV级心衰、严重主动脉瓣狭窄、肥厚性梗阻性心肌病、未控制的心律失常、低血压<90/50mmHg）；已知NAION病史导致单眼视力丧失；阴茎解剖异常/异常勃起倾向。相对禁忌：与CYP3A4强抑制剂合用需减量；与α受体阻滞剂合用，注意低血压；严重肝肾功能不全（CrCl<30ml/min或透析，Child-Pugh C）避免使用；半乳糖不耐受等（片剂含乳糖）。生理状态：儿童和女性不适用（未批准），妊娠C级。
+              - listitem [ref=e282]:
+                - paragraph [ref=e283]: alvimopan 外周μ-阿片受体拮抗剂，用于术后肠梗阻。禁忌症：对alvimopan过敏；治疗前近期使用过阿片类药物超过7天连续？实际药品标签：绝对禁忌：因可能增加心肌梗死风险，禁用于近期（既往30天内）有心肌梗死史的患者；严重肝功能不全；同时使用其他阿片受体拮抗剂；存在机械性肠梗阻或疑似肠梗阻；可能以某种方式禁忌使用阿片类药物的患者如怀疑有肠穿孔；生理状况：妊娠B级，相对安全；哺乳不知。相对禁忌：轻中度肝损伤（需减量）；肾损伤（CrCl<60ml/min）慎用；慢性阿片类药物使用患者，因为急性停药可能出现戒断症状和疼痛增加。所以列出：“recent myocardial infarction (within 30 days)” disease absolute; “severe hepatic impairment” disease absolute; “mechanical bowel obstruction” disease absolute; “known or suspected gastrointestinal obstruction” absolute; “concomitant use with other opioid antagonists” drug_class relative? 实际上是绝对？说明书警告禁止同时使用阿片拮抗剂增加风险。绝对禁忌。另，同时对alvimopan过敏。
+              - listitem [ref=e284]:
+                - paragraph [ref=e285]: lidocaine viscous (粘稠利多卡因口服液) 用于口腔、咽部疼痛。禁忌症：对酰胺类局麻药过敏（如利多卡因、布比卡因等）；严重肝病（利多卡因肝脏代谢，可能导致中毒）；严重心脏传导阻滞（未安装起搏器），尤其是大剂量使用时；葡萄糖-6-磷酸脱氢酶缺乏（G6PD）？利多卡因不会，但粘稠剂可能含其他成分。相对禁忌：严重肾功能不全；充血性心衰；口咽部大面积创伤或感染；应用于幼儿（特别是出牙期，可致吞咽困难、误吸、诱发高铁血红蛋白血症？苯佐卡因，但利多卡因也有高铁血红蛋白风险，特别是与其他诱发药物合用时）；2岁以下儿童慎用（因可能导致吞咽困难，抑制咽反射，增加误吸风险，抑制年龄过小儿）。绝对禁忌：已知对其过敏；心脏传导阻滞高度风险。生理状态：妊娠B级，哺乳可用。
+              - listitem [ref=e286]:
+                - paragraph [ref=e287]: lidocaine topical (外用利多卡因) 霜剂、贴片等。禁忌：对酰胺类局麻药过敏；应用于破损皮肤或大面积受伤、粘膜（可能会被大量吸收）；应用于感染皮肤，除非医生指导；使用于眼睛或粘膜；儿童（特别是大面积使用，婴儿慎用）；严重肝病；心脏传导阻滞；与I类抗心律失常药（如美西律）合用增加毒性。相对禁忌：高铁血红蛋白血症（先天或获得性）；与其他导致高铁血红蛋白血症药物合用（如硝酸盐、氨苯砜）。
+              - listitem [ref=e288]:
+                - paragraph [ref=e289]: Lidocaine Gel (利多卡因凝胶) 尿道麻醉等。禁忌同上，但特别注意：尿道有损伤或粘膜破损时禁忌（吸收增加及感染风险）；严重肝病；对利多卡因过敏；急性膀胱尿道炎或出血倾向。用于女性？妊娠B级。
+              - listitem [ref=e290]:
+                - paragraph [ref=e291]: pantoprazole (oral/injection) 质子泵抑制剂。禁忌症：对本品或苯并咪唑类过敏；与阿扎那韦、利匹韦林合用（PPI降低其吸收，导致抗病毒效力降低，绝对禁忌？FDA规定，与rilpivirine合用禁忌；与atazanavir建议避免）；相对禁忌：严重肝功能不全需减量；妊娠B级，相对安全；哺乳；同时使用甲氨蝶呤（特别是高剂量）可能增加甲氨蝶呤毒性。还有低镁血症风险，长期使用可能，但不属禁忌。疾病禁忌：诊断性检查时可能会假阳性，不属禁忌。过敏绝对禁忌。
+              - listitem [ref=e292]:
+                - paragraph [ref=e293]: esomeprazole magnesium (oral) PPI，同上。禁忌：对艾司奥美拉唑或其他苯并咪唑类过敏；与rilpivirine合用禁忌；与atazanavir, nelfinavir合用降低效果，避免合用；相对禁忌：严重肝功能不全（Child-Pugh C）每日最大剂量不超过20mg；妊娠C级；哺乳；与氯吡格雷合用可能降低氯吡格雷抗血小板作用，但非绝对禁忌，需要评估；同时使用高剂量甲氨蝶呤。
+              - listitem [ref=e294]:
+                - paragraph [ref=e295]: esomeprazole (oral) 与上面一样。
+              - listitem [ref=e296]:
+                - paragraph [ref=e297]: sucralfate (oral) 胃黏膜保护剂。禁忌：对硫糖铝过敏；严重肾功能不全（含铝，有蓄积风险，绝对禁忌？肾功能衰竭患者，尤其是透析或有铝蓄积性脑病风险，应避免使用）；肠梗阻或存在胃流出道梗阻；相对禁忌：妊娠B级；哺乳；糖尿病（因为含糖，但影响小）；同时服用其他药物，可影响吸收，需间隔服用。绝对禁忌：过敏；机械性肠梗阻。
+              - listitem [ref=e298]:
+                - paragraph [ref=e299]: famotidine (oral route) H2受体拮抗剂。禁忌：对本品或H2受体拮抗剂过敏；相对禁忌：严重肾功能不全（CrCl<50ml/min需减量）；妊娠B级；哺乳；掩盖胃癌症状。老年。其他无绝对禁忌。
+              - listitem [ref=e300]:
+                - paragraph [ref=e301]: Esomeprazole Delayed-Release Tablets 同艾司奥美拉唑。
+              - listitem [ref=e302]:
+                - paragraph [ref=e303]: pantoprazole (intravenous route) 同泮托拉唑口服，静脉给药，可能存在输液相关禁忌，但无特殊。
+              - listitem [ref=e304]:
+                - paragraph [ref=e305]: metoclopramide (oral/injection) 促动力药、止吐。禁忌：已知对甲氧氯普胺过敏；机械性肠梗阻、穿孔、胃肠道出血（因促进蠕动可能加重）；嗜铬细胞瘤（可诱发高血压危象，因为促儿茶酚胺释放）；癫痫病史（可能增加发作频率）；帕金森病或其他锥体外系疾病（加重症状）；同时使用左旋多巴或多巴胺激动剂可能相互拮抗；与单胺氧化酶抑制剂合用？无绝对禁忌，但慎用。相对禁忌：严重肾功能不全需减量；妊娠B级；哺乳认可但短期使用；新生儿及婴儿（增加锥体外系反应风险）；正在使用抗精神病药物（增加锥体外系副作用）；高血压；心力衰竭（可能因增加儿茶酚胺）；抑郁症（可能加重）。
+              - listitem [ref=e306]:
+                - paragraph [ref=e307]: omeprazole and sodium bicarbonate 奥美拉唑+碳酸氢钠。禁忌包括奥美拉唑的禁忌，加上碳酸氢钠的禁忌。奥美拉唑：对奥美拉唑或PPI过敏；合用rilpivirine禁忌；与atazanavir等避免。碳酸氢钠：代谢性碱中毒风险；低氯血症；低钙血症；严重肾功能不全（钠负荷可能引起水肿、高钠）；心衰、高血压（钠负荷）；服用含钾药物？实际上，碳酸氢钠的禁忌：高钠血症、水钠潴留状态（心力衰竭、肝硬化、重度高血压、水肿）；低钙血症（碱中毒可降低离子钙）；严重肝病。组合，绝对禁忌：过敏；代谢性碱中毒或低氯性碱中毒；严重心力衰竭；严重肾功能不全。相对禁忌：妊娠C级；钠限制饮食；低钙倾向。
+              - listitem [ref=e308]:
+                - paragraph [ref=e309]: Famotidine Chewable Tablets 同法莫替丁，咀嚼片可能含阿斯巴甜，苯丙酮尿症患者禁忌。
+              - listitem [ref=e310]:
+                - paragraph [ref=e311]: Famotidine Oral Suspension 同法莫替丁。
+              - listitem [ref=e312]:
+                - paragraph [ref=e313]: Aluminum Hydroxide, Magnesium Hydroxide, and Simethicone Suspension 抗酸剂组合（铝、镁、西甲硅油）。禁忌：对任何成分过敏；严重肾功能不全（铝和镁可能蓄积，铝致骨病、脑病，镁致高镁血症）；低磷血症（氢氧化铝结合磷，可加重）；肠梗阻、巨结肠；阑尾炎症状；相对禁忌：妊娠N级；心衰、高血压（含钠？有些含钠，但无明确，但需注意钠负荷）；甲状腺功能减退（铝干扰甲状腺素吸收）；使用四环素等药物（影响吸收）。
+              - listitem [ref=e314]:
+                - paragraph [ref=e315]: esomeprazole (intravenous route) 同前。
+              - listitem [ref=e316]:
+                - paragraph [ref=e317]: aluminum hydroxide, magnesium hydroxide, and simethicone 同21。
+              - listitem [ref=e318]:
+                - paragraph [ref=e319]: Calcium Carbonate Chewable Tablets 碳酸钙咀嚼片。禁忌：高钙血症、高钙尿症；维生素D过量；严重肾功能不全（磷结合能力，高钙风险）；肾结石病史；低磷血症；可疑洋地黄化患者（高钙增加洋地黄毒性）；对任何成分过敏；相对禁忌：胃酸缺乏（碳酸钙需要酸溶解）。妊娠N。
+              - listitem [ref=e320]:
+                - paragraph [ref=e321]: calcium carbonate, famotidine, and magnesium hydroxide 组合产品，包括碳酸钙、法莫替丁、氢氧化镁。禁忌：汇总各成分禁忌。过敏；严重肾功能不全（镁、钙蓄积）；高钙血症、高镁血症；房室传导阻滞（镁盐静脉可能？口服高镁血症可致传导障碍）；同时使用可能
+      - generic [ref=e238]:
+        - generic [ref=e241]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e243]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e244]:
+            - button "深度思考" [ref=e245] [cursor=pointer]:
+              - img [ref=e247]
+              - generic [ref=e250]: 深度思考
+            - button "智能搜索" [ref=e251] [cursor=pointer]:
+              - img [ref=e253]
+              - generic [ref=e255]: 智能搜索
+            - generic [ref=e256]:
+              - button [ref=e257] [cursor=pointer]:
+                - img [ref=e260]
+              - button [ref=e263] [cursor=pointer]:
+                - img [ref=e266]
+        - generic [ref=e268]: 内容由 AI 生成，请仔细甄别

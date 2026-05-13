@@ -1,0 +1,420 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e232] [cursor=pointer]:
+          - /url: /a/chat/s/be31615e-2a9f-4c42-b517-819ea0c04a77
+          - generic [ref=e233]: 新对话
+          - button [ref=e234]:
+            - img [ref=e238]
+        - link "药物交互作用列表生成" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/29105585-9eea-4649-8ae0-d8fef6960494
+          - generic [ref=e36]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/96ed9973-46c4-4bfb-86d5-f8a71ec1be90
+          - generic [ref=e38]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/47ca44ac-64df-40b8-8b21-b9fbadeecea5
+          - generic [ref=e40]: 药物交互列表生成
+        - link "临床药学专家药物交互生成" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/dadb6b40-edb1-497b-85cf-1d908a363d87
+          - generic [ref=e42]: 临床药学专家药物交互生成
+        - link "临床药学专家生成药物交互列表" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/4f673188-ac15-45da-a360-766681d189ca
+          - generic [ref=e44]: 临床药学专家生成药物交互列表
+        - link "药物交互作用列表生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/396da42e-e60a-42d9-8950-e2d1de7ba0b8
+          - generic [ref=e46]: 药物交互作用列表生成
+      - generic [ref=e47]:
+        - generic [ref=e48]: 昨天
+        - link "药物交互作用列表生成" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/43d465df-a130-493c-a502-f7871df35a84
+          - generic [ref=e50]: 药物交互作用列表生成
+        - link "dupilumab药物交互补充生成" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/ddc8880c-a441-4331-baa5-33dbff16164e
+          - generic [ref=e52]: dupilumab药物交互补充生成
+        - link "药物交互作用列表生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+          - generic [ref=e54]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+          - generic [ref=e56]: 药物交互列表生成
+        - link "糖尿病药物交互列表生成" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e58]: 糖尿病药物交互列表生成
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e60]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e62]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e64]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e66]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e68]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e70]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e72]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e74]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e76]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e78]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e80]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e82]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e84]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e86]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e88]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e90]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e92]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e94]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e96]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e98]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e100]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e102]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e108]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e110]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e114]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e116]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e118]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e120]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e122]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e124]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e126]: HIV药物禁忌症生成
+      - generic [ref=e127]:
+        - generic [ref=e128]: 7 天内
+        - link "药物禁忌症列表生成" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e130]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e132]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e134]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e136]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e138]: 药物适应症列表生成
+        - link "药学知识专家验证药物适应症" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e140]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e142]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e144]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e146]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e148]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e149] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e150]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e151] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e152]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e153] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e154]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e155] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e156]: 生成数据训练请求
+    - generic [ref=e158] [cursor=pointer]:
+      - img [ref=e161]
+      - generic [ref=e164]: 132******38
+      - img [ref=e166]
+  - generic [ref=e171]:
+    - generic [ref=e242]:
+      - generic [ref=e244]:
+        - generic [ref=e245] [cursor=pointer]: 新对话
+        - generic [ref=e246]:
+          - img [ref=e248]
+          - generic [ref=e250]: 专家模式
+      - button [ref=e251] [cursor=pointer]:
+        - img [ref=e254]
+    - generic [ref=e257]:
+      - generic [ref=e259]:
+        - generic [ref=e260]:
+          - generic [ref=e262]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: Aspirin and Caffeine Tablets | 类别: Analgesic combinations | 适应症: pain|migraine|headache | 妊娠分级: N Aspirin and Caffeine Powder | 类别: Analgesic combinations | 适应症: pain|migraine|headache | 妊娠分级: N benzocaine | 类别: Topical anesthetics | 适应症: local anesthesia|pruritus|minor skin irritation | 妊娠分级: C Methyl Salicylate, Menthol, and Capsaicin Lotion | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|osteoarthritis | 妊娠分级: N bupivacaine liposome | 类别: Local injectable anesthetics | 适应症: local anesthesia|postoperative pain | 妊娠分级: C capsaicin and diclofenac (topical) | 类别: Topical non-steroidal anti-inflammatories | 适应症: neuropathic pain|osteoarthritis|musculoskeletal pain | 妊娠分级: N capsaicin, lidocaine, menthol, and methyl salicylate (topical) | 类别: Topical anesthetics | 适应症: muscle pain|joint pain|neuropathic pain | 妊娠分级: N Methyl Salicylate, Menthol, and Capsaicin Cream and Ointment | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|osteoarthritis | 妊娠分级: N diclofenac sodium and capsaicin | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|musculoskeletal pain|neuropathic pain | 妊娠分级: N celecoxib and tramadol | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain|osteoarthritis | 妊娠分级: N Benzocaine Orally Disintegrating Tablets | 类别: Topical anesthetics | 适应症: local anesthesia|sore throat | 妊娠分级: C diclofenac sodium, capsaicin | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|musculoskeletal pain|neuropathic pain | 妊娠分级: N diclofenac sodium and capsaicin oleoresin | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|musculoskeletal pain|neuropathic pain | 妊娠分级: N Magnesium Salicylate | 类别: Salicylates | 适应症: pain|osteoarthritis|rheumatoid arthritis | 妊娠分级: C magnesium salicylate | 类别: Salicylates | 适应症: pain|osteoarthritis|rheumatoid arthritis | 妊娠分级: C sufentanil (sublingual route) | 类别: Opioids (narcotic analgesics) | 适应症: acute pain|postoperative pain | 妊娠分级: C oxycodone and aspirin (oral route) | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: B Pentafluoropropane and Tetrafluoroethane | 类别: Topical anesthetics | 适应症: local anesthesia|minor skin procedure | 妊娠分级: N Menthol Patch | 类别: | 适应症: muscle pain|joint pain | 妊娠分级: N Benzocaine Lozenges | 类别: Topical anesthetics | 适应症: sore throat|local anesthesia | 妊娠分级: C methyl salicylate, menthol, capsaicin | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|osteoarthritis | 妊娠分级: N meperidine (oral route) | 类别: Opioids (narcotic analgesics) | 适应症: pain|preoperative sedation | 妊娠分级: C naloxone and pentazocine (oral) | 类别: Narcotic analgesic combinations | 适应症: pain|opioid overdose prevention | 妊娠分级: C oliceridine | 类别: Opioids (narcotic analgesics) | 适应症: acute pain|postoperative pain | 妊娠分级: N aspirin and oxycodone | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: B Pramoxine Gel | 类别: Topical anesthetics | 适应症: pruritus|minor skin irritation|hemorrhoids | 妊娠分级: N pramoxine topical | 类别: Topical anesthetics | 适应症: pruritus|minor skin irritation|hemorrhoids | 妊娠分级: N Pramoxine Lotion | 类别: Topical anesthetics | 适应症: pruritus|minor skin irritation|hemorrhoids | 妊娠分级: N ziconotide | 类别: Miscellaneous analgesics | 适应症: chronic pain|neuropathic pain | 妊娠分级: C oxycodone hydrochloride and acetaminophen | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: C Capsaicin Patch | 类别: Miscellaneous topical agents | 适应症: neuropathic pain|postherpetic neuralgia|osteoarthritis | 妊娠分级: B celecoxib and tramadol hydrochloride | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain|osteoarthritis | 妊娠分级: N Camphor and Menthol Cream, Lotion, and Ointment | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|pruritus | 妊娠分级: N Camphor and Menthol Gel | 类别: Topical rubefacient | 适应症: muscle pain|joint pain|pruritus | 妊娠分级: N Camphor and Menthol Patch | 类别: Topical rubefacient | 适应症: muscle pain|joint pain | 妊娠分级: N oxycodone and acetaminophen (oral route) | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain | 妊娠分级: C Hydrocodone and Acetaminophen Liquid | 类别: | 适应症: acute pain|chronic pain | 妊娠分级: C clindamycin (oral/injection) | 类别: Lincomycin derivatives | 适应症: bacterial infection|skin and soft tissue infection|intra-abdominal infection|pelvic inflammatory disease|acne|endocarditis prophylaxis | 妊娠分级: B metronidazole (oral/injection) | 类别: Amebicides, Miscellaneous antibiotics | 适应症: bacterial infection|amebiasis|trichomoniasis|bacterial vaginosis|clostridium difficile infection|rosacea | 妊娠分级: B vancomycin (oral) | 类别: Glycopeptide antibiotics | 适应症: clostridium difficile infection|staphylococcal enterocolitis | 妊娠分级: C cefepime (injection) | 类别: Fourth generation cephalosporins | 适应症: bacterial infection|pneumonia|urinary tract infection|intra-abdominal infection|febrile neutropenia | 妊娠分级: B ceftazidime (injection) | 类别: Third generation cephalosporins | 适应症: bacterial infection|pneumonia|urinary tract infection|intra-abdominal infection|skin and soft tissue infection | 妊娠分级: B cefazolin (injection route) | 类别: First generation cephalosporins | 适应症: bacterial infection|skin and soft tissue infection|surgical prophylaxis|urinary tract infection | 妊娠分级: B linezolid (oral/injection) | 类别: Oxazolidinone antibiotics | 适应症: bacterial infection|skin and soft tissue infection|pneumonia|vancomycin-resistant enterococcus faecium infection | 妊娠分级: C metronidazole (intravenous route) | 类别: Amebicides, Miscellaneous antibiotics | 适应症: bacterial infection|intra-abdominal infection|pelvic inflammatory disease|sepsis | 妊娠分级: B piperacillin and tazobactam | 类别: Beta-lactamase inhibitors | 适应症: bacterial infection|intra-abdominal infection|urinary tract infection|skin and soft tissue infection|pneumonia|sepsis | 妊娠分级: B cefazolin (injection) | 类别: First generation cephalosporins | 适应症: bacterial infection|skin and soft tissue infection|surgical prophylaxis|urinary tract infection | 妊娠分级: B clindamycin (oral route) | 类别: Lincomycin derivatives | 适应症: bacterial infection|skin and soft tissue infection|acne|endocarditis prophylaxis | 妊娠分级: B clindamycin (intramuscular route, intravenous route) | 类别: Lincomycin derivatives | 适应症: bacterial infection|intra-abdominal infection|pelvic inflammatory disease|sepsis | 妊娠分级: B tobramycin (inhalation) | 类别: Aminoglycosides, Inhaled anti-infectives | 适应症: cystic fibrosis|pseudomonas aeruginosa infection|bronchiectasis | 妊娠分级: D 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e265]:
+            - button [ref=e266] [cursor=pointer]:
+              - img [ref=e269]
+            - button [ref=e271] [cursor=pointer]:
+              - img [ref=e274]
+        - generic [ref=e279]:
+          - generic [ref=e282]:
+            - generic [ref=e283]: json
+            - generic [ref=e285]:
+              - button "复制" [disabled] [ref=e286]:
+                - img [ref=e288]
+                - generic [ref=e290]: 复制
+              - button "下载" [disabled] [ref=e291]:
+                - img [ref=e293]
+                - generic [ref=e295]: 下载
+          - generic [ref=e296]:
+            - generic [ref=e297]: "["
+            - generic [ref=e298]: "{"
+            - generic [ref=e299]: "\"generic_name\": \"Aspirin and Caffeine Tablets\","
+            - generic [ref=e300]: "\"interactions\": ["
+            - generic [ref=e301]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"warfarin\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重增加出血风险\", \"mechanism\": \"协同抗血小板作用及胃粘膜损伤\"},"
+            - generic [ref=e302]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"other NSAIDs\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道出血和溃疡风险\", \"mechanism\": \"叠加的COX抑制及胃粘膜损伤作用\"},"
+            - generic [ref=e303]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"heparins\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抗血小板作用与抗凝作用协同\"},"
+            - generic [ref=e339]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"水杨酸减少甲氨蝶呤肾清除\"},"
+            - generic [ref=e340]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"SSRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"SSRIs抑制血小板5-HT摄取，削弱止血功能，与阿司匹林协同抗血小板\"},"
+            - generic [ref=e341]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"ACE inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾损害风险\", \"mechanism\": \"前列腺素抑制介导的肾血流减少\"},"
+            - generic [ref=e342]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"loop diuretics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低利尿效果\", \"mechanism\": \"抑制肾前列腺素合成，减少肾血流\"},"
+            - generic [ref=e343]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"systemic corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"协同胃粘膜损伤作用\"},"
+            - generic [ref=e344]: "{\"drug_a\": \"caffeine\", \"drug_b\": \"CYP1A2 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加咖啡因血药浓度及不良反应(失眠、心悸)\", \"mechanism\": \"CYP1A2代谢抑制\"},"
+            - generic [ref=e345]: "{\"drug_a\": \"caffeine\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"严重高血压、心律失常风险\", \"mechanism\": \"咖啡因增强MAOIs的儿茶酚胺释放效应\"}"
+            - generic [ref=e346]: "]"
+            - generic [ref=e347]: "},"
+            - generic [ref=e348]: "{"
+            - generic [ref=e349]: "\"generic_name\": \"Aspirin and Caffeine Powder\","
+            - generic [ref=e350]: "\"interactions\": ["
+            - generic [ref=e351]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"warfarin\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重增加出血风险\", \"mechanism\": \"协同抗血小板作用及胃粘膜损伤\"},"
+            - generic [ref=e352]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"other NSAIDs\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道出血和溃疡风险\", \"mechanism\": \"叠加的COX抑制及胃粘膜损伤作用\"},"
+            - generic [ref=e353]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"heparins\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抗血小板作用与抗凝作用协同\"},"
+            - generic [ref=e354]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性(骨髓抑制、肾毒性)\", \"mechanism\": \"水杨酸减少甲氨蝶呤肾清除\"},"
+            - generic [ref=e355]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"SSRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"SSRIs抑制血小板5-HT摄取，协同抗血小板\"},"
+            - generic [ref=e356]: "{\"drug_a\": \"caffeine\", \"drug_b\": \"CYP1A2 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加咖啡因血药浓度及不良反应\", \"mechanism\": \"CYP1A2代谢抑制\"}"
+            - generic [ref=e357]: "]"
+            - generic [ref=e358]: "},"
+            - generic [ref=e359]: "{"
+            - generic [ref=e360]: "\"generic_name\": \"benzocaine\","
+            - generic [ref=e361]: "\"interactions\": ["
+            - generic [ref=e362]: "{\"drug_a\": \"benzocaine\", \"drug_b\": \"sulfonamide antibiotics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"拮抗磺胺类药物的抗菌作用\", \"mechanism\": \"PABA衍生物代谢产物拮抗磺胺作用\"}"
+            - generic [ref=e363]: "]"
+            - generic [ref=e364]: "},"
+            - generic [ref=e365]: "{"
+            - generic [ref=e366]: "\"generic_name\": \"Methyl Salicylate, Menthol, and Capsaicin Lotion\","
+            - generic [ref=e367]: "\"interactions\": ["
+            - generic [ref=e368]: "{\"drug_a\": \"methyl salicylate\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"大剂量或大面积外用可能增加出血风险\", \"mechanism\": \"水杨酸的系统吸收导致抗血小板效应\"},"
+            - generic [ref=e369]: "{\"drug_a\": \"methyl salicylate\", \"drug_b\": \"other salicylates\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加水杨酸毒性风险\", \"mechanism\": \"叠加的水杨酸暴露\"}"
+            - generic [ref=e370]: "]"
+            - generic [ref=e371]: "},"
+            - generic [ref=e372]: "{"
+            - generic [ref=e373]: "\"generic_name\": \"bupivacaine liposome\","
+            - generic [ref=e374]: "\"interactions\": ["
+            - generic [ref=e375]: "{\"drug_a\": \"bupivacaine\", \"drug_b\": \"class I antiarrhythmics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加心脏毒性风险(心律失常、心肌抑制)\", \"mechanism\": \"叠加的钠通道阻断及心肌抑制作用\"},"
+            - generic [ref=e376]: "{\"drug_a\": \"bupivacaine\", \"drug_b\": \"CYP3A4 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加布比卡因血药浓度和毒性风险\", \"mechanism\": \"CYP3A4代谢抑制\"},"
+            - generic [ref=e377]: "{\"drug_a\": \"bupivacaine\", \"drug_b\": \"other local anesthetics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加全身毒性风险\", \"mechanism\": \"叠加的神经和心脏毒性\"}"
+            - generic [ref=e378]: "]"
+            - generic [ref=e379]: "},"
+            - generic [ref=e380]: "{"
+            - generic [ref=e381]: "\"generic_name\": \"capsaicin and diclofenac (topical)\","
+            - generic [ref=e382]: "\"interactions\": ["
+            - generic [ref=e383]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"oral NSAIDs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加NSAID相关的全身不良反应风险\", \"mechanism\": \"叠加COX抑制的系统效应\"},"
+            - generic [ref=e384]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"局部吸收的diclofenac产生抗血小板效应\"},"
+            - generic [ref=e385]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"ACE inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果\", \"mechanism\": \"前列腺素合成抑制\"}"
+            - generic [ref=e386]: "]"
+            - generic [ref=e387]: "},"
+            - generic [ref=e388]: "{"
+            - generic [ref=e389]: "\"generic_name\": \"capsaicin, lidocaine, menthol, and methyl salicylate (topical)\","
+            - generic [ref=e390]: "\"interactions\": ["
+            - generic [ref=e391]: "{\"drug_a\": \"lidocaine\", \"drug_b\": \"class I antiarrhythmics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加心脏毒性风险\", \"mechanism\": \"叠加的钠通道阻断作用\"},"
+            - generic [ref=e392]: "{\"drug_a\": \"methyl salicylate\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"大面积使用增加出血风险\", \"mechanism\": \"水杨酸系统吸收后抗血小板效应\"},"
+            - generic [ref=e393]: "{\"drug_a\": \"lidocaine\", \"drug_b\": \"CYP3A4 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加利多卡因血药浓度和毒性\", \"mechanism\": \"CYP3A4代谢抑制\"}"
+            - generic [ref=e394]: "]"
+            - generic [ref=e395]: "},"
+            - generic [ref=e396]: "{"
+            - generic [ref=e397]: "\"generic_name\": \"diclofenac sodium and capsaicin\","
+            - generic [ref=e398]: "\"interactions\": ["
+            - generic [ref=e399]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"oral NSAIDs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加NSAID相关的全身不良反应风险\", \"mechanism\": \"叠加COX抑制的系统效应\"},"
+            - generic [ref=e400]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"局部吸收的diclofenac产生抗血小板效应\"}"
+            - generic [ref=e401]: "]"
+            - generic [ref=e402]: "},"
+            - generic [ref=e403]: "{"
+            - generic [ref=e404]: "\"generic_name\": \"celecoxib and tramadol\","
+            - generic [ref=e405]: "\"interactions\": ["
+            - generic [ref=e406]: "{\"drug_a\": \"tramadol\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"5-羟色胺综合征风险\", \"mechanism\": \"5-HT再摄取抑制与MAO抑制协同增加5-HT水平\"},"
+            - generic [ref=e407]: "{\"drug_a\": \"tramadol\", \"drug_b\": \"SSRIs\", \"interaction_type\": \"major\", \"clinical_effect\": \"5-羟色胺综合征和癫痫风险增加\", \"mechanism\": \"协同5-HT再摄取抑制\"},"
+            - generic [ref=e408]: "{\"drug_a\": \"tramadol\", \"drug_b\": \"SNRIs\", \"interaction_type\": \"major\", \"clinical_effect\": \"5-羟色胺综合征和癫痫风险增加\", \"mechanism\": \"协同5-HT和NE再摄取抑制\"},"
+            - generic [ref=e409]: "{\"drug_a\": \"tramadol\", \"drug_b\": \"triptans\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"5-羟色胺综合征风险\", \"mechanism\": \"协同5-HT能效应\"},"
+            - generic [ref=e410]: "{\"drug_a\": \"tramadol\", \"drug_b\": \"benzodiazepines\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"过度镇静和呼吸抑制风险增加\", \"mechanism\": \"CNS抑制协同作用\"},"
+            - generic [ref=e411]: "{\"drug_a\": \"tramadol\", \"drug_b\": \"CYP2D6 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低曲马多镇痛效果\", \"mechanism\": \"抑制曲马多转化为活性代谢物O-去甲基曲马多\"},"
+            - generic [ref=e412]: "{\"drug_a\": \"celecoxib\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"CYP2C9竞争性抑制，减少华法林代谢\"},"
+            - generic [ref=e413]: "{\"drug_a\": \"celecoxib\", \"drug_b\": \"ACE inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果，增加肾损害风险\", \"mechanism\": \"前列腺素合成抑制\"},"
+            - generic [ref=e414]: "{\"drug_a\": \"celecoxib\", \"drug_b\": \"CYP2C9 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加塞来昔布血药浓度和不良反应\", \"mechanism\": \"CYP2C9代谢抑制\"}"
+            - generic [ref=e415]: "]"
+            - generic [ref=e416]: "},"
+            - generic [ref=e417]: "{"
+            - generic [ref=e418]: "\"generic_name\": \"Benzocaine Orally Disintegrating Tablets\","
+            - generic [ref=e419]: "\"interactions\": ["
+            - generic [ref=e420]: "{\"drug_a\": \"benzocaine\", \"drug_b\": \"sulfonamide antibiotics\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"拮抗磺胺类药物的抗菌作用\", \"mechanism\": \"PABA衍生物代谢产物拮抗磺胺作用\"}"
+            - generic [ref=e421]: "]"
+            - generic [ref=e422]: "},"
+            - generic [ref=e423]: "{"
+            - generic [ref=e424]: "\"generic_name\": \"diclofenac sodium, capsaicin\","
+            - generic [ref=e425]: "\"interactions\": ["
+            - generic [ref=e426]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"oral NSAIDs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加NSAID相关的全身不良反应风险\", \"mechanism\": \"叠加COX抑制的系统效应\"},"
+            - generic [ref=e427]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"局部吸收的diclofenac产生抗血小板效应\"}"
+            - generic [ref=e428]: "]"
+            - generic [ref=e429]: "},"
+            - generic [ref=e430]: "{"
+            - generic [ref=e431]: "\"generic_name\": \"diclofenac sodium and capsaicin oleoresin\","
+            - generic [ref=e432]: "\"interactions\": ["
+            - generic [ref=e433]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"oral NSAIDs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加NSAID相关的全身不良反应风险\", \"mechanism\": \"叠加COX抑制的系统效应\"},"
+            - generic [ref=e434]: "{\"drug_a\": \"diclofenac\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"局部吸收的diclofenac产生抗血小板效应\"}"
+            - generic [ref=e435]: "]"
+            - generic [ref=e436]: "},"
+            - generic [ref=e437]: "{"
+            - generic [ref=e438]: "\"generic_name\": \"Magnesium Salicylate\","
+            - generic [ref=e439]: "\"interactions\": ["
+            - generic [ref=e440]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"warfarin\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重增加出血风险\", \"mechanism\": \"协同抗血小板作用及胃粘膜损伤\"},"
+            - generic [ref=e441]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"other NSAIDs\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道出血和溃疡风险\", \"mechanism\": \"叠加的COX抑制及胃粘膜损伤作用\"},"
+            - generic [ref=e442]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性\", \"mechanism\": \"水杨酸减少甲氨蝶呤肾清除\"},"
+            - generic [ref=e443]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"heparins\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加出血风险\", \"mechanism\": \"抗血小板作用与抗凝作用协同\"},"
+            - generic [ref=e444]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"SSRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"抑制血小板功能协同作用\"},"
+            - generic [ref=e445]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"systemic corticosteroids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加胃肠道溃疡和出血风险\", \"mechanism\": \"协同胃粘膜损伤作用\"},"
+            - generic [ref=e446]: "{\"drug_a\": \"magnesium salicylate\", \"drug_b\": \"ACE inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"降低降压效果\", \"mechanism\": \"前列腺素合成抑制\"}"
+            - generic [ref=e447]: "]"
+            - generic [ref=e448]: "},"
+            - generic [ref=e449]: "{"
+            - generic [ref=e450]: "\"generic_name\": \"sufentanil (sublingual route)\","
+            - generic [ref=e451]: "\"interactions\": ["
+            - generic [ref=e452]: "{\"drug_a\": \"sufentanil\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制、低血压、昏迷\", \"mechanism\": \"MAOIs增强阿片类药物的CNS和呼吸抑制\"},"
+            - generic [ref=e453]: "{\"drug_a\": \"sufentanil\", \"drug_b\": \"other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制、镇静和死亡风险\", \"mechanism\": \"协同CNS和呼吸抑制作用\"},"
+            - generic [ref=e454]: "{\"drug_a\": \"sufentanil\", \"drug_b\": \"benzodiazepines\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制和死亡风险\", \"mechanism\": \"协同CNS和呼吸抑制\"},"
+            - generic [ref=e455]: "{\"drug_a\": \"sufentanil\", \"drug_b\": \"CYP3A4 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加舒芬太尼血药浓度和呼吸抑制风险\", \"mechanism\": \"CYP3A4代谢抑制\"}"
+            - generic [ref=e456]: "]"
+            - generic [ref=e457]: "},"
+            - generic [ref=e458]: "{"
+            - generic [ref=e459]: "\"generic_name\": \"oxycodone and aspirin (oral route)\","
+            - generic [ref=e460]: "\"interactions\": ["
+            - generic [ref=e461]: "{\"drug_a\": \"oxycodone\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制、低血压、昏迷\", \"mechanism\": \"MAOIs增强阿片类药物的CNS和呼吸抑制\"},"
+            - generic [ref=e462]: "{\"drug_a\": \"oxycodone\", \"drug_b\": \"other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制、镇静和死亡风险\", \"mechanism\": \"协同CNS和呼吸抑制作用\"},"
+            - generic [ref=e463]: "{\"drug_a\": \"oxycodone\", \"drug_b\": \"benzodiazepines\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制和死亡风险\", \"mechanism\": \"协同CNS和呼吸抑制\"},"
+            - generic [ref=e464]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"warfarin\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重增加出血风险\", \"mechanism\": \"协同抗血小板作用及胃粘膜损伤\"},"
+            - generic [ref=e465]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"other NSAIDs\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加胃肠道出血和溃疡风险\", \"mechanism\": \"叠加的COX抑制及胃粘膜损伤作用\"},"
+            - generic [ref=e466]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"methotrexate\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加甲氨蝶呤毒性\", \"mechanism\": \"水杨酸减少甲氨蝶呤肾清除\"},"
+            - generic [ref=e467]: "{\"drug_a\": \"oxycodone\", \"drug_b\": \"CYP3A4 inhibitors\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加羟考酮血药浓度和呼吸抑制风险\", \"mechanism\": \"CYP3A4代谢抑制\"},"
+            - generic [ref=e468]: "{\"drug_a\": \"aspirin\", \"drug_b\": \"SSRIs\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加上消化道出血风险\", \"mechanism\": \"协同抗血小板效应\"}"
+            - generic [ref=e469]: "]"
+            - generic [ref=e470]: "},"
+            - generic [ref=e471]: "{"
+            - generic [ref=e472]: "\"generic_name\": \"methyl salicylate, menthol, capsaicin\","
+            - generic [ref=e473]: "\"interactions\": ["
+            - generic [ref=e474]: "{\"drug_a\": \"methyl salicylate\", \"drug_b\": \"warfarin\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"大面积使用增加出血风险\", \"mechanism\": \"水杨酸系统吸收后抗血小板效应\"},"
+            - generic [ref=e475]: "{\"drug_a\": \"methyl salicylate\", \"drug_b\": \"other salicylates\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"增加水杨酸毒性风险\", \"mechanism\": \"叠加的水杨酸暴露\"}"
+            - generic [ref=e476]: "]"
+            - generic [ref=e477]: "},"
+            - generic [ref=e478]: "{"
+            - generic [ref=e479]: "\"generic_name\": \"meperidine (oral route)\","
+            - generic [ref=e480]: "\"interactions\": ["
+            - generic [ref=e481]: "{\"drug_a\": \"meperidine\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"5-羟色胺综合征(高热、肌僵、癫痫)，可危及生命\", \"mechanism\": \"哌替啶抑制5-HT再摄取，MAOIs阻断5-HT代谢\"},"
+            - generic [ref=e482]: "{\"drug_a\": \"meperidine\", \"drug_b\": \"SSRIs\", \"interaction_type\": \"major\", \"clinical_effect\": \"5-羟色胺综合征风险增加\", \"mechanism\": \"协同5-HT再摄取抑制\"},"
+            - generic [ref=e483]: "{\"drug_a\": \"meperidine\", \"drug_b\": \"SNRIs\", \"interaction_type\": \"major\", \"clinical_effect\": \"5-羟色胺综合征风险增加\", \"mechanism\": \"协同5-HT和NE再摄取抑制\"},"
+            - generic [ref=e484]: "{\"drug_a\": \"meperidine\", \"drug_b\": \"selegiline\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重CNS毒性、5-羟色胺综合征\", \"mechanism\": \"MAO-B抑制及5-HT能协同效应\"},"
+            - generic [ref=e485]: "{\"drug_a\": \"meperidine\", \"drug_b\": \"other CNS depressants\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"过度镇静和呼吸抑制\", \"mechanism\": \"协同CNS抑制作用\"}"
+            - generic [ref=e486]: "]"
+            - generic [ref=e487]: "},"
+            - generic [ref=e488]: "{"
+            - generic [ref=e489]: "\"generic_name\": \"naloxone and pentazocine (oral)\","
+            - generic [ref=e490]: "\"interactions\": ["
+            - generic [ref=e491]: "{\"drug_a\": \"pentazocine\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重CNS毒性风险\", \"mechanism\": \"MAOIs增强阿片类药物效应\"},"
+            - generic [ref=e492]: "{\"drug_a\": \"pentazocine\", \"drug_b\": \"other CNS depressants\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"过度镇静和呼吸抑制\", \"mechanism\": \"协同CNS抑制作用\"},"
+            - generic [ref=e493]: "{\"drug_a\": \"pentazocine\", \"drug_b\": \"other opioids\", \"interaction_type\": \"moderate\", \"clinical_effect\": \"拮抗纯μ受体激动剂的镇痛作用，可能诱发戒断\", \"mechanism\": \"部分μ受体拮抗/激动剂特性引起的药效学拮抗\"}"
+            - generic [ref=e494]: "]"
+            - generic [ref=e495]: "},"
+            - generic [ref=e496]: "{"
+            - generic [ref=e497]: "\"generic_name\": \"oliceridine\","
+            - generic [ref=e498]: "\"interactions\": ["
+            - generic [ref=e499]: "{\"drug_a\": \"oliceridine\", \"drug_b\": \"MAO inhibitors\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制、低血压\", \"mechanism\": \"MAOIs增强阿片类药物的CNS和呼吸抑制\"},"
+            - generic [ref=e500]: "{\"drug_a\": \"oliceridine\", \"drug_b\": \"other CNS depressants\", \"interaction_type\": \"major\", \"clinical_effect\": \"严重呼吸抑制和死亡"
+          - img [ref=e304]
+          - img [ref=e306]
+      - generic [ref=e308]:
+        - generic [ref=e311]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e313]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e314]:
+            - button "深度思考" [ref=e315] [cursor=pointer]:
+              - img [ref=e317]
+              - generic [ref=e320]: 深度思考
+            - button "智能搜索" [ref=e321] [cursor=pointer]:
+              - img [ref=e323]
+              - generic [ref=e325]: 智能搜索
+            - generic [ref=e326]:
+              - button [ref=e327] [cursor=pointer]:
+                - img [ref=e330]
+              - button [ref=e333] [cursor=pointer]:
+                - img [ref=e336]
+        - generic [ref=e338]: 内容由 AI 生成，请仔细甄别

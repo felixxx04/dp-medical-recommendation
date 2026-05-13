@@ -1,0 +1,81 @@
+<h2>Medical Recommendation System — Current Problems</h2>
+<p class="subtitle">DeepSeek Verification: 61.1% APPROPRIATE, 37.5% PARTIALLY, 1.4% INAPPROPRIATE</p>
+
+<div class="section">
+  <h3>Current 3-Layer Architecture</h3>
+  <div style="background:#1a1a2e; border-radius:12px; padding:24px; margin:16px 0; font-family:monospace; font-size:13px; line-height:1.7;">
+    <div style="color:#00d4aa; margin-bottom:8px;">Input: Chinese Disease Name → disease_mapper → English Disease</div>
+
+    <div style="display:flex; gap:12px; margin-top:16px;">
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:14px; border-left:3px solid #ff6b6b;">
+        <div style="color:#ff6b6b; font-weight:bold;">Layer 1: SafetyFilter</div>
+        <div style="color:#a0a0b0;">Hard Exclusion (21 rules)</div>
+        <div style="color:#666; margin-top:6px;">Allergies · Contraindications · MAOI+SSRI<br>Pregnancy X · Pediatric · Antibiotics for Viral<br>PPI for Gallbladder · IBD for Enteritis<br>Corticosteroids for Fungal · BZD for OCD</div>
+      </div>
+
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:14px; border-left:3px solid #ffd93d;">
+        <div style="color:#ffd93d; font-weight:bold;">Layer 2: RuleMarker</div>
+        <div style="color:#a0a0b0;">Soft Warnings (non-exclusion)</div>
+        <div style="color:#666; margin-top:6px;">Relative Contraindications<br>Moderate Drug Interactions<br>Pregnancy C/D · Renal/Hepatic</div>
+      </div>
+
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:14px; border-left:3px solid #6c5ce7;">
+        <div style="color:#6c5ce7; font-weight:bold;">Layer 3: DeepFM Ranking</div>
+        <div style="color:#a0a0b0;">ML Scoring + DP Noise</div>
+        <div style="color:#666; margin-top:6px;">Lost Disease Boost<br>Disease-Balanced Selection<br>Evidence-Level Priority</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Problem #1: No Recommendation (Empty Results)</h3>
+  <div style="background:#2d1f1f; border-radius:8px; padding:18px; border-left:4px solid #ff6b6b; margin:12px 0;">
+    <div style="display:flex; gap:16px;">
+      <div style="flex:1;">
+        <div style="color:#ff6b6b; font-weight:bold; margin-bottom:8px;">Affected Disease Types:</div>
+        <div style="color:#ddd; font-size:13px; line-height:1.8;">
+          • <strong>Viral diseases</strong> — 病毒感染, 上呼吸道感染 (no specific antiviral in DB)<br>
+          • <strong>Rare/orphan diseases</strong> — 肺纤维化 (limited treatment options)<br>
+          • <strong>Non-vocab diseases</strong> — mapped to wrong proxy → all candidates excluded
+        </div>
+      </div>
+    </div>
+    <div style="background:#3d2a2a; border-radius:6px; padding:12px; margin-top:12px;">
+      <div style="color:#ff9999; font-size:12px; font-family:monospace;">
+        <strong>Root Cause Chain:</strong><br>
+        Disease → mapper uses proxy word → proxy word matches only unrelated drugs → SafetyFilter excludes them → 0 results
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Problem #2: Wrong/Inappropriate Recommendation</h3>
+  <div style="background:#1f2d1f; border-radius:8px; padding:18px; border-left:4px solid #ffd93d; margin:12px 0;">
+    <div style="display:flex; gap:16px;">
+      <div style="flex:1;">
+        <div style="color:#ffd93d; font-weight:bold; margin-bottom:8px;">Failure Modes:</div>
+        <div style="color:#ddd; font-size:13px; line-height:1.8;">
+          <strong>A. Category Mismatch:</strong> Antihypertensives for 白内障 (fixed via SafetyFilter rule #19)<br>
+          <strong>B. Wrong Drug Class:</strong> Antibiotics for viral URI (fixed via rule #10)<br>
+          <strong>C. DP Noise Reversal:</strong> Low-score correct drug pushed below high-score wrong drug<br>
+          <strong>D. Proxy Disease Contamination:</strong> "enteritis" → "diarrhea" proxy → IBS drugs instead of anti-infectives
+        </div>
+      </div>
+    </div>
+    <div style="background:#2a3d2a; border-radius:6px; padding:12px; margin-top:12px;">
+      <div style="color:#99ff99; font-size:12px; font-family:monospace;">
+        <strong>Remaining After Fixes: 27 diseases APPROPRIATE→PARTIALLY degraded</strong><br>
+        e.g. 高血压 (antihypertensives are correct but ranking suboptimal),<br>
+        癫痫 (anti-epileptics correct but DP noise affects ordering), 肺炎 (antibiotics correct but broad-spectrum vs narrow)
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px; padding:14px; background:#1a1a2e; border-radius:8px; text-align:center;">
+  <div style="color:#a0a0b0; font-size:13px;">
+    <strong>Key Question:</strong> How should we redesign the pipeline to address both gaps — diseases with no path to recommendation, and recommendation paths that lead to wrong drugs?
+  </div>
+</div>

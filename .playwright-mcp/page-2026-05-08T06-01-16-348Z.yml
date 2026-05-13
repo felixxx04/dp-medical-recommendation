@@ -1,0 +1,64 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - generic [ref=e85] [cursor=pointer]: 新对话
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - generic [ref=e90]: 快速模式
+      - button [ref=e91] [cursor=pointer]:
+        - img [ref=e94]
+    - generic [ref=e97]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 过敏性皮炎 | Cetirizine; Betamethasone; Clobetasol; Desloratadine; Desonide 疾病: 过敏性鼻炎 | Cetirizine; Mometasone; Olopatadine; fluticasone; Loratadine 疾病: 酒渣鼻 | Doxycycline; Erythromycin; Oxytetracycline; Spironolactone; Tazarotene 疾病: 酗酒 | Alprazolam; Aripiprazole; Bupropion; Buspirone; Chlordiazepoxide 疾病: 银屑病 | Betamethasone; Clobetasol; Desonide; Desoximetasone; Fluocinolone 疾病: 银屑病关节炎 | Diclofenac; Apremilast; Betamethasone; Calcitriol; Clobetasol 疾病: 链球菌咽炎 | Amoxicillin; Azithromycin; Cefaclor; Cefadroxil; Cefdinir 疾病: 阑尾炎 | Amoxicillin-Clavulanate; Cefotaxime; Cefoxitin; Ceftaroline; Ceftibuten 疾病: 阳痿 | Sildenafil; Tadalafil; Papaverine; Vardenafil; alprostadil 疾病: 阴道炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Cefaclor; Cefadroxil 疾病: 阿尔茨海默病 | aducanumab; Lorazepam; vitamin E; vitamin e(oral); Vitamin E Capsules 疾病: 附件炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Ampicillin-Sulbactam; Cefaclor 疾病: 青光眼 | Timolol; betaxolol; Brimonidine; Brinzolamide; Latanoprost 疾病: 预防中风 | Amlodipine; Fluvastatin; Amlodipine-Benazepril; Amlodipine-Valsartan; Benazepril 疾病: 颈椎病 | Aspirin; Baclofen; Carisoprodol; Cyclobenzaprine; Diclofenac 疾病: 骨关节炎 | Diclofenac; Etodolac; Flurbiprofen; Ibuprofen; Indomethacin 疾病: 骨质疏松 | Estradiol; Pamidronate; Calcium Carbonate; Calcitonin; Raloxifene 疾病: 骨质疏松症 | Estradiol; Pamidronate; Calcium Carbonate; Calcitonin; Raloxifene 疾病: 高胆固醇 | Amlodipine; Colesevelam; Ezetimibe; Fenofibrate; Fluvastatin 疾病: 高脂血症 | Colesevelam; Amlodipine; amlodipine+atorvastatin; niacin; niacin(oral) 疾病: 高血压 | Amlodipine; Amlodipine-Benazepril; Amlodipine-Valsartan; Benazepril; Bumetanide 疾病: 高血脂 | Colesevelam; Amlodipine; amlodipine+atorvastatin; niacin; niacin(oral) 疾病: 鼻塞 | Cetirizine; Mometasone; Olopatadine; fluticasone; Loratadine 疾病: 鼻窦炎 | Amoxicillin; Amoxicillin-Clavulanate; Cefaclor; Cefdinir; Cefpodoxime 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e105]:
+            - button [ref=e106] [cursor=pointer]:
+              - img [ref=e109]
+            - button [ref=e111] [cursor=pointer]:
+              - img [ref=e114]
+        - generic [ref=e118]:
+          - generic [ref=e120] [cursor=pointer]:
+            - img [ref=e122]
+            - generic [ref=e125]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e127]
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: 我们针对每种疾病评估前5个药物。注意有些疾病有重复或类似。需要医学知识。
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - paragraph [ref=e137]: 过敏性皮炎：推荐Cetirizine（西替利嗪，抗组胺药，适合过敏性皮炎的口服药），Betamethasone（倍他米松，糖皮质激素，适合外用或系统用），Clobetasol（氯倍他索，强效激素），Desloratadine（地氯雷他定，抗组胺药），Desonide（地奈德，弱效激素）。所有都是治疗过敏性皮炎的常用药物。抗组胺药止痒，激素抗炎。所以APPROPRIATE。
+              - listitem [ref=e138]:
+                - paragraph [ref=e139]: 过敏性鼻炎：Cetirizine（口服抗组胺），Mometasone（莫米松鼻喷雾），Olopatadine（奥洛他定，鼻喷雾或口服？通常用于过敏性结膜炎也用于鼻炎），fluticasone（氟替卡松鼻喷雾），Loratadine（口服抗组胺）。这些都是一线药物。APPROPRIATE。
+              - listitem [ref=e140]:
+                - paragraph [ref=e141]: 酒渣鼻：Doxycycline（多西环素，口服抗生素，用于炎症性酒渣鼻），Erythromycin（红霉素，外用或口服），Oxytetracycline（土霉素，四环素类，可用于酒渣鼻），Spironolactone（螺内酯，主要用于痤疮？酒渣鼻不常用，但可能用于女性荷尔蒙相关？不是
+      - generic [ref=e143]:
+        - generic [ref=e146]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e148]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e149]:
+            - button "深度思考" [pressed] [ref=e150] [cursor=pointer]:
+              - img [ref=e152]
+              - generic [ref=e155]: 深度思考
+            - button "智能搜索" [pressed] [ref=e156] [cursor=pointer]:
+              - img [ref=e158]
+              - generic [ref=e160]: 智能搜索
+            - generic [ref=e161]:
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e165]
+              - button [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+        - generic [ref=e173]: 内容由 AI 生成，请仔细甄别

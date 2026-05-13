@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 憩室炎
+推荐药物:
+1. Amikacin (氨基糖苷类抗生素) - 匹配疾病: diverticulitis of gastrointestinal tract
+2. Ciprofloxacin (氟喹诺酮类) - 匹配疾病: 腹泻
+3. Tigecycline (甘氨环素类抗生素) - 匹配疾病: diverticulitis of gastrointestinal tract
+4. Amoxicillin (青霉素类抗生素) - 匹配疾病: diverticulitis of gastrointestinal tract
+---
+疾病: 子宫内膜异位症
+推荐药物:
+1. Norethindrone (孕激素) - 匹配疾病: 子宫内膜异位症
+2. Cimetidine (H2受体阻断剂) - 匹配疾病: 胃痛
+3. Medroxyprogesterone (孕激素) - 匹配疾病: 子宫内膜异位症
+4. Goserelin (GnRH激动剂) - 匹配疾病: 子宫内膜异位症
+---
+疾病: 纤维肌痛
+推荐药物:
+1. Fentanyl (阿片激动剂) - 匹配疾病: 慢性疼痛
+2. Amitriptyline (三环类抗抑郁药) - 匹配疾病: 纤维肌痛
+3. Etodolac (非甾体抗炎药) - 匹配疾病: 关节痛
+4. Ibuprofen (非甾体抗炎药) - 匹配疾病: 关节痛
+---
+疾病: 胀气
+推荐药物:
+1. Cimetidine (H2受体阻断剂) - 匹配疾病: 胃痛
+2. Aluminum Hydroxide, Magnesium Hydroxide, and Simethicone Suspension (抗酸药) - 匹配疾病: 胀气
+3. Famotidine (H2受体阻断剂) - 匹配疾病: 胃痛
+4. Lansoprazole (质子泵抑制剂) - 匹配疾病: 胃痛
+---
+疾病: 痔疮
+推荐药物:
+1. hydrocortisone and pramoxine (topical/rectal) (肛肠制剂) - 匹配疾病: 痔疮
+2. Magaldrate (抗酸药) - 匹配疾病: 胃痛
+3. Nizatidine (H2受体阻断剂) - 匹配疾病: 胃痛
+4. Pantoprazole (质子泵抑制剂) - 匹配疾病: 胃痛
+---
+疾病: HIV
+推荐药物:
+1. Raltegravir (整合酶链转移抑制剂) - 匹配疾病: hiv
+2. Enfuvirtide (融合抑制剂) - 匹配疾病: hiv
+3. Efavirenz (NNRTI(非核苷逆转录酶抑制剂)) - 匹配疾病: hiv
+4. Rilpivirine (NNRTI(非核苷逆转录酶抑制剂)) - 匹配疾病: hiv
+---
+疾病: 关节疼痛
+推荐药物:
+1. Diclofenac (非甾体抗炎药) - 匹配疾病: 骨关节炎
+2. Etodolac (非甾体抗炎药) - 匹配疾病: 骨关节炎
+3. Flurbiprofen (非甾体抗炎药) - 匹配疾病: 骨关节炎
+4. Meloxicam (非甾体抗炎药) - 匹配疾病: 骨关节炎
+---
+疾病: 神经痛
+推荐药物:
+1. acetaminophen () - 匹配疾病: 背痛
+2. Amitriptyline (三环类抗抑郁药) - 匹配疾病: nerve pain
+3. Desipramine (三环类抗抑郁药) - 匹配疾病: nerve pain
+4. Imipramine (三环类抗抑郁药) - 匹配疾病: nerve pain
+---
+疾病: 链球菌咽炎
+推荐药物:
+1. Cefaclor (头孢菌素类抗生素) - 匹配疾病: pharyngitis due to streptococcus pyogenes
+2. Azithromycin (大环内酯类抗生素) - 匹配疾病: 喉咙痛
+3. Cefadroxil (头孢菌素类抗生素) - 匹配疾病: pharyngitis due to streptococcus pyogenes
+4. Cefdinir (头孢菌素类抗生素) - 匹配疾病: pharyngitis due to streptococcus pyogenes
+---
+疾病: 预防中风
+推荐药物:
+1. Bumetanide (袢利尿剂) - 匹配疾病: 高血压
+2. Lovastatin (他汀类) - 匹配疾病: prevention of cerebrovascular accident
+3. Captopril (ACE抑制剂) - 匹配疾病: 高血压
+4. Enalapril (ACE抑制剂) - 匹配疾病: 高血压

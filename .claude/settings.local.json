@@ -82,7 +82,30 @@
       "WebFetch(domain:zhuanlan.zhihu.com)",
       "WebFetch(domain:www.cnki.net)",
       "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --remote-debugging-port=9222 --user-data-dir=\"C:/tmp/edge-debug-profile\")",
-      "Bash(CDP_PORT=9222 CDP_PROXY_PORT=3456 node scripts/cdp-proxy.mjs)"
+      "Bash(CDP_PORT=9222 CDP_PROXY_PORT=3456 node scripts/cdp-proxy.mjs)",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(/c/Python312/python.exe *)",
+      "Bash(claude skill *)",
+      "Bash(git config *)",
+      "Bash(python3 *)",
+      "Bash(.venv/Scripts/python -c \"import json; d=json.load\\(open\\('data/pipeline_data.json'\\)\\); print\\('Type:', type\\(d\\).__name__\\); print\\('Total samples:', len\\(d\\)\\); print\\('Keys:', list\\(d.keys\\(\\)\\)[:5] if isinstance\\(d, dict\\) else 'N/A'\\); print\\('First item:', json.dumps\\(d[0] if isinstance\\(d, list\\) else list\\(d.values\\(\\)\\)[0], indent=2\\)[:500] if isinstance\\(d, \\(list, dict\\)\\) else 'N/A'\\)\")",
+      "Bash(.venv/Scripts/python -c \"import json; d=json.load\\(open\\('saved_models/metadata.json'\\)\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(.venv/Scripts/python *)",
+      "Read(//d/bigdata/**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Read(//c/Users/asus/**)",
+      "Bash(export JAVA_HOME=\"D:/bigdata/idea_jdk17/jdk-17.0.12\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(D:/java/apache-maven-3.9.9/bin/mvn compile *)",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_run_code_unsafe",
+      "mcp__plugin_playwright_playwright__browser_console_messages",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "Bash(echo \"Compile exit: $?\")"
     ]
   }
 }

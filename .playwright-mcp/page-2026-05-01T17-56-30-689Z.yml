@@ -1,0 +1,162 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "智医荐药隐私保护 · 智能推荐" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: 智医荐药隐私保护 · 智能推荐
+      - button [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+  - generic [ref=e218]:
+    - generic [ref=e220]:
+      - img [ref=e222]
+      - generic [ref=e225]:
+        - heading "登录后继续" [level=3] [ref=e226]
+        - paragraph [ref=e227]: 目标页面：/recommendation
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - text: 账号
+          - textbox "账号" [ref=e231]:
+            - /placeholder: 请输入账号
+        - generic [ref=e232]:
+          - text: 密码
+          - textbox "密码" [ref=e233]:
+            - /placeholder: 请输入密码
+        - generic [ref=e234]:
+          - button "登录" [ref=e235] [cursor=pointer]
+          - button "取消" [ref=e236] [cursor=pointer]
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]: 医生账号
+          - generic [ref=e240]: doctor1
+          - generic [ref=e241]: admin123
+        - generic [ref=e242]:
+          - generic [ref=e243]: 管理员
+          - generic [ref=e244]: admin
+          - generic [ref=e245]: admin123
+  - main [ref=e13]:
+    - generic [ref=e246]:
+      - generic [ref=e248]:
+        - generic [ref=e249]: 隐私优先 · 智能推荐
+        - heading "智医荐药" [level=1] [ref=e250]
+        - paragraph [ref=e251]: 隐私保护的智能用药推荐系统
+        - paragraph [ref=e252]: 融合差分隐私技术与深度学习算法，在严格保护患者隐私的前提下， 提供精准、安全、个性化的医疗用药推荐服务
+        - link "开始用药推荐" [ref=e254] [cursor=pointer]:
+          - /url: /recommendation
+          - button "开始用药推荐" [ref=e255]:
+            - text: 开始用药推荐
+            - img [ref=e256]
+      - generic [ref=e258]:
+        - generic [ref=e260] [cursor=pointer]:
+          - img [ref=e262]
+          - generic [ref=e265]: ε≤1.0
+          - generic [ref=e266]: 隐私保护等级
+        - generic [ref=e268] [cursor=pointer]:
+          - img [ref=e270]
+          - generic [ref=e273]: 92%+
+          - generic [ref=e274]: 推荐准确率
+        - generic [ref=e276] [cursor=pointer]:
+          - img [ref=e278]
+          - generic [ref=e282]: 5000+
+          - generic [ref=e283]: 支持药物种类
+        - generic [ref=e285] [cursor=pointer]:
+          - img [ref=e287]
+          - generic [ref=e292]: 10000+
+          - generic [ref=e293]: 服务患者数
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - heading "核心功能" [level=2] [ref=e296]
+          - paragraph [ref=e297]: 本系统结合医疗用药场景的数据特点与隐私保护需求，打造全方位的智能用药推荐解决方案
+        - generic [ref=e298]:
+          - generic [ref=e300] [cursor=pointer]:
+            - img [ref=e302]
+            - heading "差分隐私保护" [level=3] [ref=e304]
+            - paragraph [ref=e305]: 采用先进的差分隐私技术，为患者医疗数据提供可证明的隐私保障
+          - generic [ref=e307] [cursor=pointer]:
+            - img [ref=e309]
+            - heading "深度学习推荐" [level=3] [ref=e312]
+            - paragraph [ref=e313]: 基于深度因子分解机模型，精准捕捉药物 - 疾病 - 患者之间的复杂关系
+          - generic [ref=e315] [cursor=pointer]:
+            - img [ref=e317]
+            - heading "个性化用药" [level=3] [ref=e319]
+            - paragraph [ref=e320]: 综合考虑患者个体差异、疾病特征、药物相互作用，提供定制化建议
+          - generic [ref=e322] [cursor=pointer]:
+            - img [ref=e324]
+            - heading "安全可控" [level=3] [ref=e327]
+            - paragraph [ref=e328]: 隐私预算可调、噪声机制可选，在隐私保护与推荐性能间实现最佳平衡
+      - generic [ref=e329]:
+        - generic [ref=e330]:
+          - heading "研究目标" [level=2] [ref=e331]
+          - paragraph [ref=e332]: 本毕设课题旨在解决医疗用药推荐中的关键问题
+        - generic [ref=e333]:
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - img [ref=e338]
+              - heading "医疗数据隐私保护" [level=3] [ref=e342]
+            - list [ref=e343]:
+              - listitem [ref=e344]:
+                - img [ref=e345]
+                - generic [ref=e348]: 差分隐私机制设计
+              - listitem [ref=e349]:
+                - img [ref=e350]
+                - generic [ref=e353]: 隐私预算优化配置
+              - listitem [ref=e354]:
+                - img [ref=e355]
+                - generic [ref=e358]: 噪声扰动策略研究
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - img [ref=e363]
+              - heading "数据稀疏性处理" [level=3] [ref=e365]
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - img [ref=e368]
+                - generic [ref=e371]: 特征工程优化
+              - listitem [ref=e372]:
+                - img [ref=e373]
+                - generic [ref=e376]: 深度表示学习
+              - listitem [ref=e377]:
+                - img [ref=e378]
+                - generic [ref=e381]: 多维特征融合
+          - generic [ref=e383]:
+            - generic [ref=e384]:
+              - img [ref=e386]
+              - heading "推荐模型构建" [level=3] [ref=e389]
+            - list [ref=e390]:
+              - listitem [ref=e391]:
+                - img [ref=e392]
+                - generic [ref=e395]: 深度学习架构
+              - listitem [ref=e396]:
+                - img [ref=e397]
+                - generic [ref=e400]: 多因素综合建模
+              - listitem [ref=e401]:
+                - img [ref=e402]
+                - generic [ref=e405]: 可解释性增强
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - img [ref=e410]
+              - heading "隐私与性能平衡" [level=3] [ref=e412]
+            - list [ref=e413]:
+              - listitem [ref=e414]:
+                - img [ref=e415]
+                - generic [ref=e418]: 噪声注入方式优化
+              - listitem [ref=e419]:
+                - img [ref=e420]
+                - generic [ref=e423]: 模型鲁棒性提升
+              - listitem [ref=e424]:
+                - img [ref=e425]
+                - generic [ref=e428]: 性能影响分析
+      - generic [ref=e429]:
+        - heading "准备好开始了吗？" [level=2] [ref=e430]
+        - paragraph [ref=e431]: 体验隐私保护与智能推荐的完美结合，为医疗用药决策提供科学依据
+        - link "获取用药推荐" [ref=e433] [cursor=pointer]:
+          - /url: /recommendation
+          - button "获取用药推荐" [ref=e434]:
+            - img [ref=e435]
+            - text: 获取用药推荐
+  - contentinfo [ref=e207]:
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - img [ref=e212]
+        - generic [ref=e214]: 智医荐药差分隐私保护的智能用药推荐系统
+      - paragraph [ref=e215]: 基于差分隐私的 AI 个性化医疗用药推荐系统 · 保护隐私 · 精准推荐

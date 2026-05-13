@@ -1,0 +1,41 @@
+{
+  "batch": 3,
+  "diseases": 30,
+  "results": [
+    {"disease":"心衰","rating":"PARTIALLY","reason":"Amlodipine-Valsartan中含氨氯地平，心衰患者应避免；其余Benazepril、Bumetanide、Canagliflozin、Candesartan均适合"},
+    {"disease":"念珠菌性阴道炎","rating":"PARTIALLY","reason":"仅Butoconazole为抗真菌药适合；Amikacin、Amoxicillin等为抗菌药，不治疗念珠菌感染"},
+    {"disease":"急性疼痛","rating":"PARTIALLY","reason":"Aspirin、Tapentadol、Diclofenac适合；Baclofen和Carisoprodol为肌肉松弛剂，非典型镇痛药"},
+    {"disease":"恶心","rating":"APPROPRIATE","reason":"均具有止吐或抗恶心作用，适用于不同原因的恶心"},
+    {"disease":"惊恐障碍","rating":"PARTIALLY","reason":"Alprazolam、Venlafaxine有效；Aripiprazole不用于惊恐障碍一线"},
+    {"disease":"感冒","rating":"APPROPRIATE","reason":"所有药物均为抗组胺药，可缓解感冒引起的流涕、打喷嚏等症状"},
+    {"disease":"慢性疼痛","rating":"APPROPRIATE","reason":"Tapentadol、Buprenorphine、Fentanyl、Oxycodone为阿片类镇痛药；Dronabinol也有一定镇痛证据"},
+    {"disease":"慢性肾病","rating":"APPROPRIATE","reason":"利尿消肿、降磷、控糖药物均为CKD管理常用药物"},
+    {"disease":"慢性阻塞性肺疾病","rating":"APPROPRIATE","reason":"均为吸入性支气管扩张剂，是COPD核心治疗药物"},
+    {"disease":"慢阻肺","rating":"APPROPRIATE","reason":"同上，均为支气管扩张剂，适合慢阻肺治疗"},
+    {"disease":"憩室炎","rating":"PARTIALLY","reason":"Ciprofloxacin、Tigecycline、Ampicillin-Sulbactam可覆盖需氧/厌氧菌；Amikacin和Amoxicillin单用缺乏厌氧菌覆盖"},
+    {"disease":"戒烟","rating":"PARTIALLY","reason":"Bupropion、Varenicline为一线戒烟药；Alprazolam不用于戒烟"},
+    {"disease":"房颤","rating":"APPROPRIATE","reason":"Apixaban、Rivaroxaban抗凝；Bisoprolol、Verapamil控制心室率，均为房颤标准治疗"},
+    {"disease":"扁桃体炎","rating":"APPROPRIATE","reason":"Cefadroxil、Cefprozil抗感染；NSAIDs止痛抗炎"},
+    {"disease":"打喷嚏","rating":"APPROPRIATE","reason":"均为抗组胺药或鼻用激素，有效缓解过敏性打喷嚏"},
+    {"disease":"抑郁","rating":"PARTIALLY","reason":"Citalopram、Clomipramine、Desipramine、Doxepin为抗抑郁药；Alprazolam不治疗抑郁"},
+    {"disease":"抑郁症","rating":"PARTIALLY","reason":"三环类抗抑郁药适合；Alprazolam不适用"},
+    {"disease":"接触性皮炎","rating":"APPROPRIATE","reason":"均为外用糖皮质激素，是接触性皮炎的标准治疗"},
+    {"disease":"支气管炎","rating":"APPROPRIATE","reason":"涵盖镇咳、祛痰/支气管扩张及复方制剂，可对症治疗"},
+    {"disease":"新冠","rating":"APPROPRIATE","reason":"Dexamethasone、Tocilizumab用于重症；Ibuprofen退热；中和抗体均符合新冠治疗指南"},
+    {"disease":"晕眩","rating":"PARTIALLY","reason":"Meclizine等可缓解眩晕；Temsirolimus为抗癌药完全不相关"},
+    {"disease":"更年期综合征","rating":"PARTIALLY","reason":"激素治疗适合；Alprazolam仅对症焦虑非标准治疗"},
+    {"disease":"月经不调","rating":"INAPPROPRIATE","reason":"Folic Acid、Ferrous Sulfate、Epoetin Alfa、Meperidine、Zidovudine均不用于治疗月经不调"},
+    {"disease":"术后疼痛","rating":"APPROPRIATE","reason":"Ketorolac、Aspirin、Ropivacaine、oliceridine、Sufentanil均可用于术后疼痛管理"},
+    {"disease":"梅毒","rating":"APPROPRIATE","reason":"所有药物均为青霉素类，是梅毒的首选治疗"},
+    {"disease":"水肿","rating":"APPROPRIATE","reason":"均为利尿剂或含利尿剂复方，适用于水肿治疗"},
+    {"disease":"流感","rating":"APPROPRIATE","reason":"Oseltamivir等抗病毒；Ibuprofen对症，均用于流感"},
+    {"disease":"流鼻涕","rating":"APPROPRIATE","reason":"抗组胺药和鼻用激素有效缓解流鼻涕"},
+    {"disease":"消化道出血","rating":"APPROPRIATE","reason":"PPI和H2拮抗剂减少胃酸；红霉素促进胃排空"},
+    {"disease":"淋巴瘤","rating":"PARTIALLY","reason":"Doxorubicin、Ifosfamide、Etoposide为化疗药；Methoxsalen用于皮肤淋巴瘤；Folic Acid不治疗淋巴瘤"}
+  ],
+  "summary": {
+    "APPROPRIATE": 17,
+    "PARTIALLY": 12,
+    "INAPPROPRIATE": 1
+  }
+}

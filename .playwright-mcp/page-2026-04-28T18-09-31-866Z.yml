@@ -1,0 +1,165 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e161] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e162]: 新对话
+          - button [ref=e163]:
+            - img [ref=e167]
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e100]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e102]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e108]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e110]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e112]: HIV药物禁忌症生成
+      - generic [ref=e113]:
+        - generic [ref=e114]: 昨天
+        - link "药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e116]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e118]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e120]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e122]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e124]: 药物适应症列表生成
+      - generic [ref=e125]:
+        - generic [ref=e126]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e128]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e130]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e132]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e134]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e136]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e138]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e140]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e142]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e144]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e146]
+      - generic [ref=e149]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e171]:
+      - generic [ref=e173]:
+        - generic [ref=e174] [cursor=pointer]: 新对话
+        - generic [ref=e175]:
+          - img [ref=e177]
+          - generic [ref=e179]: 专家模式
+      - button [ref=e180] [cursor=pointer]:
+        - img [ref=e183]
+    - generic [ref=e186]:
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e191]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: pramlintide (subcutaneous route) | 类别: Amylin analogs | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C insulin nph and regular (subcutaneous route) | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: B teplizumab-mzwv | 类别: | 适应症: delay onset of clinical type 1 diabetes mellitus | 妊娠分级: N dapagliflozin | 类别: SGLT-2 inhibitors | 适应症: heart failure with reduced ejection fraction|chronic kidney disease|type 2 diabetes mellitus | 妊娠分级: C dulaglutide | 类别: Incretin mimetics | 适应症: cardiovascular risk reduction in type 2 diabetes|type 2 diabetes mellitus | 妊娠分级: C semaglutide | 类别: Incretin mimetics | 适应症: overweight with weight-related comorbidities|cardiovascular risk reduction in type 2 diabetes|type 2 diabetes mellitus|obesity | 妊娠分级: N dapagliflozin Brand name: Farxiga | 类别: SGLT-2 inhibitors | 适应症: type 2 diabetes mellitus|heart failure with reduced ejection fraction|chronic kidney disease | 妊娠分级: C semaglutide Brand names: Ozempic, Wegovy, Rybelsus | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|chronic weight management|non-alcoholic steatohepatitis | 妊娠分级: N insulin glargine and lixisenatide | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N tirzepatide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|chronic weight management | 妊娠分级: N liraglutide | 类别: Incretin mimetics | 适应症: overweight with weight-related comorbidities|cardiovascular risk reduction in type 2 diabetes|type 2 diabetes mellitus|obesity | 妊娠分级: C pioglitazone (oral) | 类别: Thiazolidinediones | 适应症: type 2 diabetes mellitus|non-alcoholic fatty liver disease|polycystic ovary syndrome | 妊娠分级: C metformin and sitagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B semaglutide injection | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity|overweight with weight-related comorbidities|cardiovascular risk reduction in type 2 diabetes | 妊娠分级: N repaglinide (oral) | 类别: Meglitinides | 适应症: type 2 diabetes mellitus | 妊娠分级: C chromium picolinate | 类别: Minerals and electrolytes | 适应症: chromium deficiency|glycemic control in type 2 diabetes mellitus|dyslipidemia | 妊娠分级: N exenatide (Byetta) | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity | 妊娠分级: C acarbose | 类别: Alpha-glucosidase inhibitors | 适应症: type 2 diabetes mellitus|postprandial hyperglycemia | 妊娠分级: B alogliptin | 类别: Dipeptidyl peptidase 4 inhibitors | 适应症: type 2 diabetes mellitus | 妊娠分级: B glimepiride and pioglitazone | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C glipizide (oral route) | 类别: Sulfonylureas | 适应症: type 2 diabetes mellitus | 妊娠分级: C glyburide and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B metformin and saxagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B dapagliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C lixisenatide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus | 妊娠分级: N bromocriptine (Parlodel) | 类别: Dopaminergic antiparkinsonism agents | 适应症: parkinson's disease|hyperprolactinemia|acromegaly|restless legs syndrome|type 2 diabetes mellitus | 妊娠分级: B empagliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C glipizide and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C glyburide (oral route) | 类别: Sulfonylureas | 适应症: type 2 diabetes mellitus | 妊娠分级: C linagliptin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B metformin and pioglitazone | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C insulin degludec and liraglutide | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N alogliptin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B alogliptin and pioglitazone | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C exenatide (Bydureon) | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity | 妊娠分级: C canagliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C dapagliflozin and saxagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N empagliflozin, linagliptin, and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N empagliflozin and linagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C ertugliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N ertugliflozin and sitagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N ertugliflozin | 类别: SGLT-2 inhibitors | 适应症: type 2 diabetes mellitus | 妊娠分级: N nateglinide (oral) | 类别: Meglitinides | 适应症: type 2 diabetes mellitus | 妊娠分级: C albiglutide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus | 妊娠分级: C tirzepatide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity|overweight with weight-related comorbidities | 妊娠分级: N atropine and diphenoxylate | 类别: Antidiarrheals | 适应症: diarrhea|traveler's diarrhea | 妊娠分级: C loperamide (oral route) | 类别: Antidiarrheals | 适应症: acute diarrhea|chronic diarrhea associated with inflammatory bowel disease|traveler's diarrhea|ileostomy high-output management | 妊娠分级: C loperamide hydrochloride | 类别: Antidiarrheals | 适应症: acute diarrhea|chronic diarrhea associated with inflammatory bowel disease | 妊娠分级: C bismuth subsalicylate | 类别: Antidiarrheals | 适应症: diarrhea|dyspepsia|nausea|traveler's diarrhea|helicobacter pylori eradication (adjunctive) | 妊娠分级: N saccharomyces boulardii lyo | 类别: Antidiarrheals, Probiotics | 适应症: antibiotic-associated diarrhea|traveler's diarrhea prevention|diarrhea | 妊娠分级: N 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e194]:
+            - button [ref=e195] [cursor=pointer]:
+              - img [ref=e198]
+            - button [ref=e200] [cursor=pointer]:
+              - img [ref=e203]
+        - generic [ref=e207]:
+          - generic [ref=e209] [cursor=pointer]:
+            - img [ref=e211]
+            - generic [ref=e214]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e216]
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: 我们被要求为给定的药物列表生成完整的禁忌症列表。需要输出JSON。药物重复？清单中有重复的药物（比如tirzepatide出现两次，dapagliflozin和Farxiga，semaglutide和Ozempic/Wegovy/Rybelsus等），但可能作为不同条目，按给定名称生成。我们将逐个分析每种药物，列出其禁忌症，包括疾病、过敏、生理状态、药物类禁忌，严重程度绝对或相对。需具体。
+            - paragraph [ref=e224]: 我们要尽可能全面、临床相关。一些药物可能共享相似的类别禁忌症，例如SGLT-2抑制剂常有eGFR低、酮症酸中毒风险等。胰岛素：禁忌低血糖、对胰岛素过敏。GLP-1激动剂：禁忌甲状腺髓样癌个人或家族史、多发性内分泌腺瘤综合征2型等。组合药物：列出各成分禁忌症，合并。
+            - paragraph [ref=e225]: 注意：有些适应症可助推断禁忌，例如降糖药禁忌低血糖，但禁忌症应更具体。如SGLT2抑制剂：可能导致酮症酸中毒、生殖器感染、容量不足，相对禁忌？通常绝对禁忌：严重肾损害（按eGFR阈值）、过敏等。我们将根据标准临床知识添加。
+            - paragraph [ref=e257]: "输出JSON数组。我将为每个药物（在输入列表中出现的唯一名称）生成条目。有些药物列出了不同商品名但同一通用名，但输入中有分开的，如\"dapagliflozin\"和\"dapagliflozin Brand name: Farxiga\"，虽然后者也是dapagliflozin，但适应症稍有不同，但禁忌症应相同，可以合并或分别输出？由于输入是列表，要求为\"每种药物\"生成禁忌症。我将保留输入字符串的generic_name，即\"pramlintide (subcutaneous route)\"等，但generic_name应该用实际药物名。需求中generic_name示例是“Isotretinoin”，我猜测我们输出使用药物通用名，不加括号剂型，但为了匹配输入，可以单独处理。我输出时generic_name使用给出的名称如\"pramlintide (subcutaneous route)\"? 但更合理是只用\"pramlintide\"。检查示例：\"Isotretinoin\"。可能我们应输出干净的通用名。对于组合药物，如\"insulin nph and regular\"等，可用。对于品牌名如Farxiga，generic_name应为dapagliflozin。但输入有\"dapagliflozin Brand name: Farxiga\"，可以输出\"dapagliflozin\"。同样\"semaglutide Brand names: Ozempic, Wegovy, Rybelsus\"，输出\"semaglutide\"。"
+            - paragraph [ref=e258]: 为了准确匹配每条输入，我将输出每个输入条目，但将generic_name字段设为最合理的通用名称。重复的条目（如两个tirzepatide）输出同样的禁忌症列表也不影响，故分别列。
+            - paragraph [ref=e259]: 开始为每个药物生成禁忌症。
+            - list [ref=e260]:
+              - listitem [ref=e261]:
+                - paragraph [ref=e262]: "pramlintide (subcutaneous route): Amylin analogs. 适应症: type 1, type 2. 禁忌：低血糖意识受损、严重低血糖、胃轻瘫、过敏。妊娠C级。具体：pramlintide增加低血糖风险，尤其是与胰岛素联用时。绝对禁忌：confirmed hypoglycemia unawareness (disease), severe hypoglycemia events (disease), gastroparesis (disease). 相对禁忌：pediatric (physiological), pregnancy (physiological C级), lactation, 还有过敏。同时使用减慢胃排空药物（如抗胆碱能）可能相对禁忌。但drug class 禁忌：concurrent use of other drugs that slow gastric motility? 不太算绝对禁忌。可列出drug class: anticholinergic agents (relative) 增加胃排空延迟。我将其列为相对。过敏：pramlintide allergy (allergy_type absolute)."
+              - listitem [ref=e263]:
+                - paragraph [ref=e264]: "insulin nph and regular (subcutaneous route): 胰岛素组合。禁忌症包括低血糖发作 (disease absolute)，对胰岛素过敏 (allergy absolute)。相对：renal impairment (降低胰岛素清除，增加低血糖风险)，hepatic impairment (糖异生受影响)，这些是相对禁忌，需调整剂量。生理状态：妊娠 (B级，可使用，但非禁忌，但有时 relative 由于需求增加?), lactation相对安全。没有绝对生理禁忌。还有与噻唑烷二酮类 (TZDs) 合用可能增加液体潴留心衰风险 (relative drug class)。与pramlintide联用增加低血糖风险，可列相对。但insulin本身禁忌症有限。"
+              - listitem [ref=e265]:
+                - paragraph [ref=e266]: "teplizumab-mzwv: 抗CD3单抗，适应症延迟1型糖尿病发病。禁忌：严重活动性感染 (disease absolute)，对teplizumab过敏 (allergy absolute)。年龄：仅适用于8岁及以上，小于8岁是相对禁忌或未被批准 (physiological condition relative pediatric <8)。妊娠N级，无数据，备孕可能相对禁忌。还有淋巴组织增生疾病病史？药物可能导致淋巴细胞减少、细胞因子释放综合征。自身免疫性疾病？相对禁忌。还有疫苗接种：活疫苗不应在治疗前或治疗后一定时间内接种 (drug class relative)。具体：绝对禁忌：serious active infection, hypersensitivity. 相对：treatment with live vaccines, pregnancy, lactation."
+              - listitem [ref=e267]:
+                - paragraph [ref=e268]: "dapagliflozin: SGLT-2 inhibitor. 绝对禁忌：severe renal impairment (eGFR <25 mL/min/1.73 m² for diabetes, 可能有不同阈值，心衰可更低，但绝对通常eGFR <15 for heart failure? 但通用禁忌症：severe renal impairment 透析绝对禁忌启动)。过敏。糖尿病酮症酸中毒 (DKA) 病史或反复DKA (disease relative/absolute). 相对：volume depletion, elderly, history of urinary tract infections or genital mycotic infections (relative). 妊娠C级 (physiological relative). 哺乳禁忌 (relative). 与利尿剂合用时低血压风险 (drug class relative). 绝对禁忌：hypersensitivity, dialysis. 还有低血糖与其他降糖药? 单独使用低血糖风险低。相对：hepatic impairment severe? 不推荐。"
+              - listitem [ref=e269]:
+                - paragraph [ref=e270]: "dulaglutide: GLP-1 RA. 绝对禁忌：personal or family history of medullary thyroid carcinoma (MTC), multiple endocrine neoplasia syndrome type 2 (MEN2). 过敏。相对：severe gastroparesis, history of pancreatitis (谨慎), pregnancy C级 (relative), lactation. 严重肾功能不全? GLP-1可用于eGFR down to 15? 但GI副作用可能导致脱水。Drug class: simultaneous use of other GLP-1 receptor agonists. 相对禁忌：severe gastrointestinal disease."
+              - listitem [ref=e271]:
+                - paragraph [ref=e272]: "semaglutide: 类似dulaglutide。绝对禁忌：MTC个人或家族史，MEN2。过敏。相对：pancreatitis history, diabetic retinopathy? semaglutide在SUSTAIN-6中增加视网膜病变风险，相对禁忌？尤其注射semaglutide，有严重视网膜病变相对禁忌。妊娠N级，不建议，相对。哺乳相对。"
+              - listitem [ref=e273]:
+                - paragraph [ref=e274]: "dapagliflozin Brand name: Farxiga: 和dapagliflozin一样。"
+              - listitem [ref=e275]:
+                - paragraph [ref=e276]: "semaglutide Brand names: Ozempic, Wegovy, Rybelsus: semaglutide（含口服）。禁忌同上，增加口服特有禁忌：严重胃吸收不良（相对）。绝对禁忌同注射。"
+              - listitem [ref=e277]:
+                - paragraph [ref=e278]: "insulin glargine and lixisenatide: 组合。GLP-1 (lixisenatide) + insulin glargine。绝对禁忌：MTC個人/家族史，MEN2 (来自lixisenatide)，低血糖发作，过敏。相对：severe GI disease, renal impairment (lixisenatide 排泄，eGFR <30不推荐)，妊娠N级相对。Drug class: concomitant use of other GLP-1 agonists or prandial insulin? 组合本身为预混，不推荐与其他胰岛素合用？可能相对。"
+              - listitem [ref=e279]:
+                - paragraph [ref=e280]: "tirzepatide: GIP/GLP-1共拮抗剂。禁忌类似GLP-1：MTC/MEN2 (绝对). 过敏。相对：pancreatitis history, severe GI disease, diabetic retinopathy? gallbladder disease? tirzepatide增加胆囊事件，相对。妊娠N相对。"
+              - listitem [ref=e281]:
+                - paragraph [ref=e282]: "liraglutide: GLP-1,"
+      - generic [ref=e226]:
+        - generic [ref=e229]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e231]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e232]:
+            - button "深度思考" [ref=e233] [cursor=pointer]:
+              - img [ref=e235]
+              - generic [ref=e238]: 深度思考
+            - button "智能搜索" [ref=e239] [cursor=pointer]:
+              - img [ref=e241]
+              - generic [ref=e243]: 智能搜索
+            - generic [ref=e244]:
+              - button [ref=e245] [cursor=pointer]:
+                - img [ref=e248]
+              - button [ref=e251] [cursor=pointer]:
+                - img [ref=e254]
+        - generic [ref=e256]: 内容由 AI 生成，请仔细甄别

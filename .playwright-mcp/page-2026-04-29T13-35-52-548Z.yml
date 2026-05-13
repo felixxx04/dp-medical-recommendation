@@ -1,0 +1,819 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e195] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e196]: 新对话
+          - button [ref=e197]:
+            - img [ref=e201]
+        - link "药物交互分析请求" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e36]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e38]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e40]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e42]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e44]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e46]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e48]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e50]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e52]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e54]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e56]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e58]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e60]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e62]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e64]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e66]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e68]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e70]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e72]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e74]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e76]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e78]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e80]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e82]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e84]: HIV药物禁忌症生成
+      - generic [ref=e85]:
+        - generic [ref=e86]: 昨天
+        - link "药物禁忌症列表生成" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e88]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e90]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e92]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e94]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e96]: 药物适应症列表生成
+      - generic [ref=e97]:
+        - generic [ref=e98]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e100]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e102]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e104]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e106]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e108]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e110]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e112]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e114]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e116]: 生成数据训练请求
+    - generic [ref=e118] [cursor=pointer]:
+      - img [ref=e121]
+      - generic [ref=e124]: 132******38
+      - img [ref=e126]
+  - generic [ref=e131]:
+    - generic [ref=e205]:
+      - generic [ref=e207]:
+        - generic [ref=e208] [cursor=pointer]: 新对话
+        - generic [ref=e209]:
+          - img [ref=e211]
+          - generic [ref=e213]: 专家模式
+      - button [ref=e214] [cursor=pointer]:
+        - img [ref=e217]
+    - generic [ref=e220]:
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e225]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: amlodipine and atorvastatin | 类别: Antihyperlipidemic combinations, Miscellaneous antihypertensive combinations | 适应症: hypertension|hyperlipidemia|prevention of cardiovascular disease | 妊娠分级: X nitroglycerin (oral route, sublingual route) | 类别: Antianginal agents, Vasodilators | 适应症: angina pectoris | 妊娠分级: C verapamil (oral/injection) | 类别: Calcium channel blocking agents, Group IV antiarrhythmics | 适应症: hypertension|angina pectoris|atrial fibrillation|supraventricular tachycardia | 妊娠分级: C Aspirin Enteric-Coated and Buffered Tablets | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events | 妊娠分级: N amlodipine (oral route) | 类别: Calcium channel blocking agents | 适应症: hypertension|angina pectoris | 妊娠分级: C Aspirin Tablets | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events | 妊娠分级: N nitroglycerin (transdermal) | 类别: Antianginal agents, Vasodilators | 适应症: chronic angina prophylaxis | 妊娠分级: C heparin (injection) | 类别: Heparins | 适应症: prevention of venous thromboembolism|treatment of deep vein thrombosis|treatment of pulmonary embolism|acute coronary syndrome|anticoagulation during surgery|atrial fibrillation with embolization | 妊娠分级: C propranolol (oral route) | 类别: Group II antiarrhythmics, Non-cardioselective beta blockers | 适应症: hypertension|angina pectoris|migraine prophylaxis|essential tremor|performance anxiety|myocardial infarction | 妊娠分级: C Metoprolol Extended-Release Capsules | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure | 妊娠分级: C nitroglycerin (topical) | 类别: Antianginal agents, Vasodilators | 适应症: chronic angina prophylaxis|anal fissures | 妊娠分级: C dalteparin | 类别: Heparins | 适应症: prevention of venous thromboembolism|acute coronary syndrome|deep vein thrombosis|pulmonary embolism | 妊娠分级: B bivalirudin | 类别: Thrombin inhibitors | 适应症: anticoagulation during percutaneous coronary intervention|acute coronary syndrome | 妊娠分级: B verapamil (oral route) | 类别: Calcium channel blocking agents, Group IV antiarrhythmics | 适应症: hypertension|angina pectoris|supraventricular tachycardia | 妊娠分级: C isosorbide dinitrate (oral route, sublingual route) | 类别: Antianginal agents | 适应症: angina pectoris | 妊娠分级: C nitroglycerin | 类别: Antianginal agents, Vasodilators | 适应症: angina pectoris|anal fissures | 妊娠分级: C ranolazine (oral route) | 类别: Antianginal agents | 适应症: chronic angina | 妊娠分级: C lorazepam (oral) | 类别: Benzodiazepine anticonvulsants, Benzodiazepines, Miscellaneous antiemetics | 适应症: anxiety|insomnia|status epilepticus|preoperative sedation|chemotherapy-induced nausea and vomiting | 妊娠分级: D diazepam (oral) | 类别: Benzodiazepine anticonvulsants, Benzodiazepines | 适应症: anxiety|muscle spasm|seizures|alcohol withdrawal|insomnia | 妊娠分级: D Alprazolam Oral Solution | 类别: Benzodiazepines | 适应症: anxiety|panic disorder | 妊娠分级: D risperidone (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|irritability associated with autistic disorder|bipolar i disorder | 妊娠分级: C clorazepate (oral route) | 类别: Benzodiazepines | 适应症: anxiety|alcohol withdrawal|seizures | 妊娠分级: N doxepin (capsules, oral concentrate) | 类别: Miscellaneous anxiolytics, sedatives and hypnotics, Tricyclic antidepressants | 适应症: depression|insomnia|anxiety | 妊娠分级: N amitriptyline and perphenazine | 类别: Psychotherapeutic combinations | 适应症: depression|anxiety | 妊娠分级: N diazepam (oral route) | 类别: Benzodiazepine anticonvulsants, Benzodiazepines | 适应症: anxiety|muscle spasm|seizures|alcohol withdrawal | 妊娠分级: D phenytoin (oral) | 类别: Group I antiarrhythmics, Hydantoin anticonvulsants | 适应症: tonic-clonic seizures|focal seizures|status epilepticus | 妊娠分级: D prochlorperazine (oral/injection) | 类别: Phenothiazine antiemetics, Phenothiazine antipsychotics | 适应症: nausea and vomiting|psychotic disorders | 妊娠分级: N amitriptyline and chlordiazepoxide | 类别: Psychotherapeutic combinations | 适应症: depression|anxiety | 妊娠分级: N prochlorperazine (rectal) | 类别: Phenothiazine antiemetics, Phenothiazine antipsychotics | 适应症: nausea and vomiting | 妊娠分级: N meprobamate | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: anxiety|insomnia | 妊娠分级: N fluticasone, umeclidinium, and vilanterol | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: N benralizumab | 类别: Interleukin inhibitors | 适应症: severe eosinophilic asthma|eosinophilic granulomatosis with polyangiitis | 妊娠分级: N mepolizumab | 类别: Interleukin inhibitors | 适应症: severe eosinophilic asthma|eosinophilic granulomatosis with polyangiitis|hypereosinophilic syndrome|chronic rhinosinusitis with nasal polyps | 妊娠分级: N benralizumab Brand name: Fasenra | 类别: Interleukin inhibitors | 适应症: severe asthma with eosinophilic phenotype|eosinophilic granulomatosis with polyangiitis | 妊娠分级: N tezepelumab | 类别: Selective immunosuppressants | 适应症: severe asthma | 妊娠分级: N tezepelumab-ekko | 类别: Selective immunosuppressants | 适应症: severe asthma (add-on maintenance) | 妊娠分级: N formoterol and mometasone | 类别: Bronchodilator combinations | 适应症: asthma|chronic obstructive pulmonary disease | 妊娠分级: C ipratropium (inhalation route) | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease|asthma | 妊娠分级: B fluticasone and vilanterol | 类别: Bronchodilator combinations | 适应症: asthma|chronic obstructive pulmonary disease | 妊娠分级: C ipratropium inhalation | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease|asthma | 妊娠分级: B methylprednisolone (oral) | 类别: Glucocorticoids | 适应症: inflammation|allergic disorders|asthma|rheumatoid arthritis|systemic lupus erythematosus|acute exacerbation of multiple sclerosis|organ transplant rejection | 妊娠分级: C dexamethasone (oral) | 类别: Glucocorticoids | 适应症: inflammation|allergic reactions|asthma|rheumatoid arthritis|cerebral edema|chemotherapy-induced nausea and vomiting|covid-19 | 妊娠分级: C ciclesonide (inhalation) | 类别: Inhaled corticosteroids | 适应症: asthma | 妊娠分级: C levalbuterol inhalation | 类别: Adrenergic bronchodilators | 适应症: asthma | 妊娠分级: C Ipratropium Inhalation Solution | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease|asthma | 妊娠分级: B triamcinolone (oral) | 类别: Glucocorticoids | 适应症: inflammation|allergic disorders|asthma|rheumatoid arthritis|dermatoses | 妊娠分级: C dexamethasone (oral route) | 类别: Glucocorticoids | 适应症: inflammatory conditions|allergic reactions|asthma|adrenal insufficiency|rheumatoid arthritis|systemic lupus erythematosus|multiple sclerosis exacerbation|cerebral edema|nausea and vomiting from chemotherapy|covid-19 (severe) | 妊娠分级: C triamcinolone (injection) | 类别: Glucocorticoids | 适应症: inflammation|joint pain|bursitis|allergic conditions | 妊娠分级: C methylprednisolone (injection) | 类别: Glucocorticoids | 适应症: inflammation|allergic reactions|acute exacerbation of multiple sclerosis|shock | 妊娠分级: C Caffeine Brand names: NoDoz, Vivarin, Revive, Stay Awake, Enerjets, Lucidex | 类别: CNS stimulants | 适应症: apnea of prematurity|fatigue|adjunct in tension headache|post-dural puncture headache | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e228]:
+            - button [ref=e229] [cursor=pointer]:
+              - img [ref=e232]
+            - button [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+        - generic [ref=e241]:
+          - generic [ref=e243] [cursor=pointer]:
+            - img [ref=e245]
+            - generic [ref=e248]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e250]
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: 我们被要求生成 JSON 格式的药物交互列表。输入是一个药物列表，包含通用名、类别和适应症。需要为每种药物列出 major 和 moderate 交互。对于组合药物，列出每个成分的交互。我们只需要输出 JSON，不要额外文字。
+            - paragraph [ref=e258]: "首先解析输入药物列表，去重。相同药物可能多次出现（如 amlodipine 有单独也有组合；nitroglycerin 有多种途径；verapamil 口服和注射；aspirin 片和肠溶片；diazepam 口服途径等）。我们可以按通用名合并，忽略剂型，但交互是按照药物本身。输出应列出每个药物实体（generic_name）？输入有多个重复药物名称和不同剂型，但交互通常是基于活性成分，剂型影响不大（除了像局部用药可能不影响全身交互，但这里口服/注射/吸入等全身吸收都会考虑）。题目要求为“每种药物”生成交互列表，输入列表可能重复，我们可以去重，使用 generic_name。比如 \"amlodipine and atorvastatin\" 是一个组合药物，需要列出每个成分的交互。单独有 amlodipine (oral route)，所以 amlodipine 作为一个成分也会出现在组合药中，但我们可以为 \"amlodipine\" 生成一个交互列表，然后组合药 \"amlodipine and atorvastatin\" 也要列出其成分交互？要求说“对于组合药物,列出每个成分的交互”，意思是为组合药物生成一个条目，其 interactions 包含每个成分的交互（drug_a 分别写 amlodipine 和 atorvastatin）。但是为简化，我们可以把 amlodipine 单独列一个 generic_name 条目，atorvastatin 列一个条目，然后组合药再列？如果为每个药物生成交互列表，组合药 \"amlodipine and atorvastatin\" 本身作为一个 generic_name，其交互可包含两类交互：amlodipine 的交互和 atorvastatin 的交互。我们按指令：为每种药物生成重要交互列表。输入药物列表是这些，那么对于\"amlodipine and atorvastatin\" ，它就是一个药物。我们生成一个对象，generic_name: \"amlodipine and atorvastatin\"，interactions 中 drug_a 分别使用 \"amlodipine\" 和 \"atorvastatin\"。"
+            - paragraph [ref=e290]: 首先确定所有独特的药物实体（根据输入字符串）：
+            - list [ref=e291]:
+              - listitem [ref=e292]:
+                - paragraph [ref=e293]: "\"amlodipine and atorvastatin\" (组合)"
+              - listitem [ref=e294]:
+                - paragraph [ref=e295]: "\"nitroglycerin (oral route, sublingual route)\" -> 我们可以提取为 nitroglycerin，因为交互与途径无关，可以统一为 nitroglycerin。但输入中有三个 nitroglycerin 条目：\"nitroglycerin (oral route, sublingual route)\", \"nitroglycerin (transdermal)\", \"nitroglycerin (topical)\", \"nitroglycerin\"（最后一个没有剂型，可能就是一般）。它们活性成分都是 nitroglycerin。为避免重复，我们可以合并为一个 \"nitroglycerin\" 条目，交互一样。但题目要求为“每种药物”生成，输入列表有多个 nitroglycerin，可能期望我们为每个条目生成，但那样会产生大量重复，不过要求输出 JSON，可能只需涵盖每个输入的药物。我认为可以合并相同活性成分，剂型不改变全身交互（除局部用药可能忽略，但这里是口服/舌下/透皮/外用均是全身吸收，交互相同）。所以合并为 \"nitroglycerin\"。"
+              - listitem [ref=e296]:
+                - paragraph [ref=e297]: "\"verapamil (oral/injection)\" 和 \"verapamil (oral route)\" -> 合并 verapamil。"
+              - listitem [ref=e298]:
+                - paragraph [ref=e299]: "\"Aspirin Enteric-Coated and Buffered Tablets\" 和 \"Aspirin Tablets\" -> 合并 aspirin。"
+              - listitem [ref=e300]:
+                - paragraph [ref=e301]: "\"amlodipine (oral route)\" -> 与组合药中的 amlodipine 成分一致，可单独列为 amlodipine，也可不单独列如果组合药已包含其交互。但输入有单独的 amlodipine (oral route)，所以应列出 amlodipine 条目。那么组合药 \"amlodipine and atorvastatin\" 中再列 amlodipine 交互会有重复，但可以接受。我们分别处理。"
+              - listitem [ref=e302]:
+                - paragraph [ref=e303]: "\"nitroglycerin (transdermal)\", \"nitroglycerin (topical)\", \"nitroglycerin\" -> 合并。"
+              - listitem [ref=e304]:
+                - paragraph [ref=e305]: "\"heparin (injection)\" -> heparin."
+              - listitem [ref=e306]:
+                - paragraph [ref=e307]: "\"propranolol (oral route)\" -> propranolol."
+              - listitem [ref=e308]:
+                - paragraph [ref=e309]: "\"Metoprolol Extended-Release Capsules\" -> metoprolol."
+              - listitem [ref=e310]:
+                - paragraph [ref=e311]: "\"dalteparin\" -> dalteparin."
+              - listitem [ref=e312]:
+                - paragraph [ref=e313]: "\"bivalirudin\" -> bivalirudin."
+              - listitem [ref=e314]:
+                - paragraph [ref=e315]: "\"isosorbide dinitrate (oral route, sublingual route)\" -> isosorbide dinitrate."
+              - listitem [ref=e316]:
+                - paragraph [ref=e317]: "\"ranolazine (oral route)\" -> ranolazine."
+              - listitem [ref=e318]:
+                - paragraph [ref=e319]: "\"lorazepam (oral)\" -> lorazepam."
+              - listitem [ref=e320]:
+                - paragraph [ref=e321]: "\"diazepam (oral)\" 和 \"diazepam (oral route)\" -> 合并 diazepam。"
+              - listitem [ref=e322]:
+                - paragraph [ref=e323]: "\"Alprazolam Oral Solution\" -> alprazolam."
+              - listitem [ref=e324]:
+                - paragraph [ref=e325]: "\"risperidone (oral)\" -> risperidone."
+              - listitem [ref=e326]:
+                - paragraph [ref=e327]: "\"clorazepate (oral route)\" -> clorazepate."
+              - listitem [ref=e328]:
+                - paragraph [ref=e329]: "\"doxepin (capsules, oral concentrate)\" -> doxepin."
+              - listitem [ref=e330]:
+                - paragraph [ref=e331]: "\"amitriptyline and perphenazine\" (组合) -> 处理为组合，成分 amitriptyline, perphenazine."
+              - listitem [ref=e332]:
+                - paragraph [ref=e333]: "\"phenytoin (oral)\" -> phenytoin."
+              - listitem [ref=e334]:
+                - paragraph [ref=e335]: "\"prochlorperazine (oral/injection)\" 和 \"prochlorperazine (rectal)\" -> 合并 prochlorperazine."
+              - listitem [ref=e336]:
+                - paragraph [ref=e337]: "\"amitriptyline and chlordiazepoxide\" (组合) -> amitriptyline, chlordiazepoxide."
+              - listitem [ref=e338]:
+                - paragraph [ref=e339]: "\"meprobamate\" -> meprobamate."
+              - listitem [ref=e340]:
+                - paragraph [ref=e341]: "\"fluticasone, umeclidinium, and vilanterol\" (三联组合) -> fluticasone, umeclidinium, vilanterol."
+              - listitem [ref=e342]:
+                - paragraph [ref=e343]: "\"benralizumab\" 和 \"benralizumab Brand name: Fasenra\" -> 合并 benralizumab."
+              - listitem [ref=e344]:
+                - paragraph [ref=e345]: "\"mepolizumab\" -> mepolizumab."
+              - listitem [ref=e346]:
+                - paragraph [ref=e347]: "\"tezepelumab\", \"tezepelumab-ekko\" -> 合并 tezepelumab (两者是同一个活性成分，带-ekko 是生物仿制药标识，但交互相同)。"
+              - listitem [ref=e348]:
+                - paragraph [ref=e349]: "\"formoterol and mometasone\" (组合) -> formoterol, mometasone."
+              - listitem [ref=e350]:
+                - paragraph [ref=e351]: "\"ipratropium (inhalation route)\", \"ipratropium inhalation\", \"Ipratropium Inhalation Solution\" -> 合并 ipratropium."
+              - listitem [ref=e352]:
+                - paragraph [ref=e353]: "\"fluticasone and vilanterol\" (组合) -> fluticasone, vilanterol."
+              - listitem [ref=e354]:
+                - paragraph [ref=e355]: "\"methylprednisolone (oral)\" 和 \"methylprednisolone (injection)\" -> 合并 methylprednisolone."
+              - listitem [ref=e356]:
+                - paragraph [ref=e357]: "\"dexamethasone (oral)\" 和 \"dexamethasone (oral route)\" -> 合并 dexamethasone."
+              - listitem [ref=e358]:
+                - paragraph [ref=e359]: "\"ciclesonide (inhalation)\" -> ciclesonide."
+              - listitem [ref=e360]:
+                - paragraph [ref=e361]: "\"levalbuterol inhalation\" -> levalbuterol."
+              - listitem [ref=e362]:
+                - paragraph [ref=e363]: "\"triamcinolone (oral)\" 和 \"triamcinolone (injection)\" -> 合并 triamcinolone."
+              - listitem [ref=e364]:
+                - paragraph [ref=e365]: "\"Caffeine\" 仅一个。"
+            - paragraph [ref=e366]: 所以最终 generic_name 列表：
+            - list [ref=e367]:
+              - listitem [ref=e368]:
+                - paragraph [ref=e369]: amlodipine and atorvastatin (组合，需列出 amlodipine 和 atorvastatin 交互)
+              - listitem [ref=e370]:
+                - paragraph [ref=e371]: amlodipine (单独)
+              - listitem [ref=e372]:
+                - paragraph [ref=e373]: nitroglycerin
+              - listitem [ref=e374]:
+                - paragraph [ref=e375]: verapamil
+              - listitem [ref=e376]:
+                - paragraph [ref=e377]: aspirin
+              - listitem [ref=e378]:
+                - paragraph [ref=e379]: heparin
+              - listitem [ref=e380]:
+                - paragraph [ref=e381]: propranolol
+              - listitem [ref=e382]:
+                - paragraph [ref=e383]: metoprolol
+              - listitem [ref=e384]:
+                - paragraph [ref=e385]: dalteparin
+              - listitem [ref=e386]:
+                - paragraph [ref=e387]: bivalirudin
+              - listitem [ref=e388]:
+                - paragraph [ref=e389]: isosorbide dinitrate
+              - listitem [ref=e390]:
+                - paragraph [ref=e391]: ranolazine
+              - listitem [ref=e392]:
+                - paragraph [ref=e393]: lorazepam
+              - listitem [ref=e394]:
+                - paragraph [ref=e395]: diazepam
+              - listitem [ref=e396]:
+                - paragraph [ref=e397]: alprazolam
+              - listitem [ref=e398]:
+                - paragraph [ref=e399]: risperidone
+              - listitem [ref=e400]:
+                - paragraph [ref=e401]: clorazepate
+              - listitem [ref=e402]:
+                - paragraph [ref=e403]: doxepin
+              - listitem [ref=e404]:
+                - paragraph [ref=e405]: "amitriptyline and perphenazine (组合: amitriptyline, perphenazine)"
+              - listitem [ref=e406]:
+                - paragraph [ref=e407]: phenytoin
+              - listitem [ref=e408]:
+                - paragraph [ref=e409]: prochlorperazine
+              - listitem [ref=e410]:
+                - paragraph [ref=e411]: "amitriptyline and chlordiazepoxide (组合: amitriptyline, chlordiazepoxide)"
+              - listitem [ref=e412]:
+                - paragraph [ref=e413]: meprobamate
+              - listitem [ref=e414]:
+                - paragraph [ref=e415]: "fluticasone, umeclidinium, and vilanterol (组合: fluticasone, umeclidinium, vilanterol)"
+              - listitem [ref=e416]:
+                - paragraph [ref=e417]: benralizumab
+              - listitem [ref=e418]:
+                - paragraph [ref=e419]: mepolizumab
+              - listitem [ref=e420]:
+                - paragraph [ref=e421]: tezepelumab
+              - listitem [ref=e422]:
+                - paragraph [ref=e423]: "formoterol and mometasone (组合: formoterol, mometasone)"
+              - listitem [ref=e424]:
+                - paragraph [ref=e425]: ipratropium
+              - listitem [ref=e426]:
+                - paragraph [ref=e427]: "fluticasone and vilanterol (组合: fluticasone, vilanterol)"
+              - listitem [ref=e428]:
+                - paragraph [ref=e429]: methylprednisolone
+              - listitem [ref=e430]:
+                - paragraph [ref=e431]: dexamethasone
+              - listitem [ref=e432]:
+                - paragraph [ref=e433]: ciclesonide
+              - listitem [ref=e434]:
+                - paragraph [ref=e435]: levalbuterol
+              - listitem [ref=e436]:
+                - paragraph [ref=e437]: triamcinolone
+              - listitem [ref=e438]:
+                - paragraph [ref=e439]: caffeine
+            - paragraph [ref=e440]: "我们将为每个生成一个对象，generic_name 使用这个名称。对于组合药物，interactions 会包含两种药物的交互，drug_a 会区分成分。例如 \"amlodipine and atorvastatin\" 的 interactions: [{\"drug_a\":\"amlodipine\",...},{\"drug_a\":\"atorvastatin\",...}]。"
+            - paragraph [ref=e441]: 现在构建每个药物的交互列表。需要专业的临床药学知识，列出 major 和 moderate 交互。优先与常见药物类（抗凝药、抗抑郁药、抗真菌药、抗酸药等）。每个交互需包含 drug_a (当前药物), drug_b (交互药物类或具体药品，用通用类别名如 "warfarin", "MAO inhibitors", "CYP3A4 inhibitors" 等)，interaction_type, clinical_effect, mechanism。
+            - paragraph [ref=e442]: 药物：
+            - list [ref=e443]:
+              - listitem [ref=e444]:
+                - paragraph [ref=e445]: "amlodipine: 二氢吡啶类钙通道阻滞剂。主要交互："
+                - list [ref=e446]:
+                  - listitem [ref=e447]:
+                    - paragraph [ref=e448]: CYP3A4 强抑制剂（如酮康唑、伊曲康唑、克拉霉素、ritonavir）增加 amlodipine 血药浓度，导致低血压、水肿。 Major? moderate. 通常为 moderate，因为 amlodipine 是 CYP3A4 底物，抑制会导致 AUC 增加，需调整剂量。列为 moderate。
+                  - listitem [ref=e449]:
+                    - paragraph [ref=e450]: CYP3A4 诱导剂（如利福平、圣约翰草）降低 amlodipine 效果。 Moderate.
+                  - listitem [ref=e451]:
+                    - paragraph [ref=e452]: 与 beta-blockers 合用有叠加降压和负性肌力作用，但通常 moderate。
+                  - listitem [ref=e453]:
+                    - paragraph [ref=e454]: 与他汀类（simvastatin, atorvastatin）合用增加他汀暴露，可能导致肌病 (amlodipine 抑制 OATP1B1 等)。是 moderate，增加他汀毒性风险。因为 amlodipine 本身和他汀组合，这个交互在组合药中体现为内部成分交互？但组合药 "amlodipine and atorvastatin" 内部已知并用，临床需要关注，但作为交互，通常 amlodipine 与 atorvastatin 合用时，atorvastatin 暴露增加，需要限制剂量。会列为 moderate。对 amlodipine 条目，可包括与 simvastatin, atorvastatin 交互。对组合药，可以不列这个交互？最好还是在交互列表中体现可能的外部药物交互，不必列内部成分间交互（因为组合药本身就是固定剂量复方，是允许的，但警告不要额外交互药物）。按指令为组合药列出每个成分的交互，那么 amlodipine 成分有交互包括 CYP3A4 抑制剂等，atorvastatin 成分有交互包括 CYP3A4 抑制剂、贝特类等。可以列出 amlodipine 与其他 CYP3A4 抑制剂，而 atorvastatin 与吉非贝齐等，但不能列 amlodipine 与 atorvastatin 因为那是成分内部，但可以列 atorvastatin 与 amlodipine 交互？该组合药就是两者合用，已知相互作用已通过剂量调整处理，不应再作为交互警告。因此为组合药列交互时，只列与外部药物的交互。对于 amlodipine 成分，交互包括 CYP3A4 抑制剂/诱导剂，与 beta-blockers。对于 atorvastatin 成分，交互包括 CYP3A4 抑制剂、环孢素、吉非贝齐等。好，照此处理。
+                - paragraph [ref=e455]: "amlodipine interactions:"
+                - list [ref=e456]:
+                  - listitem [ref=e457]:
+                    - paragraph [ref=e458]: "drug_b: \"CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, ritonavir)\", moderate, \"增加低血压和外周水肿风险\", \"CYP3A4 抑制减少 amlodipine 代谢\""
+                  - listitem [ref=e459]:
+                    - paragraph [ref=e460]: "drug_b: \"CYP3A4 inducers (e.g., rifampin, St. John's wort)\", moderate, \"降低降压效果\", \"CYP3A4 诱导加速 amlodipine 代谢\""
+                  - listitem [ref=e461]:
+                    - paragraph [ref=e462]: "drug_b: \"beta-blockers\", moderate, \"增加心力衰竭、严重低血压或心动过缓风险\", \"Additive negative inotropic and chronotropic effects\""
+                - paragraph [ref=e463]: atorvastatin 交互（用于组合药条目，也可为单独 atorvastatin 条目？输入中没有单独 atorvastatin，但在组合药中需处理）：
+                - list [ref=e464]:
+                  - listitem [ref=e465]:
+                    - paragraph [ref=e466]: "drug_b: \"CYP3A4 inhibitors (e.g., clarithromycin, itraconazole, ritonavir)\", major, \"增加肌病和横纹肌溶解症风险\", \"CYP3A4 抑制减少 atorvastatin 代谢，显著升高血药浓度\""
+                  - listitem [ref=e467]:
+                    - paragraph [ref=e468]: "drug_b: \"gemfibrozil\", major, \"增加肌病和横纹肌溶解症风险\", \"Gemfibrozil 抑制 atorvastatin 葡糖醛酸化和 OATP1B1 转运\""
+                  - listitem [ref=e469]:
+                    - paragraph [ref=e470]: "drug_b: \"other fibrates (e.g., fenofibrate)\", moderate, \"增加肌病风险\", \"Additive musculoskeletal effects\""
+                  - listitem [ref=e471]:
+                    - paragraph [ref=e472]: "drug_b: \"niacin (≥1 g/day)\", moderate, \"增加肌病风险\", \"Additive musculoskeletal effects\""
+                  - listitem [ref=e473]:
+                    - paragraph [ref=e474]: "drug_b: \"cyclosporine\", major, \"增加肌病和横纹肌溶解症风险\", \"Cyclosporine 抑制 OATP1B1 和 CYP3A4，增加 atorvastatin 暴露\""
+                  - listitem [ref=e475]:
+                    - paragraph [ref=e476]: "drug_b: \"colchicine\", moderate, \"增加肌病风险\", \"Additive myotoxicity, potential CYP3A4 inhibition\""
+                - paragraph [ref=e477]: 注意：atorvastatin 也是 OATP1B1 底物，与 rifampin 等诱导剂可能降低效果，但通常是 moderate，但还是列重要交互。可以列 major 和 moderate。
+              - listitem [ref=e478]:
+                - paragraph [ref=e479]: "nitroglycerin: 有机硝酸酯。重要交互："
+                - list [ref=e480]:
+                  - listitem [ref=e481]:
+                    - paragraph [ref=e482]: "与 PDE5 抑制剂 (sildenafil, tadalafil, vardenafil, avanafil) 合用: major，严重低血压。机制：协同血管舒张。"
+                  - listitem [ref=e483]:
+                    - paragraph [ref=e484]: "与 riociguat (sGC 刺激剂) 合用: major，低血压。"
+                  - listitem [ref=e485]:
+                    - paragraph [ref=e486]: "与 alcohol 合用: moderate，增加低血压和头晕。"
+                  - listitem [ref=e487]:
+                    - paragraph [ref=e488]: "与 降压药、血管扩张剂 合用: moderate，叠加低血压。"
+                  - listitem [ref=e489]:
+                    - paragraph [ref=e490]: 与 ergotamine 等合用可能引起心绞痛对抗？不太重要。主要列出 PDE5 抑制剂 major，riociguat major，酒精 moderate，其他降压药 moderate。
+              - listitem [ref=e491]:
+                - paragraph [ref=e492]: "verapamil: 非二氢吡啶类钙通道阻滞剂。重要交互："
+                - list [ref=e493]:
+                  - listitem [ref=e494]:
+                    - paragraph [ref=e495]: "与 beta-blockers (尤其是静脉注射) 合用: major，导致严重心动过缓、心搏停止、心力衰竭。机理：相加负性肌力/变时作用。"
+                  - listitem [ref=e496]:
+                    - paragraph [ref=e497]: "与 digoxin 合用: moderate，增加 digoxin 血清浓度和毒性风险（地高辛中毒）。机制：verapamil 降低 digoxin 清除率。"
+                  - listitem [ref=e498]:
+                    - paragraph [ref=e499]: "与 CYP3A4 抑制剂: moderate，增加 verapamil 浓度及副作用（低血压、心动过缓）。"
+                  - listitem [ref=e500]:
+                    - paragraph [ref=e501]: "与 CYP3A4 诱导剂: moderate，降低 verapamil 疗效。"
+                  - listitem [ref=e502]:
+                    - paragraph [ref=e503]: "与 simvastatin, atorvastatin: major/moderate? verapamil 是 CYP3A4 抑制剂，可显著升高 simvastatin 浓度，增加肌病风险，列为 major（与 simvastatin 禁忌，与 atorvastatin moderate）。通用：与 statins 代谢 via CYP3A4."
+                  - listitem [ref=e504]:
+                    - paragraph [ref=e505]: "与 dabigatran: moderate，增加出血风险 (verapamil 抑制 P-gp，增加 dabigatran 暴露)。"
+                  - listitem [ref=e506]:
+                    - paragraph [ref=e507]: "与 clonidine: moderate，严重心动过缓。"
+                  - listitem [ref=e508]:
+                    - paragraph [ref=e509]: "与 grapefruit juice: moderate，增加 verapamil 暴露。"
+                - paragraph [ref=e510]: 需要列出重要的。clinically significant 交互。优先与抗凝药、抗抑郁药等。verapamil 与 warfarin? 可能影响，但非主要。
+              - listitem [ref=e511]:
+                - paragraph [ref=e512]: "aspirin (抗血小板剂量和镇痛剂量)。主要交互:"
+                - list [ref=e513]:
+                  - listitem [ref=e514]:
+                    - paragraph [ref=e515]: "与 other anticoagulants/antiplatelets (warfarin, heparin, clopidogrel, DOACs, NSAIDs): major, 增加出血风险。"
+                  - listitem [ref=e516]:
+                    - paragraph [ref=e517]: "与 ibuprofen 等 NSAIDs: moderate，减弱 aspirin 的抗血小板作用 (药效学拮抗，ibuprofen 结合 COX-1 位点) 且增加 GI 出血风险。"
+                  - listitem [ref=e518]:
+                    - paragraph [ref=e519]: "与 methotrexate: major (high-dose methotrexate), 增加甲氨蝶呤毒性（减少肾清除）。"
+                  - listitem [ref=e520]:
+                    - paragraph [ref=e521]: "与 corticosteroids: moderate, 增加 GI 溃疡和出血风险。"
+                  - listitem [ref=e522]:
+                    - paragraph [ref=e523]: "与 SSRIs/SNRIs: moderate, 增加上消化道出血风险 (additive antiplatelet effect)。"
+                  - listitem [ref=e524]:
+                    - paragraph [ref=e525]: "与 valproic acid: moderate, 增加 valproic acid 游离浓度和毒性。"
+              - listitem [ref=e526]:
+                - paragraph [ref=e527]: "heparin (unfractionated heparin): 主要交互："
+                - list [ref=e528]:
+                  - listitem [ref=e529]:
+                    - paragraph [ref=e530]: "与 other anticoagulants/antiplatelets/warfarin/DOACs/NSAIDs: major, 出血风险增加。"
+                  - listitem [ref=e531]:
+                    - paragraph [ref=e532]: "与 antiplatelet agents (aspirin, clopidogrel): major."
+                  - listitem [ref=e533]:
+                    - paragraph [ref=e534]: "与 dextran: major, 出血风险。"
+                  - listitem [ref=e535]:
+                    - paragraph [ref=e536]: "与 thrombolytics: major."
+                  - listitem [ref=e537]:
+                    - paragraph [ref=e538]: "与 SSRIs/SNRIs: moderate, 出血风险增加。"
+              - listitem [ref=e539]:
+                - paragraph [ref=e540]: "propranolol: 非选择性 beta-blocker."
+                - list [ref=e541]:
+                  - listitem [ref=e542]:
+                    - paragraph [ref=e543]: "与 verapamil 或其他非二氢吡啶类 CCBs: major, 心动过缓、心衰、心搏停止。"
+                  - listitem [ref=e544]:
+                    - paragraph [ref=e545]: "与 clonidine: major, 反跳性高血压（若突然停用 clonidine 而继续使用 beta-blocker）。"
+                  - listitem [ref=e546]:
+                    - paragraph [ref=e547]: "与 insulin/sulfonylureas: moderate, 掩盖低血糖症状（心悸）并可能导致低血糖或高血压（非选择性 beta-blocker 可抑制糖原分解）。"
+                  - listitem [ref=e548]:
+                    - paragraph [ref=e549]: "与 epinephrine: major, 严重高血压和心动过缓 (非选择性 beta-blocker 与 epinephrine 合用导致 alpha 血管收缩无对抗)。"
+                  - listitem [ref=e550]:
+                    - paragraph [ref=e551]: "与 amiodarone: moderate, 心动过缓、心搏停止。"
+                  - listitem [ref=e552]:
+                    - paragraph [ref=e553]: "与 CYP2D6 inhibitors (fluoxetine, paroxetine, bupropion): moderate, 增加 propranolol 浓度。"
+                  - listitem [ref=e554]:
+                    - paragraph [ref=e555]: "与 NSAIDs: moderate, 降低降压效果。"
+              - listitem [ref=e556]:
+                - paragraph [ref=e557]: "metoprolol: 选择性 beta1-blocker. 主要交互："
+                - list [ref=e558]:
+                  - listitem [ref=e559]:
+                    - paragraph [ref=e560]: "与 CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion): major/moderate? 可能显著增加 metoprolol 浓度导致心动过缓。列为 moderate 或 major? 通常 moderate (FDA 建议监测)。"
+                  - listitem [ref=e561]:
+                    - paragraph [ref=e562]: "与 verapamil, diltiazem: major (静脉合用)，口服 moderate 心动过缓和负性肌力。"
+                  - listitem [ref=e563]:
+                    - paragraph [ref=e564]: "与 clonidine: major 反弹高血压。"
+                  - listitem [ref=e565]:
+                    - paragraph [ref=e566]: "与 amiodarone: moderate 心动过缓。"
+                  - listitem [ref=e567]:
+                    - paragraph [ref=e568]: "与 digoxin: moderate 增加心动过缓风险。"
+                  - listitem [ref=e569]:
+                    - paragraph [ref=e570]: "与 NSAIDs: moderate 减弱降压。"
+                  - listitem [ref=e571]:
+                    - paragraph [ref=e572]: "与 insulin/sulfonylureas: moderate 掩盖低血糖症状（选择性 beta1 也会掩盖，但风险低于非选择性）。"
+                  - listitem [ref=e573]:
+                    - paragraph [ref=e574]: "与 epinephrine: moderate 高血压心动过缓（选择性 beta1 也会但较弱）。"
+              - listitem [ref=e575]:
+                - paragraph [ref=e576]: "dalteparin: 低分子肝素。交互类似肝素:"
+                - list [ref=e577]:
+                  - listitem [ref=e578]:
+                    - paragraph [ref=e579]: "与 anticoagulants, antiplatelets, NSAIDs, thrombolytics: major 出血风险。"
+                  - listitem [ref=e580]:
+                    - paragraph [ref=e581]: "与 SSRIs/SNRIs: moderate."
+              - listitem [ref=e582]:
+                - paragraph [ref=e583]: "bivalirudin: 直接凝血酶抑制剂。交互："
+                - list [ref=e584]:
+                  - listitem [ref=e585]:
+                    - paragraph [ref=e586]: "与抗血小板药 (aspirin, clopidogrel, prasugrel, ticagrelor), 抗凝药 (warfarin, heparin, DOACs): major 出血风险。"
+                  - listitem [ref=e587]:
+                    - paragraph [ref=e588]: "与 thrombolytics: major."
+                  - listitem [ref=e589]:
+                    - paragraph [ref=e590]: "与 NSAIDs: moderate 出血。"
+              - listitem [ref=e591]:
+                - paragraph [ref=e592]: "isosorbide dinitrate: 有机硝酸酯，同 nitroglycerin:"
+                - list [ref=e593]:
+                  - listitem [ref=e594]:
+                    - paragraph [ref=e595]: "PDE5 inhibitors: major 低血压。"
+                  - listitem [ref=e596]:
+                    - paragraph [ref=e597]: "riociguat: major 低血压。"
+                  - listitem [ref=e598]:
+                    - paragraph [ref=e599]: "alcohol: moderate 低血压头晕。"
+                  - listitem [ref=e600]:
+                    - paragraph [ref=e601]: "其他降压药: moderate."
+              - listitem [ref=e602]:
+                - paragraph [ref=e603]: "ranolazine: 抗心绞痛药。主要交互："
+                - list [ref=e604]:
+                  - listitem [ref=e605]:
+                    - paragraph [ref=e606]: "与 CYP3A4 强抑制剂 (ketoconazole, clarithromycin): major (禁忌)，增加 ranolazine 浓度导致 QT 延长和心律失常。"
+                  - listitem [ref=e607]:
+                    - paragraph [ref=e608]: "与 CYP3A4 中等抑制剂 (diltiazem, verapamil): moderate，增加暴露，需限制剂量。"
+                  - listitem [ref=e609]:
+                    - paragraph [ref=e610]: "与 CYP3A4 诱导剂 (rifampin): major, 显著降低疗效。"
+                  - listitem [ref=e611]:
+                    - paragraph [ref=e612]: "与 P-gp 抑制剂 (cyclosporine): moderate, 增加暴露。"
+                  - listitem [ref=e613]:
+                    - paragraph [ref=e614]: "与 QT 延长药物 (Class Ia/III 抗心律失常，某些抗精神病药): moderate, 潜在叠加 QT 延长。"
+                  - listitem [ref=e615]:
+                    - paragraph [ref=e616]: "与 simvastatin: moderate, 增加 simvastatin 暴露 (CYP3A4 抑制? ranolazine 是弱抑制剂？) FDA 标注 ranolazine 增加 simvastatin 剂量相关肌病风险，限制 simvastatin 剂量。列为 moderate。"
+                  - listitem [ref=e617]:
+                    - paragraph [ref=e618]: "与 metformin: moderate, 可能增加 metformin 暴露 (ranolazine 抑制 OCT2)，不重大。"
+              - listitem [ref=e619]:
+                - paragraph [ref=e620]: "lorazepam: 苯二氮卓类。主要通过葡糖醛酸化代谢，不是 CYP 底物。主要交互："
+                - list [ref=e621]:
+                  - listitem [ref=e622]:
+                    - paragraph [ref=e623]: "与其他 CNS 抑制剂 (opioids, alcohol, other benzodiazepines, barbiturates, sedatives): major (与 opioids 合用有严重呼吸抑制、镇静、死亡风险) -> 应列为 major 或 moderate。与阿片类合用是 major 警告。主要机制是药效学相加。"
+                  - listitem [ref=e624]:
+                    - paragraph [ref=e625]: "与 alcohol: major 或 moderate? FDA boxed warning 与 opioids 是 major，与酒精是 moderate 可能。通常 alcohol 增加 CNS 抑制。"
+                  - listitem [ref=e626]:
+                    - paragraph [ref=e627]: "与 probenecid: moderate, 可能增加 lorazepam 效果 (抑制葡糖醛酸化)。"
+                  - listitem [ref=e628]:
+                    - paragraph [ref=e629]: "与 valproate: moderate, 可能增加 lorazepam 浓度。"
+              - listitem [ref=e630]:
+                - paragraph [ref=e631]: "diazepam: 经 CYP2C19 和 CYP3A4 代谢。交互："
+                - list [ref=e632]:
+                  - listitem [ref=e633]:
+                    - paragraph [ref=e634]: "与 opioids: major 呼吸抑制、镇静。"
+                  - listitem [ref=e635]:
+                    - paragraph [ref=e636]: "与 alcohol: major 或 moderate。"
+                  - listitem [ref=e637]:
+                    - paragraph [ref=e638]: "与 CYP3A4 抑制剂 (ketoconazole, fluvoxamine? fluvoxamine 是强 CYP1A2 和 CYP2C19 抑制剂，可能影响): moderate，增加镇静和呼吸抑制。氟伏沙明抑制 diazepam 代谢 (CYP2C19 和 CYP3A4)。"
+                  - listitem [ref=e639]:
+                    - paragraph [ref=e640]: "与 cimetidine: moderate 抑制代谢。"
+                  - listitem [ref=e641]:
+                    - paragraph [ref=e642]: "与 omeprazole (CYP2C19 抑制剂): moderate 增加 diazepam 效果。"
+                  - listitem [ref=e643]:
+                    - paragraph [ref=e644]: "与 phenytoin: 复杂，相互影响代谢。"
+                  - listitem [ref=e645]:
+                    - paragraph [ref=e646]: 与其他 CNS 抑制剂。
+              - listitem [ref=e647]:
+                - paragraph [ref=e648]: "alprazolam: 经 CYP3A4 代谢。交互："
+                - list [ref=e649]:
+                  - listitem [ref=e650]:
+                    - paragraph [ref=e651]: "与 strong CYP3A4 inhibitors (ketoconazole, itraconazole, ritonavir): major, 显著增加 alprazolam 浓度导致呼吸抑制、过度镇静。"
+                  - listitem [ref=e652]:
+                    - paragraph [ref=e653]: "与 moderate CYP3A4 inhibitors (erythromycin, fluvoxamine, grapefruit): moderate 增加效果。"
+                  - listitem [ref=e654]:
+                    - paragraph [ref=e655]: "与 opioids: major 或 moderate (if major boxed warning). 按 FDA: 苯二氮卓与阿片类合用有严重风险，列为 major。"
+                  - listitem [ref=e656]:
+                    - paragraph [ref=e657]: "与 alcohol: major 或 moderate。"
+                  - listitem [ref=e658]:
+                    - paragraph [ref=e659]: "与 CYP3A4 inducers (rifampin, carbamazepine): moderate 降低疗效。"
+              - listitem [ref=e660]:
+                - paragraph [ref=e661]: "risperidone: 经 CYP2D6 及 CYP3A4 代谢。交互："
+                - list [ref=e662]:
+                  - listitem [ref=e663]:
+                    - paragraph [ref=e664]: "与 strong CYP2D6 inhibitors (fluoxetine, paroxetine): major/moderate? fluoxetine 显著增加 risperidone 暴露，导致 QT 延长、锥体外系症状等。moderate 至 major，一般 moderate (调整剂量)。"
+                  - listitem [ref=e665]:
+                    - paragraph [ref=e666]: "与 CYP3A4 inducers (carbamazepine, rifampin): moderate 降低 risperidone 水平。"
+                  - listitem [ref=e667]:
+                    - paragraph [ref=e668]: "与 drugs that prolong QT (class IA/III antiarrhythmics, other antipsychotics, methadone): major/moderate 增加尖端扭转型室速风险。"
+                  - listitem [ref=e669]:
+                    - paragraph [ref=e670]: "与 antihypertensives: moderate 相加低血压。"
+                  - listitem [ref=e671]:
+                    - paragraph [ref=e672]: "与 dopamine agonists (levodopa): moderate 拮抗效果。"
+                  - listitem [ref=e673]:
+                    - paragraph [ref=e674]: "与 opioids: moderate 加重 CNS 抑制。"
+              - listitem [ref=e675]:
+                - paragraph [ref=e676]: "clorazepate: 前药，转化为去甲地西泮 (nordiazepam)，经 CYP3A4 代谢。与 diazepam 类似。主要："
+                - list [ref=e677]:
+                  - listitem [ref=e678]:
+                    - paragraph [ref=e679]: "与 opioids: major."
+                  - listitem [ref=e680]:
+                    - paragraph [ref=e681]: "与 alcohol: major/moderate."
+                  - listitem [ref=e682]:
+                    - paragraph [ref=e683]: 与 CYP3A4 inhibitors/inducers.
+                  - listitem [ref=e684]:
+                    - paragraph [ref=e685]: "与 valproate: 可能增加。"
+              - listitem [ref=e686]:
+                - paragraph [ref=e687]: "doxepin: 三环类抗抑郁药。经 CYP2D6 和 CYP2C19 代谢。交互："
+                - list [ref=e688]:
+                  - listitem [ref=e689]:
+                    - paragraph [ref=e690]: "与 MAO inhibitors: major, 严重，5-羟色胺综合征，体温过高，惊厥，死亡。禁用。"
+                  - listitem [ref=e691]:
+                    - paragraph [ref=e692]: "与 serotonergic drugs (SSRIs, SNRIs, triptans, linezolid): moderate/major, 5-羟色胺综合征风险。"
+                  - listitem [ref=e693]:
+                    - paragraph [ref=e694]: "与 CYP2D6 inhibitors (fluoxetine, paroxetine, bupropion): moderate，升高 doxepin 浓度，增加心脏毒性和抗胆碱能效应。"
+                  - listitem [ref=e695]:
+                    - paragraph [ref=e696]: "与 drugs that prolong QT (class IA/III antiarrhythmics): major, 增加尖端扭转型室速风险。"
+                  - listitem [ref=e697]:
+                    - paragraph [ref=e698]: "与 anticholinergic drugs: moderate 相加抗胆碱能。"
+                  - listitem [ref=e699]:
+                    - paragraph [ref=e700]: "与 alcohol, CNS depressants: moderate."
+              - listitem [ref=e701]:
+                - paragraph [ref=e702]:
+                  - text: "amitriptyline and perphenazine: 成分 amitriptyline (TCA) 和 perphenazine (phenothiazine 抗精神病药)。"
+                  - text: 为 amitriptyline 交互：
+                - list [ref=e703]:
+                  - listitem [ref=e704]:
+                    - paragraph [ref=e705]: "MAO inhibitors: major."
+                  - listitem [ref=e706]:
+                    - paragraph [ref=e707]: "serotonergic drugs: serotonin syndrome moderate."
+                  - listitem [ref=e708]:
+                    - paragraph [ref=e709]: "CYP2D6 inhibitors: moderate increase amitriptyline."
+                  - listitem [ref=e710]:
+                    - paragraph [ref=e711]: "QT prolonging agents: major."
+                  - listitem [ref=e712]:
+                    - paragraph [ref=e713]: "anticholinergics: moderate."
+                  - listitem [ref=e714]:
+                    - paragraph [ref=e715]:
+                      - text: "CNS depressants: moderate."
+                      - text: 为 perphenazine 交互：
+                  - listitem [ref=e716]:
+                    - paragraph [ref=e717]: "CYP2D6 inhibitors: moderate increase perphenazine (risk of EPS, QT)."
+                  - listitem [ref=e718]:
+                    - paragraph [ref=e719]: "QT prolonging drugs: major."
+                  - listitem [ref=e720]:
+                    - paragraph [ref=e721]: "anticholinergics: moderate."
+                  - listitem [ref=e722]:
+                    - paragraph [ref=e723]: "CNS depressants: moderate (opioids, alcohol, benzos)。"
+                  - listitem [ref=e724]:
+                    - paragraph [ref=e725]: "antihypertensives: moderate 相加低血压."
+                  - listitem [ref=e726]:
+                    - paragraph [ref=e727]: "lithium: moderate, 神经毒性。"
+              - listitem [ref=e728]:
+                - paragraph [ref=e729]: "phenytoin: 强 CYP 诱导剂 (3A4, 2C9, 2C19) 且本身代谢受其他药影响。交互多。"
+                - list [ref=e730]:
+                  - listitem [ref=e731]:
+                    - paragraph [ref=e732]: "与 other anticonvulsants (carbamazepine, valproate, phenobarbital): 复杂，moderate/major，血浓度变化。"
+                  - listitem [ref=e733]:
+                    - paragraph [ref=e734]: "与 warfarin: major, 初始增加抗凝作用（置换），然后因诱导代谢降低抗凝效果，出血或凝血风险。列为 moderate/major。"
+                  - listitem [ref=e735]:
+                    - paragraph [ref=e736]: "与 oral contraceptives: major, 显著降低避孕效果。"
+                  - listitem [ref=e737]:
+                    - paragraph [ref=e738]: "与 CYP substrates: 很多药物代谢加速，如 statins, corticosteroids, antifungals (azole), 钙通道阻滞剂。应列出常见。比如：major/moderate 降低 amlodipine, verapamil, atorvastatin 等疗效。"
+                  - listitem [ref=e739]:
+                    - paragraph [ref=e740]: "与 corticosteroids (dexamethasone, methylprednisolone): moderate, 降低激素效果。"
+                  - listitem [ref=e741]:
+                    - paragraph [ref=e742]: "与 voriconazole: major, 双向，phenytoin 降低 voriconazole 浓度，voriconazole 升高 phenytoin。contraindicated."
+                  - listitem [ref=e743]:
+                    - paragraph [ref=e744]: "与 cimetidine, fluconazole: moderate, 增加 phenytoin 毒性。"
+                  - listitem [ref=e745]:
+                    - paragraph [ref=e746]: "与 叶酸: moderate, 长期 phenytoin 降低叶酸水平，补充叶酸可能降低 phenytoin 浓度。"
+                  - listitem [ref=e747]:
+                    - paragraph [ref=e748]: "与 enteral feeding: moderate, 减少吸收。"
+              - listitem [ref=e749]:
+                - paragraph [ref=e750]: "prochlorperazine: 酚噻嗪类止吐/抗精神病药。类似于 perphenazine 交互。"
+                - list [ref=e751]:
+                  - listitem [ref=e752]:
+                    - paragraph [ref=e753]: "QT prolonging drugs: major."
+                  - listitem [ref=e754]:
+                    - paragraph [ref=e755]: "CNS depressants (opioids, alcohol, benzos): major/moderate 呼吸抑制、过度镇静."
+                  - listitem [ref=e756]:
+                    - paragraph [ref=e757]: "anticholinergics: moderate."
+                  - listitem [ref=e758]:
+                    - paragraph [ref=e759]: "antihypertensives: moderate 低血压."
+                  - listitem [ref=e760]:
+                    - paragraph [ref=e761]: "CYP2D6 inhibitors: moderate 可能增加浓度."
+              - listitem [ref=e762]:
+                - paragraph [ref=e763]:
+                  - text: "amitriptyline and chlordiazepoxide: 成分 amitriptyline (同上) 和 chlordiazepoxide (苯二氮卓)。交互："
+                  - text: amitriptyline 如上。
+                  - text: "chlordiazepoxide: 经 CYP3A4 代谢。交互："
+                - list [ref=e764]:
+                  - listitem [ref=e765]:
+                    - paragraph [ref=e766]: "opioids: major."
+                  - listitem [ref=e767]:
+                    - paragraph [ref=e768]: "alcohol, CNS depressants: major/moderate."
+                  - listitem [ref=e769]:
+                    - paragraph [ref=e770]: "CYP3A4 inhibitors: moderate 增加镇静."
+                  - listitem [ref=e771]:
+                    - paragraph [ref=e772]: "CYP3A4 inducers: moderate 降低疗效。"
+              - listitem [ref=e773]:
+                - paragraph [ref=e774]: "meprobamate: 镇静剂。主要 CNS 抑制："
+                - list [ref=e775]:
+                  - listitem [ref=e776]:
+                    - paragraph [ref=e777]: "opioids: major 呼吸抑制."
+                  - listitem [ref=e778]:
+                    - paragraph [ref=e779]: "alcohol, benzodiazepines, barbiturates: major/moderate."
+                  - listitem [ref=e780]:
+                    - paragraph [ref=e781]:
+                      - text: "other CNS depressants: moderate."
+                      - text: 交互较少特异性。
+              - listitem [ref=e782]:
+                - paragraph [ref=e783]:
+                  - text: "fluticasone, umeclidinium, and vilanterol: 三联吸入剂。成分：fluticasone furoate (皮质类固醇), umeclidinium (长效抗胆碱能), vilanterol (长效β2激动剂)。吸入给药，全身暴露低，但仍有相互作用可能。"
+                  - text: "fluticasone furoate: 主要为 CYP3A4 代谢。与 strong CYP3A4 inhibitors (ritonavir, ketoconazole) 合用可增加全身暴露，导致皮质醇抑制等。major/moderate。对吸入 fluticasone furoate，与 ritonavir 是 major，可能导致库欣综合征。"
+                  - text: "umeclidinium: 抗胆碱能作用，相加与其他抗胆碱能药导致便秘、尿潴留，青光眼。与 other anticholinergics (oxybutynin, tricyclics) 可能 moderate 相加副作用，但临床意义可能 low。但吸入给药，全身效应不大，可列 moderate。"
+                  - text: "vilanterol: 长效 beta 激动剂。与 beta-blockers 药效学拮抗， moderate，可降低支气管扩张效果。与 non-potassium sparing diuretics, 可加重低血钾，但与吸入 vilanterol 风险低。与 MAO inhibitors, TCAs: 可能增加心血管效应（协同交感），moderate。与强 CYP3A4 抑制剂也可能增加 vilanterol 暴露，但吸入剂全身影响有限。我们可列出主要:"
+                - list [ref=e784]:
+                  - listitem [ref=e785]:
+                    - paragraph [ref=e786]: "fluticasone component + ritonavir: major 库欣综合征/肾上腺抑制."
+                  - listitem [ref=e787]:
+                    - paragraph [ref=e788]: "umeclidinium + other anticholinergics: moderate."
+                  - listitem [ref=e789]:
+                    - paragraph [ref=e790]: "vilanterol + beta-blockers: moderate (潜在支气管收缩)."
+                  - listitem [ref=e791]:
+                    - paragraph [ref=e792]: "vilanterol + MAO inhibitors/TCAs: moderate 心血管刺激."
+              - listitem [ref=e793]:
+                - paragraph [ref=e794]: "benralizumab: 抗 IL-5 单抗。生物制剂，交互很少。不通过 CYP 代谢。无临床显著 drug-drug interactions 已知。可列为无交互？但要求生成交互列表，若没有可提供一个空 interactions 数组？要求是“为以下每种药物生成重要的药物交互列表”，如果没有，可输出空列表。但最好说明。按题目要求可能只需要列出交互，可以空。为避免遗漏，可以注明 no known clinically significant interactions。但输出格式需保持一致，interactions 列表可以为空。同样适用于 mepolizumab, tezepelumab。"
+              - listitem [ref=e795]:
+                - paragraph [ref=e796]: "mepolizumab: 同 benralizumab, 无已知 DDI。"
+              - listitem [ref=e797]:
+                - paragraph [ref=e798]: "tezepelumab: 抗 TSLP 单抗，无已知 DDI。"
+              - listitem [ref=e799]:
+                - paragraph [ref=e800]: "formoterol and mometasone: 组合吸入剂。formoterol (LABA), mometasone (皮质类固醇)。类似 fluticasone/vilanterol 交互。"
+                - list [ref=e801]:
+                  - listitem [ref=e802]:
+                    - paragraph [ref=e803]: "mometasone + strong CYP3A4 inhibitors: moderate/major? 吸入，极少数报道，但可增加全身暴露。"
+                  - listitem [ref=e804]:
+                    - paragraph [ref=e805]: "formoterol + beta-blockers: moderate."
+                  - listitem [ref=e806]:
+                    - paragraph [ref=e807]: "formoterol + MAO inhibitors/TCAs: moderate."
+                  - listitem [ref=e808]:
+                    - paragraph [ref=e809]:
+                      - text: "formoterol + diuretics (non-K-sparing): moderate 低血钾叠加."
+                      - text: 列出主要。
+              - listitem [ref=e810]:
+                - paragraph [ref=e811]: "ipratropium: 短效抗胆碱能吸入剂。交互："
+                - list [ref=e812]:
+                  - listitem [ref=e813]:
+                    - paragraph [ref=e814]: "与 other anticholinergics: moderate 增加抗胆碱能副作用（尿潴留、便秘、窄角型青光眼恶化）。"
+                  - listitem [ref=e815]:
+                    - paragraph [ref=e816]:
+                      - text: "与 pramlintide: moderate (增加便秘)。"
+                      - text: 没有其他主要交互。
+              - listitem [ref=e817]:
+                - paragraph [ref=e818]: "fluticasone and vilanterol: 类似三联组合中的 fluticasone furoate + vilanterol。交互相同：ritonavir major，beta-blockers moderate，MAOIs moderate。"
+              - listitem [ref=e819]:
+                - paragraph [ref=e820]: "methylprednisolone: 全身性糖皮质激素。CYP3A4 底物。"
+                - list [ref=e821]:
+                  - listitem [ref=e822]:
+                    - paragraph [ref=e823]: "CYP3A4 inhibitors (ketoconazole, clarithromycin): moderate 增加激素副作用（高血糖、免疫抑制）。"
+                  - listitem [ref=e824]:
+                    - paragraph [ref=e825]: "CYP3A4 inducers (rifampin, phenytoin, barbiturates): moderate 降低疗效（器官移植排斥风险）。"
+                  - listitem [ref=e826]:
+                    - paragraph [ref=e827]: "NSAIDs: moderate 增加 GI 溃疡和出血风险。"
+                  - listitem [ref=e828]:
+                    - paragraph [ref=e829]: "warfarin: moderate, 可能增强或减弱抗凝作用（多因素），一般监测 INR。"
+                  - listitem [ref=e830]:
+                    - paragraph [ref=e831]: "antidiabetic agents: moderate 升高血糖，减弱降糖药效果。"
+                  - listitem [ref=e832]:
+                    - paragraph [ref=e833]: "vaccines (live): major/moderate，活疫苗可能引起感染 (major if high-dose immunosuppressive)。"
+                  - listitem [ref=e834]:
+                    - paragraph [ref=e835]: "fluoroquinolones: moderate 增加肌腱病变风险。"
+              - listitem [ref=e836]:
+                - paragraph [ref=e837]: "dexamethasone: 糖皮质激素，也是 CYP3A4 诱导剂和底物。"
+                - list [ref=e838]:
+                  - listitem [ref=e839]:
+                    - paragraph [ref=e840]: "CYP3A4 inhibitors: moderate 增加激素效果。"
+                  - listitem [ref=e841]:
+                    - paragraph [ref=e842]: "CYP3A4 inducers: moderate 降低。"
+                  - listitem [ref=e843]:
+                    - paragraph [ref=e844]: "warfarin: moderate 可能导致 INR 变化（报道不同）。"
+                  - listitem [ref=e845]:
+                    - paragraph [ref=e846]: "NSAIDs: moderate."
+                  - listitem [ref=e847]:
+                    - paragraph [ref=e848]: "antidiabetics: moderate."
+                  - listitem [ref=e849]:
+                    - paragraph [ref=e850]: "phenytoin, phenobarbital: moderate 降低 dexamethasone 效果 (dexamethasone suppression test 受影响)。"
+                  - listitem [ref=e851]:
+                    - paragraph [ref=e852]: "vaccines (live): major."
+                  - listitem [ref=e853]:
+                    - paragraph [ref=e854]: "certain antineoplastics: 复杂的药效，但一般不列。"
+              - listitem [ref=e855]:
+                - paragraph [ref=e856]: "ciclesonide: 吸入皮质类固醇，前药需酯酶激活，代谢为活性物 des-ciclesonide，然后由 CYP3A4 代谢。与 strong CYP3A4 抑制剂可能有相互作用，增加全身效应。可列 moderate。与 ritonavir: 可能增加库欣综合征风险。"
+              - listitem [ref=e857]:
+                - paragraph [ref=e858]: "levalbuterol: 短效 beta2 激动剂吸入。交互："
+                - list [ref=e859]:
+                  - listitem [ref=e860]:
+                    - paragraph [ref=e861]: "beta-blockers: moderate 拮抗支气管扩张。"
+                  - listitem [ref=e862]:
+                    - paragraph [ref=e863]: "MAO inhibitors/TCAs: moderate 增强心血管效应（心动过速、升压）。"
+                  - listitem [ref=e864]:
+                    - paragraph [ref=e865]: "non-potassium sparing diuretics: moderate 低血钾。"
+              - listitem [ref=e866]:
+                - paragraph [ref=e867]: "triamcinolone: 糖皮质激素，类似 methylprednisolone，CYP3A4 底物。交互："
+                - list [ref=e868]:
+                  - listitem [ref=e869]:
+                    - paragraph [ref=e870]: "strong CYP3A4 inhibitors: moderate 增加全身效应。"
+                  - listitem [ref=e871]:
+                    - paragraph [ref=e872]: "NSAIDs: moderate GI 出血。"
+                  - listitem [ref=e873]:
+                    - paragraph [ref=e874]: "anticoagulants: moderate 监测。"
+                  - listitem [ref=e875]:
+                    - paragraph [ref=e876]: "antidiabetics: moderate."
+                  - listitem [ref=e877]:
+                    - paragraph [ref=e878]: "vaccines (live): major."
+              - listitem [ref=e879]:
+                - paragraph [ref=e880]: "caffeine: CYP1A2 代谢。交互："
+                - list [ref=e881]:
+                  - listitem [ref=e882]:
+                    - paragraph [ref=e883]: "CYP1A2 inhibitors (fluvoxamine, ciprofloxacin, enoxacin, oral contraceptives): moderate 增加咖啡因作用和副作用（失眠、心悸）。"
+                  - listitem [ref=e884]:
+                    - paragraph [ref=e885]: "CYP1A2 inducers (smoking, phenytoin, rifampin): moderate 降低咖啡因效果。"
+                  - listitem [ref=e886]:
+                    - paragraph [ref=e887]: "adenosine: moderate 拮抗腺苷的心血管作用（用于心脏负荷试验时避免）。"
+                  - listitem [ref=e888]:
+                    - paragraph [ref=e889]: "MAO inhibitors: moderate 可能增强咖啡因的心血管效应。"
+                  - listitem [ref=e890]:
+                    - paragraph [ref=e891]: "Clozapine: moderate 增加 clozapine 浓度（竞争 CYP1A2）。"
+                  - listitem [ref=e892]:
+                    - paragraph [ref=e893]: "benzodiazepines: moderate 咖啡因拮抗镇静作用。"
+            - paragraph [ref=e894]: 现在为每一个 generic name 构建 interactions 列表，只保留 major 和 moderate。使用英文描述，因为输出要求英文？示例中 clinical_effect 和 mechanism 用了中文，但输入是中文描述。示例是中文。要求“临床效果描述”和“机制描述”可能是中文。示例显示中文。所以用中文写 clinical_effect 和 mechanism。drug_b 用英文类别名（如 "warfarin", "MAO inhibitors", "CYP3A4 inhibitors"）。
+            - paragraph [ref=e895]: 注意：为组合药物列出每个成分的交互。那么 "amlodipine and atorvastatin" 的 interactions 应该包括 amlodipine 和 atorvastatin 的交互。其中 drug_a 应分别用 "amlodipine" 和 "atorvastatin"。我们这样处理：在交互对象中，drug_a 是成分。那么对于组合药物，多个交互具有不同的 drug_a。符合要求。
+            - paragraph [ref=e896]:
+              - text: "同样 amitriptyline and perphenazine: drug_a 分别 \"amitriptyline\" 和 \"perphenazine\"。"
+              - text: "amitriptyline and chlordiazepoxide: \"amitriptyline\", \"chlordiazepoxide\"。"
+              - text: "fluticasone, umeclidinium, and vilanterol: \"fluticasone\", \"umeclidinium\", \"vilanterol\"。"
+              - text: "formoterol and mometasone: \"formoterol\", \"mometasone\"。"
+              - text: "fluticasone and vilanterol: \"fluticasone\", \"vilanterol\"。"
+            - paragraph [ref=e897]: 对于单独药物：amlodipine (单独)，nitroglycerin，verapamil，aspirin，heparin，propranolol，metoprolol，dalteparin，bivalirudin，isosorbide dinitrate，ranolazine，lorazepam，diazepam，alprazolam，risperidone，clorazepate，doxepin，phenytoin，prochlorperazine，meprobamate，ipratropium，methylprednisolone，dexamethasone，ciclesonide，levalbuterol，triamcinolone，caffeine。以及生物制剂 (benralizumab,
+      - generic [ref=e259]:
+        - generic [ref=e262]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e264]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e265]:
+            - button "深度思考" [ref=e266] [cursor=pointer]:
+              - img [ref=e268]
+              - generic [ref=e271]: 深度思考
+            - button "智能搜索" [ref=e272] [cursor=pointer]:
+              - img [ref=e274]
+              - generic [ref=e276]: 智能搜索
+            - generic [ref=e277]:
+              - button [ref=e278] [cursor=pointer]:
+                - img [ref=e281]
+              - button [ref=e284] [cursor=pointer]:
+                - img [ref=e287]
+        - generic [ref=e289]: 内容由 AI 生成，请仔细甄别

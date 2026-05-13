@@ -1,0 +1,81 @@
+<h2>医疗推荐系统 — 当前核心问题分析</h2>
+<p class="subtitle">DeepSeek验证结果：61.1% 适用 · 37.5% 部分适用 · 1.4% 不适用</p>
+
+<div class="section">
+  <h3>当前三层推荐架构</h3>
+  <div style="background:#1a1a2e; border-radius:12px; padding:24px; margin:16px 0; font-family:monospace; font-size:13px; line-height:1.7;">
+    <div style="color:#00d4aa; margin-bottom:8px;">输入: 中文疾病名 → 疾病映射器 → 英文疾病名</div>
+
+    <div style="display:flex; gap:12px; margin-top:16px;">
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:14px; border-left:3px solid #ff6b6b;">
+        <div style="color:#ff6b6b; font-weight:bold;">第一层：安全过滤器</div>
+        <div style="color:#a0a0b0;">硬排除（21条规则）</div>
+        <div style="color:#666; margin-top:6px;">过敏 · 绝对禁忌 · MAOI+SSRI<br>妊娠X级 · 儿科禁忌 · 抗生素治病毒<br>PPI治胆囊病 · IBD药治肠炎<br>激素治真菌 · 苯二氮卓治强迫症</div>
+      </div>
+
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:14px; border-left:3px solid #ffd93d;">
+        <div style="color:#ffd93d; font-weight:bold;">第二层：规则标记</div>
+        <div style="color:#a0a0b0;">软警告（不排除）</div>
+        <div style="color:#666; margin-top:6px;">相对禁忌 · 中度交互<br>妊娠C/D级 · 肾/肝功能提示</div>
+      </div>
+
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:14px; border-left:3px solid #6c5ce7;">
+        <div style="color:#6c5ce7; font-weight:bold;">第三层：DeepFM排序</div>
+        <div style="color:#a0a0b0;">机器学习评分 + 差分隐私噪声</div>
+        <div style="color:#666; margin-top:6px;">丢失疾病增强 · 多疾病覆盖<br>证据等级优先 · 代理疾病惩罚</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>问题一：推荐不出任何药品（空结果）</h3>
+  <div style="background:#2d1f1f; border-radius:8px; padding:18px; border-left:4px solid #ff6b6b; margin:12px 0;">
+    <div style="display:flex; gap:16px;">
+      <div style="flex:1;">
+        <div style="color:#ff6b6b; font-weight:bold; margin-bottom:8px;">受影响的疾病类型：</div>
+        <div style="color:#ddd; font-size:13px; line-height:1.8;">
+          • <strong>病毒性疾病</strong> — 病毒感染、上呼吸道感染（数据库中无特异性抗病毒药）<br>
+          • <strong>罕见/特殊疾病</strong> — 肺纤维化（治疗选择有限）<br>
+          • <strong>不在词汇表中的疾病</strong> — 被映射到错误的代理词 → 所有候选药被排除
+        </div>
+      </div>
+    </div>
+    <div style="background:#3d2a2a; border-radius:6px; padding:12px; margin-top:12px;">
+      <div style="color:#ff9999; font-size:12px; font-family:monospace;">
+        <strong>根因链条：</strong><br>
+        中文疾病 → 映射器匹配不到精确词 → 使用代理词 → 代理词只能匹配无关药物 → 安全过滤器排除 → 0条结果
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>问题二：推荐出错误/不合适的药品</h3>
+  <div style="background:#1f2d1f; border-radius:8px; padding:18px; border-left:4px solid #ffd93d; margin:12px 0;">
+    <div style="display:flex; gap:16px;">
+      <div style="flex:1;">
+        <div style="color:#ffd93d; font-weight:bold; margin-bottom:8px;">错误类型分类：</div>
+        <div style="color:#ddd; font-size:13px; line-height:1.8;">
+          <strong>A. 类别不匹配：</strong>降血压药推荐给白内障（已通过规则#19修复）<br>
+          <strong>B. 错误药物类别：</strong>抗生素推荐给病毒性感冒（已通过规则#10修复）<br>
+          <strong>C. DP噪声翻转：</strong>正确的低分药被错误的高分药挤出排名<br>
+          <strong>D. 代理疾病污染：</strong>"肠炎" → 映射为"腹泻"代理 → 推荐止泻药而非抗感染药
+        </div>
+      </div>
+    </div>
+    <div style="background:#2a3d2a; border-radius:6px; padding:12px; margin-top:12px;">
+      <div style="color:#99ff99; font-size:12px; font-family:monospace;">
+        <strong>修复后仍存在：27种疾病从"适用"降级为"部分适用"</strong><br>
+        例如：高血压（降压药正确但排序不够优化）、癫痫（抗癫痫药正确但DP噪声干扰）、<br>
+        肺炎（抗生素正确但广谱vs窄谱选择可优化）
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px; padding:14px; background:#1a1a2e; border-radius:8px; text-align:center;">
+  <div style="color:#a0a0b0; font-size:14px;">
+    <strong>核心问题：</strong>如何重新设计推荐管道，既能解决"推荐不出药"的困境，又能堵住"推荐错药"的漏洞？
+  </div>
+</div>

@@ -1,0 +1,239 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e157] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e158]: 新对话
+          - button [ref=e159]:
+            - img [ref=e163]
+        - link "临床药学禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e98]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e100]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e106]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e108]: HIV药物禁忌症生成
+      - generic [ref=e109]:
+        - generic [ref=e110]: 昨天
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e114]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e116]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e118]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e120]: 药物适应症列表生成
+      - generic [ref=e121]:
+        - generic [ref=e122]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e124]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e126]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e128]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e130]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e132]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e134]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e136]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e138]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e140]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e142]
+      - generic [ref=e145]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e167]:
+      - generic [ref=e169]:
+        - generic [ref=e170] [cursor=pointer]: 新对话
+        - generic [ref=e171]:
+          - img [ref=e173]
+          - generic [ref=e175]: 专家模式
+      - button [ref=e176] [cursor=pointer]:
+        - img [ref=e179]
+    - generic [ref=e182]:
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e187]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: Phenylephrine/Pyrilamine/Dextromethorphan Syrup | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|allergic rhinitis | 妊娠分级: C Guaifenesin, Pseudoephedrine, and Codeine | 类别: Upper respiratory combinations | 适应症: cough|chest congestion|nasal congestion|sinus congestion | 妊娠分级: C dextromethorphan, diphenhydramine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: cough|nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Dexbrompheniramine and Pseudoephedrine Sustained-Release Tablets | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Acetaminophen, Chlorpheniramine, and Phenylephrine Effervescent Tablets | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Triprolidine and Phenylephrine Syrup | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N Chlorpheniramine and Phenylephrine Liquid | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N Acetaminophen and Dextromethorphan Liquid | 类别: Upper respiratory combinations | 适应症: cough|headache|minor aches and pains|fever | 妊娠分级: N Acetaminophen, Chlorpheniramine, and Dextromethorphan Liquid and Syrup | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Chlorpheniramine, Pseudoephedrine, and Codeine Suspension | 类别: Upper respiratory combinations | 适应症: cough|nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N docusate (oral/rectal) | 类别: Laxatives | 适应症: constipation|fecal impaction|straining during defecation | 妊娠分级: N polyethylene glycol 3350 | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy|fecal impaction | 妊娠分级: C bisacodyl (oral and rectal) | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy|fecal impaction | 妊娠分级: B docusate sodium 100mg capsules | 类别: Laxatives | 适应症: constipation|straining during defecation | 妊娠分级: N magnesium oxide | 类别: Minerals and electrolytes | 适应症: magnesium deficiency|dyspepsia|migraine prophylaxis|constipation | 妊娠分级: C magnesium citrate | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy|fecal impaction | 妊娠分级: C psyllium | 类别: Laxatives | 适应症: constipation|irritable bowel syndrome|diverticulosis|hypercholesterolemia | 妊娠分级: N docusate sodium | 类别: Laxatives | 适应症: constipation|fecal impaction|straining during defecation | 妊娠分级: N polycarbophil | 类别: Laxatives | 适应症: constipation|irritable bowel syndrome|diverticulosis | 妊娠分级: N sodium biphosphate and sodium phosphate (rectal) | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy|fecal impaction | 妊娠分级: C Docusate Capsules and Tablets | 类别: Laxatives | 适应症: constipation|straining during defecation | 妊娠分级: N Docusate Enema | 类别: Laxatives | 适应症: constipation|fecal impaction | 妊娠分级: N Bisacodyl Suppositories | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy | 妊娠分级: B Bisacodyl Tablets | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy | 妊娠分级: B Docusate Liquid and Syrup | 类别: Laxatives | 适应症: constipation|straining during defecation | 妊娠分级: N Bisacodyl Enema | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy | 妊娠分级: B Magnesium Oxide | 类别: Minerals and electrolytes | 适应症: magnesium deficiency|dyspepsia|migraine prophylaxis|constipation | 妊娠分级: C glycerin (rectal) | 类别: Laxatives | 适应症: constipation|fecal impaction | 妊娠分级: C sodium biphosphate and sodium phosphate (oral) | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy | 妊娠分级: C Polycarbophil Tablets | 类别: Laxatives | 适应症: constipation|irritable bowel syndrome | 妊娠分级: N sodium phosphate dibasic and sodium phosphate monobasic (oral route) | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy | 妊娠分级: C mineral oil (oral/rectal) | 类别: Laxatives | 适应症: constipation|fecal impaction|bowel preparation before surgery | 妊娠分级: N sorbitol | 类别: Laxatives | 适应症: constipation|bowel preparation before colonoscopy | 妊娠分级: N Benzocaine and Docusate | 类别: Laxatives | 适应症: constipation|anal pruritus|anal pain associated with constipation | 妊娠分级: N potassium phosphate | 类别: Minerals and electrolytes | 适应症: hypophosphatemia|urinary acidification|kidney stone prevention | 妊娠分级: C budesonide and formoterol (inhalation) | 类别: Bronchodilator combinations | 适应症: asthma|chronic obstructive pulmonary disease | 妊娠分级: C budesonide, glycopyrrolate, and formoterol fumarate | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: N umeclidinium and vilanterol | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: C roflumilast | 类别: Selective phosphodiesterase-4 inhibitors | 适应症: chronic obstructive pulmonary disease | 妊娠分级: C aclidinium | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease | 妊娠分级: C olodaterol and tiotropium | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: C formoterol and glycopyrrolate | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: N olodaterol (inhalation) | 类别: Adrenergic bronchodilators | 适应症: chronic obstructive pulmonary disease | 妊娠分级: C revefenacin (inhalation) | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease | 妊娠分级: N aclidinium and formoterol | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: N budesonide and formoterol fumarate | 类别: Bronchodilator combinations | 适应症: asthma|chronic obstructive pulmonary disease | 妊娠分级: C budesonide, formoterol, and glycopyrrolate | 类别: Bronchodilator combinations | 适应症: chronic obstructive pulmonary disease | 妊娠分级: N ivermectin (oral) | 类别: Anthelmintics | 适应症: strongyloidiasis|onchocerciasis|scabies|rosacea|pediculosis capitis | 妊娠分级: C COVID-19 (coronavirus 2019) vaccine, Pfizer | 类别: Viral vaccines | 适应症: covid-19 prevention | 妊娠分级: N nirmatrelvir and ritonavir | 类别: Antiviral combinations | 适应症: covid-19 | 妊娠分级: N 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e190]:
+            - button [ref=e191] [cursor=pointer]:
+              - img [ref=e194]
+            - button [ref=e196] [cursor=pointer]:
+              - img [ref=e199]
+        - generic [ref=e203]:
+          - generic [ref=e205] [cursor=pointer]:
+            - img [ref=e207]
+            - generic [ref=e210]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e212]
+          - generic [ref=e218]:
+            - paragraph [ref=e219]: 我们被要求为给定列表中的每种药物生成完整的禁忌症列表。输出必须是JSON格式，包含generic_name和contraindications数组。每个禁忌症有contraindication_name, contraindication_type, severity, reason。禁忌症类型包括disease, allergy_type, physiological_condition, drug_class。严重程度absolute或relative。需要为每个药物仔细考虑禁忌症。注意一些药物是组合药物，需要列出每个成分的禁忌症，但可能合并成整体禁忌症列表，如问题描述"对于组合药物,列出每个成分的禁忌症"，不过最终JSON中generic_name是对应整个组合药物，contraindications应该是该组合药物的禁忌症，可以整合所有成分的禁忌。我将按照药物列表逐一处理。
+            - paragraph [ref=e220]: 首先，理清每个药物，然后搜索每个药物的已知禁忌症（我作为临床药学专家知识）。注意禁忌症应具体且临床相关。我会根据常用药物知识生成。
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - paragraph [ref=e223]: "Phenylephrine/Pyrilamine/Dextromethorphan Syrup: 组合: phenylephrine (去氧肾上腺素，α激动剂，减充血)，pyrilamine (吡拉明，抗组胺药，第一代抗组胺)，dextromethorphan (右美沙芬，镇咳)。妊娠分级C。适应症: 鼻塞，鼻窦充血，打喷嚏，流鼻涕，咳嗽，过敏性鼻炎。禁忌症："
+            - list [ref=e255]:
+              - listitem [ref=e256]:
+                - paragraph [ref=e257]: "高血压、冠心病、甲亢、窄角型青光眼、尿潴留、MAO抑制剂使用、妊娠（C级相对），婴儿等。phenylephrine: 严重高血压，冠心病，MAOIs。pyrilamine: 窄角型青光眼，尿潴留，前列腺增生，新生儿，MAOIs，哮喘急性发作？ dextromethorphan: MAOIs，服用SSRI（血清素综合征风险，相对）。整合。"
+            - list [ref=e258]:
+              - listitem [ref=e259]:
+                - paragraph [ref=e260]: "Guaifenesin, Pseudoephedrine, and Codeine: 愈创甘油醚，伪麻黄碱，可待因。适应症咳嗽，胸充血，鼻塞等。妊娠C。可待因阿片类药物，禁忌：呼吸抑制，急性哮喘，儿童（相对），MAOIs，颅内压升高，肠梗阻等。伪麻黄碱：严重高血压，冠心病，甲亢，窄角型青光眼，尿潴留，MAOIs。愈创甘油醚相对安全。可待因 ultrarapid metabolizers 禁忌（FDA黑框，儿童）。"
+              - listitem [ref=e261]:
+                - paragraph [ref=e262]: "dextromethorphan, diphenhydramine, and phenylephrine: 右美沙芬，苯海拉明（抗组胺、抗胆碱），去氧肾上腺素。禁忌：MAOIs，窄角型青光眼，尿潴留，前列腺增生，新生儿，严重高血压，冠心病，哮喘（苯海拉明相对？），血清素综合征风险（右美沙芬+某些药物）。"
+              - listitem [ref=e263]:
+                - paragraph [ref=e264]: "Dexbrompheniramine and Pseudoephedrine Sustained-Release Tablets: 右溴苯那敏（抗组胺），伪麻黄碱。禁忌类似：MAOIs，严重高血压，冠心病，窄角型青光眼，尿潴留，新生儿，妊娠C。"
+              - listitem [ref=e265]:
+                - paragraph [ref=e266]: "Acetaminophen, Chlorpheniramine, and Phenylephrine Effervescent Tablets: 对乙酰氨基酚，氯苯那敏，去氧肾上腺素。禁忌：严重肝功能损害（对乙酰氨基酚过量慎用，相对），MAOIs，窄角型青光眼，尿潴留，前列腺增生，严重高血压，冠心病。对乙酰氨基酚禁忌：严重肝病（相对），G6PD缺乏？一般禁忌为严重肝损伤。妊娠N（未分类？可能是C，但写N表示无分类，这里标N，我们按成分可能妊娠C？实际对乙酰氨基酚B，氯苯那敏B，去氧肾上腺素C，组合为C，但写着N，忽略，只用已知禁忌）。氯苯那敏：新生儿，哺乳期（慎用）。去氧肾上腺素：同上。"
+              - listitem [ref=e267]:
+                - paragraph [ref=e268]: "Triprolidine and Phenylephrine Syrup: 曲普利啶（抗组胺），去氧肾上腺素。禁忌症类似，MAOIs，窄角型青光眼，尿潴留，前列腺增生，严重高血压，冠心病。"
+              - listitem [ref=e269]:
+                - paragraph [ref=e270]: "Chlorpheniramine and Phenylephrine Liquid: 同上。"
+              - listitem [ref=e271]:
+                - paragraph [ref=e272]: "Acetaminophen and Dextromethorphan Liquid: 对乙酰氨基酚，右美沙芬。禁忌：严重肝功能损害（对乙酰氨基酚过量风险），MAOIs（右美沙芬绝对禁忌？右美沙芬与MAOIs合用可导致血清素综合征，绝对禁忌），酒精肝病？ 右美沙芬在儿童某些禁忌。"
+              - listitem [ref=e273]:
+                - paragraph [ref=e274]: "Acetaminophen, Chlorpheniramine, and Dextromethorphan Liquid and Syrup: 对乙酰氨基酚，氯苯那敏，右美沙芬。禁忌：严重肝功能损害，MAOIs，窄角型青光眼，尿潴留，新生儿，血清素综合征风险。"
+              - listitem [ref=e275]:
+                - paragraph [ref=e276]: "Chlorpheniramine, Pseudoephedrine, and Codeine Suspension: 氯苯那敏，伪麻黄碱，可待因。禁忌：MAOIs，严重高血压，冠心病，窄角型青光眼，尿潴留，呼吸抑制，急性哮喘，肠梗阻，儿童扁桃体切除术后等。可待因哺乳期相对禁忌。"
+              - listitem [ref=e277]:
+                - paragraph [ref=e278]: "docusate (oral/rectal): 多库酯钠，大便软化剂。禁忌：肠梗阻，急性腹痛，恶心呕吐，矿物油合用？实际多库酯可能会增加矿物油吸收，禁忌合并使用？相对禁忌：粪块嵌塞？不，它用于fecal impaction，但如果有肠梗阻是绝对禁忌。还有过敏。"
+              - listitem [ref=e279]:
+                - paragraph [ref=e280]: "polyethylene glycol 3350: 聚乙二醇，禁忌：肠梗阻，肠穿孔，中毒性巨结肠，胃潴留。过敏。妊娠C。"
+              - listitem [ref=e281]:
+                - paragraph [ref=e282]: "bisacodyl (oral and rectal): 比沙可啶，刺激性泻药。禁忌：肠梗阻，急腹症，阑尾炎，未确诊的腹痛、直肠出血，严重脱水，炎性肠病？相对禁忌。"
+              - listitem [ref=e283]:
+                - paragraph [ref=e284]: "docusate sodium 100mg capsules: 同多库酯钠。"
+              - listitem [ref=e285]:
+                - paragraph [ref=e286]: "magnesium oxide: 氧化镁。禁忌：严重肾功能损害（镁蓄积），心传导阻滞？相对：使用神经肌肉阻滞剂？高镁血症。阑尾炎症状？等等。"
+              - listitem [ref=e287]:
+                - paragraph [ref=e288]: "magnesium citrate: 枸橼酸镁。禁忌：肾功能不全，高镁血症，肠梗阻，阑尾炎，急腹症，恶心呕吐，严重脱水。"
+              - listitem [ref=e289]:
+                - paragraph [ref=e290]: "psyllium: 车前草，容积性泻药。禁忌：肠梗阻，粪便嵌塞，吞咽困难，食管狭窄，窄肠。可能过敏。相对：精神病患者？需要充分饮水。"
+              - listitem [ref=e291]:
+                - paragraph [ref=e292]: "docusate sodium: 同多库酯。"
+              - listitem [ref=e293]:
+                - paragraph [ref=e294]: "polycarbophil: 聚卡波非。禁忌：肠梗阻，粪便嵌塞，吞咽困难，恶心呕吐，腹痛。同样需充分液体。"
+              - listitem [ref=e295]:
+                - paragraph [ref=e296]: "sodium biphosphate and sodium phosphate (rectal): 磷酸钠盐灌肠。禁忌：肾功能不全，充血性心力衰竭，高磷血症，低钙血症，电解质紊乱，肠道梗阻，巨结肠，已存在的肠穿孔。儿童禁忌（可能引起严重电解质紊乱）。"
+              - listitem [ref=e297]:
+                - paragraph [ref=e298]: "Docusate Capsules and Tablets: 同。"
+              - listitem [ref=e299]:
+                - paragraph [ref=e300]: "Docusate Enema: 多库酯灌肠。禁忌：肠梗阻，腹痛，直肠出血。含矿物油？多库酯灌肠通常含多库酯，可能也有其他成分。多库酯灌肠禁忌类似。"
+              - listitem [ref=e301]:
+                - paragraph [ref=e302]: "Bisacodyl Suppositories: 比沙可啶栓。禁忌：肛裂，直肠炎，溃疡性直肠炎；腹痛，肠梗阻。"
+              - listitem [ref=e303]:
+                - paragraph [ref=e304]: "Bisacodyl Tablets: 比沙可啶片。禁忌：肠梗阻，急腹症，恶心呕吐。"
+              - listitem [ref=e305]:
+                - paragraph [ref=e306]: "Docusate Liquid and Syrup: 同。"
+              - listitem [ref=e307]:
+                - paragraph [ref=e308]: "Bisacodyl Enema: 比沙可啶灌肠剂？通常没有比沙可啶灌肠，但有类似灌肠。禁忌类似。"
+              - listitem [ref=e309]:
+                - paragraph [ref=e310]: "Magnesium Oxide: 同上。"
+              - listitem [ref=e311]:
+                - paragraph [ref=e312]: "glycerin (rectal): 甘油栓/灌肠。禁忌：肠梗阻，直肠出血，未确诊的腹痛。过敏。"
+              - listitem [ref=e313]:
+                - paragraph [ref=e314]: "sodium biphosphate and sodium phosphate (oral): 口服磷酸钠，用于结肠准备。禁忌：肾功能不全(急性磷酸盐肾病风险)，充血性心力衰竭，肝硬化伴腹水，高磷血症，低钙血症，电解质紊乱，炎症性肠病，肠梗阻。年龄>55或使用某些药物慎用。"
+              - listitem [ref=e315]:
+                - paragraph [ref=e316]: "Polycarbophil Tablets: 同。"
+              - listitem [ref=e317]:
+                - paragraph [ref=e318]: "sodium phosphate dibasic and sodium phosphate monobasic (oral route): 同口服磷酸钠。"
+              - listitem [ref=e319]:
+                - paragraph [ref=e320]: "mineral oil (oral/rectal): 矿物油。禁忌：肠梗阻，吞咽困难（口服），脂质吸入性肺炎（老人、婴幼儿禁忌口服），孕期？可能。直肠：肛门损伤。与多库酯合用可增加吸收，禁忌。慢性便秘长期使用导致脂溶性维生素吸收不良。"
+              - listitem [ref=e321]:
+                - paragraph [ref=e322]: "sorbitol: 山梨醇。禁忌：肠梗阻，急腹症，果糖不耐受（遗传性果糖不耐受）。过敏。"
+              - listitem [ref=e323]:
+                - paragraph [ref=e324]: "Benzocaine and Docusate: 苯佐卡因+多库酯。禁忌：过敏（苯佐卡因，酯类局麻药），高铁血红蛋白血症史，肠梗阻（多库酯），急性腹痛，与矿物油合用？苯佐卡因用于直肠疼痛，不能用于肛门直肠有损伤。"
+              - listitem [ref=e325]:
+                - paragraph [ref=e326]: "potassium phosphate: 磷酸钾。禁忌：严重肾功能不全，高钾血症，高磷血症，低钙血症，Addison病，严重脱水。磷补充剂慎用。"
+              - listitem [ref=e327]:
+                - paragraph [ref=e328]: "budesonide and formoterol (inhalation): 布地奈德福莫特罗吸入剂。禁忌：过敏，严重牛奶蛋白过敏（可能？有些干粉含乳糖）。哮喘持续状态（福莫特罗LABA不用于急性发作）。绝对禁忌：对任一成分过敏。相对：心血管疾病（延长QT），甲亢，糖尿病，低钾血症，活动性或静止性肺结核，全身真菌感染，免疫抑制患者（布地奈德免疫抑制）。"
+              - listitem [ref=e329]:
+                - paragraph [ref=e330]: "budesonide, glycopyrrolate, and formoterol fumarate: 三联吸入剂。禁忌同上。格隆溴铵（抗胆碱）禁忌：窄角型青光眼，尿潴留，前列腺增生。过敏。"
+              - listitem [ref=e331]:
+                - paragraph [ref=e332]: "umeclidinium and vilanterol: 乌美溴铵维兰特罗。禁忌：严重牛奶蛋白过敏（干粉含乳糖），窄角型青光眼，尿潴留（抗胆碱）。过敏。LABA不用于无吸入性糖皮质激素的哮喘（单独使用增加哮喘相关死亡风险），对COPD适应症，有哮喘患者禁忌？相对。"
+              - listitem [ref=e333]:
+                - paragraph [ref=e334]: "roflumilast: 罗氟司特（PDE4抑制剂）。禁忌：严重肝损伤（Child-Pugh C级）。某些精神状况慎用（抑郁、自杀行为）。体重过轻慎用。"
+              - listitem [ref=e335]:
+                - paragraph [ref=e336]: "aclidinium: 阿地溴铵（抗胆碱）。禁忌：窄角型青光眼，尿潴留。过敏。"
+              - listitem [ref=e337]:
+                - paragraph [ref=e338]: "olodaterol and tiotropium: 奥达特罗噻托溴铵。禁忌：哮喘（未经ICS治疗，LABA单用增加风险），窄角型青光眼，尿潴留，过敏。"
+              - listitem [ref=e339]:
+                - paragraph [ref=e340]: "formoterol and glycopyrrolate: 福莫特罗格隆溴铵。禁忌：哮喘未使用ICS，窄角型青光眼，尿潴留，过敏。"
+              - listitem [ref=e341]:
+                - paragraph [ref=e342]: "olodaterol (inhalation): 奥达特罗（LABA）。禁忌：哮喘未用ICS，过敏。"
+              - listitem [ref=e343]:
+                - paragraph [ref=e344]: "revefenacin (inhalation): 雷芬那辛（抗胆碱）。禁忌：窄角型青光眼，尿潴留，过敏。"
+              - listitem [ref=e345]:
+                - paragraph [ref=e346]: "aclidinium and formoterol: 阿地溴铵福莫特罗。禁忌：哮喘未用ICS，窄角型青光眼，尿潴留，过敏。"
+              - listitem [ref=e347]:
+                - paragraph [ref=e348]: "budesonide and formoterol fumarate: 同上布地奈德福莫特罗。"
+              - listitem [ref=e349]:
+                - paragraph [ref=e350]: "budesonide, formoterol, and glycopyrrolate: 同上三联。"
+              - listitem [ref=e351]:
+                - paragraph [ref=e352]: "ivermectin (oral): 伊维菌素。禁忌：脑膜炎，孕期（C），过敏。正在服用华法林？相对：Loa loa感染（严重脑病风险）。儿童<15kg慎用。"
+              - listitem [ref=e353]:
+                - paragraph [ref=e354]: "COVID-19 vaccine, Pfizer: 辉瑞新冠疫苗。禁忌：对疫苗成分（包括聚乙二醇 PEG）严重过敏反应（anaphylaxis）。过敏史（mRNA疫苗成分）。相对：急性发热，血小板减少症（如肝素诱导），心肌炎/心包炎史（相对）。"
+              - listitem [ref=e355]:
+                - paragraph [ref=e356]: "nirmatrelvir and ritonavir: 奈玛特韦/利托那韦。禁忌：严重肝损伤（Child-Pugh C级），严重肾损伤（eGFR <30 mL/min，奈玛特韦因肾清除不能推荐？实际上说明书中，严重肾损伤 eGFR <30 不推荐；eGFR 30-60 减量）。与强CYP3A诱导剂和某些底物合用禁忌（因为利托那韦是强CYP3A抑制剂，引起严重相互作用）。某些药物禁忌：阿夫唑嗪、哌替啶、匹莫齐特、西沙必利、麦角衍生物、洛伐他汀、辛伐他汀、鲁拉西酮、三唑仑、咪达唑仑口服等。列出drug_class: CYP3A inducers, substrates with narrow therapeutic index等。绝对禁忌：与这些药物合用。相对禁忌：肝病，肾病。"
+            - paragraph [ref=e357]: 我将生成每个药物的JSON。由于列表很长，必须仔细构建。所有字符串都应该是英文。注意contraindication_name要特定，如“severe hepatic impairment (Child-Pugh C)”, “narrow-angle glaucoma”, “MAO inhibitor use”等。
+            - paragraph [ref=e358]: 开始生成JSON。我将每个药物
+      - generic [ref=e224]:
+        - generic [ref=e227]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e229]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e230]:
+            - button "深度思考" [ref=e231] [cursor=pointer]:
+              - img [ref=e233]
+              - generic [ref=e236]: 深度思考
+            - button "智能搜索" [ref=e237] [cursor=pointer]:
+              - img [ref=e239]
+              - generic [ref=e241]: 智能搜索
+            - generic [ref=e242]:
+              - button [ref=e243] [cursor=pointer]:
+                - img [ref=e246]
+              - button [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+        - generic [ref=e254]: 内容由 AI 生成，请仔细甄别

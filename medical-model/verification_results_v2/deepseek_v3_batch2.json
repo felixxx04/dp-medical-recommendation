@@ -1,0 +1,54 @@
+[
+  {
+    "disease": "高血脂",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "高脂血症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "高胆固醇",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胆固醇高",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "糖尿病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺功能减退",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲减",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺功能亢进",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲亢",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺肿",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "肥胖",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "代谢综合征",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "哮喘",
+    "rating": "APPROPRIATE"
+  }
+]

@@ -1,0 +1,119 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e17]
+    - text: Ctrl + J
+  - generic [ref=e20]:
+    - generic [ref=e84]:
+      - generic [ref=e86]:
+        - generic [ref=e87] [cursor=pointer]: 新对话
+        - generic [ref=e88]:
+          - img [ref=e90]
+          - generic [ref=e92]: 专家模式
+      - button [ref=e93] [cursor=pointer]:
+        - img [ref=e96]
+    - generic [ref=e99]:
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e104]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: isotretinoin (oral) | 类别: Miscellaneous antineoplastics, Miscellaneous uncategorized agents | 适应症: severe nodular acne|acne vulgaris|rosacea|hidradenitis suppurativa|neuroblastoma | 妊娠分级: X clindamycin topical | 类别: Topical acne agents, Vaginal anti-infectives | 适应症: acne vulgaris|bacterial vaginosis | 妊娠分级: B tretinoin topical | 类别: Topical acne agents | 适应症: acne vulgaris|photoaging|keratosis pilaris|acne scarring|melasma | 妊娠分级: C sulfamethoxazole and trimethoprim | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis|acute otitis media|acute exacerbation of chronic bronchitis | 妊娠分级: D Retin-A | 类别: Topical acne agents | 适应症: acne vulgaris|photoaging|acne scarring|melasma | 妊娠分级: C dapsone topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C benzoyl peroxide topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C adapalene topical | 类别: Topical acne agents | 适应症: acne vulgaris|keratosis pilaris | 妊娠分级: C adapalene and benzoyl peroxide (topical) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C doxycycline (oral route) | 类别: Miscellaneous antimalarials, Tetracyclines | 适应症: acne vulgaris|rosacea|lyme disease|chlamydia infection|malaria prophylaxis|community-acquired pneumonia|periodontitis|rickettsial infection | 妊娠分级: D sulfamethoxazole and trimethoprim (oral) | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis | 妊娠分级: D tazarotene topical | 类别: Topical acne agents, Topical antipsoriatics | 适应症: plaque psoriasis|acne vulgaris|photoaging | 妊娠分级: X Doxycycline Tablets and Capsules | 类别: Tetracyclines | 适应症: acne vulgaris|rosacea|lyme disease|chlamydia infection|malaria prophylaxis|periodontitis|rickettsial infection|community-acquired pneumonia | 妊娠分级: D benzoyl peroxide and clindamycin topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C Doxycycline Injection | 类别: Miscellaneous antimalarials, Tetracyclines | 适应症: severe bacterial infection|rickettsial infection|malaria|inhalational anthrax | 妊娠分级: D sulfamethoxazole and trimethoprim (oral/injection) | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|nocardiosis|toxoplasmosis | 妊娠分级: D sulfamethoxazole and trimethoprim (oral route) | 类别: Sulfonamides | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis | 妊娠分级: D erythromycin topical | 类别: Topical acne agents, Topical antibiotics | 适应症: acne vulgaris | 妊娠分级: B clindamycin (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: B minocycline (oral route) | 类别: Tetracyclines | 适应症: rosacea|rheumatoid arthritis|acne vulgaris|skin and soft tissue infection | 妊娠分级: D drospirenone and ethinyl estradiol | 类别: Contraceptives | 适应症: contraception|acne vulgaris|premenstrual dysphoric disorder | 妊娠分级: X clindamycin and tretinoin (topical) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C azelaic acid topical | 类别: Topical acne agents, Topical anti-rosacea agents | 适应症: acne vulgaris|rosacea | 妊娠分级: B Bactrim | 类别: | 适应症: urinary tract infection|pneumocystis jirovecii pneumonia|shigellosis|traveler's diarrhea|toxoplasmosis|nocardiosis | 妊娠分级: D salicylic acid topical | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris|psoriasis|warts|corns and calluses|seborrheic dermatitis|dandruff | 妊娠分级: C ISOtretinoin (systemic) | 类别: Miscellaneous uncategorized agents | 适应症: severe nodular acne|acne vulgaris|rosacea|hidradenitis suppurativa|neuroblastoma | 妊娠分级: X tetracycline hydrochloride | 类别: Tetracyclines | 适应症: rosacea|chlamydia infection|lyme disease|acne vulgaris|helicobacter pylori eradication | 妊娠分级: D Benzoyl Peroxide Cream | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C salicylic acid (topical route) | 类别: Topical acne agents, Topical keratolytics | 适应症: acne vulgaris|psoriasis|warts|corns and calluses|seborrheic dermatitis|dandruff | 妊娠分级: C minocycline topical | 类别: | 适应症: acne vulgaris|rosacea | 妊娠分级: D benzoyl peroxide and erythromycin topical | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C Benzoyl Peroxide/Sulfur Gel | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C drospirenone, ethinyl estradiol, and levomefolate | 类别: Contraceptives | 适应症: contraception|acne vulgaris|premenstrual dysphoric disorder|folate supplementation | 妊娠分级: X minocycline (topical application route) | 类别: | 适应症: acne vulgaris|rosacea | 妊娠分级: D ethinyl estradiol and norgestimate | 类别: Contraceptives | 适应症: contraception|acne vulgaris | 妊娠分级: X minocycline (mucous membrane powder) | 类别: Mouth and throat products | 适应症: chronic periodontitis | 妊娠分级: D Benzoyl Peroxide Wash and Cleanser | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C sarecycline | 类别: Tetracyclines | 适应症: acne vulgaris | 妊娠分级: N sulfacetamide sodium and sulfur topical | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C ethinyl estradiol and norgestimate (oral route) | 类别: Contraceptives | 适应症: contraception|acne vulgaris | 妊娠分级: X benzoyl peroxide (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C resorcinol and sulfur (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris|seborrheic dermatitis | 妊娠分级: N trifarotene | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: N erythromycin and benzoyl peroxide | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C retapamulin topical | 类别: Topical antibiotics | 适应症: impetigo|secondarily infected skin lesions | 妊娠分级: B Sulfur and Sulfacetamide Cream and Gel | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C sulfacetamide sodium, sulfur | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C Sulfur and Sulfacetamide Foam | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C Sulfur and Sulfacetamide Cleanser, Emulsion, and Wash | 类别: Topical antibiotics | 适应症: acne vulgaris|seborrheic dermatitis|acne rosacea | 妊娠分级: C erythromycin and benzoyl peroxide (topical route) | 类别: Topical acne agents | 适应症: acne vulgaris | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e107]:
+            - button [ref=e108] [cursor=pointer]:
+              - img [ref=e111]
+            - button [ref=e113] [cursor=pointer]:
+              - img [ref=e116]
+        - generic [ref=e120]:
+          - generic [ref=e122] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e129]
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: 我们需要生成一个JSON，列出每种药物的交互。输入药物列表中有许多重复和不同剂型（口服 vs 外用，组合药物等）。要求是“为以下每种药物生成重要的药物交互(interactions)列表”。由于有很多重复药物（如 isotretinoin oral, ISOtretinoin systemic 等），需归类。最终输出应该包括所有提到的药物（以generic_name区分，但注意口服与外用可能不同）。需求里说“对于组合药物,列出每个成分的交互”。所以组合药物如 sulfamethoxazole and trimethoprim，需要分别列出两种成分的交互？还是列出组合药物作为一个整体？提示说“对于组合药物,列出每个成分的交互”，可能意味着：在 interactions 数组中，它可能是作为一个条目，drug_a 是组合药物名，然后列出交互；或者分别以每个成分列出。但 JSON 格式例子只给了单个药物 generic_name 如 Isotretinoin，interactions 里 drug_a 是 "isotretinoin"。可能需要对于组合药物，将其作为一种药物，其交互是基于组成，且可列出主要成分的交互。我可以这样处理：针对每一个 unique generic name (或处方名)，生成交互列表。输入药物列表中有很多重复（如 doxycycline oral route, Doxycycline Tablets and Capsules, Doxycycline Injection），可以合并为 Doxycycline (systemic) oral/injection 吗？需要区分剂型吗？系统用药和局部用药交互不同。topical 通常全身吸收极少，交互较少，可能只有局部刺激或与其他外用产品相互作用。但问题要求“优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等)”，主要是口服系统性药物。对于外用维A酸、克林霉素、过氧化苯甲酰等，可能只有 minor 或没有临床意义的交互。要求只列出 major 和 moderate，且具有临床意义。那么外用药如 tretinoin topical, adapalene topical, benzoyl peroxide topical, clindamycin topical, erythromycin topical, dapsone topical, azelaic acid topical, salicylic acid topical, sulfur/sulfacetamide topical, minocycline topical 等，通常没有显著的全身药物相互作用，可跳过？但可能和其他外用药一起使用导致过度刺激等，这不属于传统药物相互作用分类，可能只是局部不良反应。不过权威数据库可能列出与局部维A酸同时使用的其他局部痤疮药物导致刺激增加（moderate）。也许可以列出一些 moderate 交互：如 tretinoin topical 与 benzoyl peroxide 同时使用可能降低疗效或增加刺激；与局部抗生素无显著交互。再查一下：tretinoin 遇 benzoyl peroxide 氧化失活，所以不应同时使用，这算 moderate interaction (降低疗效)。adapalene 更稳定，可与过氧化苯甲酰同时使用（实际上有组合产品 adapalene/benzoyl peroxide，所以无此交互）。对于组合药物 adapalene and benzoyl peroxide topical，其交互要列出每个成分的交互？既然已经是组合，可能单独列出 adapalene 交互、benzoyl peroxide 交互；但组合药物作为 generic_name "adapalene and benzoyl peroxide"，可以列出 moderate 交互如同时使用其他外用维A酸导致刺激。但最好简化。
+            - paragraph [ref=e168]: 主要需要关注系统性药物：isotretinoin (口服), sulfamethoxazole/trimethoprim (口服/注射), doxycycline (口服/注射), minocycline (口服), tetracycline hydrochloride (口服), drospirenone/ethinyl estradiol (口服避孕药), ethinyl estradiol/norgestimate (口服避孕药), sarecycline (口服四环素类)。还有外用抗生素如 retapamulin (外用)，但那是治疗脓疱疮的，不属于痤疮系统用药，交互很少。
+            - paragraph [ref=e169]: 需要生成 JSON，每个药物一个条目。药物列表中有很多重复名称，如 "isotretinoin (oral)" 和 "ISOtretinoin (systemic)"，统一为 "isotretinoin (systemic)" 或 "Isotretinoin"。根据例子：generic_name "Isotretinoin"。那么可命名 Isotretinoin (oral)。输入中有 "Retin-A"，那是品牌名 tretinoin topical，应与 "tretinoin topical" 合并。应列出 tretinoin topical。同样，"Bactrim" 即 sulfamethoxazole and trimethoprim，可合并。
+            - paragraph [ref=e170]: 要求输出JSON包含所有药物。为避免太多重复，提取去重后的 generic name，按系统/局部区分。例如：
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - paragraph [ref=e173]: "isotretinoin (oral) : 归为 isotretinoin"
+              - listitem [ref=e174]:
+                - paragraph [ref=e175]: "clindamycin topical : clindamycin (topical)"
+              - listitem [ref=e176]:
+                - paragraph [ref=e177]: "tretinoin topical : tretinoin (topical)"
+              - listitem [ref=e178]:
+                - paragraph [ref=e179]: "sulfamethoxazole and trimethoprim : (oral/injection) 这种口服/注射组合。"
+              - listitem [ref=e180]:
+                - paragraph [ref=e181]: "Retin-A : tretinoin topical 重复，忽略。"
+              - listitem [ref=e182]:
+                - paragraph [ref=e183]: "dapsone topical : dapsone (topical)"
+              - listitem [ref=e184]:
+                - paragraph [ref=e185]: "benzoyl peroxide topical : benzoyl peroxide (topical)"
+              - listitem [ref=e186]:
+                - paragraph [ref=e187]: "adapalene topical : adapalene (topical)"
+              - listitem [ref=e188]:
+                - paragraph [ref=e189]: "adapalene and benzoyl peroxide (topical) : 组合药物 adapalene / benzoyl peroxide topical"
+              - listitem [ref=e190]:
+                - paragraph [ref=e191]: "doxycycline (oral route) : doxycycline"
+              - listitem [ref=e192]:
+                - paragraph [ref=e193]: sulfamethoxazole and trimethoprim (oral) 重复
+              - listitem [ref=e194]:
+                - paragraph [ref=e195]: "tazarotene topical : tazarotene (topical)"
+              - listitem [ref=e196]:
+                - paragraph [ref=e197]: "Doxycycline Tablets and Capsules : 同 doxycycline"
+              - listitem [ref=e198]:
+                - paragraph [ref=e199]: "benzoyl peroxide and clindamycin topical : 组合药物 benzoyl peroxide / clindamycin topical"
+              - listitem [ref=e200]:
+                - paragraph [ref=e201]: "Doxycycline Injection : 同 doxycycline (注射也系统用)"
+              - listitem [ref=e202]:
+                - paragraph [ref=e203]: sulfamethoxazole and trimethoprim (oral/injection) 重复
+              - listitem [ref=e204]:
+                - paragraph [ref=e205]: sulfamethoxazole and trimethoprim (oral route) 重复
+              - listitem [ref=e206]:
+                - paragraph [ref=e207]: "erythromycin topical : erythromycin (topical)"
+              - listitem [ref=e208]:
+                - paragraph [ref=e209]: "clindamycin (topical route) : clindamycin topical 同"
+              - listitem [ref=e210]:
+                - paragraph [ref=e211]: "minocycline (oral route) : minocycline"
+              - listitem [ref=e212]:
+                - paragraph [ref=e213]: "drospirenone and ethinyl estradiol : 复方口服避孕药"
+              - listitem [ref=e214]:
+                - paragraph [ref=e215]: "clindamycin and tretinoin (topical) : 组合药物"
+              - listitem [ref=e216]:
+                - paragraph [ref=e217]: "azelaic acid topical : azelaic acid (topical)"
+              - listitem [ref=e218]:
+                - paragraph [ref=e219]: "Bactrim : 重复"
+              - listitem [ref=e220]:
+                - paragraph [ref=e221]: "salicylic acid topical : salicylic acid (topical)"
+              - listitem [ref=e222]:
+                - paragraph [ref=e223]: "ISOtretinoin (systemic) : 重复 isotretinoin"
+              - listitem [ref=e224]:
+                - paragraph [ref=e225]: "tetracycline hydrochloride : tetracycline"
+              - listitem [ref=e226]:
+                - paragraph [ref=e227]: "Benzoyl Peroxide Cream : 重复 benzoyl peroxide topical"
+              - listitem [ref=e228]:
+                - paragraph [ref=e229]: "salicylic acid (topical route) : 重复"
+              - listitem [ref=e230]:
+                - paragraph [ref=e231]: "minocycline topical : minocycline (topical) 新剂型，有局部用泡沫"
+      - generic [ref=e137]:
+        - generic [ref=e140]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e142]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e143]:
+            - button "深度思考" [ref=e144] [cursor=pointer]:
+              - img [ref=e146]
+              - generic [ref=e149]: 深度思考
+            - button "智能搜索" [ref=e150] [cursor=pointer]:
+              - img [ref=e152]
+              - generic [ref=e154]: 智能搜索
+            - generic [ref=e155]:
+              - button [ref=e156] [cursor=pointer]:
+                - img [ref=e159]
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e165]
+        - generic [ref=e167]: 内容由 AI 生成，请仔细甄别

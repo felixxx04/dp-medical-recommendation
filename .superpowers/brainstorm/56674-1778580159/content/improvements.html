@@ -1,0 +1,163 @@
+<h2>设计改进点</h2>
+<p class="subtitle">在基础布局之上，4个关键改进</p>
+
+<div style="display: flex; flex-direction: column; gap: 16px;">
+
+  <!-- Improvement 1 -->
+  <div style="background: #1e293b; border-radius: 8px; padding: 14px; border-left: 3px solid #38bdf8;">
+    <h3 style="color: #38bdf8; margin: 0 0 8px 0; font-size: 13px;">改进1：Sankey 内置缩放 + 拖拽</h3>
+    <p style="color: #cbd5e1; font-size: 11px; margin: 0 0 8px 0;">全选所有疾病时，即使画布高度动态扩展，节点仍然很多。加入 ECharts 原生 dataZoom（滚轮缩放 + 拖拽平移），用户可以聚焦到局部区域。</p>
+    <div style="display: flex; gap: 12px;">
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 9px; color: #64748b; margin-bottom: 6px;">没有缩放时（问题）</div>
+        <div style="height: 80px; position: relative; background: #0b1120; border-radius: 4px; overflow: hidden;">
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 3px;">高血压</div>
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 13px;">糖尿病</div>
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 23px;">冠心病</div>
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 33px;">甲减</div>
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 43px;">心衰</div>
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 53px;">哮喘</div>
+          <div style="font-size: 6px; color: #94a3b8; position: absolute; left: 4px; top: 63px;">...</div>
+          <div style="position: absolute; right: 4px; top: 2px; font-size: 5px; color: #cbd5e1;">氨氯地平</div>
+          <div style="position: absolute; right: 4px; top: 10px; font-size: 5px; color: #cbd5e1;">缬沙坦</div>
+          <div style="position: absolute; right: 4px; top: 18px; font-size: 5px; color: #cbd5e1;">二甲双胍</div>
+          <div style="position: absolute; right: 4px; top: 26px; font-size: 5px; color: #cbd5e1;">格列美脲</div>
+          <div style="position: absolute; right: 4px; top: 34px; font-size: 5px; color: #cbd5e1;">华法林</div>
+          <div style="position: absolute; right: 4px; top: 42px; font-size: 5px; color: #cbd5e1;">阿托伐他汀</div>
+          <div style="position: absolute; right: 4px; top: 50px; font-size: 5px; color: #cbd5e1;">左甲状腺素</div>
+          <div style="position: absolute; right: 4px; top: 58px; font-size: 5px; color: #cbd5e1;">...</div>
+          <div style="position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); font-size: 7px; color: #ef4444;">标签过密，难以阅读</div>
+        </div>
+      </div>
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 9px; color: #64748b; margin-bottom: 6px;">滚轮缩放后（聚焦局部）</div>
+        <div style="height: 80px; position: relative; background: #0b1120; border-radius: 4px; overflow: hidden;">
+          <div style="font-size: 10px; color: #38bdf8; position: absolute; left: 8px; top: 10px;">高血压</div>
+          <div style="font-size: 10px; color: #22d3ee; position: absolute; left: 8px; top: 45px;">糖尿病</div>
+          <div style="font-size: 10px; color: #94a3b8; position: absolute; left: 130px; top: 8px;">降压药</div>
+          <div style="font-size: 10px; color: #94a3b8; position: absolute; left: 130px; top: 42px;">降糖药</div>
+          <div style="font-size: 10px; color: #cbd5e1; position: absolute; right: 8px; top: 5px;">氨氯地平</div>
+          <div style="font-size: 10px; color: #cbd5e1; position: absolute; right: 8px; top: 25px;">缬沙坦</div>
+          <div style="font-size: 10px; color: #cbd5e1; position: absolute; right: 8px; top: 40px;">二甲双胍</div>
+          <div style="font-size: 10px; color: #cbd5e1; position: absolute; right: 8px; top: 60px;">格列美脲</div>
+          <svg style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.3">
+            <path d="M65,17 C100,17 110,13 155,13" stroke="#38bdf8" fill="none" stroke-width="6"/>
+            <path d="M65,17 C100,17 110,47 155,47" stroke="#38bdf8" fill="none" stroke-width="3"/>
+            <path d="M65,52 C100,52 110,47 155,47" stroke="#22d3ee" fill="none" stroke-width="5"/>
+          </svg>
+          <div style="position: absolute; bottom: 2px; right: 6px; font-size: 7px; color: #4ade80;">✓ 清晰可读</div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 8px; font-size: 10px; color: #94a3b8; background: #0f172a; padding: 6px 10px; border-radius: 4px;">
+      实现：ECharts series 中加入 <code style="color: #fbbf24;">roam: true</code> 即可启用缩放+平移，无需额外代码
+    </div>
+  </div>
+
+  <!-- Improvement 2 -->
+  <div style="background: #1e293b; border-radius: 8px; padding: 14px; border-left: 3px solid #22d3ee;">
+    <h3 style="color: #22d3ee; margin: 0 0 8px 0; font-size: 13px;">改进2：右侧面板按节点类型展示不同内容</h3>
+    <p style="color: #cbd5e1; font-size: 11px; margin: 0 0 8px 0;">点击不同层级的节点，右侧面板展示不同的关联信息：</p>
+    <div style="display: flex; gap: 8px;">
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 10px; color: #38bdf8; margin-bottom: 6px; font-weight: 500;">点击「疾病」节点</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 该疾病的推荐分类列表</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 每个分类下的药物+次数</div>
+        <div style="font-size: 9px; color: #64748b; margin-top: 4px;">例：高血压 → 降压药(氨氯地平32次、缬沙坦18次)、调脂药(阿托伐他汀12次)</div>
+      </div>
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 10px; color: #fbbf24; margin-bottom: 6px; font-weight: 500;">点击「分类」节点</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 来源疾病列表+占比</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 该分类下的所有药物+次数</div>
+        <div style="font-size: 9px; color: #64748b; margin-top: 4px;">例：降糖药 ← 糖尿病(85%)、甲减(15%)</div>
+      </div>
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 10px; color: #4ade80; margin-bottom: 6px; font-weight: 500;">点击「药物」节点</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 所属分类</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 来源疾病+占比</div>
+        <div style="font-size: 9px; color: #cbd5e1;">→ 推荐总次数</div>
+        <div style="font-size: 9px; color: #64748b; margin-top: 4px;">例：氨氯地平 ← 高血压(92%)、冠心病(8%)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Improvement 3 -->
+  <div style="background: #1e293b; border-radius: 8px; padding: 14px; border-left: 3px solid #818cf8;">
+    <h3 style="color: #818cf8; margin: 0 0 8px 0; font-size: 13px;">改进3：药物节点标签优化</h3>
+    <p style="color: #cbd5e1; font-size: 11px; margin: 0 0 8px 0;">Sankey右侧药物名可能很长（如"左甲状腺素钠片"），处理方式：</p>
+    <div style="display: flex; gap: 12px;">
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 9px; color: #64748b; margin-bottom: 4px;">之前：长文字溢出</div>
+        <div style="font-size: 9px; color: #ef4444;">左甲状腺素钠片</div>
+        <div style="font-size: 9px; color: #ef4444;">盐酸二甲双胍缓释片</div>
+      </div>
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155;">
+        <div style="font-size: 9px; color: #64748b; margin-bottom: 4px;">之后：截断+tooltip</div>
+        <div style="font-size: 9px; color: #4ade80;">左甲状腺素… <span style="color: #64748b; font-size: 8px;">hover查看全名</span></div>
+        <div style="font-size: 9px; color: #4ade80;">盐酸二甲双胍… <span style="color: #64748b; font-size: 8px;">hover查看全名</span></div>
+      </div>
+    </div>
+    <div style="margin-top: 8px; font-size: 10px; color: #94a3b8;">
+      同时点击药物节点时，右侧面板显示完整名称和详情，所以Sankey图上截断不影响信息获取
+    </div>
+  </div>
+
+  <!-- Improvement 4 -->
+  <div style="background: #1e293b; border-radius: 8px; padding: 14px; border-left: 3px solid #f472b6;">
+    <h3 style="color: #f472b6; margin: 0 0 8px 0; font-size: 13px;">改进4：流向线按疾病着色</h3>
+    <p style="color: #cbd5e1; font-size: 11px; margin: 0 0 8px 0;">当前流向线统一渐变色，难以区分来自哪个疾病。改为每个疾病一种颜色，所有从该疾病出发的流向线都用同一颜色。</p>
+    <div style="display: flex; gap: 12px; align-items: center;">
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155; text-align: center;">
+        <div style="font-size: 9px; color: #64748b; margin-bottom: 6px;">当前：统一渐变色</div>
+        <svg width="160" height="50" style="opacity: 0.5;">
+          <path d="M10,10 C50,10 70,8 140,8" stroke="#6366f1" fill="none" stroke-width="6"/>
+          <path d="M10,10 C50,10 70,25 140,25" stroke="#6366f1" fill="none" stroke-width="4"/>
+          <path d="M10,30 C50,30 70,25 140,25" stroke="#6366f1" fill="none" stroke-width="5"/>
+          <path d="M10,30 C50,30 70,42 140,42" stroke="#6366f1" fill="none" stroke-width="3"/>
+        </svg>
+        <div style="font-size: 8px; color: #ef4444;">无法区分来源</div>
+      </div>
+      <div style="font-size: 16px; color: #64748b;">→</div>
+      <div style="flex: 1; background: #0f172a; border-radius: 6px; padding: 10px; border: 1px solid #334155; text-align: center;">
+        <div style="font-size: 9px; color: #64748b; margin-bottom: 6px;">改进：按疾病着色</div>
+        <svg width="160" height="50" style="opacity: 0.6;">
+          <path d="M10,10 C50,10 70,8 140,8" stroke="#38bdf8" fill="none" stroke-width="6"/>
+          <path d="M10,10 C50,10 70,25 140,25" stroke="#38bdf8" fill="none" stroke-width="4"/>
+          <path d="M10,30 C50,30 70,25 140,25" stroke="#22d3ee" fill="none" stroke-width="5"/>
+          <path d="M10,30 C50,30 70,42 140,42" stroke="#22d3ee" fill="none" stroke-width="3"/>
+        </svg>
+        <div style="font-size: 8px; color: #4ade80;">一目了然：蓝色=高血压，青色=糖尿病</div>
+      </div>
+    </div>
+    <div style="margin-top: 8px; font-size: 10px; color: #94a3b8;">
+      实现方式：ECharts Sankey 的 lineStyle.color 支持函数，根据 source 节点名称返回对应颜色
+    </div>
+  </div>
+
+</div>
+
+<div style="background: #0f172a; border-radius: 8px; padding: 14px; margin-top: 16px; border: 1px solid #334155;">
+  <h3 style="color: #e2e8f0; font-size: 12px; margin: 0 0 8px 0;">改进总结</h3>
+  <table style="width: 100%; font-size: 10px; color: #cbd5e1;">
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #38bdf8; width: 30px;">1</td>
+      <td style="width: 100px;">缩放+拖拽</td>
+      <td>roam: true，滚轮缩放+拖拽平移，解决节点多时看不清的问题</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #22d3ee;">2</td>
+      <td>面板分类型展示</td>
+      <td>点击疾病/分类/药物节点，右侧分别展示不同维度的关联信息</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #818cf8;">3</td>
+      <td>标签截断</td>
+      <td>药物名超6字截断+省略号，hover显示全名，点击右侧看详情</td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; color: #f472b6;">4</td>
+      <td>流向线着色</td>
+      <td>每个疾病独立颜色，流向线颜色跟随源疾病，一眼追踪流向</td>
+    </tr>
+  </table>
+</div>

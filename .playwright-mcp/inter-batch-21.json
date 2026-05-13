@@ -1,0 +1,1182 @@
+[
+  {
+    "generic_name": "anthralin (topical route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "coal tar (topical route)",
+    "interactions": []
+  },
+  {
+    "generic_name": "brodalumab",
+    "interactions": [
+      {
+        "drug_a": "brodalumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "免疫抑制作用，可能引起疫苗相关感染"
+      },
+      {
+        "drug_a": "brodalumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "Coal Tar and Salicylic Acid",
+    "interactions": [
+      {
+        "drug_a": "salicylic acid",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "水杨酸抑制血小板聚集，协同抗凝作用"
+      },
+      {
+        "drug_a": "salicylic acid",
+        "drug_b": "other salicylates",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加水杨酸毒性风险",
+        "mechanism": "附加水杨酸效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "adalimumab-adbm (subcutaneous route)",
+    "interactions": [
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "Pramoxine and Hydrocortisone Foam",
+    "interactions": [
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "协同抑制胃黏膜保护机制"
+      },
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "anticoagulants (warfarin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加消化道出血风险",
+        "mechanism": "氢化可的松可能损伤胃黏膜，协同抗凝药致出血"
+      }
+    ]
+  },
+  {
+    "generic_name": "adalimumab-bwwd (subcutaneous route)",
+    "interactions": [
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "adalimumab-fkjp (subcutaneous route)",
+    "interactions": [
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "hydrocortisone and pramoxine (topical/rectal)",
+    "interactions": [
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "协同抑制胃黏膜保护机制"
+      },
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "anticoagulants (warfarin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加消化道出血风险",
+        "mechanism": "氢化可的松可能损伤胃黏膜，协同抗凝药致出血"
+      }
+    ]
+  },
+  {
+    "generic_name": "adalimumab-adaz (subcutaneous route)",
+    "interactions": [
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "infliximab-qbtx (intravenous route)",
+    "interactions": [
+      {
+        "drug_a": "infliximab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "infliximab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "infliximab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "hydrocortisone acetate and pramoxine hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "协同抑制胃黏膜保护机制"
+      },
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "anticoagulants (warfarin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加消化道出血风险",
+        "mechanism": "氢化可的松可能损伤胃黏膜，协同抗凝药致出血"
+      }
+    ]
+  },
+  {
+    "generic_name": "Pramoxine and Hydrocortisone Cream, Gel, and Ointment",
+    "interactions": [
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "协同抑制胃黏膜保护机制"
+      },
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "anticoagulants (warfarin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加消化道出血风险",
+        "mechanism": "氢化可的松可能损伤胃黏膜，协同抗凝药致出血"
+      }
+    ]
+  },
+  {
+    "generic_name": "Pramoxine and Hydrocortisone Rectal Foam",
+    "interactions": [
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "协同抑制胃黏膜保护机制"
+      },
+      {
+        "drug_a": "hydrocortisone",
+        "drug_b": "anticoagulants (warfarin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加消化道出血风险",
+        "mechanism": "氢化可的松可能损伤胃黏膜，协同抗凝药致出血"
+      }
+    ]
+  },
+  {
+    "generic_name": "adalimumab-aqvh (subcutaneous route)",
+    "interactions": [
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "adalimumab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "certolizumab",
+    "interactions": [
+      {
+        "drug_a": "certolizumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制，降低疫苗清除，引发感染"
+      },
+      {
+        "drug_a": "certolizumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "certolizumab",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "upadacitinib",
+    "interactions": [
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高upadacitinib浓度，增加严重不良反应风险",
+        "mechanism": "抑制CYP3A4介导的代谢"
+      },
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低upadacitinib血药浓度，可能导致疗效不足",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "rituximab",
+    "interactions": [
+      {
+        "drug_a": "rituximab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "B细胞耗竭，免疫抑制"
+      },
+      {
+        "drug_a": "rituximab",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压风险",
+        "mechanism": "利妥昔单抗输注相关低血压协同"
+      },
+      {
+        "drug_a": "rituximab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "upadacitinib Brand name: Rinvoq",
+    "interactions": [
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高upadacitinib浓度，增加严重不良反应风险",
+        "mechanism": "抑制CYP3A4介导的代谢"
+      },
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低upadacitinib血药浓度，可能导致疗效不足",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "upadacitinib",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "abatacept",
+    "interactions": [
+      {
+        "drug_a": "abatacept",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "abatacept",
+        "drug_b": "TNF inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加严重感染风险，不推荐联用",
+        "mechanism": "协同免疫抑制"
+      },
+      {
+        "drug_a": "abatacept",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加感染风险",
+        "mechanism": "叠加免疫抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "rituximab",
+    "interactions": [
+      {
+        "drug_a": "rituximab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "B细胞耗竭，免疫抑制"
+      },
+      {
+        "drug_a": "rituximab",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压风险",
+        "mechanism": "利妥昔单抗输注相关低血压协同"
+      },
+      {
+        "drug_a": "rituximab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "tofacitinib",
+    "interactions": [
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高tofacitinib浓度，增加不良反应风险",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低tofacitinib疗效",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "Tofacitinib Extended-Release Tablets",
+    "interactions": [
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高tofacitinib浓度，增加不良反应风险",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低tofacitinib疗效",
+        "mechanism": "诱导CYP3A4加速代谢"
+      },
+      {
+        "drug_a": "tofacitinib",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加免疫抑制和感染风险",
+        "mechanism": "叠加免疫抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "auranofin",
+    "interactions": [
+      {
+        "drug_a": "auranofin",
+        "drug_b": "penicillamine",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重血液和肾毒性风险",
+        "mechanism": "协同毒性作用"
+      },
+      {
+        "drug_a": "auranofin",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加骨髓抑制风险",
+        "mechanism": "叠加骨髓抑制效应"
+      },
+      {
+        "drug_a": "auranofin",
+        "drug_b": "antimalarials",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加皮肤和血液不良反应风险",
+        "mechanism": "叠加毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "sarilumab",
+    "interactions": [
+      {
+        "drug_a": "sarilumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "sarilumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "sarilumab",
+        "drug_b": "CYP substrates (warfarin, statins, oral contraceptives)",
+        "interaction_type": "moderate",
+        "clinical_effect": "血药浓度可能改变，需监测疗效与毒性",
+        "mechanism": "抑制IL-6恢复CYP酶活性，影响代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "alemtuzumab",
+    "interactions": [
+      {
+        "drug_a": "alemtuzumab",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "alemtuzumab",
+        "drug_b": "anticoagulants / antiplatelets",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加出血风险",
+        "mechanism": "阿仑单抗致血小板减少协同抗凝/抗血小板作用"
+      },
+      {
+        "drug_a": "alemtuzumab",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重感染风险",
+        "mechanism": "叠加免疫抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "penicillamine",
+    "interactions": [
+      {
+        "drug_a": "penicillamine",
+        "drug_b": "auranofin",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重血液和肾毒性风险",
+        "mechanism": "协同毒性"
+      },
+      {
+        "drug_a": "penicillamine",
+        "drug_b": "antacids / iron supplements",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低青霉胺吸收，减弱疗效",
+        "mechanism": "螯合作用，减少吸收"
+      },
+      {
+        "drug_a": "penicillamine",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加骨髓抑制和肾毒性风险",
+        "mechanism": "叠加毒性"
+      },
+      {
+        "drug_a": "penicillamine",
+        "drug_b": "antimalarials",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加严重皮肤反应风险",
+        "mechanism": "附加皮肤毒性"
+      }
+    ]
+  },
+  {
+    "generic_name": "etanercept-ykro (subcutaneous route)",
+    "interactions": [
+      {
+        "drug_a": "etanercept",
+        "drug_b": "live vaccines",
+        "interaction_type": "major",
+        "clinical_effect": "可能引起严重感染",
+        "mechanism": "免疫抑制"
+      },
+      {
+        "drug_a": "etanercept",
+        "drug_b": "other immunosuppressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加感染风险",
+        "mechanism": "叠加免疫抑制"
+      },
+      {
+        "drug_a": "etanercept",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR可能变化，需监测",
+        "mechanism": "炎症抑制恢复CYP活性，改变华法林代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "interferon gamma-1b",
+    "interactions": [
+      {
+        "drug_a": "interferon gamma-1b",
+        "drug_b": "CYP1A2 substrates (theophylline)",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能升高茶碱浓度，增加毒性风险",
+        "mechanism": "干扰素抑制CYP1A2代谢"
+      },
+      {
+        "drug_a": "interferon gamma-1b",
+        "drug_b": "myelosuppressive agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加血液毒性风险",
+        "mechanism": "叠加骨髓抑制作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "aripiprazole (injection)",
+    "interactions": [
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "strong CYP2D6 inhibitors (fluoxetine, paroxetine, quinidine)",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高阿立哌唑浓度，增加不良反应风险",
+        "mechanism": "抑制CYP2D6介导的代谢"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "CNS depressants (opioids, benzodiazepines, alcohol)",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制风险",
+        "mechanism": "药效学协同作用"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高阿立哌唑浓度，需调整剂量",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低阿立哌唑浓度，可能疗效不足",
+        "mechanism": "诱导CYP3A4代谢"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT间期延长和尖端扭转型室速风险",
+        "mechanism": "叠加QT延长效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "chlorpromazine (oral/injection)",
+    "interactions": [
+      {
+        "drug_a": "chlorpromazine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "chlorpromazine",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "major",
+        "clinical_effect": "增加尖端扭转型室速风险",
+        "mechanism": "叠加QT延长效应"
+      },
+      {
+        "drug_a": "chlorpromazine",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压风险",
+        "mechanism": "氯丙嗪α1阻断协同降压作用"
+      },
+      {
+        "drug_a": "chlorpromazine",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高氯丙嗪浓度，加强不良反应",
+        "mechanism": "抑制CYP2D6代谢"
+      },
+      {
+        "drug_a": "chlorpromazine",
+        "drug_b": "levodopa",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低左旋多巴抗帕金森疗效",
+        "mechanism": "多巴胺拮抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "paliperidone (injection)",
+    "interactions": [
+      {
+        "drug_a": "paliperidone",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "major",
+        "clinical_effect": "增加尖端扭转型室速风险",
+        "mechanism": "叠加QT延长效应"
+      },
+      {
+        "drug_a": "paliperidone",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "paliperidone",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加体位性低血压风险",
+        "mechanism": "α1阻断协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "loxapine (oral)",
+    "interactions": [
+      {
+        "drug_a": "loxapine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "loxapine",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT延长风险",
+        "mechanism": "叠加效应"
+      },
+      {
+        "drug_a": "loxapine",
+        "drug_b": "CYP1A2 inhibitors (fluvoxamine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高洛沙平浓度，增加不良反应",
+        "mechanism": "抑制CYP1A2代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "olanzapine (injection)",
+    "interactions": [
+      {
+        "drug_a": "olanzapine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "olanzapine",
+        "drug_b": "CYP1A2 inhibitors (fluvoxamine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "显著升高奥氮平浓度，需调整剂量",
+        "mechanism": "抑制CYP1A2代谢"
+      },
+      {
+        "drug_a": "olanzapine",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压风险",
+        "mechanism": "协同α1阻断"
+      },
+      {
+        "drug_a": "olanzapine",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT延长风险",
+        "mechanism": "叠加效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "aripiprazole lauroxil (intramuscular route)",
+    "interactions": [
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "strong CYP2D6 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "显著升高阿立哌唑浓度，增加不良反应",
+        "mechanism": "抑制CYP2D6代谢"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高阿立哌唑浓度",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低阿立哌唑浓度",
+        "mechanism": "诱导CYP3A4代谢"
+      },
+      {
+        "drug_a": "aripiprazole",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT延长风险",
+        "mechanism": "叠加效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "thiothixene",
+    "interactions": [
+      {
+        "drug_a": "thiothixene",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "thiothixene",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT延长风险",
+        "mechanism": "叠加效应"
+      },
+      {
+        "drug_a": "thiothixene",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压风险",
+        "mechanism": "α1阻断协同"
+      },
+      {
+        "drug_a": "thiothixene",
+        "drug_b": "CYP1A2 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "可能升高替沃噻吨血药浓度",
+        "mechanism": "抑制CYP1A2代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "amisulpride",
+    "interactions": [
+      {
+        "drug_a": "amisulpride",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "major",
+        "clinical_effect": "显著增加尖端扭转型室速风险",
+        "mechanism": "叠加QT延长效应"
+      },
+      {
+        "drug_a": "amisulpride",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "amisulpride",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加低血压风险",
+        "mechanism": "协同降压"
+      },
+      {
+        "drug_a": "amisulpride",
+        "drug_b": "diuretics (hypokalemia-inducing)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT延长和心律失常风险",
+        "mechanism": "电解质紊乱加重QT延长"
+      }
+    ]
+  },
+  {
+    "generic_name": "asenapine (transdermal)",
+    "interactions": [
+      {
+        "drug_a": "asenapine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "asenapine",
+        "drug_b": "CYP1A2 inhibitors (fluvoxamine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高阿塞那平浓度，增加不良反应",
+        "mechanism": "抑制CYP1A2代谢"
+      },
+      {
+        "drug_a": "asenapine",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加体位性低血压风险",
+        "mechanism": "α1阻断协同"
+      },
+      {
+        "drug_a": "asenapine",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加QT延长风险",
+        "mechanism": "叠加效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "paliperidone palmitate",
+    "interactions": [
+      {
+        "drug_a": "paliperidone",
+        "drug_b": "QT prolonging agents",
+        "interaction_type": "major",
+        "clinical_effect": "增加尖端扭转型室速风险",
+        "mechanism": "叠加QT延长效应"
+      },
+      {
+        "drug_a": "paliperidone",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静和呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "paliperidone",
+        "drug_b": "antihypertensives",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加体位性低血压风险",
+        "mechanism": "α1阻断协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "diazepam (rectal route)",
+    "interactions": [
+      {
+        "drug_a": "diazepam",
+        "drug_b": "opioids / alcohol",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、昏迷、死亡",
+        "mechanism": "中枢神经系统协同抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高地西泮浓度，增加镇静",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低地西泮疗效",
+        "mechanism": "诱导CYP3A4代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "diazepam nasal",
+    "interactions": [
+      {
+        "drug_a": "diazepam",
+        "drug_b": "opioids / alcohol",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、昏迷、死亡",
+        "mechanism": "中枢神经系统协同抑制"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高地西泮浓度，增加镇静",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "diazepam",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低地西泮疗效",
+        "mechanism": "诱导CYP3A4代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "lacosamide (oral/injection)",
+    "interactions": [
+      {
+        "drug_a": "lacosamide",
+        "drug_b": "AV conduction depressants (beta-blockers, verapamil, diltiazem)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加PR间期延长和心脏传导阻滞风险",
+        "mechanism": "协同抑制房室传导"
+      },
+      {
+        "drug_a": "lacosamide",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加头晕和嗜睡",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "midazolam (oral)",
+    "interactions": [
+      {
+        "drug_a": "midazolam",
+        "drug_b": "strong CYP3A4 inhibitors (ketoconazole, ritonavir, clarithromycin)",
+        "interaction_type": "major",
+        "clinical_effect": "咪达唑仑血药浓度显著升高，导致过度镇静和呼吸抑制",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "midazolam",
+        "drug_b": "opioids / alcohol",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、昏迷、死亡",
+        "mechanism": "中枢神经系统协同抑制"
+      },
+      {
+        "drug_a": "midazolam",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低咪达唑仑疗效",
+        "mechanism": "诱导CYP3A4代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "midazolam (nasal)",
+    "interactions": [
+      {
+        "drug_a": "midazolam",
+        "drug_b": "strong CYP3A4 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "咪达唑仑血药浓度显著升高，导致过度镇静和呼吸抑制",
+        "mechanism": "抑制CYP3A4代谢"
+      },
+      {
+        "drug_a": "midazolam",
+        "drug_b": "opioids / alcohol",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、昏迷、死亡",
+        "mechanism": "中枢神经系统协同抑制"
+      },
+      {
+        "drug_a": "midazolam",
+        "drug_b": "strong CYP3A4 inducers",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低咪达唑仑疗效",
+        "mechanism": "诱导CYP3A4代谢"
+      }
+    ]
+  },
+  {
+    "generic_name": "vigabatrin",
+    "interactions": [
+      {
+        "drug_a": "vigabatrin",
+        "drug_b": "retinal toxic drugs (chloroquine, hydroxychloroquine)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加视网膜毒性和视野缺损风险",
+        "mechanism": "叠加视网膜毒性"
+      },
+      {
+        "drug_a": "vigabatrin",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加镇静和头晕",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "levetiracetam (oral route)",
+    "interactions": [
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "probenecid",
+        "interaction_type": "moderate",
+        "clinical_effect": "升高左乙拉西坦浓度，增加不良反应",
+        "mechanism": "竞争肾小管分泌，减少清除"
+      },
+      {
+        "drug_a": "levetiracetam",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加嗜睡和镇静",
+        "mechanism": "药效学协同"
+      }
+    ]
+  }
+]

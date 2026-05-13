@@ -1,0 +1,70 @@
+<h2>三种解决方案对比</h2>
+<p class="subtitle">核心目标：修复中文疾病名 → 英文药品适应症之间的语义鸿沟</p>
+
+<div class="section">
+  <div class="options">
+
+    <div class="option" data-choice="a" onclick="toggleSelect(this)">
+      <div class="letter">A</div>
+      <div class="content">
+        <h3>增强匹配层（增量优化）</h3>
+        <p>在现有 disease_mapper + clinical_matcher 基础上深度增强，不改变架构</p>
+        <div style="margin-top:8px; font-size:12px; color:#888;">
+          <strong>改动：</strong>扩充中文疾病同义词库、疾病→药品类别反向索引、多层fallback链<br>
+          <strong>风险：</strong>低 | <strong>周期：</strong>1-2周 | <strong>效果：</strong>改善40-60%问题
+        </div>
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <span style="background:#2d4a2d; color:#4caf50; padding:2px 8px; border-radius:4px; font-size:11px;">改动小</span>
+          <span style="background:#2d4a2d; color:#4caf50; padding:2px 8px; border-radius:4px; font-size:11px;">兼容现有架构</span>
+          <span style="background:#4a2d2d; color:#ff6b6b; padding:2px 8px; border-radius:4px; font-size:11px;">治标不治本</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="option" data-choice="b" onclick="toggleSelect(this)">
+      <div class="letter">B</div>
+      <div class="content">
+        <h3>临床知识图谱（结构重构）</h3>
+        <p>构建疾病→身体系统→适应症类别→药品类别的确定性路由网络</p>
+        <div style="margin-top:8px; font-size:12px; color:#888;">
+          <strong>改动：</strong>新增知识图谱层（ICD-10疾病分类 + ATC药品分类 + 规则路由）<br>
+          <strong>风险：</strong>中 | <strong>周期：</strong>3-4周 | <strong>效果：</strong>解决80-90%问题
+        </div>
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <span style="background:#2d4a2d; color:#4caf50; padding:2px 8px; border-radius:4px; font-size:11px;">可解释性强</span>
+          <span style="background:#2d4a2d; color:#4caf50; padding:2px 8px; border-radius:4px; font-size:11px;">确定性强</span>
+          <span style="background:#4a3d2d; color:#ffd93d; padding:2px 8px; border-radius:4px; font-size:11px;">初始构建工作量大</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="option" data-choice="c" onclick="toggleSelect(this)">
+      <div class="letter">C</div>
+      <div class="content">
+        <h3>两阶段检索重排（ML增强）</h3>
+        <p>第一阶段广召回（药品类别匹配），第二阶段用医学NLP模型精排</p>
+        <div style="margin-top:8px; font-size:12px; color:#888;">
+          <strong>改动：</strong>新增医学BERT精排模型 + 药品类别检索层 + 融合排序<br>
+          <strong>风险：</strong>中高 | <strong>周期：</strong>4-6周 | <strong>效果：</strong>解决70-85%问题
+        </div>
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <span style="background:#2d4a2d; color:#4caf50; padding:2px 8px; border-radius:4px; font-size:11px;">处理罕见疾病</span>
+          <span style="background:#4a2d2d; color:#ff6b6b; padding:2px 8px; border-radius:4px; font-size:11px;">训练数据依赖</span>
+          <span style="background:#4a2d2d; color:#ff6b6b; padding:2px 8px; border-radius:4px; font-size:11px;">不可解释</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section" style="margin-top:24px;">
+  <div style="background:#1a1a2e; border-radius:12px; padding:20px; border:2px solid #6c5ce7;">
+    <h3 style="color:#6c5ce7; margin-top:0;">推荐：方案 B（临床知识图谱）+ 方案 A 的部分增强（混合方案）</h3>
+    <div style="color:#ccc; font-size:13px; line-height:1.8;">
+      <strong>为什么不用纯ML方案（C）：</strong>医疗推荐需要<strong>确定性</strong>和<strong>可解释性</strong>。ML模型的"黑盒"排序在临床上不可接受——医生需要知道"为什么推荐这个药"，而不是"AI说这个好"。<br><br>
+      <strong>为什么不是纯增量方案（A）：</strong>当前21条硬编码规则的维护成本已经很高，继续堆规则是不可持续的。需要在架构层面建立<strong>疾病→药品类别的确定性路由机制</strong>，从根源消除错误匹配。<br><br>
+      <strong>B+C的混合优势：</strong>知识图谱提供<strong>确定性路由</strong>（疾病→药类），解决匹配错误；增强映射层提供<strong>广泛覆盖</strong>（同义词+fallback），解决"推荐不出药"。
+    </div>
+  </div>
+</div>

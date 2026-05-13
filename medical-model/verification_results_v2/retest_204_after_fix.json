@@ -1,0 +1,6896 @@
+[
+  {
+    "disease_cn": "高血压",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "低血压",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Norepinephrine",
+        "drugName": "去甲肾上腺素",
+        "category": "α激动剂",
+        "matchedDisease": "hypotension",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Midodrine",
+        "drugName": "米多君",
+        "category": "Alpha-1激动剂",
+        "matchedDisease": "hypotension",
+        "score": 0.714,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fludrocortisone",
+        "drugName": "氟氢可的松",
+        "category": "皮质类固醇",
+        "matchedDisease": "hypotension",
+        "score": 0.356,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amlodipine-Benazepril",
+        "drugName": "氨氯地平-贝那普利",
+        "category": "钙通道阻滞剂+ACE抑制剂",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "冠心病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Perindopril",
+        "drugName": "培哚普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amlodipine-Valsartan",
+        "drugName": "氨氯地平缬沙坦",
+        "category": "钙通道阻滞剂+ARB",
+        "matchedDisease": "慢性稳定性心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "amlodipine and benazepril",
+        "drugName": "氨氯地平和贝那普利",
+        "category": "ACE抑制剂+钙通道阻滞剂",
+        "matchedDisease": "冠心病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "amlodipine and perindopril",
+        "drugName": "氨氯地平和培哚普利",
+        "category": "ACE抑制剂+钙通道阻滞剂",
+        "matchedDisease": "冠心病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心绞痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Carvedilol",
+        "drugName": "卡维地洛",
+        "category": "α/β受体阻断剂",
+        "matchedDisease": "心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diltiazem",
+        "drugName": "地尔硫卓",
+        "category": "非二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Nifedipine",
+        "drugName": "硝苯地平",
+        "category": "二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pindolol",
+        "drugName": "吲哚洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心肌梗死",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Captopril",
+        "drugName": "卡托普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "心肌梗塞后左心室功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amlodipine-Valsartan",
+        "drugName": "氨氯地平缬沙坦",
+        "category": "钙通道阻滞剂+ARB",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prasugrel",
+        "drugName": "普拉格雷",
+        "category": "抗血小板药",
+        "matchedDisease": "心肌梗死",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ticagrelor",
+        "drugName": "替格瑞洛",
+        "category": "P2Y12抑制剂",
+        "matchedDisease": "心肌梗死",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心梗",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Lisinopril",
+        "drugName": "赖诺普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "急性心肌梗死",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prasugrel",
+        "drugName": "普拉格雷",
+        "category": "抗血小板药",
+        "matchedDisease": "心肌梗死",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ticagrelor",
+        "drugName": "替格瑞洛",
+        "category": "P2Y12抑制剂",
+        "matchedDisease": "心肌梗死",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心力衰竭",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amlodipine-Valsartan",
+        "drugName": "氨氯地平缬沙坦",
+        "category": "钙通道阻滞剂+ARB",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bumetanide",
+        "drugName": "布美他尼",
+        "category": "袢利尿剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Canagliflozin",
+        "drugName": "卡格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心衰",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amlodipine-Valsartan",
+        "drugName": "氨氯地平缬沙坦",
+        "category": "钙通道阻滞剂+ARB",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bumetanide",
+        "drugName": "布美他尼",
+        "category": "袢利尿剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Candesartan",
+        "drugName": "坎地沙坦",
+        "category": "ARB(血管紧张素受体阻断剂)",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心房颤动",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Dofetilide",
+        "drugName": "多非利特",
+        "category": "抗心律失常药(III类)",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esmolol",
+        "drugName": "艾司洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Verapamil",
+        "drugName": "维拉帕米",
+        "category": "非二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "心房颤动",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rivaroxaban",
+        "drugName": "利伐沙班",
+        "category": "直接口服抗凝剂（Xa 因子抑制剂）",
+        "matchedDisease": "心房颤动",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "房颤",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Bisoprolol",
+        "drugName": "比索洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ibutilide",
+        "drugName": "伊布利特",
+        "category": "抗心律失常药(III类)",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Verapamil",
+        "drugName": "维拉帕米",
+        "category": "非二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "心房颤动",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rivaroxaban",
+        "drugName": "利伐沙班",
+        "category": "直接口服抗凝剂（Xa 因子抑制剂）",
+        "matchedDisease": "心房颤动",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心律失常",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Esmolol",
+        "drugName": "艾司洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lidocaine",
+        "drugName": "利多卡因",
+        "category": "局麻药/抗心律失常药(Ib类)",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metoprolol",
+        "drugName": "美托洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pindolol",
+        "drugName": "吲哚洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "心律失常",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "动脉粥样硬化",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Niacin",
+        "drugName": "烟酸",
+        "category": "维生素B3",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Colesevelam",
+        "drugName": "考来维仑",
+        "category": "胆酸螯合剂",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amlodipine-Benazepril",
+        "drugName": "氨氯地平-贝那普利",
+        "category": "钙通道阻滞剂+ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "深静脉血栓",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Apixaban",
+        "drugName": "阿哌沙班",
+        "category": "直接口服抗凝剂（Xa 因子抑制剂）",
+        "matchedDisease": "深静脉血栓",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dabigatran",
+        "drugName": "达比加群",
+        "category": "直接凝血酶抑制剂",
+        "matchedDisease": "深静脉血栓",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Warfarin",
+        "drugName": "华法林",
+        "category": "抗凝药(维生素K拮抗剂)",
+        "matchedDisease": "深静脉血栓的治疗",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "heparin (injection)",
+        "drugName": "肝素（注射剂）",
+        "category": "肝素类",
+        "matchedDisease": "深静脉血栓的治疗",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肺栓塞",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Apixaban",
+        "drugName": "阿哌沙班",
+        "category": "直接口服抗凝剂（Xa 因子抑制剂）",
+        "matchedDisease": "肺栓塞治疗",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diltiazem",
+        "drugName": "地尔硫卓",
+        "category": "非二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "心绞痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rivaroxaban",
+        "drugName": "利伐沙班",
+        "category": "直接口服抗凝剂（Xa 因子抑制剂）",
+        "matchedDisease": "肺栓塞",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tenecteplase",
+        "drugName": "替奈普酶",
+        "category": "溶栓药",
+        "matchedDisease": "肺栓塞",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "外周动脉疾病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clopidogrel",
+        "drugName": "氯吡格雷",
+        "category": "抗血小板药",
+        "matchedDisease": "外周动脉疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "alprostadil",
+        "drugName": "前列地尔",
+        "category": "勃起功能障碍药, 血管扩张剂",
+        "matchedDisease": "外周动脉疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Candesartan",
+        "drugName": "坎地沙坦",
+        "category": "ARB(血管紧张素受体阻断剂)",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "高血脂",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Pravastatin",
+        "drugName": "普伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Simvastatin",
+        "drugName": "辛伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Colesevelam",
+        "drugName": "考来维仑",
+        "category": "胆酸螯合剂",
+        "matchedDisease": "高脂血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "amlodipine and atorvastatin",
+        "drugName": "氨氯地平和阿托伐他汀",
+        "category": "降脂组合药, 其他降压组合药",
+        "matchedDisease": "高脂血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "高脂血症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Colesevelam",
+        "drugName": "考来维仑",
+        "category": "胆酸螯合剂",
+        "matchedDisease": "高脂血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ezetimibe",
+        "drugName": "依折麦布",
+        "category": "胆固醇吸收抑制剂",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "amlodipine and atorvastatin",
+        "drugName": "氨氯地平和阿托伐他汀",
+        "category": "降脂组合药, 其他降压组合药",
+        "matchedDisease": "高脂血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "niacin (nicotinic acid)",
+        "drugName": "烟酸（烟酸）",
+        "category": "其他降脂药, 维生素类",
+        "matchedDisease": "高脂血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "高胆固醇",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Fenofibrate",
+        "drugName": "非诺贝特",
+        "category": "贝特类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluvastatin",
+        "drugName": "氟伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lovastatin",
+        "drugName": "洛伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pravastatin",
+        "drugName": "普伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胆固醇高",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amlodipine",
+        "drugName": "氨氯地平",
+        "category": "二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fenofibrate",
+        "drugName": "非诺贝特",
+        "category": "贝特类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluvastatin",
+        "drugName": "氟伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pitavastatin",
+        "drugName": "匹伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "高胆固醇血症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "糖尿病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Canagliflozin",
+        "drugName": "卡格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Colesevelam",
+        "drugName": "考来维仑",
+        "category": "胆酸螯合剂",
+        "matchedDisease": "2 型糖尿病（作为辅助）",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "teplizumab-mzwv",
+        "drugName": "特普利珠单抗-mzwv",
+        "category": "",
+        "matchedDisease": "临床 1 型糖尿病的延迟发病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "semaglutide",
+        "drugName": "索马鲁肽",
+        "category": "肠促胰岛素模拟物",
+        "matchedDisease": "2型糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "2型糖尿病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Colesevelam",
+        "drugName": "考来维仑",
+        "category": "胆酸螯合剂",
+        "matchedDisease": "2 型糖尿病（作为辅助）",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Empagliflozin",
+        "drugName": "恩格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "lixisenatide",
+        "drugName": "利西拉来",
+        "category": "肠促胰岛素模拟物",
+        "matchedDisease": "2型糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "tirzepatide (mown-JAHR-OH)",
+        "drugName": "替泽帕肽（mown-JAHR-OH）",
+        "category": "肠促胰岛素模拟物",
+        "matchedDisease": "2型糖尿病",
+        "score": 1.0,
+        "safetyType": "安全数据未验证"
+      }
+    ]
+  },
+  {
+    "disease_cn": "1型糖尿病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Canagliflozin",
+        "drugName": "卡格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Empagliflozin",
+        "drugName": "恩格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "insulin (inhalation)",
+        "drugName": "胰岛素（吸入）",
+        "category": "胰岛素",
+        "matchedDisease": "1型糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "teplizumab-mzwv",
+        "drugName": "特普利珠单抗-mzwv",
+        "category": "",
+        "matchedDisease": "临床 1 型糖尿病的延迟发病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "甲状腺功能减退",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Liotrix",
+        "drugName": "利奥特里克斯",
+        "category": "甲状腺激素",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      },
+      {
+        "englishName": "Levothyroxine",
+        "drugName": "左旋甲状腺素",
+        "category": "甲状腺激素",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      },
+      {
+        "englishName": "Liothyronine",
+        "drugName": "碘塞罗宁",
+        "category": "甲状腺激素",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      },
+      {
+        "englishName": "levothyroxine (oral route)",
+        "drugName": "左旋甲状腺素（口服）",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "甲减",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Liotrix",
+        "drugName": "利奥特里克斯",
+        "category": "甲状腺激素",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      },
+      {
+        "englishName": "Levothyroxine",
+        "drugName": "左旋甲状腺素",
+        "category": "甲状腺激素",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      },
+      {
+        "englishName": "Liothyronine",
+        "drugName": "碘塞罗宁",
+        "category": "甲状腺激素",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      },
+      {
+        "englishName": "thyroid desiccated",
+        "drugName": "甲状腺干燥",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺功能减退",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "甲状腺功能亢进",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cinacalcet",
+        "drugName": "西那卡塞",
+        "category": "拟钙剂",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Doxercalciferol",
+        "drugName": "多克骨化醇",
+        "category": "维生素D类似物",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Methimazole",
+        "drugName": "甲硫咪唑",
+        "category": "抗甲状腺药",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Propylthiouracil",
+        "drugName": "丙基硫氧嘧啶",
+        "category": "抗甲状腺药",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 0.653,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "甲亢",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cinacalcet",
+        "drugName": "西那卡塞",
+        "category": "拟钙剂",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Propylthiouracil",
+        "drugName": "丙基硫氧嘧啶",
+        "category": "抗甲状腺药",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Doxercalciferol",
+        "drugName": "多克骨化醇",
+        "category": "维生素D类似物",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 0.797,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Methimazole",
+        "drugName": "甲硫咪唑",
+        "category": "抗甲状腺药",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 0.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "甲状腺肿",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "levothyroxine (oral route)",
+        "drugName": "左旋甲状腺素（口服）",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "levothyroxine (oral/injection)",
+        "drugName": "左旋甲状腺素（口服/注射）",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "thyroid (desiccated)",
+        "drugName": "甲状腺（干燥）",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cinacalcet",
+        "drugName": "西那卡塞",
+        "category": "拟钙剂",
+        "matchedDisease": "甲状腺功能亢进",
+        "score": 0.15,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肥胖",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Orlistat",
+        "drugName": "奥利司他",
+        "category": "脂肪酶抑制剂",
+        "matchedDisease": "肥胖管理",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "phentermine (oral route)",
+        "drugName": "芬特明（口服途径）",
+        "category": "食欲抑制剂, 中枢兴奋药",
+        "matchedDisease": "肥胖",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "semaglutide",
+        "drugName": "索马鲁肽",
+        "category": "肠促胰岛素模拟物",
+        "matchedDisease": "肥胖",
+        "score": 0.946,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pramlintide",
+        "drugName": "普兰林肽",
+        "category": "胰淀素类似物",
+        "matchedDisease": "肥胖",
+        "score": 0.745,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "代谢综合征",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Colesevelam",
+        "drugName": "考来维仑",
+        "category": "胆酸螯合剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bisoprolol-Hydrochlorothiazide",
+        "drugName": "比索洛尔-氢氯噻嗪",
+        "category": "β受体阻断剂+噻嗪利尿剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Captopril",
+        "drugName": "卡托普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "哮喘",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Dexamethasone",
+        "drugName": "地塞米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "哮喘",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prednisone",
+        "drugName": "强的松",
+        "category": "皮质类固醇",
+        "matchedDisease": "哮喘",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Epinephrine",
+        "drugName": "肾上腺素",
+        "category": "α/β受体激动剂",
+        "matchedDisease": "哮喘",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Methylprednisolone",
+        "drugName": "甲基强的松龙",
+        "category": "皮质类固醇",
+        "matchedDisease": "哮喘",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "慢阻肺",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Albuterol-Ipratropium",
+        "drugName": "沙丁胺醇-异丙托溴铵",
+        "category": "短效β2激动剂+抗胆碱药",
+        "matchedDisease": "慢性阻塞性肺疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Formoterol",
+        "drugName": "福莫特罗",
+        "category": "长效β2受体激动剂",
+        "matchedDisease": "慢阻肺",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ipratropium",
+        "drugName": "异丙托溴铵",
+        "category": "抗胆碱药",
+        "matchedDisease": "慢性阻塞性肺疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Olodaterol",
+        "drugName": "奥达特罗",
+        "category": "长效β2受体激动剂",
+        "matchedDisease": "慢性阻塞性肺疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "慢性阻塞性肺疾病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Albuterol-Ipratropium",
+        "drugName": "沙丁胺醇-异丙托溴铵",
+        "category": "短效β2激动剂+抗胆碱药",
+        "matchedDisease": "慢性阻塞性肺疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Formoterol",
+        "drugName": "福莫特罗",
+        "category": "长效β2受体激动剂",
+        "matchedDisease": "慢阻肺",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ipratropium",
+        "drugName": "异丙托溴铵",
+        "category": "抗胆碱药",
+        "matchedDisease": "慢性阻塞性肺疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Olodaterol",
+        "drugName": "奥达特罗",
+        "category": "长效β2受体激动剂",
+        "matchedDisease": "慢性阻塞性肺疾病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "支气管炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "dyphylline and guaifenesin",
+        "drugName": "二茶碱和愈创甘油醚",
+        "category": "抗哮喘组合",
+        "matchedDisease": "支气管炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benzonatate",
+        "drugName": "苯佐那酯",
+        "category": "镇咳药",
+        "matchedDisease": "咳嗽",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Hydrocodone",
+        "drugName": "氢可酮",
+        "category": "阿片激动剂",
+        "matchedDisease": "咳嗽",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Codeine",
+        "drugName": "可待因",
+        "category": "阿片激动剂",
+        "matchedDisease": "咳嗽",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肺炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amikacin",
+        "drugName": "阿米卡星",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "肺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "肺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefaclor",
+        "drugName": "头孢克洛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "肺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefazolin",
+        "drugName": "头孢唑啉",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "肺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "上呼吸道感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Nicardipine",
+        "drugName": "尼卡地平",
+        "category": "二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Doxazosin",
+        "drugName": "多沙唑嗪",
+        "category": "α1受体阻断剂",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Nisoldipine",
+        "drugName": "尼索地平",
+        "category": "二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Guanfacine",
+        "drugName": "胍法辛",
+        "category": "α2激动剂",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "感冒",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "肺结核",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Levofloxacin",
+        "drugName": "左氧氟沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "肺结核",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amikacin",
+        "drugName": "阿米卡星",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "肺结核",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Moxifloxacin",
+        "drugName": "莫西沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "肺结核",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Streptomycin",
+        "drugName": "链霉素",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "肺结核",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肺纤维化",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "interferon gamma-1b",
+        "drugName": "干扰素γ-1b",
+        "category": "干扰素类",
+        "matchedDisease": "特发性肺纤维化",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexamethasone Tablets",
+        "drugName": "地塞米松片",
+        "category": "糖皮质激素",
+        "matchedDisease": "哮喘",
+        "score": 0.295,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Budesonide",
+        "drugName": "布地奈德",
+        "category": "吸入性皮质类固醇",
+        "matchedDisease": "哮喘",
+        "score": 0.224,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ipratropium Inhalation Aerosol",
+        "drugName": "异丙托铵吸入气雾剂",
+        "category": "抗胆碱支气管扩张剂",
+        "matchedDisease": "哮喘",
+        "score": 0.198,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肺动脉高压",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amlodipine-Benazepril",
+        "drugName": "氨氯地平-贝那普利",
+        "category": "钙通道阻滞剂+ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bosentan",
+        "drugName": "波生坦",
+        "category": "内皮素受体拮抗剂",
+        "matchedDisease": "肺动脉高压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Sildenafil",
+        "drugName": "西地那非",
+        "category": "PDE5抑制剂",
+        "matchedDisease": "肺动脉高压",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胃溃疡",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "aluminum hydroxide",
+        "drugName": "氢氧化铝",
+        "category": "抗酸药, 磷结合剂",
+        "matchedDisease": "消化性溃疡",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "calcium carbonate, famotidine, and magnesium hydroxide",
+        "drugName": "碳酸钙、法莫替丁和氢氧化镁",
+        "category": "H2受体拮抗剂",
+        "matchedDisease": "消化性溃疡",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "十二指肠溃疡",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Rabeprazole",
+        "drugName": "雷贝拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "十二指肠溃疡",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "消化性溃疡",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Sucralfate",
+        "drugName": "硫糖铝",
+        "category": "胃肠保护剂",
+        "matchedDisease": "十二指肠溃疡",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "omeprazole, sodium bicarbonate and magnesium hydroxide Approval date: March 27, 2006 Company: Santarus, Inc. Treatment for: Heartburn/GERD, Erosive Esophagitis, Duodenal & Gastric Ulcers",
+        "drugName": "奥美拉唑、碳酸氢钠和氢氧化镁 批准日期：2006 年 3 月 27 日 公司：Santarus, Inc. 治疗：胃灼热/胃食管反流病、糜烂性食管炎、十二指肠和胃溃疡",
+        "category": "",
+        "matchedDisease": "十二指肠溃疡",
+        "score": 1.0,
+        "safetyType": "安全数据未验证"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胃出血",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Famotidine",
+        "drugName": "法莫替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lansoprazole",
+        "drugName": "兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "胃食管反流病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "消化道出血",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Famotidine",
+        "drugName": "法莫替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lansoprazole",
+        "drugName": "兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "上消化道出血",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Nizatidine",
+        "drugName": "尼扎替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Omeprazole",
+        "drugName": "奥美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pantoprazole",
+        "drugName": "泮托拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ranitidine",
+        "drugName": "雷尼替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胃食管反流",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Famotidine",
+        "drugName": "法莫替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "反流性食管炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lansoprazole",
+        "drugName": "兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magaldrate",
+        "drugName": "玛加尔德",
+        "category": "抗酸药",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胃炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "胃食管反流病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magaldrate",
+        "drugName": "玛加尔德",
+        "category": "抗酸药",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肠炎",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "溃疡性结肠炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Golimumab",
+        "drugName": "戈利木单抗",
+        "category": "TNF阻断剂",
+        "matchedDisease": "溃疡性结肠炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Infliximab",
+        "drugName": "英夫利昔单抗",
+        "category": "TNF阻断剂",
+        "matchedDisease": "溃疡性结肠炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tofacitinib",
+        "drugName": "托法替尼",
+        "category": "JAK抑制剂",
+        "matchedDisease": "溃疡性结肠炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "克罗恩病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Methotrexate",
+        "drugName": "甲氨蝶呤",
+        "category": "抗代谢药",
+        "matchedDisease": "克罗恩病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Infliximab",
+        "drugName": "英夫利昔单抗",
+        "category": "TNF阻断剂",
+        "matchedDisease": "克罗恩病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Adalimumab",
+        "drugName": "阿达木单抗",
+        "category": "TNF阻断剂",
+        "matchedDisease": "克罗恩病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肠易激综合征",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Rifaximin",
+        "drugName": "利福昔明",
+        "category": "抗生素",
+        "matchedDisease": "肠易激综合征",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "polycarbophil",
+        "drugName": "聚卡波非",
+        "category": "泻药",
+        "matchedDisease": "肠易激综合征",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "psyllium",
+        "drugName": "车前子",
+        "category": "泻药",
+        "matchedDisease": "肠易激综合征",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "腹泻",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metronidazole",
+        "drugName": "甲硝唑",
+        "category": "硝基咪唑类抗生素",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Loperamide",
+        "drugName": "洛哌丁胺",
+        "category": "止泻药",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "difenoxin and atropine (oral route)",
+        "drugName": "地芬诺辛和阿托品（口服途径）",
+        "category": "止泻药",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "便秘",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Magnesium Hydroxide",
+        "drugName": "氢氧化镁",
+        "category": "抗酸药/泻药",
+        "matchedDisease": "便秘",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magnesium Oxide",
+        "drugName": "氧化镁",
+        "category": "矿物质和电解质",
+        "matchedDisease": "便秘",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Methylnaltrexone",
+        "drugName": "甲基纳曲酮",
+        "category": "外周阿片受体拮抗剂",
+        "matchedDisease": "便秘",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Docusate",
+        "drugName": "多库酯",
+        "category": "大便软化剂",
+        "matchedDisease": "便秘",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肝炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Tenofovir",
+        "drugName": "替诺福韦",
+        "category": "NRTI(核苷逆转录酶抑制剂)",
+        "matchedDisease": "乙型肝炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lamivudine",
+        "drugName": "拉米夫定",
+        "category": "NRTI(核苷逆转录酶抑制剂)",
+        "matchedDisease": "乙型肝炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Sofosbuvir",
+        "drugName": "索磷布韦",
+        "category": "NS5B聚合酶抑制剂",
+        "matchedDisease": "丙型肝炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "脂肪肝",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Vitamin E Capsules and Tablets",
+        "drugName": "维生素E胶囊和片剂",
+        "category": "维生素类",
+        "matchedDisease": "非酒精性脂肪性肝炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "vitamin E (VYE ta min E), tocopherol alpha Brand names: Aqua-E, Aquasol E , Aquavite-E, Aqueous Vitamin E, E-400 Clear",
+        "drugName": "维生素 E (VYE ta min E)、生育酚 alpha 品牌名称：Aqua-E、Aquasol E、Aquavite-E、水性维生素 E、E-400 Clear",
+        "category": "维生素类",
+        "matchedDisease": "非酒精性脂肪性肝炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "vitamin e (oral route)",
+        "drugName": "维生素E（口服）",
+        "category": "维生素类",
+        "matchedDisease": "非酒精性脂肪性肝炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肝硬化",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "torsemide (oral/injection)",
+        "drugName": "托拉塞米（口服/注射）",
+        "category": "袢利尿剂",
+        "matchedDisease": "肝硬化相关水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "hydrochlorothiazide (oral route)",
+        "drugName": "氢氯噻嗪（口服）",
+        "category": "噻嗪类利尿剂",
+        "matchedDisease": "肝硬化相关水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "hydrochlorothiazide and amiloride",
+        "drugName": "氢氯噻嗪和阿米洛利",
+        "category": "保钾利尿剂+噻嗪类",
+        "matchedDisease": "肝硬化相关水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胆囊炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Hyoscyamine",
+        "drugName": "天仙子胺",
+        "category": "抗胆碱药",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magaldrate",
+        "drugName": "玛加尔德",
+        "category": "抗酸药",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Nizatidine",
+        "drugName": "尼扎替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胆结石",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "抑郁症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Aripiprazole",
+        "drugName": "阿立哌唑",
+        "category": "非典型抗精神病药",
+        "matchedDisease": "抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desipramine",
+        "drugName": "地昔帕明",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "desipramine (oral route)",
+        "drugName": "地昔帕明（口服途径）",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "重度抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "nortriptyline (oral route)",
+        "drugName": "去甲替林（口服途径）",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "重度抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "抑郁",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Fluoxetine",
+        "drugName": "氟西汀",
+        "category": "SSRI(选择性5-羟色胺再摄取抑制剂)",
+        "matchedDisease": "抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluvoxamine",
+        "drugName": "氟伏沙明",
+        "category": "SSRI(选择性5-羟色胺再摄取抑制剂)",
+        "matchedDisease": "抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lithium",
+        "drugName": "锂",
+        "category": "抗躁狂药",
+        "matchedDisease": "抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Maprotiline",
+        "drugName": "马普替林",
+        "category": "四环类抗抑郁药",
+        "matchedDisease": "抑郁症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "焦虑症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Alprazolam",
+        "drugName": "阿普唑仑",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Aripiprazole",
+        "drugName": "阿立哌唑",
+        "category": "非典型抗精神病药",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Venlafaxine",
+        "drugName": "文拉法辛",
+        "category": "SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)",
+        "matchedDisease": "社交焦虑症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "venlafaxine hydrochloride",
+        "drugName": "盐酸文拉法辛",
+        "category": "5-HT-NE再摄取抑制剂",
+        "matchedDisease": "社交焦虑症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "焦虑",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Alprazolam",
+        "drugName": "阿普唑仑",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Buspirone",
+        "drugName": "丁螺环酮",
+        "category": "抗焦虑药",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Venlafaxine",
+        "drugName": "文拉法辛",
+        "category": "SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)",
+        "matchedDisease": "社交焦虑症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "venlafaxine hydrochloride",
+        "drugName": "盐酸文拉法辛",
+        "category": "5-HT-NE再摄取抑制剂",
+        "matchedDisease": "社交焦虑症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "失眠",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Alprazolam",
+        "drugName": "阿普唑仑",
+        "category": "苯二氮卓类",
+        "matchedDisease": "失眠",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clonazepam",
+        "drugName": "氯硝西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "失眠",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clorazepate",
+        "drugName": "氯氮平",
+        "category": "苯二氮卓类",
+        "matchedDisease": "失眠",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diazepam",
+        "drugName": "地西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "失眠",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "偏头痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "偏头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "偏头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metoprolol",
+        "drugName": "美托洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "偏头痛预防",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Naproxen",
+        "drugName": "萘普生",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "偏头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "头痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cyclobenzaprine",
+        "drugName": "环苯扎林",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "紧张性头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "偏头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lithium",
+        "drugName": "锂",
+        "category": "抗躁狂药",
+        "matchedDisease": "丛集性头痛的预防",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "分簇性头痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "偏头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ergotamine and Caffeine Suppositories",
+        "drugName": "麦角胺和咖啡因栓剂",
+        "category": "抗偏头痛药",
+        "matchedDisease": "丛集性头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "dihydroergotamine (nasal)",
+        "drugName": "二氢麦角胺（鼻用）",
+        "category": "抗偏头痛药",
+        "matchedDisease": "丛集性头痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "癫痫",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diazepam",
+        "drugName": "地西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ethosuximide",
+        "drugName": "乙舒酰亚胺",
+        "category": "抗惊厥药",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lorazepam",
+        "drugName": "劳拉西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxcarbazepine",
+        "drugName": "奥卡西平",
+        "category": "抗惊厥药",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "帕金森病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Selegiline",
+        "drugName": "司来吉兰",
+        "category": "MAOI(单胺氧化酶抑制剂)",
+        "matchedDisease": "帕金森病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Orphenadrine",
+        "drugName": "奥芬那君",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "帕金森病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rasagiline",
+        "drugName": "雷沙吉兰",
+        "category": "MAOI(单胺氧化酶抑制剂)",
+        "matchedDisease": "帕金森病",
+        "score": 0.998,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Carbidopa",
+        "drugName": "卡比多巴",
+        "category": "脱羧酶抑制剂",
+        "matchedDisease": "帕金森病",
+        "score": 0.983,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "阿尔茨海默病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Vitamin E Capsules and Tablets",
+        "drugName": "维生素E胶囊和片剂",
+        "category": "维生素类",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "rivastigmine (oral)",
+        "drugName": "卡巴拉汀（口服）",
+        "category": "胆碱酯酶抑制剂",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.812,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ergoloid Mesylates",
+        "drugName": "麦角甲磺酸盐",
+        "category": "麦角生物碱",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.802,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rivastigmine",
+        "drugName": "卡巴拉汀",
+        "category": "胆碱酯酶抑制剂",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.753,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "老年痴呆",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ergoloid Mesylates",
+        "drugName": "麦角甲磺酸盐",
+        "category": "麦角生物碱",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.937,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "rivastigmine (oral)",
+        "drugName": "卡巴拉汀（口服）",
+        "category": "胆碱酯酶抑制剂",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.835,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "aducanumab",
+        "drugName": "阿杜卡单抗",
+        "category": "其他中枢神经系统药",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.779,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "vitamin e (oral route)",
+        "drugName": "维生素E（口服）",
+        "category": "维生素类",
+        "matchedDisease": "阿尔茨海默病",
+        "score": 0.755,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "多动症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clonidine",
+        "drugName": "可乐定",
+        "category": "α2激动剂",
+        "matchedDisease": "注意力缺陷多动障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desipramine",
+        "drugName": "地昔帕明",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "多动症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Selegiline",
+        "drugName": "司来吉兰",
+        "category": "MAOI(单胺氧化酶抑制剂)",
+        "matchedDisease": "注意力缺陷多动障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bupropion",
+        "drugName": "安非他酮",
+        "category": "非典型抗抑郁药",
+        "matchedDisease": "注意力缺陷多动障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "精神分裂症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Aripiprazole",
+        "drugName": "阿立哌唑",
+        "category": "非典型抗精神病药",
+        "matchedDisease": "精神分裂症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Brexpiprazole",
+        "drugName": "布瑞哌唑",
+        "category": "非典型抗精神病药",
+        "matchedDisease": "精神分裂症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Quetiapine",
+        "drugName": "喹硫平",
+        "category": "非典型抗精神病药",
+        "matchedDisease": "精神分裂症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Reserpine",
+        "drugName": "利血平",
+        "category": "抗肾上腺素能药",
+        "matchedDisease": "精神分裂症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "强迫症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clomipramine",
+        "drugName": "氯米帕明",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "强迫症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Escitalopram",
+        "drugName": "艾司西酞普兰",
+        "category": "SSRI(选择性5-羟色胺再摄取抑制剂)",
+        "matchedDisease": "强迫症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluvoxamine",
+        "drugName": "氟伏沙明",
+        "category": "SSRI(选择性5-羟色胺再摄取抑制剂)",
+        "matchedDisease": "强迫症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Sertraline",
+        "drugName": "舍曲林",
+        "category": "SSRI(选择性5-羟色胺再摄取抑制剂)",
+        "matchedDisease": "强迫症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "惊恐障碍",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Alprazolam",
+        "drugName": "阿普唑仑",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clomipramine",
+        "drugName": "氯米帕明",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Venlafaxine",
+        "drugName": "文拉法辛",
+        "category": "SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)",
+        "matchedDisease": "惊恐障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Alprazolam Oral Solution",
+        "drugName": "阿普唑仑口服溶液",
+        "category": "苯二氮卓类",
+        "matchedDisease": "惊恐障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "社交焦虑",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Alprazolam",
+        "drugName": "阿普唑仑",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bupropion",
+        "drugName": "安非他酮",
+        "category": "非典型抗抑郁药",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Venlafaxine",
+        "drugName": "文拉法辛",
+        "category": "SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)",
+        "matchedDisease": "社交焦虑症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "venlafaxine hydrochloride",
+        "drugName": "盐酸文拉法辛",
+        "category": "5-HT-NE再摄取抑制剂",
+        "matchedDisease": "社交焦虑症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "慢性肾病",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "尿路感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amikacin",
+        "drugName": "阿米卡星",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fosfomycin",
+        "drugName": "磷霉素",
+        "category": "抗生素",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetohydroxamic acid",
+        "drugName": "乙酰异羟肟酸",
+        "category": "其他泌尿生殖道药",
+        "matchedDisease": "bacterial urinary tract infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Phenazopyridine",
+        "drugName": "非那吡啶",
+        "category": "泌尿镇痛药",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "尿路结石",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "肾结石",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "前列腺增生",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Silodosin",
+        "drugName": "西洛多辛",
+        "category": "α1受体阻断剂",
+        "matchedDisease": "前列腺增生",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tamsulosin",
+        "drugName": "坦索罗辛",
+        "category": "α1受体阻断剂",
+        "matchedDisease": "前列腺增生",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Terazosin",
+        "drugName": "特拉唑嗪",
+        "category": "α1受体阻断剂",
+        "matchedDisease": "前列腺增生",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prazosin",
+        "drugName": "哌唑嗪",
+        "category": "α1受体阻断剂",
+        "matchedDisease": "前列腺增生",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "尿失禁",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "oxybutynin (oral)",
+        "drugName": "奥昔布宁（口服）",
+        "category": "泌尿解痉药",
+        "matchedDisease": "尿失禁",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fosfomycin",
+        "drugName": "磷霉素",
+        "category": "抗生素",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "flavoxate",
+        "drugName": "黄酮酯",
+        "category": "泌尿解痉药",
+        "matchedDisease": "尿失禁",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "oxybutynin (transdermal)",
+        "drugName": "奥昔布宁（透皮）",
+        "category": "泌尿解痉药",
+        "matchedDisease": "尿失禁",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "类风湿关节炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "类风湿关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prednisolone",
+        "drugName": "泼尼松龙",
+        "category": "皮质类固醇",
+        "matchedDisease": "类风湿关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prednisone",
+        "drugName": "强的松",
+        "category": "皮质类固醇",
+        "matchedDisease": "类风湿关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxaprozin",
+        "drugName": "奥沙普嗪",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "类风湿关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "骨关节炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ketoprofen",
+        "drugName": "酮洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Nabumetone",
+        "drugName": "萘丁美酮",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxaprozin",
+        "drugName": "奥沙普嗪",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "痛风",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Colchicine",
+        "drugName": "秋水仙碱",
+        "category": "抗痛风药",
+        "matchedDisease": "痛风",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛风",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛风",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Flurbiprofen",
+        "drugName": "氟比洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛风",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "骨质疏松",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Estradiol",
+        "drugName": "雌二醇",
+        "category": "雌激素",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Calcitonin",
+        "drugName": "降钙素",
+        "category": "钙调节剂",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Raloxifene",
+        "drugName": "雷洛昔芬",
+        "category": "SERM",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Calcitriol",
+        "drugName": "骨化三醇",
+        "category": "维生素D类似物",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "骨质疏松症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Calcitonin",
+        "drugName": "降钙素",
+        "category": "钙调节剂",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Raloxifene",
+        "drugName": "雷洛昔芬",
+        "category": "SERM",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Conjugated Estrogens",
+        "drugName": "结合雌激素",
+        "category": "雌激素",
+        "matchedDisease": "骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Teriparatide",
+        "drugName": "特立帕肽",
+        "category": "甲状旁腺激素类似物",
+        "matchedDisease": "糖皮质激素引起的骨质疏松症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "强直性脊柱炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "强直性脊柱炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cyclobenzaprine",
+        "drugName": "环苯扎林",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Naproxen",
+        "drugName": "萘普生",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "强直性脊柱炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Indomethacin",
+        "drugName": "消炎痛",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "强直性脊柱炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "系统性红斑狼疮",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "腰背痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Baclofen",
+        "drugName": "巴氯芬",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Carisoprodol",
+        "drugName": "卡立普多",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cyclobenzaprine",
+        "drugName": "环苯扎林",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "颈椎病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Carisoprodol",
+        "drugName": "卡立普多",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cyclobenzaprine",
+        "drugName": "环苯扎林",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Flurbiprofen",
+        "drugName": "氟比洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "发烧",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Indomethacin",
+        "drugName": "消炎痛",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Naproxen",
+        "drugName": "萘普生",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "发热",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Indomethacin",
+        "drugName": "消炎痛",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Naproxen",
+        "drugName": "萘普生",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "发热",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "细菌感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amikacin",
+        "drugName": "阿米卡星",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "革兰氏阴性细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tobramycin",
+        "drugName": "妥布霉素",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "plazomicin",
+        "drugName": "普拉佐米星",
+        "category": "氨基糖苷类",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "lefamulin (oral/injection)",
+        "drugName": "来法莫林（口服/注射）",
+        "category": "其他抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "病毒感染",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "真菌感染",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "疱疹",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "带状疱疹",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "流感",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "新冠",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "艾滋病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Delavirdine",
+        "drugName": "地拉韦定",
+        "category": "NNRTI(非核苷逆转录酶抑制剂)",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tenofovir",
+        "drugName": "替诺福韦",
+        "category": "NRTI(核苷逆转录酶抑制剂)",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Nevirapine",
+        "drugName": "奈韦拉平",
+        "category": "NNRTI(非核苷逆转录酶抑制剂)",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Maraviroc",
+        "drugName": "马拉维罗克",
+        "category": "CCR5拮抗剂",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "梅毒",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "寄生虫感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Mebendazole",
+        "drugName": "甲苯咪唑",
+        "category": "驱虫药",
+        "matchedDisease": "寄生虫感染",
+        "score": 0.779,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ivermectin",
+        "drugName": "伊维菌素",
+        "category": "驱虫药",
+        "matchedDisease": "寄生虫感染",
+        "score": 0.75,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Albendazole",
+        "drugName": "阿苯达唑",
+        "category": "驱虫药",
+        "matchedDisease": "寄生虫感染",
+        "score": 0.741,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Paromomycin",
+        "drugName": "巴龙霉素",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "寄生虫感染",
+        "score": 0.727,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "蛔虫",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Albendazole",
+        "drugName": "阿苯达唑",
+        "category": "驱虫药",
+        "matchedDisease": "蛔虫病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Mebendazole",
+        "drugName": "甲苯咪唑",
+        "category": "驱虫药",
+        "matchedDisease": "蛔虫病",
+        "score": 0.679,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Losartan",
+        "drugName": "洛沙坦",
+        "category": "ARB(血管紧张素受体阻断剂)",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Telmisartan",
+        "drugName": "替米沙坦",
+        "category": "ARB(血管紧张素受体阻断剂)",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "湿疹",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Desonide",
+        "drugName": "地奈德",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "湿疹",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluocinolone",
+        "drugName": "氟轻松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Halobetasol",
+        "drugName": "卤倍他索",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "湿疹",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Mometasone",
+        "drugName": "莫米松",
+        "category": "外用/吸入皮质类固醇",
+        "matchedDisease": "湿疹",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "荨麻疹",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "银屑病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Betamethasone",
+        "drugName": "倍他米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desonide",
+        "drugName": "地奈德",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluocinolone",
+        "drugName": "氟轻松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Halobetasol",
+        "drugName": "卤倍他索",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "牛皮癣",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clobetasol",
+        "drugName": "氯倍他索",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desonide",
+        "drugName": "地奈德",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desoximetasone",
+        "drugName": "去氧米松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Halobetasol",
+        "drugName": "卤倍他索",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "痤疮",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tazarotene",
+        "drugName": "他扎罗汀",
+        "category": "维A酸类",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tretinoin",
+        "drugName": "维A酸",
+        "category": "维A酸类",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Norgestimate-Ethinyl Estradiol",
+        "drugName": "诺孕酯-乙炔雌二醇",
+        "category": "孕激素+雌激素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "痘痘",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxytetracycline",
+        "drugName": "土霉素",
+        "category": "四环素类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tretinoin",
+        "drugName": "维A酸",
+        "category": "维A酸类",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Norgestimate-Ethinyl Estradiol",
+        "drugName": "诺孕酯-乙炔雌二醇",
+        "category": "孕激素+雌激素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "皮疹",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Betamethasone",
+        "drugName": "倍他米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cetirizine",
+        "drugName": "西替利嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desonide",
+        "drugName": "地奈德",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "脂溢性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Mometasone",
+        "drugName": "莫米松",
+        "category": "外用/吸入皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "过敏性皮炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "fluticasone propionate",
+        "drugName": "丙酸氟替卡松",
+        "category": "鼻腔类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全数据未验证"
+      },
+      {
+        "englishName": "Clobetasol",
+        "drugName": "氯倍他索",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desoximetasone",
+        "drugName": "去氧米松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexamethasone",
+        "drugName": "地塞米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "带状疱疹后神经痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Gabapentin",
+        "drugName": "加巴喷丁",
+        "category": "抗惊厥药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desipramine",
+        "drugName": "地昔帕明",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "lidocaine topical",
+        "drugName": "利多卡因外用",
+        "category": "外用麻醉药",
+        "matchedDisease": "带状疱疹后神经痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Capsaicin in Lidocaine Cream",
+        "drugName": "利多卡因霜中的辣椒素",
+        "category": "其他外用药",
+        "matchedDisease": "带状疱疹后神经痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "贫血",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Folic Acid",
+        "drugName": "叶酸",
+        "category": "维生素",
+        "matchedDisease": "贫血",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ferrous Sulfate",
+        "drugName": "硫酸亚铁",
+        "category": "铁补充剂",
+        "matchedDisease": "贫血",
+        "score": 0.729,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Epoetin Alfa",
+        "drugName": "阿尔法依泊汀",
+        "category": "促红细胞生成药",
+        "matchedDisease": "贫血",
+        "score": 0.209,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Losartan",
+        "drugName": "洛沙坦",
+        "category": "ARB(血管紧张素受体阻断剂)",
+        "matchedDisease": null,
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "缺铁性贫血",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ferrous Sulfate",
+        "drugName": "硫酸亚铁",
+        "category": "铁补充剂",
+        "matchedDisease": "贫血",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Folic Acid",
+        "drugName": "叶酸",
+        "category": "维生素",
+        "matchedDisease": "贫血",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Epoetin Alfa",
+        "drugName": "阿尔法依泊汀",
+        "category": "促红细胞生成药",
+        "matchedDisease": "贫血",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Risperidone",
+        "drugName": "利培酮",
+        "category": "非典型抗精神病药",
+        "matchedDisease": null,
+        "score": 0.3,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "白血病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Tretinoin",
+        "drugName": "维A酸",
+        "category": "维A酸类",
+        "matchedDisease": "急性早幼粒细胞白血病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Folic Acid",
+        "drugName": "叶酸",
+        "category": "维生素",
+        "matchedDisease": "贫血",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Methotrexate",
+        "drugName": "甲氨蝶呤",
+        "category": "抗代谢药",
+        "matchedDisease": "白血病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Doxorubicin",
+        "drugName": "阿霉素",
+        "category": "蒽环类抗生素",
+        "matchedDisease": "白血病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "淋巴瘤",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Methoxsalen",
+        "drugName": "甲氧沙林",
+        "category": "补骨脂素",
+        "matchedDisease": "皮肤T细胞淋巴瘤",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Folic Acid",
+        "drugName": "叶酸",
+        "category": "维生素",
+        "matchedDisease": "贫血",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Doxorubicin",
+        "drugName": "阿霉素",
+        "category": "蒽环类抗生素",
+        "matchedDisease": "淋巴瘤",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ifosfamide",
+        "drugName": "异环磷酰胺",
+        "category": "烷化剂",
+        "matchedDisease": "淋巴瘤",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "乳腺癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Goserelin",
+        "drugName": "戈舍瑞林",
+        "category": "GnRH激动剂",
+        "matchedDisease": "乳腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Everolimus",
+        "drugName": "依维莫司",
+        "category": "mTOR抑制剂",
+        "matchedDisease": "乳腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Raloxifene",
+        "drugName": "雷洛昔芬",
+        "category": "SERM",
+        "matchedDisease": "breast cancer prevention",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Methotrexate",
+        "drugName": "甲氨蝶呤",
+        "category": "抗代谢药",
+        "matchedDisease": "乳腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肺癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Methotrexate",
+        "drugName": "甲氨蝶呤",
+        "category": "抗代谢药",
+        "matchedDisease": "肺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Gemcitabine",
+        "drugName": "吉西他滨",
+        "category": "抗代谢药",
+        "matchedDisease": "肺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Paclitaxel",
+        "drugName": "紫杉醇",
+        "category": "抗微管药",
+        "matchedDisease": "肺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pembrolizumab",
+        "drugName": "派姆单抗",
+        "category": "PD-1抑制剂",
+        "matchedDisease": "肺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "结肠癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "methotrexate (injection)",
+        "drugName": "甲氨蝶呤（注射剂）",
+        "category": "抗代谢药, 抗牛皮癣药, 抗风湿药, 其他免疫抑制剂",
+        "matchedDisease": "癌症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluorouracil",
+        "drugName": "氟尿嘧啶",
+        "category": "抗代谢药",
+        "matchedDisease": "乳腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "methotrexate (injection route, subcutaneous route)",
+        "drugName": "甲氨蝶呤（注射途径、皮下途径）",
+        "category": "",
+        "matchedDisease": "癌症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Aspirin",
+        "drugName": "阿司匹林",
+        "category": "非甾体抗炎药/抗血小板",
+        "matchedDisease": "结直肠癌的预防",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "前列腺癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Goserelin",
+        "drugName": "戈舍瑞林",
+        "category": "GnRH激动剂",
+        "matchedDisease": "乳腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Leuprolide",
+        "drugName": "亮丙瑞林",
+        "category": "GnRH激动剂",
+        "matchedDisease": "前列腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Triptorelin",
+        "drugName": "曲普瑞林",
+        "category": "GnRH激动剂",
+        "matchedDisease": "前列腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Flutamide",
+        "drugName": "氟他胺",
+        "category": "抗雄激素药",
+        "matchedDisease": "前列腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "青光眼",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "betaxolol",
+        "drugName": "倍他洛尔",
+        "category": "心脏选择性β受体阻滞剂",
+        "matchedDisease": "青光眼",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Brinzolamide",
+        "drugName": "布林佐胺",
+        "category": "碳酸酐酶抑制剂",
+        "matchedDisease": "青光眼",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pilocarpine",
+        "drugName": "毛果芸香碱",
+        "category": "胆碱能",
+        "matchedDisease": "青光眼",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Timolol",
+        "drugName": "噻吗洛尔",
+        "category": "β受体阻断剂",
+        "matchedDisease": "青光眼",
+        "score": 0.903,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "白内障",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "干眼症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Fluorometholone",
+        "drugName": "氟米龙",
+        "category": "皮质类固醇",
+        "matchedDisease": "dry eye",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "desloratadine (oral route)",
+        "drugName": "地氯雷他定（口服途径）",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 0.29,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "chlorpheniramine, phenylephrine, and phenyltoloxamine",
+        "drugName": "扑尔敏、去氧肾上腺素和苯托沙明",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 0.273,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Triprolidine and Pseudoephedrine Liquid",
+        "drugName": "曲普立啶伪麻黄碱液体",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 0.255,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "结膜炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cetirizine",
+        "drugName": "西替利嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "细菌性结膜炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "新生儿结膜炎的预防",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Mometasone",
+        "drugName": "莫米松",
+        "category": "外用/吸入皮质类固醇",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "过敏",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Mometasone",
+        "drugName": "莫米松",
+        "category": "外用/吸入皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clobetasol",
+        "drugName": "氯倍他索",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desoximetasone",
+        "drugName": "去氧米松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "过敏反应辅助治疗",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "过敏性鼻炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Olopatadine",
+        "drugName": "奥洛他定",
+        "category": "抗组胺药/肥大细胞稳定剂",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "fluticasone propionate",
+        "drugName": "丙酸氟替卡松",
+        "category": "鼻腔类固醇",
+        "matchedDisease": "非过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全数据未验证"
+      },
+      {
+        "englishName": "Mometasone",
+        "drugName": "莫米松",
+        "category": "外用/吸入皮质类固醇",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Loratadine",
+        "drugName": "氯雷他定",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "疼痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amitriptyline",
+        "drugName": "阿米替林",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Flurbiprofen",
+        "drugName": "氟比洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ketoprofen",
+        "drugName": "酮洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "慢性疼痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "celecoxib and tramadol hydrochloride",
+        "drugName": "塞来昔布和盐酸曲马多",
+        "category": "麻醉镇痛组合药",
+        "matchedDisease": "慢性疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "aspirin and oxycodone",
+        "drugName": "阿司匹林和羟考酮",
+        "category": "麻醉镇痛组合药",
+        "matchedDisease": "慢性疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "levorphanol (oral)",
+        "drugName": "左啡诺（口服）",
+        "category": "阿片类(麻醉镇痛药)",
+        "matchedDisease": "慢性疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "tramadol hydrochloride",
+        "drugName": "盐酸曲马多",
+        "category": "阿片类(麻醉镇痛药)",
+        "matchedDisease": "慢性疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "术后疼痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ketorolac",
+        "drugName": "酮咯酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "术后疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ropivacaine",
+        "drugName": "罗哌卡因",
+        "category": "局部麻醉药",
+        "matchedDisease": "术后疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "oliceridine",
+        "drugName": "奥利西里丁",
+        "category": "阿片类(麻醉镇痛药)",
+        "matchedDisease": "术后疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "恶心",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Lorazepam",
+        "drugName": "劳拉西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metoclopramide",
+        "drugName": "甲氧氯普胺",
+        "category": "多巴胺拮抗剂",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexamethasone",
+        "drugName": "地塞米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Meclizine",
+        "drugName": "氯苯甲嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "呕吐",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Dexamethasone",
+        "drugName": "地塞米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lorazepam",
+        "drugName": "劳拉西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metoclopramide",
+        "drugName": "甲氧氯普胺",
+        "category": "多巴胺拮抗剂",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Meclizine",
+        "drugName": "氯苯甲嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "恶心",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "眩晕",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Meclizine",
+        "drugName": "氯苯甲嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prochlorperazine",
+        "drugName": "丙氯拉嗪",
+        "category": "典型的抗精神病/止吐药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "diphenhydramine hydrochloride",
+        "drugName": "盐酸苯海拉明",
+        "category": "抗胆碱类止吐药, 抗胆碱类抗帕金森药, 抗组胺药, 其他抗焦虑药, 镇静剂和催眠药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "dimenhydrinate",
+        "drugName": "茶苯海明",
+        "category": "抗胆碱类止吐药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "晕眩",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Meclizine",
+        "drugName": "氯苯甲嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Prochlorperazine",
+        "drugName": "丙氯拉嗪",
+        "category": "典型的抗精神病/止吐药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "diphenhydramine hydrochloride",
+        "drugName": "盐酸苯海拉明",
+        "category": "抗胆碱类止吐药, 抗胆碱类抗帕金森药, 抗组胺药, 其他抗焦虑药, 镇静剂和催眠药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "dimenhydrinate",
+        "drugName": "茶苯海明",
+        "category": "抗胆碱类止吐药",
+        "matchedDisease": "眩晕",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "水肿",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Enalapril-Hydrochlorothiazide",
+        "drugName": "依那普利-氢氯噻嗪",
+        "category": "ACE抑制剂+噻嗪利尿剂",
+        "matchedDisease": "水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Eplerenone",
+        "drugName": "依普利农",
+        "category": "醛固酮拮抗剂",
+        "matchedDisease": "水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Furosemide",
+        "drugName": "呋塞米",
+        "category": "袢利尿剂",
+        "matchedDisease": "水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Hydrochlorothiazide",
+        "drugName": "氢氯噻嗪",
+        "category": "噻嗪类利尿剂",
+        "matchedDisease": "水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "炎症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Prednisolone",
+        "drugName": "泼尼松龙",
+        "category": "皮质类固醇",
+        "matchedDisease": "炎症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "cortisone",
+        "drugName": "可的松",
+        "category": "糖皮质激素",
+        "matchedDisease": "炎症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Aspirin Enteric-Coated and Buffered Tablets",
+        "drugName": "阿司匹林肠溶片和缓冲片",
+        "category": "血小板聚集抑制剂, 水杨酸类",
+        "matchedDisease": "炎症",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "betamethasone (injection)",
+        "drugName": "倍他米松（注射剂）",
+        "category": "糖皮质激素",
+        "matchedDisease": "炎症",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "脱发",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Fluocinolone",
+        "drugName": "氟轻松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "斑秃",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Minoxidil",
+        "drugName": "米诺地尔",
+        "category": "血管扩张/促毛发生长剂",
+        "matchedDisease": "脱发",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "minoxidil (topical route)",
+        "drugName": "米诺地尔（局部途径）",
+        "category": "其他外用药",
+        "matchedDisease": "女性型脱发",
+        "score": 0.876,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Finasteride",
+        "drugName": "非那雄胺",
+        "category": "5α还原酶抑制剂",
+        "matchedDisease": "脱发",
+        "score": 0.744,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "多囊卵巢综合征",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Metformin",
+        "drugName": "二甲双胍",
+        "category": "双胍类",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Canagliflozin",
+        "drugName": "卡格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Spironolactone",
+        "drugName": "螺内酯",
+        "category": "醛固酮拮抗剂",
+        "matchedDisease": "多囊卵巢综合征",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clomiphene",
+        "drugName": "克罗米芬",
+        "category": "选择性雌激素受体调节剂 (SERM)",
+        "matchedDisease": "多囊卵巢综合征的诱导排卵",
+        "score": 1.0,
+        "safetyType": "相对禁忌"
+      }
+    ]
+  },
+  {
+    "disease_cn": "不孕",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clomiphene",
+        "drugName": "克罗米芬",
+        "category": "选择性雌激素受体调节剂 (SERM)",
+        "matchedDisease": "不孕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Canagliflozin",
+        "drugName": "卡格列净",
+        "category": "SGLT2抑制剂",
+        "matchedDisease": "糖尿病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Letrozole",
+        "drugName": "来曲唑",
+        "category": "芳香酶抑制剂",
+        "matchedDisease": "不孕",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "human chorionic gonadotropin (HCG) (injectable)",
+        "drugName": "人绒毛膜促性腺激素 (HCG)（注射用）",
+        "category": "促性腺激素",
+        "matchedDisease": "不孕",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "勃起功能障碍",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Sildenafil",
+        "drugName": "西地那非",
+        "category": "PDE5抑制剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tadalafil",
+        "drugName": "他达拉非",
+        "category": "PDE5抑制剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Papaverine",
+        "drugName": "罂粟碱",
+        "category": "血管扩张剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "avanafil",
+        "drugName": "阿伐那非",
+        "category": "勃起功能障碍药",
+        "matchedDisease": "勃起功能障碍",
+        "score": 0.918,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "阳痿",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Sildenafil",
+        "drugName": "西地那非",
+        "category": "PDE5抑制剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tadalafil",
+        "drugName": "他达拉非",
+        "category": "PDE5抑制剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Papaverine",
+        "drugName": "罂粟碱",
+        "category": "血管扩张剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Vardenafil",
+        "drugName": "伐地那非",
+        "category": "PDE5抑制剂",
+        "matchedDisease": "勃起功能障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "痛经",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛经",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ketoprofen",
+        "drugName": "酮洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛经",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Naproxen",
+        "drugName": "萘普生",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛经",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "月经不调",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛经",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ibuprofen",
+        "drugName": "布洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛经",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metformin",
+        "drugName": "二甲双胍",
+        "category": "双胍类",
+        "matchedDisease": "多囊卵巢综合征",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Naproxen",
+        "drugName": "萘普生",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "痛经",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "更年期综合征",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Medroxyprogesterone",
+        "drugName": "甲羟孕酮",
+        "category": "孕激素",
+        "matchedDisease": "menopause symptoms",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Estradiol",
+        "drugName": "雌二醇",
+        "category": "雌激素",
+        "matchedDisease": "menopause symptoms",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Progesterone",
+        "drugName": "黄体酮",
+        "category": "孕激素",
+        "matchedDisease": "menopause symptoms",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Conjugated Estrogens",
+        "drugName": "结合雌激素",
+        "category": "雌激素",
+        "matchedDisease": "menopause symptoms",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "戒烟",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Bupropion",
+        "drugName": "安非他酮",
+        "category": "非典型抗抑郁药",
+        "matchedDisease": "戒烟",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Varenicline",
+        "drugName": "伐尼克兰",
+        "category": "烟碱乙酰胆碱受体部分激动剂",
+        "matchedDisease": "戒烟",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "bupropion (oral route)",
+        "drugName": "安非他酮（口服途径）",
+        "category": "其他抗抑郁药",
+        "matchedDisease": "戒烟",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "bupropion hydrochloride",
+        "drugName": "盐酸安非他酮",
+        "category": "其他抗抑郁药",
+        "matchedDisease": "戒烟",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "酗酒",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clorazepate",
+        "drugName": "氯氮平",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxazepam",
+        "drugName": "奥沙西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Chlordiazepoxide",
+        "drugName": "利眠宁",
+        "category": "苯二氮卓类",
+        "matchedDisease": "酒精戒断",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Phenobarbital",
+        "drugName": "苯巴比妥",
+        "category": "巴比妥类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "中毒",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Succimer",
+        "drugName": "琥珀酸",
+        "category": "重金属螯合剂",
+        "matchedDisease": "heavy metal poisoning",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefotaxime",
+        "drugName": "头孢噻肟",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefoxitin",
+        "drugName": "头孢西丁",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ceftaroline",
+        "drugName": "头孢洛林",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "中风",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Aspirin",
+        "drugName": "阿司匹林",
+        "category": "非甾体抗炎药/抗血小板",
+        "matchedDisease": "prevention of cerebrovascular accident",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amlodipine",
+        "drugName": "氨氯地平",
+        "category": "二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "prevention of cerebrovascular accident",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ticagrelor",
+        "drugName": "替格瑞洛",
+        "category": "P2Y12抑制剂",
+        "matchedDisease": "中风",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clopidogrel",
+        "drugName": "氯吡格雷",
+        "category": "抗血小板药",
+        "matchedDisease": "最近中风",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "脑卒中",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "脑梗",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "脑梗死",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "脑出血",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "脑溢血",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "阑尾炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Famotidine",
+        "drugName": "法莫替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Omeprazole",
+        "drugName": "奥美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "扁桃体炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cefadroxil",
+        "drugName": "头孢羟氨苄",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "扁桃体炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefprozil",
+        "drugName": "头孢丙烯",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "扁桃体炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amoxicillin-Clavulanate",
+        "drugName": "阿莫西林克拉维酸",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefotaxime",
+        "drugName": "头孢噻肟",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "中耳炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ceftaroline",
+        "drugName": "头孢洛林",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefaclor",
+        "drugName": "头孢克洛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "中耳炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefdinir",
+        "drugName": "头孢地尼",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "中耳炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefixime",
+        "drugName": "头孢克肟",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "中耳炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "咽炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "喉咙痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefaclor",
+        "drugName": "头孢克洛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "pharyngitis due to streptococcus pyogenes",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Loracarbef",
+        "drugName": "劳拉卡头孢",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "咽炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ceftibuten",
+        "drugName": "头孢布烯",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "咽炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "心肌病",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amlodipine-Valsartan",
+        "drugName": "氨氯地平缬沙坦",
+        "category": "钙通道阻滞剂+ARB",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bumetanide",
+        "drugName": "布美他尼",
+        "category": "袢利尿剂",
+        "matchedDisease": "心力衰竭",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Chlorthalidone",
+        "drugName": "氯噻酮",
+        "category": "噻嗪类利尿剂",
+        "matchedDisease": "与心力衰竭相关的水肿",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肩周炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Carisoprodol",
+        "drugName": "卡立普多",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cyclobenzaprine",
+        "drugName": "环苯扎林",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "坐骨神经痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Carisoprodol",
+        "drugName": "卡立普多",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amitriptyline",
+        "drugName": "阿米替林",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Gabapentin",
+        "drugName": "加巴喷丁",
+        "category": "抗惊厥药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metaxalone",
+        "drugName": "美他沙酮",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "接触性皮炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Desoximetasone",
+        "drugName": "去氧米松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Betamethasone",
+        "drugName": "倍他米松",
+        "category": "皮质类固醇",
+        "matchedDisease": "特应性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desonide",
+        "drugName": "地奈德",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "接触性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "fluocinolone acetonide",
+        "drugName": "氟轻松",
+        "category": "外用类固醇",
+        "matchedDisease": "接触性皮炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "甲状腺癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Sorafenib",
+        "drugName": "索拉非尼",
+        "category": "激酶抑制剂",
+        "matchedDisease": "differentiated thyroid cancer",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Vandetanib",
+        "drugName": "凡德他尼",
+        "category": "激酶抑制剂",
+        "matchedDisease": "甲状腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "levothyroxine (oral/injection)",
+        "drugName": "左旋甲状腺素（口服/注射）",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺癌（tsh 抑制）",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "levothyroxine sodium",
+        "drugName": "左旋甲状腺素钠",
+        "category": "甲状腺药物",
+        "matchedDisease": "甲状腺癌（tsh 抑制）",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胰腺炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lansoprazole",
+        "drugName": "兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magnesium Hydroxide",
+        "drugName": "氢氧化镁",
+        "category": "抗酸药/泻药",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "腮腺炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Linezolid",
+        "drugName": "利奈唑胺",
+        "category": "恶唑烷酮类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.24,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amoxicillin-Clavulanate",
+        "drugName": "阿莫西林克拉维酸",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefoxitin",
+        "drugName": "头孢西丁",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ceftibuten",
+        "drugName": "头孢布烯",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 0.15,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "附件炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cefoxitin",
+        "drugName": "头孢西丁",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ofloxacin",
+        "drugName": "氧氟沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ampicillin-Sulbactam",
+        "drugName": "氨苄西林舒巴坦",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clindamycin",
+        "drugName": "克林霉素",
+        "category": "林可酰胺类抗生素",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "盆腔炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ofloxacin",
+        "drugName": "氧氟沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefoxitin",
+        "drugName": "头孢西丁",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clindamycin",
+        "drugName": "克林霉素",
+        "category": "林可酰胺类抗生素",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "clindamycin (intramuscular route, intravenous route)",
+        "drugName": "克林霉素（肌内途径、静脉途径）",
+        "category": "林可霉素衍生物",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "宫颈炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cefoxitin",
+        "drugName": "头孢西丁",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ofloxacin",
+        "drugName": "氧氟沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ampicillin-Sulbactam",
+        "drugName": "氨苄西林舒巴坦",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clindamycin",
+        "drugName": "克林霉素",
+        "category": "林可酰胺类抗生素",
+        "matchedDisease": "盆腔炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "阴道炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Butoconazole",
+        "drugName": "布康唑",
+        "category": "抗真菌药",
+        "matchedDisease": "外阴阴道念珠菌病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Metronidazole",
+        "drugName": "甲硝唑",
+        "category": "硝基咪唑类抗生素",
+        "matchedDisease": "细菌性阴道病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Clindamycin",
+        "drugName": "克林霉素",
+        "category": "林可酰胺类抗生素",
+        "matchedDisease": "细菌性阴道病（局部）",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tinidazole",
+        "drugName": "替硝唑",
+        "category": "硝基咪唑类抗生素",
+        "matchedDisease": "细菌性阴道病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "前列腺炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Levofloxacin",
+        "drugName": "左氧氟沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "前列腺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "levofloxacin (oral)",
+        "drugName": "左氧氟沙星（口服）",
+        "category": "喹诺酮类",
+        "matchedDisease": "前列腺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "ofloxacin (oral)",
+        "drugName": "氧氟沙星（口服）",
+        "category": "喹诺酮类",
+        "matchedDisease": "前列腺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "ciprofloxacin (oral)",
+        "drugName": "环丙沙星（口服）",
+        "category": "喹诺酮类",
+        "matchedDisease": "慢性细菌性前列腺炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胃酸反流",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magaldrate",
+        "drugName": "玛加尔德",
+        "category": "抗酸药",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magnesium Hydroxide",
+        "drugName": "氢氧化镁",
+        "category": "抗酸药/泻药",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pantoprazole",
+        "drugName": "泮托拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "反酸",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Famotidine",
+        "drugName": "法莫替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Magnesium Hydroxide",
+        "drugName": "氢氧化镁",
+        "category": "抗酸药/泻药",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Nizatidine",
+        "drugName": "尼扎替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rabeprazole",
+        "drugName": "雷贝拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "反酸",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "鼻窦炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amoxicillin",
+        "drugName": "阿莫西林",
+        "category": "青霉素类抗生素",
+        "matchedDisease": "急性细菌性鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefdinir",
+        "drugName": "头孢地尼",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefpodoxime",
+        "drugName": "头孢泊肟",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefuroxime",
+        "drugName": "头孢呋辛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "细菌性鼻窦炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amoxicillin",
+        "drugName": "阿莫西林",
+        "category": "青霉素类抗生素",
+        "matchedDisease": "急性细菌性鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amoxicillin-Clavulanate",
+        "drugName": "阿莫西林克拉维酸",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "急性细菌性鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefaclor",
+        "drugName": "头孢克洛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "鼻窦炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "胰腺癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Paclitaxel",
+        "drugName": "紫杉醇",
+        "category": "抗微管药",
+        "matchedDisease": "adenocarcinoma of pancreas",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 0.15,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluorouracil",
+        "drugName": "氟尿嘧啶",
+        "category": "抗代谢药",
+        "matchedDisease": "adenocarcinoma of pancreas",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Gemcitabine",
+        "drugName": "吉西他滨",
+        "category": "抗代谢药",
+        "matchedDisease": "adenocarcinoma of pancreas",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "腺癌",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Paclitaxel",
+        "drugName": "紫杉醇",
+        "category": "抗微管药",
+        "matchedDisease": "adenocarcinoma of pancreas",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluorouracil",
+        "drugName": "氟尿嘧啶",
+        "category": "抗代谢药",
+        "matchedDisease": "adenocarcinoma of pancreas",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Gemcitabine",
+        "drugName": "吉西他滨",
+        "category": "抗代谢药",
+        "matchedDisease": "adenocarcinoma of pancreas",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Docetaxel",
+        "drugName": "多西紫杉醇",
+        "category": "抗微管药",
+        "matchedDisease": "胃腺癌",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "焦虑不安",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Clonazepam",
+        "drugName": "氯硝西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lamotrigine",
+        "drugName": "拉莫三嗪",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diazepam",
+        "drugName": "地西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Doxepin",
+        "drugName": "多虑平",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "焦虑",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "细菌性结膜炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "细菌性结膜炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Bacitracin",
+        "drugName": "杆菌肽",
+        "category": "多肽类抗生素",
+        "matchedDisease": "结膜炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "细菌性结膜炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "新生儿结膜炎的预防",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "细菌性皮肤感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cephalexin",
+        "drugName": "头孢氨苄",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Moxifloxacin",
+        "drugName": "莫西沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Piperacillin-Tazobactam",
+        "drugName": "哌拉西林-他唑巴坦",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "细菌性尿路感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Fosfomycin",
+        "drugName": "磷霉素",
+        "category": "抗生素",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetohydroxamic acid",
+        "drugName": "乙酰异羟肟酸",
+        "category": "其他泌尿生殖道药",
+        "matchedDisease": "bacterial urinary tract infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amikacin",
+        "drugName": "阿米卡星",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Phenazopyridine",
+        "drugName": "非那吡啶",
+        "category": "泌尿镇痛药",
+        "matchedDisease": "尿路感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "双相情感障碍",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Lamotrigine",
+        "drugName": "拉莫三嗪",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lithium",
+        "drugName": "锂",
+        "category": "抗躁狂药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Topiramate",
+        "drugName": "托吡酯",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Carbamazepine",
+        "drugName": "卡马西平",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "躁郁症",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Lamotrigine",
+        "drugName": "拉莫三嗪",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lithium",
+        "drugName": "锂",
+        "category": "抗躁狂药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Zonisamide",
+        "drugName": "唑尼沙胺",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Topiramate",
+        "drugName": "托吡酯",
+        "category": "抗惊厥药",
+        "matchedDisease": "双相情感障碍",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "憩室炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amikacin",
+        "drugName": "阿米卡星",
+        "category": "氨基糖苷类抗生素",
+        "matchedDisease": "diverticulitis of gastrointestinal tract",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ciprofloxacin",
+        "drugName": "环丙沙星",
+        "category": "氟喹诺酮类",
+        "matchedDisease": "腹泻",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tigecycline",
+        "drugName": "替加环素",
+        "category": "甘氨环素类抗生素",
+        "matchedDisease": "diverticulitis of gastrointestinal tract",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ampicillin-Sulbactam",
+        "drugName": "氨苄西林舒巴坦",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "diverticulitis of gastrointestinal tract",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "子宫内膜异位症",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "纤维肌痛",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "胀气",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cimetidine",
+        "drugName": "西咪替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Aluminum Hydroxide, Magnesium Hydroxide, and Simethicone Chewable Tablets",
+        "drugName": "氢氧化铝、氢氧化镁和西甲硅油咀嚼片",
+        "category": "抗酸药",
+        "matchedDisease": "胀气",
+        "score": 0.923,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Dexlansoprazole",
+        "drugName": "右兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "痔疮",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Hydrocortisone",
+        "drugName": "氢化可的松",
+        "category": "皮质类固醇",
+        "matchedDisease": "痔疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Esomeprazole",
+        "drugName": "埃索美拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Famotidine",
+        "drugName": "法莫替丁",
+        "category": "H2受体阻断剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lansoprazole",
+        "drugName": "兰索拉唑",
+        "category": "质子泵抑制剂",
+        "matchedDisease": "胃痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "HIV",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Nevirapine",
+        "drugName": "奈韦拉平",
+        "category": "NNRTI(非核苷逆转录酶抑制剂)",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Enfuvirtide",
+        "drugName": "恩夫韦肽",
+        "category": "融合抑制剂",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Rilpivirine",
+        "drugName": "利匹韦林",
+        "category": "NNRTI(非核苷逆转录酶抑制剂)",
+        "matchedDisease": "hiv",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Efavirenz",
+        "drugName": "依非韦伦",
+        "category": "NNRTI(非核苷逆转录酶抑制剂)",
+        "matchedDisease": "hiv",
+        "score": 0.976,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "关节疼痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ketoprofen",
+        "drugName": "酮洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "骨关节炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Mefenamic Acid",
+        "drugName": "甲灭酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "神经痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Carisoprodol",
+        "drugName": "卡立普多",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amitriptyline",
+        "drugName": "阿米替林",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desipramine",
+        "drugName": "地昔帕明",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Imipramine",
+        "drugName": "丙咪嗪",
+        "category": "三环类抗抑郁药",
+        "matchedDisease": "nerve pain",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "链球菌咽炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "喉咙痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "喉咙痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefaclor",
+        "drugName": "头孢克洛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "pharyngitis due to streptococcus pyogenes",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefadroxil",
+        "drugName": "头孢羟氨苄",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "pharyngitis due to streptococcus pyogenes",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "预防中风",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amlodipine",
+        "drugName": "氨氯地平",
+        "category": "二氢吡啶类钙通道阻滞剂",
+        "matchedDisease": "prevention of cerebrovascular accident",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Pravastatin",
+        "drugName": "普伐他汀",
+        "category": "他汀类",
+        "matchedDisease": "prevention of cerebrovascular accident",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Amlodipine-Valsartan",
+        "drugName": "氨氯地平缬沙坦",
+        "category": "钙通道阻滞剂+ARB",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benazepril",
+        "drugName": "贝那普利",
+        "category": "ACE抑制剂",
+        "matchedDisease": "高血压",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "玫瑰痤疮",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Doxycycline",
+        "drugName": "强力霉素",
+        "category": "四环素类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tazarotene",
+        "drugName": "他扎罗汀",
+        "category": "维A酸类",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tetracycline",
+        "drugName": "四环素",
+        "category": "四环素类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "酒渣鼻",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Erythromycin",
+        "drugName": "红霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Spironolactone",
+        "drugName": "螺内酯",
+        "category": "醛固酮拮抗剂",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tazarotene",
+        "drugName": "他扎罗汀",
+        "category": "维A酸类",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tetracycline",
+        "drugName": "四环素",
+        "category": "四环素类抗生素",
+        "matchedDisease": "痤疮",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "癫痫发作",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Ethosuximide",
+        "drugName": "乙舒酰亚胺",
+        "category": "抗惊厥药",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Gabapentin",
+        "drugName": "加巴喷丁",
+        "category": "抗惊厥药",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Lorazepam",
+        "drugName": "劳拉西泮",
+        "category": "苯二氮卓类",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Perampanel",
+        "drugName": "吡仑帕奈",
+        "category": "AMPA受体拮抗剂",
+        "matchedDisease": "癫痫",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "嗓子疼",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amoxicillin",
+        "drugName": "阿莫西林",
+        "category": "青霉素类抗生素",
+        "matchedDisease": "喉咙痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Azithromycin",
+        "drugName": "阿奇霉素",
+        "category": "大环内酯类抗生素",
+        "matchedDisease": "喉咙痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefaclor",
+        "drugName": "头孢克洛",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "pharyngitis due to streptococcus pyogenes",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefdinir",
+        "drugName": "头孢地尼",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "pharyngitis due to streptococcus pyogenes",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "念珠菌性阴道炎",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "鼻塞",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cetirizine",
+        "drugName": "西替利嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Loratadine",
+        "drugName": "氯雷他定",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desloratadine",
+        "drugName": "地氯雷他定",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxymetazoline",
+        "drugName": "羟甲唑啉",
+        "category": "α激动剂",
+        "matchedDisease": "鼻塞",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "充血",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Cetirizine",
+        "drugName": "西替利嗪",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Loratadine",
+        "drugName": "氯雷他定",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desloratadine",
+        "drugName": "地氯雷他定",
+        "category": "抗组胺药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Oxymetazoline",
+        "drugName": "羟甲唑啉",
+        "category": "α激动剂",
+        "matchedDisease": "鼻塞",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "咳嗽",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "tezepelumab",
+        "drugName": "特泽佩鲁布",
+        "category": "选择性免疫抑制剂",
+        "matchedDisease": "严重哮喘",
+        "score": 0.28,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "brompheniramine and pseudoephedrine",
+        "drugName": "溴苯那敏和伪麻黄碱",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "普通感冒伴有鼻塞",
+        "score": 0.204,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Benzonatate",
+        "drugName": "苯佐那酯",
+        "category": "镇咳药",
+        "matchedDisease": "咳嗽",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Hydrocodone",
+        "drugName": "氢可酮",
+        "category": "阿片激动剂",
+        "matchedDisease": "咳嗽",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "打喷嚏",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "codeine, phenylephrine, and triprolidine",
+        "drugName": "可待因、去氧肾上腺素和曲普立啶",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Acetaminophen, Chlorpheniramine, and Phenylephrine Tablets",
+        "drugName": "对乙酰氨基酚、扑尔敏和去氧肾上腺素片",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Chlorpheniramine, Pseudoephedrine, and Codeine Liquid",
+        "drugName": "扑尔敏、伪麻黄碱和可待因液体",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "acetaminophen, chlorpheniramine, and phenylephrine",
+        "drugName": "对乙酰氨基酚、扑尔敏和去氧肾上腺素",
+        "category": "上呼吸道组合药",
+        "matchedDisease": "过敏性鼻炎",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "流鼻涕",
+    "count": 0,
+    "recommendations": []
+  },
+  {
+    "disease_cn": "急性疼痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "acetaminophen",
+        "drugName": "对乙酰氨基酚",
+        "category": "",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Buprenorphine",
+        "drugName": "丁丙诺啡",
+        "category": "阿片部分激动剂",
+        "matchedDisease": "慢性疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Flurbiprofen",
+        "drugName": "氟比洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "皮肤软组织感染",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Amoxicillin-Clavulanate",
+        "drugName": "阿莫西林克拉维酸",
+        "category": "青霉素+β-内酰胺酶抑制剂",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefazolin",
+        "drugName": "头孢唑啉",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefepime",
+        "drugName": "头孢吡肟",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "bacterial skin infection",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Cefoxitin",
+        "drugName": "头孢西丁",
+        "category": "头孢菌素类抗生素",
+        "matchedDisease": "细菌感染",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "银屑病关节炎",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Desonide",
+        "drugName": "地奈德",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Etodolac",
+        "drugName": "依托度酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Fluocinolone",
+        "drugName": "氟轻松",
+        "category": "外用皮质类固醇",
+        "matchedDisease": "银屑病",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  },
+  {
+    "disease_cn": "肌肉酸痛",
+    "count": 4,
+    "recommendations": [
+      {
+        "englishName": "Metaxalone",
+        "drugName": "美他沙酮",
+        "category": "骨骼肌松弛剂",
+        "matchedDisease": "背痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Tapentadol",
+        "drugName": "他喷他多",
+        "category": "阿片激动剂",
+        "matchedDisease": "慢性疼痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Diclofenac",
+        "drugName": "双氯芬酸",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      },
+      {
+        "englishName": "Ketoprofen",
+        "drugName": "酮洛芬",
+        "category": "非甾体抗炎药",
+        "matchedDisease": "关节痛",
+        "score": 1.0,
+        "safetyType": "安全"
+      }
+    ]
+  }
+]

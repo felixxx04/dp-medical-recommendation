@@ -1,0 +1,46 @@
+[
+  {
+    "disease": "焦虑症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "焦虑",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "失眠",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "偏头痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "头痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "癫痫",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "老年痴呆",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "精神分裂症",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "惊恐障碍",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "分簇性头痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "社交焦虑",
+    "rating": "APPROPRIATE"
+  }
+]

@@ -1,0 +1,207 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e151] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e152]: 新对话
+          - button [ref=e153]:
+            - img [ref=e157]
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e100]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e102]: HIV药物禁忌症生成
+      - generic [ref=e103]:
+        - generic [ref=e104]: 昨天
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e108]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e110]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e114]: 药物适应症列表生成
+      - generic [ref=e115]:
+        - generic [ref=e116]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e118]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e120]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e122]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e124]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e126]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e128]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e130]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e132]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e134]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e136]
+      - generic [ref=e139]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e161]:
+      - generic [ref=e163]:
+        - generic [ref=e164] [cursor=pointer]: 新对话
+        - generic [ref=e165]:
+          - img [ref=e167]
+          - generic [ref=e169]: 专家模式
+      - button [ref=e170] [cursor=pointer]:
+        - img [ref=e173]
+    - generic [ref=e176]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - generic [ref=e181]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: dexamethasone (injection) | 类别: Glucocorticoids | 适应症: inflammatory conditions|allergic reactions|asthma|adrenal insufficiency|rheumatoid arthritis|systemic lupus erythematosus|multiple sclerosis exacerbation|cerebral edema|severe allergic reactions|nausea and vomiting from chemotherapy|covid-19 (severe) | 妊娠分级: C dyphylline and guaifenesin | 类别: Antiasthmatic combinations | 适应症: asthma|bronchitis|expectorant | 妊娠分级: C Ipratropium Inhalation Aerosol | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease|asthma | 妊娠分级: B reslizumab | 类别: Interleukin inhibitors | 适应症: severe eosinophilic asthma | 妊娠分级: N salbutamol | 类别: Adrenergic bronchodilators | 适应症: asthma|bronchospasm|chronic obstructive pulmonary disease | 妊娠分级: N aripiprazole (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|irritability associated with autistic disorder|tourette's syndrome|major depressive disorder (adjunct) | 妊娠分级: C cariprazine | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: N lumateperone | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar depression | 妊娠分级: N olanzapine and samidorphan | 类别: Psychotherapeutic combinations | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: N quetiapine | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|adjunctive treatment for major depressive disorder|generalized anxiety disorder|insomnia | 妊娠分级: C divalproex sodium | 类别: Fatty acid derivative anticonvulsants | 适应症: seizures|bipolar disorder|migraine prophylaxis | 妊娠分级: D olanzapine (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|major depressive disorder (adjunct) | 妊娠分级: C asenapine (sublingual) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: C carbamazepine (oral) | 类别: Dibenzazepine anticonvulsants | 适应症: seizures|trigeminal neuralgia|bipolar disorder | 妊娠分级: D ziprasidone (oral/injection) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|agitation | 妊娠分级: C fluoxetine and olanzapine | 类别: Psychotherapeutic combinations | 适应症: bipolar depression|treatment-resistant depression | 妊娠分级: C valproic acid (oral/injection) | 类别: Fatty acid derivative anticonvulsants | 适应症: seizures|bipolar disorder|migraine prophylaxis | 妊娠分级: D levetiracetam (oral/injection) | 类别: Pyrrolidine anticonvulsants | 适应症: partial onset seizures|generalized tonic-clonic seizures|myoclonic seizures | 妊娠分级: C lamotrigine (oral route) | 类别: Triazine anticonvulsants | 适应症: seizures|bipolar i disorder | 妊娠分级: C paliperidone (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|schizoaffective disorder | 妊娠分级: C risperidone (injection) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: C aripiprazole (oral with sensor) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|adjunctive treatment for major depressive disorder|irritability associated with autistic disorder|tourette syndrome | 妊娠分级: C olanzapine (intramuscular route) | 类别: Atypical antipsychotics | 适应症: agitation associated with schizophrenia|agitation associated with bipolar i disorder | 妊娠分级: C guaifenesin | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C azithromycin (oral/injection) | 类别: Macrolides | 适应症: community-acquired pneumonia|pharyngitis|skin and soft tissue infection|urethritis|mycobacterium avium complex infection|trachoma|acute otitis media | 妊娠分级: B levofloxacin (oral) | 类别: Quinolones | 适应症: community-acquired pneumonia|sinusitis|urinary tract infection|prostatitis|skin and soft tissue infection|acute exacerbation of chronic bronchitis|plague | 妊娠分级: C amoxicillin and clavulanate potassium | 类别: Beta-lactamase inhibitors | 适应症: otitis media|sinusitis|community-acquired pneumonia|urinary tract infection|skin and soft tissue infection | 妊娠分级: B ciprofloxacin (oral) | 类别: Quinolones | 适应症: urinary tract infection|infectious diarrhea|bone and joint infection|anthrax|typhoid fever|chronic bacterial prostatitis | 妊娠分级: C cefuroxime (oral/injection) | 类别: Second generation cephalosporins | 适应症: pharyngitis|otitis media|sinusitis|community-acquired pneumonia|skin and soft tissue infection|urinary tract infection|lyme disease | 妊娠分级: B moxifloxacin (oral/injection) | 类别: Quinolones | 适应症: community-acquired pneumonia|sinusitis|acute exacerbation of chronic bronchitis|skin and soft tissue infection|intra-abdominal infection|plague | 妊娠分级: C erythromycin (oral/injection) | 类别: Macrolides | 适应症: respiratory tract infection|skin and soft tissue infection|chlamydia infection|diphtheria|pertussis|legionnaires' disease | 妊娠分级: B ceftriaxone (injection) | 类别: Third generation cephalosporins | 适应症: meningitis|community-acquired pneumonia|skin and soft tissue infection|urinary tract infection|gonorrhea|pelvic inflammatory disease|sepsis | 妊娠分级: B amoxicillin (oral route) | 类别: Aminopenicillins | 适应症: pharyngitis|sinusitis|community-acquired pneumonia|urinary tract infection|acute otitis media | 妊娠分级: B beclomethasone inhalation | 类别: Inhaled corticosteroids | 适应症: asthma | 妊娠分级: C ciprofloxacin (injection) | 类别: Quinolones | 适应症: serious bacterial infection|sepsis|lower respiratory tract infection|complicated urinary tract infection|bone and joint infection | 妊娠分级: C amoxicillin and clavulanate (oral route) | 类别: Beta-lactamase inhibitors | 适应症: otitis media|sinusitis|community-acquired pneumonia|urinary tract infection|skin and soft tissue infection | 妊娠分级: B erythromycin (oral) | 类别: Macrolides | 适应症: respiratory tract infection|skin and soft tissue infection|chlamydia infection|diphtheria|pertussis | 妊娠分级: B guaifenesin (oral route) | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C ampicillin (oral) | 类别: Aminopenicillins | 适应症: urinary tract infection|meningitis|respiratory tract infection|salmonellosis | 妊娠分级: B cough and cold combinations (oral route) | 类别: Expectorants | 适应症: cough|nasal congestion|sinus pressure | 妊娠分级: C erythromycin (oral route) | 类别: Macrolides | 适应症: respiratory tract infection|skin and soft tissue infection|chlamydia infection|diphtheria|pertussis | 妊娠分级: B erythromycin (intravenous route) | 类别: Macrolides | 适应症: severe bacterial infection|legionnaires' disease | 妊娠分级: B ofloxacin (oral) | 类别: Quinolones | 适应症: urinary tract infection|prostatitis|acute exacerbation of chronic bronchitis | 妊娠分级: C gemifloxacin | 类别: Quinolones | 适应症: community-acquired pneumonia|acute exacerbation of chronic bronchitis | 妊娠分级: C Guaifenesin Liquid | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C Guaifenesin Tablets | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C Guaifenesin Granules | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C cefuroxime (injection route) | 类别: Second generation cephalosporins | 适应症: serious bacterial infection|sepsis|meningitis | 妊娠分级: B moxifloxacin (intravenous route) | 类别: Quinolones | 适应症: serious bacterial infection|community-acquired pneumonia|complicated skin and skin structure infection|plague | 妊娠分级: C imipenem and cilastatin | 类别: Carbapenems | 适应症: serious bacterial infection|intra-abdominal infection|lower respiratory tract infection|complicated urinary tract infection|sepsis | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e184]:
+            - button [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+            - button [ref=e190] [cursor=pointer]:
+              - img [ref=e193]
+        - generic [ref=e197]:
+          - generic [ref=e199] [cursor=pointer]:
+            - img [ref=e201]
+            - generic [ref=e204]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e206]
+          - generic [ref=e212]:
+            - paragraph [ref=e213]: 我们被要求输出JSON，列出每种药物的禁忌症。需要仔细根据药物类别、适应症等推断。注意区分绝对和相对禁忌症，分类到disease, allergy_type, physiological_condition, drug_class。要具体且临床相关。
+            - paragraph [ref=e214]: 下面逐个分析：
+            - list [ref=e215]:
+              - listitem [ref=e216]:
+                - paragraph [ref=e217]:
+                  - text: dexamethasone (injection) | Glucocorticoids
+                  - text: 适应症：炎症、过敏、哮喘、肾上腺功能不全、RA、SLE、MS恶化、脑水肿、严重过敏反应、化疗恶心呕吐、重症COVID-19。妊娠C。
+                  - text: 禁忌症：
+            - list [ref=e218]:
+              - listitem [ref=e219]:
+                - paragraph [ref=e220]: 全身真菌感染：absolute, disease, 糖皮质激素免疫抑制。
+              - listitem [ref=e221]:
+                - paragraph [ref=e222]: 对地塞米松过敏：absolute, allergy_type.
+              - listitem [ref=e223]:
+                - paragraph [ref=e224]: 近期使用活疫苗或减毒活疫苗：relative, drug_class (immunosuppressants) 增加感染风险。
+              - listitem [ref=e225]:
+                - paragraph [ref=e226]: 未控制的严重高血压、糖尿病、消化性溃疡等相对禁忌，但糖皮质激素类可能加重。可列为相对禁忌。
+              - listitem [ref=e227]:
+                - paragraph [ref=e228]: 皮质类固醇可致精神症状，严重精神病可能相对禁忌。
+              - listitem [ref=e229]:
+                - paragraph [ref=e230]: 妊娠早期可能相对禁忌（C级），但按需。通常标注妊娠期慎用。作为physiological_condition, relative.
+              - listitem [ref=e231]:
+                - paragraph [ref=e263]: 哺乳期：相对禁忌。
+              - listitem [ref=e264]:
+                - paragraph [ref=e265]: 可能引起肾上腺抑制，突然停药有风险，但不是禁忌症。通常列出：
+              - listitem [ref=e266]:
+                - paragraph [ref=e267]: "systemic fungal infections: absolute."
+              - listitem [ref=e268]:
+                - paragraph [ref=e269]: "known hypersensitivity to dexamethasone: absolute."
+              - listitem [ref=e270]:
+                - paragraph [ref=e271]: "cerebral malaria: relative? 不常用。"
+              - listitem [ref=e272]:
+                - paragraph [ref=e273]: "使用活疫苗: relative."
+              - listitem [ref=e274]:
+                - paragraph [ref=e275]: "结核病活动期未治: relative, 免疫抑制可能加重。"
+              - listitem [ref=e276]:
+                - paragraph [ref=e277]: "单纯疱疹性角膜炎: absolute? 通常眼部单纯疱疹是禁忌，因为可致角膜穿孔。"
+              - listitem [ref=e278]:
+                - paragraph [ref=e279]:
+                  - text: 此外，地塞米松磷酸盐注射剂含有防腐剂（某些制剂含苯甲醇），新生儿禁忌。
+                  - text: "所以列出：systemic fungal infection (absolute); hypersensitivity (absolute); live or attenuated vaccine administration (relative); active untreated tuberculosis (relative); ocular herpes simplex (absolute). 妊娠期: 相对, 哺乳期: 相对。可能还包括：severe psychiatric disorders (relative)."
+            - list [ref=e280]:
+              - listitem [ref=e281]:
+                - paragraph [ref=e282]:
+                  - text: dyphylline and guaifenesin | Antiasthmatic combinations
+                  - text: 成分：dyphylline (黄嘌呤衍生物，类似茶碱) + guaifenesin (祛痰剂)
+                  - text: 适应症：哮喘、支气管炎、祛痰。妊娠C。
+                  - text: 禁忌症：
+            - list [ref=e283]:
+              - listitem [ref=e284]:
+                - paragraph [ref=e285]: "dyphylline: 对黄嘌呤类过敏（包括茶碱、咖啡因等）absolute; 活动性消化性溃疡 relative; 严重高血压、心律失常等 relative. 还有喹诺酮类、西咪替丁等合用可增加dyphylline血药浓度，但不是绝对禁忌。可能引起癫痫发作的倾向。"
+              - listitem [ref=e286]:
+                - paragraph [ref=e287]:
+                  - text: "guaifenesin: 过敏 absolute; 持续性咳嗽原因不明 relative（可能掩盖疾病）。"
+                  - text: 组合药物禁忌症包括：对任何成分过敏 absolute; 活动性消化性溃疡 relative; 严重心脏病（如心律失常）relative; 癫痫未控制 relative。妊娠C相对禁忌。
+                  - text: 列出：hypersensitivity to dyphylline, guaifenesin, or other xanthines (absolute). 活动性胃十二指肠溃疡 (relative). 严重心律失常 (relative). 癫痫 (relative). 妊娠 (relative). 哺乳期 (relative). 同时使用MAOIs? 无。Xanthine类药物禁忌与某些药物合用，但不作为禁忌症类型，通常为precaution. 可加severe renal impairment? dyphylline经肾排泄，严重肾损相对禁忌。所以：severe renal impairment (relative). 还有severe hepatic impairment? dyphylline部分代谢，可列入相对。需要谨慎。输出简洁：列出主要成分。合并：对黄嘌呤衍生物或愈创甘油醚过敏；活动性消化性溃疡；严重肝或肾功能不全；心律失常；癫痫；妊娠及哺乳。
+            - list [ref=e288]:
+              - listitem [ref=e289]:
+                - paragraph [ref=e290]:
+                  - text: Ipratropium Inhalation Aerosol | Anticholinergic bronchodilators
+                  - text: 适应症：COPD, asthma. 妊娠B。
+                  - text: 禁忌症：对异丙托溴铵、阿托品或其衍生物过敏 absolute; 窄角型青光眼 relative（可致眼压升高）; 膀胱颈梗阻/尿潴留 relative; 前列腺增生导致尿潴留 risk. 妊娠B较安全，不列为禁忌。哺乳期相对。列出：hypersensitivity to ipratropium, atropine, or similar (absolute); narrow-angle glaucoma (relative); bladder neck obstruction/urinary retention (relative). 另有：不要用于急性支气管痉挛急救（非禁忌症而是疗效慢）。
+              - listitem [ref=e291]:
+                - paragraph [ref=e292]:
+                  - text: reslizumab | Interleukin inhibitors (抗IL-5单抗)
+                  - text: 适应症： severe eosinophilic asthma. 妊娠N，没有分级。
+                  - text: 禁忌症：过敏 absolute。可能还包括活动性寄生虫感染（蠕虫），因为IL-5参与抗寄生虫免疫，相对禁忌，治疗前应先治寄生虫。所以：已知对reslizumab过敏 absolute。已存在蠕虫感染未治 relative。妊娠哺乳：无数据，相对禁忌，权衡。也列出：acute asthma exacerbation or status asthmaticus (不作为急救药). 不是禁忌症但说明。我们给禁忌症：对reslizumab或任何成分过敏 absolute；未经治疗的寄生虫感染 relative；妊娠期 relative；哺乳期 relative。
+              - listitem [ref=e293]:
+                - paragraph [ref=e294]:
+                  - text: salbutamol | Adrenergic bronchodilators (短效β2激动剂)
+                  - text: "适应症：哮喘、支气管痉挛、COPD。妊娠N？实际是C? 输入显示妊娠分级: N，可能未知。通常沙丁胺醇妊娠C，但广泛使用。禁忌症：过敏 absolute。严重过敏反应可能因赋形剂等。相对禁忌：严重高血压、心律失常、甲状腺功能亢进、糖尿病（可能升高血糖和导致低钾）、嗜铬细胞瘤？可用于分娩抑制宫缩，但有心血管疾病慎用。列出：hypersensitivity to salbutamol (absolute); severe hypertension, tachyarrhythmias, hyperthyroidism (relative); concomitant use with non-selective beta-blockers (relative) 因为会减弱支气管扩张作用，可能诱发哮喘，但这不是禁忌症，是相互作用。drug_class禁忌可列为 non-selective beta-blockers 相对禁忌（哮喘）。还有妊娠和哺乳相对。但是β-blocker在哮喘患者中是相对禁忌的，药物本身禁忌没提这个，而是说β阻滞剂对哮喘患者禁忌。我们只列salbutamol禁忌症：过敏绝对；严重心脏病如冠脉供血不足等相对；甲亢相对；糖尿病相对；低血钾相对；嗜铬细胞瘤相对。可列：pheochromocytoma (relative), hypertrophic obstructive cardiomyopathy (relative). 常规：prior hypersensitivity."
+              - listitem [ref=e295]:
+                - paragraph [ref=e296]:
+                  - text: aripiprazole (oral) | Atypical antipsychotics
+                  - text: 适应症：精神分裂症、双相、孤独症易激惹、Tourette's、MDD辅助。妊娠C。
+                  - text: 禁忌症：对阿立哌唑过敏 absolute。与抗精神病药物相关的痴呆相关精神病老年患者死亡率增加（黑框警告），绝对禁忌？通常说老年痴呆相关精神病患者用抗精神病药增加死亡风险，是绝对禁忌。还有严重肝功能不全？相对。QT延长风险，合用延长QT的药物或本身QTc延长者相对。脑血管意外风险。列出：known hypersensitivity to aripiprazole (absolute); elderly patients with dementia-related psychosis (absolute, boxed warning) ; 严重肝功能不全(Child-Pugh C)？相对。儿童青少年自杀风险？相对。低血压、心血管疾病相对。简化为：dementia-related psychosis (absolute); hypersensitivity (absolute). 同时使用延长QT间期的药物或先天性长QT综合征 (relative)。妊娠C相对，哺乳相对。因制剂含乳糖，严重乳糖不耐受相对。可能还包括seizure disorders相对。主要给出：dementia-related psychosis (absolute, boxed warning) 类别 disease， hypersensitivity (absolute, allergy_type)。其他相对：severe hepatic impairment, seizure disorders, congenital long QT syndrome, pregnancy, lactation。
+              - listitem [ref=e297]:
+                - paragraph [ref=e298]:
+                  - text: cariprazine | Atypical antipsychotics.
+                  - text: 适应症：精神分裂症、双相I。妊娠N。
+                  - text: 类似：对卡利拉嗪过敏绝对；痴呆相关精神病绝对；严重肝功能不全相对（CYP3A4代谢），肾损相对。QT延长相对。引发代谢变化。列出：hypersensitivity (absolute); elderly patients with dementia-related psychosis (absolute); severe hepatic impairment (relative); severe renal impairment (relative); pregnancy/lactation (relative). 也可以包括：与强CYP3A4抑制剂或诱导剂合用, 但是drug interaction, 非禁忌症。
+              - listitem [ref=e299]:
+                - paragraph [ref=e300]:
+                  - text: lumateperone | Atypical antipsychotics
+                  - text: 适应症：精神分裂症、双相抑郁。妊娠N。
+                  - text: 类似：过敏 absolute; 痴呆相关精神病 absolute; 严重
+      - generic [ref=e232]:
+        - generic [ref=e235]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e237]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e238]:
+            - button "深度思考" [ref=e239] [cursor=pointer]:
+              - img [ref=e241]
+              - generic [ref=e244]: 深度思考
+            - button "智能搜索" [ref=e245] [cursor=pointer]:
+              - img [ref=e247]
+              - generic [ref=e249]: 智能搜索
+            - generic [ref=e250]:
+              - button [ref=e251] [cursor=pointer]:
+                - img [ref=e254]
+              - button [ref=e257] [cursor=pointer]:
+                - img [ref=e260]
+        - generic [ref=e262]: 内容由 AI 生成，请仔细甄别

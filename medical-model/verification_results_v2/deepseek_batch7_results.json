@@ -1,0 +1,35 @@
+{
+  "batch": 7,
+  "diseases": 24,
+  "results": [
+    {"disease":"过敏性皮炎","rating":"APPROPRIATE","reason":"抗组胺药和外用糖皮质激素均为常用药物"},
+    {"disease":"过敏性鼻炎","rating":"APPROPRIATE","reason":"鼻用激素及抗组胺药均为一线治疗"},
+    {"disease":"酒渣鼻","rating":"PARTIALLY","reason":"抗生素和他扎罗汀可用，螺内酯非标准治疗"},
+    {"disease":"酗酒","rating":"INAPPROPRIATE","reason":"除氯氮卓可用于戒断外，其他均不适用"},
+    {"disease":"银屑病","rating":"APPROPRIATE","reason":"外用糖皮质激素是一线局部治疗"},
+    {"disease":"银屑病关节炎","rating":"PARTIALLY","reason":"双氯芬酸等对关节炎有效，骨化三醇和氯倍他索仅针对皮肤病变"},
+    {"disease":"链球菌咽炎","rating":"APPROPRIATE","reason":"均为有效口服抗生素覆盖化脓性链球菌"},
+    {"disease":"阑尾炎","rating":"PARTIALLY","reason":"部分抗生素可覆盖厌氧菌，其他单用不适宜"},
+    {"disease":"阳痿","rating":"APPROPRIATE","reason":"均为治疗勃起功能障碍的有效药物"},
+    {"disease":"阴道炎","rating":"INAPPROPRIATE","reason":"均不覆盖常见阴道炎病原体，需甲硝唑/抗真菌药"},
+    {"disease":"阿尔茨海默病","rating":"PARTIALLY","reason":"阿杜那单抗可用，劳拉西泮加重认知障碍"},
+    {"disease":"附件炎","rating":"PARTIALLY","reason":"部分抗生素有效，但需联合用药覆盖厌氧菌和衣原体"},
+    {"disease":"青光眼","rating":"APPROPRIATE","reason":"均为常用降眼压药物"},
+    {"disease":"预防中风","rating":"APPROPRIATE","reason":"降压降脂均符合预防策略"},
+    {"disease":"颈椎病","rating":"APPROPRIATE","reason":"止痛和肌松药对症治疗合理"},
+    {"disease":"骨关节炎","rating":"APPROPRIATE","reason":"均为NSAID止痛抗炎治疗"},
+    {"disease":"骨质疏松","rating":"APPROPRIATE","reason":"均为治疗骨质疏松的有效药物"},
+    {"disease":"骨质疏松症","rating":"APPROPRIATE","reason":"同上"},
+    {"disease":"高胆固醇","rating":"PARTIALLY","reason":"降脂药适合，氨氯地平为降压药不降胆固醇"},
+    {"disease":"高脂血症","rating":"PARTIALLY","reason":"降脂复方和烟酸有效，单方氨氯地平不降脂"},
+    {"disease":"高血压","rating":"APPROPRIATE","reason":"均为常用降压药"},
+    {"disease":"高血脂","rating":"PARTIALLY","reason":"同高脂血症"},
+    {"disease":"鼻塞","rating":"APPROPRIATE","reason":"抗组胺和鼻用激素均可缓解鼻塞"},
+    {"disease":"鼻窦炎","rating":"APPROPRIATE","reason":"均为口服抗生素适用于细菌性鼻窦炎"}
+  ],
+  "summary": {
+    "APPROPRIATE": 14,
+    "PARTIALLY": 8,
+    "INAPPROPRIATE": 2
+  }
+}

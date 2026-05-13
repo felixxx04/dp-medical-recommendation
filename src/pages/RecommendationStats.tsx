@@ -5,7 +5,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
   LineChart, Line, PieChart, Pie, Cell, Legend,
 } from 'recharts'
-import SankeyFlowChart from '../components/SankeyFlowChart'
+import SafetyLayerChart from '../components/SafetyLayerChart'
 import { BarChart3, TrendingUp, Activity, Shield, Pill, Settings } from 'lucide-react'
 
 interface StatsData {
@@ -116,7 +116,7 @@ export default function RecommendationStats() {
                 <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
                 <XAxis dataKey="day" stroke="#64748b" tick={{ fontSize: 11 }} />
                 <YAxis stroke="#64748b" tick={{ fontSize: 11 }} allowDecimals={false} />
-                <Tooltip contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }} />
+                <Tooltip contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }} itemStyle={{ color: '#e2e8f0' }} labelStyle={{ color: '#94a3b8', fontSize: 11 }} />
                 <Line type="monotone" dataKey="count" stroke="#38bdf8" strokeWidth={2} dot={{ fill: '#38bdf8', r: 3 }} name="推荐数" />
               </LineChart>
             </ResponsiveContainer>
@@ -132,7 +132,7 @@ export default function RecommendationStats() {
                 <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
                 <XAxis type="number" stroke="#64748b" tick={{ fontSize: 11 }} allowDecimals={false} />
                 <YAxis dataKey="name" type="category" stroke="#64748b" tick={{ fontSize: 11, fill: '#cbd5e1' }} width={130} />
-                <Tooltip contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }} />
+                <Tooltip contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }} itemStyle={{ color: '#e2e8f0' }} labelStyle={{ color: '#94a3b8', fontSize: 11 }} />
                 <Bar dataKey="count" fill="#38bdf8" radius={[0, 3, 3, 0]} name="次数" />
               </BarChart>
             </ResponsiveContainer>
@@ -193,6 +193,8 @@ export default function RecommendationStats() {
                 </Pie>
                 <Tooltip
                   contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }}
+                  itemStyle={{ color: '#e2e8f0' }}
+                  labelStyle={{ color: '#94a3b8', fontSize: 11 }}
                   formatter={(value: number, name: string) => [`${value} 次`, name]}
                 />
                 <Legend
@@ -208,11 +210,11 @@ export default function RecommendationStats() {
           </CardContent>
         </Card>
 
-        {/* 推荐流向 — 桑基图：疾病 → 药物分类 → 具体药物 */}
+        {/* 安全分层分析 */}
         <Card hover="none">
-          <CardHeader><CardTitle className="text-base">推荐流向 · 疾病→分类→药物</CardTitle></CardHeader>
-          <CardContent>
-            <SankeyFlowChart />
+          <CardHeader><CardTitle className="text-base">安全分层分析 · 三层过滤架构</CardTitle></CardHeader>
+          <CardContent className="p-3 pt-0">
+            <SafetyLayerChart />
           </CardContent>
         </Card>
       </div>

@@ -1,0 +1,32 @@
+{
+  "total_patients": 50,
+  "api_success_rate": 100.0,
+  "indication_match_rate": 100.0,
+  "error_cases": 14,
+  "disease_accuracy": {
+    "acute bacterial sinusitis": "2/2 (100%)",
+    "anxiety": "5/5 (100%)",
+    "atopic dermatitis": "3/3 (100%)",
+    "back pain": "7/7 (100%)",
+    "bacterial urinary tract infection": "4/4 (100%)",
+    "depression": "5/5 (100%)",
+    "diabetes": "3/3 (100%)",
+    "diverticulitis of gastrointestinal tract": "2/2 (100%)",
+    "endometriosis": "4/4 (100%)",
+    "fever": "5/5 (100%)",
+    "flatulence": "2/2 (100%)",
+    "gastroesophageal reflux disease": "4/4 (100%)",
+    "gout": "10/10 (100%)",
+    "heart failure": "2/2 (100%)",
+    "hemorrhoids": "5/5 (100%)",
+    "hypercholesterolemia": "4/4 (100%)",
+    "hypertension": "21/21 (100%)",
+    "osteoporosis": "4/4 (100%)",
+    "pharyngitis due to streptococcus pyogenes": "2/2 (100%)",
+    "psoriasis": "2/2 (100%)",
+    "rheumatoid arthritis": "4/4 (100%)",
+    "type 2 diabetes": "4/4 (100%)",
+    "vertigo": "2/2 (100%)",
+    "vulvovaginal candidiasis": "2/2 (100%)"
+  }
+}

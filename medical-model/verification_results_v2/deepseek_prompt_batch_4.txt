@@ -1,0 +1,99 @@
+请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。
+
+评分标准:
+- APPROPRIATE: 推荐药物完全适合治疗该疾病
+- PARTIALLY: 部分推荐适合，部分不适合
+- INAPPROPRIATE: 推荐药物完全不适合
+
+疾病: 深静脉血栓 (deep vein thrombosis)
+推荐药物: Apixaban(直接口服抗凝剂（Xa 因子抑制剂）); Dabigatran(直接凝血酶抑制剂); Clopidogrel(抗血小板药); Enoxaparin(低分子量肝素); Dipyridamole(抗血小板药)
+
+疾病: 湿疹 (eczema / atopic dermatitis)
+推荐药物: Betamethasone(皮质类固醇); Cetirizine(抗组胺药); Clobetasol(外用皮质类固醇); Desonide(外用皮质类固醇); Desoximetasone(外用皮质类固醇)
+
+疾病: 溃疡性结肠炎 (ulcerative colitis / diarrhea)
+推荐药物: Golimumab(TNF阻断剂); Ciprofloxacin(氟喹诺酮类); Infliximab(TNF阻断剂); Tofacitinib(JAK抑制剂); Mesalamine(5-ASA衍生物)
+
+疾病: 炎症 (inflammation / inflammatory condition / bacterial infections)
+推荐药物: Prednisolone(皮质类固醇); Prednisone(皮质类固醇); Triamcinolone(皮质类固醇); Aspirin Enteric-Coated and Buffered Tablets(血小板聚集抑制剂, 水杨酸类); Aspirin Tablets(血小板聚集抑制剂, 水杨酸类)
+
+疾病: 焦虑 (anxiety disorder / anxiety)
+推荐药物: Alprazolam(苯二氮卓类); Aripiprazole(非典型抗精神病药); Venlafaxine(SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)); venlafaxine hydrochloride(5-HT-NE再摄取抑制剂); Pregabalin(抗惊厥药)
+
+疾病: 焦虑不安 (anxiety / bipolar disorder)
+推荐药物: Alprazolam(苯二氮卓类); Lamotrigine(抗惊厥药); Aripiprazole(非典型抗精神病药); Bupropion(非典型抗抑郁药); Buspirone(抗焦虑药)
+
+疾病: 焦虑症 (anxiety disorder / generalized anxiety disorder / anxiety)
+推荐药物: Alprazolam(苯二氮卓类); Aripiprazole(非典型抗精神病药); Venlafaxine(SNRI(5-羟色胺去甲肾上腺素再摄取抑制剂)); venlafaxine hydrochloride(5-HT-NE再摄取抑制剂); Pregabalin(抗惊厥药)
+
+疾病: 牛皮癣 (psoriasis)
+推荐药物: Betamethasone(皮质类固醇); Clobetasol(外用皮质类固醇); Desonide(外用皮质类固醇); Desoximetasone(外用皮质类固醇); Fluocinolone(外用皮质类固醇)
+
+疾病: 玫瑰痤疮 (rosacea / acne vulgaris)
+推荐药物: Doxycycline(四环素类抗生素); Erythromycin(大环内酯类抗生素); Oxytetracycline(四环素类抗生素); Spironolactone(醛固酮拮抗剂); Tazarotene(维A酸类)
+
+疾病: 甲亢 (hyperthyroidism)
+推荐药物: Cinacalcet(拟钙剂); Doxercalciferol(维生素D类似物); Methimazole(抗甲状腺药); Propylthiouracil(抗甲状腺药); Irbesartan(ARB(血管紧张素受体阻断剂))
+
+疾病: 甲减 (hypothyroidism / hyperthyroidism)
+推荐药物: Levothyroxine(甲状腺激素); Liotrix(甲状腺激素); Liothyronine(甲状腺激素); levothyroxine (oral/injection)(甲状腺药物); thyroid desiccated(甲状腺药物)
+
+疾病: 甲状腺功能亢进 (hyperthyroidism)
+推荐药物: Cinacalcet(拟钙剂); Doxercalciferol(维生素D类似物); Methimazole(抗甲状腺药); Propylthiouracil(抗甲状腺药); Irbesartan(ARB(血管紧张素受体阻断剂))
+
+疾病: 甲状腺功能减退 (hypothyroidism / hyperthyroidism)
+推荐药物: Levothyroxine(甲状腺激素); Liotrix(甲状腺激素); Liothyronine(甲状腺激素); levothyroxine (oral/injection)(甲状腺药物); thyroid desiccated(甲状腺药物)
+
+疾病: 甲状腺癌 (thyroid cancer / hyperthyroidism / breast cancer)
+推荐药物: Vandetanib(激酶抑制剂); Everolimus(mTOR抑制剂); Sorafenib(激酶抑制剂); levothyroxine (oral/injection)(甲状腺药物); levothyroxine (oral route)(甲状腺药物)
+
+疾病: 甲状腺肿 (goiter / thyroid enlargement / hyperthyroidism)
+推荐药物: levothyroxine (oral/injection)(甲状腺药物); levothyroxine (oral route)(甲状腺药物); thyroid (desiccated)(甲状腺药物); Cinacalcet(拟钙剂); Doxercalciferol(维生素D类似物)
+
+疾病: 疱疹 (herpes simplex virus infection / bacterial infections)
+推荐药物: Valacyclovir(抗病毒药); Acyclovir(抗病毒药); acyclovir (oral)(嘌呤核苷类); acyclovir (topical)(外用抗病毒药); Cidofovir(抗病毒药)
+
+疾病: 疼痛 (pain / back pain / joint pain)
+推荐药物: Amitriptyline(三环类抗抑郁药); Aspirin(非甾体抗炎药/抗血小板); Diclofenac(非甾体抗炎药); Flurbiprofen(非甾体抗炎药); Ibuprofen(非甾体抗炎药)
+
+疾病: 病毒感染 (viral infection / bacterial infections)
+推荐药物: Probenecid(促尿酸排泄药); Tobramycin(氨基糖苷类抗生素); Dipyridamole(抗血小板药); Ipratropium(抗胆碱药); enalapril (oral route)(血管紧张素转换酶抑制剂)
+
+疾病: 痔疮 (hemorrhoids / stomach pain)
+推荐药物: Hydrocortisone(皮质类固醇); Cimetidine(H2受体阻断剂); Dexlansoprazole(质子泵抑制剂); Esomeprazole(质子泵抑制剂); Famotidine(H2受体阻断剂)
+
+疾病: 痘痘 (acne vulgaris / acne)
+推荐药物: Doxycycline(四环素类抗生素); Erythromycin(大环内酯类抗生素); Tretinoin(维A酸类); Norgestimate-Ethinyl Estradiol(孕激素+雌激素); sarecycline(四环素类)
+
+疾病: 痛经 (dysmenorrhea / menstrual pain / stomach pain)
+推荐药物: Diclofenac(非甾体抗炎药); Aspirin(非甾体抗炎药/抗血小板); Ibuprofen(非甾体抗炎药); Ketoprofen(非甾体抗炎药); Naproxen(非甾体抗炎药)
+
+疾病: 痛风 (gout)
+推荐药物: Allopurinol(黄嘌呤氧化酶抑制剂); Colchicine(抗痛风药); Diclofenac(非甾体抗炎药); Etodolac(非甾体抗炎药); Flurbiprofen(非甾体抗炎药)
+
+疾病: 痤疮 (acne vulgaris / acne)
+推荐药物: Doxycycline(四环素类抗生素); Erythromycin(大环内酯类抗生素); Tretinoin(维A酸类); Norgestimate-Ethinyl Estradiol(孕激素+雌激素); sarecycline(四环素类)
+
+疾病: 癫痫 (epilepsy / seizure disorder / seizures)
+推荐药物: Clonazepam(苯二氮卓类); Clorazepate(苯二氮卓类); Diazepam(苯二氮卓类); Ethosuximide(抗惊厥药); Fosphenytoin(抗惊厥药)
+
+疾病: 癫痫发作 (seizures / epilepsy)
+推荐药物: Clonazepam(苯二氮卓类); Clorazepate(苯二氮卓类); Diazepam(苯二氮卓类); Ethosuximide(抗惊厥药); Fosphenytoin(抗惊厥药)
+
+疾病: 白内障 (cataract / glaucoma)
+推荐药物: Timolol(β受体阻断剂); betaxolol(心脏选择性β受体阻滞剂); Brimonidine(α2肾上腺素能激动剂); Brinzolamide(碳酸酐酶抑制剂); Latanoprost(前列腺素类似物)
+
+疾病: 白血病 (leukemia / anemia)
+推荐药物: Tretinoin(维A酸类); Folic Acid(维生素); Methotrexate(抗代谢药); Doxorubicin(蒽环类抗生素); Bendamustine(烷化剂)
+
+疾病: 皮疹 (rash / dermatitis / atopic dermatitis)
+推荐药物: Betamethasone(皮质类固醇); Cetirizine(抗组胺药); Desonide(外用皮质类固醇); Desoximetasone(外用皮质类固醇); Dexamethasone(皮质类固醇)
+
+疾病: 皮肤软组织感染 (bacterial skin infection / bacterial infections)
+推荐药物: Amoxicillin-Clavulanate(青霉素+β-内酰胺酶抑制剂); Bacitracin(多肽类抗生素); Cefazolin(头孢菌素类抗生素); Cefepime(头孢菌素类抗生素); Cefotaxime(头孢菌素类抗生素)
+
+疾病: 盆腔炎 (pelvic inflammatory disease / urinary tract infection)
+推荐药物: Cefoxitin(头孢菌素类抗生素); Amikacin(氨基糖苷类抗生素); Clindamycin(林可酰胺类抗生素); clindamycin (oral/injection)(林可霉素衍生物); clindamycin (intramuscular route, intravenous route)(林可霉素衍生物)
+
+
+请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。

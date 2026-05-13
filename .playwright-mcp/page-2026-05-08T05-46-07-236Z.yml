@@ -1,0 +1,81 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e84]:
+      - generic [ref=e86]:
+        - generic [ref=e87] [cursor=pointer]: 新对话
+        - generic [ref=e88]:
+          - img [ref=e90]
+          - generic [ref=e92]: 快速模式
+      - button [ref=e93] [cursor=pointer]:
+        - img [ref=e96]
+    - generic [ref=e99]:
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e104]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 心衰 | Amlodipine-Valsartan; Benazepril; Bumetanide; Canagliflozin; Candesartan 疾病: 念珠菌性阴道炎 | Amikacin; Butoconazole; Amoxicillin; Amoxicillin-Clavulanate; Cefaclor 疾病: 急性疼痛 | Aspirin; Tapentadol; Diclofenac; Baclofen; Carisoprodol 疾病: 恶心 | Dexamethasone; Lorazepam; Metoclopramide; Meclizine; Prochlorperazine 疾病: 惊恐障碍 | Alprazolam; Aripiprazole; Venlafaxine; Alprazolam Oral; venlafaxine HCl 疾病: 感冒 | Diphenhydramine; Doxylamine; diphenhydramine HCl; chlorpheniramine; Promethazine 疾病: 慢性疼痛 | Tapentadol; Buprenorphine; Fentanyl; oxycodone; Dronabinol 疾病: 慢性肾病 | Bumetanide; Linagliptin; Metolazone; Sevelamer; Torsemide 疾病: 慢性阻塞性肺疾病 | Albuterol-Ipratropium; Formoterol; Ipratropium; Olodaterol; Umeclidinium 疾病: 慢阻肺 | Albuterol-Ipratropium; Formoterol; Ipratropium; Olodaterol; Umeclidinium 疾病: 憩室炎 | Amikacin; Ciprofloxacin; Tigecycline; Amoxicillin; Ampicillin-Sulbactam 疾病: 戒烟 | Bupropion; Alprazolam; Varenicline; bupropion(oral); bupropion HCl 疾病: 房颤 | Apixaban; Bisoprolol; Verapamil; Rivaroxaban; verapamil(oral/injection) 疾病: 扁桃体炎 | Cefadroxil; Ibuprofen; Cefprozil; Indomethacin; Naproxen 疾病: 打喷嚏 | Cetirizine; Mometasone; Olopatadine; fluticasone; Loratadine 疾病: 抑郁 | Alprazolam; Citalopram; Clomipramine; Desipramine; Doxepin 疾病: 抑郁症 | Amitriptyline; Alprazolam; desipramine; nortriptyline; protriptyline 疾病: 接触性皮炎 | Desonide; Betamethasone; fluocinolone; hydrocortisone(topical); hydrocortisone topical 疾病: 支气管炎 | dyphylline+guaifenesin; Benzonatate; Hydrocodone; Codeine; codeine+phenylephrine+triprolidine 疾病: 新冠 | Dexamethasone; Ibuprofen; Tocilizumab; sotrovimab; bebtelovimab 疾病: 晕眩 | Meclizine; Prochlorperazine; diphenhydramine HCl; dimenhydrinate; Temsirolimus 疾病: 更年期综合征 | Conjugated Estrogens; Alprazolam; Estradiol; Medroxyprogesterone; Progesterone 疾病: 月经不调 | Folic Acid; Ferrous Sulfate; Epoetin Alfa; Meperidine; Zidovudine 疾病: 术后疼痛 | Ketorolac; Aspirin; Ropivacaine; oliceridine; Sufentanil 疾病: 梅毒 | Penicillin G; penicillin G benzathine+procaine; procaine penicillin; penicillin G potassium; penicillin G sodium 疾病: 水肿 | Bumetanide; Chlorthalidone; Enalapril-HCTZ; Eplerenone; Furosemide 疾病: 流感 | Oseltamivir; Ibuprofen; Amantadine; Zanamivir; Rimantadine 疾病: 流鼻涕 | Cetirizine; Diphenhydramine; Desloratadine; Loratadine; Mometasone 疾病: 消化道出血 | Cimetidine; Dexlansoprazole; Esomeprazole; Erythromycin; Famotidine 疾病: 淋巴瘤 | Methoxsalen; Folic Acid; Doxorubicin; Ifosfamide; Etoposide 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e107]:
+            - button [ref=e108] [cursor=pointer]:
+              - img [ref=e111]
+            - button [ref=e113] [cursor=pointer]:
+              - img [ref=e116]
+        - generic [ref=e120]:
+          - generic [ref=e122] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e129]
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: 我们需评估每个疾病的药物推荐列表是否适合治疗该疾病。评分标准如上。注意有些疾病名称重复如慢阻肺和慢性阻塞性肺疾病实质相同，但分别给出列表。列表中有重复药物如Alprazolam Oral和Alprazolam等。需基于医学知识判断。
+            - paragraph [ref=e137]: 逐个分析：
+            - list [ref=e138]:
+              - listitem [ref=e139]:
+                - paragraph [ref=e140]: 心衰：药物列表：Amlodipine-Valsartan（氨氯地平缬沙坦，用于高血压，心衰？氨氯地平不推荐用于心衰，缬沙坦可用于心衰但组合？通常心衰治疗包括ACEI/ARB、利尿剂、β阻滞剂等。Benazepril（贝那普利，ACEI，适合心衰），Bumetanide（布美他尼，利尿剂，适合），Canagliflozin（卡格列净，SGLT2抑制剂，近年用于心衰，适合），Candesartan（坎地沙坦，ARB，适合）。但Amlodipine-Valsartan中的氨氯地平对心衰患者可能增加风险，一般避免。因此部分适合。评分PARTIALLY。
+              - listitem [ref=e141]:
+                - paragraph [ref=e142]: 念珠菌性阴道炎：药物：Amikacin（阿米卡星，氨基糖苷类抗菌，抗细菌，不抗真菌），Butoconazole（布康唑，抗真菌，适合），Amoxicillin（阿莫西林，抗生素，可能诱发真菌感染，不治疗），Amoxicillin-Clavulanate（同样），Cefaclor（头孢克洛，抗生素）。只有Butoconazole适合，其余不适合。故INAPPROPRIATE（完全不适合？但有一个适合，但标准说推荐药物完全不适合才INAPPROPRIATE？定义：INAPPROPRIATE:推荐药物完全不适合，即没有一个适合。这里有一个适合，但大部分不适合，按部分适合？注意PARTIALLY定义为部分推荐适合，部分不适合。因此有1个适合4个不适合，应算PARTIALLY。但需谨慎：通常治疗念珠菌性阴道炎的抗真菌药如克霉唑、咪康唑、布康唑等，但列表中有布康唑，所以部分适合。评分PARTIALLY。
+              - listitem [ref=e175]:
+                - paragraph [ref=e176]: 急性疼痛：药物：Aspirin（阿司匹林，可用于轻中度疼痛），Tapentadol（他喷他多，阿片类，适合急性疼痛），Diclofenac（双氯芬酸，NSAID，适合），Baclofen（巴氯芬，肌肉松弛剂，主要用于痉挛，不用于一般急性疼痛），Carisoprodol（卡立普多，肌肉松弛剂，用于肌肉骨骼疼痛？有时用于急性肌肉疼痛，但非一线。通常急性疼痛治疗包括NSAIDs、对乙酰氨基酚、阿片类。Baclofen和Carisoprodol不是典型镇痛药。但Carisoprodol有滥用风险，但可治疗急性背痛等。总体而言，部分适合。评分PARTIALLY。
+              - listitem [ref=e177]:
+                - paragraph [ref=e178]: 恶心：药物：Dexamethasone（地塞米松，糖皮质激素，用于化疗恶心等，可止吐），Lorazepam（劳拉西泮，苯二氮卓，用于焦虑、化疗止吐辅助），Metoclopramide（甲氧氯普胺，强效止吐药，适合），Meclizine（美克洛嗪，抗组胺，用于晕动病恶心），Prochlorperazine（丙氯拉嗪，吩噻嗪类，止吐）。所有药物均可用于恶心，但适应症不同。例如Dexamethasone常用于CINV，Lorazepam用于预期性恶心。总体合适。评分APPROPRIATE。
+              - listitem [ref=e179]:
+                - paragraph [ref=e180]: 惊恐障碍：药物：Alprazolam（阿普唑仑，苯二氮卓，用于惊恐障碍急性期），Aripiprazole（阿立哌唑，非典型抗精神病，不用于惊恐障碍一线，可辅助治疗？一般不作为推荐），Venlafaxine（文拉法辛，SNRI，用于惊恐障碍），Alprazolam Oral（同阿普唑仑），venlafaxine HCl（同）。实际上Venlafaxine有效，Alprazolam有效，但Aripiprazole不适用。所以部分适合。评分PARTIALLY。
+              - listitem [ref=e181]:
+                - paragraph [ref=e182]: 感冒：药物：Diphenhydramine（苯海拉明，抗组胺，用于感冒流涕等），Doxylamine（多西拉敏，抗组胺，用于感冒），diphenhydramine HCl（同），chlorpheniramine（氯苯那敏，抗组胺），Promethazine（异丙嗪，抗组胺，镇吐，也用于感冒）。这些全是抗组胺药，可缓解感冒症状如流涕打喷嚏，但感冒通常不需要专门治疗，这些可减轻症状。但注意感冒由病毒引起，这些药物对症治疗，可以认为是适合。但严格说，这些药物中有些有镇静作用，常用。所有都是抗组胺药，所以APPROPRIATE？但可能有争议，因为感冒通常推荐减充血剂等，但抗组胺药常用。评分APPROPRIATE。
+              - listitem [ref=e183]:
+                - paragraph [ref=e184]: 慢性疼痛：药物：Tapentadol（他喷他多，阿片类），Buprenorphine（丁丙诺啡，阿片类），Fentanyl（芬太尼，强阿片），oxycodone（羟考酮，阿片），Dronabinol（屈大麻酚，大麻素，用于化疗恶心，也可用于慢性疼痛？FDA批准用于艾滋病相关厌食和化疗恶心，对慢性疼痛证据有限，但有时超说明书使用）。所有这些都是阿片类或大麻素，用于慢性疼痛特别是中重度疼痛，但长期使用阿片类有风险。部分指南认为可适当使用。但Dronabinol不常规用于慢性疼痛。总体部分适合？但基本是镇痛药，除Dronabinol外均常用。考虑APPROPRIATE？需谨慎：慢性疼痛治疗包括非阿片类药物如NSAIDs、抗抑郁药等，但这里只列了阿片类。不过问题问的是推荐药物是否适合治疗该疾病，即每个药物是否可用于慢性疼痛。Tapentadol，Buprenorphine，Fentanyl，Oxycodone都可用于慢性疼痛；Dronabinol也有一定证据。可认为都是适合的。评分APPROPRIATE。
+              - listitem [ref=e185]:
+                - paragraph [ref=e186]: 慢性肾病：药物：Bumetanide（利尿剂，用于水肿），Linagliptin（利格列汀，降糖药，用于糖尿病，慢性肾病可用但非直接治疗肾病），Metolazone（美托拉宗，利尿剂），Sevelamer（司维拉姆，降磷药，用于CKD高磷血症），Torsemide（托拉塞米，利尿剂）。慢性肾病治疗包括控制血压、血糖、利尿、降磷等。Linagliptin是降糖药，若患者合并糖尿病可用，但非直接治疗肾病。Sevelamer是针对并发症。总体这些药物都是CKD患者可能使用的药物，但并非所有都是核心治疗。然而问题可能旨在评估是否适合治疗该疾病，即每个药物是否在CKD中合理使用。Bumetanide、Metolazone、Torsemide用于水肿，Sevelamer用于高磷，Linagliptin用于糖尿病。但CKD本身没有直接治疗，这些是对症或合并症。可能还是适合的？但Linagliptin不直接治疗CKD，但可安全用于CKD患者。严格说，治疗慢性肾病包括延缓进展的药物如ACEI/ARB，这里没有。但给出的药物都是CKD管理中可能用到的。我认为可以接受为APPROPRIATE？但需注意，利尿剂可用于容量负荷，Sevelamer用于控制磷，Linagliptin用于血糖。所以每个药物在特定情况下适合。评分APPROPRIATE。
+              - listitem [ref=e187]:
+                - paragraph [ref=e188]: 慢性阻塞性肺疾病：药物：Albuterol-Ipratropium（沙丁胺醇异丙托溴铵，支气管扩张剂），Formoterol（福莫特罗，LABA），Ipratropium（异丙托溴铵，SAMA），Olodaterol（奥达特罗，LABA），Umeclidinium（乌美溴铵，LAMA）。全部是吸入性支气管扩张剂，用于COPD治疗。非常合适。评分APPROPRIATE。
+              - listitem [ref=e189]:
+                - paragraph [ref=e190]: 慢阻肺：同上，相同列表，评分APPROPRIATE。
+              - listitem [ref=e191]:
+                - paragraph [ref=e192]: 憩室炎：药物：Amikacin（阿米卡星，氨基糖苷类，用于严重感染，但非首选），Ciprofloxacin（环丙沙星，氟喹诺酮，可用于憩室炎），Tigecycline（替加环素，用于复杂腹腔感染，可），Amoxicillin（阿莫西林，广谱青霉素，可用于），Ampicillin-Sulbactam（氨苄西林舒巴坦，可用于）。但憩室炎常用抗生素覆盖需氧和厌氧菌，如甲硝唑+氟喹诺酮/头孢等。Amikacin不常用，Tigecycline用于耐药菌，但可能有效。总体都是抗生素，可能适合。但Amikacin通常不用于憩室炎的一线，
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e149]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e150]:
+            - button "深度思考" [pressed] [ref=e151] [cursor=pointer]:
+              - img [ref=e153]
+              - generic [ref=e156]: 深度思考
+            - button "智能搜索" [pressed] [ref=e157] [cursor=pointer]:
+              - img [ref=e159]
+              - generic [ref=e161]: 智能搜索
+            - generic [ref=e162]:
+              - button [ref=e163] [cursor=pointer]:
+                - img [ref=e166]
+              - button [ref=e169] [cursor=pointer]:
+                - img [ref=e172]
+        - generic [ref=e174]: 内容由 AI 生成，请仔细甄别

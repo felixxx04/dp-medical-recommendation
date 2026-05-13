@@ -1,0 +1,65 @@
+<h2>前端页面信息精简方案</h2>
+<p class="subtitle">老师反馈：部分页面信息过多，看上去太杂乱</p>
+
+<div class="section">
+  <h3>页面杂乱程度排名</h3>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#ef4444;color:white;padding:4px 12px;border-radius:4px;font-weight:bold;min-width:28px;text-align:center">1</span>
+      <span style="font-weight:600">DrugRecommendation 用药推荐</span>
+      <span style="color:#888;font-size:14px">— 每张药卡7个badge、6+区块垂直堆叠</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#f97316;color:white;padding:4px 12px;border-radius:4px;font-weight:bold;min-width:28px;text-align:center">2</span>
+      <span style="font-weight:600">PatientRecords 患者管理</span>
+      <span style="color:#888;font-size:14px">— 22个表单字段、卡片头部拥挤</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#eab308;color:white;padding:4px 12px;border-radius:4px;font-weight:bold;min-width:28px;text-align:center">3</span>
+      <span style="font-weight:600">AdminDashboard 管理后台</span>
+      <span style="color:#888;font-size:14px">— 4大区块、台账表格30行</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#22c55e;color:white;padding:4px 12px;border-radius:4px;font-weight:bold;min-width:28px;text-align:center">4</span>
+      <span style="font-weight:600">PrivacyConfig 隐私配置</span>
+      <span style="color:#888;font-size:14px">— 内容多但结构合理</span>
+    </div>
+    <div style="color:#888;font-size:14px;padding-left:40px">
+      其余页面（RecommendationStats / DrugDatabase / ReviewDashboard / MyRecords / HomePage）较简洁，无需精简
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:32px">
+  <h3>需要精简的页面范围</h3>
+  <div class="options" data-multiselect>
+    <div class="option" data-choice="drug-reco" onclick="toggleSelect(this)">
+      <div class="letter">A</div>
+      <div class="content">
+        <h3>DrugRecommendation 用药推荐</h3>
+        <p>最杂乱：药卡7个badge、评分细节、排除药物列表、候选统计等</p>
+      </div>
+    </div>
+    <div class="option" data-choice="patient" onclick="toggleSelect(this)">
+      <div class="letter">B</div>
+      <div class="content">
+        <h3>PatientRecords 患者管理</h3>
+        <p>表单过多：22个输入字段、临床指标12个、卡片头部拥挤</p>
+      </div>
+    </div>
+    <div class="option" data-choice="admin" onclick="toggleSelect(this)">
+      <div class="letter">C</div>
+      <div class="content">
+        <h3>AdminDashboard 管理后台</h3>
+        <p>区块多：4大区块、隐私台账长表格</p>
+      </div>
+    </div>
+    <div class="option" data-choice="privacy" onclick="toggleSelect(this)">
+      <div class="letter">D</div>
+      <div class="content">
+        <h3>PrivacyConfig 隐私配置</h3>
+        <p>内容密集：滑块、实时指标、算法说明</p>
+      </div>
+    </div>
+  </div>
+</div>

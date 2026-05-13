@@ -1,0 +1,122 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e17]
+    - text: Ctrl + J
+  - generic [ref=e20]:
+    - generic [ref=e79]:
+      - generic [ref=e81]:
+        - generic [ref=e82] [cursor=pointer]: 临床药学评估用药推荐
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - generic [ref=e87]: 专家模式
+      - button [ref=e88] [cursor=pointer]:
+        - img [ref=e91]
+    - generic [ref=e94]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e99]: "你是一位临床药学专家。请评估以下医疗用药推荐系统对30种疾病的推荐结果是否临床适当。对每种疾病，判断推荐药物是APPROPRIATE（全部适当）、PARTIALLY（部分适当但有不适当药物）还是INAPPROPRIATE（主要药物不适当）。 疾病和推荐药物列表： 1. 冠心病(coronary artery disease): Perindopril, Amlodipine, amlodipine and benazepril, amlodipine and perindopril 2. 心肌梗死(myocardial infarction): Aspirin, Captopril, Prasugrel, Ticagrelor 3. 肺栓塞(pulmonary embolism): Apixaban, Enoxaparin, Rivaroxaban, Tenecteplase 4. 高血脂(hyperlipidemia): Pitavastatin, Pravastatin, amlodipine and atorvastatin, niacin 5. 1型糖尿病(type 1 diabetes): Insulin Aspart, Insulin Detemir, insulin inhalation, teplizumab-mzwv 6. 甲减(hypothyroidism): Liotrix, Levothyroxine, Liothyronine, levothyroxine oral/injection 7. 慢阻肺(COPD): Albuterol-Ipratropium, Ipratropium, Olodaterol, Umeclidinium 8. 胃溃疡(peptic ulcer): Cimetidine, Dexlansoprazole, aluminum hydroxide, calcium carbonate+famotidine+magnesium hydroxide 9. 溃疡性结肠炎(ulcerative colitis): Golimumab, Infliximab, Tofacitinib, Mesalamine 10. 克罗恩病(Crohn disease): Methotrexate, Infliximab, Mesalamine, Adalimumab 11. 肠易激综合征(IBS): Rifaximin, Dicyclomine, psyllium, polycarbophil 12. 便秘(constipation): Magnesium Hydroxide, Magnesium Oxide, Methylnaltrexone, Docusate 13. 肝炎(hepatitis): Tenofovir, Lamivudine, Sofosbuvir, Telbivudine 14. 抑郁症(major depressive disorder): Amitriptyline, Bupropion, desipramine, nortriptyline 15. 焦虑症(anxiety disorder): Alprazolam, Aripiprazole, Venlafaxine, venlafaxine HCl 16. 分簇性头痛(cluster headache): Ergotamine, Lithium, dihydroergotamine nasal, ergotamine+caffeine 17. 帕金森病(Parkinson disease): Selegiline, Rasagiline, Entacapone, Tolcapone 18. 多动症(ADHD): Clonidine, Bupropion, viloxazine, dexmethylphenidate+serdexmethylphenidate 19. 惊恐障碍(panic disorder): Alprazolam, Chlordiazepoxide, Venlafaxine, Alprazolam Oral Solution 20. 社交焦虑(social anxiety): Citalopram, Aripiprazole, Venlafaxine, venlafaxine HCl 21. 支气管炎(bronchitis): Lomefloxacin, dyphylline+guaifenesin, Sulfamethoxazole, Telithromycin 22. 感冒(common cold): Cefpodoxime, Cefixime, Cefaclor, Cefuroxime 23. 胆囊炎(cholecystitis): Lansoprazole, Omeprazole, Rabeprazole, Pantoprazole 24. 胆结石(cholelithiasis): Lansoprazole, Omeprazole, Rabeprazole, Pantoprazole 25. 阿尔茨海默病(Alzheimer disease): aducanumab, vitamin E variants, vitamin e oral 26. 强迫症(OCD): Propranolol, Nefazodone, Paroxetine, Clomipramine 27. 尿路结石(urinary calculi): Allopurinol, Cefepime, Cefpodoxime, Cefixime 28. 代谢综合征(metabolic syndrome): Captopril, Irbesartan, Losartan, Olmesartan 29. 肠炎(enteritis): Golimumab, Budesonide, Infliximab, Tofacitinib 30. 低血压(hypotension): Norepinephrine, Fludrocortisone, Captopril, Irbesartan 请用以下格式回复每种疾病的评估： 疾病编号: 判断(APPROPRIATE/PARTIALLY/INAPPROPRIATE) - 简要理由"
+          - generic [ref=e102]:
+            - button [ref=e103] [cursor=pointer]:
+              - img [ref=e106]
+            - button [ref=e108] [cursor=pointer]:
+              - img [ref=e111]
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: 以下是对30种疾病用药推荐结果的临床适当性评估：
+              - list [ref=e117]:
+                - listitem [ref=e118]:
+                  - paragraph [ref=e119]: "冠心病(coronary artery disease): APPROPRIATE - 培哚普利和氨氯地平是冠心病标准治疗药物，复方制剂组合也合理。"
+                - listitem [ref=e120]:
+                  - paragraph [ref=e121]: "心肌梗死(myocardial infarction): APPROPRIATE - 阿司匹林、卡托普利、普拉格雷、替格瑞洛均为心梗后标准抗血小板和改善预后药物。"
+                - listitem [ref=e122]:
+                  - paragraph [ref=e123]: "肺栓塞(pulmonary embolism): PARTIALLY - 阿哌沙班、依诺肝素、利伐沙班是标准抗凝药，但替奈普酶为溶栓药通常用于高危肺栓塞，非常规推荐且存在禁忌时风险高。"
+                - listitem [ref=e124]:
+                  - paragraph [ref=e125]: "高血脂(hyperlipidemia): PARTIALLY - 匹伐他汀、普伐他汀及氨氯地平阿托伐他汀复方均适当，但烟酸因安全性和获益问题已不作常规推荐。"
+                - listitem [ref=e158]:
+                  - paragraph [ref=e159]: "1型糖尿病(type 1 diabetes): PARTIALLY - 门冬胰岛素、地特胰岛素是标准治疗，吸入胰岛素可用但非主流，teplizumab用于延缓疾病发生非常规治疗药物。"
+                - listitem [ref=e160]:
+                  - paragraph [ref=e161]: "甲减(hypothyroidism): PARTIALLY - 左甲状腺素是标准治疗，但复方甲状腺素和碘塞罗宁一般不作为首选，口服与注射剂型合用描述不准确。"
+                - listitem [ref=e162]:
+                  - paragraph [ref=e163]: "慢阻肺(COPD): APPROPRIATE - 所列支气管舒张剂均为慢阻肺的标准维持或急救药物。"
+                - listitem [ref=e164]:
+                  - paragraph [ref=e165]: "胃溃疡(peptic ulcer): PARTIALLY - 右兰索拉唑是标准抑酸药，铝碳酸镁和复方抗酸剂可用于症状控制，但西咪替丁已不作为优选。"
+                - listitem [ref=e166]:
+                  - paragraph [ref=e167]: "溃疡性结肠炎(ulcerative colitis): APPROPRIATE - 所列生物制剂、小分子药物和美沙拉秦均为标准治疗。"
+                - listitem [ref=e168]:
+                  - paragraph [ref=e169]: "克罗恩病(Crohn disease): APPROPRIATE - 甲氨蝶呤、英夫利西单抗、阿达木单抗是标准治疗，美沙拉秦在克罗恩病中使用有争议但非禁忌。"
+                - listitem [ref=e170]:
+                  - paragraph [ref=e171]: "肠易激综合征(IBS): APPROPRIATE - 利福昔明用于腹泻型IBS，双环维林解痉，车前子和聚卡波非调整粪便。"
+                - listitem [ref=e172]:
+                  - paragraph [ref=e173]: "便秘(constipation): PARTIALLY - 甲基纳曲酮用于阿片性便秘，多库酯钠为软化剂，但氧化镁一般不作为一线推荐，且氢氧化镁与氧化镁重复。"
+                - listitem [ref=e174]:
+                  - paragraph [ref=e175]: "肝炎(hepatitis): APPROPRIATE - 替诺福韦、拉米夫定、索磷布韦、替比夫定分别针对乙肝和丙肝的抗病毒药物。"
+                - listitem [ref=e176]:
+                  - paragraph [ref=e177]: "抑郁症(major depressive disorder): PARTIALLY - 阿米替林、去甲替林、地昔帕明为三环类抗抑郁药，安非他酮适当，但缺少一线SSRI选择，三环类并非首发一线。"
+                - listitem [ref=e178]:
+                  - paragraph [ref=e179]: "焦虑症(anxiety disorder): PARTIALLY - 文拉法辛适当，但阿普唑仑仅短期用，阿立哌唑为抗精神病药非核心焦虑治疗，整体缺少一线SSRI/SNRI。"
+                - listitem [ref=e180]:
+                  - paragraph [ref=e181]: "分簇性头痛(cluster headache): APPROPRIATE - 所列麦角胺类制剂和锂盐均为丛集性头痛的急性或预防用药。"
+                - listitem [ref=e182]:
+                  - paragraph [ref=e183]: "帕金森病(Parkinson disease): APPROPRIATE - 司来吉兰、雷沙吉兰为MAO-B抑制剂，恩他卡朋、托卡朋为COMT抑制剂，均合理。"
+                - listitem [ref=e184]:
+                  - paragraph [ref=e185]: "多动症(ADHD): PARTIALLY - 可乐定、安非他酮可用于二线，维罗沙嗪适当，但右哌甲酯复合剂适当，整体缺乏一线哌甲酯或安非他明制剂。"
+                - listitem [ref=e186]:
+                  - paragraph [ref=e187]: "惊恐障碍(panic disorder): PARTIALLY - 文拉法辛适当，但阿普唑仑和氯氮卓均为苯二氮䓬类，长期使用有依赖风险，缺少帕罗西汀等一线药物。"
+                - listitem [ref=e188]:
+                  - paragraph [ref=e189]: "社交焦虑(social anxiety): PARTIALLY - 西酞普兰和文拉法辛适当，阿立哌唑非标准治疗，同样缺少明确一线SSRI或SNRI如舍曲林、文拉法辛缓释。"
+                - listitem [ref=e190]:
+                  - paragraph [ref=e191]: "支气管炎(bronchitis): INAPPROPRIATE - 洛美沙星、磺胺甲噁唑、泰利霉素均为抗菌药尤其是已退市/限制类，支气管炎多为病毒性，不应常规用抗生素。"
+                - listitem [ref=e192]:
+                  - paragraph [ref=e193]: "感冒(common cold): INAPPROPRIATE - 所列头孢菌素类抗生素对病毒性感冒无适应症，完全不当。"
+                - listitem [ref=e194]:
+                  - paragraph [ref=e195]: "胆囊炎(cholecystitis): INAPPROPRIATE - 所列均为质子泵抑制剂，用于消化性溃疡，对胆囊炎无治疗作用，需抗感染或手术。"
+                - listitem [ref=e196]:
+                  - paragraph [ref=e197]: "胆结石(cholelithiasis): INAPPROPRIATE - 同样为质子泵抑制剂，对胆结石无治疗效果。"
+                - listitem [ref=e198]:
+                  - paragraph [ref=e199]: "阿尔茨海默病(Alzheimer disease): PARTIALLY - 阿杜卡努单抗有条件获批但争议大，维生素E非标准核心治疗，缺少胆碱酯酶抑制剂等。"
+                - listitem [ref=e200]:
+                  - paragraph [ref=e201]: "强迫症(OCD): PARTIALLY - 帕罗西汀和氯米帕明是标准治疗，但普萘洛尔为非一线，奈法唑酮因肝毒性基本不用。"
+                - listitem [ref=e202]:
+                  - paragraph [ref=e203]: "尿路结石(urinary calculi): INAPPROPRIATE - 别嘌醇仅用于尿酸结石预防，而头孢类抗生素对结石无治疗作用，完全不当。"
+                - listitem [ref=e204]:
+                  - paragraph [ref=e205]: "代谢综合征(metabolic syndrome): PARTIALLY - 所列ARB和ACEI为降压药，仅适用于组分中的高血压，并非全面针对代谢综合征的整体治疗。"
+                - listitem [ref=e206]:
+                  - paragraph [ref=e207]: "肠炎(enteritis): INAPPROPRIATE - 所列均为炎症性肠病(溃疡性结肠炎/克罗恩病)用药，对一般感染性肠炎完全不适当。"
+                - listitem [ref=e208]:
+                  - paragraph [ref=e209]: "低血压(hypotension): PARTIALLY - 去甲肾上腺素和氟氢可的松用于重症或体位性低血压恰当，但卡托普利和厄贝沙坦为降压药，禁忌。"
+            - generic [ref=e210]: 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+          - generic [ref=e212]:
+            - button [ref=e213] [cursor=pointer]:
+              - img [ref=e216]
+            - button [ref=e218] [cursor=pointer]:
+              - img [ref=e221]
+            - button [ref=e223] [cursor=pointer]:
+              - img [ref=e226]
+            - button [ref=e228] [cursor=pointer]:
+              - img [ref=e231]
+            - button [ref=e233] [cursor=pointer]:
+              - img [ref=e236]
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e132]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e133]:
+            - button "深度思考" [ref=e134] [cursor=pointer]:
+              - img [ref=e136]
+              - generic [ref=e139]: 深度思考
+            - button "智能搜索" [pressed] [ref=e140] [cursor=pointer]:
+              - img [ref=e142]
+              - generic [ref=e144]: 智能搜索
+            - generic [ref=e145]:
+              - button [ref=e146] [cursor=pointer]:
+                - img [ref=e149]
+              - button [disabled] [ref=e152] [cursor=pointer]:
+                - img [ref=e238]
+        - generic [ref=e157]: 内容由 AI 生成，请仔细甄别

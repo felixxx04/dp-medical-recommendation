@@ -1,0 +1,65 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e88]:
+      - generic [ref=e90]:
+        - generic [ref=e91] [cursor=pointer]: 新对话
+        - generic [ref=e92]:
+          - img [ref=e94]
+          - generic [ref=e96]: 专家模式
+      - button [ref=e97] [cursor=pointer]:
+        - img [ref=e100]
+    - generic [ref=e103]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e108]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 呕吐 | Dexamethasone; Lorazepam; Metoclopramide; Meclizine; Prochlorperazine 疾病: 咳嗽 | Dexamethasone; Diphenhydramine; Benzonatate; Hydrocodone; Codeine 疾病: 咽炎 | Amoxicillin; Azithromycin; Ceftibuten; Loracarbef; cefuroxime 疾病: 哮喘 | Dexamethasone; Epinephrine; Formoterol; Methylprednisolone; Mometasone 疾病: 嗓子疼 | Amoxicillin; Azithromycin; Cefaclor; Cefadroxil; Cefdinir 疾病: 坐骨神经痛 | Aspirin; Amitriptyline; Baclofen; Carbamazepine; Carisoprodol 疾病: 外周动脉疾病 | Clopidogrel; Amlodipine; alprostadil; Amlodipine-Benazepril; Amlodipine-Valsartan 疾病: 多动症 | Clonidine; Alprazolam; viloxazine; dexmethylphenidate; Methylphenidate 疾病: 多囊卵巢综合征 | Metformin; Canagliflozin; Spironolactone; Clomiphene; Flutamide 疾病: 失眠 | Alprazolam; Amitriptyline; Chlordiazepoxide; Clonazepam; Clorazepate 疾病: 头痛 | Cyclobenzaprine; Amitriptyline; Diclofenac; Etodolac; Flurbiprofen 疾病: 子宫内膜异位症 | Goserelin; Cimetidine; Dexlansoprazole; Esomeprazole; Famotidine 疾病: 宫颈炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Cefaclor; Cefadroxil 疾病: 寄生虫感染 | Paromomycin; Albendazole; Ivermectin; Mebendazole; Praziquantel 疾病: 尿失禁 | oxybutynin(oral); Amikacin; oxybutynin(transdermal); flavoxate; darifenacin 疾病: 尿路感染 | Amikacin; Fosfomycin; acetohydroxamic acid; Phenazopyridine; Gentamicin 疾病: 尿路结石 | Allopurinol; Colchicine; Diclofenac; Etodolac; Flurbiprofen 疾病: 帕金森病 | Selegiline; Alprazolam; Rasagiline; Entacapone; Tolcapone 疾病: 带状疱疹 | Valacyclovir; Amitriptyline; acyclovir(oral); Acyclovir; Famciclovir 疾病: 带状疱疹后神经痛 | Gabapentin; Amitriptyline; lidocaine topical; lidocaine(topical); Capsaicin+Lidocaine 疾病: 干眼症 | Fluorometholone; Cetirizine; Brimonidine; Brinzolamide; Latanoprost 疾病: 强直性脊柱炎 | Diclofenac; Aspirin; Golimumab; Indomethacin; Naproxen 疾病: 强迫症 | Alprazolam; Aripiprazole; Bupropion; Buspirone; Chlordiazepoxide 疾病: 心力衰竭 | Amlodipine-Valsartan; Benazepril; Bumetanide; Canagliflozin; Candesartan 疾病: 心律失常 | Bisoprolol; Carvedilol; Diltiazem; Dofetilide; Esmolol 疾病: 心房颤动 | Apixaban; Bisoprolol; Verapamil; Rivaroxaban; verapamil(oral/injection) 疾病: 心梗 | Captopril; Amlodipine-Valsartan; Prasugrel; Ticagrelor; Eptifibatide 疾病: 心绞痛 | Amlodipine; Amlodipine-Valsartan; Bisoprolol; Bisoprolol-HCTZ; Carvedilol 疾病: 心肌梗死 | Captopril; Amlodipine-Valsartan; Prasugrel; Ticagrelor; Eptifibatide 疾病: 心肌病 | Amlodipine-Valsartan; Benazepril; Bumetanide; Canagliflozin; Candesartan 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e111]:
+            - button [ref=e112] [cursor=pointer]:
+              - img [ref=e115]
+            - button [ref=e117] [cursor=pointer]:
+              - img [ref=e120]
+        - generic [ref=e124]:
+          - generic [ref=e126] [cursor=pointer]:
+            - img [ref=e128]
+            - generic [ref=e131]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e133]
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: 我们被要求评估每个疾病对应的药物推荐是否适当。需要给出评分和简要理由，以表格形式输出。我将逐一分析。
+            - paragraph [ref=e141]: "疾病: 呕吐 | Dexamethasone; Lorazepam; Metoclopramide; Meclizine; Prochlorperazine"
+            - list [ref=e142]:
+              - listitem [ref=e143]:
+                - paragraph [ref=e144]: "Dexamethasone: 皮质类固醇，用于化疗引起的呕吐（与5-HT3拮抗剂联用）或脑水肿引起的呕吐等。但不是一线常规止吐药。在化疗止吐中可用。对于一般呕吐，不是首选。不过在某些指南中，地塞米松用于预防术后恶心呕吐。可以视为适当，但不是所有呕吐都需要。"
+              - listitem [ref=e145]:
+                - paragraph [ref=e146]: "Lorazepam: 苯二氮卓类，用于预期性呕吐（化疗前焦虑引起），或作为止吐辅助。并非标准止吐药，但用于特定情况。"
+              - listitem [ref=e147]:
+                - paragraph [ref=e148]: "Metoclopramide: 多巴胺拮抗"
+      - generic [ref=e150]:
+        - generic [ref=e153]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e155]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e156]:
+            - button "深度思考" [pressed] [ref=e157] [cursor=pointer]:
+              - img [ref=e159]
+              - generic [ref=e162]: 深度思考
+            - button "智能搜索" [pressed] [ref=e163] [cursor=pointer]:
+              - img [ref=e165]
+              - generic [ref=e167]: 智能搜索
+            - generic [ref=e168]:
+              - button [ref=e169] [cursor=pointer]:
+                - img [ref=e172]
+              - button [ref=e175] [cursor=pointer]:
+                - img [ref=e178]
+        - generic [ref=e180]: 内容由 AI 生成，请仔细甄别

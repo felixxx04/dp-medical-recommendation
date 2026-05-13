@@ -1,0 +1,54 @@
+[
+  {
+    "disease": "前列腺炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胃酸反流",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "反酸",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "鼻窦炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胰腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "焦虑不安",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "细菌性结膜炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "细菌性皮肤感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "细菌性尿路感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "双相情感障碍",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "躁郁症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "细菌性鼻窦炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "腺癌",
+    "rating": "APPROPRIATE"
+  }
+]

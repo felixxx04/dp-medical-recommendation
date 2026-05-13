@@ -1,0 +1,208 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e197] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e198]: 新对话
+          - button [ref=e199]:
+            - img [ref=e203]
+        - link "药物交互列表生成" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e36]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e38]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e40]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e41] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e42]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e44]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e46]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e48]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e50]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e52]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e54]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e56]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e58]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e60]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e62]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e64]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e66]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e68]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e70]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e72]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e74]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e76]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e78]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e80]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e82]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e84]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e86]: HIV药物禁忌症生成
+      - generic [ref=e87]:
+        - generic [ref=e88]: 昨天
+        - link "药物禁忌症列表生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e90]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e92]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e94]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e96]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e98]: 药物适应症列表生成
+      - generic [ref=e99]:
+        - generic [ref=e100]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e102]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e104]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e106]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e108]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e110]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e112]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e114]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e116]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e118]: 生成数据训练请求
+    - generic [ref=e120] [cursor=pointer]:
+      - img [ref=e123]
+      - generic [ref=e126]: 132******38
+      - img [ref=e128]
+  - generic [ref=e133]:
+    - generic [ref=e207]:
+      - generic [ref=e209]:
+        - generic [ref=e210] [cursor=pointer]: 新对话
+        - generic [ref=e211]:
+          - img [ref=e213]
+          - generic [ref=e215]: 专家模式
+      - button [ref=e216] [cursor=pointer]:
+        - img [ref=e219]
+    - generic [ref=e222]:
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - generic [ref=e227]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: dexamethasone (injection) | 类别: Glucocorticoids | 适应症: inflammatory conditions|allergic reactions|asthma|adrenal insufficiency|rheumatoid arthritis|systemic lupus erythematosus|multiple sclerosis exacerbation|cerebral edema|severe allergic reactions|nausea and vomiting from chemotherapy|covid-19 (severe) | 妊娠分级: C dyphylline and guaifenesin | 类别: Antiasthmatic combinations | 适应症: asthma|bronchitis|expectorant | 妊娠分级: C Ipratropium Inhalation Aerosol | 类别: Anticholinergic bronchodilators | 适应症: chronic obstructive pulmonary disease|asthma | 妊娠分级: B reslizumab | 类别: Interleukin inhibitors | 适应症: severe eosinophilic asthma | 妊娠分级: N salbutamol Brand names: Ventolin, Airomir, Asthalin, Asmatol, Azmasol, SalAir, Salamol, Respigen | 类别: Adrenergic bronchodilators | 适应症: asthma|bronchospasm|chronic obstructive pulmonary disease|prevention of exercise-induced bronchospasm | 妊娠分级: N aripiprazole (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|irritability associated with autistic disorder|tourette's syndrome|major depressive disorder (adjunct) | 妊娠分级: C cariprazine | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: N lumateperone | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar depression | 妊娠分级: N olanzapine and samidorphan | 类别: Psychotherapeutic combinations | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: N quetiapine Brand names: Seroquel, Seroquel XR | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder (manic and depressive episodes)|adjunctive treatment for major depressive disorder|generalized anxiety disorder|insomnia|post-traumatic stress disorder | 妊娠分级: C divalproex sodium | 类别: Fatty acid derivative anticonvulsants | 适应症: seizures|bipolar disorder|migraine prophylaxis | 妊娠分级: D olanzapine (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|major depressive disorder (adjunct) | 妊娠分级: C asenapine (sublingual) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: C carbamazepine (oral) | 类别: Dibenzazepine anticonvulsants | 适应症: seizures|trigeminal neuralgia|bipolar disorder | 妊娠分级: D ziprasidone (oral/injection) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder|agitation | 妊娠分级: C fluoxetine and olanzapine | 类别: Psychotherapeutic combinations | 适应症: bipolar depression|treatment-resistant depression | 妊娠分级: C valproic acid (oral/injection) | 类别: Fatty acid derivative anticonvulsants | 适应症: seizures|bipolar disorder|migraine prophylaxis | 妊娠分级: D levetiracetam (oral/injection) | 类别: Pyrrolidine anticonvulsants | 适应症: partial onset seizures|generalized tonic-clonic seizures|myoclonic seizures | 妊娠分级: C lamotrigine (oral route) | 类别: Triazine anticonvulsants | 适应症: seizures|bipolar i disorder | 妊娠分级: C paliperidone (oral) | 类别: Atypical antipsychotics | 适应症: schizophrenia|schizoaffective disorder | 妊娠分级: C risperidone (injection) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder | 妊娠分级: C aripiprazole (oral with sensor) | 类别: Atypical antipsychotics | 适应症: schizophrenia|bipolar i disorder (manic and mixed episodes)|adjunctive treatment for major depressive disorder|irritability associated with autistic disorder|tourette syndrome | 妊娠分级: C olanzapine (intramuscular route) | 类别: Atypical antipsychotics | 适应症: agitation associated with schizophrenia|agitation associated with bipolar i disorder | 妊娠分级: C guaifenesin | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C azithromycin (oral/injection) | 类别: Macrolides | 适应症: community-acquired pneumonia|pharyngitis|skin and soft tissue infection|urethritis|mycobacterium avium complex infection|trachoma|acute otitis media | 妊娠分级: B levofloxacin (oral) | 类别: Quinolones | 适应症: community-acquired pneumonia|sinusitis|urinary tract infection|prostatitis|skin and soft tissue infection|acute exacerbation of chronic bronchitis|plague | 妊娠分级: C amoxicillin and clavulanate potassium | 类别: Beta-lactamase inhibitors | 适应症: otitis media|sinusitis|community-acquired pneumonia|urinary tract infection|skin and soft tissue infection | 妊娠分级: B ciprofloxacin (oral) | 类别: Quinolones | 适应症: urinary tract infection|infectious diarrhea|bone and joint infection|anthrax|typhoid fever|chronic bacterial prostatitis | 妊娠分级: C cefuroxime (oral/injection) | 类别: Second generation cephalosporins | 适应症: pharyngitis|otitis media|sinusitis|community-acquired pneumonia|skin and soft tissue infection|urinary tract infection|lyme disease | 妊娠分级: B moxifloxacin (oral/injection) | 类别: Quinolones | 适应症: community-acquired pneumonia|sinusitis|acute exacerbation of chronic bronchitis|skin and soft tissue infection|intra-abdominal infection|plague | 妊娠分级: C erythromycin (oral/injection) | 类别: Macrolides | 适应症: respiratory tract infection|skin and soft tissue infection|chlamydia infection|diphtheria|pertussis|legionnaires' disease | 妊娠分级: B ceftriaxone (injection) | 类别: Third generation cephalosporins | 适应症: meningitis|community-acquired pneumonia|skin and soft tissue infection|urinary tract infection|gonorrhea|pelvic inflammatory disease|sepsis | 妊娠分级: B amoxicillin (oral route) | 类别: Aminopenicillins | 适应症: pharyngitis|sinusitis|community-acquired pneumonia|urinary tract infection|acute otitis media | 妊娠分级: B beclomethasone inhalation | 类别: Inhaled corticosteroids | 适应症: asthma | 妊娠分级: C ciprofloxacin (injection) | 类别: Quinolones | 适应症: serious bacterial infection|sepsis|lower respiratory tract infection|complicated urinary tract infection|bone and joint infection | 妊娠分级: C amoxicillin and clavulanate (oral route) | 类别: Beta-lactamase inhibitors | 适应症: otitis media|sinusitis|community-acquired pneumonia|urinary tract infection|skin and soft tissue infection | 妊娠分级: B erythromycin (oral) | 类别: Macrolides | 适应症: respiratory tract infection|skin and soft tissue infection|chlamydia infection|diphtheria|pertussis | 妊娠分级: B guaifenesin (oral route) | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C ampicillin (oral) | 类别: Aminopenicillins | 适应症: urinary tract infection|meningitis|respiratory tract infection|salmonellosis | 妊娠分级: B cough and cold combinations (oral route) | 类别: Expectorants | 适应症: cough|nasal congestion|sinus pressure | 妊娠分级: C erythromycin (oral route) | 类别: Macrolides | 适应症: respiratory tract infection|skin and soft tissue infection|chlamydia infection|diphtheria|pertussis | 妊娠分级: B erythromycin (intravenous route) | 类别: Macrolides | 适应症: severe bacterial infection|legionnaires' disease | 妊娠分级: B ofloxacin (oral) | 类别: Quinolones | 适应症: urinary tract infection|prostatitis|acute exacerbation of chronic bronchitis | 妊娠分级: C gemifloxacin | 类别: Quinolones | 适应症: community-acquired pneumonia|acute exacerbation of chronic bronchitis | 妊娠分级: C Guaifenesin Liquid | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C Guaifenesin Tablets | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C Guaifenesin Granules | 类别: Expectorants | 适应症: chest congestion|cough | 妊娠分级: C cefuroxime (injection route, intravenous route) | 类别: Second generation cephalosporins | 适应症: serious bacterial infection|sepsis|meningitis | 妊娠分级: B moxifloxacin (intravenous route) | 类别: Quinolones | 适应症: serious bacterial infection|community-acquired pneumonia|complicated skin and skin structure infection|plague | 妊娠分级: C imipenem and cilastatin | 类别: Carbapenems | 适应症: serious bacterial infection|intra-abdominal infection|lower respiratory tract infection|complicated urinary tract infection|sepsis | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e230]:
+            - button [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+            - button [ref=e236] [cursor=pointer]:
+              - img [ref=e239]
+        - generic [ref=e243]:
+          - generic [ref=e245] [cursor=pointer]:
+            - img [ref=e247]
+            - generic [ref=e250]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e252]
+          - generic [ref=e258]:
+            - paragraph [ref=e259]: 我们被要求以临床药学专家的身份，为给定的每种药物列出重要的药物相互作用（major和moderate），并输出JSON。输入药物列表非常长，包含多种药物，有些是重复的或不同剂型（如口服、注射等），但需要为每个输入的药物项生成一个条目，即使药物成分相同但不同商品名或不同剂型，也要分别列出吗？注意输入列表中包括了许多重复的药物名称但可能因剂型或品牌名而分开列出。要求输出JSON格式，每个药物一个对象，包含"generic_name"和"interactions"。即使药物重复，我也要为每个条目生成一个对象。但是，可能会非常冗长。请注意，有些药物是复合制剂，如 "fluoxetine and olanzapine"，需要列出每个成分的交互。还有 "olanzapine and samidorphan"。对于组合药物，需要列出每个成分的交互，可能是将所有交互合并列出？指令说：“对于组合药物,列出每个成分的交互”，意味着应该包含每个成分相关的交互。可能在一个 interactions 数组中列出所有交互，无论是哪个成分的。
+            - paragraph [ref=e291]: 另外，有些药物是相同的活性成分但不同给药途径，例如 "guaifenesin" 出现了多次："guaifenesin", "guaifenesin (oral route)", "Guaifenesin Liquid", "Guaifenesin Tablets", "Guaifenesin Granules"。还有 "cough and cold combinations (oral route)" 这个分类比较模糊，可能需要处理为含有多种成分（如抗组胺药、减充血剂等），但它是类别为 Expectorants，可能指的是含愈创甘油醚的复方感冒药？但用户输入的是 "cough and cold combinations (oral route)"，作为药物名称，需要为其生成交互。我将把它当作一个含愈创甘油醚和其他可能的成分的复方，但交互主要集中在愈创甘油醚上？也可能包括其他常见感冒药交互。但为了简化，我会根据愈创甘油醚来生成交互。同样，"dyphylline and guaifenesin" 是组合，需要处理两种成分。
+            - paragraph [ref=e292]: 考虑到输出 JSON 的庞大规模，我需要为每个药物生成一个合理数量的交互（major 和 moderate）。必须使用通用药物类别名，如 "warfarin", "MAO inhibitors", "CYP3A4 inhibitors" 等，并且每个交互包含 drug_a, drug_b, interaction_type, clinical_effect, mechanism。drug_a 是当前药物名称（应使用输入中给定的名称，如 "dexamethasone (injection)"），drug_b 是交互药物名称（使用通用类别名或具体药物名，要求是“通用药物类别名”，但例子中既有 "vitamin A supplements" 这样的组，也有 "tetracycline antibiotics" 类别。似乎可以使用类别名，如 "warfarin" 是个体药，但warfarin属于抗凝药，但例子用 "warfarin"。要求说：“使用通用药物类别名,如 "warfarin", "MAO inhibitors", "CYP3A4 inhibitors"”，那么对于具体的药物类别，我们可以用类别名。我会遵循此规则。
+            - paragraph [ref=e293]: 我需要为每个药物想出重要的交互。由于药物种类很多，我将按类别处理，覆盖主要的。为了满足要求，我可能会为每个药物提供5-10个交互。但要节省输出长度，可以适当提供几个主要交互。我会确保 major 和 moderate 都有。
+            - paragraph [ref=e294]: 先从糖皮质激素地塞米松开始。
+            - list [ref=e295]:
+              - listitem [ref=e296]:
+                - paragraph [ref=e297]: "dexamethasone (injection): Glucocorticoids. Interactions: CYP3A4 inducers (rifampin, phenytoin) decrease dexamethasone levels, moderate; CYP3A4 inhibitors (ketoconazole, clarithromycin) increase levels, moderate; anticoagulants (warfarin) can increase or decrease anticoagulant effect, moderate; NSAIDs increase GI bleeding risk, major? Moderate? Actually concomitant use of corticosteroids and NSAIDs increases risk of GI ulceration, moderate/major. 糖尿病药物: dexamethasone increases blood glucose, decreasing hypoglycemics effect, moderate. Vaccines (live) - risk of infection, major. Fluoroquinolones increase tendon rupture risk, moderate. 等等。我将列出 major 和 moderate。"
+              - listitem [ref=e298]:
+                - paragraph [ref=e299]: "dyphylline and guaifenesin: dyphylline is a xanthine bronchodilator (like theophylline), guaifenesin expectorant. Interactions for dyphylline: similar to theophylline. Major with fluvoxamine, ciprofloxacin? Theophylline toxicity. Actually dyphylline is not metabolized by CYP1A2 like theophylline, so less interactions. But still caution. I'll list some moderate interactions: beta blockers may antagonize bronchodilation, moderate. Adenosine: methylxanthines antagonize adenosine effects, moderate. Seizure threshold lowering with quinolones? Possibly. Guaifenesin has no significant interactions. So I'll combine."
+              - listitem [ref=e300]:
+                - paragraph [ref=e301]: "Ipratropium inhalation: anticholinergic. Additive anticholinergic effects with other anticholinergics (antihistamines, tricyclic antidepressants), moderate. Not much major."
+              - listitem [ref=e302]:
+                - paragraph [ref=e303]: "reslizumab: IL-5 inhibitor, biologic. No classic drug interactions because it's a monoclonal antibody. However, with live vaccines: avoid live vaccines, moderate. Corticosteroids: not direct interactions. So I'll state no major/moderate interactions? Must list some. Possibly with immunosuppressants increasing infection risk? But it's not a drug interaction. I'll mention live vaccines: major (risk of infection). Or no significant interactions. I'll include \"Live vaccines\" moderate/major."
+              - listitem [ref=e304]:
+                - paragraph [ref=e305]: "salbutamol: Adrenergic bronchodilators. Interactions: Beta blockers (non-selective) antagonize, major in asthmatics (bronchospasm). MAO inhibitors increase tachycardia risk? moderate. Diuretics (hypokalemia), moderate. Theophylline enhances hypokalemia, moderate. QT prolonging agents? salbutamol can cause QT prolongation but not major. I'll list."
+              - listitem [ref=e306]:
+                - paragraph [ref=e307]: "Aripiprazole: antipsychotic. Metabolized by CYP2D6 and CYP3A4. Major: strong CYP2D6 inhibitors (fluoxetine, paroxetine) increase aripiprazole levels and risk of QT prolongation; moderate: CYP3A4 inducers (carbamazep"
+      - generic [ref=e260]:
+        - generic [ref=e263]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e265]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e266]:
+            - button "深度思考" [ref=e267] [cursor=pointer]:
+              - img [ref=e269]
+              - generic [ref=e272]: 深度思考
+            - button "智能搜索" [ref=e273] [cursor=pointer]:
+              - img [ref=e275]
+              - generic [ref=e277]: 智能搜索
+            - generic [ref=e278]:
+              - button [ref=e279] [cursor=pointer]:
+                - img [ref=e282]
+              - button [ref=e285] [cursor=pointer]:
+                - img [ref=e288]
+        - generic [ref=e290]: 内容由 AI 生成，请仔细甄别

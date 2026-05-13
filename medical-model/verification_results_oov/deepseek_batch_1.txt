@@ -1,0 +1,22 @@
+For each disease below, evaluate whether the recommended drugs are medically appropriate for treating that disease. Answer with: APPROPRIATE / PARTIALLY / INAPPROPRIATE, and briefly explain why.
+
+1. Disease: "bacterial infection"
+   System recommended: Amikacin, Cefotaxime, Echinacea, Loracarbef
+   Verdict:
+
+2. Disease: "intra-abdominal infection"
+   System recommended: Amikacin, Cefotaxime, Echinacea, Loracarbef
+   Verdict:
+
+3. Disease: "neuropathic pain"
+   System recommended: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen
+   Verdict:
+
+4. Disease: "cluster headache"
+   System recommended: Cyclobenzaprine, Lisinopril, Diclofenac, Mefenamic Acid
+   Verdict:
+
+5. Disease: "primary dysmenorrhea"
+   System recommended: Naproxen, Diclofenac, Mefenamic Acid, Etodolac
+   Verdict:
+

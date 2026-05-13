@@ -1,0 +1,1588 @@
+[
+  {
+    "generic_name": "chlorpheniramine, ibuprofen, and pseudoephedrine",
+    "interactions": [
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "anticoagulants (e.g., warfarin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加严重胃肠道出血风险",
+        "mechanism": "抗血小板作用叠加及胃黏膜损伤"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "other NSAIDs (including aspirin)",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡及出血风险",
+        "mechanism": "药效学协同及胃黏膜保护机制抑制"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "SSRI/SNRI antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "血小板功能抑制叠加及5-HT再摄取抑制影响血小板聚集"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "ACE inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾损伤风险",
+        "mechanism": "前列腺素合成抑制导致肾灌注减少及血压调控拮抗"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，增加肾损伤风险",
+        "mechanism": "前列腺素合成抑制导致肾灌注减少及血压调控拮抗"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "loop diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低利尿和降压效果，增加肾毒性风险",
+        "mechanism": "肾前列腺素介导的利尿作用受抑制"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "potassium-sparing diuretics",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加高钾血症风险",
+        "mechanism": "肾前列腺素抑制减少肾素释放，继发醛固酮减少"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "竞争性减少甲氨蝶呤肾小管分泌"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "lithium",
+        "interaction_type": "major",
+        "clinical_effect": "增加锂血药浓度及毒性",
+        "mechanism": "减少肾脏锂清除率"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象风险",
+        "mechanism": "伪麻黄碱释放去甲肾上腺素叠加MAO抑制减少儿茶酚胺降解"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "other sympathomimetics",
+        "interaction_type": "moderate",
+        "clinical_effect": "相加的心血管刺激作用(高血压、心动过速)",
+        "mechanism": "药效学协同作用"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "相互拮抗，可能导致血压升高",
+        "mechanism": "药效学拮抗及非选择性α受体激动对抗β阻断"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强拟交感神经效应(血压升高、心律失常)",
+        "mechanism": "抑制去甲肾上腺素再摄取导致受体部位浓度增加"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强中枢抑制(过度镇静、呼吸抑制风险)",
+        "mechanism": "药效学协同镇静作用"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗胆碱能副作用(便秘、尿潴留、视力模糊、意识混乱)",
+        "mechanism": "药效学协同叠加效应"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗胆碱能效应，延长镇静时间",
+        "mechanism": "肝代谢抑制导致氯苯那敏清除减少"
+      }
+    ]
+  },
+  {
+    "generic_name": "aspirin, chlorpheniramine, and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "aspirin",
+        "drug_b": "anticoagulants (e.g., warfarin, heparin)",
+        "interaction_type": "major",
+        "clinical_effect": "严重出血风险增加",
+        "mechanism": "抗血小板作用叠加及胃黏膜损伤"
+      },
+      {
+        "drug_a": "aspirin",
+        "drug_b": "other NSAIDs",
+        "interaction_type": "major",
+        "clinical_effect": "增加胃肠道溃疡和出血风险",
+        "mechanism": "协同抑制前列腺素合成及胃黏膜保护机制"
+      },
+      {
+        "drug_a": "aspirin",
+        "drug_b": "SSRI/SNRI antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "增加上消化道出血风险",
+        "mechanism": "血小板抑制与5-HT对血小板功能影响叠加"
+      },
+      {
+        "drug_a": "aspirin",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "增加甲氨蝶呤毒性(骨髓抑制、肾毒性)",
+        "mechanism": "减少肾小管分泌及蛋白结合置换"
+      },
+      {
+        "drug_a": "aspirin",
+        "drug_b": "ACE inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "降低降压效果，可能增加肾损伤",
+        "mechanism": "前列腺素合成抑制导致水钠潴留及血压调控拮抗"
+      },
+      {
+        "drug_a": "aspirin",
+        "drug_b": "oral hypoglycemics (sulfonylureas)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强降糖效应可能导致低血糖",
+        "mechanism": "蛋白结合置换及胰岛素敏感性增加"
+      },
+      {
+        "drug_a": "aspirin",
+        "drug_b": "systemic corticosteroids",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加胃肠道溃疡风险，降低水杨酸血浓度",
+        "mechanism": "协同胃黏膜损伤及皮质类固醇增加水杨酸肾清除"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "去氧肾上腺素代谢受抑导致血管收缩急剧增强"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强升压反应",
+        "mechanism": "抑制去甲肾上腺素再摄取导致拟交感效应增强"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压升高及心率反射性下降",
+        "mechanism": "非对抗α1受体激动导致单纯α效应"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "ergot alkaloids",
+        "interaction_type": "major",
+        "clinical_effect": "严重血管痉挛、肢体缺血风险",
+        "mechanism": "协同血管收缩效应"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静作用，可能导致呼吸抑制",
+        "mechanism": "药效学协同中枢抑制"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗胆碱能副作用(口干、便秘、尿潴留、意识模糊)",
+        "mechanism": "药效学叠加效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "chlorpheniramine and hydrocodone",
+    "interactions": [
+      {
+        "drug_a": "hydrocodone",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, other opioids)",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制、昏迷甚至死亡",
+        "mechanism": "药效学协同中枢神经系统及呼吸中枢抑制"
+      },
+      {
+        "drug_a": "hydrocodone",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "呼吸抑制、低血压、中枢神经系统过度抑制",
+        "mechanism": "阿片类药物代谢抑制及血清素能效应叠加"
+      },
+      {
+        "drug_a": "hydrocodone",
+        "drug_b": "CYP3A4 inhibitors (azole antifungals, clarithromycin)",
+        "interaction_type": "major",
+        "clinical_effect": "氢可酮血药浓度升高，增加呼吸抑制风险",
+        "mechanism": "CYP3A4代谢途径抑制"
+      },
+      {
+        "drug_a": "hydrocodone",
+        "drug_b": "muscle relaxants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强中枢抑制及呼吸肌松弛",
+        "mechanism": "药效学协同作用"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重抗胆碱能不良反应(肠梗阻、高热、意识混乱)",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "进一步加重镇静及精神运动功能损害",
+        "mechanism": "药效学协同作用"
+      }
+    ]
+  },
+  {
+    "generic_name": "diphenhydramine and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制风险增加",
+        "mechanism": "药效学协同中枢抑制"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "major",
+        "clinical_effect": "显著抗胆碱能毒性(严重便秘、尿潴留、高热、谵妄)",
+        "mechanism": "药效学叠加效应"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗胆碱能及镇静效应，作用延长",
+        "mechanism": "肝代谢抑制"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "去氧肾上腺素代谢受抑导致血管急剧收缩"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压显著升高",
+        "mechanism": "抑制去甲肾上腺素再摄取增强α1效应"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "ergot alkaloids",
+        "interaction_type": "major",
+        "clinical_effect": "严重外周缺血及坏疽风险",
+        "mechanism": "协同血管收缩"
+      }
+    ]
+  },
+  {
+    "generic_name": "dexbrompheniramine and pseudoephedrine",
+    "interactions": [
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静效应，导致嗜睡及精神运动功能障碍",
+        "mechanism": "药效学协同中枢抑制"
+      },
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能不良反应叠加(口干、眼干、便秘、尿潴留)",
+        "mechanism": "药效学叠加效应"
+      },
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强抗组胺效应，作用延长",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "伪麻黄碱释放去甲肾上腺素叠加MAO抑制"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压异常升高",
+        "mechanism": "药效学拮抗导致α效应无对抗"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强升压效应，心律失常风险",
+        "mechanism": "抑制去甲肾上腺素再摄取"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen/Chlorpheniramine/Dextromethorphan/Phenylephrine Caps & Tabs",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加INR及出血风险(高剂量对乙酰氨基酚时)",
+        "mechanism": "可能影响维生素K循环或凝血因子合成"
+      },
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "potent CYP2E1 inducers (alcohol, isoniazid)",
+        "interaction_type": "major",
+        "clinical_effect": "增加肝毒性风险，尤其在过量时",
+        "mechanism": "CYP2E1诱导增加有毒代谢产物NAPQI生成"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征风险(激动、高热、肌阵挛)",
+        "mechanism": "抑制血清素代谢，右美沙芬具有血清素能活性"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "SSRI/SNRI antidepressants",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征风险",
+        "mechanism": "血清素能效应叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压危象",
+        "mechanism": "单胺氧化酶抑制导致血管收缩剂蓄积"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "ergot alkaloids",
+        "interaction_type": "major",
+        "clinical_effect": "严重血管痉挛",
+        "mechanism": "协同血管收缩"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静作用",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗胆碱能副作用",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Chlorpheniramine, Dextromethorphan, Phenylephrine Liquid",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR升高及出血风险增加",
+        "mechanism": "干扰维生素K依赖的凝血因子"
+      },
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "alcohol (chronic use)",
+        "interaction_type": "major",
+        "clinical_effect": "肝毒性风险显著增加",
+        "mechanism": "CYP2E1诱导及谷胱甘肽耗竭"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征(精神状态改变、神经肌肉异常亢进)",
+        "mechanism": "减少血清素清除及右美沙芬的血清素再摄取抑制"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "SSRI/SNRI",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "协同血清素能效应"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "急性高血压发作",
+        "mechanism": "血管收缩剂清除减少"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静加重",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen, dextromethorphan, guaifenesin, and pseudoephedrine",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血风险增加",
+        "mechanism": "干扰凝血因子合成"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征风险",
+        "mechanism": "血清素能活性叠加"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "儿茶酚胺再摄取及降解双重受阻"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "tricyclic antidepressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压升高、心律失常",
+        "mechanism": "去甲肾上腺素再摄取抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Dextromethorphan, and Pseudoephedrine Capsules And Tablets",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗凝效应及出血风险",
+        "mechanism": "可能抑制维生素K依赖性凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素代谢抑制"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压",
+        "mechanism": "拟交感神经效应增强"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "beta-blockers",
+        "interaction_type": "moderate",
+        "clinical_effect": "血压控制不良",
+        "mechanism": "相互拮抗"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen, pheniramine, and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加抗凝过度及出血风险",
+        "mechanism": "干扰凝血因子"
+      },
+      {
+        "drug_a": "pheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能不良反应增加",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢抑制导致血管收缩增强"
+      }
+    ]
+  },
+  {
+    "generic_name": "Ibuprofen and Phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "anticoagulants (warfarin)",
+        "interaction_type": "major",
+        "clinical_effect": "严重出血风险",
+        "mechanism": "抗血小板作用及胃黏膜损伤"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "ACE inhibitors/ARBs",
+        "interaction_type": "moderate",
+        "clinical_effect": "降压效应减弱，肾损伤风险增加",
+        "mechanism": "前列腺素合成抑制"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "lithium",
+        "interaction_type": "major",
+        "clinical_effect": "锂中毒风险",
+        "mechanism": "肾清除减少"
+      },
+      {
+        "drug_a": "ibuprofen",
+        "drug_b": "methotrexate",
+        "interaction_type": "major",
+        "clinical_effect": "甲氨蝶呤毒性增加",
+        "mechanism": "肾小管分泌竞争"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢受阻"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Chlorpheniramine, and Phenylephrine Tablets",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR升高",
+        "mechanism": "干扰凝血因子合成"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用叠加",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压反应",
+        "mechanism": "血管收缩效应增强"
+      }
+    ]
+  },
+  {
+    "generic_name": "dexchlorpheniramine, dextromethorphan, and pseudoephedrine",
+    "interactions": [
+      {
+        "drug_a": "dexchlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能效应叠加"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "SSRI/SNRI",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征风险",
+        "mechanism": "协同作用"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "拟交感活性增强"
+      }
+    ]
+  },
+  {
+    "generic_name": "brompheniramine maleate",
+    "interactions": [
+      {
+        "drug_a": "brompheniramine",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强中枢抑制作用(嗜睡、呼吸抑制风险)",
+        "mechanism": "药效学协同中枢神经抑制"
+      },
+      {
+        "drug_a": "brompheniramine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重抗胆碱能不良反应(便秘、尿潴留、视力模糊、发热、意识混乱)",
+        "mechanism": "药效学叠加效应"
+      },
+      {
+        "drug_a": "brompheniramine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗组胺作用延长及增强",
+        "mechanism": "肝代谢酶抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "Camphor Cream and Ointment",
+    "interactions": []
+  },
+  {
+    "generic_name": "dextromethorphan and pyrilamine",
+    "interactions": [
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征风险",
+        "mechanism": "血清素能活性"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "SSRI/SNRI",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "协同效应"
+      },
+      {
+        "drug_a": "pyrilamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pyrilamine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用增加",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen/Chlorpheniramine/Dextromethorphan/Pseudoephedrine Liq & Syrup",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加INR及出血风险",
+        "mechanism": "干扰凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素毒性累积"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "儿茶酚胺蓄积"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静加重",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "Chlophedianol and Dexbrompheniramine",
+    "interactions": [
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能效应增强",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "Chlophedianol and Pyrilamine",
+    "interactions": [
+      {
+        "drug_a": "pyrilamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "中枢抑制增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pyrilamine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用增加",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "chlorpheniramine, phenylephrine, and pyrilamine",
+    "interactions": [
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pyrilamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能毒性风险",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Dextromethorphan, and Phenylephrine Capsules and Tablets",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血风险增加",
+        "mechanism": "影响凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能毒性"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "重症高血压",
+        "mechanism": "血管收缩不受控"
+      }
+    ]
+  },
+  {
+    "generic_name": "Dexchlorpheniramine, Dextromethorphan, and Pseudoephedrine Liquid",
+    "interactions": [
+      {
+        "drug_a": "dexchlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素蓄积"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "交感神经激活"
+      }
+    ]
+  },
+  {
+    "generic_name": "Phenylephrine/ Pyrilamine/ Dextromethorphan Syrup",
+    "interactions": [
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能毒性"
+      },
+      {
+        "drug_a": "pyrilamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "Triprolidine, Phenylephrine, and Dextromethorphan Syrup",
+    "interactions": [
+      {
+        "drug_a": "triprolidine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "血管收缩增强"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能效应叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen, dextromethorphan, and diphenhydramine",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR升高",
+        "mechanism": "凝血因子干扰"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能毒性"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静及呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "major",
+        "clinical_effect": "严重抗胆碱能不良反应(高热、梗阻、谵妄)",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "Dexbrompheniramine and Acetaminophen Caplets",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血风险增加",
+        "mechanism": "凝血因子合成障碍"
+      },
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "dexbrompheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用增加",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "doxylamine and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "doxylamine",
+        "drug_b": "CNS depressants (alcohol, benzodiazepines, opioids)",
+        "interaction_type": "major",
+        "clinical_effect": "严重中枢抑制、呼吸抑制",
+        "mechanism": "药效学协同镇静"
+      },
+      {
+        "drug_a": "doxylamine",
+        "drug_b": "other anticholinergic agents",
+        "interaction_type": "major",
+        "clinical_effect": "严重抗胆碱能综合征(高热、肠梗阻、意识混乱)",
+        "mechanism": "药效学叠加效应"
+      },
+      {
+        "drug_a": "doxylamine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "作用延长，严重抗胆碱能反应",
+        "mechanism": "肝代谢抑制"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "血管收缩剂蓄积"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "ergot alkaloids",
+        "interaction_type": "major",
+        "clinical_effect": "血管痉挛缺血",
+        "mechanism": "协同血管收缩"
+      }
+    ]
+  },
+  {
+    "generic_name": "guaifenesin, pseudoephedrine hydrochloride, dextromethorphan hydrobromide, and acetaminophen",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR升高，出血风险增加",
+        "mechanism": "干扰维生素K依赖性凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能活性累积"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "儿茶酚胺蓄积"
+      }
+    ]
+  },
+  {
+    "generic_name": "phenylephrine and promethazine",
+    "interactions": [
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压反应",
+        "mechanism": "代谢抑制及血管收缩剂蓄积"
+      },
+      {
+        "drug_a": "promethazine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重镇静及呼吸抑制",
+        "mechanism": "药效学协同中枢抑制"
+      },
+      {
+        "drug_a": "promethazine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "严重抗胆碱能不良反应",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "promethazine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "moderate",
+        "clinical_effect": "增强锥体外系及抗胆碱能效应",
+        "mechanism": "代谢抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "brompheniramine, codeine, and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "codeine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静、呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "codeine",
+        "drug_b": "CYP2D6 inhibitors (fluoxetine, paroxetine, bupropion)",
+        "interaction_type": "major",
+        "clinical_effect": "镇痛效果降低",
+        "mechanism": "抑制可待因代谢为活性代谢物吗啡"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "brompheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Diphenhydramine, and Phenylephrine Liquid",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加INR",
+        "mechanism": "凝血因子合成干扰"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重中枢抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "major",
+        "clinical_effect": "抗胆碱能中毒风险",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "血管收缩增强"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Chlorpheniramine, Dextromethorphan, Phenylephrine Suspension",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血倾向增加",
+        "mechanism": "影响凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能毒性"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢受阻"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "Camphor Inhalation Liquid",
+    "interactions": []
+  },
+  {
+    "generic_name": "acetaminophen and caffeine",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加INR及出血风险",
+        "mechanism": "干扰维生素K依赖性凝血因子"
+      },
+      {
+        "drug_a": "caffeine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象风险",
+        "mechanism": "抑制咖啡因代谢导致心血管过度刺激"
+      },
+      {
+        "drug_a": "caffeine",
+        "drug_b": "CYP1A2 inhibitors (fluvoxamine, ciprofloxacin)",
+        "interaction_type": "moderate",
+        "clinical_effect": "咖啡因毒性(心动过速、失眠、焦虑)",
+        "mechanism": "抑制咖啡因肝脏代谢"
+      },
+      {
+        "drug_a": "caffeine",
+        "drug_b": "theophylline",
+        "interaction_type": "moderate",
+        "clinical_effect": "增加茶碱副作用风险(恶心、震颤、惊厥)",
+        "mechanism": "协同腺苷受体拮抗及代谢竞争"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Chlorpheniramine, Dextromethorphan, and Guaifenesin",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗凝作用增强",
+        "mechanism": "干扰凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能活性"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静增强",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen, dextromethorphan, and triprolidine",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "出血风险",
+        "mechanism": "影响凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素蓄积"
+      },
+      {
+        "drug_a": "triprolidine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度麻醉效应",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "acetaminophen and dextromethorphan",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR升高，增加出血风险",
+        "mechanism": "干扰凝血因子合成"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征风险",
+        "mechanism": "血清素能效应"
+      }
+    ]
+  },
+  {
+    "generic_name": "pheniramine and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "pheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用增加",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢抑制"
+      }
+    ]
+  },
+  {
+    "generic_name": "Triprolidine and Pseudoephedrine Liquid",
+    "interactions": [
+      {
+        "drug_a": "triprolidine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "拟交感活性增强"
+      }
+    ]
+  },
+  {
+    "generic_name": "diphenhydramine hydrochloride and phenylephrine hydrochloride",
+    "interactions": [
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静，呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "diphenhydramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "major",
+        "clinical_effect": "抗胆碱能危象",
+        "mechanism": "药效学叠加"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "严重高血压",
+        "mechanism": "血管收缩剂蓄积"
+      }
+    ]
+  },
+  {
+    "generic_name": "carbetapentane and chlorpheniramine",
+    "interactions": [
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "moderate",
+        "clinical_effect": "抗胆碱能副作用增多",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "camphor and menthol topical",
+    "interactions": []
+  },
+  {
+    "generic_name": "chlophedianol, dexchlorpheniramine, and pseudoephedrine",
+    "interactions": [
+      {
+        "drug_a": "dexchlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "交感神经激活"
+      }
+    ]
+  },
+  {
+    "generic_name": "chlorcyclizine and phenylephrine",
+    "interactions": [
+      {
+        "drug_a": "chlorcyclizine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "血管收缩效应增强"
+      }
+    ]
+  },
+  {
+    "generic_name": "chlorpheniramine, phenylephrine, and phenyltoloxamine",
+    "interactions": [
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静增强",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "phenyltoloxamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "中枢抑制叠加",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "代谢受阻"
+      }
+    ]
+  },
+  {
+    "generic_name": "Chlorpheniramine, Pseudoephedrine, and Codeine Liquid",
+    "interactions": [
+      {
+        "drug_a": "codeine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静及呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "codeine",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "镇痛无效",
+        "mechanism": "代谢为吗啡受阻"
+      },
+      {
+        "drug_a": "pseudoephedrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "高血压危象",
+        "mechanism": "交感活性增加"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静作用增强",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "chlorpheniramine and codeine",
+    "interactions": [
+      {
+        "drug_a": "codeine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "codeine",
+        "drug_b": "CYP2D6 inhibitors (fluoxetine, paroxetine)",
+        "interaction_type": "major",
+        "clinical_effect": "镇痛作用丧失",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "chlorpheniramine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "过度镇静",
+        "mechanism": "药效学协同"
+      }
+    ]
+  },
+  {
+    "generic_name": "Acetaminophen, Dextromethorphan, and Doxylamine Liquid",
+    "interactions": [
+      {
+        "drug_a": "acetaminophen",
+        "drug_b": "warfarin",
+        "interaction_type": "moderate",
+        "clinical_effect": "INR升高及出血风险",
+        "mechanism": "影响凝血因子"
+      },
+      {
+        "drug_a": "dextromethorphan",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "血清素综合征",
+        "mechanism": "血清素能毒性"
+      },
+      {
+        "drug_a": "doxylamine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "深度镇静，呼吸抑制",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "doxylamine",
+        "drug_b": "anticholinergic agents",
+        "interaction_type": "major",
+        "clinical_effect": "严重抗胆碱能反应",
+        "mechanism": "药效学叠加"
+      }
+    ]
+  },
+  {
+    "generic_name": "codeine, phenylephrine, and triprolidine",
+    "interactions": [
+      {
+        "drug_a": "codeine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "major",
+        "clinical_effect": "严重中枢抑制，呼吸停止风险",
+        "mechanism": "药效学协同"
+      },
+      {
+        "drug_a": "codeine",
+        "drug_b": "CYP2D6 inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "镇痛失效",
+        "mechanism": "代谢抑制"
+      },
+      {
+        "drug_a": "phenylephrine",
+        "drug_b": "MAO inhibitors",
+        "interaction_type": "major",
+        "clinical_effect": "急性高血压",
+        "mechanism": "血管收缩增强"
+      },
+      {
+        "drug_a": "triprolidine",
+        "drug_b": "CNS depressants",
+        "interaction_type": "moderate",
+        "clinical_effect": "镇静增强",
+        "mechanism": "药效学协同"
+      }
+    ]
+  }
+]

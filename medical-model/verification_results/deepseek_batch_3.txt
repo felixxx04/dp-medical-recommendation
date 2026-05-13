@@ -1,0 +1,92 @@
+请评估以下6例用药推荐是否正确。对每例，回答：1)推荐药物是否匹配疾病适应症(正确/部分正确/错误) 2)是否有禁忌冲突 3)排序是否合理 4)如有错误应推荐什么
+
+【病例P0013】
+请评估以下用药推荐是否正确。
+患者疾病: back pain, gout, hypertension
+推荐药物:
+  氨氯地平-贝那普利 (Amlodipine-Benazepril) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  氨氯地平缬沙坦 (Amlodipine-Valsartan) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  贝那普利 (Benazepril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0
+  波生坦 (Bosentan) - 匹配疾病: 肺动脉高压, 适应症: pulmonary arterial hypertension, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0041】
+请评估以下用药推荐是否正确。
+患者疾病: bacterial conjunctivitis, diverticulitis of gastrointestinal tract, hypertension
+推荐药物:
+  氨氯地平 (Amlodipine) - 匹配疾病: 高血压, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0
+  氨氯地平缬沙坦 (Amlodipine-Valsartan) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  波生坦 (Bosentan) - 匹配疾病: 肺动脉高压, 适应症: pulmonary arterial hypertension, 分数: 1.0
+  布美他尼 (Bumetanide) - 匹配疾病: 高血压, 适应症: edema, heart failure, hypertension, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0211】
+请评估以下用药推荐是否正确。
+患者疾病: allergy, bacterial infections, gout
+推荐药物:
+  消炎痛 (Indomethacin) - 匹配疾病: 痛风, 适应症: fever, gout, headache, 分数: 1.0
+  美洛昔康 (Meloxicam) - 匹配疾病: 痛风, 适应症: gout, supportive, 分数: 1.0
+  头孢吡肟 (Cefepime) - 匹配疾病: bacterial skin infection, 适应症: bacterial skin infection, bacterial urinary tract infection, pneumonia, 分数: 1.0
+  美罗培南 (Meropenem) - 匹配疾病: 细菌性脑膜炎, 适应症: diverticulitis of gastrointestinal tract, intra-abdominal infection, meningitis, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0128】
+请评估以下用药推荐是否正确。
+患者疾病: atopic dermatitis, bacterial skin infection, hypertension
+推荐药物:
+  氨氯地平缬沙坦 (Amlodipine-Valsartan) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  布美他尼 (Bumetanide) - 匹配疾病: 高血压, 适应症: edema, heart failure, hypertension, 分数: 1.0
+  坎地沙坦 (Candesartan) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0
+  卡托普利 (Captopril) - 匹配疾病: 高血压, 适应症: heart failure, hypertension, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0011】
+请评估以下用药推荐是否正确。
+患者疾病: bacterial urinary tract infection, flatulence
+推荐药物:
+  头孢克洛 (Cefaclor) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+  头孢克肟 (Cefixime) - 匹配疾病: bacterial urinary tract infection, 适应症: bacterial urinary tract infection, common cold, otitis media, 分数: 1.0
+  头孢噻肟 (Cefotaxime) - 匹配疾病: 尿路感染, 适应症: bacterial infections, meningitis, pneumonia, 分数: 1.0
+  头孢泊肟 (Cefpodoxime) - 匹配疾病: 尿路感染, 适应症: common cold, otitis media, pharyngitis due to streptococcus pyogenes, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+
+【病例P0485】
+请评估以下用药推荐是否正确。
+患者疾病: benign prostatic hyperplasia, gout, hypertension
+推荐药物:
+  氨氯地平 (Amlodipine) - 匹配疾病: 高血压, 适应症: angina, hypercholesterolemia, hypertension, 分数: 1.0
+  氨氯地平-贝那普利 (Amlodipine-Benazepril) - 匹配疾病: 高血压, 适应症: hypertension, 分数: 1.0
+  氯噻酮 (Chlorthalidone) - 匹配疾病: 高血压, 适应症: edema, hypertension, 分数: 1.0
+  多沙唑嗪 (Doxazosin) - 匹配疾病: 前列腺增生, 适应症: bph, hypertension, 分数: 1.0
+
+请回答:
+1. 推荐药物是否匹配患者疾病适应症？（正确/部分正确/错误）
+2. 是否有禁忌冲突？
+3. 排序是否合理？
+4. 如果有错误，应该推荐什么药物？
+

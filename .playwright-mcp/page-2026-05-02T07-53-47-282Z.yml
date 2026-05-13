@@ -1,0 +1,353 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "智医荐药隐私保护 · 智能推荐" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: 智医荐药隐私保护 · 智能推荐
+      - button [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+  - main [ref=e13]:
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - img [ref=e27]
+        - paragraph [ref=e29]: 免责声明：本系统推荐结果由AI模型生成，仅供参考，不构成医疗诊断或处方建议。最终用药决策须由执业医师确认。
+      - generic [ref=e31]:
+        - img [ref=e33]
+        - generic [ref=e37]:
+          - heading "智能用药推荐" [level=1] [ref=e38]
+          - paragraph [ref=e39]: 基于深度学习模型的个性化用药建议，融合差分隐私保护技术
+          - generic [ref=e40]:
+            - generic [ref=e41]: DeepFM
+            - generic [ref=e42]: 注意力机制
+            - generic [ref=e43]: 图神经网络
+            - generic [ref=e44]: DP-SGD
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - generic [ref=e54]:
+              - heading "患者信息录入" [level=3] [ref=e55]
+              - paragraph [ref=e56]: 填写患者临床信息以获取个性化推荐
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - button "从档案选择" [ref=e59] [cursor=pointer]:
+                - img [ref=e60]
+                - text: 从档案选择
+              - button "手动填写" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - text: 手动填写
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - img [ref=e71]
+                - text: 患者档案
+              - combobox "患者档案" [ref=e76]:
+                - option "-- 选择已有患者（可选）--" [selected]
+                - option "11111 · 男 · 80岁 ·"
+                - option "李艳 · 女 · 79岁 ·"
+                - option "王刚 · 男 · 73岁 · 高血压、骨质疏松"
+                - option "陈玉 · 女 · 77岁 ·"
+                - option "肖飞 · 男 · 75岁 · 高血压、COPD"
+                - option "张霞 · 女 · 79岁 ·"
+                - option "文伟 · 男 · 73岁 · 高血压、糖尿病"
+                - option "龚雪 · 女 · 77岁 ·"
+                - option "赖刚 · 男 · 75岁 · 高血压、心力衰竭"
+                - option "贺琴 · 女 · 79岁 ·"
+                - option "乔辉 · 男 · 73岁 · 高血压、慢性肾病"
+                - option "武琳 · 女 · 77岁 ·"
+                - option "常飞 · 男 · 75岁 · 高血压、冠心病"
+                - option "易红 · 女 · 79岁 ·"
+                - option "黎涛 · 男 · 73岁 · 高血压、脑卒中后遗症"
+                - option "尹艳 · 女 · 77岁 · 高血压、骨质疏松"
+                - option "汤刚 · 男 · 75岁 · 高血压、冠心病"
+                - option "钱玉 · 女 · 79岁 ·"
+                - option "雷飞 · 男 · 73岁 · 高血压、COPD"
+                - option "段霞 · 女 · 77岁 · 高血压、骨质疏松"
+                - option "万伟 · 男 · 75岁 · 高血压、冠心病"
+                - option "龙琴 · 女 · 65岁 ·"
+                - option "孟辉 · 男 · 63岁 · 高血压"
+                - option "邵琳 · 女 · 67岁 ·"
+                - option "侯波 · 男 · 65岁 · 高血压、冠心病"
+                - option "顾艳 · 女 · 63岁 ·"
+                - option "史刚 · 男 · 67岁 ·"
+                - option "江红 · 女 · 65岁 ·"
+                - option "秦涛 · 男 · 63岁 · 高血压、2型糖尿病"
+                - option "邱玉 · 女 · 67岁 ·"
+                - option "毛飞 · 男 · 65岁 · 高血压"
+                - option "康霞 · 女 · 63岁 · 高血压、骨质疏松"
+                - option "崔伟 · 男 · 67岁 ·"
+                - option "白雪 · 女 · 65岁 ·"
+                - option "孔军 · 男 · 63岁 · 高血压、冠心病"
+                - option "郝琴 · 女 · 67岁 ·"
+                - option "陆辉 · 男 · 65岁 · 高血压"
+                - option "金艳 · 女 · 63岁 ·"
+                - option "熊刚 · 男 · 67岁 · 高血压、慢性肾病"
+                - option "邹琳 · 女 · 65岁 ·"
+                - option "谭涛 · 男 · 63岁 · 高血压"
+                - option "姚玉 · 女 · 67岁 ·"
+                - option "石飞 · 男 · 65岁 · 高血压、冠心病"
+                - option "方红 · 女 · 63岁 ·"
+                - option "范伟 · 男 · 67岁 · 高血压、脑卒中后遗症"
+                - option "姜霞 · 女 · 65岁 · 高血压"
+                - option "任波 · 男 · 63岁 · 高血压、2型糖尿病"
+                - option "田雪 · 女 · 67岁 ·"
+                - option "汪刚 · 男 · 65岁 · 高血压、冠心病"
+                - option "钟艳 · 女 · 63岁 ·"
+                - option "夏军 · 男 · 67岁 · COPD、高血压"
+                - option "戴琴 · 女 · 65岁 · 骨质疏松"
+                - option "杜辉 · 男 · 63岁 · 高血压、高脂血症"
+                - option "潘琳 · 女 · 67岁 · 高血压、2型糖尿病"
+                - option "余涛 · 男 · 65岁 · 高血压、慢性肾病"
+                - option "阎玉 · 女 · 63岁 ·"
+                - option "叶刚 · 男 · 67岁 · 高血压、冠心病"
+                - option "薛红 · 女 · 65岁 · 2型糖尿病、高血压"
+                - option "魏飞 · 男 · 63岁 · 高血压、脑卒中后遗症"
+                - option "丁霞 · 女 · 67岁 · 高血压、骨质疏松"
+                - option "贾伟 · 男 · 65岁 · 高血压、2型糖尿病"
+                - option "蔡艳 · 女 · 52岁 ·"
+                - option "蒋刚 · 男 · 54岁 · 高血压"
+                - option "卢琴 · 女 · 56岁 ·"
+                - option "苏辉 · 男 · 53岁 · 冠心病"
+                - option "吕霞 · 女 · 55岁 ·"
+                - option "彭涛 · 男 · 57岁 · 高血压"
+                - option "曾萍 · 女 · 52岁 ·"
+                - option "沈军 · 男 · 54岁 · 高血压、2型糖尿病"
+                - option "傅玉 · 女 · 56岁 · 高血压"
+                - option "许翔 · 男 · 53岁 ·"
+                - option "邓琳 · 女 · 55岁 ·"
+                - option "袁杰 · 男 · 57岁 · 高血压、高脂血症"
+                - option "曹红 · 女 · 52岁 · 2型糖尿病"
+                - option "程波 · 男 · 54岁 · 高血压"
+                - option "董雪 · 女 · 56岁 ·"
+                - option "冯刚 · 男 · 53岁 ·"
+                - option "韩艳 · 女 · 55岁 · 高血压、骨质疏松"
+                - option "唐飞 · 男 · 57岁 · 冠心病、高血压"
+                - option "谢琴 · 女 · 52岁 ·"
+                - option "梁辉 · 男 · 54岁 · 高血压"
+                - option "郑霞 · 女 · 56岁 ·"
+                - option "罗涛 · 男 · 53岁 · 高血压、2型糖尿病"
+                - option "高萍 · 女 · 55岁 ·"
+                - option "何军 · 男 · 57岁 · 高血压"
+                - option "林玉 · 女 · 52岁 ·"
+                - option "郭翔 · 男 · 54岁 · 高血压、高脂血症"
+                - option "胡琳 · 女 · 56岁 · 高血压"
+                - option "朱杰 · 男 · 53岁 ·"
+                - option "马红 · 女 · 55岁 · 2型糖尿病"
+                - option "孙波 · 男 · 57岁 · 高血压"
+                - option "徐雪 · 女 · 52岁 ·"
+                - option "吴刚 · 男 · 54岁 · COPD"
+                - option "周艳 · 女 · 56岁 ·"
+                - option "黄飞 · 男 · 53岁 · 高血压、2型糖尿病"
+                - option "杨琴 · 女 · 55岁 ·"
+                - option "刘辉 · 男 · 57岁 · 高血压、冠心病"
+                - option "赵敏 · 女 · 52岁 · 高血压"
+                - option "李东 · 男 · 54岁 · 2型糖尿病、高脂血症"
+                - option "王霞 · 女 · 56岁 ·"
+                - option "陈伟 · 男 · 53岁 · 高血压"
+                - option "陈萍 · 女 · 55岁 · 骨质疏松"
+                - option "肖军 · 男 · 57岁 · 高血压"
+                - option "张玉 · 女 · 52岁 · 甲状腺功能减退"
+                - option "文浩 · 男 · 54岁 · 高血压、冠心病"
+                - option "龚艳 · 女 · 56岁 ·"
+                - option "赖翔 · 男 · 53岁 · 高血压、2型糖尿病"
+                - option "贺娟 · 女 · 55岁 · 2型糖尿病"
+                - option "乔杰 · 男 · 57岁 · 高血压、高脂血症"
+                - option "武红 · 女 · 52岁 ·"
+                - option "常波 · 男 · 54岁 · 冠心病"
+                - option "易琳 · 女 · 56岁 · 高血压"
+                - option "黎刚 · 男 · 53岁 · 高血压、慢性肾病"
+                - option "尹雪 · 女 · 55岁 · 2型糖尿病、高血压"
+                - option "汤伟 · 男 · 57岁 · 高血压、脑卒中后遗症"
+                - option "钱颖 · 女 · 52岁 ·"
+                - option "雷强 · 男 · 54岁 · 高血压、冠心病"
+                - option "段丽 · 女 · 56岁 · 高血压、骨质疏松"
+                - option "万磊 · 男 · 53岁 · 2型糖尿病、高血压"
+                - option "龙艳 · 女 · 57岁 · 高血压、冠心病"
+                - option "孟涛 · 男 · 55岁 · 高血压、2型糖尿病"
+                - option "邵玲 · 女 · 46岁 ·"
+                - option "侯东 · 男 · 43岁 ·"
+                - option "顾琴 · 女 · 45岁 · 高血压"
+                - option "史辉 · 男 · 48岁 · COPD"
+                - option "江霞 · 女 · 44岁 ·"
+                - option "秦斌 · 男 · 47岁 · 高血压、冠心病"
+                - option "邱萍 · 女 · 42岁 ·"
+                - option "毛军 · 男 · 45岁 ·"
+                - option "康娟 · 女 · 48岁 · 2型糖尿病"
+                - option "崔浩 · 男 · 43岁 · 高血压"
+                - option "白梅 · 女 · 42岁 ·"
+                - option "孔翔 · 男 · 49岁 · 慢性肾病"
+                - option "郝艳 · 女 · 44岁 ·"
+                - option "陆飞 · 男 · 47岁 · 高血压"
+                - option "金雪 · 女 · 43岁 ·"
+                - option "熊伟 · 男 · 45岁 · 2型糖尿病、高血压"
+                - option "邹琳 · 女 · 49岁 · 高血压、冠心病"
+                - option "廖刚 · 男 · 42岁 ·"
+                - option "谭红 · 女 · 44岁 ·"
+                - option "姚杰 · 男 · 46岁 · 高血压、高脂血症"
+                - option "石燕 · 女 · 48岁 · 2型糖尿病"
+                - option "方强 · 男 · 43岁 · 高血压"
+                - option "范颖 · 女 · 45岁 ·"
+                - option "姜波 · 男 · 47岁 · 慢性胃炎"
+                - option "任敏 · 女 · 42岁 ·"
+                - option "田园 · 男 · 44岁 · 高血压"
+                - option "汪丽 · 女 · 49岁 · 高血压"
+                - option "钟磊 · 男 · 46岁 · 2型糖尿病"
+                - option "夏玉 · 女 · 43岁 ·"
+                - option "戴明 · 男 · 45岁 · 高血压、高脂血症"
+                - option "杜鹃 · 女 · 48岁 · 骨质疏松"
+                - option "潘涛 · 男 · 42岁 ·"
+                - option "余婷 · 女 · 44岁 · 高血压"
+                - option "阎鹏 · 男 · 47岁 · 冠心病"
+                - option "叶虹 · 女 · 43岁 ·"
+                - option "薛锋 · 男 · 45岁 · 高血压"
+                - option "魏珍 · 女 · 49岁 · 2型糖尿病、高血压"
+                - option "丁威 · 男 · 46岁 · 高脂血症"
+                - option "贾玲 · 女 · 42岁 ·"
+                - option "蔡东 · 男 · 44岁 · 高血压"
+                - option "蒋琴 · 女 · 47岁 ·"
+                - option "卢辉 · 男 · 43岁 · 2型糖尿病、高血压"
+                - option "苏芳 · 女 · 45岁 · 甲状腺功能减退"
+                - option "吕军 · 男 · 48岁 · 高血压、冠心病"
+                - option "彭霞 · 女 · 42岁 ·"
+                - option "曾勇 · 男 · 44岁 · 高血压"
+                - option "沈阳 · 女 · 46岁 · 2型糖尿病"
+                - option "傅斌 · 男 · 43岁 · 高脂血症、脂肪肝"
+                - option "许萍 · 女 · 47岁 · 高血压"
+                - option "邓华 · 男 · 45岁 · 高血压、2型糖尿病"
+                - option "袁莉 · 女 · 36岁 · 贫血"
+                - option "曹阳 · 男 · 34岁 ·"
+                - option "程颖 · 女 · 33岁 ·"
+                - option "董刚 · 男 · 37岁 · 高脂血症"
+                - option "冯梅 · 女 · 35岁 ·"
+                - option "韩冰 · 男 · 32岁 ·"
+                - option "唐娟 · 女 · 36岁 ·"
+                - option "谢浩 · 男 · 38岁 · 高血压"
+                - option "梁艳 · 女 · 34岁 ·"
+                - option "郑宇 · 男 · 33岁 · 2型糖尿病"
+                - option "罗琳 · 女 · 37岁 ·"
+                - option "高翔 · 男 · 35岁 ·"
+                - option "何雪 · 女 · 33岁 · 贫血、备孕"
+                - option "林峰 · 男 · 39岁 · 高血压、高脂血症"
+                - option "郭婷 · 女 · 31岁 · 甲状腺结节"
+                - option "胡军 · 男 · 36岁 ·"
+                - option "朱红 · 女 · 34岁 · 哮喘、妊娠"
+                - option "马超 · 男 · 33岁 ·"
+                - option "孙燕 · 女 · 37岁 ·"
+                - option "徐涛 · 男 · 35岁 ·"
+                - option "吴敏 · 女 · 33岁 ·"
+                - option "周杰 · 男 · 38岁 ·"
+                - option "黄丽 · 女 · 30岁 · 妊娠糖尿病、妊娠"
+                - option "赵磊 · 男 · 36岁 ·"
+                - option "杨静 · 女 · 32岁 · 妊娠期高血压、妊娠"
+                - option "陈明 · 男 · 34岁 · 高血压"
+                - option "刘芳 · 女 · 31岁 · 妊娠"
+                - option "王强 · 男 · 37岁 · 高脂血症"
+                - option "李娜 · 女 · 35岁 · 高血压"
+                - option "张伟 · 男 · 33岁 ·"
+            - generic [ref=e77]:
+              - img [ref=e78]
+              - text: 推荐完成后，患者信息将自动保存到档案。下次推荐即可使用完整的临床指标数据。
+            - generic [ref=e80]:
+              - generic [ref=e81]: 姓名 *
+              - textbox "姓名 *" [ref=e82]:
+                - /placeholder: 患者姓名
+                - text: 张晓明
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - text: 年龄 *
+                - spinbutton "年龄 *" [ref=e85]: "58"
+              - generic [ref=e86]:
+                - text: 性别 *
+                - combobox "性别 *" [ref=e87]:
+                  - option "男" [selected]
+                  - option "女"
+                  - option "未知"
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]: 身高 (cm)推荐补充，用于BMI计算
+                - spinbutton "身高 (cm)推荐补充，用于BMI计算" [ref=e91]: "172"
+              - generic [ref=e92]:
+                - generic [ref=e93]: 体重 (kg)推荐补充，用于BMI计算
+                - spinbutton "体重 (kg)推荐补充，用于BMI计算" [ref=e94]: "68"
+            - generic [ref=e95]:
+              - generic [ref=e96]: 联系电话 （可选）
+              - textbox "联系电话 （可选）" [ref=e97]:
+                - /placeholder: "13800138000"
+            - generic [ref=e98]:
+              - text: 确诊疾病（逗号分隔）*
+              - textbox "确诊疾病（逗号分隔）*" [ref=e99]:
+                - /placeholder: 高血压，2型糖尿病
+                - text: 冠心病，慢性肾病
+            - generic [ref=e100]:
+              - text: 主要症状
+              - textbox "主要症状" [ref=e101]:
+                - /placeholder: 头晕、胸闷、多尿、口渴
+                - text: 胸痛，气短，乏力
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - text: 过敏史
+                - textbox "过敏史" [ref=e104]:
+                  - /placeholder: 青霉素，磺胺类
+                  - text: 头孢类过敏
+              - generic [ref=e105]:
+                - text: 当前用药
+                - textbox "当前用药" [ref=e106]:
+                  - /placeholder: 二甲双胍，阿司匹林
+                  - text: 阿托伐他汀，硝苯地平
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - img [ref=e111]
+                    - text: 差分隐私推理开关
+                  - paragraph [ref=e113]: 关闭后展示「无 DP」基线结果；开启后对药物评分注入噪声，并记录隐私预算消耗。
+                - button "已开启" [ref=e114] [cursor=pointer]
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - generic [ref=e117]: 当前 ε
+                  - generic [ref=e118]: "1.000"
+                - generic [ref=e119]:
+                  - generic [ref=e120]: 噪声规模
+                  - generic [ref=e121]: b = 0.200
+                - generic [ref=e122]:
+                  - generic [ref=e123]: 预算剩余
+                  - generic [ref=e124]: ε_rem = 10.00
+            - button [disabled]:
+              - img
+        - generic [ref=e126]:
+          - generic [ref=e128] [cursor=pointer]:
+            - heading "隐私保护状态" [level=3] [ref=e129]:
+              - img [ref=e130]
+              - text: 隐私保护状态
+              - img [ref=e132]
+            - paragraph [ref=e134]: 当前会话的隐私指标
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - img [ref=e138]
+                - generic [ref=e141]: 差分隐私机制
+              - generic [ref=e142]: laplace 扰动
+              - paragraph [ref=e143]: 注入阶段：梯度层
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - img [ref=e146]
+                - generic [ref=e150]: 隐私预算消耗
+              - generic [ref=e151]: ε_total = 10.0
+              - paragraph [ref=e153]: 已消耗 ε = 0.00 · 剩余 ε = 10.00
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - img [ref=e156]
+                - generic [ref=e158]: 噪声规模
+              - generic [ref=e159]: b = 0.200
+              - paragraph [ref=e160]: ε-DP（纯 DP）
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - img [ref=e163]
+                - generic [ref=e165]: 隐私保护说明
+              - paragraph [ref=e166]: 差分隐私噪声机制已应用于推荐评分，降低个体推断风险。DP仅保护排序隐私，不影响安全排除结果。计算在本地服务器环境中进行。
+  - contentinfo [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - img [ref=e20]
+        - generic [ref=e22]: 智医荐药差分隐私保护的智能用药推荐系统
+      - paragraph [ref=e23]: 基于差分隐私的 AI 个性化医疗用药推荐系统 · 保护隐私 · 精准推荐

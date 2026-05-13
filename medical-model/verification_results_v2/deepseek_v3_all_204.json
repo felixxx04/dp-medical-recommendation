@@ -1,0 +1,834 @@
+[
+  {
+    "disease": "高血压",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "低血压",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "冠心病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "心绞痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "心肌梗死",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "心梗",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "心力衰竭",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "心衰",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "心房颤动",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "房颤",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "慢性肾病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "尿路感染",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "尿路结石",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肾结石",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "前列腺增生",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "尿失禁",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "类风湿关节炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "骨关节炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "痛风",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "骨质疏松",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "骨质疏松症",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "强直性脊柱炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "系统性红斑狼疮",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "腰背痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "颈椎病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "发烧",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "发热",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "细菌感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "病毒感染: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "真菌感染",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "疱疹",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "带状疱疹",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "流感",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "新冠",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "艾滋病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "梅毒",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "寄生虫感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "蛔虫: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "湿疹",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "荨麻疹",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "病毒感染",
+    "rating": "INAPPROPRIATE"
+  },
+  {
+    "disease": "蛔虫",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "青光眼",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "白内障: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "干眼症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "结膜炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "过敏",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "过敏性鼻炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "疼痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "慢性疼痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "术后疼痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "恶心",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "呕吐",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "眩晕",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "晕眩",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "水肿",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "炎症",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "白内障",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脱发",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "多囊卵巢综合征",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "不孕",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "勃起功能障碍",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "阳痿",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "痛经",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "月经不调: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "更年期综合征",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "戒烟",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "酗酒",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "中毒: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "中风",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑卒中",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗死: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "月经不调",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "中毒",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑梗死",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "上呼吸道感染",
+    "rating": "INAPPROPRIATE"
+  },
+  {
+    "disease": "子宫内膜异位症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "宫颈炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "强迫症",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "结肠癌",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肺纤维化",
+    "rating": "INAPPROPRIATE"
+  },
+  {
+    "disease": "阴道炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "帕金森病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "阿尔茨海默病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "多动症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胆囊炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胆结石",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肺癌",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "前列腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "肠炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "心律失常",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "动脉粥样硬化",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "深静脉血栓",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肺栓塞",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "外周动脉疾病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "高血脂",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "高脂血症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "高胆固醇",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胆固醇高",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "糖尿病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺功能减退",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲减",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺功能亢进",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲亢",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺肿",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "肥胖",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "代谢综合征",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "哮喘",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "慢阻肺",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "慢性阻塞性肺疾病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "支气管炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "肺炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "感冒",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "肺结核",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肺动脉高压",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胃溃疡",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "十二指肠溃疡",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胃出血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "消化道出血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胃食管反流",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "反流性食管炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胃炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "克罗恩病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "腹泻",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "便秘",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肝炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肝硬化",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "抑郁症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "溃疡性结肠炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脂肪肝",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "抑郁",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "焦虑症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "焦虑",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "失眠",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "偏头痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "头痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "癫痫",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "老年痴呆",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "精神分裂症",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "惊恐障碍",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "分簇性头痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "社交焦虑",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "银屑病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "痤疮",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "皮疹",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "带状疱疹后神经痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "贫血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "白血病",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "乳腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "痘痘",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "过敏性皮炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "牛皮癣",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "缺铁性贫血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "淋巴瘤",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑出血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "阑尾炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "扁桃体炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "中耳炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "咽炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "心肌病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肩周炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "坐骨神经痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "接触性皮炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胰腺炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "腮腺炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "附件炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑溢血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "盆腔炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "前列腺炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胃酸反流",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "反酸",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "鼻窦炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "胰腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "焦虑不安",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "细菌性结膜炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "细菌性皮肤感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "细菌性尿路感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "双相情感障碍",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "躁郁症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "细菌性鼻窦炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "憩室炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "纤维肌痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胀气",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "痔疮",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "HIV",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "关节疼痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "神经痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "链球菌咽炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "预防中风",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "玫瑰痤疮",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "酒渣鼻",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "鼻塞",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "充血",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "打喷嚏",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "急性疼痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "皮肤软组织感染",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "银屑病关节炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肌肉酸痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "咳嗽",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "流鼻涕",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "肠易激综合征",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "癫痫发作",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "嗓子疼",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "念珠菌性阴道炎",
+    "rating": "PARTIALLY"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "disease": "脑出血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "阑尾炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "扁桃体炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "中耳炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "咽炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "心肌病",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "肩周炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "坐骨神经痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "接触性皮炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "甲状腺癌",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "胰腺炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "腮腺炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "附件炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "脑溢血",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "盆腔炎",
+    "rating": "APPROPRIATE"
+  }
+]

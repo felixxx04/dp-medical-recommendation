@@ -1,0 +1,611 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e173] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e174]: 新对话
+          - button [ref=e175]:
+            - img [ref=e179]
+        - link "药物禁忌症JSON生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e98]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e100]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e108]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e110]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e114]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e116]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e118]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e120]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e122]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e124]: HIV药物禁忌症生成
+      - generic [ref=e125]:
+        - generic [ref=e126]: 昨天
+        - link "药物禁忌症列表生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e128]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e130]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e132]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e134]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e136]: 药物适应症列表生成
+      - generic [ref=e137]:
+        - generic [ref=e138]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e140]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e142]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e144]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e146]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e148]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e149] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e150]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e151] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e152]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e153] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e154]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e155] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e156]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e158]
+      - generic [ref=e161]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e183]:
+      - generic [ref=e185]:
+        - generic [ref=e186] [cursor=pointer]: 新对话
+        - generic [ref=e187]:
+          - img [ref=e189]
+          - generic [ref=e191]: 专家模式
+      - button [ref=e192] [cursor=pointer]:
+        - img [ref=e195]
+    - generic [ref=e198]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - generic [ref=e203]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: estradiol and progesterone | 类别: Sex hormone combinations | 适应症: menopausal symptoms|postmenopausal osteoporosis | 妊娠分级: N sumatriptan (injection) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C sumatriptan (oral/nasal) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C zolmitriptan (oral) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C rimegepant | 类别: CGRP inhibitors | 适应症: migraine|migraine prevention | 妊娠分级: N lasmiditan | 类别: Antimigraine agents | 适应症: migraine | 妊娠分级: N lasmiditan Brand name: Reyvow | 类别: Antimigraine agents | 适应症: acute treatment of migraine with or without aura | 妊娠分级: N acetaminophen, aspirin, and caffeine | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain|fever | 妊娠分级: N aspirin, butalbital, and caffeine | 类别: Analgesic combinations | 适应症: tension headache|migraine | 妊娠分级: C naproxen and sumatriptan | 类别: Antimigraine agents | 适应症: migraine | 妊娠分级: C ubrogepant | 类别: CGRP inhibitors | 适应症: migraine | 妊娠分级: N almotriptan | 类别: Antimigraine agents | 适应症: migraine | 妊娠分级: C methylergonovine (oral and injection) | 类别: Uterotonic agents | 适应症: postpartum hemorrhage|uterine atony | 妊娠分级: C dihydroergotamine (nasal) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X Acetaminophen, Aspirin, Caffeine, and Salicylamide Tablets | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain | 妊娠分级: N ergotamine and caffeine (oral route) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X dihydroergotamine (injection) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X Ergotamine and Caffeine Suppositories | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X caffeine and ergotamine (oral/rectal) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X dihydroergotamine (injection route) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X sumatriptan (nasal route) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C Acetaminophen, Aspirin, and Caffeine Tablets | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain | 妊娠分级: N butalbital, aspirin, and caffeine (oral route) | 类别: Analgesic combinations | 适应症: tension headache|migraine | 妊娠分级: C Acetaminophen, Aspirin, and Caffeine Powder Packet | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain | 妊娠分级: N acetaminophen, aspirin, caffeine | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain|fever | 妊娠分级: N dihydroergotamine mesylate | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X ubrogepant Brand name: Ubrelvy | 类别: CGRP inhibitors | 适应症: acute treatment of migraine with or without aura | 妊娠分级: N chondroitin and glucosamine | 类别: Nutraceutical products | 适应症: osteoarthritis|joint pain | 妊娠分级: N diclofenac topical | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis pain|musculoskeletal pain|acute pain|actinic keratosis|migraine | 妊娠分级: C diclofenac and misoprostol | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea | 妊娠分级: X ibuprofen (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|migraine|gout|patent ductus arteriosus | 妊娠分级: C esomeprazole and naproxen | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea|gout | 妊娠分级: C diclofenac (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea|migraine|gout | 妊娠分级: D indomethacin (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute shoulder pain|gout|patent ductus arteriosus|migraine | 妊娠分级: C acetaminophen and codeine | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain|cough | 妊娠分级: C Ibuprofen Capsules | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|migraine|gout | 妊娠分级: C chondroitin, glucosamine, and methylsulfonylmethane (MSM) | 类别: Nutraceutical products | 适应症: osteoarthritis|joint pain | 妊娠分级: N famotidine and ibuprofen | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|primary dysmenorrhea | 妊娠分级: C ibuprofen 200mg | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|primary dysmenorrhea|migraine|osteoarthritis | 妊娠分级: C naproxen (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea|gout|migraine | 妊娠分级: C nproxen sodium | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|gout|migraine | 妊娠分级: C naproxen sodium | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|gout|migraine | 妊娠分级: C Diclofenac Gel (1%) | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|actinic keratosis|acute pain|musculoskeletal pain | 妊娠分级: C diflunisal | 类别: Nonsteroidal anti-inflammatory drugs, Salicylates | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|primary dysmenorrhea | 妊娠分级: C diflunisal (oral route) | 类别: Nonsteroidal anti-inflammatory drugs, Salicylates | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|primary dysmenorrhea | 妊娠分级: C piroxicam (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|ankylosing spondylitis|gout | 妊娠分级: C dicLofenac potassium | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: acute pain|primary dysmenorrhea|migraine|osteoarthritis | 妊娠分级: D diclofenac sodium | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|actinic keratosis|acute pain|musculoskeletal pain | 妊娠分级: C salsalate | 类别: Salicylates | 适应症: osteoarthritis|rheumatoid arthritis|acute pain | 妊娠分级: C Diclofenac Topical Solution | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|acute pain|musculoskeletal pain | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e206]:
+            - button [ref=e207] [cursor=pointer]:
+              - img [ref=e210]
+            - button [ref=e212] [cursor=pointer]:
+              - img [ref=e215]
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - generic [ref=e221] [cursor=pointer]:
+              - img [ref=e223]
+              - generic [ref=e226]: 已思考（用时 140 秒）
+              - img [ref=e228]
+            - generic [ref=e234]:
+              - paragraph [ref=e235]: 我们被要求以临床药学专家的身份，为每种药物生成完整的禁忌症列表。需要按指定JSON格式输出。注意：只输出JSON，不要解释文本。输入药物列表提供了药品通用名、类别、适应症、妊娠分级。我们需要根据药理知识列出禁忌症，分为disease, allergy_type, physiological_condition, drug_class，严重程度absolute/relative。注意组合药物的每个成分禁忌。注意不要过于笼统。
+              - paragraph [ref=e236]: 将从estradiol and progesterone开始，逐个分析。可能需要注意一些隐含禁忌：比如偏头痛药物（曲普坦类）禁忌于心血管疾病（冠心病、脑血管病、未控制的高血压等）；ergot类禁忌于心血管病、怀孕等；NSAIDs禁忌于严重肾损害、消化道溃疡、出血、过敏、哮喘等；对乙酰氨基酚禁忌于严重肝病；咖啡因组合；妊娠分级：X意味着绝对禁忌怀孕；C、D等也需考虑。我将依据标准临床药理学。
+              - paragraph [ref=e268]: 输出为JSON数组，每个元素含generic_name 和 contraindications列表。
+              - paragraph [ref=e269]: 现在开始逐药分析：
+              - list [ref=e270]:
+                - listitem [ref=e271]:
+                  - paragraph [ref=e272]:
+                    - text: "estradiol and progesterone (Sex hormone combinations, 适应症: menopausal symptoms|postmenopausal osteoporosis, 妊娠分级: N)"
+                    - text: 注意：妊娠分级N表示未分类。绝对禁忌：怀孕(生理状态，由于激素可能影响胎儿)；已知或怀疑的乳腺癌(疾病，激素受体阳性肿瘤)；雌激素依赖性肿瘤(如子宫内膜癌)；未确诊的阴道出血；活动性深静脉血栓、肺栓塞或病史；活动性或近期动脉血栓栓塞疾病(如中风、心肌梗死)；肝功能障碍或疾病；蛋白C、蛋白S或抗凝血酶缺乏等。相对禁忌症：偏头痛伴先兆；高甘油三酯血症；胆囊疾病等等。组合药物中的雌激素为雌二醇，孕酮为孕激素。禁忌包括过敏。将列出。
+                - listitem [ref=e273]:
+                  - paragraph [ref=e274]: "sumatriptan (injection) - Antimigraine agents, 适应症: migraine|cluster headache, 妊娠分级: C. 禁忌：缺血性心脏病(疾病，绝对)；冠状动脉痉挛(变异型心绞痛)；脑血管综合征(如中风、TIA)；外周血管疾病；未控制的高血压；严重肝功能损害；同时使用MAO抑制剂或使用后2周内；24小时内使用其他曲普坦类或麦角类药物；偏瘫或基底型偏头痛；对舒马普坦过敏。相对禁忌：存在心血管危险因素但未确诊冠心病；轻度肝功能受损；妊娠C级需评估。sumatriptan注射、口服鼻用等类似。"
+                - listitem [ref=e275]:
+                  - paragraph [ref=e276]: sumatriptan (oral/nasal) 同2。
+                - listitem [ref=e277]:
+                  - paragraph [ref=e278]: zolmitriptan (oral) - 类似曲普坦类药物，同样禁忌：缺血性心脏病、脑血管病、外周血管病、未控制高血压、MAO-A抑制剂(使用吗氯贝胺等？佐米曲普坦通过CYP1A2代谢，可能受氟伏沙明等影响，但药物类禁忌为MAO-A抑制剂。推荐绝对禁忌症：心肌梗死史、冠心病、变异型心绞痛、Wolff-Parkinson-White综合征或心律失常伴有旁路传导通路？有些文献提到WPW，但临床指南通常说缺血性心脏病。严重肝损害。相对禁忌：轻度肝病。24小时内使用麦角胺或其他曲普坦。偏瘫型偏头痛和基底型偏头痛。过敏。
+                - listitem [ref=e279]:
+                  - paragraph [ref=e280]: rimegepant - CGRP抑制剂，妊娠分级N。禁忌：过敏；同时使用强CYP3A4抑制剂？rimegepant是CYP3A4底物，说明书可能禁忌与强CYP3A4抑制剂联用（如克拉霉素、伊曲康唑、酮康唑、利托那韦等）可能增加暴露量。严重肝病（Child-Pugh C级）应避免。终末期肾病。怀孕、哺乳可能相对禁忌。对于rimegepant和ubrogepant，常见禁忌是过敏，避免与强CYP3A4诱导剂或抑制剂联用可能是相对禁忌或禁忌。但请注意，ubrogepant也有类似。根据FDA标签：rimegepant禁忌症：超敏反应史。相对而言，严重肝功能不全、终末期肾病(ESRD)避免使用；同时使用强CYP3A4抑制剂避免重复给药？rimegepant用于急性治疗，一次剂量，如果同时用强CYP3A4抑制剂，需避免。ubrogepant 片 (Ubrelvy) 禁忌：同时使用强CYP3A4抑制剂。对于rimegepant，类似。我会列出过敏为绝对禁忌，药物类：强CYP3A4抑制剂联用为相对禁忌或禁忌，疾病：重度肝功能损害（Child-Pugh C）和终末期肾病（eGFR<15）为相对禁忌。
+                - listitem [ref=e281]:
+                  - paragraph [ref=e282]: lasmiditan - 选择性5-HT1F受体激动剂，禁忌：与CYP1A2强抑制剂联合？lasmiditan是CYP1A2底物？实际上lasmiditan代谢通过非CYP途径，但也有药物相互作用：与强CYP1A2抑制剂联用可能增加暴露。还禁忌驾驶或操作机械（中枢神经系统抑制），但这不是传统禁忌症，属于注意事项。按label，lasmiditan有显著的中枢神经系统抑制和驾驶损伤，应警告。禁忌症：已知过敏。另外，严重肝功能受损？中至重度肝损伤可能增加暴露。相对禁忌：肝功能不全。在禁忌症中可能包括：严重肝损害（Child-Pugh C）是绝对？没有明确列为禁忌，但说明书警告。主要禁忌：过敏。有心率减慢作用，窦性心动过缓或一度房室传导阻滞，可能相对禁忌？不应同时使用具有中枢抑制的物质如酒精。但我们将列出相关禁忌：对lasmiditan过敏；严重肝功能障碍（相对）。并无与曲普坦类相同的心血管禁忌，因为它不是血管收缩剂。
+                - listitem [ref=e283]:
+                  - paragraph [ref=e284]: "lasmiditan Brand name: Reyvow - 同上。"
+                - listitem [ref=e285]:
+                  - paragraph [ref=e286]: "acetaminophen, aspirin, and caffeine (Analgesic combinations, 适应症: migraine|tension headache|pain|fever, 妊娠分级: N) 组合：对乙酰氨基酚、阿司匹林、咖啡因。禁忌：对任何成分过敏；阿司匹林禁忌：活动性消化道溃疡、出血性疾病、严重肾损害、严重肝损害、哮喘患者中有阿司匹林过敏或鼻息肉综合征；妊娠晚期（≥30周）因动脉导管早闭避免使用阿司匹林；儿童或青少病毒性疾病（雷耶综合征风险）。对乙酰氨基酚禁忌：严重肝病、活动性肝病。咖啡因：相对禁忌严重高血压、心律失常等。总体列出。"
+                - listitem [ref=e287]:
+                  - paragraph [ref=e288]: "aspirin, butalbital, and caffeine (适应症: tension headache|migraine, 妊娠分级: C) 成分：阿司匹林、布他比妥、咖啡因。禁忌：布他比妥属于巴比妥类，禁忌卟啉症（绝对）、严重肝肾功能不全、呼吸系统疾病、有药物滥用史、过敏。阿司匹林如上。咖啡因。妊娠分级C，意味着未排除风险。巴比妥类药物有依赖性，可能禁忌用于哺乳。列出绝对禁忌：卟啉症，对巴比妥类过敏，对阿司匹林或NSAIDs过敏（若阿司匹林过敏），活动性消化性溃疡，出血性疾病，严重肝肾功能不全，未控制的高血压？布他比妥有镇静作用，严重呼吸功能不全等。"
+                - listitem [ref=e289]:
+                  - paragraph [ref=e290]: naproxen and sumatriptan - 组合：萘普生+舒马普坦。禁忌：舒马普坦的绝对禁忌（缺血性心脏病，脑血管疾病，外周血管病，未控制的高血压，偏瘫或基底型偏头痛，同时使用MAOIs，24小时内使用麦角胺或其他曲普坦，过敏）加上萘普生NSAID禁忌：对阿司匹林或其他NSAID过敏（哮喘、荨麻疹等），活动性消化道溃疡/出血，严重肾衰竭，严重心力衰竭，冠状动脉搭桥术围手术期疼痛，妊娠晚期。所以综合。
+                - listitem [ref=e291]:
+                  - paragraph [ref=e292]: ubrogepant (Ubrelvy) - 见rimegepant。禁忌：过敏；同时使用强CYP3A4抑制剂。严重肝功能损害（Child-Pugh C）禁忌；终末期肾病（eGFR<15）避免使用。所以列出absolute和relative。
+                - listitem [ref=e293]:
+                  - paragraph [ref=e294]: almotriptan - 曲普坦类，禁忌同舒马普坦相似：缺血性心脏病，脑血管病，外周动脉疾病，未控制高血压，偏瘫或基底型偏头痛，MAOIs合用或停用14天内，其他曲普坦/麦角类24小时内，严重肝功能不全，过敏。
+                - listitem [ref=e295]:
+                  - paragraph [ref=e296]: methylergonovine (oral and injection) - 子宫收缩剂，用于产后出血。妊娠分级C，但用于产后。禁忌：怀孕（可能引起子宫强直收缩，但适应症是产后出血，不等于妊娠中使用，但作为禁忌要列出怀孕本身、分娩前使用）。绝对禁忌：怀孕（妊娠），分娩期间（子宫强直收缩可致命）；高血压（甲基麦角新碱升压）；先兆子痫、子痫；心血管疾病（冠心病、心肌梗塞史）；败血症、感染引起的休克；严重肝脏或肾脏疾病；过敏。相对禁忌：乳汁分泌？哺乳期？甲基麦角新碱可能减少乳汁分泌，短暂使用可能可接受。但作为一个Ergot alkaloid，也有血管收缩，禁忌症包括外周血管病。会列出。
+                - listitem [ref=e297]:
+                  - paragraph [ref=e298]: dihydroergotamine (nasal) - 偏头痛，妊娠分级X，绝对禁忌怀孕。禁忌症：缺血性心脏病，变异型心绞痛，周围动脉疾病，脑血管疾病，未控制的高血压，严重肝肾功能不全，偏瘫或基底型偏头痛，24小时内使用曲普坦类、麦角类，大环内酯类抗生素（如红霉素、克拉霉素）和蛋白酶抑制剂会抑制CYP3A4导致麦角胺中毒风险，禁忌同时使用这些强CYP3A4抑制剂。另外，吸烟、败血症、休克。绝对禁忌怀孕。过敏。
+                - listitem [ref=e299]:
+                  - paragraph [ref=e300]: Acetaminophen, Aspirin, Caffeine, and Salicylamide Tablets - 含对乙酰氨基酚、阿司匹林、咖啡因、水杨酰胺。水杨酰胺也是水杨酸类似物，禁忌类似阿司匹林。禁忌：过敏，活动性溃疡，出血性疾病，严重肝肾功能不全，哮喘伴鼻息肉，妊娠晚期，儿童病毒感染（雷耶综合征），水杨酰胺可能。列出。
+                - listitem [ref=e301]:
+                  - paragraph [ref=e302]: ergotamine and caffeine (oral route) - 麦角胺和咖啡因，妊娠X。禁忌：怀孕；心血管疾病（缺血性心脏病、冠心病、脑血管、外周动脉疾病），未控制高血压，严重肝肾功能不全，偏瘫或基底型偏头痛，24小时内使用曲普坦或其他麦角类，强CYP3A4抑制剂，败血症。麦角胺有血管收缩作用，周围血管疾病、雷诺现象等。过敏。
+                - listitem [ref=e303]:
+                  - paragraph [ref=e304]: dihydroergotamine (injection) 同鼻腔，妊娠X。
+                - listitem [ref=e305]:
+                  - paragraph [ref=e306]: Ergotamine and Caffeine Suppositories 同上，妊娠X。
+                - listitem [ref=e307]:
+                  - paragraph [ref=e308]: caffeine and ergotamine (oral/rectal) 同上。
+                - listitem [ref=e309]:
+                  - paragraph [ref=e310]: dihydroergotamine (injection route) 同17。可以合并为dihydroergotamine (all routes) 但输入单独列出，我将分别出条目但禁忌相同。
+                - listitem [ref=e311]:
+                  - paragraph [ref=e312]: sumatriptan (nasal route) 同口服，包括禁忌。
+                - listitem [ref=e313]:
+                  - paragraph [ref=e314]: Acetaminophen, Aspirin, and Caffeine Tablets 同8。
+                - listitem [ref=e315]:
+                  - paragraph [ref=e316]: butalbital, aspirin, and caffeine (oral route) 同9。
+                - listitem [ref=e317]:
+                  - paragraph [ref=e318]: Acetaminophen, Aspirin, and Caffeine Powder Packet 同8。
+                - listitem [ref=e319]:
+                  - paragraph [ref=e320]: acetaminophen, aspirin, caffeine 同8。
+                - listitem [ref=e321]:
+                  - paragraph [ref=e322]: dihydroergotamine mesylate 就是dihydroergotamine，同上。
+                - listitem [ref=e323]:
+                  - paragraph [ref=e324]: "ubrogepant Brand name: Ubrelvy 同11。"
+                - listitem [ref=e325]:
+                  - paragraph [ref=e326]: chondroitin and glucosamine - 保健品。禁忌：对贝壳类过敏(glucosamine常源于贝类，可能过敏)，对任何成分过敏。没有绝对疾病禁忌，相对禁忌可能包括糖尿病（葡萄糖胺可能影响血糖），哮喘（有些报告加重），华法林相互作用，但禁忌症通常列出过敏。严重肝肾功能不全？无需。将列出过敏为absolute，其他为相对。
+                - listitem [ref=e327]:
+                  - paragraph [ref=e328]: diclofenac topical - 外用双氯芬酸。绝对禁忌：对双氯芬酸、阿司匹林或其他NSAIDs过敏；应用于破损或受损皮肤；妊娠晚期（≥30周）不应使用（相对吸收但仍有风险）；冠脉旁路移植术围手术期疼痛。相对禁忌：严重肾功能不全；活动性消化性溃疡（外用的全身吸收少，但警告）；有阿司匹林诱发的哮喘史。虽然外用来但说明书列出这些禁忌：已知过敏、阿司匹林或其他NSAIDs过敏、在心脏手术前后。也会加入严重心力衰竭等。列出。
+                - listitem [ref=e329]:
+                  - paragraph [ref=e330]: diclofenac and misoprostol - 口服，双氯芬酸+米索前列醇。妊娠分级X，米索前列醇是子宫收缩剂和堕胎药，绝对禁忌怀孕及计划怀孕。禁忌还包括：对双氯芬酸、米索前列醇或其他前列腺素类似物过敏；活动性消化道溃疡/出血（尽管米索前列醇保护胃），但双氯芬酸仍禁忌在活动性溃疡；严重肾、心、肝衰竭；冠脉搭桥术围手术期；有阿司匹林或其他NSAID过敏；哺乳（米索前列醇可能致婴儿腹泻）。同时米索前列醇导致腹泻，但不作为禁忌症。
+                - listitem [ref=e331]:
+                  - paragraph [ref=e332]: ibuprofen (oral route) - NSAID，禁忌：对布洛芬、阿司匹林或其他NSAID过敏；活动性消化道溃疡/出血；严重心力衰竭；严重肾功能不全（eGFR<30）；严重肝功能不全；冠脉搭桥术围手术期；妊娠晚期（≥30周）；出血性疾病；有活动性或既往消化道溃疡/出血史（相对？通常为绝对避免）。列出绝对和相对。
+                - listitem [ref=e333]:
+                  - paragraph [ref=e334]: esomeprazole and naproxen - 艾司奥美拉唑和萘普生组合。禁忌：对萘普生、艾司奥美拉唑或其苯并咪唑类、其他NSAIDs过敏；活动性消化道溃疡/出血（虽然PPI保护，但仍是禁忌）；严重肾、心、肝功能不全；冠脉搭桥术围手术期；妊娠晚期；已知超敏反应。PPI相关禁忌：不推荐与含利匹韦林的药物（但此组合不常见）。钙吸收不良？不列为禁忌。把过敏、活动性出血、严重器官衰竭列出。
+                - listitem [ref=e335]:
+                  - paragraph [ref=e336]: diclofenac (oral route) - 妊娠分级D。禁忌：过敏、阿司匹林/NSAID过敏、活动性消化道溃疡、严重心肝肾功能不全、冠脉搭桥术围手术期，妊娠晚期和三期早期尽量避免，因为有动脉导管早闭风险。列出。
+                - listitem [ref=e337]:
+                  - paragraph [ref=e338]: indomethacin (oral route) - 妊娠分级C。NSAID，禁忌类似：过敏，活动性溃疡，严重肾功能损害，严重心力衰竭，冠脉搭桥术围手术期，妊娠晚期（避免使用，因为可致动脉导管早闭，且用于关闭PDA的适应症，所以禁忌在妊娠晚期）。可能还有精神疾病（加重抑郁、癫痫等）相对禁忌。有出血性疾病等。
+                - listitem [ref=e339]:
+                  - paragraph [ref=e340]: acetaminophen and codeine - 对乙酰氨基酚和可待因。禁忌：对任何成分过敏；严重肝功能损害（对乙酰氨基酚）；严重呼吸功能不全（可待因）；急性或术后严重疼痛的儿童？可待因的FDA黑框警告：12岁以下儿童行扁桃体/腺样体切除术禁用；18岁以下行扁桃体/腺样体切除术禁用；哺乳期母亲禁用（因可待因转化为吗啡可能导致母乳婴儿过量）；任何有超快代谢者（CYP2D6）。绝对禁忌：儿童扁桃体术后疼痛；哺乳；显著呼吸抑制；已知CYP2D6超快代谢者。相对禁忌：哮喘、阻塞性肺病、颅脑外伤、颅内压增高、严重肝肾功能不全。列出。
+                - listitem [ref=e341]:
+                  - paragraph [ref=e342]: Ibuprofen Capsules 同31。
+                - listitem [ref=e343]:
+                  - paragraph [ref=e344]: chondroitin, glucosamine, and methylsulfonylmethane (MSM) - 同上，加MSM，过敏，可能禁忌：围手术期因抗血小板作用？葡萄糖胺和硫酸软骨素可能有轻微抗凝，相对禁忌出血性疾病或联用抗凝药。列出过敏absolute，其他relative。
+                - listitem [ref=e345]:
+                  - paragraph [ref=e346]: famotidine and ibuprofen - 法莫替丁和布洛芬，同PPI+NSAID组合。禁忌：过敏，活动性溃疡，严重肾心肝功能不全，冠脉搭桥术围手术期，妊娠晚期。法莫替丁肾排泄，严重肾损害需调整剂量，但非绝对禁忌。列出。
+                - listitem [ref=e347]:
+                  - paragraph [ref=e348]: ibuprofen 200mg 同31。
+                - listitem [ref=e349]:
+                  - paragraph [ref=e350]: naproxen (oral route) - 萘普生，禁忌同上。妊娠分级C。
+                - listitem [ref=e351]:
+                  - paragraph [ref=e352]: nproxen sodium (应该是naproxen sodium) 同40。
+                - listitem [ref=e353]:
+                  - paragraph [ref=e354]: naproxen sodium 同40。
+                - listitem [ref=e355]:
+                  - paragraph [ref=e356]: Diclofenac Gel (1%) 同29 外用。
+                - listitem [ref=e357]:
+                  - paragraph [ref=e358]: diflunisal - 二氟尼柳，水杨酸类药物，禁忌：过敏（阿司匹林或其他NSAIDs过敏），阿司匹林三联征（鼻息肉、哮喘），活动性胃肠道溃疡，严重肾功能损害，严重肝病，出血性疾病，妊娠晚期，冠脉搭桥术围手术期，充血性心力衰竭。相对：轻度肾肝病。
+                - listitem [ref=e359]:
+                  - paragraph [ref=e360]: diflunisal (oral route) 同44。
+                - listitem [ref=e361]:
+                  - paragraph [ref=e362]: piroxicam (oral route) - NSAID，禁忌类似：过敏，阿司匹林/NSAID哮喘，活动性溃疡，严重心肾肝功能不全，妊娠晚期，冠脉搭桥术围手术期，出血性疾病。还有皮肤反应史（如Stevens-Johnson综合征）。因为长效，相对禁忌老年人。
+                - listitem [ref=e363]:
+                  - paragraph [ref=e364]: dicLofenac potassium - 双氯芬酸钾口服，同diclofenac oral。妊娠D。禁忌：过敏、溃疡、晚期妊娠等。
+                - listitem [ref=e365]:
+                  - paragraph [ref=e366]: diclofenac sodium (Topical) 同Diclofenac Topical Solution 和凝胶。列出过敏，破损皮肤，妊娠晚期等。
+                - listitem [ref=e367]:
+                  - paragraph [ref=e368]: salsalate - 水杨酸类，非乙酰化水杨酸。禁忌：过敏，阿司匹林或其他水杨酸类过敏？如果是阿司匹林过敏，可能交叉过敏较低，但仍视为禁忌；活动性溃疡，出血性疾病，严重肾、肝功能不全，妊娠晚期，有水杨酸过敏。
+                - listitem [ref=e369]:
+                  - paragraph [ref=e370]: Diclofenac Topical Solution 同外用双氯芬酸。
+              - paragraph [ref=e371]: 准备按照这些生成JSON数组。注意有些药物名称中有拼写错误，如nproxen sodium 应该是naproxen sodium，我将保留输入的generic_name。
+              - paragraph [ref=e372]: 每个contraindication需要给出一个contraindication_name，类型，严重度，原因。原因要简明。
+              - paragraph [ref=e373]: 注意对曲普坦类药物禁忌“uncontrolled hypertension”、“ischemic heart disease”、 “history of stroke or TIA”、“peripheral vascular disease”、“Wolf-Parkinson-White syndrome”可能不是所有曲普坦绝对禁忌，但大多数是绝对禁忌。佐米曲普坦可能有更严格的心脏禁忌。偏瘫型偏头痛和基底型偏头痛是绝对禁忌，因为可能增加卒中风险。ergotamine class 同理。
+              - paragraph [ref=e374]: rimegepant 和 ubrogepant 的禁忌包括与强CYP3A4抑制剂同用为绝对禁忌吗？根据Ubrelvy处方信息，禁忌：与强CYP3A4抑制剂同时使用。所以是绝对禁忌。而rimegepant，单次75mg，与强CYP3A4抑制剂使用避免，但可视为禁忌或相对。按照Nurtec ODT标签，禁忌症包括：对本产品过敏；与强CYP3A4抑制剂同时使用（增加rimegepant暴露）。还有严重肝病（Child-Pugh C）应避免。我会列出。
+              - paragraph [ref=e375]: lasmiditan：禁忌过敏，重度肝功能损害（Child-Pugh C）为相对或绝对？在标签中，未列为禁忌，但是警告重度肝损害增加暴露。严重的肝受损作为相对禁忌。同时，由于lasmiditan有显著驾驶损伤，可能不直接列为禁忌，但可以在禁用情况下加“activities requiring mental alertness”作为相对。我会列出：severe hepatic impairment (relative)，以及使用后8小时内驾驶或操作机械为相对禁忌。
+              - paragraph [ref=e376]: butalbital组合：butalbital有滥用、依赖，可能导致药物诱导头痛。绝对禁忌：卟啉症；严重肝功能不全；严重呼吸障碍。过敏等。
+              - paragraph [ref=e377]: "methylergonovine: 绝对禁忌怀孕(未到分娩产后)；高血压；先兆子痫/子痫；外周血管病；缺血性心脏病。过敏。"
+              - paragraph [ref=e378]: "对dihydroergotamine: 强CYP3A4抑制剂（包括大环内酯类、唑类抗真菌药、蛋白酶抑制剂等）是绝对禁忌，为了避免麦角中毒。列出。"
+              - paragraph [ref=e379]: "我将在JSON中把这些都表达出来。输出纯JSON。注意：某些药物名称为大写或包含品牌名，generic_name 用输入的名字，比如“lasmiditan Brand name: Reyvow”和“lasmiditan”分开为两个条目，但禁忌相似，都生成。同样“ubrogepant Brand name: Ubrelvy”以及“Acetaminophen, Aspirin, and Caffeine Tablets”“Acetaminophen, Aspirin, and Caffeine Powder Packet”等，虽然是不同剂型，但禁忌相同。我都要生成。"
+              - paragraph [ref=e380]: 字符串原因要用英文写，简要。
+              - paragraph [ref=e381]: 开始构建JSON。需要小心，输出大量条目。我将逐个写出并确保没有遗漏。最后合并成数组。
+          - paragraph [ref=e383]:
+            - text: "["
+            - text: "{"
+            - text: "\"generic_name\": \"estradiol and progesterone\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"May cause fetal harm; not indicated during pregnancy\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"known or suspected breast cancer\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Estrogen and progestogen may stimulate hormone-receptor-positive tumors\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"estrogen-dependent neoplasia (e.g., endometrial cancer)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Tumor progression risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"undiagnosed abnormal genital bleeding\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Requires diagnostic workup to exclude malignancy\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"active deep vein thrombosis or pulmonary embolism\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased thromboembolic risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of recurrent DVT/PE or thromboembolic disorders\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Hormone therapy exacerbates hypercoagulable states\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"active or recent arterial thromboembolic disease (e.g., stroke, myocardial infarction)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased cardiovascular risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment or active liver disease\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Reduced hormone metabolism; hepatotoxicity risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"known protein C, protein S, or antithrombin deficiency\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Markedly increased risk of thromboembolism\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to estradiol, progesterone or any excipients\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Anaphylaxis or severe allergic reactions possible\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"migraine with aura (relative contraindication)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Possible increased risk of stroke\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hypertriglyceridemia\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Estrogen can cause marked triglyceride elevation; pancreatitis risk\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"sumatriptan (injection)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"ischemic heart disease (e.g., angina pectoris, history of MI, documented silent ischemia)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Coronary vasospasm risk; may precipitate myocardial infarction\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"coronary artery vasospasm (Prinzmetal's angina)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Additive vasospastic effect\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of cerebrovascular accident or transient ischemic attack\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Vasoconstriction may cause recurrent stroke\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"peripheral vascular disease\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Vasospasm may exacerbate ischemia\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"uncontrolled hypertension\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased risk of hypertensive crisis and vascular events\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hemiplegic or basilar migraine\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Higher risk of cerebral ischemic events\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"use within 24 hours of ergotamine-containing or another 5-HT1 agonist (triptan)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Prolonged vasospasm and additive toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concurrent or recent (within 2 weeks) use of monoamine oxidase (MAO) inhibitors\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Markedly increased sumatriptan exposure and serotonin syndrome risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Reduced clearance leading to toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to sumatriptan\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Anaphylactic/anaphylactoid reactions reported\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"Wolff-Parkinson-White syndrome or cardiac accessory pathway disorders\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Potential for serious arrhythmias\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"significant cardiovascular risk factors in absence of clear coronary evaluation (relative)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Possible undiagnosed coronary artery disease\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"sumatriptan (oral/nasal)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"ischemic heart disease (e.g., angina pectoris, history of MI, documented silent ischemia)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Coronary vasospasm risk; may precipitate myocardial infarction\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"coronary artery vasospasm (Prinzmetal's angina)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Additive vasospastic effect\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of cerebrovascular accident or transient ischemic attack\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Vasoconstriction may cause recurrent stroke\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"peripheral vascular disease\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Vasospasm may exacerbate ischemia\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"uncontrolled hypertension\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased risk of hypertensive crisis and vascular events\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hemiplegic or basilar migraine\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Higher risk of cerebral ischemic events\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"use within 24 hours of ergotamine-containing or another 5-HT1 agonist (triptan)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Prolonged vasospasm and additive toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concurrent or recent (within 2 weeks) use of monoamine oxidase (MAO) inhibitors\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Markedly increased sumatriptan exposure and serotonin syndrome risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Reduced clearance leading to toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to sumatriptan\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Anaphylactic/anaphylactoid reactions reported\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"Wolff-Parkinson-White syndrome or cardiac accessory pathway disorders\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Potential for serious arrhythmias\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"significant cardiovascular risk factors in absence of clear coronary evaluation (relative)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Possible undiagnosed coronary artery disease\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"zolmitriptan (oral)\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"ischemic heart disease (e.g., angina, MI history)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of coronary vasospasm and myocardial infarction\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"coronary artery vasospasm (Prinzmetal's angina)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Exacerbation of vasospasm\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"history of stroke or transient ischemic attack\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Increased ischemic cerebrovascular risk\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"peripheral vascular disease\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Vasoconstrictive effect may worsen limb ischemia\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"uncontrolled hypertension\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of hypertensive crisis and vascular events\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hemiplegic or basilar migraine\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Potential for stroke aggravation\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concurrent use or within 24 hours of ergotamines or other triptans\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Prolonged vasospastic effects\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concurrent or recent (within 2 weeks) MAO-A inhibitors (e.g., moclobemide)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Substantially increased zolmitriptan concentrations\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Reduced drug metabolism and risk of toxicity\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to zolmitriptan\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Risk of serious hypersensitivity reactions\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"Wolff-Parkinson-White syndrome or arrhythmias associated with accessory pathways\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Potential for life-threatening arrhythmias\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"rimegepant\","
+            - text: "\"contraindications\": ["
+            - text: "{"
+            - text: "\"contraindication_name\": \"hypersensitivity to rimegepant or any component\","
+            - text: "\"contraindication_type\": \"allergy_type\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Serious hypersensitivity including anaphylaxis reported\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"concurrent use of strong CYP3A4 inhibitors (e.g., clarithromycin, itraconazole, ritonavir)\","
+            - text: "\"contraindication_type\": \"drug_class\","
+            - text: "\"severity\": \"absolute\","
+            - text: "\"reason\": \"Significantly increased rimegepant exposure and risk of adverse effects\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"severe hepatic impairment (Child-Pugh C)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Pharmacokinetics not studied; risk of elevated exposures\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"end-stage renal disease (eGFR <15 mL/min)\","
+            - text: "\"contraindication_type\": \"disease\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Use not recommended; increased exposure possible\""
+            - text: "},"
+            - text: "{"
+            - text: "\"contraindication_name\": \"pregnancy and lactation (relative)\","
+            - text: "\"contraindication_type\": \"physiological_condition\","
+            - text: "\"severity\": \"relative\","
+            - text: "\"reason\": \"Limited human data; risk-benefit assessment required\""
+            - text: "}"
+            - text: "]"
+            - text: "},"
+            - text: "{"
+            - text: "\"generic_name\": \"lasmiditan"
+      - generic [ref=e237]:
+        - generic [ref=e240]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e242]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e243]:
+            - button "深度思考" [ref=e244] [cursor=pointer]:
+              - img [ref=e246]
+              - generic [ref=e249]: 深度思考
+            - button "智能搜索" [ref=e250] [cursor=pointer]:
+              - img [ref=e252]
+              - generic [ref=e254]: 智能搜索
+            - generic [ref=e255]:
+              - button [ref=e256] [cursor=pointer]:
+                - img [ref=e259]
+              - button [ref=e262] [cursor=pointer]:
+                - img [ref=e265]
+        - generic [ref=e267]: 内容由 AI 生成，请仔细甄别

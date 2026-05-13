@@ -1,0 +1,320 @@
+[
+  {
+    "generic_name": "rituximab (and biosimilars: rituximab-arrx, rituximab-pvvr, rituximab-abbs)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to rituximab, murine proteins, or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of fatal infusion reactions, anaphylaxis, and serum sickness."},
+      {"contraindication_name": "active severe infection", "contraindication_type": "disease", "severity": "absolute", "reason": "B-cell depletion impairs immune response, potentially resulting in overwhelming sepsis."},
+      {"contraindication_name": "history of progressive multifocal leukoencephalopathy (PML)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-exposure can be fatal; monitor for JC virus reactivation."},
+      {"contraindication_name": "hepatitis B virus reactivation risk (HBsAg positive or HBcAb positive)", "contraindication_type": "disease", "severity": "absolute", "reason": "High risk of fulminant hepatitis, hepatic failure, and death from HBV reactivation."},
+      {"contraindication_name": "severe heart failure (NYHA class IV) or uncontrolled cardiac arrhythmias", "contraindication_type": "disease", "severity": "relative", "reason": "Infusion reactions can precipitate cardiac events."},
+      {"contraindication_name": "live attenuated vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of disseminated infection from vaccine strain."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "B-cell depletion in fetus/neonate; avoid pregnancy for 12 months post-treatment."}
+    ]
+  },
+  {
+    "generic_name": "upadacitinib (Rinvoq)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to upadacitinib or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and serious skin reactions."},
+      {"contraindication_name": "active tuberculosis", "contraindication_type": "disease", "severity": "absolute", "reason": "JAK inhibition increases risk of TB reactivation and progression."},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "absolute", "reason": "Impaired host defense can lead to sepsis and life-threatening outcomes."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "absolute", "reason": "Significantly increased drug exposure and hepatotoxicity risk."},
+      {"contraindication_name": "absolute lymphocyte count <500 cells/mm³, ANC <1000 cells/mm³, or hemoglobin <8 g/dL", "contraindication_type": "disease", "severity": "absolute", "reason": "Severe myelosuppression increases risk of infection and anemia."},
+      {"contraindication_name": "active malignancy (except non-melanoma skin cancer)", "contraindication_type": "disease", "severity": "relative", "reason": "JAK inhibitors may promote tumor growth; risk-benefit must be assessed."},
+      {"contraindication_name": "history of venous thromboembolism", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of DVT and PE, particularly in patients with risk factors."},
+      {"contraindication_name": "major cardiovascular event risk factors", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of MACE in patients >50 years with CV risk factors."},
+      {"contraindication_name": "live attenuated vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of disseminated infection from vaccine strain."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 inducers", "contraindication_type": "drug_class", "severity": "relative", "reason": "Reduced upadacitinib exposure, leading to loss of efficacy."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Animal studies suggest teratogenicity; human data lacking."}
+    ]
+  },
+  {
+    "generic_name": "tofacitinib (Xeljanz, Xeljanz XR)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to tofacitinib or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis."},
+      {"contraindication_name": "active tuberculosis", "contraindication_type": "disease", "severity": "absolute", "reason": "JAK inhibition increases risk of TB reactivation."},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "absolute", "reason": "Impaired immune response to severe infections."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "absolute", "reason": "Significantly increased drug exposure and hepatotoxicity risk."},
+      {"contraindication_name": "absolute lymphocyte count <500 cells/mm³, ANC <1000 cells/mm³, or hemoglobin <9 g/dL", "contraindication_type": "disease", "severity": "absolute", "reason": "Severe myelosuppression; starting therapy in this state is contraindicated."},
+      {"contraindication_name": "history of venous thromboembolism", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of DVT/PE, particularly in higher doses and in patients with risk factors."},
+      {"contraindication_name": "major cardiovascular event risk (patients >50 with CV risk factors)", "contraindication_type": "disease", "severity": "relative", "reason": "Higher rate of MACE observed in safety trials."},
+      {"contraindication_name": "active malignancy", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of malignancies including lymphomas."},
+      {"contraindication_name": "live attenuated vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of disseminated infection."},
+      {"contraindication_name": "concomitant use with biologic immunosuppressants (TNF inhibitors, IL-6R antagonists)", "contraindication_type": "drug_class", "severity": "relative", "reason": "Increased immunosuppression and infection risk."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; animal studies show teratogenicity at high doses."}
+    ]
+  },
+  {
+    "generic_name": "tofacitinib (Xeljanz, Xeljanz XR)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to tofacitinib or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis."},
+      {"contraindication_name": "active tuberculosis", "contraindication_type": "disease", "severity": "absolute", "reason": "JAK inhibition increases risk of TB reactivation."},
+      {"contraindication_name": "active serious infection", "contraindication_type": "disease", "severity": "absolute", "reason": "Impaired immune response to severe infections."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "absolute", "reason": "Significantly increased drug exposure and hepatotoxicity risk."},
+      {"contraindication_name": "absolute lymphocyte count <500 cells/mm³, ANC <1000 cells/mm³, or hemoglobin <9 g/dL", "contraindication_type": "disease", "severity": "absolute", "reason": "Severe myelosuppression; starting therapy in this state is contraindicated."},
+      {"contraindication_name": "history of venous thromboembolism", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of DVT/PE, particularly in higher doses and in patients with risk factors."},
+      {"contraindication_name": "major cardiovascular event risk (patients >50 with CV risk factors)", "contraindication_type": "disease", "severity": "relative", "reason": "Higher rate of MACE observed in safety trials."},
+      {"contraindication_name": "active malignancy", "contraindication_type": "disease", "severity": "relative", "reason": "Increased risk of malignancies including lymphomas."},
+      {"contraindication_name": "live attenuated vaccines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of disseminated infection."},
+      {"contraindication_name": "concomitant use with biologic immunosuppressants (TNF inhibitors, IL-6R antagonists)", "contraindication_type": "drug_class", "severity": "relative", "reason": "Increased immunosuppression and infection risk."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; animal studies show teratogenicity at high doses."}
+    ]
+  },
+  {
+    "generic_name": "chlorpromazine (oral/injection)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to chlorpromazine or any phenothiazine", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and severe cross-reactivity within class."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "comatose state or severe CNS depression", "contraindication_type": "disease", "severity": "absolute", "reason": "Additive CNS depression and respiratory depression; may obscure diagnosis."},
+      {"contraindication_name": "narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Anticholinergic effects can precipitate acute angle closure crisis."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Chlorpromazine is hepatically metabolized; accumulation can cause hepatotoxicity and cholestatic jaundice."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can be fatal."},
+      {"contraindication_name": "bone marrow depression", "contraindication_type": "disease", "severity": "absolute", "reason": "Phenothiazines can cause agranulocytosis and leukopenia; risk of fatal infection."},
+      {"contraindication_name": "prostatic hypertrophy with urinary retention", "contraindication_type": "disease", "severity": "relative", "reason": "Anticholinergic effects can cause acute urinary retention."},
+      {"contraindication_name": "prolonged QT syndrome or concurrent QT-prolonging agents", "contraindication_type": "drug_class", "severity": "relative", "reason": "Chlorpromazine prolongs QT interval; risk of Torsades de Pointes."},
+      {"contraindication_name": "concomitant use with strong CNS depressants (alcohol, opioids)", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive respiratory depression and sedation."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Neonatal withdrawal syndrome and extrapyramidal symptoms possible in third trimester."}
+    ]
+  },
+  {
+    "generic_name": "paliperidone (injection)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to paliperidone, risperidone, or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema; cross-reactive with risperidone."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased mortality and cerebrovascular events (stroke, TIA)."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "relative", "reason": "Paliperidone minimally metabolized by liver, but hepato-renal syndrome can impair clearance."},
+      {"contraindication_name": "severe renal impairment (eGFR <15 mL/min)", "contraindication_type": "disease", "severity": "relative", "reason": "Renal excretion is primary; accumulation can lead to toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can precipitate fatal NMS."},
+      {"contraindication_name": "clinically significant cardiac disease (heart failure, arrhythmias)", "contraindication_type": "disease", "severity": "relative", "reason": "QT prolongation risk; orthostatic hypotension can worsen cardiac ischemia."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May lower seizure threshold."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 inducers", "contraindication_type": "drug_class", "severity": "relative", "reason": "Reduced paliperidone exposure and loss of efficacy."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; neonatal withdrawal and EPS reported."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; potential for infant sedation."}
+    ]
+  },
+  {
+    "generic_name": "loxapine (oral)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to loxapine or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis, angioedema, and severe skin reactions."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "comatose state or severe CNS depression", "contraindication_type": "disease", "severity": "absolute", "reason": "Additive respiratory and CNS depression; may obscure diagnosis."},
+      {"contraindication_name": "narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Anticholinergic effects can precipitate acute angle closure crisis."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Loxapine is hepatically metabolized; accumulation may lead to toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can precipitate fatal NMS."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "Lowers seizure threshold; use with caution."},
+      {"contraindication_name": "prolonged QT syndrome or concurrent QT-prolonging agents", "contraindication_type": "drug_class", "severity": "relative", "reason": "Loxapine may prolong QT interval; risk of Torsades de Pointes."},
+      {"contraindication_name": "concomitant use with strong CNS depressants", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive respiratory depression and sedation."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Limited data; neonatal withdrawal and EPS possible in third trimester."}
+    ]
+  },
+  {
+    "generic_name": "olanzapine (injection)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to olanzapine or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and severe skin reactions."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "comatose state or severe CNS depression", "contraindication_type": "disease", "severity": "absolute", "reason": "Additive CNS and respiratory depression."},
+      {"contraindication_name": "narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Anticholinergic effects can precipitate acute angle closure crisis."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Olanzapine is hepatically metabolized; accumulation may cause toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can be fatal."},
+      {"contraindication_name": "clinically significant cardiovascular disease", "contraindication_type": "disease", "severity": "relative", "reason": "Intramuscular olanzapine can cause hypotension, bradycardia, and respiratory depression, particularly with benzodiazepines."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "Lowers seizure threshold."},
+      {"contraindication_name": "concomitant use with injectable benzodiazepines", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of severe cardiorespiratory depression, hypotension, and death."},
+      {"contraindication_name": "concomitant use with strong CNS depressants", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive sedation and respiratory depression."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; neonatal withdrawal and EPS reported."}
+    ]
+  },
+  {
+    "generic_name": "paliperidone palmitate",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to paliperidone, risperidone, or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema; cross-reactive with risperidone."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased mortality and cerebrovascular events."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "relative", "reason": "Minimal hepatic metabolism, but cautious use recommended."},
+      {"contraindication_name": "severe renal impairment (eGFR <15 mL/min)", "contraindication_type": "disease", "severity": "relative", "reason": "Excreted renally; accumulation may lead to toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can precipitate fatal NMS."},
+      {"contraindication_name": "clinically significant cardiac disease", "contraindication_type": "disease", "severity": "relative", "reason": "QT prolongation and orthostatic hypotension risk."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May lower seizure threshold."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 inducers", "contraindication_type": "drug_class", "severity": "relative", "reason": "Reduced paliperidone exposure and efficacy."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; neonatal withdrawal and EPS reported."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; potential for infant sedation."}
+    ]
+  },
+  {
+    "generic_name": "aripiprazole lauroxil (intramuscular route)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to aripiprazole or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "relative", "reason": "Reduced clearance; potential for accumulation and toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can precipitate fatal NMS."},
+      {"contraindication_name": "clinically significant cardiovascular disease", "contraindication_type": "disease", "severity": "relative", "reason": "Aripiprazole may prolong QT interval; caution in unstable cardiac conditions."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May lower seizure threshold."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 or CYP2D6 inhibitors", "contraindication_type": "drug_class", "severity": "relative", "reason": "Increased aripiprazole exposure; dose adjustment required."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; neonatal withdrawal and EPS reported."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; potential for sedation and feeding difficulties."}
+    ]
+  },
+  {
+    "generic_name": "thiothixene",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to thiothixene or any thioxanthene", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of severe allergic reactions and cross-sensitivity within class."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "comatose state or severe CNS depression", "contraindication_type": "disease", "severity": "absolute", "reason": "Additive CNS and respiratory depression."},
+      {"contraindication_name": "narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Anticholinergic effects can precipitate acute angle closure crisis."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Risk of hepatotoxicity and jaundice."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can be fatal."},
+      {"contraindication_name": "bone marrow depression", "contraindication_type": "disease", "severity": "relative", "reason": "Thioxanthenes can cause agranulocytosis; risk of infection."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "Lowers seizure threshold."},
+      {"contraindication_name": "prolonged QT syndrome or concurrent QT-prolonging agents", "contraindication_type": "drug_class", "severity": "relative", "reason": "Potential for QT prolongation."},
+      {"contraindication_name": "concomitant use with strong CNS depressants", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive sedation and respiratory depression."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Limited data; neonatal withdrawal and EPS possible in third trimester."}
+    ]
+  },
+  {
+    "generic_name": "amisulpride",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to amisulpride or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema."},
+      {"contraindication_name": "prolactin-dependent tumors (e.g., pituitary prolactinoma, breast cancer)", "contraindication_type": "disease", "severity": "absolute", "reason": "Amisulpride increases prolactin levels; may stimulate tumor growth."},
+      {"contraindication_name": "pheochromocytoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Risk of hypertensive crisis due to dopamine antagonism."},
+      {"contraindication_name": "severe renal impairment (eGFR <15 mL/min)", "contraindication_type": "disease", "severity": "absolute", "reason": "Drug accumulates; risk of severe toxicity and Torsades de Pointes."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can be fatal."},
+      {"contraindication_name": "congenital long QT syndrome or concurrent QT-prolonging agents", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Amisulpride prolongs QT interval; risk of Torsades de Pointes."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May lower seizure threshold."},
+      {"contraindication_name": "Parkinson's disease", "contraindication_type": "disease", "severity": "relative", "reason": "Dopamine antagonism can exacerbate motor symptoms."},
+      {"contraindication_name": "concomitant use with levodopa", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Mutual antagonism; amisulpride blocks dopamine receptors, counteracting levodopa effect."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Limited data; neonatal withdrawal and EPS possible."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; may cause sedation and hyperprolactinemia in infant."}
+    ]
+  },
+  {
+    "generic_name": "loxapine (inhalation)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to loxapine or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and bronchospasm."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "acute respiratory distress or active bronchospasm", "contraindication_type": "disease", "severity": "absolute", "reason": "Inhalation can exacerbate bronchospasm and lead to respiratory failure."},
+      {"contraindication_name": "current or history of asthma or chronic obstructive pulmonary disease", "contraindication_type": "disease", "severity": "relative", "reason": "Risk of laryngospasm, bronchospasm, and respiratory depression."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can precipitate fatal NMS."},
+      {"contraindication_name": "narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Anticholinergic effects can precipitate acute angle closure."},
+      {"contraindication_name": "concomitant use with strong CNS depressants", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive respiratory depression and sedation."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Limited data; potential fetal harm."}
+    ]
+  },
+  {
+    "generic_name": "asenapine (transdermal)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to asenapine or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and severe skin reactions."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of cerebrovascular events and mortality."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "absolute", "reason": "Asenapine exposure significantly increased; risk of toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can be fatal."},
+      {"contraindication_name": "severe cardiovascular disease (recent MI, unstable angina)", "contraindication_type": "disease", "severity": "relative", "reason": "Asenapine may cause QT prolongation and orthostatic hypotension."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May lower seizure threshold."},
+      {"contraindication_name": "application to broken or irritated skin", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased systemic absorption and skin irritation."},
+      {"contraindication_name": "concomitant use with strong CYP1A2 inhibitors", "contraindication_type": "drug_class", "severity": "relative", "reason": "Increased asenapine exposure; dose adjustment needed."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; neonatal withdrawal and EPS possible."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; may cause infant sedation."}
+    ]
+  },
+  {
+    "generic_name": "paliperidone palmitate",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to paliperidone, risperidone, or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema; cross-reactive with risperidone."},
+      {"contraindication_name": "dementia-related psychosis in elderly patients", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased mortality and cerebrovascular events."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "relative", "reason": "Limited hepatic metabolism, but cautious use recommended."},
+      {"contraindication_name": "severe renal impairment (eGFR <15 mL/min)", "contraindication_type": "disease", "severity": "relative", "reason": "Excreted renally; accumulation may lead to toxicity."},
+      {"contraindication_name": "history of neuroleptic malignant syndrome (NMS)", "contraindication_type": "disease", "severity": "absolute", "reason": "Re-challenge can precipitate fatal NMS."},
+      {"contraindication_name": "clinically significant cardiac disease", "contraindication_type": "disease", "severity": "relative", "reason": "QT prolongation and orthostatic hypotension risk."},
+      {"contraindication_name": "seizure disorder", "contraindication_type": "disease", "severity": "relative", "reason": "May lower seizure threshold."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 inducers", "contraindication_type": "drug_class", "severity": "relative", "reason": "Reduced paliperidone exposure and efficacy."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; neonatal withdrawal and EPS reported."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; potential for infant sedation."}
+    ]
+  },
+  {
+    "generic_name": "diazepam (rectal route)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to diazepam or any benzodiazepine", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema."},
+      {"contraindication_name": "acute narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "Anxiolytic effect may mask acute symptoms; anticholinergic-like effects can increase intraocular pressure."},
+      {"contraindication_name": "severe respiratory insufficiency", "contraindication_type": "disease", "severity": "absolute", "reason": "Benzodiazepines cause dose-related respiratory depression, risking respiratory arrest."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Reduced clearance leads to accumulation, increasing risk of hepatic coma."},
+      {"contraindication_name": "myasthenia gravis", "contraindication_type": "disease", "severity": "absolute", "reason": "Benzodiazepines potentiate muscle weakness and can cause respiratory failure."},
+      {"contraindication_name": "sleep apnea syndrome", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of apnea episodes and hypoxemia."},
+      {"contraindication_name": "concomitant use with opioids", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Profound sedation, respiratory depression, coma, and death may result."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Category D; increased risk of congenital malformations and neonatal withdrawal syndrome."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; may cause infant sedation and feeding difficulties."}
+    ]
+  },
+  {
+    "generic_name": "diazepam nasal",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to diazepam or any benzodiazepine", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis."},
+      {"contraindication_name": "acute narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "May increase intraocular pressure."},
+      {"contraindication_name": "severe respiratory insufficiency", "contraindication_type": "disease", "severity": "absolute", "reason": "Respiratory depression can be life-threatening."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Accumulation increases risk of encephalopathy."},
+      {"contraindication_name": "myasthenia gravis", "contraindication_type": "disease", "severity": "absolute", "reason": "Can exacerbate muscle weakness and lead to respiratory failure."},
+      {"contraindication_name": "sleep apnea syndrome", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased risk of respiratory events."},
+      {"contraindication_name": "concomitant use with opioids", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of profound sedation and respiratory depression."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Category D; fetal harm and neonatal withdrawal."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Infant sedation possible."}
+    ]
+  },
+  {
+    "generic_name": "lacosamide (oral/injection)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to lacosamide or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema."},
+      {"contraindication_name": "severe hepatic impairment (Child-Pugh C)", "contraindication_type": "disease", "severity": "relative", "reason": "Reduced clearance; potential for accumulation and toxicity."},
+      {"contraindication_name": "severe renal impairment (eGFR <15 mL/min)", "contraindication_type": "disease", "severity": "relative", "reason": "Exposure increased; dose adjustment required."},
+      {"contraindication_name": "second- or third-degree AV block", "contraindication_type": "disease", "severity": "absolute", "reason": "Lacosamide prolongs PR interval; may precipitate asystole or complete heart block."},
+      {"contraindication_name": "sick sinus syndrome with no pacemaker", "contraindication_type": "disease", "severity": "relative", "reason": "Risk of bradycardia and syncope."},
+      {"contraindication_name": "concomitant use with drugs that prolong PR interval (e.g., beta-blockers, calcium channel blockers)", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive cardiac conduction effects."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; limited human data; weigh risk against benefit."}
+    ]
+  },
+  {
+    "generic_name": "midazolam (oral)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to midazolam or any benzodiazepine", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and angioedema."},
+      {"contraindication_name": "acute narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "May increase intraocular pressure."},
+      {"contraindication_name": "severe respiratory insufficiency", "contraindication_type": "disease", "severity": "absolute", "reason": "Risk of respiratory depression and arrest."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Reduced clearance leads to accumulation and excessive sedation."},
+      {"contraindication_name": "myasthenia gravis", "contraindication_type": "disease", "severity": "absolute", "reason": "Muscle relaxant effects worsen weakness."},
+      {"contraindication_name": "sleep apnea syndrome", "contraindication_type": "disease", "severity": "absolute", "reason": "Can exacerbate apnea and cause hypoxemia."},
+      {"contraindication_name": "concomitant use with opioids", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of profound sedation, respiratory depression, coma, and death."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 inhibitors (e.g., ritonavir, ketoconazole)", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Substantially increased midazolam exposure, leading to prolonged sedation and respiratory depression."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Category D; increased risk of congenital malformations and neonatal withdrawal."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Excreted in breast milk; may cause infant sedation."}
+    ]
+  },
+  {
+    "generic_name": "midazolam (nasal)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to midazolam or any benzodiazepine", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis."},
+      {"contraindication_name": "acute narrow-angle glaucoma", "contraindication_type": "disease", "severity": "absolute", "reason": "May increase intraocular pressure."},
+      {"contraindication_name": "severe respiratory insufficiency", "contraindication_type": "disease", "severity": "absolute", "reason": "Risk of respiratory depression."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "absolute", "reason": "Accumulation risk and excessive sedation."},
+      {"contraindication_name": "myasthenia gravis", "contraindication_type": "disease", "severity": "absolute", "reason": "Exacerbation of muscle weakness."},
+      {"contraindication_name": "sleep apnea syndrome", "contraindication_type": "disease", "severity": "absolute", "reason": "Increased respiratory events."},
+      {"contraindication_name": "concomitant use with opioids", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Profound sedation and respiratory depression."},
+      {"contraindication_name": "concomitant use with strong CYP3A4 inhibitors", "contraindication_type": "drug_class", "severity": "absolute", "reason": "Risk of excessive sedation and respiratory depression from increased exposure."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "absolute", "reason": "Category D; fetal harm."},
+      {"contraindication_name": "lactation", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Infant sedation possible."}
+    ]
+  },
+  {
+    "generic_name": "vigabatrin (Sabril, Vigadrone)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to vigabatrin or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis and severe rash."},
+      {"contraindication_name": "permanent, bilateral visual field constriction (vigabatrin-induced)", "contraindication_type": "disease", "severity": "absolute", "reason": "Ophthalmologic monitoring required; re-exposure can worsen irreversible vision loss."},
+      {"contraindication_name": "severe hepatic impairment", "contraindication_type": "disease", "severity": "relative", "reason": "Limited data; potential for hepatotoxicity."},
+      {"contraindication_name": "creatinine clearance <15 mL/min", "contraindication_type": "disease", "severity": "relative", "reason": "Significantly increased exposure; dose adjustment necessary."},
+      {"contraindication_name": "history of psychiatric disorders or suicidal behavior", "contraindication_type": "disease", "severity": "relative", "reason": "Vigabatrin can worsen depression and cause suicidal ideation."},
+      {"contraindication_name": "concomitant use with other retinotoxic drugs", "contraindication_type": "drug_class", "severity": "relative", "reason": "Additive risk of retinal damage."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; animal studies show teratogenicity; low exposure through breast milk."}
+    ]
+  },
+  {
+    "generic_name": "levetiracetam (oral route)",
+    "contraindications": [
+      {"contraindication_name": "hypersensitivity to levetiracetam or any excipient", "contraindication_type": "allergy_type", "severity": "absolute", "reason": "Risk of anaphylaxis, angioedema, and severe cutaneous reactions like Stevens-Johnson syndrome."},
+      {"contraindication_name": "severe renal impairment (eGFR <15 mL/min) without dose adjustment", "contraindication_type": "disease", "severity": "relative", "reason": "Renally excreted; accumulation can lead to toxicity; dose modification required."},
+      {"contraindication_name": "history of severe psychiatric or behavioral abnormalities", "contraindication_type": "disease", "severity": "relative", "reason": "Levetiracetam can cause agitation, aggression, and psychosis."},
+      {"contraindication_name": "pregnancy", "contraindication_type": "physiological_condition", "severity": "relative", "reason": "Category C; limited data; may be used if benefit outweighs risk, but pregnancy registry enrollment recommended."}
+    ]
+  }
+]

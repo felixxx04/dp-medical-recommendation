@@ -1,0 +1,102 @@
+<h2>色彩体系选择</h2>
+<p class="subtitle">深色模式下的三套配色方案 — 主色 + 强调色 + 背景层次</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 24px; background: #0a1628;">
+      <!-- Palette A: Navy + Teal -->
+      <div style="display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;">
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #0f2b4c; border: 1px solid rgba(255,255,255,0.1);"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #153e75;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #0ea5e9;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #14b8a6;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #5eead4;"></div>
+      </div>
+      <div style="background: linear-gradient(135deg, rgba(14,165,233,0.12), rgba(20,184,166,0.08)); border-radius: 12px; padding: 20px; border: 1px solid rgba(14,165,233,0.12); margin-bottom: 12px;">
+        <span style="background: rgba(20,184,166,0.18); padding: 3px 12px; border-radius: 12px; font-size: 11px; color: #5eead4;">Clinical Decision Support</span>
+        <h3 style="font-size: 20px; font-weight: 700; color: white; margin: 10px 0 4px;">精准用药推荐</h3>
+        <p style="font-size: 13px; color: #8b9db5;">AI驱动的个性化临床决策支持</p>
+      </div>
+      <div style="display: flex; gap: 6px;">
+        <div style="flex:1; height: 28px; border-radius: 6px; background: #0ea5e9; display: flex; align-items: center; justify-content: center; color: white; font-size: 11px; font-weight: 600;">Primary</div>
+        <div style="flex:1; height: 28px; border-radius: 6px; background: #14b8a6; display: flex; align-items: center; justify-content: center; color: white; font-size: 11px; font-weight: 600;">Accent</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — 深蓝 × 蓝绿 (Navy-Teal)</h3>
+      <p>藏青主色 + 青蓝强调 + 薄荷绿高亮。专业、冷静、医疗感强。参考：Flatiron Health, Tempus</p>
+      <div style="margin-top: 8px; display: flex; gap: 4px; font-size: 11px;">
+        <code style="background: #0f2b4c; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#0f2b4c</code>
+        <code style="background: #153e75; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#0ea5e9</code>
+        <code style="background: #153e75; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#14b8a6</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 24px; background: #0b1324;">
+      <!-- Palette B: Deep Indigo + Cyan -->
+      <div style="display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;">
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #1e1b4b; border: 1px solid rgba(255,255,255,0.1);"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #312e81;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #818cf8;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #22d3ee;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #67e8f9;"></div>
+      </div>
+      <div style="background: linear-gradient(135deg, rgba(129,140,248,0.12), rgba(34,211,238,0.08)); border-radius: 12px; padding: 20px; border: 1px solid rgba(129,140,248,0.12); margin-bottom: 12px;">
+        <span style="background: rgba(34,211,238,0.18); padding: 3px 12px; border-radius: 12px; font-size: 11px; color: #67e8f9;">Clinical Decision Support</span>
+        <h3 style="font-size: 20px; font-weight: 700; color: white; margin: 10px 0 4px;">精准用药推荐</h3>
+        <p style="font-size: 13px; color: #a5b4fc;">AI驱动的个性化临床决策支持</p>
+      </div>
+      <div style="display: flex; gap: 6px;">
+        <div style="flex:1; height: 28px; border-radius: 6px; background: #818cf8; display: flex; align-items: center; justify-content: center; color: white; font-size: 11px; font-weight: 600;">Primary</div>
+        <div style="flex:1; height: 28px; border-radius: 6px; background: #22d3ee; display: flex; align-items: center; justify-content: center; color: #0b1324; font-size: 11px; font-weight: 600;">Accent</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — 靛蓝 × 青蓝 (Indigo-Cyan)</h3>
+      <p>深邃靛蓝 + 电光青蓝 + 柔和紫调。更前卫、AI感强。参考：Vercel, OpenAI</p>
+      <div style="margin-top: 8px; display: flex; gap: 4px; font-size: 11px;">
+        <code style="background: #1e1b4b; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#1e1b4b</code>
+        <code style="background: #312e81; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#818cf8</code>
+        <code style="background: #312e81; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#22d3ee</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 24px; background: #0c0f16;">
+      <!-- Palette C: Slate + Emerald -->
+      <div style="display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;">
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #1a2332; border: 1px solid rgba(255,255,255,0.1);"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #1e3a5f;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #38bdf8;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #10b981;"></div>
+        <div style="width: 48px; height: 48px; border-radius: 10px; background: #34d399;"></div>
+      </div>
+      <div style="background: linear-gradient(135deg, rgba(56,189,248,0.1), rgba(16,185,129,0.06)); border-radius: 12px; padding: 20px; border: 1px solid rgba(56,189,248,0.1); margin-bottom: 12px;">
+        <span style="background: rgba(16,185,129,0.18); padding: 3px 12px; border-radius: 12px; font-size: 11px; color: #34d399;">Clinical Decision Support</span>
+        <h3 style="font-size: 20px; font-weight: 700; color: white; margin: 10px 0 4px;">精准用药推荐</h3>
+        <p style="font-size: 13px; color: #94a3b8;">AI驱动的个性化临床决策支持</p>
+      </div>
+      <div style="display: flex; gap: 6px;">
+        <div style="flex:1; height: 28px; border-radius: 6px; background: #38bdf8; display: flex; align-items: center; justify-content: center; color: #0c0f16; font-size: 11px; font-weight: 600;">Primary</div>
+        <div style="flex:1; height: 28px; border-radius: 6px; background: #10b981; display: flex; align-items: center; justify-content: center; color: white; font-size: 11px; font-weight: 600;">Accent</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — 石板蓝 × 翠绿 (Slate-Emerald)</h3>
+      <p>冷灰蓝底 + 天蓝主色 + 翡翠绿安全色。更克制、成熟、传统医疗感。参考：Epic, Cerner</p>
+      <div style="margin-top: 8px; display: flex; gap: 4px; font-size: 11px;">
+        <code style="background: #1a2332; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#1a2332</code>
+        <code style="background: #1e3a5f; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#38bdf8</code>
+        <code style="background: #1e3a5f; padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">#10b981</code>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>推荐</h3>
+  <p class="subtitle">A 方案最能平衡医疗专业性与现代科技感 — 藏青底 + 蓝绿强调色是精准医疗领域的经典组合，中文可读性最佳</p>
+</div>

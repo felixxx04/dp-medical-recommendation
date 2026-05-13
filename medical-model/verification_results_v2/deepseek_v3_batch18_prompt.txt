@@ -1,0 +1,71 @@
+请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。
+
+疾病: 鼻窦炎
+推荐药物:
+1. Amoxicillin (青霉素类抗生素) - 匹配疾病: 急性细菌性鼻窦炎
+2. Amoxicillin-Clavulanate (青霉素+β-内酰胺酶抑制剂) - 匹配疾病: 细菌感染
+3. Cefaclor (头孢菌素类抗生素) - 匹配疾病: 鼻窦炎
+4. Cefuroxime (头孢菌素类抗生素) - 匹配疾病: 鼻窦炎
+---
+疾病: 细菌性鼻窦炎
+推荐药物:
+1. Amoxicillin-Clavulanate (青霉素+β-内酰胺酶抑制剂) - 匹配疾病: 细菌感染
+2. Telithromycin (酮内酯类抗生素) - 匹配疾病: 鼻窦炎
+3. Azithromycin (大环内酯类抗生素) - 匹配疾病: 急性细菌性鼻窦炎
+4. Cefdinir (头孢菌素类抗生素) - 匹配疾病: 鼻窦炎
+---
+疾病: 胰腺癌
+推荐药物:
+1. Paclitaxel (抗微管药) - 匹配疾病: adenocarcinoma of pancreas
+2. Cimetidine (H2受体阻断剂) - 匹配疾病: 胃痛
+3. Fluorouracil (抗代谢药) - 匹配疾病: adenocarcinoma of pancreas
+4. Gemcitabine (抗代谢药) - 匹配疾病: adenocarcinoma of pancreas
+---
+疾病: 腺癌
+推荐药物:
+1. Paclitaxel (抗微管药) - 匹配疾病: adenocarcinoma of pancreas
+2. Fluorouracil (抗代谢药) - 匹配疾病: adenocarcinoma of pancreas
+3. Gemcitabine (抗代谢药) - 匹配疾病: adenocarcinoma of pancreas
+4. Docetaxel (抗微管药) - 匹配疾病: 胃腺癌
+---
+疾病: 焦虑不安
+推荐药物:
+1. Clonazepam (苯二氮卓类) - 匹配疾病: 焦虑
+2. Lamotrigine (抗惊厥药) - 匹配疾病: 双相情感障碍
+3. Doxepin (三环类抗抑郁药) - 匹配疾病: 焦虑
+4. Nefazodone (5-HT拮抗再摄取抑制剂) - 匹配疾病: 焦虑
+---
+疾病: 细菌性结膜炎
+推荐药物:
+1. Azithromycin (大环内酯类抗生素) - 匹配疾病: 细菌性结膜炎
+2. Bacitracin (多肽类抗生素) - 匹配疾病: 结膜炎
+3. Cetirizine (抗组胺药) - 匹配疾病: 过敏性结膜炎
+4. Erythromycin (大环内酯类抗生素) - 匹配疾病: 新生儿结膜炎的预防
+---
+疾病: 细菌性皮肤感染
+推荐药物:
+1. Cefepime (头孢菌素类抗生素) - 匹配疾病: bacterial skin infection
+2. Cephalexin (头孢菌素类抗生素) - 匹配疾病: bacterial skin infection
+3. Piperacillin-Tazobactam (青霉素+β-内酰胺酶抑制剂) - 匹配疾病: bacterial skin infection
+4. Moxifloxacin (氟喹诺酮类) - 匹配疾病: bacterial skin infection
+---
+疾病: 细菌性尿路感染
+推荐药物:
+1. Fosfomycin (抗生素) - 匹配疾病: 尿路感染
+2. acetohydroxamic acid (其他泌尿生殖道药) - 匹配疾病: bacterial urinary tract infection
+3. Amikacin (氨基糖苷类抗生素) - 匹配疾病: 尿路感染
+4. Phenazopyridine (泌尿镇痛药) - 匹配疾病: 尿路感染
+---
+疾病: 双相情感障碍
+推荐药物:
+1. Lithium (抗躁狂药) - 匹配疾病: 双相情感障碍
+2. Oxcarbazepine (抗惊厥药) - 匹配疾病: 双相情感障碍
+3. Zonisamide (抗惊厥药) - 匹配疾病: 双相情感障碍
+4. Topiramate (抗惊厥药) - 匹配疾病: 双相情感障碍
+---
+疾病: 躁郁症
+推荐药物:
+1. Lamotrigine (抗惊厥药) - 匹配疾病: 双相情感障碍
+2. Lithium (抗躁狂药) - 匹配疾病: 双相情感障碍
+3. Oxcarbazepine (抗惊厥药) - 匹配疾病: 双相情感障碍
+4. Zonisamide (抗惊厥药) - 匹配疾病: 双相情感障碍

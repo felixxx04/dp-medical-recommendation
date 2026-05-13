@@ -1,0 +1,90 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e7] [cursor=pointer]
+        - button [ref=e19] [cursor=pointer]:
+          - img [ref=e22]
+      - generic [ref=e24] [cursor=pointer]:
+        - img [ref=e26]
+        - generic [ref=e28]: 开启新对话
+        - text: Ctrl + J
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: 今天
+          - link "药物禁忌症生成" [ref=e35] [cursor=pointer]:
+            - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+            - generic [ref=e36]: 药物禁忌症生成
+          - link "药物禁忌症列表生成" [ref=e37] [cursor=pointer]:
+            - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+            - generic [ref=e38]: 药物禁忌症列表生成
+          - link "药物禁忌症列表生成" [ref=e39] [cursor=pointer]:
+            - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+            - generic [ref=e40]: 药物禁忌症列表生成
+          - link "药物适应症列表生成" [ref=e41] [cursor=pointer]:
+            - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+            - generic [ref=e42]: 药物适应症列表生成
+        - generic [ref=e43]:
+          - generic [ref=e44]: 昨天
+          - link "药学知识专家验证药物适应症" [ref=e45] [cursor=pointer]:
+            - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+            - generic [ref=e46]: 药学知识专家验证药物适应症
+          - link "差分隐私推荐系统问题分析" [ref=e47] [cursor=pointer]:
+            - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+            - generic [ref=e48]: 差分隐私推荐系统问题分析
+          - link "药物适应症补充任务" [ref=e49] [cursor=pointer]:
+            - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+            - generic [ref=e50]: 药物适应症补充任务
+        - generic [ref=e51]:
+          - generic [ref=e52]: 7 天内
+          - link "药物适应症补充任务" [ref=e53] [cursor=pointer]:
+            - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+            - generic [ref=e54]: 药物适应症补充任务
+          - link "药物适应症批量处理" [ref=e55] [cursor=pointer]:
+            - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+            - generic [ref=e56]: 药物适应症批量处理
+          - link "药物适应症补充任务" [ref=e57] [cursor=pointer]:
+            - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+            - generic [ref=e58]: 药物适应症补充任务
+          - link "药物交互数据提取结果" [ref=e59] [cursor=pointer]:
+            - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+            - generic [ref=e60]: 药物交互数据提取结果
+          - link "Simvastatin禁忌症生成" [ref=e61] [cursor=pointer]:
+            - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+            - generic [ref=e62]: Simvastatin禁忌症生成
+          - link "生成数据训练请求" [ref=e63] [cursor=pointer]:
+            - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+            - generic [ref=e64]: 生成数据训练请求
+      - generic [ref=e66] [cursor=pointer]:
+        - img [ref=e69]
+        - generic [ref=e72]: 132******38
+        - img [ref=e74]
+    - generic [ref=e83]:
+      - generic [ref=e85]:
+        - img [ref=e86]
+        - generic [ref=e89]: 使用专家模式开始对话
+      - radiogroup [ref=e91]:
+        - radio "快速模式" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]:
+            - img [ref=e132]
+            - generic [ref=e97]: 快速模式
+        - radio "专家模式" [checked] [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]:
+            - img [ref=e134]
+            - generic [ref=e103]: 专家模式
+      - generic [ref=e106]:
+        - textbox "给 DeepSeek 发送消息" [ref=e108]:
+          - /placeholder: "给 DeepSeek 发送消息 "
+        - generic [ref=e109]:
+          - button "深度思考" [active] [ref=e110] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e115]: 深度思考
+          - button "智能搜索" [ref=e116] [cursor=pointer]:
+            - img [ref=e118]
+            - generic [ref=e120]: 智能搜索
+          - generic [ref=e121]:
+            - button [ref=e122] [cursor=pointer]:
+              - img [ref=e125]
+            - button [disabled] [ref=e128] [cursor=pointer]:
+              - img [ref=e130]
+  - generic [ref=e139]: 先思考后回答，解决推理问题

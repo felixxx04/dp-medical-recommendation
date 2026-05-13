@@ -1,0 +1,276 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e142] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e143]: 新对话
+          - button [ref=e144]:
+            - img [ref=e148]
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e100]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e104]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e106]: 药物适应症列表生成
+      - generic [ref=e107]:
+        - generic [ref=e108]: 昨天
+        - link "药学知识专家验证药物适应症" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e110]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e112]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e114]: 药物适应症补充任务
+      - generic [ref=e115]:
+        - generic [ref=e116]: 7 天内
+        - link "药物适应症补充任务" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e118]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e120]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e122]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e124]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e126]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e128]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e130]
+      - generic [ref=e133]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e152]:
+      - generic [ref=e154]:
+        - generic [ref=e155] [cursor=pointer]: 新对话
+        - generic [ref=e156]:
+          - img [ref=e158]
+          - generic [ref=e160]: 专家模式
+      - button [ref=e161] [cursor=pointer]:
+        - img [ref=e164]
+    - generic [ref=e167]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - generic [ref=e172]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: tenofovir disoproxil | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: B lopinavir and ritonavir | 类别: Protease inhibitors | 适应症: hiv infection | 妊娠分级: C etravirine | 类别: NNRTIs | 适应症: hiv infection | 妊娠分级: B abacavir | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection | 妊娠分级: C emtricitabine and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B cobicistat and darunavir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C lamivudine and zidovudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C zidovudine (oral/injection) | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|prevention of mother-to-child transmission of hiv | 妊娠分级: C emtricitabine | 类别: Nucleoside reverse transcriptase inhibitors (NRTIs) | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: B dolutegravir and rilpivirine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N cobicistat, darunavir, emtricitabine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N abacavir, lamivudine, and zidovudine | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C lamivudine and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: N doravirine, lamivudine, and tenofovir disoproxil fumarate | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N efavirenz, lamivudine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N atazanavir and cobicistat | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B doravirine | 类别: NNRTIs | 适应症: hiv infection | 妊娠分级: N cobicistat | 类别: Antiviral boosters | 适应症: pharmacokinetic booster | 妊娠分级: B ibalizumab | 类别: Miscellaneous antivirals | 适应症: multidrug-resistant hiv infection | 妊娠分级: N immune globulin (IGIV) (intravenous) | 类别: Immune globulins | 适应症: primary immunodeficiency|immune thrombocytopenic purpura|kawasaki disease|chronic lymphocytic leukemia|multifocal motor neuropathy|chronic inflammatory demyelinating polyneuropathy | 妊娠分级: C fostemsavir (extended-release tablets) | 类别: Miscellaneous antivirals | 适应症: heavily treatment-experienced hiv infection | 妊娠分级: N lamivudine and tenofovir (oral route) | 类别: Antiviral combinations | 适应症: hiv infection|chronic hepatitis b | 妊娠分级: N ibalizumab-uiyk | 类别: Miscellaneous antivirals | 适应症: multidrug-resistant hiv infection | 妊娠分级: N emtricitabine, lopinavir, ritonavir, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: C emtricitabine, nelfinavir, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: B cabotegravir | 类别: Integrase strand transfer inhibitor | 适应症: hiv infection|pre-exposure prophylaxis for hiv | 妊娠分级: N doravirine, lamivudine, and tenofovir | 类别: Antiviral combinations | 适应症: hiv infection | 妊娠分级: N fostemsavir | 类别: Miscellaneous antivirals | 适应症: heavily treatment-experienced hiv infection | 妊娠分级: N doxylamine | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|nausea and vomiting of pregnancy | 妊娠分级: B corticotropin | 类别: Corticotropin | 适应症: infantile spasms|multiple sclerosis|rheumatic disorders|acute exacerbation of multiple sclerosis | 妊娠分级: C dexbrompheniramine | 类别: Antihistamines | 适应症: allergic rhinitis|urticaria|common cold symptoms | 妊娠分级: C dexbrompheniramine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|allergic rhinitis|sinus congestion | 妊娠分级: C doxylamine succinate | 类别: Miscellaneous anxiolytics, sedatives and hypnotics | 适应症: insomnia|nausea and vomiting of pregnancy | 妊娠分级: B donepezil (oral) | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: C etanercept | 类别: Antirheumatics, TNF alfa inhibitors | 适应症: rheumatoid arthritis|psoriatic arthritis|ankylosing spondylitis|plaque psoriasis|juvenile idiopathic arthritis|chronic moderate to severe plaque psoriasis in pediatric patients | 妊娠分级: B rivastigmine (oral) | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: B galantamine | 类别: Cholinesterase inhibitors | 适应症: alzheimer's disease | 妊娠分级: C donepezil and memantine | 类别: Cholinesterase inhibitors | 适应症: moderate to severe alzheimer's disease | 妊娠分级: C vitamin E (VYE ta min E), tocopherol alpha Brand names: Aqua-E, Aquasol E , Aquavite-E, Aqueous Vitamin E, E-400 Clear | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C vitamin e (oral route) | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C aducanumab-avwa | 类别: Miscellaneous central nervous system agents | 适应症: alzheimer disease (mild cognitive impairment or mild dementia stage) | 妊娠分级: N Vitamin E Capsules and Tablets | 类别: Vitamins | 适应症: vitamin e deficiency|tardive dyskinesia|nonalcoholic steatohepatitis|alzheimer disease | 妊娠分级: C aducanumab | 类别: Miscellaneous central nervous system agents | 适应症: alzheimer's disease | 妊娠分级: N aspirin (oral) | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events|prevention of stroke|rheumatic fever | 妊娠分级: N nitroglycerin (oral/sublingual) | 类别: Antianginal agents, Vasodilators | 适应症: angina pectoris | 妊娠分级: C ranolazine | 类别: Antianginal agents | 适应症: chronic angina | 妊娠分级: C nitroglycerin (sublingual) | 类别: Antianginal agents, Vasodilators | 适应症: acute angina pectoris | 妊娠分级: C metoprolol (oral route) | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure|myocardial infarction | 妊娠分级: C aspirin (oral route) | 类别: Platelet aggregation inhibitors, Salicylates | 适应症: pain|fever|inflammation|prevention of cardiovascular events|prevention of stroke | 妊娠分级: N metoprolol succinate tablet, extended release | 类别: Cardioselective beta blockers | 适应症: hypertension|angina pectoris|heart failure | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e175]:
+            - button [ref=e176] [cursor=pointer]:
+              - img [ref=e179]
+            - button [ref=e181] [cursor=pointer]:
+              - img [ref=e184]
+        - generic [ref=e189]:
+          - generic [ref=e192]:
+            - generic [ref=e193]: json
+            - generic [ref=e195]:
+              - button "复制" [disabled] [ref=e196]:
+                - img [ref=e198]
+                - generic [ref=e200]: 复制
+              - button "下载" [disabled] [ref=e201]:
+                - img [ref=e203]
+                - generic [ref=e205]: 下载
+          - generic [ref=e206]:
+            - generic [ref=e207]: "["
+            - generic [ref=e208]: "{"
+            - generic [ref=e209]: "\"generic_name\": \"tenofovir disoproxil\","
+            - generic [ref=e210]: "\"contraindications\": ["
+            - generic [ref=e211]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Tenofovir is primarily renally excreted; accumulation in severe renal impairment increases risk of nephrotoxicity and proximal renal tubulopathy.\"},"
+            - generic [ref=e212]: "{\"contraindication_name\": \"hypersensitivity to tenofovir disoproxil\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of angioedema, rash, or anaphylaxis to tenofovir.\"},"
+            - generic [ref=e213]: "{\"contraindication_name\": \"concomitant use with nephrotoxic drugs\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive nephrotoxicity risk with aminoglycosides, amphotericin B, cidofovir, and high-dose NSAIDs.\"},"
+            - generic [ref=e249]: "{\"contraindication_name\": \"unmonitored pediatric patients under 2 years\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"relative\", \"reason\": \"Limited safety and efficacy data; potential for bone toxicity.\"},"
+            - generic [ref=e250]: "{\"contraindication_name\": \"decompensated liver disease\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Risk of severe acute exacerbation of hepatitis if discontinued.\"}"
+            - generic [ref=e251]: "]"
+            - generic [ref=e252]: "},"
+            - generic [ref=e253]: "{"
+            - generic [ref=e254]: "\"generic_name\": \"lopinavir and ritonavir\","
+            - generic [ref=e255]: "\"contraindications\": ["
+            - generic [ref=e256]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Lopinavir/ritonavir are extensively metabolized by the liver; use in severe impairment may lead to toxic plasma concentrations.\"},"
+            - generic [ref=e257]: "{\"contraindication_name\": \"hypersensitivity to lopinavir or ritonavir\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of severe rash, Stevens-Johnson syndrome, or anaphylaxis.\"},"
+            - generic [ref=e258]: "{\"contraindication_name\": \"concomitant use with potent CYP3A4 inducers\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Drugs like rifampin, St. John's Wort, and carbamazepine significantly decrease lopinavir/ritonavir concentrations, risking virologic failure and resistance.\"},"
+            - generic [ref=e259]: "{\"contraindication_name\": \"concomitant use with drugs highly dependent on CYP3A4 for clearance and with narrow therapeutic index\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Includes alfuzosin, cisapride, pimozide, ergotamine, dihydroergotamine, lovastatin, simvastatin, sildenafil (for PAH), triazolam, oral midazolam due to risk of serious or life-threatening reactions.\"},"
+            - generic [ref=e260]: "{\"contraindication_name\": \"congenital long QT syndrome\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Lopinavir/ritonavir can prolong PR and QT intervals; risk of torsades de pointes.\"},"
+            - generic [ref=e261]: "{\"contraindication_name\": \"pancreatitis\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Lopinavir/ritonavir has been associated with pancreatitis, including marked triglyceride elevations.\"}"
+            - generic [ref=e262]: "]"
+            - generic [ref=e263]: "},"
+            - generic [ref=e264]: "{"
+            - generic [ref=e265]: "\"generic_name\": \"etravirine\","
+            - generic [ref=e266]: "\"contraindications\": ["
+            - generic [ref=e267]: "{\"contraindication_name\": \"hypersensitivity to etravirine\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Severe skin reactions including Stevens-Johnson syndrome, drug reaction with eosinophilia and systemic symptoms (DRESS) reported.\"},"
+            - generic [ref=e268]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Etravirine pharmacokinetics not studied in severe hepatic impairment; potential for accumulation.\"},"
+            - generic [ref=e269]: "{\"contraindication_name\": \"concomitant use with strong CYP3A4 inducers\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Rifampin, carbamazepine, phenytoin, phenobarbital, St. John's Wort may significantly decrease etravirine concentrations, leading to loss of virologic response.\"},"
+            - generic [ref=e270]: "{\"contraindication_name\": \"concomitant use with other NNRTIs\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Combination with other NNRTIs like efavirenz, nevirapine, or rilpivirine is not recommended due to lack of additive benefit and overlapping toxicities.\"}"
+            - generic [ref=e271]: "]"
+            - generic [ref=e272]: "},"
+            - generic [ref=e273]: "{"
+            - generic [ref=e274]: "\"generic_name\": \"abacavir\","
+            - generic [ref=e275]: "\"contraindications\": ["
+            - generic [ref=e276]: "{\"contraindication_name\": \"HLA-B*5701 positive status\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Strongly predictive of a potentially fatal hypersensitivity reaction to abacavir, characterized by multi-organ involvement and rash.\"},"
+            - generic [ref=e277]: "{\"contraindication_name\": \"history of suspected abacavir hypersensitivity reaction\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Rechallenge is contraindicated and can be fatal, causing severe hypotension and death.\"},"
+            - generic [ref=e278]: "{\"contraindication_name\": \"moderate to severe hepatic impairment (Child-Pugh Class B or C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Abacavir metabolism may be altered; safety data lacking in these populations.\"},"
+            - generic [ref=e279]: "{\"contraindication_name\": \"concomitant use with alcohol\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Alcohol increases abacavir AUC by 41%, potentially increasing risk of toxicity.\"}"
+            - generic [ref=e280]: "]"
+            - generic [ref=e281]: "},"
+            - generic [ref=e282]: "{"
+            - generic [ref=e283]: "\"generic_name\": \"emtricitabine and tenofovir\","
+            - generic [ref=e284]: "\"contraindications\": ["
+            - generic [ref=e285]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Both components are renally cleared; tenofovir can cause nephrotoxicity and emtricitabine requires dose adjustment; fixed-dose combination cannot be adjusted.\"},"
+            - generic [ref=e286]: "{\"contraindication_name\": \"hypersensitivity to emtricitabine or tenofovir\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of angioedema, rash, or anaphylaxis to either component.\"},"
+            - generic [ref=e287]: "{\"contraindication_name\": \"lactation with known HIV-1 infection\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Breastfeeding is contraindicated in mothers with HIV-1 due to potential HIV transmission risk.\"},"
+            - generic [ref=e288]: "{\"contraindication_name\": \"unknown HIV-1 status for PrEP use\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Use for pre-exposure prophylaxis only in HIV-negative individuals; using in undiagnosed acute HIV infection can lead to resistance.\"},"
+            - generic [ref=e289]: "{\"contraindication_name\": \"concomitant nephrotoxic drugs\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Increased risk of renal impairment with concurrent nephrotoxic agents.\"}"
+            - generic [ref=e290]: "]"
+            - generic [ref=e291]: "},"
+            - generic [ref=e292]: "{"
+            - generic [ref=e293]: "\"generic_name\": \"cobicistat and darunavir\","
+            - generic [ref=e294]: "\"contraindications\": ["
+            - generic [ref=e295]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Darunavir and cobicistat are hepatically metabolized; use in severe impairment is contraindicated due to lack of data and potential for toxicity.\"},"
+            - generic [ref=e296]: "{\"contraindication_name\": \"hypersensitivity to darunavir or cobicistat\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Severe rash, Stevens-Johnson syndrome, or anaphylaxis to either component.\"},"
+            - generic [ref=e297]: "{\"contraindication_name\": \"sulfonamide allergy\", \"contraindication_type\": \"allergy_type\", \"severity\": \"relative\", \"reason\": \"Darunavir contains a sulfonamide moiety; caution in patients with known sulfonamide allergy due to potential cross-sensitivity.\"},"
+            - generic [ref=e298]: "{\"contraindication_name\": \"concomitant use with potent CYP3A4 inducers\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Rifampin, phenytoin, carbamazepine, phenobarbital, and St. John's Wort reduce darunavir/cobicistat levels, risking virologic failure.\"},"
+            - generic [ref=e299]: "{\"contraindication_name\": \"concomitant use with drugs highly dependent on CYP3A4\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Alfuzosin, cisapride, pimozide, ergotamine, dihydroergotamine, lovastatin, simvastatin, sildenafil (for PAH), triazolam, oral midazolam are contraindicated due to risk of serious adverse events from increased exposure.\"},"
+            - generic [ref=e300]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min) with concomitant nephrotoxic drugs\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Cobicistat inhibits tubular creatinine secretion; may increase risk if other nephrotoxic drugs are used.\"}"
+            - generic [ref=e301]: "]"
+            - generic [ref=e302]: "},"
+            - generic [ref=e303]: "{"
+            - generic [ref=e304]: "\"generic_name\": \"lamivudine and zidovudine\","
+            - generic [ref=e305]: "\"contraindications\": ["
+            - generic [ref=e306]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Zidovudine clearance is reduced in hepatic impairment; risk of hematologic toxicity.\"},"
+            - generic [ref=e307]: "{\"contraindication_name\": \"hemoglobin less than 7.5 g/dL or neutrophil count less than 0.75 x 10^9/L\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Zidovudine can cause severe bone marrow suppression, including anemia and neutropenia.\"},"
+            - generic [ref=e308]: "{\"contraindication_name\": \"hypersensitivity to lamivudine or zidovudine\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of severe rash, angioedema, or anaphylaxis.\"},"
+            - generic [ref=e309]: "{\"contraindication_name\": \"concomitant use with stavudine\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"In vitro antagonism between zidovudine and stavudine; should not be co-administered.\"},"
+            - generic [ref=e310]: "{\"contraindication_name\": \"severe renal impairment (CrCl <15 mL/min) with fixed-dose combination\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Lamivudine requires dose adjustment in renal impairment; fixed-dose combination cannot be dose-adjusted.\"},"
+            - generic [ref=e311]: "{\"contraindication_name\": \"concomitant use with doxorubicin or ribavirin\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Potential for antagonism or increased toxicity with zidovudine.\"}"
+            - generic [ref=e312]: "]"
+            - generic [ref=e313]: "},"
+            - generic [ref=e314]: "{"
+            - generic [ref=e315]: "\"generic_name\": \"zidovudine (oral/injection)\","
+            - generic [ref=e316]: "\"contraindications\": ["
+            - generic [ref=e317]: "{\"contraindication_name\": \"hemoglobin less than 7.5 g/dL or neutrophil count less than 0.75 x 10^9/L\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Zidovudine can cause life-threatening bone marrow suppression, manifesting as severe anemia and/or neutropenia.\"},"
+            - generic [ref=e318]: "{\"contraindication_name\": \"hypersensitivity to zidovudine\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of severe rash, anaphylactic or anaphylactoid reactions.\"},"
+            - generic [ref=e319]: "{\"contraindication_name\": \"concomitant use with stavudine\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Antagonistic in vitro interaction; combination is not recommended.\"},"
+            - generic [ref=e320]: "{\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Zidovudine is primarily glucuronidated in the liver; clearance is decreased in hepatic impairment, increasing risk of hematologic toxicity.\"},"
+            - generic [ref=e321]: "{\"contraindication_name\": \"concomitant use with ribavirin\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Ribavirin antagonizes the antiviral activity of zidovudine and can increase the risk of anemia.\"},"
+            - generic [ref=e322]: "{\"contraindication_name\": \"lactation\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Breastfeeding is contraindicated in HIV-infected mothers to reduce the risk of postnatal transmission of HIV.\"}"
+            - generic [ref=e323]: "]"
+            - generic [ref=e324]: "},"
+            - generic [ref=e325]: "{"
+            - generic [ref=e326]: "\"generic_name\": \"emtricitabine\","
+            - generic [ref=e327]: "\"contraindications\": ["
+            - generic [ref=e328]: "{\"contraindication_name\": \"hypersensitivity to emtricitabine\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of severe rash, angioedema, or anaphylaxis.\"},"
+            - generic [ref=e329]: "{\"contraindication_name\": \"severe renal impairment (CrCl <15 mL/min) without hemodialysis or dose adjustment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Emtricitabine is renally eliminated; requires significant dose interval adjustment in severe renal impairment.\"},"
+            - generic [ref=e330]: "{\"contraindication_name\": \"unknown HIV-1 status for PrEP\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Must only be used in individuals confirmed to be HIV-negative; use in undiagnosed acute HIV infection may lead to drug resistance.\"},"
+            - generic [ref=e331]: "{\"contraindication_name\": \"lactation\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"HIV-infected mothers should not breastfeed due to potential HIV transmission.\"}"
+            - generic [ref=e332]: "]"
+            - generic [ref=e333]: "},"
+            - generic [ref=e334]: "{"
+            - generic [ref=e335]: "\"generic_name\": \"dolutegravir and rilpivirine\","
+            - generic [ref=e336]: "\"contraindications\": ["
+            - generic [ref=e337]: "{\"contraindication_name\": \"hypersensitivity to dolutegravir or rilpivirine\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Severe rash, organ dysfunction, or anaphylaxis to either component.\"},"
+            - generic [ref=e338]: "{\"contraindication_name\": \"concomitant use with potent CYP3A4 inducers\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Carbamazepine, oxcarbazepine, phenobarbital, phenytoin, rifampin, rifapentine, dexamethasone, and St. John's Wort significantly decrease rilpivirine concentrations; risk of virologic failure.\"},"
+            - generic [ref=e339]: "{\"contraindication_name\": \"concomitant use with proton pump inhibitors\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"PPIs (e.g., omeprazole, esomeprazole) significantly reduce rilpivirine absorption, leading to subtherapeutic levels.\"},"
+            - generic [ref=e340]: "{\"contraindication_name\": \"concomitant use with dofetilide\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Dolutegravir inhibits the renal organic cation transporter (OCT2), potentially increasing dofetilide levels and the risk of serious arrhythmias.\"},"
+            - generic [ref=e341]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Rilpivirine pharmacokinetics not studied; potential for decreased hepatic metabolism.\"}"
+            - generic [ref=e342]: "]"
+            - generic [ref=e343]: "},"
+            - generic [ref=e344]: "{"
+            - generic [ref=e345]: "\"generic_name\": \"cobicistat, darunavir, emtricitabine, and tenofovir\","
+            - generic [ref=e346]: "\"contraindications\": ["
+            - generic [ref=e347]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Tenofovir and emtricitabine require dose adjustment in renal impairment; fixed-dose combination cannot be adjusted.\"},"
+            - generic [ref=e348]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Darunavir and cobicistat are hepatically metabolized; contraindicated in severe impairment.\"},"
+            - generic [ref=e349]: "{\"contraindication_name\": \"hypersensitivity to any component\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"History of severe rash, Stevens-Johnson syndrome, or anaphylaxis to darunavir, cobicistat, emtricitabine, or tenofovir.\"},"
+            - generic [ref=e350]: "{\"contraindication_name\": \"concomitant use with potent CYP3A4 inducers\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Rifampin, phenytoin, carbamazepine, phenobarbital, St. John's Wort reduce darunavir/cobicistat levels.\"},"
+            - generic [ref=e351]: "{\"contraindication_name\": \"concomitant use with drugs highly dependent on CYP3A4\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Alfuzosin, cisapride, pimozide, ergotamine, dihydroergotamine, lovastatin, simvastatin, sildenafil (for PAH), triazolam, oral midazolam.\"},"
+            - generic [ref=e352]: "{\"contraindication_name\": \"lactation\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Breastfeeding is contraindicated in mothers with HIV-1.\"}"
+            - generic [ref=e353]: "]"
+            - generic [ref=e354]: "},"
+            - generic [ref=e355]: "{"
+            - generic [ref=e356]: "\"generic_name\": \"abacavir, lamivudine, and zidovudine\","
+            - generic [ref=e357]: "\"contraindications\": ["
+            - generic [ref=e358]: "{\"contraindication_name\": \"HLA-B*5701 positive status\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Strongly associated with a potentially fatal hypersensitivity reaction to abacavir.\"},"
+            - generic [ref=e359]: "{\"contraindication_name\": \"history of abacavir hypersensitivity reaction\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Rechallenge is contraindicated and can be fatal.\"},"
+            - generic [ref=e360]: "{\"contraindication_name\": \"hemoglobin less than 7.5 g/dL or neutrophil count less than 0.75 x 10^9/L\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Zidovudine is a bone marrow suppressant that can cause severe anemia and neutropenia.\"},"
+            - generic [ref=e361]: "{\"contraindication_name\": \"hypersensitivity to any component\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Angioedema, rash, or anaphylaxis to abacavir, lamivudine, or zidovudine.\"},"
+            - generic [ref=e362]: "{\"contraindication_name\": \"concomitant use with stavudine\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"In vitro antagonism between zidovudine and stavudine.\"},"
+            - generic [ref=e363]: "{\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"All three components require dose adjustment in hepatic impairment; fixed-dose combination cannot be adjusted.\"},"
+            - generic [ref=e364]: "{\"contraindication_name\": \"severe renal impairment (CrCl <15 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Lamivudine and zidovudine require dose modification; fixed-dose combination cannot be appropriately adjusted.\"}"
+            - generic [ref=e365]: "]"
+            - generic [ref=e366]: "},"
+            - generic [ref=e367]: "{"
+            - generic [ref=e368]: "\"generic_name\": \"lamivudine and tenofovir\","
+            - generic [ref=e369]: "\"contraindications\": ["
+            - generic [ref=e370]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Both lamivudine and tenofovir are renally eliminated; tenofovir carries a risk of nephrotoxicity and fixed-dose combination cannot be adjusted.\"},"
+            - generic [ref=e371]: "{\"contraindication_name\": \"hypersensitivity to lamivudine or tenofovir\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Angioedema, severe rash, or anaphylaxis to either component.\"},"
+            - generic [ref=e372]: "{\"contraindication_name\": \"concomitant use with nephrotoxic drugs\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Increased risk of nephrotoxicity with concurrent use of aminoglycosides, amphotericin B, cidofovir, or high-dose NSAIDs.\"},"
+            - generic [ref=e373]: "{\"contraindication_name\": \"decompensated liver disease\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Discontinuation of lamivudine or tenofovir in hepatitis B co-infected patients can lead to severe acute exacerbation of hepatitis.\"},"
+            - generic [ref=e374]: "{\"contraindication_name\": \"lactation\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Breastfeeding is contraindicated in HIV-infected mothers.\"}"
+            - generic [ref=e375]: "]"
+            - generic [ref=e376]: "},"
+            - generic [ref=e377]: "{"
+            - generic [ref=e378]: "\"generic_name\": \"doravirine, lamivudine, and tenofovir disoproxil fumarate\","
+            - generic [ref=e379]: "\"contraindications\": ["
+            - generic [ref=e380]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Lamivudine and tenofovir require dose adjustments; fixed-dose combination cannot be adjusted.\"},"
+            - generic [ref=e381]: "{\"contraindication_name\": \"hypersensitivity to any component\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Angioedema, severe rash, or anaphylaxis to doravirine, lamivudine, or tenofovir.\"},"
+            - generic [ref=e382]: "{\"contraindication_name\": \"concomitant use with potent CYP3A4 inducers\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Rifampin, phenytoin, carbamazepine, and St. John's Wort can significantly reduce doravirine concentrations.\"},"
+            - generic [ref=e383]: "{\"contraindication_name\": \"concomitant use with nephrotoxic drugs\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive risk of renal impairment with tenofovir.\"},"
+            - generic [ref=e384]: "{\"contraindication_name\": \"decompensated liver disease\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Risk of severe hepatitis B exacerbation if discontinued in co-infected patients.\"},"
+            - generic [ref=e385]: "{\"contraindication_name\": \"lactation\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Breastfeeding contraindicated in mothers with HIV-1.\"}"
+            - generic [ref=e386]: "]"
+            - generic [ref=e387]: "},"
+            - generic [ref=e388]: "{"
+            - generic [ref=e389]: "\"generic_name\": \"efavirenz, lamivudine, and tenofovir\","
+            - generic [ref=e390]: "\"contraindications\": ["
+            - generic [ref=e391]: "{\"contraindication_name\": \"severe renal impairment (CrCl <30 mL/min)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Lamivudine and tenofovir are renally eliminated; fixed-dose combination cannot be dose-adjusted.\"},"
+            - generic [ref=e392]: "{\"contraindication_name\": \"hypersensitivity to efavirenz, lamivudine, or tenofovir\", \"contraindication_type\": \"allergy_type\", \"severity\": \"absolute\", \"reason\": \"Stevens-Johnson syndrome, erythema multiforme, or severe rash; psychiatric symptoms reported with efavirenz.\"},"
+            - generic [ref=e393]: "{\"contraindication_name\": \"severe hepatic impairment (Child-Pugh Class C)\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Efavirenz is extensively metabolized by CYP2B6 and CYP3A4; contraindicated in severe hepatic impairment.\"},"
+            - generic [ref=e394]: "{\"contraindication_name\": \"concomitant use with voriconazole\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Efavirenz significantly reduces voriconazole AUC, while voriconazole increases efavirenz AUC; standard doses are incompatible.\"},"
+            - generic [ref=e395]: "{\"contraindication_name\": \"concomitant use with other NNRTIs\", \"contraindication_type\": \"drug_class\", \"severity\": \"absolute\", \"reason\": \"Overlapping class toxicity and lack of efficacy data.\"},"
+            - generic [ref=e396]: "{\"contraindication_name\": \"pregnancy (first trimester)\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Efavirenz has been associated with neural tube defects in nonhuman primates and retrospective human data; avoid if possible.\"},"
+            - generic [ref=e397]: "{\"contraindication_name\": \"personal or family history of prolonged QT interval\", \"contraindication_type\": \"disease\", \"severity\": \"relative\", \"reason\": \"Efavirenz can prolong the QTc interval.\"}"
+            - text: "] }, { \""
+          - img [ref=e214]
+          - img [ref=e216]
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - button [ref=e398] [cursor=pointer]:
+            - img [ref=e400]
+          - generic [ref=e221]:
+            - textbox "给 DeepSeek 发送消息" [active] [ref=e223]:
+              - /placeholder: "给 DeepSeek 发送消息 "
+            - generic [ref=e224]:
+              - button "深度思考" [ref=e225] [cursor=pointer]:
+                - img [ref=e227]
+                - generic [ref=e230]: 深度思考
+              - button "智能搜索" [ref=e231] [cursor=pointer]:
+                - img [ref=e233]
+                - generic [ref=e235]: 智能搜索
+              - generic [ref=e236]:
+                - button [ref=e237] [cursor=pointer]:
+                  - img [ref=e240]
+                - button [ref=e243] [cursor=pointer]:
+                  - img [ref=e246]
+        - generic [ref=e248]: 内容由 AI 生成，请仔细甄别

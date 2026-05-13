@@ -1,0 +1,43 @@
+- generic:
+  - generic [ref=e2]:
+    - generic:
+      - generic [ref=e3]:
+        - img [ref=e5] [cursor=pointer]
+        - generic [ref=e8]:
+          - button [ref=e9] [cursor=pointer]:
+            - img [ref=e12]
+          - button [ref=e14] [cursor=pointer]:
+            - img [ref=e18]
+          - button [ref=e21] [cursor=pointer]:
+            - img [ref=e24]
+      - text: Ctrl + J
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - img [ref=e34]
+        - generic [ref=e37]: 使用专家模式开始对话
+      - radiogroup [ref=e39]:
+        - radio "快速模式" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]:
+            - img [ref=e80]
+            - generic [ref=e45]: 快速模式
+        - radio "专家模式" [checked] [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]:
+            - img [ref=e82]
+            - generic [ref=e51]: 专家模式
+      - generic [ref=e54]:
+        - textbox "给 DeepSeek 发送消息" [ref=e56]:
+          - /placeholder: "给 DeepSeek 发送消息 "
+          - text: "请作为临床药学专家，评估以下每种疾病的推荐药物是否临床适当。对每种疾病，给出评级：APPROPRIATE(完全适当)、PARTIALLY(部分适当/有更好选择)、INAPPROPRIATE(不适当)。只需给出疾病名和评级。 疾病: 高血压 推荐药物: 1. Benazepril (ACE抑制剂) - 匹配疾病: 高血压 2. Bumetanide (袢利尿剂) - 匹配疾病: 高血压 3. Chlorthalidone (噻嗪类利尿剂) - 匹配疾病: 高血压 4. Clonidine (α2激动剂) - 匹配疾病: 高血压 --- 疾病: 低血压 推荐药物: 1. Norepinephrine (α激动剂) - 匹配疾病: hypotension 2. Fludrocortisone (皮质类固醇) - 匹配疾病: hypotension 3. Midodrine (Alpha-1激动剂) - 匹配疾病: hypotension 4. Telmisartan (ARB(血管紧张素受体阻断剂)) - 匹配疾病: None --- 疾病: 冠心病 推荐药物: 1. Perindopril (ACE抑制剂) - 匹配疾病: 心绞痛 2. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 慢性稳定性心绞痛 3. amlodipine and benazepril (ACE抑制剂+钙通道阻滞剂) - 匹配疾病: 冠心病 4. amlodipine and perindopril (ACE抑制剂+钙通道阻滞剂) - 匹配疾病: 冠心病 --- 疾病: 心绞痛 推荐药物: 1. Carvedilol (α/β受体阻断剂) - 匹配疾病: 心绞痛 2. Propranolol (β受体阻断剂) - 匹配疾病: 心绞痛 3. Verapamil (非二氢吡啶类钙通道阻滞剂) - 匹配疾病: 心绞痛 4. diltiazem hydrochloride (钙通道阻滞剂) - 匹配疾病: 心绞痛 --- 疾病: 心肌梗死 推荐药物: 1. Captopril (ACE抑制剂) - 匹配疾病: 心肌梗塞后左心室功能障碍 2. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 3. Prasugrel (抗血小板药) - 匹配疾病: 心肌梗死 4. Ticagrelor (P2Y12抑制剂) - 匹配疾病: 心肌梗死 --- 疾病: 心梗 推荐药物: 1. Captopril (ACE抑制剂) - 匹配疾病: 心肌梗塞后左心室功能障碍 2. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 3. Prasugrel (抗血小板药) - 匹配疾病: 心肌梗死 4. Ticagrelor (P2Y12抑制剂) - 匹配疾病: 心肌梗死 --- 疾病: 心力衰竭 推荐药物: 1. Amlodipine-Valsartan (钙通道阻滞剂+ARB) - 匹配疾病: 心力衰竭 2. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 3. Bumetanide (袢利尿剂) - 匹配疾病: 心力衰竭 4. Canagliflozin (SGLT2抑制剂) - 匹配疾病: 心力衰竭 --- 疾病: 心衰 推荐药物: 1. Benazepril (ACE抑制剂) - 匹配疾病: 心力衰竭 2. Bumetanide (袢利尿剂) - 匹配疾病: 心力衰竭 3. Canagliflozin (SGLT2抑制剂) - 匹配疾病: 心力衰竭 4. Captopril (ACE抑制剂) - 匹配疾病: 心力衰竭 --- 疾病: 心房颤动 推荐药物: 1. Dofetilide (抗心律失常药(III类)) - 匹配疾病: 心律失常 2. Esmolol (β受体阻断剂) - 匹配疾病: 心律失常 3. Verapamil (非二氢吡啶类钙通道阻滞剂) - 匹配疾病: 心房颤动 4. Rivaroxaban (直接口服抗凝剂（Xa 因子抑制剂）) - 匹配疾病: 心房颤动 --- 疾病: 房颤 推荐药物: 1. Dofetilide (抗心律失常药(III类)) - 匹配疾病: 心律失常 2. Ibutilide (抗心律失常药(III类)) - 匹配疾病: 心律失常 3. Verapamil (非二氢吡啶类钙通道阻滞剂) - 匹配疾病: 心房颤动 4. Rivaroxaban (直接口服抗凝剂（Xa 因子抑制剂）) - 匹配疾病: 心房颤动"
+        - generic [ref=e57]:
+          - button "深度思考" [active] [ref=e58] [cursor=pointer]:
+            - img [ref=e60]
+            - generic [ref=e63]: 深度思考
+          - button "智能搜索" [pressed] [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+            - generic [ref=e68]: 智能搜索
+          - generic [ref=e69]:
+            - button [ref=e70] [cursor=pointer]:
+              - img [ref=e73]
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e78]
+  - generic [ref=e89]: 先思考后回答，解决推理问题

@@ -1,0 +1,66 @@
+[
+  {
+    "disease": "青光眼",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "白内障: IN",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "干眼症",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "结膜炎",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "过敏",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "过敏性鼻炎",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "疼痛",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "慢性疼痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "术后疼痛",
+    "rating": "PARTIALLY"
+  },
+  {
+    "disease": "恶心",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "呕吐",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "眩晕",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "晕眩",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "水肿",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "炎症",
+    "rating": "APPROPRIATE"
+  },
+  {
+    "disease": "白内障",
+    "rating": "APPROPRIATE"
+  }
+]

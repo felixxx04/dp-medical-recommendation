@@ -1,0 +1,176 @@
+<h2>核心功能页面</h2>
+<p class="subtitle">用药推荐页 + 患者档案页 — 统一深色设计语言</p>
+
+<div class="split">
+  <!-- Drug Recommendation Page -->
+  <div class="mockup">
+    <div class="mockup-header">用药推荐页 — 双输入模式 + 结果对比</div>
+    <div class="mockup-body" style="background: #060f1e; font-family: system-ui; padding: 0; border-radius: 0 0 4px 4px;">
+      <!-- Page header -->
+      <div style="padding: 20px 24px; border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <h2 style="font-size: 18px; font-weight: 700; color: #f8fafc; margin-bottom: 4px;">智能用药推荐</h2>
+        <p style="font-size: 12px; color: #94a3b8;">基于深度学习模型的个性化用药建议</p>
+      </div>
+      <!-- Input mode tabs -->
+      <div style="padding: 16px 24px; display: flex; gap: 8px;">
+        <div style="background: rgba(14,165,233,0.12); padding: 6px 16px; border-radius: 10px; font-size: 13px; color: #38bdf8; font-weight: 500; border: 1px solid rgba(14,165,233,0.2);">从档案选择</div>
+        <div style="padding: 6px 16px; font-size: 13px; color: #94a3b8;">手动填写</div>
+      </div>
+      <!-- Form fields -->
+      <div style="padding: 0 24px 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+        <div>
+          <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">姓名 *</div>
+          <div style="background: #0a1628; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: #cbd5e1;">张晓明</div>
+        </div>
+        <div style="display: flex; gap: 8px;">
+          <div style="flex:1;">
+            <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">年龄 *</div>
+            <div style="background: #0a1628; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: #cbd5e1;">58</div>
+          </div>
+          <div style="flex:1;">
+            <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">性别 *</div>
+            <div style="background: #0a1628; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: #cbd5e1;">男</div>
+          </div>
+        </div>
+        <div>
+          <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">身高 cm</div>
+          <div style="background: #0a1628; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: #cbd5e1;">172</div>
+        </div>
+        <div>
+          <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">体重 kg</div>
+          <div style="background: #0a1628; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: #cbd5e1;">68</div>
+        </div>
+      </div>
+      <div style="padding: 0 24px;">
+        <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">确诊疾病 *</div>
+        <div style="background: #0a1628; border: 1px solid rgba(14,165,233,0.3); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: #f8fafc; box-shadow: 0 0 0 3px rgba(14,165,233,0.1);">冠心病，慢性肾病</div>
+      </div>
+      <!-- Submit -->
+      <div style="padding: 16px 24px; display: flex; justify-content: flex-end; gap: 8px;">
+        <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 10px; font-size: 13px; color: #94a3b8; font-weight: 500;">重置</div>
+        <div style="background: linear-gradient(135deg, #0ea5e9, #0284c7); padding: 10px 24px; border-radius: 10px; color: white; font-size: 13px; font-weight: 600; box-shadow: 0 2px 10px rgba(14,165,233,0.25);">开始智能推荐</div>
+      </div>
+      <!-- Results -->
+      <div style="border-top: 1px solid rgba(255,255,255,0.06); padding: 16px 24px;">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+          <h3 style="font-size: 15px; font-weight: 700; color: #f8fafc;">推荐结果</h3>
+          <div style="display: flex; gap: 4px;">
+            <span style="background: rgba(14,165,233,0.15); padding: 3px 10px; border-radius: 10px; font-size: 11px; color: #38bdf8;">DP结果</span>
+            <span style="padding: 3px 10px; font-size: 11px; color: #64748b;">无DP基线</span>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px;">
+          <div style="background: #0f2744; border-radius: 10px; padding: 12px; border: 1px solid rgba(20,184,166,0.15); box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: #22c55e;"></div>
+              <div style="font-size: 12px; font-weight: 600; color: #f8fafc;">1. 培哚普利</div>
+            </div>
+            <div style="font-size: 10px; color: #5eead4; margin-top: 4px;">Perindopril · ACEI</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">匹配: 稳定性冠状动脉疾病</div>
+            <div style="font-size: 10px; font-weight: 600; color: #cbd5e1; margin-top: 4px;">score 1.00</div>
+          </div>
+          <div style="background: #0f2744; border-radius: 10px; padding: 12px; border: 1px solid rgba(255,255,255,0.06); box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: #14b8a6;"></div>
+              <div style="font-size: 12px; font-weight: 600; color: #f8fafc;">2. 盐酸地尔硫卓</div>
+            </div>
+            <div style="font-size: 10px; color: #5eead4; margin-top: 4px;">Diltiazem · CCB</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">匹配: 心绞痛</div>
+            <div style="font-size: 10px; font-weight: 600; color: #cbd5e1; margin-top: 4px;">score 1.00</div>
+          </div>
+          <div style="background: #0f2744; border-radius: 10px; padding: 12px; border: 1px solid rgba(255,255,255,0.06); box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: #38bdf8;"></div>
+              <div style="font-size: 12px; font-weight: 600; color: #f8fafc;">3. 左旋氨氯地平</div>
+            </div>
+            <div style="font-size: 10px; color: #5eead4; margin-top: 4px;">Levamlodipine · CCB</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">匹配: 心绞痛</div>
+            <div style="font-size: 10px; font-weight: 600; color: #cbd5e1; margin-top: 4px;">score 1.00</div>
+          </div>
+          <div style="background: #0f2744; border-radius: 10px; padding: 12px; border: 1px solid rgba(255,255,255,0.06); box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: #f59e0b;"></div>
+              <div style="font-size: 12px; font-weight: 600; color: #f8fafc;">4. 伊拉地平</div>
+            </div>
+            <div style="font-size: 10px; color: #f59e0b; margin-top: 4px;">Isradipine · CCB</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">需审核</div>
+            <div style="font-size: 10px; font-weight: 600; color: #cbd5e1; margin-top: 4px;">score 1.00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Patient Records Page -->
+  <div class="mockup">
+    <div class="mockup-header">患者档案页 — 数据表格 + 快速操作</div>
+    <div class="mockup-body" style="background: #060f1e; font-family: system-ui; padding: 0; border-radius: 0 0 4px 4px;">
+      <div style="padding: 20px 24px; border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <h2 style="font-size: 18px; font-weight: 700; color: #f8fafc; margin-bottom: 4px;">患者档案管理</h2>
+        <p style="font-size: 12px; color: #94a3b8;">管理患者基本信息和健康数据</p>
+      </div>
+      <!-- Search + action -->
+      <div style="padding: 16px 24px; display: flex; gap: 8px;">
+        <div style="flex:1; background: #0a1628; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 8px 12px; display: flex; align-items: center; gap: 6px;">
+          <span style="font-size: 11px; color: #64748b;">🔍 搜索患者姓名或电话...</span>
+        </div>
+        <div style="background: linear-gradient(135deg, #0ea5e9, #0284c7); padding: 8px 16px; border-radius: 8px; color: white; font-size: 12px; font-weight: 600;">+ 新增患者</div>
+      </div>
+      <!-- Table -->
+      <div style="padding: 0 24px 16px; overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+          <thead>
+            <tr style="background: #0a1628; border-bottom: 1px solid rgba(255,255,255,0.08);">
+              <th style="text-align: left; padding: 10px 12px; color: #64748b; font-weight: 600; font-size: 10px; letter-spacing: 0.04em;">姓名</th>
+              <th style="text-align: left; padding: 10px 12px; color: #64748b; font-weight: 600; font-size: 10px; letter-spacing: 0.04em;">年龄</th>
+              <th style="text-align: left; padding: 10px 12px; color: #64748b; font-weight: 600; font-size: 10px; letter-spacing: 0.04em;">性别</th>
+              <th style="text-align: left; padding: 10px 12px; color: #64748b; font-weight: 600; font-size: 10px; letter-spacing: 0.04em;">疾病</th>
+              <th style="text-align: left; padding: 10px 12px; color: #64748b; font-weight: 600; font-size: 10px; letter-spacing: 0.04em;">操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.04);">
+              <td style="padding: 10px 12px; color: #f8fafc; font-weight: 500;">王刚</td>
+              <td style="padding: 10px 12px; color: #cbd5e1;">73岁</td>
+              <td style="padding: 10px 12px; color: #cbd5e1;">男</td>
+              <td style="padding: 10px 12px; color: #94a3b8;">高血压、骨质疏松</td>
+              <td style="padding: 10px 12px;"><span style="color: #38bdf8; cursor: pointer;">推荐</span> <span style="color: #94a3b8; margin-left: 8px;">编辑</span></td>
+            </tr>
+            <tr style="background: rgba(14,165,233,0.04); border-bottom: 1px solid rgba(255,255,255,0.04);">
+              <td style="padding: 10px 12px; color: #f8fafc; font-weight: 500;">肖飞</td>
+              <td style="padding: 10px 12px; color: #cbd5e1;">75岁</td>
+              <td style="padding: 10px 12px; color: #cbd5e1;">男</td>
+              <td style="padding: 10px 12px; color: #94a3b8;">高血压、COPD</td>
+              <td style="padding: 10px 12px;"><span style="color: #38bdf8; cursor: pointer;">推荐</span> <span style="color: #94a3b8; margin-left: 8px;">编辑</span></td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.04);">
+              <td style="padding: 10px 12px; color: #f8fafc; font-weight: 500;">乔辉</td>
+              <td style="padding: 10px 12px; color: #cbd5e1;">73岁</td>
+              <td style="padding: 10px 12px; color: #cbd5e1;">男</td>
+              <td style="padding: 10px 12px; color: #94a3b8;">高血压、慢性肾病</td>
+              <td style="padding: 10px 12px;"><span style="color: #38bdf8; cursor: pointer;">推荐</span> <span style="color: #94a3b8; margin-left: 8px;">编辑</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Pagination -->
+      <div style="padding: 0 24px 16px; display: flex; justify-content: center; gap: 4px;">
+        <div style="width: 28px; height: 28px; border-radius: 6px; background: rgba(14,165,233,0.12); display: flex; align-items: center; justify-content: center; font-size: 11px; color: #38bdf8; font-weight: 600;">1</div>
+        <div style="width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #94a3b8;">2</div>
+        <div style="width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #94a3b8;">3</div>
+        <div style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #64748b;">...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 24px;">
+  <h3>页面设计要点</h3>
+  <p class="subtitle">统一的深色设计语言应用于所有功能页面</p>
+  <ul style="color: #94a3b8; line-height: 2;">
+    <li>✦ <strong>用药推荐页</strong>: 模式切换标签使用 pill 样式 · 表单用深色输入框 · 焦点框带 teal 光晕 · 药物卡片按排名颜色区分(1绿 2青 3蓝 4琥珀)</li>
+    <li>✦ <strong>患者档案页</strong>: 斑马纹行背景(交替深蓝) · 悬停行高亮 · 表头大写字母间距 · 操作链接用 primary 色</li>
+    <li>✦ <strong>骨架加载</strong>: 使用 primary 色脉冲动画 · 替代单调灰色 loading · 表单和卡片区域均覆盖</li>
+    <li>✦ <strong>标签/徽章</strong>: 半透明背景 + 彩色边框 · primary/accent/success/danger 四色变体</li>
+  </ul>
+</div>

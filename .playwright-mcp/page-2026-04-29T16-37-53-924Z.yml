@@ -1,0 +1,314 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: 今天
+        - link "新对话" [ref=e228] [cursor=pointer]:
+          - /url: /a/chat/s/47ca44ac-64df-40b8-8b21-b9fbadeecea5
+          - generic [ref=e229]: 新对话
+          - button [ref=e230]:
+            - img [ref=e234]
+        - link "临床药学专家药物交互生成" [ref=e35] [cursor=pointer]:
+          - /url: /a/chat/s/dadb6b40-edb1-497b-85cf-1d908a363d87
+          - generic [ref=e36]: 临床药学专家药物交互生成
+        - link "临床药学专家生成药物交互列表" [ref=e37] [cursor=pointer]:
+          - /url: /a/chat/s/4f673188-ac15-45da-a360-766681d189ca
+          - generic [ref=e38]: 临床药学专家生成药物交互列表
+        - link "药物交互作用列表生成" [ref=e39] [cursor=pointer]:
+          - /url: /a/chat/s/396da42e-e60a-42d9-8950-e2d1de7ba0b8
+          - generic [ref=e40]: 药物交互作用列表生成
+      - generic [ref=e41]:
+        - generic [ref=e42]: 昨天
+        - link "药物交互作用列表生成" [ref=e43] [cursor=pointer]:
+          - /url: /a/chat/s/43d465df-a130-493c-a502-f7871df35a84
+          - generic [ref=e44]: 药物交互作用列表生成
+        - link "dupilumab药物交互补充生成" [ref=e45] [cursor=pointer]:
+          - /url: /a/chat/s/ddc8880c-a441-4331-baa5-33dbff16164e
+          - generic [ref=e46]: dupilumab药物交互补充生成
+        - link "药物交互作用列表生成" [ref=e47] [cursor=pointer]:
+          - /url: /a/chat/s/e9628219-c25c-4a08-8887-a92530ab4c20
+          - generic [ref=e48]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e49] [cursor=pointer]:
+          - /url: /a/chat/s/357ca5b6-6383-49c0-8a04-65e8c6cc55c1
+          - generic [ref=e50]: 药物交互列表生成
+        - link "糖尿病药物交互列表生成" [ref=e51] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e52]: 糖尿病药物交互列表生成
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e53] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e54]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e55] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e56]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e57] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e58]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e59] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e60]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e61] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e62]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e63] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e64]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e65] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e66]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e67] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e68]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e69] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e70]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e71] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e72]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e73] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e74]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e75] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e76]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e77] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e78]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e79] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e80]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e81] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e82]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e83] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e84]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e85] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e86]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e87] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e88]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e89] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e90]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e91] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e92]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e93] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e94]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e95] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e96]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e100]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e104]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e106]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e107] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e108]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e110]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e112]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e114]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e116]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e118]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e119] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e120]: HIV药物禁忌症生成
+      - generic [ref=e121]:
+        - generic [ref=e122]: 7 天内
+        - link "药物禁忌症列表生成" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e124]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e126]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e128]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e130]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e132]: 药物适应症列表生成
+        - link "药学知识专家验证药物适应症" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e134]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e136]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e138]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e139] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e140]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e141] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e142]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e143] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e144]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e145] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e146]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e147] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e148]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e149] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e150]: 生成数据训练请求
+    - generic [ref=e152] [cursor=pointer]:
+      - img [ref=e155]
+      - generic [ref=e158]: 132******38
+      - img [ref=e160]
+  - generic [ref=e165]:
+    - generic [ref=e238]:
+      - generic [ref=e240]:
+        - generic [ref=e241] [cursor=pointer]: 新对话
+        - generic [ref=e242]:
+          - img [ref=e244]
+          - generic [ref=e246]: 专家模式
+      - button [ref=e247] [cursor=pointer]:
+        - img [ref=e250]
+    - generic [ref=e253]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - generic [ref=e258]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: estradiol and progesterone | 类别: Sex hormone combinations | 适应症: menopausal symptoms|postmenopausal osteoporosis | 妊娠分级: N sumatriptan (injection) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C sumatriptan (oral/nasal) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C zolmitriptan (oral) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C rimegepant | 类别: CGRP inhibitors | 适应症: migraine|migraine prevention | 妊娠分级: N lasmiditan | 类别: Antimigraine agents | 适应症: migraine | 妊娠分级: N lasmiditan Brand name: Reyvow | 类别: Antimigraine agents | 适应症: acute treatment of migraine with or without aura | 妊娠分级: N acetaminophen, aspirin, and caffeine | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain|fever | 妊娠分级: N aspirin, butalbital, and caffeine | 类别: Analgesic combinations | 适应症: tension headache|migraine | 妊娠分级: C naproxen and sumatriptan | 类别: Antimigraine agents | 适应症: migraine | 妊娠分级: C ubrogepant | 类别: CGRP inhibitors | 适应症: migraine | 妊娠分级: N almotriptan | 类别: Antimigraine agents | 适应症: migraine | 妊娠分级: C methylergonovine (oral and injection) | 类别: Uterotonic agents | 适应症: postpartum hemorrhage|uterine atony | 妊娠分级: C dihydroergotamine (nasal) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X Acetaminophen, Aspirin, Caffeine, and Salicylamide Tablets | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain | 妊娠分级: N ergotamine and caffeine (oral route) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X dihydroergotamine (injection) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X Ergotamine and Caffeine Suppositories | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X caffeine and ergotamine (oral/rectal) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X dihydroergotamine (injection route) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X sumatriptan (nasal route) | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: C Acetaminophen, Aspirin, and Caffeine Tablets | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain | 妊娠分级: N butalbital, aspirin, and caffeine (oral route) | 类别: Analgesic combinations | 适应症: tension headache|migraine | 妊娠分级: C Acetaminophen, Aspirin, and Caffeine Powder Packet | 类别: Analgesic combinations | 适应症: migraine|tension headache|pain | 妊娠分级: N acetaminophen, aspirin, caffeine | 类别: | 适应症: migraine|tension headache|pain|fever | 妊娠分级: N dihydroergotamine mesylate | 类别: Antimigraine agents | 适应症: migraine|cluster headache | 妊娠分级: X ubrogepant Brand name: Ubrelvy | 类别: CGRP inhibitors | 适应症: acute treatment of migraine with or without aura | 妊娠分级: N chondroitin and glucosamine | 类别: Nutraceutical products | 适应症: osteoarthritis|joint pain | 妊娠分级: N diclofenac topical | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis pain|musculoskeletal pain|acute pain|actinic keratosis|migraine | 妊娠分级: C diclofenac and misoprostol | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea | 妊娠分级: X ibuprofen (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|migraine|gout|patent ductus arteriosus | 妊娠分级: C esomeprazole and naproxen | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea|gout | 妊娠分级: C diclofenac (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea|migraine|gout | 妊娠分级: D indomethacin (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute shoulder pain|gout|patent ductus arteriosus|migraine | 妊娠分级: C acetaminophen and codeine | 类别: Narcotic analgesic combinations | 适应症: acute pain|chronic pain|cough | 妊娠分级: C Ibuprofen Capsules | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|migraine|gout | 妊娠分级: C chondroitin, glucosamine, and methylsulfonylmethane (MSM) | 类别: Nutraceutical products | 适应症: osteoarthritis|joint pain | 妊娠分级: N famotidine and ibuprofen | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|primary dysmenorrhea | 妊娠分级: C ibuprofen 200mg | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|primary dysmenorrhea|migraine|osteoarthritis | 妊娠分级: C naproxen (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|ankylosing spondylitis|acute pain|primary dysmenorrhea|gout|migraine | 妊娠分级: C nproxen sodium | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|gout|migraine | 妊娠分级: C naproxen sodium | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: pain|fever|osteoarthritis|rheumatoid arthritis|primary dysmenorrhea|gout|migraine | 妊娠分级: C Diclofenac Gel (1%) | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|actinic keratosis|acute pain|musculoskeletal pain | 妊娠分级: C diflunisal | 类别: Nonsteroidal anti-inflammatory drugs, Salicylates | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|primary dysmenorrhea | 妊娠分级: C diflunisal (oral route) | 类别: Nonsteroidal anti-inflammatory drugs, Salicylates | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|primary dysmenorrhea | 妊娠分级: C piroxicam (oral route) | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: osteoarthritis|rheumatoid arthritis|acute pain|ankylosing spondylitis|gout | 妊娠分级: C dicLofenac potassium | 类别: Nonsteroidal anti-inflammatory drugs | 适应症: acute pain|primary dysmenorrhea|migraine|osteoarthritis | 妊娠分级: D diclofenac sodium | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|actinic keratosis|acute pain|musculoskeletal pain | 妊娠分级: C salsalate | 类别: Salicylates | 适应症: osteoarthritis|rheumatoid arthritis|acute pain | 妊娠分级: C Diclofenac Topical Solution | 类别: Topical non-steroidal anti-inflammatories | 适应症: osteoarthritis|acute pain|musculoskeletal pain | 妊娠分级: C 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e261]:
+            - button [ref=e262] [cursor=pointer]:
+              - img [ref=e265]
+            - button [ref=e267] [cursor=pointer]:
+              - img [ref=e270]
+        - generic [ref=e274]:
+          - generic [ref=e276] [cursor=pointer]:
+            - img [ref=e278]
+            - generic [ref=e281]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e283]
+          - generic [ref=e289]:
+            - paragraph [ref=e290]: 我们被要求生成一份JSON，包含每个输入药物的交互列表。输入药物有很多，有很多是重复的或者不同剂型，但本质上药物相同。我们需要合并相同药物，比如sumatriptan有多种剂型（injection, oral/nasal, nasal route），可以合并成一个sumatriptan条目。同样acetaminophen, aspirin, and caffeine有多个条目（片剂、粉剂等），可以合并。dihydroergotamine有注射、鼻喷等，合并。lasmiditan两个条目合并。ubrogepant两个条目合并。ergotamine and caffeine有口服、栓剂等，合并。diclofenac topical、diclofenac sodium topical、diclofenac gel等可合并为diclofenac topical。口服diclofenac包括diclofenac (oral route), diclofenac potassium, diclofenac and misoprostol等，但misoprostol组合需要单独列出，或者diclofenac单独。注意，diclofenac and misoprostol是复方，需要单独处理，可以给出diclofenac和misoprostol两个成分的交互。ibuprofen有口服、胶囊等，合并。naproxen有口服、naproxen sodium等合并。diflunisal两个条目合并。chondroitin and glucosamine, chondroitin, glucosamine, and MSM可以单独列出。acetaminophen and codeine复方，可分别考虑。methylergonovine单独。salsalate单独。piroxicam单独。indomethacin单独。famotidine and ibuprofen是复方。esomeprazole and naproxen复方。等等。
+            - paragraph [ref=e322]: 我们需要为每个独特的药物（或复方）提供交互列表。例如：
+            - list [ref=e323]:
+              - listitem [ref=e324]:
+                - paragraph [ref=e325]: estradiol and progesterone (复方)：分别考虑雌激素和黄体酮的交互。
+              - listitem [ref=e326]:
+                - paragraph [ref=e327]: sumatriptan (所有剂型)
+              - listitem [ref=e328]:
+                - paragraph [ref=e329]: zolmitriptan
+              - listitem [ref=e330]:
+                - paragraph [ref=e331]: rimegepant
+              - listitem [ref=e332]:
+                - paragraph [ref=e333]: lasmiditan
+              - listitem [ref=e334]:
+                - paragraph [ref=e335]: acetaminophen, aspirin, and caffeine (复方，有多种)
+              - listitem [ref=e336]:
+                - paragraph [ref=e337]: aspirin, butalbital, and caffeine
+              - listitem [ref=e338]:
+                - paragraph [ref=e339]: naproxen and sumatriptan (复方)
+              - listitem [ref=e340]:
+                - paragraph [ref=e341]: ubrogepant
+              - listitem [ref=e342]:
+                - paragraph [ref=e343]: almotriptan
+              - listitem [ref=e344]:
+                - paragraph [ref=e345]: methylergonovine
+              - listitem [ref=e346]:
+                - paragraph [ref=e347]: dihydroergotamine
+              - listitem [ref=e348]:
+                - paragraph [ref=e349]: ergotamine and caffeine
+              - listitem [ref=e350]:
+                - paragraph [ref=e351]: Acetaminophen, Aspirin, Caffeine, and Salicylamide Tablets (添加了salicylamide)
+              - listitem [ref=e352]:
+                - paragraph [ref=e353]: butalbital, aspirin, and caffeine (同aspirin, butalbital, and caffeine)
+              - listitem [ref=e354]:
+                - paragraph [ref=e355]: dihydroergotamine mesylate (就是dihydroergotamine)
+              - listitem [ref=e356]:
+                - paragraph [ref=e357]: chondroitin and glucosamine (及变体)
+              - listitem [ref=e358]:
+                - paragraph [ref=e359]: diclofenac topical
+              - listitem [ref=e360]:
+                - paragraph [ref=e361]: diclofenac and misoprostol
+              - listitem [ref=e362]:
+                - paragraph [ref=e363]: ibuprofen
+              - listitem [ref=e364]:
+                - paragraph [ref=e365]: esomeprazole and naproxen
+              - listitem [ref=e366]:
+                - paragraph [ref=e367]: diclofenac (oral)
+              - listitem [ref=e368]:
+                - paragraph [ref=e369]: indomethacin
+              - listitem [ref=e370]:
+                - paragraph [ref=e371]: acetaminophen and codeine
+              - listitem [ref=e372]:
+                - paragraph [ref=e373]: famotidine and ibuprofen
+              - listitem [ref=e374]:
+                - paragraph [ref=e375]: naproxen
+              - listitem [ref=e376]:
+                - paragraph [ref=e377]: diflunisal
+              - listitem [ref=e378]:
+                - paragraph [ref=e379]: piroxicam
+              - listitem [ref=e380]:
+                - paragraph [ref=e381]: salsalate
+            - paragraph [ref=e382]: 注意区分：ibuprofen 200mg、ibuprofen capsules、ibuprofen oral route都是ibuprofen。naproxen sodium和naproxen可以合并为naproxen。diclofenac potassium, diclofenac oral, 合并为diclofenac (oral)。diclofenac sodium topical, diclofenac gel, diclofenac topical solution 合并为diclofenac (topical)。但是注意diclofenac and misoprostol是口服复方，包括diclofenac和misoprostol，应该单独处理，交互里考虑diclofenac和misoprostol。diclofenac oral单独，但只列口服diclofenac的交互。
+            - paragraph [ref=e383]: 另外，diflunisal是水杨酸类NSAID，需要交互。salsalate也是水杨酸类。piroxicam是NSAID。indomethacin是NSAID。
+            - paragraph [ref=e384]: 我们必须提供每个药物的major和moderate交互。我会作为临床药学专家，回忆常见的交互。以下是我将生成的药物列表和交互：
+            - list [ref=e385]:
+              - listitem [ref=e386]:
+                - paragraph [ref=e387]: estradiol and progesterone (sex hormone combination)
+                - list [ref=e388]:
+                  - listitem [ref=e389]:
+                    - paragraph [ref=e390]: "estradiol: CYP3A4 inducers (降低雌激素效果), CYP3A4 inhibitors (增加雌激素暴露), anticoagulants (雌激素可能改变凝血)，可能影响甲状腺功能测试等。moderate: CYP3A4 inducers like rifampin, carbamazepine, phenytoin, St. John's wort 降低estradiol浓度; CYP3A4 inhibitors like ketoconazole, clarithromycin increase estradiol. 孕激素部分: progesterone可被CYP3A4 metabolized; 诱导剂降低效果。major: 与抗凝剂合用可能增加或减少抗凝作用，但临床上监测INR。与吸烟合用增加心血管风险。也可能与某些药物如拉莫三嗪(lamotrigine)降低lamotrigine浓度。主要的临床重要交互：雌激素+抗凝药: 可能改变凝血因子，虽然通常是降低抗凝效果，但也有增加血栓风险（尤其复方口服避孕药，而这里是激素替代疗法）。hormone replacement therapy: 与warfarin可能有相互作用，需要监测INR。与CYP3A4诱导剂合用会降低hormone疗效，导致潮热等。严重：与CYP3A4诱导剂可能显著降低激素水平，导致治疗失败(主要是中度)。与强效CYP3A4抑制剂会增加雌激素暴露，增加不良反应风险(血栓栓塞)。通常列为moderate。另外与甲状腺激素：雌激素增加甲状腺结合球蛋白，可能需调整左甲状腺素剂量。moderate。所以我们输出major几乎没有，但可以考虑与CYP3A4诱导剂合用降低疗效，可能导致骨质疏松预防失败，可能是moderate。不会列major。"
+              - listitem [ref=e391]:
+                - paragraph [ref=e392]: "sumatriptan (all forms): major交互：与MAO inhibitors (特别是MAO-A inhibitors) 合用可显著增加sumatriptan浓度，导致5-HT综合征风险，禁忌。与ergotamines或其他5HT1 agonists (如dihydroergotamine) 合用24小时内增加血管痉挛风险，禁忌。与SSRIs/SNRIs合用增加血清素综合征风险，通常是moderate或major争议，但列为moderate到major，一般临床警告。列出major: MAO inhibitors; other serotonergic drugs (ergotamines, other triptans) within 24h。moderate: SSRIs, SNRIs增加血清素综合征风险。"
+              - listitem [ref=e393]:
+                - paragraph [ref=e394]: "zolmitriptan: 类似sumatriptan。MAO inhibitors (MAO-A) 禁忌，因为zolmitriptan代谢通过MAO-A。与其他triptans/ergotamines。SSRIs/SNRIs moderate。"
+              - listitem [ref=e395]:
+                - paragraph [ref=e396]: "rimegepant: CGRP拮抗剂，主要为CYP3A4底物，也通转运体。major: 强CYP3A4 inhibitors (如ketoconazole, clarithromycin) 显著增加rimegepant暴露，增加肝毒性风险; 强CYP3A4 inducers (rifampin, carbamazepine) 显著降低浓度导致无效。moderate: 中度CYP3A4抑制剂; 其他CGRP拮抗剂? 但rimegepant与其他gepants不要同时用。主要交互：强"
+      - generic [ref=e291]:
+        - generic [ref=e294]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e296]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e297]:
+            - button "深度思考" [ref=e298] [cursor=pointer]:
+              - img [ref=e300]
+              - generic [ref=e303]: 深度思考
+            - button "智能搜索" [ref=e304] [cursor=pointer]:
+              - img [ref=e306]
+              - generic [ref=e308]: 智能搜索
+            - generic [ref=e309]:
+              - button [ref=e310] [cursor=pointer]:
+                - img [ref=e313]
+              - button [ref=e316] [cursor=pointer]:
+                - img [ref=e319]
+        - generic [ref=e321]: 内容由 AI 生成，请仔细甄别

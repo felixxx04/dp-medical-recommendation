@@ -1,0 +1,717 @@
+============================================================
+批量推荐验证脚本
+============================================================
+选取了 300 名患者
+覆盖疾病: 79/79
+独特组合: 300
+
+疾病分布 (TOP20):
+  hypertension: 172人
+  gout: 118人
+  hypercholesterolemia: 60人
+  depression: 46人
+  fever: 41人
+  endometriosis: 34人
+  atopic dermatitis: 34人
+  heart failure: 33人
+  anxiety: 31人
+  type 2 diabetes: 28人
+  arrhythmia: 26人
+  back pain: 24人
+  asthma: 24人
+  gastroesophageal reflux disease: 23人
+  bacterial urinary tract infection: 22人
+  diabetes: 22人
+  osteoporosis: 20人
+  epilepsy: 20人
+  rheumatoid arthritis: 20人
+  psoriasis: 15人
+  预算重置成功
+
+开始批量推荐 (300 例)...
+[1/300] 推荐患者 P0007 (疾病: acid reflux...)
+[2/300] 推荐患者 P0017 (疾病: acne,back pain,hypertension...)
+[3/300] 推荐患者 P0038 (疾病: acute bacterial sinusitis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[4/300] 推荐患者 P0056 (疾病: adenocarcinoma of pancreas,hypertension...)
+[5/300] 推荐患者 P0274 (疾病: sore throat,allergic rhinitis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[6/300] 推荐患者 P0039 (疾病: endometriosis,allergy,anxiety...)
+[7/300] 推荐患者 P0448 (疾病: anemia,otitis media...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[8/300] 推荐患者 P0405 (疾病: angina,chronic kidney disease...)
+
+[8/300] 重置隐私预算...
+  预算重置成功
+[9/300] 推荐患者 P0001 (疾病: prevention of cerebrovascular accident,anxiety...)
+[10/300] 推荐患者 P0020 (疾病: bacterial urinary tract infection,arrhythmia...)
+[11/300] 推荐患者 P0055 (疾病: diabetes,bacterial conjunctivitis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[12/300] 推荐患者 P0040 (疾病: atopic dermatitis,back pain,hypertension...)
+[13/300] 推荐患者 P0399 (疾病: endometriosis,fever,atrial fibrillation...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[14/300] 推荐患者 P0013 (疾病: gout,back pain,hypertension...)
+[15/300] 推荐患者 P0041 (疾病: diverticulitis of gastrointestinal tract,bacterial conjunctivitis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[16/300] 推荐患者 P0211 (疾病: allergy,bacterial infections,gout...)
+
+[16/300] 重置隐私预算...
+  预算重置成功
+[17/300] 推荐患者 P0128 (疾病: atopic dermatitis,bacterial skin infection,hypertension...)
+[18/300] 推荐患者 P0011 (疾病: flatulence,bacterial urinary tract infection...)
+[19/300] 推荐患者 P0485 (疾病: benign prostatic hyperplasia,gout,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[20/300] 推荐患者 P0218 (疾病: stomach pain,bipolar disorder,hypertension...)
+[21/300] 推荐患者 P0065 (疾病: back pain,breast cancer,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[22/300] 推荐患者 P0441 (疾病: gastroesophageal reflux disease,bronchitis...)
+[23/300] 推荐患者 P0027 (疾病: chronic kidney disease,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[24/300] 推荐患者 P0508 (疾病: diverticulitis of gastrointestinal tract,chronic obstructive pulmonary disease...)
+
+[24/300] 重置隐私预算...
+  预算重置成功
+[25/300] 推荐患者 P0954 (疾病: chronic pain...)
+[26/300] 推荐患者 P0030 (疾病: common cold,depression,heart failure...)
+[27/300] 推荐患者 P0146 (疾病: bacterial urinary tract infection,conjunctivitis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[28/300] 推荐患者 P0440 (疾病: urinary tract infection,constipation,hypertension...)
+[29/300] 推荐患者 P0018 (疾病: deep vein thrombosis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[30/300] 推荐患者 P0023 (疾病: urinary tract infection,diabetes,depression...)
+[31/300] 推荐患者 P0009 (疾病: gastroesophageal reflux disease,diabetes,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[32/300] 推荐患者 P0460 (疾病: diarrhea,arrhythmia,gout...)
+
+[32/300] 重置隐私预算...
+  预算重置成功
+[33/300] 推荐患者 P0004 (疾病: diverticulitis of gastrointestinal tract,osteoporosis...)
+[34/300] 推荐患者 P0028 (疾病: eczema,diabetes...)
+[35/300] 推荐患者 P0091 (疾病: asthma,edema,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[36/300] 推荐患者 P0010 (疾病: endometriosis,heart failure...)
+[37/300] 推荐患者 P0058 (疾病: pneumonia,hypertension,epilepsy...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[38/300] 推荐患者 P0495 (疾病: atopic dermatitis,erectile dysfunction,psoriasis...)
+[39/300] 推荐患者 P0002 (疾病: fever,osteoporosis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[40/300] 推荐患者 P0234 (疾病: diverticulitis of gastrointestinal tract,fibromyalgia...)
+
+[40/300] 重置隐私预算...
+  预算重置成功
+[41/300] 推荐患者 P0012 (疾病: flatulence,hypertension,hypertension...)
+[42/300] 推荐患者 P0003 (疾病: fever,gastroesophageal reflux disease...)
+[43/300] 推荐患者 P0230 (疾病: glaucoma,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[44/300] 推荐患者 P0024 (疾病: gout,hypertension,gout...)
+[45/300] 推荐患者 P0164 (疾病: headache,hypertension,arrhythmia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[46/300] 推荐患者 P0070 (疾病: fever,gout,heart failure...)
+[47/300] 推荐患者 P0026 (疾病: hemorrhoids,hypertension,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[48/300] 推荐患者 P0143 (疾病: hiv...)
+
+[48/300] 重置隐私预算...
+  预算重置成功
+[49/300] 推荐患者 P0157 (疾病: hiv infection...)
+[50/300] 推荐患者 P0035 (疾病: fever,hypertension,hypercholesterolemia...)
+[51/300] 推荐患者 P0005 (疾病: fever,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[52/300] 推荐患者 P0072 (疾病: hyperthyroidism,hypertension...)
+[53/300] 推荐患者 P0262 (疾病: urinary tract infection,hypertension,hypothyroidism...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[54/300] 推荐患者 P0254 (疾病: urinary tract infection,insomnia...)
+[55/300] 推荐患者 P0130 (疾病: joint pain,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[56/300] 推荐患者 P0186 (疾病: urinary tract infection,menopause,hypercholesterolemia...)
+
+[56/300] 重置隐私预算...
+  预算重置成功
+[57/300] 推荐患者 P0393 (疾病: seizures,migraine,anxiety...)
+[58/300] 推荐患者 P0049 (疾病: atopic dermatitis,nausea,anxiety...)
+[59/300] 推荐患者 P0014 (疾病: gastroesophageal reflux disease,nerve pain,rheumatoid arthritis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[60/300] 推荐患者 P0087 (疾病: obesity,fever...)
+[61/300] 推荐患者 P0947 (疾病: osteoarthritis,fever...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[62/300] 推荐患者 P0037 (疾病: osteoporosis,hypertension,gout...)
+[63/300] 推荐患者 P0154 (疾病: otitis media,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[64/300] 推荐患者 P0197 (疾病: peptic ulcer,hypercholesterolemia...)
+
+[64/300] 重置隐私预算...
+  预算重置成功
+[65/300] 推荐患者 P0029 (疾病: pharyngitis due to streptococcus pyogenes,hemorrhoids,anxiety...)
+[66/300] 推荐患者 P0057 (疾病: pneumonia,hypercholesterolemia...)
+[67/300] 推荐患者 P0068 (疾病: prevention of cerebrovascular accident,hypertension,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[68/300] 推荐患者 P0021 (疾病: psoriasis,type 2 diabetes...)
+[69/300] 推荐患者 P0022 (疾病: endometriosis,rheumatoid arthritis,type 2 diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[70/300] 推荐患者 P0183 (疾病: rosacea,fever...)
+[71/300] 推荐患者 P0167 (疾病: schizophrenia,gout,epilepsy...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[72/300] 推荐患者 P0181 (疾病: seizures,hypertension...)
+
+[72/300] 重置隐私预算...
+  预算重置成功
+[73/300] 推荐患者 P0104 (疾病: sore throat,vulvovaginal candidiasis,hypertension...)
+[74/300] 推荐患者 P0382 (疾病: stomach pain...)
+[75/300] 推荐患者 P0043 (疾病: pharyngitis due to streptococcus pyogenes,tuberculosis,hypercholesterolemia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[76/300] 推荐患者 P0032 (疾病: back pain,type 2 diabetes,depression...)
+[77/300] 推荐患者 P0112 (疾病: fever,urinary tract infection,arrhythmia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[78/300] 推荐患者 P0006 (疾病: vertigo,hypertension...)
+[79/300] 推荐患者 P0034 (疾病: vulvovaginal candidiasis,bacterial urinary tract infection...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[80/300] 推荐患者 P0191 (疾病: seizures,back pain,diabetes...)
+
+[80/300] 重置隐私预算...
+  预算重置成功
+[81/300] 推荐患者 P0264 (疾病: endometriosis,atopic dermatitis,hypertension...)
+[82/300] 推荐患者 P0342 (疾病: vertigo,seizures,diabetes...)
+[83/300] 推荐患者 P0357 (疾病: atopic dermatitis,bacterial infections,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[84/300] 推荐患者 P0359 (疾病: eczema,bacterial conjunctivitis,rheumatoid arthritis...)
+[85/300] 推荐患者 P0417 (疾病: back pain,stomach pain,arrhythmia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[86/300] 推荐患者 P0449 (疾病: sore throat,pharyngitis due to streptococcus pyogenes,hypertension...)
+[87/300] 推荐患者 P0484 (疾病: pharyngitis due to streptococcus pyogenes,flatulence,arrhythmia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[88/300] 推荐患者 P0511 (疾病: endometriosis,prevention of cerebrovascular accident,osteoporosis...)
+
+[88/300] 重置隐私预算...
+  预算重置成功
+[89/300] 推荐患者 P0521 (疾病: gout,hemorrhoids,hypertension...)
+[90/300] 推荐患者 P0542 (疾病: bacterial urinary tract infection,gastroesophageal reflux disease,hypercholesterolemia...)
+[91/300] 推荐患者 P0599 (疾病: gastroesophageal reflux disease,psoriasis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[92/300] 推荐患者 P0608 (疾病: sore throat,diabetes,hypercholesterolemia...)
+[93/300] 推荐患者 P0862 (疾病: bacterial skin infection,pneumonia,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[94/300] 推荐患者 P0949 (疾病: back pain,pharyngitis due to streptococcus pyogenes,depression...)
+[95/300] 推荐患者 P0042 (疾病: gout,acute bacterial sinusitis,rheumatoid arthritis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[96/300] 推荐患者 P0090 (疾病: bacterial urinary tract infection,asthma,arrhythmia...)
+
+[96/300] 重置隐私预算...
+  预算重置成功
+[97/300] 推荐患者 P0109 (疾病: hypertension,pharyngitis due to streptococcus pyogenes,diabetes...)
+[98/300] 推荐患者 P0111 (疾病: acid reflux,hypertension,psoriasis...)
+[99/300] 推荐患者 P0129 (疾病: fever,psoriasis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[100/300] 推荐患者 P0131 (疾病: flatulence,gout,hypercholesterolemia...)
+[101/300] 推荐患者 P0138 (疾病: fever,endometriosis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[102/300] 推荐患者 P0140 (疾病: pharyngitis due to streptococcus pyogenes,depression,gout...)
+[103/300] 推荐患者 P0145 (疾病: hypertension,flatulence,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[104/300] 推荐患者 P0151 (疾病: endometriosis,hypertension,gout...)
+
+[104/300] 重置隐私预算...
+  预算重置成功
+[105/300] 推荐患者 P0159 (疾病: adenocarcinoma of pancreas,atopic dermatitis,type 2 diabetes...)
+[106/300] 推荐患者 P0162 (疾病: common cold,asthma,hypertension...)
+[107/300] 推荐患者 P0165 (疾病: headache,hypertension,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[108/300] 推荐患者 P0170 (疾病: fever,hypertension,asthma...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[109/300] 推荐患者 P0180 (疾病: endometriosis,back pain,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[110/300] 推荐患者 P0201 (疾病: flatulence,hypercholesterolemia,heart failure...)
+[111/300] 推荐患者 P0204 (疾病: edema,endometriosis,rheumatoid arthritis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[112/300] 推荐患者 P0209 (疾病: pneumonia,fever,asthma...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+
+[112/300] 重置隐私预算...
+  预算重置成功
+[113/300] 推荐患者 P0221 (疾病: pharyngitis due to streptococcus pyogenes,hypertension,depression...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[114/300] 推荐患者 P0224 (疾病: atopic dermatitis,gastroesophageal reflux disease,rheumatoid arthritis...)
+[115/300] 推荐患者 P0235 (疾病: endometriosis,diverticulitis of gastrointestinal tract,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[116/300] 推荐患者 P0240 (疾病: atopic dermatitis,bacterial infections,type 2 diabetes...)
+[117/300] 推荐患者 P0243 (疾病: atopic dermatitis,depression,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[118/300] 推荐患者 P0248 (疾病: diverticulitis of gastrointestinal tract,conjunctivitis,osteoporosis...)
+[119/300] 推荐患者 P0251 (疾病: endometriosis,flatulence,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[120/300] 推荐患者 P0255 (疾病: hemorrhoids,hypertension,hypercholesterolemia...)
+
+[120/300] 重置隐私预算...
+  预算重置成功
+[121/300] 推荐患者 P0259 (疾病: edema,gastroesophageal reflux disease,gout...)
+[122/300] 推荐患者 P0283 (疾病: atopic dermatitis,fever,heart failure...)
+[123/300] 推荐患者 P0292 (疾病: urinary tract infection,bacterial urinary tract infection,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[124/300] 推荐患者 P0298 (疾病: nausea,gout,anxiety...)
+[125/300] 推荐患者 P0302 (疾病: endometriosis,hypertension,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[126/300] 推荐患者 P0306 (疾病: atopic dermatitis,epilepsy,heart failure...)
+[127/300] 推荐患者 P0310 (疾病: tuberculosis,gout,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[128/300] 推荐患者 P0314 (疾病: atopic dermatitis,gout,hypercholesterolemia...)
+
+[128/300] 重置隐私预算...
+  预算重置成功
+[129/300] 推荐患者 P0320 (疾病: flatulence,gout,heart failure...)
+[130/300] 推荐患者 P0322 (疾病: endometriosis,depression,hypercholesterolemia...)
+[131/300] 推荐患者 P0324 (疾病: gastroesophageal reflux disease,hypertension,asthma...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[132/300] 推荐患者 P0325 (疾病: fever,asthma,hypercholesterolemia...)
+[133/300] 推荐患者 P0328 (疾病: insomnia,hypertension,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[134/300] 推荐患者 P0333 (疾病: acute bacterial sinusitis,gout,type 2 diabetes...)
+[135/300] 推荐患者 P0339 (疾病: atopic dermatitis,common cold,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[136/300] 推荐患者 P0345 (疾病: epilepsy,arrhythmia,hypertension...)
+
+[136/300] 重置隐私预算...
+  预算重置成功
+[137/300] 推荐患者 P0349 (疾病: asthma,hypertension,arrhythmia...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[138/300] 推荐患者 P0368 (疾病: gastroesophageal reflux disease,urinary tract infection,gout...)
+[139/300] 推荐患者 P0369 (疾病: back pain,osteoporosis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[140/300] 推荐患者 P0373 (疾病: fever,psoriasis,asthma...)
+[141/300] 推荐患者 P0376 (疾病: bacterial urinary tract infection,gout,diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[142/300] 推荐患者 P0380 (疾病: edema,bacterial infections,depression...)
+[143/300] 推荐患者 P0395 (疾病: gout,pneumonia,type 2 diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[144/300] 推荐患者 P0402 (疾病: bacterial urinary tract infection,diabetes,anxiety...)
+
+[144/300] 重置隐私预算...
+  预算重置成功
+[145/300] 推荐患者 P0418 (疾病: atopic dermatitis,gout,epilepsy...)
+[146/300] 推荐患者 P0426 (疾病: bacterial urinary tract infection,gout,type 2 diabetes...)
+[147/300] 推荐患者 P0445 (疾病: endometriosis,fibromyalgia,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[148/300] 推荐患者 P0458 (疾病: type 2 diabetes,diabetes,gout...)
+[149/300] 推荐患者 P0466 (疾病: hemorrhoids,hypertension,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[150/300] 推荐患者 P0469 (疾病: seizures,arrhythmia,hypertension...)
+[151/300] 推荐患者 P0499 (疾病: bacterial conjunctivitis,hypertension,heart failure...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[152/300] 推荐患者 P0507 (疾病: vertigo,type 2 diabetes,hypertension...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+
+[152/300] 重置隐私预算...
+  预算重置成功
+[153/300] 推荐患者 P0514 (疾病: vertigo,depression,gout...)
+[154/300] 推荐患者 P0516 (疾病: joint pain,endometriosis,osteoporosis...)
+[155/300] 推荐患者 P0534 (疾病: fever,hypertension,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[156/300] 推荐患者 P0537 (疾病: fever,headache,gout...)
+[157/300] 推荐患者 P0548 (疾病: atopic dermatitis,hypertension,osteoporosis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[158/300] 推荐患者 P0550 (疾病: hyperthyroidism,hypercholesterolemia,gout...)
+[159/300] 推荐患者 P0553 (疾病: fever,fibromyalgia,rheumatoid arthritis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[160/300] 推荐患者 P0554 (疾病: fever,seizures,hypertension...)
+
+[160/300] 重置隐私预算...
+  预算重置成功
+[161/300] 推荐患者 P0556 (疾病: eczema,edema,chronic obstructive pulmonary disease...)
+[162/300] 推荐患者 P0580 (疾病: gastroesophageal reflux disease,gout,hypertension...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[163/300] 推荐患者 P0586 (疾病: bacterial urinary tract infection,anxiety,diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[164/300] 推荐患者 P0595 (疾病: hypercholesterolemia,bacterial urinary tract infection,hypertension...)
+[165/300] 推荐患者 P0596 (疾病: hemorrhoids,pneumonia,hypercholesterolemia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[166/300] 推荐患者 P0600 (疾病: depression,bacterial skin infection,osteoporosis...)
+[167/300] 推荐患者 P0601 (疾病: angina,back pain,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[168/300] 推荐患者 P0606 (疾病: eczema,vulvovaginal candidiasis,hypertension...)
+
+[168/300] 重置隐私预算...
+  预算重置成功
+[169/300] 推荐患者 P0621 (疾病: fever,hypertension,psoriasis...)
+[170/300] 推荐患者 P0634 (疾病: gastroesophageal reflux disease,nerve pain,depression...)
+[171/300] 推荐患者 P0635 (疾病: epilepsy,diverticulitis of gastrointestinal tract,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[172/300] 推荐患者 P0643 (疾病: type 2 diabetes,eczema,anxiety...)
+[173/300] 推荐患者 P0644 (疾病: fever,atopic dermatitis,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[174/300] 推荐患者 P0647 (疾病: hiv infection,gout,hypercholesterolemia...)
+[175/300] 推荐患者 P0653 (疾病: bacterial urinary tract infection,hypercholesterolemia,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[176/300] 推荐患者 P0655 (疾病: flatulence,type 2 diabetes,heart failure...)
+
+[176/300] 重置隐私预算...
+  预算重置成功
+[177/300] 推荐患者 P0663 (疾病: back pain,diverticulitis of gastrointestinal tract,hypertension...)
+[178/300] 推荐患者 P0664 (疾病: urinary tract infection,bacterial urinary tract infection,rheumatoid arthritis...)
+[179/300] 推荐患者 P0666 (疾病: adenocarcinoma of pancreas,joint pain,psoriasis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[180/300] 推荐患者 P0667 (疾病: back pain,hypertension,gout...)
+[181/300] 推荐患者 P0670 (疾病: back pain,hypertension,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[182/300] 推荐患者 P0688 (疾病: hypercholesterolemia,bacterial urinary tract infection,hypertension...)
+[183/300] 推荐患者 P0692 (疾病: fever,vertigo,hypercholesterolemia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[184/300] 推荐患者 P0697 (疾病: hypertension,fever,hypercholesterolemia...)
+
+[184/300] 重置隐私预算...
+  预算重置成功
+[185/300] 推荐患者 P0710 (疾病: fever,asthma,hypertension...)
+[186/300] 推荐患者 P0722 (疾病: atopic dermatitis,diverticulitis of gastrointestinal tract,hypertension...)
+[187/300] 推荐患者 P0723 (疾病: sore throat,gout,diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[188/300] 推荐患者 P0734 (疾病: bacterial conjunctivitis,gout,rheumatoid arthritis...)
+[189/300] 推荐患者 P0741 (疾病: gastroesophageal reflux disease,hypertension,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[190/300] 推荐患者 P0758 (疾病: arrhythmia,hypertension,anxiety...)
+[191/300] 推荐患者 P0766 (疾病: flatulence,hypertension,atrial fibrillation...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[192/300] 推荐患者 P0778 (疾病: back pain,hypercholesterolemia,hypertension...)
+
+[192/300] 重置隐私预算...
+  预算重置成功
+[193/300] 推荐患者 P0790 (疾病: hypercholesterolemia,nerve pain,hypertension...)
+[194/300] 推荐患者 P0821 (疾病: adenocarcinoma of pancreas,asthma,hypertension...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[195/300] 推荐患者 P0822 (疾病: insomnia,bacterial conjunctivitis,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[196/300] 推荐患者 P0824 (疾病: bacterial urinary tract infection,gastroesophageal reflux disease,anxiety...)
+[197/300] 推荐患者 P0829 (疾病: flatulence,arrhythmia,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[198/300] 推荐患者 P0830 (疾病: hypertension,endometriosis,hypertension...)
+[199/300] 推荐患者 P0834 (疾病: gastroesophageal reflux disease,acute bacterial sinusitis,epilepsy...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[200/300] 推荐患者 P0840 (疾病: atopic dermatitis,hypertension,psoriasis...)
+
+[200/300] 重置隐私预算...
+  预算重置成功
+[201/300] 推荐患者 P0843 (疾病: endometriosis,gout,anxiety...)
+[202/300] 推荐患者 P0851 (疾病: sore throat,arrhythmia,hypertension...)
+[203/300] 推荐患者 P0893 (疾病: bacterial urinary tract infection,joint pain,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[204/300] 推荐患者 P0896 (疾病: gastroesophageal reflux disease,atopic dermatitis,heart failure...)
+[205/300] 推荐患者 P0906 (疾病: gout,hypertension,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[206/300] 推荐患者 P0922 (疾病: pneumonia,bacterial skin infection,depression...)
+[207/300] 推荐患者 P0925 (疾病: back pain,heart failure,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[208/300] 推荐患者 P0943 (疾病: bacterial urinary tract infection,hypertension,hypertension...)
+
+[208/300] 重置隐私预算...
+  预算重置成功
+[209/300] 推荐患者 P0945 (疾病: gastroesophageal reflux disease,hyperthyroidism,hypertension...)
+[210/300] 推荐患者 P0956 (疾病: acid reflux,gout,epilepsy...)
+[211/300] 推荐患者 P0962 (疾病: hypercholesterolemia,hypertension,epilepsy...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[212/300] 推荐患者 P0971 (疾病: edema,gout,hypertension...)
+[213/300] 推荐患者 P0972 (疾病: gastroesophageal reflux disease,gout,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[214/300] 推荐患者 P0974 (疾病: back pain,osteoporosis,gout...)
+[215/300] 推荐患者 P0979 (疾病: fever,heart failure,asthma...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[216/300] 推荐患者 P0986 (疾病: vertigo,hypertension,hypercholesterolemia...)
+
+[216/300] 重置隐私预算...
+  预算重置成功
+[217/300] 推荐患者 P0015 (疾病: endometriosis,bacterial urinary tract infection,hypertension...)
+[218/300] 推荐患者 P0031 (疾病: back pain,hemorrhoids,gout...)
+[219/300] 推荐患者 P0054 (疾病: endometriosis,depression,chronic kidney disease...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[220/300] 推荐患者 P0060 (疾病: gout,hypercholesterolemia,hypertension...)
+[221/300] 推荐患者 P0061 (疾病: asthma,hypertension,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[222/300] 推荐患者 P0074 (疾病: acute bacterial sinusitis,gastroesophageal reflux disease,epilepsy...)
+[223/300] 推荐患者 P0076 (疾病: hypertension,fever,osteoporosis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[224/300] 推荐患者 P0080 (疾病: back pain,endometriosis,hypertension...)
+
+[224/300] 重置隐私预算...
+  预算重置成功
+[225/300] 推荐患者 P0094 (疾病: atopic dermatitis,pneumonia,hypertension...)
+[226/300] 推荐患者 P0099 (疾病: pharyngitis due to streptococcus pyogenes,atopic dermatitis,epilepsy...)
+[227/300] 推荐患者 P0102 (疾病: hypertension,gout,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[228/300] 推荐患者 P0103 (疾病: endometriosis,diabetes,asthma...)
+[229/300] 推荐患者 P0105 (疾病: hypertension,rheumatoid arthritis,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[230/300] 推荐患者 P0114 (疾病: endometriosis,gout,hypertension...)
+[231/300] 推荐患者 P0115 (疾病: acne,vertigo,heart failure...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[232/300] 推荐患者 P0119 (疾病: vertigo,fever,depression...)
+
+[232/300] 重置隐私预算...
+  预算重置成功
+[233/300] 推荐患者 P0121 (疾病: flatulence,osteoporosis,arrhythmia...)
+[234/300] 推荐患者 P0122 (疾病: atopic dermatitis,hypertension,anxiety...)
+[235/300] 推荐患者 P0123 (疾病: fever,hypercholesterolemia,arrhythmia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[236/300] 推荐患者 P0125 (疾病: diabetes,type 2 diabetes,gout...)
+[237/300] 推荐患者 P0127 (疾病: back pain,heart failure,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[238/300] 推荐患者 P0141 (疾病: endometriosis,type 2 diabetes,hypertension...)
+[239/300] 推荐患者 P0142 (疾病: gout,atopic dermatitis,hypercholesterolemia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[240/300] 推荐患者 P0148 (疾病: endometriosis,hypertension,anxiety...)
+
+[240/300] 重置隐私预算...
+  预算重置成功
+[241/300] 推荐患者 P0149 (疾病: hypercholesterolemia,osteoporosis,hypertension...)
+[242/300] 推荐患者 P0189 (疾病: depression,bacterial conjunctivitis,hypertension...)
+[243/300] 推荐患者 P0193 (疾病: heart failure,arrhythmia,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[244/300] 推荐患者 P0194 (疾病: fever,hypercholesterolemia,anxiety...)
+[245/300] 推荐患者 P0195 (疾病: common cold,hypertension,rheumatoid arthritis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[246/300] 推荐患者 P0199 (疾病: fever,psoriasis,hypertension...)
+[247/300] 推荐患者 P0200 (疾病: fever,atopic dermatitis,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[248/300] 推荐患者 P0202 (疾病: hiv,fever,depression...)
+
+[248/300] 重置隐私预算...
+  预算重置成功
+[249/300] 推荐患者 P0207 (疾病: gastroesophageal reflux disease,acute bacterial sinusitis,diabetes...)
+[250/300] 推荐患者 P0212 (疾病: diverticulitis of gastrointestinal tract,hypercholesterolemia,gout...)
+[251/300] 推荐患者 P0213 (疾病: flatulence,type 2 diabetes,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[252/300] 推荐患者 P0216 (疾病: hemorrhoids,gastroesophageal reflux disease,gout...)
+[253/300] 推荐患者 P0219 (疾病: acute bacterial sinusitis,hypercholesterolemia,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[254/300] 推荐患者 P0228 (疾病: sore throat,hypertension,epilepsy...)
+[255/300] 推荐患者 P0229 (疾病: asthma,hypercholesterolemia,heart failure...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[256/300] 推荐患者 P0231 (疾病: pharyngitis due to streptococcus pyogenes,gout,hypertension...)
+
+[256/300] 重置隐私预算...
+  预算重置成功
+[257/300] 推荐患者 P0236 (疾病: fever,hiv,gout...)
+[258/300] 推荐患者 P0238 (疾病: edema,fever,depression...)
+[259/300] 推荐患者 P0245 (疾病: edema,hypertension,rheumatoid arthritis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[260/300] 推荐患者 P0247 (疾病: atopic dermatitis,fever,hypertension...)
+[261/300] 推荐患者 P0250 (疾病: bacterial skin infection,hypercholesterolemia,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[262/300] 推荐患者 P0269 (疾病: gout,arrhythmia,osteoporosis...)
+[263/300] 推荐患者 P0272 (疾病: pneumonia,hypertension,osteoporosis...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[264/300] 推荐患者 P0273 (疾病: endometriosis,gastroesophageal reflux disease,rheumatoid arthritis...)
+
+[264/300] 重置隐私预算...
+  预算重置成功
+[265/300] 推荐患者 P0277 (疾病: gout,anxiety,hypertension...)
+[266/300] 推荐患者 P0280 (疾病: endometriosis,joint pain,depression...)
+[267/300] 推荐患者 P0284 (疾病: back pain,hypertension,type 2 diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[268/300] 推荐患者 P0285 (疾病: back pain,osteoporosis,gout...)
+[269/300] 推荐患者 P0296 (疾病: atopic dermatitis,gout,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[270/300] 推荐患者 P0297 (疾病: joint pain,hypertension,type 2 diabetes...)
+[271/300] 推荐患者 P0304 (疾病: type 2 diabetes,endometriosis,arrhythmia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[272/300] 推荐患者 P0311 (疾病: diverticulitis of gastrointestinal tract,insomnia,hypercholesterolemia...)
+
+[272/300] 重置隐私预算...
+  预算重置成功
+[273/300] 推荐患者 P0321 (疾病: sore throat,fever,hypertension...)
+[274/300] 推荐患者 P0329 (疾病: atopic dermatitis,flatulence,type 2 diabetes...)
+[275/300] 推荐患者 P0332 (疾病: asthma,bacterial urinary tract infection,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[276/300] 推荐患者 P0336 (疾病: back pain,hypertension,hypercholesterolemia...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[277/300] 推荐患者 P0338 (疾病: bacterial urinary tract infection,depression,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[278/300] 推荐患者 P0341 (疾病: acute bacterial sinusitis,flatulence,hypertension...)
+[279/300] 推荐患者 P0343 (疾病: atopic dermatitis,heart failure,depression...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[280/300] 推荐患者 P0346 (疾病: endometriosis,type 2 diabetes,gout...)
+
+[280/300] 重置隐私预算...
+  预算重置成功
+[281/300] 推荐患者 P0350 (疾病: atopic dermatitis,depression,arrhythmia...)
+[282/300] 推荐患者 P0351 (疾病: back pain,gout,hypercholesterolemia...)
+[283/300] 推荐患者 P0352 (疾病: endometriosis,bipolar disorder,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[284/300] 推荐患者 P0354 (疾病: endometriosis,menopause,hypertension...)
+[285/300] 推荐患者 P0355 (疾病: acne,hiv infection,gout...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[286/300] 推荐患者 P0356 (疾病: bacterial urinary tract infection,hypertension,epilepsy...)
+[287/300] 推荐患者 P0362 (疾病: endometriosis,atopic dermatitis,anxiety...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[288/300] 推荐患者 P0365 (疾病: atopic dermatitis,hemorrhoids,rheumatoid arthritis...)
+
+[288/300] 重置隐私预算...
+  预算重置成功
+[289/300] 推荐患者 P0377 (疾病: atopic dermatitis,prevention of cerebrovascular accident,heart failure...)
+[290/300] 推荐患者 P0379 (疾病: endometriosis,epilepsy,hypertension...)
+[291/300] 推荐患者 P0381 (疾病: seizures,pharyngitis due to streptococcus pyogenes,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[292/300] 推荐患者 P0383 (疾病: hemorrhoids,atopic dermatitis,osteoporosis...)
+[293/300] 推荐患者 P0386 (疾病: fever,gout,hypercholesterolemia...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[294/300] 推荐患者 P0388 (疾病: endometriosis,anxiety,gout...)
+[295/300] 推荐患者 P0394 (疾病: edema,depression,hypertension...)
+  预算耗尽，重置后重试...
+  预算重置成功
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[296/300] 推荐患者 P0404 (疾病: gastroesophageal reflux disease,gout,epilepsy...)
+
+[296/300] 重置隐私预算...
+  预算重置成功
+[297/300] 推荐患者 P0410 (疾病: gout,fever,hypertension...)
+[298/300] 推荐患者 P0413 (疾病: allergy,depression,asthma...)
+  推荐异常: HTTPConnectionPool(host='localhost', port=8001): Read timed out. (read timeout=30)
+[299/300] 推荐患者 P0414 (疾病: gout,rheumatoid arthritis,diabetes...)
+  预算耗尽，重置后重试...
+  预算重置成功
+[300/300] 推荐患者 P0415 (疾病: fever,diverticulitis of gastrointestinal tract,gout...)
+
+============================================================
+验证报告
+============================================================
+总患者数: 300
+API成功: 279/300
+API失败: 21/300
+适应症匹配正确: 264/279 (94.6%)
+适应症不匹配: 15/279 (5.4%)
+预算重置次数: 37
+
+有问题病例: 277 例
+  matchedDisease_mismatch: 909例
+  no_indication_match: 15例
+
+各疾病推荐正确率 (低于80%的):
+  acute bacterial sinusitis: 75% (6/8)
+  adenocarcinoma of pancreas: 75% (3/4)
+  allergy: 67% (2/3)
+  asthma: 67% (16/24)
+  chronic kidney disease: 67% (2/3)
+  chronic obstructive pulmonary disease: 67% (2/3)
+  depression: 74% (34/46)
+  diverticulitis of gastrointestinal tract: 75% (9/12)
+  gastroesophageal reflux disease: 74% (17/23)
+  headache: 67% (2/3)
+
+完整结果已保存: D:\grad_medical\medical-model\verification_results\batch_recommendation_results.json
+验证摘要已保存: D:\grad_medical\medical-model\verification_results\verification_summary.json
+DeepSeek验证提示词已保存: D:\grad_medical\medical-model\verification_results\deepseek_prompts.json (30 条)

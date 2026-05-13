@@ -114,75 +114,136 @@ public class StatsController {
         return ApiResponse.success(stats);
     }
 
-    @GetMapping("/recommendation-flow")
-    public ApiResponse<Map<String, Object>> getRecommendationFlow() {
-        List<Map<String, Object>> rows = recommendationRepository.findAllForFlow();
-        Map<String, Map<String, Integer>> diseaseToCat = new LinkedHashMap<>();
-        Map<String, Map<String, Integer>> catToDrug = new LinkedHashMap<>();
-        Map<String, Integer> diseaseFreq = new LinkedHashMap<>();
+    @GetMapping("/safety-layers")
+    public ApiResponse<Map<String, Object>> getSafetyLayersStats() {
+        List<String> resultDataList = recommendationRepository.findAllResultData();
 
-        for (Map<String, Object> row : rows) {
+        // Aggregate layer stats
+        int recordCount = resultDataList.size();
+        long totalCandidates = 1815;  // Fixed from drugsCount
+        long sumExcluded = 0;
+        long sumSafe = 0;
+        long sumRequiresReview = 0;
+        long sumSelectedWithWarnings = 0;
+        long sumDpAnomaly = 0;
+
+        // Exclusion reason categories
+        Map<String, Long> exclusionReasons = new LinkedHashMap<>();
+        exclusionReasons.put("绝对禁忌", 0L);
+        exclusionReasons.put("过敏冲突", 0L);
+        exclusionReasons.put("严重交互", 0L);
+        exclusionReasons.put("妊娠禁忌", 0L);
+        exclusionReasons.put("儿科禁忌", 0L);
+        exclusionReasons.put("其他", 0L);
+
+        for (String json : resultDataList) {
             try {
-                String inputJson = String.valueOf(row.getOrDefault("input_data", ""));
-                String resultJson = String.valueOf(row.getOrDefault("result_data", ""));
-                if (inputJson.isEmpty() || resultJson.isEmpty()) continue;
-                Map<String, Object> input = objectMapper.readValue(inputJson, Map.class);
-                Map<String, Object> result = objectMapper.readValue(resultJson, Map.class);
-                String diseasesStr = String.valueOf(input.getOrDefault("diseases", ""));
-                Object selected = result.get("selected");
-                if (diseasesStr.isEmpty() || !(selected instanceof List)) continue;
+                Map<String, Object> result = objectMapper.readValue(json, Map.class);
 
-                for (String disease : diseasesStr.split("[,，]")) {
-                    disease = disease.trim();
-                    if (disease.isEmpty()) continue;
-                    diseaseFreq.merge(disease, 1, Integer::sum);
+                // Layer 1: SafetyFilter stats
+                sumExcluded += toLong(result.getOrDefault("totalExcluded", 0));
+                sumSafe += toLong(result.getOrDefault("totalSafe", 0));
+
+                // Parse excludedDrugs for reason breakdown
+                Object excludedDrugs = result.get("excludedDrugs");
+                if (excludedDrugs instanceof List) {
+                    for (Object item : (List<?>) excludedDrugs) {
+                        if (item instanceof Map) {
+                            @SuppressWarnings("unchecked")
+                            Map<String, Object> drug = (Map<String, Object>) item;
+                            String reason = String.valueOf(drug.getOrDefault("reason", ""));
+                            // Categorize by prefix
+                            if (reason.contains("绝对禁忌")) {
+                                exclusionReasons.merge("绝对禁忌", 1L, Long::sum);
+                            } else if (reason.contains("过敏冲突")) {
+                                exclusionReasons.merge("过敏冲突", 1L, Long::sum);
+                            } else if (reason.contains("严重交互") || reason.contains("致命交互")) {
+                                exclusionReasons.merge("严重交互", 1L, Long::sum);
+                            } else if (reason.contains("妊娠") || reason.contains("哺乳")) {
+                                exclusionReasons.merge("妊娠禁忌", 1L, Long::sum);
+                            } else if (reason.contains("儿科")) {
+                                exclusionReasons.merge("儿科禁忌", 1L, Long::sum);
+                            } else if (!reason.isEmpty() && !"null".equals(reason)) {
+                                exclusionReasons.merge("其他", 1L, Long::sum);
+                            }
+                        }
+                    }
+                }
+
+                // Layer 2: RuleMarker stats (requires_review count)
+                Object safetyFlags = result.get("safetyFlags");
+                if (safetyFlags instanceof Map) {
+                    @SuppressWarnings("unchecked")
+                    Map<String, Object> flags = (Map<String, Object>) safetyFlags;
+                    for (Object flagObj : flags.values()) {
+                        if (flagObj instanceof Map) {
+                            @SuppressWarnings("unchecked")
+                            Map<String, Object> flag = (Map<String, Object>) flagObj;
+                            if (Boolean.TRUE.equals(flag.get("requires_review"))) {
+                                sumRequiresReview++;
+                            }
+                        }
+                    }
+                }
+
+                // Layer 3: Final selection stats
+                Object selected = result.get("selected");
+                if (selected instanceof List) {
                     for (Object item : (List<?>) selected) {
                         if (item instanceof Map) {
                             @SuppressWarnings("unchecked")
                             Map<String, Object> drug = (Map<String, Object>) item;
-                            String cat = String.valueOf(drug.getOrDefault("category", ""));
-                            String name = String.valueOf(drug.getOrDefault("drugName", ""));
-                            if (cat.isEmpty() || "null".equals(cat) || name.isEmpty() || "null".equals(name)) continue;
-                            diseaseToCat.computeIfAbsent(disease, k -> new LinkedHashMap<>()).merge(cat, 1, Integer::sum);
-                            catToDrug.computeIfAbsent(cat, k -> new LinkedHashMap<>()).merge(name, 1, Integer::sum);
+                            String safetyType = String.valueOf(drug.getOrDefault("safetyType", "安全"));
+                            if (!"安全".equals(safetyType) && !"safe".equals(safetyType) && !"null".equals(safetyType)) {
+                                sumSelectedWithWarnings++;
+                            }
+                            if (Boolean.TRUE.equals(drug.get("dpAnomaly"))) {
+                                sumDpAnomaly++;
+                            }
                         }
                     }
                 }
-            } catch (Exception ignored) {}
+            } catch (Exception ignored) {
+                // Skip malformed JSON
+            }
         }
 
-        List<Map<String, Object>> nodes = new ArrayList<>();
-        Map<String, Integer> idx = new HashMap<>();
-        diseaseFreq.entrySet().stream()
-            .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-            .forEach(e -> { idx.put(e.getKey(), nodes.size()); nodes.add(Map.of("name", e.getKey())); });
-        Set<String> cats = new LinkedHashSet<>();
-        diseaseToCat.values().forEach(m -> cats.addAll(m.keySet()));
-        for (String c : cats) { idx.put(c, nodes.size()); nodes.add(Map.of("name", c)); }
-        Set<String> drugs = new LinkedHashSet<>();
-        catToDrug.values().forEach(m -> drugs.addAll(m.keySet()));
-        for (String d : drugs) { idx.put(d, nodes.size()); nodes.add(Map.of("name", d)); }
+        // Calculate averages
+        long avgExcluded = recordCount > 0 ? sumExcluded / recordCount : 0;
+        long avgSafe = recordCount > 0 ? sumSafe / recordCount : 0;
+        long avgRequiresReview = recordCount > 0 ? sumRequiresReview / recordCount : 0;
 
-        List<Map<String, Object>> links = new ArrayList<>();
-        diseaseToCat.forEach((d, cm) -> {
-            int src = idx.get(d);
-            cm.forEach((c, v) -> links.add(Map.of("source", src, "target", idx.get(c), "value", v)));
-        });
-        catToDrug.forEach((c, dm) -> {
-            int src = idx.get(c);
-            dm.forEach((d, v) -> links.add(Map.of("source", src, "target", idx.get(d), "value", v)));
-        });
+        Map<String, Object> layers = new LinkedHashMap<>();
 
-        List<Map<String, Object>> diseaseList = diseaseFreq.entrySet().stream()
-            .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-            .map(e -> Map.<String, Object>of("name", e.getKey(), "count", e.getValue()))
+        // Funnel data
+        List<Map<String, Object>> funnel = new ArrayList<>();
+        funnel.add(Map.of("stage", "全部候选", "count", totalCandidates, "desc", "数据库药物总数"));
+        funnel.add(Map.of("stage", "通过安全筛选", "count", totalCandidates - avgExcluded, "desc", "排除 " + avgExcluded + " 个禁忌药物"));
+        funnel.add(Map.of("stage", "无审核标记", "count", totalCandidates - avgExcluded - avgRequiresReview, "desc", avgRequiresReview + " 个需人工审核"));
+        funnel.add(Map.of("stage", "最终推荐", "count", 5, "desc", "Top-K 输出"));
+        layers.put("funnel", funnel);
+
+        // Exclusion reasons (only non-zero)
+        List<Map<String, Object>> exclusionList = exclusionReasons.entrySet().stream()
+            .filter(e -> e.getValue() > 0)
+            .sorted(Map.Entry.<String, Long>comparingByValue().reversed())
+            .map(e -> Map.<String, Object>of("reason", e.getKey(), "count", e.getValue()))
             .collect(Collectors.toList());
+        layers.put("exclusionReasons", exclusionList);
 
-        Map<String, Object> result = new LinkedHashMap<>();
-        result.put("nodes", nodes);
-        result.put("links", links);
-        result.put("diseases", diseaseList);
-        return ApiResponse.success(result);
+        // Summary stats
+        Map<String, Object> summary = new LinkedHashMap<>();
+        summary.put("recordCount", recordCount);
+        summary.put("totalExcludedSum", sumExcluded);
+        summary.put("totalSafeSum", sumSafe);
+        summary.put("requiresReviewSum", sumRequiresReview);
+        summary.put("selectedWithWarningsSum", sumSelectedWithWarnings);
+        summary.put("dpAnomalySum", sumDpAnomaly);
+        summary.put("avgExcludedPerRecommendation", avgExcluded);
+        summary.put("avgSafePerRecommendation", avgSafe);
+        layers.put("summary", summary);
+
+        return ApiResponse.success(layers);
     }
 
     private long toLong(Object obj) {

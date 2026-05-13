@@ -1,0 +1,22 @@
+For each disease below, evaluate whether the recommended drugs are medically appropriate for treating that disease. Answer with: APPROPRIATE / PARTIALLY / INAPPROPRIATE, and briefly explain why.
+
+1. Disease: "musculoskeletal pain"
+   System recommended: Diclofenac, Flurbiprofen, Ibuprofen, Ketoprofen
+   Verdict:
+
+2. Disease: "nausea and vomiting"
+   System recommended: Metoclopramide, Lorazepam, Dexamethasone, Meclizine
+   Verdict:
+
+3. Disease: "edema associated with heart failure"
+   System recommended: Amlodipine-Valsartan, Bumetanide, Benazepril, Captopril
+   Verdict:
+
+4. Disease: "constipation"
+   System recommended: Lansoprazole, Magnesium Hydroxide, Rabeprazole, Omeprazole
+   Verdict:
+
+5. Disease: "skin and soft tissue infection"
+   System recommended: Amikacin, Cefotaxime, Echinacea, Loracarbef
+   Verdict:
+

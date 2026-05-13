@@ -1,0 +1,162 @@
+<h2>整体布局结构</h2>
+<p class="subtitle">两个视图：卡片内缩略 + 全屏弹窗详情</p>
+
+<div class="mockup" style="margin: 12px 0;">
+  <div class="mockup-header">1. 统计页面卡片 — 缩略视图（默认）</div>
+  <div class="mockup-body" style="padding: 12px; background: #0f172a;">
+    <div style="border: 1px solid #334155; border-radius: 6px; overflow: hidden;">
+      <div style="background: #1e293b; padding: 8px 12px; font-size: 12px; color: #e2e8f0; border-bottom: 1px solid #334155; display: flex; justify-content: space-between; align-items: center;">
+        <span>推荐流向 · 疾病→分类→药物</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 4px 10px; border-radius: 4px; font-size: 10px; cursor: pointer; border: 1px solid #0ea5e9;">展开全屏 ↗</span>
+      </div>
+      <div style="padding: 6px 8px; display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid #1e293b;">
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">高血压</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">糖尿病</span>
+        <span style="background: #1e293b; color: #64748b; padding: 2px 6px; border-radius: 3px; font-size: 9px; border: 1px solid #334155;">冠心病</span>
+        <span style="background: #1e293b; color: #64748b; padding: 2px 6px; border-radius: 3px; font-size: 9px; border: 1px solid #334155;">甲减</span>
+        <span style="font-size: 9px; color: #64748b; margin-left: auto;">默认展示 Top 3 疾病</span>
+      </div>
+      <div style="height: 200px; background: linear-gradient(90deg, #1e3a5f 0%, #0f172a 35%, #1a2744 65%, #0f172a 100%); position: relative; opacity: 0.7;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 10px; color: #64748b; text-align: center;">
+          三层 Sankey 缩略预览<br><span style="font-size: 8px;">固定 240px 高度，少量疾病时可直接查看</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin: 12px 0;">
+  <div class="mockup-header">2. 全屏弹窗 — 完整视图（点击"展开全屏"后）</div>
+  <div class="mockup-body" style="padding: 12px; background: #0f172a;">
+    <div style="border: 2px solid #334155; border-radius: 8px; background: #0b1120; position: relative; overflow: hidden;">
+      <!-- Header -->
+      <div style="background: #1e293b; padding: 10px 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155;">
+        <div style="font-size: 13px; color: #e2e8f0; font-weight: 500;">推荐流向 · 疾病→分类→药物</div>
+        <span style="color: #ef4444; font-size: 14px; cursor: pointer;">✕</span>
+      </div>
+      <!-- Disease tags -->
+      <div style="padding: 8px 12px; display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid #1e293b; align-items: center;">
+        <span style="font-size: 9px; color: #64748b; margin-right: 4px;">筛选疾病:</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 8px; border-radius: 3px; font-size: 9px; cursor: pointer;">全选</span>
+        <span style="background: #1e293b; color: #64748b; padding: 2px 8px; border-radius: 3px; font-size: 9px; border: 1px solid #334155; cursor: pointer;">全清</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">高血压</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">糖尿病</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">冠心病</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">甲减</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">心衰</span>
+        <span style="background: #0c4a6e; color: #38bdf8; padding: 2px 6px; border-radius: 3px; font-size: 9px;">哮喘</span>
+      </div>
+      <!-- Main content: Sankey + Detail Panel -->
+      <div style="display: flex; min-height: 300px;">
+        <!-- Left: Sankey (flex-1) -->
+        <div style="flex: 1; min-width: 0; border-right: 1px solid #1e293b; position: relative;">
+          <div style="height: 280px; background: linear-gradient(90deg, #1e3a5f 0%, #0b1120 35%, #1a2744 65%, #0b1120 100%); position: relative;">
+            <!-- Left column: diseases -->
+            <div style="position: absolute; left: 10px; top: 15px; font-size: 9px; color: #38bdf8;">高血压</div>
+            <div style="position: absolute; left: 10px; top: 50px; font-size: 9px; color: #22d3ee;">糖尿病</div>
+            <div style="position: absolute; left: 10px; top: 85px; font-size: 9px; color: #818cf8;">冠心病</div>
+            <div style="position: absolute; left: 10px; top: 120px; font-size: 9px; color: #f472b6;">甲减</div>
+            <div style="position: absolute; left: 10px; top: 155px; font-size: 9px; color: #4ade80;">心衰</div>
+            <div style="position: absolute; left: 10px; top: 190px; font-size: 9px; color: #fbbf24;">哮喘</div>
+            <!-- Mid column: categories -->
+            <div style="position: absolute; left: 110px; top: 10px; font-size: 8px; color: #94a3b8;">降压药</div>
+            <div style="position: absolute; left: 110px; top: 40px; font-size: 8px; color: #94a3b8;">降糖药</div>
+            <div style="position: absolute; left: 110px; top: 70px; font-size: 8px; color: #94a3b8;">抗凝药</div>
+            <div style="position: absolute; left: 110px; top: 100px; font-size: 8px; color: #94a3b8;">调脂药</div>
+            <div style="position: absolute; left: 110px; top: 130px; font-size: 8px; color: #94a3b8;">甲状腺药</div>
+            <div style="position: absolute; left: 110px; top: 160px; font-size: 8px; color: #94a3b8;">支气管药</div>
+            <div style="position: absolute; left: 110px; top: 190px; font-size: 8px; color: #94a3b8;">强心药</div>
+            <!-- Right column: drugs (compact labels) -->
+            <div style="position: absolute; right: 10px; top: 5px; font-size: 7px; color: #cbd5e1;">氨氯地平</div>
+            <div style="position: absolute; right: 10px; top: 22px; font-size: 7px; color: #cbd5e1;">缬沙坦</div>
+            <div style="position: absolute; right: 10px; top: 39px; font-size: 7px; color: #cbd5e1;">二甲双胍</div>
+            <div style="position: absolute; right: 10px; top: 56px; font-size: 7px; color: #cbd5e1;">格列美脲</div>
+            <div style="position: absolute; right: 10px; top: 73px; font-size: 7px; color: #cbd5e1;">华法林</div>
+            <div style="position: absolute; right: 10px; top: 90px; font-size: 7px; color: #cbd5e1;">阿托伐他汀</div>
+            <div style="position: absolute; right: 10px; top: 107px; font-size: 7px; color: #cbd5e1;">左甲状腺素</div>
+            <div style="position: absolute; right: 10px; top: 124px; font-size: 7px; color: #cbd5e1;">沙美特罗</div>
+            <div style="position: absolute; right: 10px; top: 141px; font-size: 7px; color: #cbd5e1;">地高辛</div>
+            <div style="position: absolute; right: 10px; top: 158px; font-size: 7px; color: #cbd5e1;">硝苯地平</div>
+            <div style="position: absolute; right: 10px; top: 175px; font-size: 7px; color: #cbd5e1;">阿卡波糖</div>
+            <div style="position: absolute; right: 10px; top: 192px; font-size: 7px; color: #cbd5e1;">布地奈德</div>
+            <!-- Flow lines -->
+            <svg style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.2">
+              <path d="M60,20 C90,20 95,17 130,17" stroke="#38bdf8" fill="none" stroke-width="8"/>
+              <path d="M60,20 C90,20 95,47 130,47" stroke="#38bdf8" fill="none" stroke-width="4"/>
+              <path d="M60,55 C90,55 95,47 130,47" stroke="#22d3ee" fill="none" stroke-width="7"/>
+              <path d="M60,90 C90,90 95,77 130,77" stroke="#818cf8" fill="none" stroke-width="5"/>
+              <path d="M60,90 C90,90 95,107 130,107" stroke="#818cf8" fill="none" stroke-width="4"/>
+              <path d="M60,125 C90,125 95,107 130,107" stroke="#f472b6" fill="none" stroke-width="4"/>
+              <path d="M60,160 C90,160 95,137 130,137" stroke="#4ade80" fill="none" stroke-width="3"/>
+              <path d="M60,195 C90,195 95,167 130,167" stroke="#fbbf24" fill="none" stroke-width="5"/>
+            </svg>
+            <!-- Click hint -->
+            <div style="position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); font-size: 8px; color: #475569; background: rgba(15,23,42,0.8); padding: 2px 8px; border-radius: 3px;">
+              点击节点 → 右侧查看详情 | 画布高度随节点数自适应
+            </div>
+          </div>
+        </div>
+        <!-- Right: Detail Panel (280px fixed) -->
+        <div style="width: 280px; flex-shrink: 0; display: flex; flex-direction: column;">
+          <!-- Panel header -->
+          <div style="padding: 10px 12px; border-bottom: 1px solid #1e293b; background: #0f172a;">
+            <div style="font-size: 11px; color: #64748b;">点击左侧节点查看详情</div>
+            <div style="font-size: 9px; color: #475569; margin-top: 2px;">支持点击疾病、分类或药物节点</div>
+          </div>
+          <!-- Placeholder content -->
+          <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px;">
+            <div style="text-align: center;">
+              <div style="font-size: 24px; color: #334155; margin-bottom: 8px;">⬡</div>
+              <div style="font-size: 10px; color: #475569;">点击 Sankey 中的节点<br>此处将显示关联详情</div>
+            </div>
+          </div>
+          <!-- Example: when "降糖药" is clicked -->
+          <div style="border-top: 1px dashed #334155; padding: 10px 12px; background: #0f1720;">
+            <div style="font-size: 8px; color: #334155; margin-bottom: 6px;">示例：点击「降糖药」后 ↓</div>
+            <div style="font-size: 11px; color: #fbbf24; margin-bottom: 6px; font-weight: 500;">降糖药</div>
+            <div style="font-size: 9px; color: #64748b; margin-bottom: 8px;">来自疾病：糖尿病</div>
+            <div style="font-size: 9px; color: #94a3b8; margin-bottom: 4px; border-bottom: 1px solid #1e293b; padding-bottom: 3px;">推荐药物</div>
+            <div style="display: flex; justify-content: space-between; padding: 3px 0; font-size: 9px; border-bottom: 1px solid #0f172a;">
+              <span style="color: #e2e8f0;">二甲双胍</span>
+              <span style="color: #38bdf8;">32次</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 3px 0; font-size: 9px; border-bottom: 1px solid #0f172a;">
+              <span style="color: #e2e8f0;">格列美脲</span>
+              <span style="color: #38bdf8;">21次</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 3px 0; font-size: 9px;">
+              <span style="color: #e2e8f0;">阿卡波糖</span>
+              <span style="color: #38bdf8;">15次</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3>布局结构要点</h3>
+<div style="background: #1e293b; border-radius: 6px; padding: 12px; margin-top: 8px;">
+  <table style="width: 100%; font-size: 10px; color: #cbd5e1;">
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #64748b; width: 120px;">缩略视图</td>
+      <td>卡片内，固定240px，默认Top3疾病，可直接交互</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #64748b;">全屏弹窗</td>
+      <td>覆盖页面 85vh × 90vw，左右分栏布局</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #64748b;">左侧 Sankey</td>
+      <td>flex:1，高度 = max(400px, 节点数×35px)，可滚动</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #334155;">
+      <td style="padding: 4px 8px; color: #64748b;">右侧面板</td>
+      <td>固定280px，点击节点后展示关联详情表格</td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; color: #64748b;">入口</td>
+      <td>卡片标题栏右侧「展开全屏 ↗」按钮</td>
+    </tr>
+  </table>
+</div>

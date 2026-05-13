@@ -1,0 +1,135 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 今天
+        - link "新对话" [ref=e155] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e156]: 新对话
+          - button [ref=e157]:
+            - img [ref=e161]
+        - link "药物禁忌症列表生成" [ref=e97] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e98]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e99] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e100]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e101] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e102]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e103] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e104]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e105] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e106]: HIV药物禁忌症生成
+      - generic [ref=e107]:
+        - generic [ref=e108]: 昨天
+        - link "药物禁忌症列表生成" [ref=e109] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e110]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e111] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e112]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e113] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e114]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e115] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e116]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e117] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e118]: 药物适应症列表生成
+      - generic [ref=e119]:
+        - generic [ref=e120]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e121] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e122]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e123] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e124]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e125] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e126]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e127] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e128]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e129] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e130]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e131] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e132]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e133] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e134]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e135] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e136]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e137] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e138]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e140]
+      - generic [ref=e143]: 132******38
+      - img [ref=e35]
+  - generic [ref=e40]:
+    - generic [ref=e165]:
+      - generic [ref=e167]:
+        - generic [ref=e168] [cursor=pointer]: 新对话
+        - generic [ref=e169]:
+          - img [ref=e171]
+          - generic [ref=e173]: 专家模式
+      - button [ref=e174] [cursor=pointer]:
+        - img [ref=e177]
+    - generic [ref=e180]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e185]: "你是一个临床药学专家。请为以下每种药物生成完整的禁忌症(contraindications)列表。 要求: 1. 每种药物列出其所有禁忌症,包括绝对禁忌症和相对禁忌症 2. 禁忌症类型分为以下类别: - disease: 疾病禁忌 (如 \"severe renal impairment\") - allergy_type: 过敏禁忌 (如 \"penicillin allergy\") - physiological_condition: 生理状态禁忌 (如 \"pregnancy\", \"lactation\", \"pediatric\") - drug_class: 药物类禁忌 (如 \"MAO inhibitors\") 3. 严重程度分为: - absolute: 绝对禁忌,不应使用 - relative: 相对禁忌,需谨慎评估获益风险比 4. 禁忌症应具体且临床相关,避免过于笼统 5. 如果药物有 indications_raw,可以帮助推断禁忌症(例如高血压药禁忌低血压) 6. 对于组合药物,列出每个成分的禁忌症 输入药物列表: chlorpheniramine, ibuprofen, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: D aspirin, chlorpheniramine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N chlorpheniramine and hydrocodone | 类别: Upper respiratory combinations | 适应症: cough|runny nose|sneezing|nasal congestion|allergic rhinitis | 妊娠分级: C diphenhydramine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C dexbrompheniramine and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Acetaminophen/Chlorpheniramine/Dextromethorphan/Phenylephrine Caps & Tabs | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Acetaminophen, Chlorpheniramine, Dextromethorphan, Phenylephrine Liquid | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N acetaminophen, dextromethorphan, guaifenesin, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|cough|chest congestion|headache|minor aches and pains|fever | 妊娠分级: N Acetaminophen, Dextromethorphan, and Pseudoephedrine Capsules And Tablets | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|cough|headache|minor aches and pains|fever | 妊娠分级: N acetaminophen, pheniramine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Ibuprofen and Phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|headache|minor aches and pains|fever | 妊娠分级: D ibuprofen and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|headache|minor aches and pains|fever | 妊娠分级: D Acetaminophen, Chlorpheniramine, and Phenylephrine Tablets | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N dexchlorpheniramine, dextromethorphan, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|allergic rhinitis | 妊娠分级: C brompheniramine maleate | 类别: Antihistamines | 适应症: allergic rhinitis|urticaria|common cold|sneezing|runny nose | 妊娠分级: C Camphor Cream and Ointment | 类别: Topical rubefacient | 适应症: minor muscle and joint pain|pruritus|chest congestion|cough associated with cold | 妊娠分级: C dextromethorphan and pyrilamine | 类别: Upper respiratory combinations | 适应症: cough|sneezing|runny nose|allergic rhinitis | 妊娠分级: N Acetaminophen/Chlorpheniramine/Dextromethorphan/Pseudoephedrine Liq & Syrup | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Chlophedianol and Dexbrompheniramine | 类别: Upper respiratory combinations | 适应症: cough|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Chlophedianol and Pyrilamine | 类别: Upper respiratory combinations | 适应症: cough|sneezing|runny nose|allergic rhinitis | 妊娠分级: C chlorpheniramine, phenylephrine, and pyrilamine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Acetaminophen, Dextromethorphan, and Phenylephrine Capsules and Tablets | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|cough|headache|minor aches and pains|fever|chest congestion | 妊娠分级: N Dexchlorpheniramine, Dextromethorphan, and Pseudoephedrine Liquid | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|allergic rhinitis | 妊娠分级: C Phenylephrine/ Pyrilamine/ Dextromethorphan Syrup | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|allergic rhinitis | 妊娠分级: C Triprolidine, Phenylephrine, and Dextromethorphan Syrup | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|allergic rhinitis | 妊娠分级: N acetaminophen, dextromethorphan, and diphenhydramine | 类别: Upper respiratory combinations | 适应症: cough|sneezing|runny nose|headache|minor aches and pains|fever|insomnia associated with cold or flu symptoms | 妊娠分级: C Dexbrompheniramine and Acetaminophen Caplets | 类别: Upper respiratory combinations | 适应症: sneezing|runny nose|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N doxylamine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N guaifenesin, pseudoephedrine, dextromethorphan, and acetaminophen | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|cough|chest congestion|headache|minor aches and pains|fever | 妊娠分级: N phenylephrine and promethazine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C brompheniramine, codeine, and phenylephrine | 类别: Upper respiratory combinations | 适应症: cough|nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Acetaminophen, Diphenhydramine, and Phenylephrine Liquid | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|headache|minor aches and pains|fever|insomnia associated with cold or flu symptoms | 妊娠分级: C Acetaminophen, Chlorpheniramine, Dextromethorphan, Phenylephrine Suspension | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N Camphor Inhalation Liquid | 类别: Topical rubefacient | 适应症: chest congestion|cough associated with cold|nasal congestion | 妊娠分级: C acetaminophen and caffeine | 类别: Analgesic combinations | 适应症: headache|minor aches and pains|fever|fatigue associated with pain | 妊娠分级: N Acetaminophen, Chlorpheniramine, Dextromethorphan, and Guaifenesin | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|chest congestion|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N acetaminophen, dextromethorphan, and triprolidine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|cough|headache|minor aches and pains|fever|allergic rhinitis | 妊娠分级: N acetaminophen and dextromethorphan | 类别: Upper respiratory combinations | 适应症: cough|headache|minor aches and pains|fever | 妊娠分级: N pheniramine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N Triprolidine and Pseudoephedrine Liquid | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis|eustachian tube congestion | 妊娠分级: C diphenhydramine hydrochloride and phenylephrine hydrochloride | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C carbetapentane and chlorpheniramine | 类别: Upper respiratory combinations | 适应症: cough|sneezing|runny nose|allergic rhinitis | 妊娠分级: C camphor and menthol topical | 类别: Topical rubefacient | 适应症: minor muscle and joint pain|pruritus|chest congestion|cough associated with cold | 妊娠分级: N chlophedianol, dexchlorpheniramine, and pseudoephedrine | 类别: Upper respiratory combinations | 适应症: cough|nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C chlorcyclizine and phenylephrine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N chlorpheniramine, phenylephrine, and phenyltoloxamine | 类别: Upper respiratory combinations | 适应症: nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: C Chlorpheniramine, Pseudoephedrine, and Codeine Liquid | 类别: Upper respiratory combinations | 适应症: cough|nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N chlorpheniramine and codeine | 类别: Upper respiratory combinations | 适应症: cough|runny nose|sneezing|allergic rhinitis | 妊娠分级: C Acetaminophen, Dextromethorphan, and Doxylamine Liquid | 类别: Upper respiratory combinations | 适应症: cough|sneezing|runny nose|headache|minor aches and pains|fever|insomnia associated with cold or flu symptoms | 妊娠分级: N codeine, phenylephrine, and triprolidine | 类别: Upper respiratory combinations | 适应症: cough|nasal congestion|sinus congestion|sneezing|runny nose|allergic rhinitis | 妊娠分级: N 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"contraindications\": [ {\"contraindication_name\": \"pregnancy\", \"contraindication_type\": \"physiological_condition\", \"severity\": \"absolute\", \"reason\": \"Known teratogen, causes severe birth defects\"}, {\"contraindication_name\": \"severe hepatic impairment\", \"contraindication_type\": \"disease\", \"severity\": \"absolute\", \"reason\": \"Hepatotoxicity risk\"}, {\"contraindication_name\": \"vitamin A overdose\", \"contraindication_type\": \"drug_class\", \"severity\": \"relative\", \"reason\": \"Additive toxicity with vitamin A supplements\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+          - generic [ref=e188]:
+            - button [ref=e189] [cursor=pointer]:
+              - img [ref=e192]
+            - button [ref=e194] [cursor=pointer]:
+              - img [ref=e197]
+        - generic [ref=e201]:
+          - generic [ref=e203] [cursor=pointer]:
+            - img [ref=e205]
+            - generic [ref=e208]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e210]
+          - generic [ref=e216]:
+            - paragraph [ref=e217]: 我们被要求为每种药物生成完整的禁忌症列表。输入是药物列表，有些是组合药物。我们需要为每种药物列出禁忌症。输出应该是JSON数组，每个元素有generic_name（组合药物的名称，保持原样）和contraindications数组，每个禁忌症有contraindication_name, contraindication_type (disease, allergy_type, physiological_condition, drug_class), severity (absolute/relative), reason。
+            - paragraph [ref=e218]: 我们需要分析每个组合的成分，然后推断每个成分的禁忌症，并考虑到组合可能导致的整体禁忌症。注意：妊娠分级不是禁忌症，但妊娠可能是一个生理状态禁忌，取决于药物。有些药物妊娠分级D或X可能禁忌。我们需要根据已知的临床药理学知识列出禁忌症。
+            - paragraph [ref=e219]: 我们将逐一对每个药物生成禁忌症列表。要确保完整性，但也要注意组合药物的适应症（如鼻塞、过敏等），避免过于笼统。同时也要考虑常见禁忌，如MAOIs与拟交感神经药（如伪麻黄碱、去氧肾上腺素）的禁忌，闭角型青光眼与抗组胺药，尿潴留与抗组胺药，等等。
+            - paragraph [ref=e251]: 我会基于常见成分：氯苯那敏（chlorpheniramine）、苯海拉明（diphenhydramine）、多西拉敏（doxylamine）等是第一代抗组胺药，其抗胆碱能作用禁忌：窄角型青光眼、尿潴留（如前列腺增生）、幽门十二指肠梗阻等。伪麻黄碱（pseudoephedrine）、去氧肾上腺素（phenylephrine）是减充血剂，拟交感神经药，禁忌：严重高血压、冠心病、MAOIs合用、闭角型青光眼（可能相对禁忌），甲亢等。阿片类镇咳药（可待因codeine、氢可酮hydrocodone）禁忌：呼吸抑制、哮喘急性发作、儿童（某些年龄），头部损伤，颅内压升高，MAOIs合用，以及过敏。对乙酰氨基酚（acetaminophen）禁忌：严重肝功能损害，G6PD缺乏（相对），过敏。布洛芬（ibuprofen）禁忌：活动性消化道溃疡出血，严重心衰，严重肾损，阿司匹林过敏（交叉过敏），妊娠晚期（妊娠分级D），冠脉搭桥术后疼痛（围手术期）。咖啡因禁忌：严重高血压、心律失常、失眠等，但较轻微。愈创甘油醚（guaifenesin）禁忌：过敏。右美沙芬（dextromethorphan）禁忌：MAOIs合用（5-羟色胺综合征风险），儿童（某些年龄），呼吸抑制（相对）。卡比沙明（carbinoxamine）等。还要考虑药物组合整体：含有抗组胺药和减充血剂，所以禁忌症包括MAOI合用、窄角型青光眼、尿潴留等；含有阿片类镇咳药，添加相关禁忌。含有对乙酰氨基酚，禁忌严重肝病。含有布洛芬，禁忌活动性消化性溃疡等。含有可待因/氢可酮，注意儿童（12岁以下不建议用于咳嗽感冒）和哺乳禁忌（可待因超快代谢者）。
+            - paragraph [ref=e252]: 我将为每个药物生成列表。注意妊娠分级D意味着有证据表明对胎儿有风险，但可能在某些情况下使用。对于非阿片类药物，抗组胺药一般妊娠分级C，伪麻黄碱C，去氧肾上腺素C，对乙酰氨基酚B，布洛芬D（晚期妊娠），可待因C/D。组合药物的妊娠分级可能来自成分最严的。有些输入中标明妊娠分级D，如chlorpheniramine, ibuprofen, and pseudoephedrine，因为含布洛芬，妊娠晚期禁忌。那么禁忌症中应包括妊娠（尤其是第三孕期）。对于标明妊娠分级C的，可能相对禁忌，可以从生理状况列为相对禁忌。
+            - paragraph [ref=e253]: 我将生成JSON。为了简化，我将每种组合药物列出。总共约44种药物。注意有些药物名称重复如ibuprofen and phenylephrine出现两次，但成分相同，我只生成一次，但输入有两次，可能都要输出，但为了减少冗余，可以输出两次同样的，但我会为每个条目生成。输入列表中，名字可能略有不同，如“Acetaminophen/Chlorpheniramine/Dextromethorphan/Phenylephrine Caps & Tabs”和“Acetaminophen, Chlorpheniramine, Dextromethorphan, Phenylephrine Liquid”等，按输入列表名称。我会逐个处理。
+            - paragraph [ref=e254]: 禁忌症需要具体。例如，抗组胺药：窄角型青光眼（angle-closure glaucoma），前列腺增生尿潴留（prostatic hyperplasia with urinary retention），幽门狭窄（pyloric stenosis），膀胱颈梗阻（bladder neck obstruction）。减充血剂：严重高血压（severe hypertension），重度冠心病（severe coronary artery disease），甲状腺功能亢进（hyperthyroidism），同时使用MAOIs（14天内）。阿片类：急性或重度支气管哮喘（acute or severe asthma）在没有适当监测下，呼吸抑制（respiratory depression），肠梗阻（known or suspected gastrointestinal obstruction），头部损伤及颅内压升高（head injury, increased intracranial pressure），同时使用MAOIs。对乙酰氨基酚：已知对乙酰氨基酚过敏，严重肝功能不全（severe hepatic impairment），G6PD缺乏症（相对）。布洛芬：在使用布洛芬或其他NSAIDs后出现过哮喘、荨麻疹或过敏反应（aspirin-sensitive asthma, nasal polyps），活动性消化性溃疡/出血（active or history of recurrent peptic ulcer/hemorrhage），重度心力衰竭（severe heart failure），严重肾功能不全（severe renal impairment），妊娠晚期（third trimester），冠脉搭桥术围手术期疼痛（perioperative pain in CABG）。咖啡因：严重高血压，心律失常，失眠等，相对。注意药物类：MAOIs与伪麻黄碱/去氧肾上腺素/右美沙芬/阿片类/抗组胺药可能有相互作用，通常列为绝对禁忌。右美沙芬+MAOIs：可能引起5-羟色胺综合征，绝对禁忌。伪麻黄碱+MAOIs：高血压危象。抗组胺药+MAOIs：可能增强抗胆碱能作用，但一般也列为禁忌。可待因+MAOIs：也禁忌。所以几乎每种含减充血剂或右美沙芬或阿片类的组合，都会禁忌MAOIs。
+            - paragraph [ref=e255]: 此外，儿童年龄限制：对于含可待因或氢可酮的复方感冒药，FDA不推荐用于儿童，有些标签有年龄限制。可待因：12岁以下儿童禁忌用于咳嗽
+      - generic [ref=e220]:
+        - generic [ref=e223]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e225]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e226]:
+            - button "深度思考" [ref=e227] [cursor=pointer]:
+              - img [ref=e229]
+              - generic [ref=e232]: 深度思考
+            - button "智能搜索" [ref=e233] [cursor=pointer]:
+              - img [ref=e235]
+              - generic [ref=e237]: 智能搜索
+            - generic [ref=e238]:
+              - button [ref=e239] [cursor=pointer]:
+                - img [ref=e242]
+              - button [ref=e245] [cursor=pointer]:
+                - img [ref=e248]
+        - generic [ref=e250]: 内容由 AI 生成，请仔细甄别

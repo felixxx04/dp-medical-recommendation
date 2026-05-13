@@ -1,0 +1,204 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - button [ref=e19] [cursor=pointer]:
+        - img [ref=e22]
+    - generic [ref=e24] [cursor=pointer]:
+      - img [ref=e26]
+      - generic [ref=e28]: 开启新对话
+      - text: Ctrl + J
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]: 今天
+        - link "新对话" [ref=e213] [cursor=pointer]:
+          - /url: /a/chat/s/09ee6253-7d28-46da-8c7d-7cdf183bdc9d
+          - generic [ref=e214]: 新对话
+          - button [ref=e215]:
+            - img [ref=e219]
+        - link "COVID19疫苗年龄变体药物交互生成" [ref=e102] [cursor=pointer]:
+          - /url: /a/chat/s/f65cf9e5-1511-4fc1-80f6-3a3ae8a28ddb
+          - generic [ref=e103]: COVID19疫苗年龄变体药物交互生成
+        - link "药物交互作用列表生成" [ref=e104] [cursor=pointer]:
+          - /url: /a/chat/s/c213577c-b76f-4942-b178-214b08baf36d
+          - generic [ref=e105]: 药物交互作用列表生成
+        - link "药物相互作用临床分析" [ref=e106] [cursor=pointer]:
+          - /url: /a/chat/s/6bc0a9da-e3ed-4362-a40c-5e304fd61a35
+          - generic [ref=e107]: 药物相互作用临床分析
+        - link "布洛芬去氧肾上腺素交互列表" [ref=e108] [cursor=pointer]:
+          - /url: /a/chat/s/106c40e8-d8b0-447e-a2e1-b1ce4f224412
+          - generic [ref=e109]: 布洛芬去氧肾上腺素交互列表
+        - link "临床药学专家药物相互作用列表生成" [ref=e110] [cursor=pointer]:
+          - /url: /a/chat/s/d232d483-e8fe-49f4-a7f1-04f6226face9
+          - generic [ref=e111]: 临床药学专家药物相互作用列表生成
+        - link "药物交互作用列表生成" [ref=e112] [cursor=pointer]:
+          - /url: /a/chat/s/3b935f00-f4c7-42e4-9124-88e41701365a
+          - generic [ref=e113]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e114] [cursor=pointer]:
+          - /url: /a/chat/s/58d08e74-a875-4936-a81b-1fc777be14f9
+          - generic [ref=e115]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e116] [cursor=pointer]:
+          - /url: /a/chat/s/989f3359-dc87-4134-94ba-2b2a776eb91c
+          - generic [ref=e117]: 药物交互作用列表生成
+        - link "药物交互列表生成" [ref=e118] [cursor=pointer]:
+          - /url: /a/chat/s/d4d0558f-4b66-4be5-b9b4-423cd5eb373b
+          - generic [ref=e119]: 药物交互列表生成
+        - link "药物交互分析请求" [ref=e120] [cursor=pointer]:
+          - /url: /a/chat/s/91f68df2-ac9f-4a3e-a1a1-16e4142aa6f7
+          - generic [ref=e121]: 药物交互分析请求
+        - link "临床药学药物交互作用列表" [ref=e122] [cursor=pointer]:
+          - /url: /a/chat/s/ed8f32b2-cbb1-486e-a719-59450f240c21
+          - generic [ref=e123]: 临床药学药物交互作用列表
+        - link "药物交互作用列表生成" [ref=e124] [cursor=pointer]:
+          - /url: /a/chat/s/b3298d0b-b7d9-44ee-9868-7ec1583b2beb
+          - generic [ref=e125]: 药物交互作用列表生成
+        - link "药物交互作用列表生成" [ref=e126] [cursor=pointer]:
+          - /url: /a/chat/s/74fd55ec-48d6-45fb-88af-0522e043b64c
+          - generic [ref=e127]: 药物交互作用列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e128] [cursor=pointer]:
+          - /url: /a/chat/s/48759c24-02f8-4e62-9157-b4e50060776c
+          - generic [ref=e129]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症生成" [ref=e130] [cursor=pointer]:
+          - /url: /a/chat/s/638dee64-1de4-4eaa-9d18-46a32e54cfd2
+          - generic [ref=e131]: 临床药学专家药物禁忌症生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e132] [cursor=pointer]:
+          - /url: /a/chat/s/bf8861d7-0cd0-4b8e-b5f4-005cdd47ada0
+          - generic [ref=e133]: 临床药学专家药物禁忌症列表生成
+        - link "临床药学专家生成药物禁忌症列表" [ref=e134] [cursor=pointer]:
+          - /url: /a/chat/s/05ba9aa3-4dca-4800-a3cf-cbd4964e2bf8
+          - generic [ref=e135]: 临床药学专家生成药物禁忌症列表
+        - link "药物禁忌症生成对话" [ref=e136] [cursor=pointer]:
+          - /url: /a/chat/s/5d353515-1594-4d36-97c5-44fa8d2d9658
+          - generic [ref=e137]: 药物禁忌症生成对话
+        - link "药物禁忌症列表生成" [ref=e138] [cursor=pointer]:
+          - /url: /a/chat/s/fefcad6e-563d-4eb8-8cd8-1fb485a4cad0
+          - generic [ref=e139]: 药物禁忌症列表生成
+        - link "临床药学专家药物禁忌症列表生成" [ref=e140] [cursor=pointer]:
+          - /url: /a/chat/s/1312fc61-d721-4168-9d58-ca5155bf25e8
+          - generic [ref=e141]: 临床药学专家药物禁忌症列表生成
+        - link "药物禁忌症JSON生成" [ref=e142] [cursor=pointer]:
+          - /url: /a/chat/s/338d037d-a2d0-45e1-b0d4-1c305b022de8
+          - generic [ref=e143]: 药物禁忌症JSON生成
+        - link "临床药学专家药物禁忌症列表" [ref=e144] [cursor=pointer]:
+          - /url: /a/chat/s/d4addd0c-923c-4907-ba34-1687a9a94330
+          - generic [ref=e145]: 临床药学专家药物禁忌症列表
+        - link "药物禁忌症列表生成" [ref=e146] [cursor=pointer]:
+          - /url: /a/chat/s/72368b0f-1d35-4124-a043-27436eace612
+          - generic [ref=e147]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e148] [cursor=pointer]:
+          - /url: /a/chat/s/e3df677f-8cc8-4a89-89b9-3e9444da0009
+          - generic [ref=e149]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e150] [cursor=pointer]:
+          - /url: /a/chat/s/feaf6699-77db-4e48-9825-1a2d85db6b1c
+          - generic [ref=e151]: 药物禁忌症列表生成
+        - link "糖尿病药物禁忌症列表生成" [ref=e152] [cursor=pointer]:
+          - /url: /a/chat/s/36113bb9-93e0-4605-92cd-1f2fcfca827d
+          - generic [ref=e153]: 糖尿病药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e154] [cursor=pointer]:
+          - /url: /a/chat/s/9e4871dd-6722-4453-b03b-752344250604
+          - generic [ref=e155]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e156] [cursor=pointer]:
+          - /url: /a/chat/s/cff23a3a-bc07-4e6b-88e3-0946e036b7c9
+          - generic [ref=e157]: 药物禁忌症列表生成
+        - link "临床药学禁忌症列表生成" [ref=e158] [cursor=pointer]:
+          - /url: /a/chat/s/6cccbbd0-06db-47fe-add9-b49dbfa2194a
+          - generic [ref=e159]: 临床药学禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e160] [cursor=pointer]:
+          - /url: /a/chat/s/fd062346-4427-4733-b625-5f1977c6b46d
+          - generic [ref=e161]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e162] [cursor=pointer]:
+          - /url: /a/chat/s/3f829ddd-c2fe-49df-8dd8-92f9a8a25bcc
+          - generic [ref=e163]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e164] [cursor=pointer]:
+          - /url: /a/chat/s/eff4e0ae-ba6d-4ddb-b46e-9cfe350ce592
+          - generic [ref=e165]: 药物禁忌症列表生成
+        - link "HIV药物禁忌症列表生成" [ref=e166] [cursor=pointer]:
+          - /url: /a/chat/s/7c32c9dd-da49-43da-a824-ac25a924265a
+          - generic [ref=e167]: HIV药物禁忌症列表生成
+        - link "HIV药物禁忌症生成" [ref=e168] [cursor=pointer]:
+          - /url: /a/chat/s/78df44b8-669d-4343-90bb-d3b475094a78
+          - generic [ref=e169]: HIV药物禁忌症生成
+      - generic [ref=e170]:
+        - generic [ref=e171]: 昨天
+        - link "药物禁忌症列表生成" [ref=e172] [cursor=pointer]:
+          - /url: /a/chat/s/8618629f-4583-4975-bc99-b1d13557df27
+          - generic [ref=e173]: 药物禁忌症列表生成
+        - link "药物禁忌症生成" [ref=e174] [cursor=pointer]:
+          - /url: /a/chat/s/4886f6fd-2264-4244-a30f-753a967af055
+          - generic [ref=e175]: 药物禁忌症生成
+        - link "药物禁忌症列表生成" [ref=e176] [cursor=pointer]:
+          - /url: /a/chat/s/a99e7766-79e2-4ea1-afb0-ae7d78cdbf11
+          - generic [ref=e177]: 药物禁忌症列表生成
+        - link "药物禁忌症列表生成" [ref=e178] [cursor=pointer]:
+          - /url: /a/chat/s/9315705d-9c29-471b-be89-9bcddad10821
+          - generic [ref=e179]: 药物禁忌症列表生成
+        - link "药物适应症列表生成" [ref=e180] [cursor=pointer]:
+          - /url: /a/chat/s/a47d8352-8927-4fa0-962e-0f25a7321060
+          - generic [ref=e181]: 药物适应症列表生成
+      - generic [ref=e182]:
+        - generic [ref=e183]: 7 天内
+        - link "药学知识专家验证药物适应症" [ref=e184] [cursor=pointer]:
+          - /url: /a/chat/s/e88254d9-8254-4f8e-b80d-af2615250d02
+          - generic [ref=e185]: 药学知识专家验证药物适应症
+        - link "差分隐私推荐系统问题分析" [ref=e186] [cursor=pointer]:
+          - /url: /a/chat/s/85d29a5e-4548-433f-a58e-0338b79d1f07
+          - generic [ref=e187]: 差分隐私推荐系统问题分析
+        - link "药物适应症补充任务" [ref=e188] [cursor=pointer]:
+          - /url: /a/chat/s/79fb29f4-2cfd-43d5-ae59-ea3c4f73fce9
+          - generic [ref=e189]: 药物适应症补充任务
+        - link "药物适应症补充任务" [ref=e190] [cursor=pointer]:
+          - /url: /a/chat/s/681b62bb-5171-46fb-9915-201b35f115de
+          - generic [ref=e191]: 药物适应症补充任务
+        - link "药物适应症批量处理" [ref=e192] [cursor=pointer]:
+          - /url: /a/chat/s/c82e3505-6392-46cd-b79a-118b4b69f178
+          - generic [ref=e193]: 药物适应症批量处理
+        - link "药物适应症补充任务" [ref=e194] [cursor=pointer]:
+          - /url: /a/chat/s/721c0d5e-4851-4358-820a-60c87fcf44f8
+          - generic [ref=e195]: 药物适应症补充任务
+        - link "药物交互数据提取结果" [ref=e196] [cursor=pointer]:
+          - /url: /a/chat/s/9ea00b00-6805-467e-b3e3-001ee1dcbeeb
+          - generic [ref=e197]: 药物交互数据提取结果
+        - link "Simvastatin禁忌症生成" [ref=e198] [cursor=pointer]:
+          - /url: /a/chat/s/194ed335-1415-4e01-bf35-3ea661c3cd8a
+          - generic [ref=e199]: Simvastatin禁忌症生成
+        - link "生成数据训练请求" [ref=e200] [cursor=pointer]:
+          - /url: /a/chat/s/c4f36327-ea73-4e3a-ba75-3eba2ab7abd9
+          - generic [ref=e201]: 生成数据训练请求
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e35]
+      - generic [ref=e38]: 132******38
+      - img [ref=e40]
+  - generic [ref=e45]:
+    - generic [ref=e223]:
+      - generic [ref=e225]:
+        - generic [ref=e226]: 新对话
+        - generic [ref=e227]:
+          - img [ref=e229]
+          - generic [ref=e231]: 专家模式
+      - button [disabled] [ref=e232]:
+        - img [ref=e234]
+    - generic [ref=e237]:
+      - generic [ref=e240]:
+        - generic [ref=e242]: "你是一个临床药学专家。请为以下每种药物生成重要的药物交互(interactions)列表。 要求: 1. 只列出 major(严重)和 moderate(中度)交互,不列出 minor(轻微)交互 2. 交互应具有临床意义,影响用药安全或疗效 3. 每个交互包含: - drug_a: 药物名称(当前药物) - drug_b: 交互药物名称(使用通用药物类别名,如 \"warfarin\", \"MAO inhibitors\", \"CYP3A4 inhibitors\") - interaction_type: major 或 moderate - clinical_effect: 临床效果描述(如 \"增加出血风险\", \"降低降压效果\") - mechanism: 机制描述(如 \"CYP3A4竞争性抑制\", \"药效学拮抗\") 4. 优先列出与常见药物类的交互(抗凝药、抗抑郁药、抗真菌药、抗酸药等) 5. 对于组合药物,列出每个成分的交互 输入药物列表: pramlintide (subcutaneous route) | 类别: Amylin analogs | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: C insulin nph and regular (subcutaneous route) | 类别: Insulin | 适应症: type 1 diabetes mellitus|type 2 diabetes mellitus | 妊娠分级: B teplizumab-mzwv | 类别: | 适应症: delay onset of clinical type 1 diabetes mellitus | 妊娠分级: N dapagliflozin | 类别: SGLT-2 inhibitors | 适应症: heart failure with reduced ejection fraction|chronic kidney disease|type 2 diabetes mellitus | 妊娠分级: C dulaglutide | 类别: Incretin mimetics | 适应症: cardiovascular risk reduction in type 2 diabetes|type 2 diabetes mellitus | 妊娠分级: C semaglutide | 类别: Incretin mimetics | 适应症: overweight with weight-related comorbidities|cardiovascular risk reduction in type 2 diabetes|type 2 diabetes mellitus|obesity | 妊娠分级: N dapagliflozin Brand name: Farxiga | 类别: SGLT-2 inhibitors | 适应症: type 2 diabetes mellitus|heart failure with reduced ejection fraction|chronic kidney disease | 妊娠分级: C semaglutide Brand names: Ozempic , Wegovy , Rybelsus | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|chronic weight management|non-alcoholic steatohepatitis | 妊娠分级: N insulin glargine and lixisenatide | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N tirzepatide (mown-JAHR-OH) | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|chronic weight management | 妊娠分级: N liraglutide | 类别: Incretin mimetics | 适应症: overweight with weight-related comorbidities|cardiovascular risk reduction in type 2 diabetes|type 2 diabetes mellitus|obesity | 妊娠分级: C pioglitazone (oral) | 类别: Thiazolidinediones | 适应症: type 2 diabetes mellitus|non-alcoholic fatty liver disease|polycystic ovary syndrome | 妊娠分级: C metformin and sitagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B semaglutide injection | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity|overweight with weight-related comorbidities|cardiovascular risk reduction in type 2 diabetes | 妊娠分级: N repaglinide (oral) | 类别: Meglitinides | 适应症: type 2 diabetes mellitus | 妊娠分级: C chromium picolinate | 类别: Minerals and electrolytes | 适应症: chromium deficiency|glycemic control in type 2 diabetes mellitus|dyslipidemia | 妊娠分级: N exenatide (Byetta) | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity | 妊娠分级: C acarbose | 类别: Alpha-glucosidase inhibitors | 适应症: type 2 diabetes mellitus|postprandial hyperglycemia | 妊娠分级: B alogliptin | 类别: Dipeptidyl peptidase 4 inhibitors | 适应症: type 2 diabetes mellitus | 妊娠分级: B glimepiride and pioglitazone | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C glipizide (oral route) | 类别: Sulfonylureas | 适应症: type 2 diabetes mellitus | 妊娠分级: C glyburide and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B metformin and saxagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B dapagliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C lixisenatide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus | 妊娠分级: N bromocriptine (Parlodel) | 类别: Dopaminergic antiparkinsonism agents, Prolactin inhibitors | 适应症: parkinson's disease|hyperprolactinemia|acromegaly|restless legs syndrome|type 2 diabetes mellitus | 妊娠分级: B empagliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C glipizide and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C glyburide (oral route) | 类别: Sulfonylureas | 适应症: type 2 diabetes mellitus | 妊娠分级: C linagliptin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B metformin and pioglitazone | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C insulin degludec and liraglutide | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N alogliptin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: B alogliptin and pioglitazone | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C exenatide (Bydureon) | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity | 妊娠分级: C canagliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C dapagliflozin and saxagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N empagliflozin, linagliptin, and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N empagliflozin and linagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: C ertugliflozin and metformin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N ertugliflozin and sitagliptin | 类别: Antidiabetic combinations | 适应症: type 2 diabetes mellitus | 妊娠分级: N ertugliflozin | 类别: SGLT-2 inhibitors | 适应症: type 2 diabetes mellitus | 妊娠分级: N nateglinide (oral) | 类别: Meglitinides | 适应症: type 2 diabetes mellitus | 妊娠分级: C albiglutide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus | 妊娠分级: C tirzepatide | 类别: Incretin mimetics | 适应症: type 2 diabetes mellitus|obesity|overweight with weight-related comorbidities | 妊娠分级: N atropine and diphenoxylate | 类别: Antidiarrheals | 适应症: diarrhea|traveler's diarrhea | 妊娠分级: C loperamide (oral route) | 类别: Antidiarrheals | 适应症: acute diarrhea|chronic diarrhea associated with inflammatory bowel disease|traveler's diarrhea|ileostomy high-output management | 妊娠分级: C loperamide hydrochloride | 类别: Antidiarrheals | 适应症: acute diarrhea|chronic diarrhea associated with inflammatory bowel disease | 妊娠分级: C bismuth subsalicylate | 类别: Antidiarrheals | 适应症: diarrhea|dyspepsia|nausea|traveler's diarrhea|helicobacter pylori eradication (adjunctive) | 妊娠分级: N saccharomyces boulardii lyo | 类别: Antidiarrheals, Probiotics | 适应症: antibiotic-associated diarrhea|traveler's diarrhea prevention|diarrhea | 妊娠分级: N 请输出 JSON 格式如下: [ { \"generic_name\": \"Isotretinoin\", \"interactions\": [ {\"drug_a\": \"isotretinoin\", \"drug_b\": \"vitamin A supplements\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加维生素A毒性风险(肝毒性、高钙血症)\", \"mechanism\": \"Additive vitamin A toxicity\"}, {\"drug_a\": \"isotretinoin\", \"drug_b\": \"tetracycline antibiotics\", \"interaction_type\": \"major\", \"clinical_effect\": \"增加假性脑瘤风险\", \"mechanism\": \"Both increase intracranial pressure\"} ] }, ... ] 注意: 只输出JSON,不要输出其他解释文本。"
+        - generic [ref=e245]:
+          - button [ref=e246] [cursor=pointer]:
+            - img [ref=e249]
+          - button [ref=e251] [cursor=pointer]:
+            - img [ref=e254]
+      - generic [ref=e263]:
+        - generic [ref=e266]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e268]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e269]:
+            - button "深度思考" [ref=e270] [cursor=pointer]:
+              - img [ref=e272]
+              - generic [ref=e275]: 深度思考
+            - button "智能搜索" [ref=e276] [cursor=pointer]:
+              - img [ref=e278]
+              - generic [ref=e280]: 智能搜索
+            - generic [ref=e281]:
+              - button [disabled] [ref=e282]:
+                - img [ref=e284]
+              - button [disabled] [ref=e287] [cursor=pointer]:
+                - img [ref=e290]
+        - generic [ref=e294]: 内容由 AI 生成，请仔细甄别

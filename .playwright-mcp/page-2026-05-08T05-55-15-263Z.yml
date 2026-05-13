@@ -1,0 +1,104 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - generic [ref=e85] [cursor=pointer]: 新对话
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - generic [ref=e90]: 快速模式
+      - button [ref=e91] [cursor=pointer]:
+        - img [ref=e94]
+    - generic [ref=e97]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 真菌感染 | hydrocortisone+iodoquinol(topical); Iodoquinol+Hydrocortisone; hydrocortisone+iodoquinol; hydrocortisone+iodoquinol; hydrocortisone+iodochlorhydroxyquin 疾病: 眩晕 | Meclizine; Prochlorperazine; diphenhydramine HCl; dimenhydrinate; Temsirolimus 疾病: 社交焦虑 | Alprazolam; Aripiprazole; Venlafaxine; venlafaxine HCl; Pregabalin 疾病: 神经痛 | Aspirin; Amitriptyline; Baclofen; Carbamazepine; Carisoprodol 疾病: 类风湿关节炎 | Diclofenac; Etodolac; Flurbiprofen; Golimumab; Ibuprofen 疾病: 精神分裂症 | Aripiprazole; Valproic Acid; Brexpiprazole; Reserpine; Quetiapine 疾病: 糖尿病 | Canagliflozin; Colesevelam; teplizumab-mzwv; semaglutide; tirzepatide 疾病: 系统性红斑狼疮 | Hydroxychloroquine; Diclofenac; Prednisolone; Prednisone; Triamcinolone 疾病: 纤维肌痛 | Tapentadol; Amitriptyline; Diclofenac; Cyclobenzaprine; Etodolac 疾病: 细菌性尿路感染 | Amikacin; Fosfomycin; Gentamicin; Phenazopyridine; acetohydroxamic acid 疾病: 细菌性皮肤感染 | Betamethasone; Amoxicillin-Clavulanate; Bacitracin; Cefazolin; Cefepime 疾病: 细菌性结膜炎 | Azithromycin; Bacitracin; Cetirizine; Chloramphenicol; Ciprofloxacin 疾病: 细菌性鼻窦炎 | Amoxicillin; Amoxicillin-Clavulanate; Ampicillin; Azithromycin; Cefaclor 疾病: 细菌感染 | Amikacin; Tobramycin; plazomicin; lefamulin; cefiderocol 疾病: 结肠癌 | methotrexate(injection); Pamidronate; methotrexate(injection/SC); Aspirin; Goserelin 疾病: 结膜炎 | Cetirizine; Azithromycin; Bacitracin; Chloramphenicol; Ciprofloxacin 疾病: 缺铁性贫血 | Ferrous Sulfate; Folic Acid; Epoetin Alfa; Meperidine; Zidovudine 疾病: 老年痴呆 | aducanumab; Lorazepam; vitamin E; vitamin e(oral); Vitamin E Capsules 疾病: 肌肉酸痛 | Aspirin; Tapentadol; Diclofenac; Baclofen; Carisoprodol 疾病: 肝炎 | Tenofovir; Cimetidine; Lamivudine; Sofosbuvir; Telbivudine 疾病: 肝硬化 | torsemide; Cimetidine; hydrochlorothiazide; chlorothiazide; HCTZ+spironolactone 疾病: 肠易激综合征 | Rifaximin; Ciprofloxacin; psyllium; polycarbophil; Polycarbophil Tablets 疾病: 肠炎 | Ciprofloxacin; Lorazepam; Metoclopramide; Metronidazole; Meclizine 疾病: 肥胖 | Pramlintide; Phentermine; Orlistat; setmelanotide; semaglutide 疾病: 肩周炎 | Aspirin; Baclofen; Carisoprodol; Cyclobenzaprine; Diclofenac 疾病: 肺动脉高压 | Amlodipine; Amlodipine-Benazepril; Bosentan; Macitentan; Sildenafil 疾病: 肺栓塞 | Apixaban; Amlodipine; Rivaroxaban; Tenecteplase; Urokinase 疾病: 肺炎 | Amikacin; Amoxicillin; Amoxicillin-Clavulanate; Azithromycin; Cefaclor 疾病: 肺癌 | Methotrexate; Pamidronate; Gemcitabine; Paclitaxel; Pembrolizumab 疾病: 肺纤维化 | interferon gamma-1b; Dexamethasone; Epinephrine; Methylprednisolone; Mometasone 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e105]:
+            - button [ref=e106] [cursor=pointer]:
+              - img [ref=e109]
+            - button [ref=e111] [cursor=pointer]:
+              - img [ref=e114]
+        - generic [ref=e118]:
+          - generic [ref=e120] [cursor=pointer]:
+            - img [ref=e122]
+            - generic [ref=e125]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e127]
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: 我们需对每个疾病的推荐药物列表进行评估。每个疾病列出前5个药物（实际列表可能有重复或顺序）。根据标准判断是否适合治疗该疾病。
+            - paragraph [ref=e135]: 注意：有些药物组合如hydrocortisone+iodoquinol是复方，用于真菌感染？Iodoquinol是抗寄生虫/抗真菌？Hydrocortisone是激素，不抗真菌。所以部分适合？需要仔细。
+            - paragraph [ref=e136]: 逐个分析：
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - paragraph [ref=e139]: 真菌感染：推荐药物都是hydrocortisone+iodoquinol或类似（iodoquinol, iodochlorhydroxyquin）。Iodoquinol和iodochlorhydroxyquin是抗寄生虫和抗真菌（用于皮肤真菌感染？），但氢化可的松是激素，不抗真菌，但复方可用于伴有炎症的真菌感染？通常不推荐单纯真菌感染使用激素，会加重。所以可能部分适合或不适合？标准：完全适合？一般抗真菌治疗应使用抗真菌药如克霉唑等。这里复方可能用于某些情况，但不是一线。我认为INAPPROPRIATE？但需谨慎。很多指南不建议激素用于真菌感染。所以评分：INAPPROPRIATE或PARTIALLY？因为含有抗真菌成分。通常认为不适当。我评INAPPROPRIATE。
+              - listitem [ref=e140]:
+                - paragraph [ref=e141]: 眩晕：药物包括Meclizine（抗组胺，用于眩晕）、Prochlorperazine（止吐，用于眩晕？）、diphenhydramine（抗组胺）、dimenhydrinate（抗组胺）、Temsirolimus（mTOR抑制剂，抗癌药，不用于眩晕）。前四个可用于眩晕，最后一个完全无关。所以PARTIALLY。
+              - listitem [ref=e174]:
+                - paragraph [ref=e175]: 社交焦虑：Alprazolam（苯二氮卓，可用于社交焦虑？短期）、Aripiprazole（抗精神病，不用于社交焦虑一线）、Venlafaxine（SNRI，用于社交焦虑）、venlafaxine HCl（同）、Pregabalin（用于社交焦虑？有证据但非一线）。实际上一些药物可接受，但Aripiprazole不适合。所以PARTIALLY。
+              - listitem [ref=e176]:
+                - paragraph [ref=e177]: 神经痛：Aspirin（不适合，神经痛常用加巴喷丁、三环等）、Amitriptyline（适合）、Baclofen（肌松剂，不用于神经痛）、Carbamazepine（用于三叉神经痛等）、Carisoprodol（肌松剂，不适合）。所以部分适合。评PARTIALLY。
+              - listitem [ref=e178]:
+                - paragraph [ref=e179]: 类风湿关节炎：Diclofenac（NSAID，对症）、Etodolac（NSAID）、Flurbiprofen（NSAID）、Golimumab（生物制剂，DMARD）、Ibuprofen（NSAID）。这些均可用于RA？NSAIDs用于症状缓解，但不改变病程，Golimumab是疾病修饰药。通常推荐包括NSAIDs和生物制剂。所以都是适当的？但注意没有传统DMARD如甲氨蝶呤，但所列药物确实可用于RA。所以APPROPRIATE？可能合理。评APPROPRIATE。
+              - listitem [ref=e180]:
+                - paragraph [ref=e181]: 精神分裂症：Aripiprazole（抗精神病，适合）、Valproic Acid（抗癫痫/情绪稳定剂，不用于精神分裂症一线，可辅助但非主要）、Brexpiprazole（抗精神病，适合）、Reserpine（降压药，曾用于精神病但现已不常用，不适合）、Quetiapine（抗精神病，适合）。所以部分适合（Valproic acid和Reserpine不合适）。评PARTIALLY。
+              - listitem [ref=e182]:
+                - paragraph [ref=e183]: 糖尿病：Canagliflozin（SGLT2抑制剂，适合）、Colesevelam（胆汁酸螯合剂，用于降脂和糖尿病？FDA批准用于2型糖尿病，但较少用，仍然适合）、teplizumab-mzwv（抗CD3抗体，用于延缓1型糖尿病？但并非一般糖尿病治疗，特定情况）、semaglutide（GLP-1，适合）、tirzepatide（GIP/GLP-1，适合）。Colesevelam和teplizumab可能不典型，但Colesevelam确实有降糖效果，teplizumab用于高危人群预防，不算治疗已确诊糖尿病？一般糖尿病治疗药物不包括teplizumab。所以需要判断。teplizumab-mzwv是近期获批用于延迟1型糖尿病发作，但并非用于治疗已患糖尿病。对于“糖尿病”疾病，通常指治疗，而非预防。所以不适合。因此部分适合。评PARTIALLY。
+              - listitem [ref=e184]:
+                - paragraph [ref=e185]: 系统性红斑狼疮：Hydroxychloroquine（基础治疗，适合）、Diclofenac（NSAID，对症）、Prednisolone（糖皮质激素，适合）、Prednisone（激素，适合）、Triamcinolone（激素，适合）。所有均可用于SLE。所以APPROPRIATE。
+              - listitem [ref=e186]:
+                - paragraph [ref=e187]: 纤维肌痛：Tapentadol（阿片类，一般不推荐用于纤维肌痛，因为有更好的药物）、Amitriptyline（三环类，可用于纤维肌痛）、Diclofenac（NSAID，不推荐，因为纤维肌痛不是炎症性疼痛）、Cyclobenzaprine（肌松剂，可用于纤维肌痛？有证据但非一线）、Etodolac（NSAID，不推荐）。所以部分适合（Amitriptyline和Cyclobenzaprine可能适合，其他不适合）。评PARTIALLY。
+              - listitem [ref=e188]:
+                - paragraph [ref=e189]: 细菌性尿路感染：Amikacin（氨基糖苷类，可用于复杂UTI，但非一线）、Fosfomycin（适合）、Gentamicin（适合）、Phenazopyridine（止痛剂，不治疗感染）、acetohydroxamic acid（用于尿素分解酶抑制，不直接抗菌，用于慢性UTI辅助）。所以部分适合。评PARTIALLY。
+              - listitem [ref=e190]:
+                - paragraph [ref=e191]: 细菌性皮肤感染：Betamethasone（糖皮质激素，不抗细菌，不适合）、Amoxicillin-Clavulanate（适合）、Bacitracin（局部抗生素，适合）、Cefazolin（一代头孢，适合）、Cefepime（四代头孢，可用于严重感染，但通常不首选）。大部分适合，除了Betamethasone。所以PARTIALLY。
+              - listitem [ref=e192]:
+                - paragraph [ref=e193]: 细菌性结膜炎：Azithromycin（适合，大环内酯）、Bacitracin（适合）、Cetirizine（抗组胺，不抗细菌，不适合）、Chloramphenicol（适合，但某些国家禁用）、Ciprofloxacin（适合）。所以PARTIALLY。
+              - listitem [ref=e194]:
+                - paragraph [ref=e195]: 细菌性鼻窦炎：所有列出药物：Amoxicillin, Amoxicillin-Clavulanate, Ampicillin, Azithromycin, Cefaclor。均为抗生素，适合细菌性鼻窦炎。所以APPROPRIATE。
+              - listitem [ref=e196]:
+                - paragraph [ref=e197]: 细菌感染（广泛）：Amikacin, Tobramycin, plazomicin, lefamulin, cefiderocol。均为抗生素，可用于多种细菌感染。但注意lefamulin主要针对呼吸道感染？依然是抗生素。所以全部适合？但“细菌感染”非常宽泛，这些药物都是抗菌药，所以APPROPRIATE。
+              - listitem [ref=e198]:
+                - paragraph [ref=e199]: 结肠癌：methotrexate(injection)（甲氨蝶呤可用于某些癌症，但结肠癌？通常不用于结肠癌，主要用于白血病等）、Pamidronate（双膦酸盐，用于骨转移，不直接治疗结肠癌）、methotrexate(injection/SC)（同）、Aspirin（可能预防，不治疗）、Goserelin（GnRH激动剂，用于前列腺癌、乳腺癌，不用于结肠癌）。这些药物均不是结肠癌的标准治疗。结肠癌常用化疗如FOLFOX、FOLFIRI等。所以全部不适合？评INAPPROPRIATE。
+              - listitem [ref=e200]:
+                - paragraph [ref=e201]: 结膜炎：Cetirizine（抗组胺，用于过敏性结膜炎，不用于感染性？疾病“结膜炎”包括多种，但通常细菌性、病毒性、过敏性。Cetirizine适用于过敏性，但题目未指定类型。其他药物：Azithromycin（抗细菌）、Bacitracin（抗细菌）、Chloramphenicol（抗细菌）、Ciprofloxacin（抗细菌）。所以混合：抗组胺和抗生素。对于结膜炎，如果是过敏性，Cetirizine适合；如果是细菌性，抗生素适合。但一般结膜炎不明确，可能需要区分。评分标准：推荐药物完全适合？部分适合？因包含不同机制，所以可能是PARTIALLY。但注意Cetirizine治疗过敏性结膜炎是合适的，但其他抗生素对过敏性无效。所以总体部分适合。评PARTIALLY。
+              - listitem [ref=e202]:
+                - paragraph [ref=e203]: 缺铁性贫血：Ferrous Sulfate（硫酸亚铁，适合）、Folic Acid（叶酸，用于巨幼细胞贫血，不用于缺铁性贫血，除非合并缺乏）、Epoetin Alfa（促红素，用于肾性贫血等，不用于单纯缺铁性贫血）、Meperidine（阿片止痛，不适合）、Zidovudine（抗HIV，不适合）。所以只有第一个适合，其他不适合。评PARTIALLY（因为部分适合）。
+              - listitem [ref=e204]:
+                - paragraph [ref=e205]: 老年痴呆：aducanumab（抗淀粉样蛋白抗体，用于阿尔茨海默病，适合？但有争议，但属于疾病修饰治疗）、Lorazepam（苯二氮卓，用于焦虑失眠，不治疗痴呆核心症状，但可用于行为症状？不直接治疗老年痴呆）、vitamin E（用于认知功能？有一些证据但非标准治疗）、vitamin e(oral)同、Vitamin E Capsules同。所以主要药物中，aducanumab是治疗，但其他不是。Lorazepam不适合作为治疗。维生素E也不推荐。所以PARTIALLY？但严格说，只有aducanumab适合，其他不适合，所以部分适合。评PARTIALLY。
+              - listitem [ref=e206]:
+                - paragraph [ref=e207]: 肌肉酸痛：Aspirin（NSAID，适合）、Tapentadol（阿片，可用于中度至重度疼痛，但不首选）、Diclofenac（NSAID，适合）、Baclofen（肌松剂，可用于肌肉痉挛引起的酸痛）、Carisoprodol（肌松剂，适合）。总体这些药物可用于肌肉酸痛，但阿片类可能过度。但部分适合？所有都是止痛或肌松，所以可能APPROPRIATE？注意肌肉酸痛通常推荐NSAIDs或对乙酰氨基酚，阿片不常规，但Tapentadol仍然可用于疼痛。我认为APPROPRIATE？但需谨慎：肌肉酸痛一般不推荐阿片类，但药物本身有适应症。综合考虑，评分：APPROPRIATE。
+              - listitem [ref=e208]:
+                - paragraph [ref=e209]: 肝炎：Tenofovir（抗乙肝病毒，适合病毒性肝炎）、Cimetidine（H2拮抗剂，用于胃酸，不治疗肝炎，不适合）、Lamivudine（抗乙肝，适合）、Sofosbuvir（抗丙肝，适合）、Telbivudine（抗乙肝，适合）。所以部分适合（Cimetidine不适合）。评PARTIALLY。
+              - listitem [ref=e210]:
+                - paragraph [ref=e211]: 肝硬化：torsemide（利尿剂，用于腹水，适合）、Cimetidine（用于胃酸，肝硬化患者可能有溃疡，但非直接治疗肝硬化）、hydrochlorothiazide（噻嗪类利尿剂，可用于水肿？但肝硬化腹水常用螺内酯和呋塞米，HCTZ较少用，但可能适合）、chlorothiazide（类似）、HCTZ+spironolactone（复方，适合）。注意Cimetidine不适合治疗肝硬化本身，但可能处理并发症？评分标准：治疗疾病，主要针对肝硬化及其并发症。所以列出药物多数是利尿剂控制腹水，但Cimetidine不合理。所以PARTIALLY。
+              - listitem [ref=e212]:
+                - paragraph [ref=e213]: 肠易激综合征：Rifaximin（用于腹泻型IBS，适合）、Ciprofloxacin（抗生素，不常规
+      - generic [ref=e143]:
+        - generic [ref=e146]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e148]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e149]:
+            - button "深度思考" [pressed] [ref=e150] [cursor=pointer]:
+              - img [ref=e152]
+              - generic [ref=e155]: 深度思考
+            - button "智能搜索" [pressed] [ref=e156] [cursor=pointer]:
+              - img [ref=e158]
+              - generic [ref=e160]: 智能搜索
+            - generic [ref=e161]:
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e165]
+              - button [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+        - generic [ref=e173]: 内容由 AI 生成，请仔细甄别

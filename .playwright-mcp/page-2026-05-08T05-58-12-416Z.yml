@@ -1,0 +1,87 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - img [ref=e5] [cursor=pointer]
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+    - text: Ctrl + J
+  - generic [ref=e27]:
+    - generic [ref=e84]:
+      - generic [ref=e86]:
+        - generic [ref=e87] [cursor=pointer]: 新对话
+        - generic [ref=e88]:
+          - img [ref=e90]
+          - generic [ref=e92]: 快速模式
+      - button [ref=e93] [cursor=pointer]:
+        - img [ref=e96]
+    - generic [ref=e99]:
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e104]: "请评估以下用药推荐是否适当。对每种疾病，判断推荐的前5个药物是否适合治疗该疾病。 评分标准: - APPROPRIATE: 推荐药物完全适合治疗该疾病 - PARTIALLY: 部分推荐适合，部分不适合 - INAPPROPRIATE: 推荐药物完全不适合 疾病: 肺结核 | Amikacin; Levofloxacin; Moxifloxacin; Streptomycin; Rifapentine 疾病: 肾结石 | Chlorthalidone; Allopurinol; Hydrochlorothiazide; Colchicine; Diclofenac 疾病: 胀气 | Calcium Carbonate; Aluminum+Magnesium+Simethicone; Cimetidine; Dexlansoprazole; Esomeprazole 疾病: 胃出血 | Cimetidine; Dexlansoprazole; Esomeprazole; Erythromycin; Famotidine 疾病: 胃溃疡 | Cimetidine; Dexlansoprazole; aluminum hydroxide; calcium carbonate+famotidine+magnesium; Aluminum+Magnesium+Simethicone Suspension 疾病: 胃炎 | Cimetidine; Dexlansoprazole; Erythromycin; Esomeprazole; Famotidine 疾病: 胃酸反流 | Calcium Carbonate; Cimetidine; Dexlansoprazole; Esomeprazole; Famotidine 疾病: 胃食管反流 | Calcium Carbonate; Cimetidine; Dexlansoprazole; Esomeprazole; Famotidine 疾病: 胆囊炎 | Probenecid; Allopurinol; Colchicine; Diclofenac; Etodolac 疾病: 胆固醇高 | Amlodipine; Colesevelam; Ezetimibe; Fenofibrate; Fluvastatin 疾病: 胆结石 | Probenecid; Allopurinol; Colchicine; Diclofenac; Etodolac 疾病: 胰腺炎 | Calcium Carbonate; Cimetidine; Dexlansoprazole; Esomeprazole; Famotidine 疾病: 胰腺癌 | Paclitaxel; Cimetidine; Fluorouracil; Gemcitabine; Doxorubicin 疾病: 脂肪肝 | vitamin E; Calcium Carbonate; vitamin e(oral); Vitamin E Capsules; Cimetidine 疾病: 脑出血 | Amlodipine; Amlodipine-Benazepril; Amlodipine-Valsartan; Aspirin; Benazepril 疾病: 脑卒中 | Aspirin; Amlodipine; Ticagrelor; Clopidogrel; Ticlopidine 疾病: 脑梗 | Amlodipine; Amlodipine-Benazepril; Amlodipine-Valsartan; Aspirin; Benazepril 疾病: 脑梗死 | Amlodipine; Amlodipine-Benazepril; Amlodipine-Valsartan; Aspirin; Benazepril 疾病: 脑溢血 | Amlodipine; Amlodipine-Benazepril; Amlodipine-Valsartan; Aspirin; Benazepril 疾病: 脱发 | Minoxidil; Folic Acid; baricitinib; Clobetasol; Fluocinolone 疾病: 腮腺炎 | Ibuprofen; Indomethacin; Naproxen; acetaminophen; Aspirin 疾病: 腰背痛 | Aspirin; Baclofen; Carisoprodol; Cyclobenzaprine; Metaxalone 疾病: 腹泻 | Ciprofloxacin; Metronidazole; Rifaximin; Diphenoxylate-Atropine; Loperamide 疾病: 腺癌 | Paclitaxel; Fluorouracil; Gemcitabine; Docetaxel; Mitomycin 疾病: 艾滋病 | Delavirdine; Tenofovir; Nevirapine; Maraviroc; Raltegravir 疾病: 荨麻疹 | Cetirizine; Mometasone; Diphenhydramine; Cyproheptadine; diphenhydramine HCl 疾病: 蛔虫 | Mebendazole; Albendazole; Amoxicillin-Clavulanate; Cefotaxime; Cefoxitin 疾病: 贫血 | Folic Acid; Ferrous Sulfate; Epoetin Alfa; Irbesartan; Captopril 疾病: 躁郁症 | Lamotrigine; Lithium; Oxcarbazepine; Zonisamide; Topiramate 疾病: 过敏 | Cetirizine; Betamethasone; Clobetasol; Cimetidine; Desloratadine 请对每种疾病给出评分(APPROPRIATE/PARTIALLY/INAPPROPRIATE)和简要理由。用表格格式输出。"
+          - generic [ref=e107]:
+            - button [ref=e108] [cursor=pointer]:
+              - img [ref=e111]
+            - button [ref=e113] [cursor=pointer]:
+              - img [ref=e116]
+        - generic [ref=e120]:
+          - generic [ref=e122] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]:
+              - text: 正在思考
+              - generic:
+                - generic: 正在思考
+            - img [ref=e129]
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: 我们需评估每个疾病的前5个药物是否适合治疗该疾病。根据医学知识判断。注意每个列表中的药物可能有些是治疗该疾病的常用药，有些不是。评分标准：全部适合为APPROPRIATE；部分适合部分不适合为PARTIALLY；全部不适合为INAPPROPRIATE。
+            - paragraph [ref=e137]: 逐项分析：
+            - list [ref=e138]:
+              - listitem [ref=e139]:
+                - paragraph [ref=e140]: 肺结核：推荐Amikacin, Levofloxacin, Moxifloxacin, Streptomycin, Rifapentine。肺结核标准治疗通常包括异烟肼、利福平、吡嗪酰胺、乙胺丁醇等。Rifapentine是利福霉素类，用于结核；Amikacin是氨基糖苷类，用于耐多药结核；Levofloxacin和Moxifloxacin是氟喹诺酮类，用于耐药结核；Streptomycin是链霉素，老药用于结核。这些药物确实可用于治疗肺结核，尤其是耐药结核。但注意：初治结核不常用这些，但都属于抗结核药物。所以全部适合？严格说，它们都是抗结核药物，但可能不是一线首选。然而问题问“是否适合治疗该疾病”，适合。故APPROPRIATE。
+              - listitem [ref=e141]:
+                - paragraph [ref=e142]: 肾结石：Chlorthalidone, Allopurinol, Hydrochlorothiazide, Colchicine, Diclofenac。肾结石治疗：噻嗪类利尿剂（氯噻酮、氢氯噻嗪）可用于高钙尿症预防结石；别嘌醇用于尿酸结石；秋水仙碱用于痛风，但肾结石？不直接治疗结石，可能用于痛风相关结石但非主要；双氯芬酸用于疼痛。但秋水仙碱不是治疗肾结石的标准药物，它主要用于痛风急性发作。所以部分适合（秋水仙碱不合适）。评分PARTIALLY。
+              - listitem [ref=e175]:
+                - paragraph [ref=e176]: 胀气：Calcium Carbonate, Aluminum+Magnesium+Simethicone, Cimetidine, Dexlansoprazole, Esomeprazole。胀气常用药：西甲硅油（Simethicone）是抗胀气药。含铝镁+西甲硅油组合适合。钙碳酸盐是抗酸药，可缓解胃部不适但不直接消胀气；西咪替丁、右兰索拉唑、埃索美拉唑是抑酸药，用于胃酸相关疾病，不直接治疗胀气。所以只有第二个药物部分适合（含西甲硅油），其他不适合。但注意：胀气可能由消化不良引起，抗酸药可能有效？通常不认为钙碳酸盐是胀气首选。总体大部分不适合。评为INAPPROPRIATE？或PARTIALLY？因为有一个适合。但标准：部分推荐适合，部分不适合。这里5个中只有1个明确适合，其他4个不适合。但严格说，西咪替丁等抑酸药对胀气没有指征。所以评为PARTIALLY可能更合理？因为有一个药物适合。但注意：第二个药物是复合制剂，含西甲硅油，确实适合。所以不是完全不适合。故PARTIALLY。
+              - listitem [ref=e177]:
+                - paragraph [ref=e178]: 胃出血：Cimetidine, Dexlansoprazole, Esomeprazole, Erythromycin, Famotidine。胃出血治疗：抑酸药（PPI如埃索美拉唑、右兰索拉唑，H2拮抗剂如西咪替丁、法莫替丁）可减少胃酸，促进止血；红霉素作为促动力药？红霉素可用于胃轻瘫，但对胃出血没有直接治疗作用，甚至可能增加出血风险？不适用。所以红霉素不适合。其他四个适合。因此PARTIALLY。
+              - listitem [ref=e179]:
+                - paragraph [ref=e180]: 胃溃疡：Cimetidine, Dexlansoprazole, aluminum hydroxide, calcium carbonate+famotidine+magnesium, Aluminum+Magnesium+Simethicone Suspension。胃溃疡治疗：抑酸药（西咪替丁、右兰索拉唑）、抗酸药（氢氧化铝、碳酸钙+法莫替丁+镁组合，含法莫替丁抑酸）、铝镁西甲硅油悬液（抗酸+消胀气）。这些都可以用于胃溃疡的辅助治疗或抑酸治疗。注意：铝镁西甲硅油主要缓解症状，不是治愈溃疡的首选，但可以用于症状管理。总体所有药物都可用于胃溃疡？但标准治疗PPI和H2拮抗剂，抗酸剂也可用。所以全部适合？注意西甲硅油对溃疡无直接作用，但组合中有抗酸剂。可能有些争议，但通常认为合理。我认为APPROPRIATE。
+              - listitem [ref=e181]:
+                - paragraph [ref=e182]: 胃炎：Cimetidine, Dexlansoprazole, Erythromycin, Esomeprazole, Famotidine。胃炎治疗：抑酸药（西咪替丁、右兰索拉唑、埃索美拉唑、法莫替丁）适合。红霉素？红霉素作为抗生素，幽门螺杆菌感染治疗中可能用到，但不是单独用于胃炎；红霉素主要作为促动力药或抗生素，对非感染性胃炎不合适。所以红霉素不适合。其他四个适合。PARTIALLY。
+              - listitem [ref=e183]:
+                - paragraph [ref=e184]: 胃酸反流：Calcium Carbonate, Cimetidine, Dexlansoprazole, Esomeprazole, Famotidine。胃酸反流治疗：抗酸剂（碳酸钙）、H2拮抗剂（西咪替丁、法莫替丁）、PPI（右兰索拉唑、埃索美拉唑）。全部适合。APPROPRIATE。
+              - listitem [ref=e185]:
+                - paragraph [ref=e186]: 胃食管反流：同上，药物相同。全部适合。APPROPRIATE。
+              - listitem [ref=e187]:
+                - paragraph [ref=e188]: 胆囊炎：Probenecid, Allopurinol, Colchicine, Diclofenac, Etodolac。胆囊炎治疗：通常使用抗生素、解痉药、止痛药。丙磺舒（促尿酸排泄）、别嘌醇（降尿酸）、秋水仙碱（抗痛风）不用于胆囊炎。双氯芬酸和依托度酸是NSAIDs，可用于止痛抗炎。但前三个完全不适合。所以大部分不适合。评为INAPPROPRIATE？注意有两个NSAIDs适合止痛，但胆囊炎的根本治疗需抗生素或手术，止痛是辅助。问题问“治疗该疾病”，通常包括对症治疗。但前三个药物完全无关，所以整体部分适合？因为有两个适合（双氯芬酸、依托度酸），三个不适合。所以PARTIALLY。但严格说，胆囊炎治疗中NSAIDs可缓解疼痛，但不算病因治疗。然而评分标准中推荐药物是否适合，它们可以用于疼痛管理。我认为PARTIALLY。
+              - listitem [ref=e189]:
+                - paragraph [ref=e190]: 胆固醇高：Amlodipine, Colesevelam, Ezetimibe, Fenofibrate, Fluvastatin。胆固醇高治疗：氨氯地平是降压药，不降胆固醇。考来维仑是胆汁酸螯合剂，降胆固醇；依折麦布降胆固醇；非诺贝特降甘油三酯和胆固醇，主要降TG；氟伐他汀是他汀类降胆固醇。所以氨氯地平不适合，其他四个适合。PARTIALLY。
+              - listitem [ref=e191]:
+                - paragraph [ref=e192]: 胆结石：Probenecid, Allopurinol, Colchicine, Diclofenac, Etodolac。胆结石治疗：丙磺舒、别嘌醇、秋水仙碱不用于胆结石。双氯芬酸和依托度酸用于止痛，但不能溶解或排出结石。所以只有止痛作用，但非特异性。整体大部分不适合。与胆囊炎类似。评为PARTIALLY？因为止痛药可用于胆绞痛。但前三个完全不相关。所以PARTIALLY。
+              - listitem [ref=e193]:
+                - paragraph [ref=e194]: 胰腺炎：Calcium Carbonate, Cimetidine, Dexlansoprazole, Esomeprazole, Famotidine。胰腺炎治疗：通常为支持治疗、禁食、补液、止痛。抑酸药（H2拮抗剂、PPI）可预防应激性溃疡，但并非直接治疗胰腺炎。碳酸钙是抗酸剂，不常用。这些药物在急性胰腺炎中可能用于减少胃酸分泌，但并非标准治疗。实际上，胰腺炎治疗不常规使用PPI或H2拮抗剂，但有研究显示可能有益。然而，通常认为这些药物不是治疗胰腺炎的核心药物。但问题问是否适合？可能部分适合？注意：胰腺炎时使用抑酸药有一定合理性，但碳酸钙可能不适合。总体，多数指南不强制使用。我认为评为PARTIALLY，因为有一定关联但并非主要治疗。更严格说，可能INAPPROPRIATE？但临床实践中常用PPI预防应激性溃疡，所以可以认为适合。然而碳酸钙抗酸剂不常用于胰腺炎。所以部分适合。
+              - listitem [ref=e195]:
+                - paragraph [ref=e196]: 胰腺癌：Paclitaxel, Cimetidine, Fluorouracil, Gemcitabine, Doxorubicin。胰腺癌化疗：紫杉醇、氟尿嘧啶、吉西他滨、多柔比星是抗肿瘤药物。西咪替丁是H2拮抗剂，不用于治疗胰腺癌。所以西咪替丁不适合。其他四种适合化疗。但注意：多柔比星在胰腺癌中不常用，但有时用于联合化疗。总体上，这些药中除了西咪替丁都是化疗药。所以PARTIALLY。
+              - listitem [ref=e197]:
+                - paragraph [ref=e198]: 脂肪肝：vitamin E; Calcium Carbonate; vitamin e(oral); Vitamin E Capsules; Cimetidine。脂肪肝治疗：维生素E可用于非酒精性脂肪肝，碳酸钙不相关，西咪替丁不相关。注意：列表中重复维生素E（vitamin E
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - textbox "给 DeepSeek 发送消息" [active] [ref=e149]:
+            - /placeholder: "给 DeepSeek 发送消息 "
+          - generic [ref=e150]:
+            - button "深度思考" [pressed] [ref=e151] [cursor=pointer]:
+              - img [ref=e153]
+              - generic [ref=e156]: 深度思考
+            - button "智能搜索" [pressed] [ref=e157] [cursor=pointer]:
+              - img [ref=e159]
+              - generic [ref=e161]: 智能搜索
+            - generic [ref=e162]:
+              - button [ref=e163] [cursor=pointer]:
+                - img [ref=e166]
+              - button [ref=e169] [cursor=pointer]:
+                - img [ref=e172]
+        - generic [ref=e174]: 内容由 AI 生成，请仔细甄别

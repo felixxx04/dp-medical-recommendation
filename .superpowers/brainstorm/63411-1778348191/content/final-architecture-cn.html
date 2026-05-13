@@ -1,0 +1,198 @@
+<h2>医疗推荐系统改进架构 — 含实际数据</h2>
+<p class="subtitle">核心组件：临床知识路由层 + 患者口语增强 + 安全策略调整 + 审核闭环</p>
+
+<div class="section">
+  <div style="background:#1a1a2e; border-radius:12px; padding:20px; margin:12px 0; border:1px solid #00d4aa;">
+    <h3 style="color:#00d4aa; margin-top:0;">系统全景数据</h3>
+    <div style="display:flex; gap:12px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:120px; background:#0d3b2e; border-radius:8px; padding:14px; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#00d4aa;">71</div>
+        <div style="color:#888; font-size:11px;">L1 口语词条</div>
+      </div>
+      <div style="flex:1; min-width:120px; background:#16213e; border-radius:8px; padding:14px; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#6c5ce7;">83</div>
+        <div style="color:#888; font-size:11px;">L2 疾病分类</div>
+      </div>
+      <div style="flex:1; min-width:120px; background:#16213e; border-radius:8px; padding:14px; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#ffd93d;">55</div>
+        <div style="color:#888; font-size:11px;">L3 路由规则</div>
+      </div>
+      <div style="flex:1; min-width:120px; background:#1f2d1f; border-radius:8px; padding:14px; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#4caf50;">12条</div>
+        <div style="color:#888; font-size:11px;">SafetyFilter硬排除</div>
+      </div>
+      <div style="flex:1; min-width:120px; background:#2d4a2d; border-radius:8px; padding:14px; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#22c55e;">186/186</div>
+        <div style="color:#888; font-size:11px;">回归测试通过</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>请求流程（含真实数据示例）</h3>
+  <div style="background:#1a1a2e; border-radius:12px; padding:20px; margin:12px 0;">
+
+    <div style="margin-bottom:16px; padding:8px 12px; background:#000; border-radius:6px; font-size:12px; color:#ff9800; font-family:monospace;">
+      患者输入: "拉肚子"
+    </div>
+
+    <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
+      <div style="flex:1; background:#0d3b2e; border-radius:8px; padding:12px; border-left:3px solid #00d4aa;">
+        <div style="font-size:11px; color:#00d4aa; font-weight:bold;">步骤1: 患者口语增强</div>
+        <div style="font-size:12px; color:#ccc; margin-top:4px;">输入: "拉肚子"</div>
+        <div style="font-size:12px; color:#00d4aa;">→ L1精确匹配: diarrhea (信心: high)</div>
+        <div style="font-size:10px; color:#666; margin-top:2px;">PatientInputEnhancer.enhance()</div>
+      </div>
+      <div style="color:#666; font-size:18px;">→</div>
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:12px; border-left:3px solid #6c5ce7;">
+        <div style="font-size:11px; color:#6c5ce7; font-weight:bold;">步骤2: 知识路由</div>
+        <div style="font-size:12px; color:#ccc; margin-top:4px;">L1: diarrhea</div>
+        <div style="font-size:12px; color:#6c5ce7;">→ L2: 消化系统 + 感染性</div>
+        <div style="font-size:12px; color:#ffd93d;">→ L3: 肠道抗感染药, 抗生素</div>
+        <div style="font-size:10px; color:#666; margin-top:2px;">KnowledgeRouter.route()</div>
+      </div>
+    </div>
+
+    <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
+      <div style="flex:1; background:#3d1f1f; border-radius:8px; padding:12px; border-left:3px solid #ef4444;">
+        <div style="font-size:11px; color:#ef4444; font-weight:bold;">步骤3: 安全过滤（调整后）</div>
+        <div style="font-size:11px; color:#888; margin-top:4px;">绝对禁忌/过敏 → <span style="color:#ef4444;">硬排除</span></div>
+        <div style="font-size:11px; color:#888;">无适应症/off-label → <span style="color:#f59e0b;">标记待审核</span></div>
+        <div style="font-size:10px; color:#666; margin-top:2px;">SafetyFilter.filter() · 12条硬排除 + 9条软标记</div>
+      </div>
+      <div style="color:#666; font-size:18px;">→</div>
+      <div style="flex:1; background:#16213e; border-radius:8px; padding:12px; border-left:3px solid #8b5cf6;">
+        <div style="font-size:11px; color:#8b5cf6; font-weight:bold;">步骤4: DeepFM排序</div>
+        <div style="font-size:11px; color:#888; margin-top:4px;">药类匹配加分: +0.25</div>
+        <div style="font-size:11px; color:#888;">安全级别排序: safe > warning > off_label</div>
+        <div style="font-size:10px; color:#666; margin-top:2px;">predictor._model_rank()</div>
+      </div>
+    </div>
+
+    <div style="padding:10px 14px; background:#2d1f1f; border-radius:8px; border:1px solid #ff9800;">
+      <div style="font-size:11px; color:#ff9800; font-weight:bold;">步骤5: 医生审核</div>
+      <div style="font-size:12px; color:#ccc; margin-top:4px;">推荐: Rifaximin (肠道抗感染药) — safetyType: safe</div>
+      <div style="display:flex; gap:8px; margin-top:6px;">
+        <span style="background:#166534; color:#4ade80; padding:2px 10px; border-radius:4px; font-size:11px;">✅ 确认</span>
+        <span style="background:#78350f; color:#fbbf24; padding:2px 10px; border-radius:4px; font-size:11px;">✏️ 修改</span>
+        <span style="background:#7f1d1d; color:#f87171; padding:2px 10px; border-radius:4px; font-size:11px;">❌ 拒绝</span>
+      </div>
+      <div style="font-size:10px; color:#666; margin-top:4px;">反馈 → review_log 表 → 月度分析报告</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>关键路由实例（4条真实路径）</h3>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:16px 0;">
+    <div style="background:#0d3b2e; border-radius:8px; padding:14px; border-left:3px solid #4caf50;">
+      <div style="font-size:12px; font-weight:bold; color:#4caf50;">✅ 拉肚子 → 肠道抗感染药</div>
+      <div style="font-size:11px; color:#888; margin-top:4px; font-family:monospace;">
+        L1: "拉肚子" → diarrhea<br>
+        L2: diarrhea → GI·感染性<br>
+        L3: → 肠道抗感染药, 抗生素<br>
+        <span style="color:#4caf50;">✓ 无J01系统性抗生素</span>
+      </div>
+    </div>
+
+    <div style="background:#0d3b2e; border-radius:8px; padding:14px; border-left:3px solid #4caf50;">
+      <div style="font-size:12px; font-weight:bold; color:#4caf50;">✅ 感冒 → 对症治疗（无抗生素）</div>
+      <div style="font-size:11px; color:#888; margin-top:4px; font-family:monospace;">
+        L1: "感冒" → common cold<br>
+        L2: common cold → 呼吸·病毒性<br>
+        L3: → 镇咳药, 祛痰药, 解热镇痛药<br>
+        <span style="color:#4caf50;">✓ 无J01系统性抗生素路由</span>
+      </div>
+    </div>
+
+    <div style="background:#0d3b2e; border-radius:8px; padding:14px; border-left:3px solid #4caf50;">
+      <div style="font-size:12px; font-weight:bold; color:#4caf50;">✅ 反酸烧心 → PPI/H2RA</div>
+      <div style="font-size:11px; color:#888; margin-top:4px; font-family:monospace;">
+        L1: "烧心反酸" → GERD<br>
+        L2: GERD → GI·反流性<br>
+        L3: → PPI, H2RA, 促动力药<br>
+        <span style="color:#4caf50;">✓ 正确路由到抑酸药类</span>
+      </div>
+    </div>
+
+    <div style="background:#2d2d1f; border-radius:8px; padding:14px; border-left:3px solid #ffd93d;">
+      <div style="font-size:12px; font-weight:bold; color:#ffd93d;">⚠ 头痛发烧肌肉酸痛 → 解热镇痛（症状级）</div>
+      <div style="font-size:11px; color:#888; margin-top:4px; font-family:monospace;">
+        L1: 无精确匹配 → L2关键词"头痛"<br>
+        L2: headache → 神经·症状性<br>
+        L3: → 镇痛药, NSAIDs<br>
+        <span style="color:#ffd93d;">⚠ 信心: low → 强制医生审核</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>安全策略：硬排除 vs 软标记（实际分类）</h3>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:16px 0;">
+    <div style="background:#3d1f1f; border-radius:8px; padding:14px;">
+      <div style="font-size:12px; font-weight:bold; color:#ef4444; margin-bottom:8px;">🔴 硬排除 (12条，不变)</div>
+      <div style="font-size:11px; color:#fca5a5; line-height:1.8;">
+        1. 过敏冲突<br>
+        2. 妊娠X级<br>
+        3. 致命交互 (MAOI+SSRI等)<br>
+        4. 绝对禁忌症<br>
+        5. 儿科禁忌<br>
+        6. 哺乳期L5级<br>
+        7. 草药补充剂治感染<br>
+        8. 激素加重真菌感染<br>
+        9. 免疫抑制剂加重感染<br>
+        10. IBD药物用于感染性肠炎<br>
+        11. 抗生素治病毒（安全考虑）<br>
+        12. PAH专用药误用
+      </div>
+    </div>
+    <div style="background:#2d2d1f; border-radius:8px; padding:14px;">
+      <div style="font-size:12px; font-weight:bold; color:#f59e0b; margin-bottom:8px;">🟡 软标记（9条，医生审核）</div>
+      <div style="font-size:11px; color:#fde68a; line-height:1.8;">
+        1. PPI用于胆囊病 → off_label<br>
+        2. 抗生素用于尿路结石 → off_label<br>
+        3. 降糖药用于结石 → off_label<br>
+        4. 苯二氮卓用于胆囊病 → off_label<br>
+        5. 青光眼药用于白内障 → off_label<br>
+        6. 苯二氮卓用于OCD → off_label<br>
+        7. 促尿酸排泄药用于肠炎 → off_label<br>
+        8. 抗生素用于真菌感染 → off_label<br>
+        9. 相对禁忌 → 降排序分
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>完整文件清单 (25个文件)</h3>
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:6px; margin:12px 0; font-size:11px; color:#888;">
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📄 routing_tables.json (71+83+55条)</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📄 knowledge_router.py</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📄 patient_input_enhancer.py</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📄 symptom_combos.json (8条规则)</div>
+    <div style="padding:6px 10px; background:#2d2d1f; border-radius:4px;">🔧 disease_mapper.py (新增2函数)</div>
+    <div style="padding:6px 10px; background:#2d2d1f; border-radius:4px;">🔧 safety_filter.py (+SafetyLevel枚举)</div>
+    <div style="padding:6px 10px; background:#2d2d1f; border-radius:4px;">🔧 predictor.py (药类评分+排序)</div>
+    <div style="padding:6px 10px; background:#2d2d1f; border-radius:4px;">🔧 main.py (接入增强器)</div>
+    <div style="padding:6px 10px; background:#3d1f2d; border-radius:4px;">🎨 DrugRecommendation.tsx</div>
+    <div style="padding:6px 10px; background:#3d1f2d; border-radius:4px;">🎨 ReviewPanel.tsx</div>
+    <div style="padding:6px 10px; background:#1f2d3d; border-radius:4px;">☕ ReviewController.java</div>
+    <div style="padding:6px 10px; background:#1f2d3d; border-radius:4px;">☕ ReviewLog.java</div>
+    <div style="padding:6px 10px; background:#1f2d3d; border-radius:4px;">☕ ReviewLogMapper.java</div>
+    <div style="padding:6px 10px; background:#1f2d3d; border-radius:4px;">☕ ReviewLogMapper.xml</div>
+    <div style="padding:6px 10px; background:#1f2d3d; border-radius:4px;">☕ review_log.sql</div>
+    <div style="padding:6px 10px; background:#0d3b2e; border-radius:4px;">🧪 test_knowledge_router.py (10个测试)</div>
+    <div style="padding:6px 10px; background:#0d3b2e; border-radius:4px;">🧪 test_patient_input_enhancer.py (36个测试)</div>
+    <div style="padding:6px 10px; background:#0d3b2e; border-radius:4px;">🧪 test_regression_204_diseases.py (186个测试)</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📜 generate_review_report.py</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📜 retest_204_v3.py</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📜 retest_204_diseases.py</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📜 api_deepseek_verify_v2.py</div>
+    <div style="padding:6px 10px; background:#16213e; border-radius:4px;">📜 generate_final_report.py</div>
+    <div style="padding:6px 10px; background:#0d2d2d; border-radius:4px;">📋 2026-05-09-*-design.md (设计文档)</div>
+    <div style="padding:6px 10px; background:#0d2d2d; border-radius:4px;">📋 2026-05-09-*-plan.md (实施计划)</div>
+  </div>
+</div>

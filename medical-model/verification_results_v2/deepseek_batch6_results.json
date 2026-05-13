@@ -1,0 +1,41 @@
+{
+  "batch": 6,
+  "diseases": 30,
+  "results": [
+    {"disease":"肺结核","rating":"APPROPRIATE","reason":"均为抗结核药物"},
+    {"disease":"肾结石","rating":"PARTIALLY","reason":"利尿剂和别嘌醇适合，双氯芬酸止痛适合；秋水仙碱不用于肾结石"},
+    {"disease":"胀气","rating":"PARTIALLY","reason":"铝镁西甲硅油可缓解胀气；抑酸药不直接治疗胀气"},
+    {"disease":"胃出血","rating":"PARTIALLY","reason":"抑酸剂适合；红霉素不用于胃出血"},
+    {"disease":"胃溃疡","rating":"APPROPRIATE","reason":"抑酸剂、抗酸剂均可用于胃溃疡"},
+    {"disease":"胃炎","rating":"PARTIALLY","reason":"抑酸药适合；红霉素不用于常规胃炎"},
+    {"disease":"胃酸反流","rating":"APPROPRIATE","reason":"均为标准治疗药物"},
+    {"disease":"胃食管反流","rating":"APPROPRIATE","reason":"同胃酸反流"},
+    {"disease":"胆囊炎","rating":"PARTIALLY","reason":"止痛适合；丙磺舒、别嘌醇、秋水仙碱不用于胆囊炎"},
+    {"disease":"胆固醇高","rating":"PARTIALLY","reason":"降脂药适合；氨氯地平为降压药不降胆固醇"},
+    {"disease":"胆结石","rating":"PARTIALLY","reason":"止痛适合；丙磺舒、别嘌醇、秋水仙碱不用于胆结石"},
+    {"disease":"胰腺炎","rating":"PARTIALLY","reason":"抑酸剂可预防应激性溃疡；碳酸钙不常用"},
+    {"disease":"胰腺癌","rating":"PARTIALLY","reason":"化疗适合；西咪替丁不用于胰腺癌"},
+    {"disease":"脂肪肝","rating":"PARTIALLY","reason":"维生素E可用于非酒精性脂肪肝；碳酸钙、西咪替丁不适用"},
+    {"disease":"脑出血","rating":"PARTIALLY","reason":"降压适合；阿司匹林增加出血风险禁忌"},
+    {"disease":"脑卒中","rating":"APPROPRIATE","reason":"抗血小板及降压均用于缺血性卒中"},
+    {"disease":"脑梗","rating":"APPROPRIATE","reason":"抗血小板及降压均适用于脑梗死"},
+    {"disease":"脑梗死","rating":"APPROPRIATE","reason":"同上"},
+    {"disease":"脑溢血","rating":"PARTIALLY","reason":"降压适合；阿司匹林禁忌"},
+    {"disease":"脱发","rating":"PARTIALLY","reason":"米诺地尔等适合；叶酸不用于脱发"},
+    {"disease":"腮腺炎","rating":"APPROPRIATE","reason":"均为解热镇痛药"},
+    {"disease":"腰背痛","rating":"APPROPRIATE","reason":"止痛和肌松药均适用"},
+    {"disease":"腹泻","rating":"APPROPRIATE","reason":"抗菌止泻和对症止泻均为常用治疗"},
+    {"disease":"腺癌","rating":"APPROPRIATE","reason":"均为化疗药物"},
+    {"disease":"艾滋病","rating":"APPROPRIATE","reason":"均为抗逆转录病毒药物"},
+    {"disease":"荨麻疹","rating":"APPROPRIATE","reason":"抗组胺和糖皮质激素均适用"},
+    {"disease":"蛔虫","rating":"PARTIALLY","reason":"驱虫药适合；抗生素对蛔虫无效"},
+    {"disease":"贫血","rating":"PARTIALLY","reason":"叶酸/铁/促红素适合；降压药不治疗贫血"},
+    {"disease":"躁郁症","rating":"APPROPRIATE","reason":"均为心境稳定剂或辅助用药"},
+    {"disease":"过敏","rating":"APPROPRIATE","reason":"抗组胺和糖皮质激素均用于过敏性疾病"}
+  ],
+  "summary": {
+    "APPROPRIATE": 12,
+    "PARTIALLY": 18,
+    "INAPPROPRIATE": 0
+  }
+}
