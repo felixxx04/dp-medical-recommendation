@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface DrugOption {
   drugName: string;
@@ -15,7 +15,7 @@ interface ReviewPanelProps {
   onSubmitReview: (decision: 'confirm' | 'modify' | 'reject', selectedDrug?: string, reason?: string, template?: string, advice?: string) => void;
 }
 
-export default function ReviewPanel({ recommendationId: _recommendationId, diseaseCn, drugs, onSubmitReview }: ReviewPanelProps) {
+export default function ReviewPanel({ recommendationId, diseaseCn, drugs, onSubmitReview }: ReviewPanelProps) {
   const [decision, setDecision] = useState<'confirm' | 'modify' | 'reject' | null>(null);
   const [selectedDrug, setSelectedDrug] = useState('');
   const [reason, setReason] = useState('');
@@ -31,6 +31,15 @@ export default function ReviewPanel({ recommendationId: _recommendationId, disea
 
   const [selectedTemplate, setSelectedTemplate] = useState('');
   const [treatmentAdvice, setTreatmentAdvice] = useState('');
+
+  useEffect(() => {
+    setSubmitted(false);
+    setDecision(null);
+    setSelectedDrug('');
+    setReason('');
+    setSelectedTemplate('');
+    setTreatmentAdvice('');
+  }, [recommendationId]);
 
   const handleSubmit = () => {
     if (!decision) return;
