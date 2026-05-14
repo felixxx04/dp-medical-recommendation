@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { api } from '@/lib/api'
 import ReviewPanel from '../components/ReviewPanel'
-import { Shield, Clock } from 'lucide-react'
+import { Shield } from 'lucide-react'
 
 interface PendingReview {
   recommendationId: number
@@ -49,6 +48,7 @@ export default function ReviewDashboard() {
   const [detailLoading, setDetailLoading] = useState(false)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [reviewedExpanded, setReviewedExpanded] = useState(false)
 
   const fetchPending = async () => {
     setLoading(true)
@@ -113,8 +113,19 @@ export default function ReviewDashboard() {
         treatmentTemplate: template || null,
         treatmentAdvice: advice || null,
       })
-      setSelectedReview(null)
-      fetchPending()
+
+      // Refresh the list and auto-select next item
+      const updatedList = await api.get<PendingReview[]>('/api/review/pending')
+      setPendingReviews(updatedList)
+
+      // Auto-select next pending item
+      const pendingItems = updatedList.filter(r => r.reviewStatus === 'pending')
+      if (pendingItems.length > 0) {
+        const nextItem = pendingItems[0]
+        selectReview(nextItem)
+      } else {
+        setSelectedReview(null)
+      }
     } catch { setError('提交审核失败') }
   }
 
@@ -134,55 +145,117 @@ export default function ReviewDashboard() {
 
       {error && <div className="p-3 rounded-sm bg-destructive/6 border border-destructive/30 text-destructive text-sm">{error}</div>}
 
-      <div className="grid lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-1 space-y-2">
-          <h3 className="font-heading font-semibold text-sm text-muted-foreground mb-2">待审核 ({pendingReviews.length})</h3>
-          {pendingReviews.length === 0 && <p className="text-sm text-muted-foreground">暂无待审核推荐</p>}
-          {pendingReviews.map(review => {
-            const disease = parseInputDisease(review.inputData)
-            return (
-              <div key={review.recommendationId} onClick={() => selectReview(review)}
-                className={`p-3 rounded-lg border cursor-pointer transition-colors ${
-                  selectedReview?.recommendationId === review.recommendationId ? 'border-brand-sky bg-brand-sky/5' : 'border-white/[0.06] bg-surface hover:bg-surface-elevated'
-                }`}>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <span className="font-heading font-semibold text-sm">{disease || '未知疾病'}</span>
-                  </div>
-                  <Clock className="h-4 w-4 text-muted-foreground" />
-                </div>
-                <div className="text-xs text-muted-foreground mt-1">{new Date(review.createdAt).toLocaleDateString('zh-CN')}</div>
-              </div>
-            )
-          })}
-        </div>
+      {/* Stats Bar */}
+      <div className="flex items-center gap-4 px-1 mb-4">
+        <span className="text-sm font-semibold text-foreground">推荐审核</span>
+        <span className="ia-badge ia-badge-warning">
+          <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+          待审核 {pendingReviews.filter(r => r.reviewStatus === 'pending').length}
+        </span>
+        <span className="ia-badge ia-badge-success">
+          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+          已审核 {pendingReviews.filter(r => r.reviewStatus !== 'pending').length}
+        </span>
+      </div>
 
-        <div className="lg:col-span-2">
-          {detailLoading ? (
-            <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-lg">
-              加载推荐详情...
+      {/* Main Content Grid */}
+      <div className="grid lg:grid-cols-[280px_1fr] gap-6" style={{ minHeight: 'calc(100vh - 280px)' }}>
+        {/* Left Column: Pending List */}
+        <div className="space-y-4">
+          {/* Pending Section */}
+          <div>
+            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3 px-1">
+              待审核
+            </h3>
+            <div className="space-y-1">
+              {pendingReviews.filter(r => r.reviewStatus === 'pending').length === 0 && (
+                <p className="text-sm text-muted-foreground text-center py-8">暂无待审核记录</p>
+              )}
+              {pendingReviews.filter(r => r.reviewStatus === 'pending').map(review => {
+                const disease = parseInputDisease(review.inputData)
+                const isSelected = selectedReview?.recommendationId === review.recommendationId
+                return (
+                  <div
+                    key={review.recommendationId}
+                    onClick={() => selectReview(review)}
+                    className={`group flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-all duration-150 ${
+                      isSelected
+                        ? 'bg-white/[0.04] border-l-[3px] border-l-orange-500'
+                        : 'border-l-[3px] border-l-transparent hover:bg-white/[0.02] hover:border-l-orange-500/50'
+                    }`}
+                  >
+                    <div className={`w-[3px] h-8 rounded-full flex-shrink-0 ${
+                      isSelected ? 'bg-orange-500' : 'bg-orange-500/60'
+                    }`}></div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-medium text-sm text-foreground truncate">{disease || '未知疾病'}</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">
+                        {new Date(review.createdAt).toLocaleDateString('zh-CN')}
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
-          ) : selectedReview ? (
-            <Card hover="none">
-              <CardHeader><CardTitle className="text-base">审核详情</CardTitle></CardHeader>
-              <CardContent className="space-y-4">
-                <div className="p-3 rounded-sm bg-surface border border-white/[0.06]">
-                  <div className="text-sm text-muted-foreground">患者症状</div>
-                  <div className="font-heading font-semibold mt-1">{diseaseCn || '未提供'}</div>
+          </div>
+
+          {/* Reviewed Section - Collapsible */}
+          {pendingReviews.filter(r => r.reviewStatus !== 'pending').length > 0 && (
+            <div className="border-t border-white/[0.06] pt-4">
+              <button
+                onClick={() => setReviewedExpanded(!reviewedExpanded)}
+                className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors w-full px-1"
+              >
+                <span className={`transition-transform duration-200 ${reviewedExpanded ? 'rotate-90' : ''}`}>
+                  ▶
+                </span>
+                已审核 ({pendingReviews.filter(r => r.reviewStatus !== 'pending').length})
+              </button>
+              {reviewedExpanded && (
+                <div className="mt-2 space-y-1">
+                  {pendingReviews.filter(r => r.reviewStatus !== 'pending').map(review => {
+                    const disease = parseInputDisease(review.inputData)
+                    return (
+                      <div
+                        key={review.recommendationId}
+                        className="flex items-center gap-3 p-2.5 rounded-lg text-muted-foreground hover:bg-white/[0.02] transition-colors cursor-pointer"
+                      >
+                        <div className="w-[3px] h-6 rounded-full bg-slate-600 flex-shrink-0"></div>
+                        <div className="flex-1 min-w-0">
+                          <div className="text-xs truncate">{disease || '未知疾病'}</div>
+                        </div>
+                        <div className="text-xs text-muted-foreground/60">
+                          {new Date(review.createdAt).toLocaleDateString('zh-CN')}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
-                <ReviewPanel
-                  recommendationId={selectedReview.recommendationId}
-                  diseaseCn={diseaseCn}
-                  drugs={drugs}
-                  onSubmitReview={handleSubmitReview}
-                />
-              </CardContent>
-            </Card>
-          ) : (
-            <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-lg">
-              选择左侧待审核记录查看详情
+              )}
             </div>
           )}
+        </div>
+
+        {/* Right Column: Sticky Detail Panel */}
+        <div className="lg:sticky lg:top-4 lg:self-start">
+          <div className="max-h-[calc(100vh-4rem)] overflow-y-auto">
+            {detailLoading ? (
+              <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-xl">
+                加载推荐详情...
+              </div>
+            ) : selectedReview ? (
+              <ReviewPanel
+                recommendationId={selectedReview.recommendationId}
+                diseaseCn={diseaseCn}
+                drugs={drugs}
+                onSubmitReview={handleSubmitReview}
+              />
+            ) : (
+              <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-xl">
+                选择左侧待审核记录查看详情
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
