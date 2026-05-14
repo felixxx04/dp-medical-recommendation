@@ -49,18 +49,23 @@ export default function ReviewDashboard() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [reviewedExpanded, setReviewedExpanded] = useState(false)
+  const [stats, setStats] = useState({ pending: 0, reviewed: 0 })
 
-  const fetchPending = async () => {
+  const fetchData = async () => {
     setLoading(true)
     try {
-      const data = await api.get<PendingReview[]>('/api/review/pending')
-      setPendingReviews(data)
+      const [pendingData, statsData] = await Promise.all([
+        api.get<PendingReview[]>('/api/review/pending'),
+        api.get<{ pending: number; reviewed: number }>('/api/review/stats')
+      ])
+      setPendingReviews(pendingData)
+      setStats(statsData)
       setError(null)
     } catch { setError('获取待审核列表失败') }
     finally { setLoading(false) }
   }
 
-  useEffect(() => { fetchPending() }, [])
+  useEffect(() => { fetchData() }, [])
 
   const selectReview = async (review: PendingReview) => {
     if (review.resultData) {
@@ -114,15 +119,17 @@ export default function ReviewDashboard() {
         treatmentAdvice: advice || null,
       })
 
-      // Refresh the list and auto-select next item
-      const updatedList = await api.get<PendingReview[]>('/api/review/pending')
+      // Refresh the list and stats
+      const [updatedList, newStats] = await Promise.all([
+        api.get<PendingReview[]>('/api/review/pending'),
+        api.get<{ pending: number; reviewed: number }>('/api/review/stats')
+      ])
       setPendingReviews(updatedList)
+      setStats(newStats)
 
       // Auto-select next pending item
-      const pendingItems = updatedList.filter(r => r.reviewStatus === 'pending')
-      if (pendingItems.length > 0) {
-        const nextItem = pendingItems[0]
-        selectReview(nextItem)
+      if (updatedList.length > 0) {
+        selectReview(updatedList[0])
       } else {
         setSelectedReview(null)
       }
@@ -150,11 +157,11 @@ export default function ReviewDashboard() {
         <span className="text-sm font-semibold text-foreground">推荐审核</span>
         <span className="ia-badge ia-badge-warning">
           <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-          待审核 {pendingReviews.filter(r => r.reviewStatus === 'pending').length}
+          待审核 {stats.pending}
         </span>
         <span className="ia-badge ia-badge-success">
           <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
-          已审核 {pendingReviews.filter(r => r.reviewStatus !== 'pending').length}
+          已审核 {stats.reviewed}
         </span>
       </div>
 
