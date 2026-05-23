@@ -185,15 +185,12 @@ export default function ReviewDashboard() {
                   <div
                     key={review.recommendationId}
                     onClick={() => selectReview(review)}
-                    className={`group flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-all duration-150 ${
+                    className={`group flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all duration-200 ${
                       isSelected
-                        ? 'bg-primary/8 border-l-[3px] border-l-primary'
-                        : 'border-l-[3px] border-l-transparent hover:bg-primary/4 hover:border-l-primary/50'
+                        ? 'bg-card shadow-neu-raised border-l-[4px] border-l-primary'
+                        : 'border-l-[4px] border-l-transparent hover:bg-card/60 hover:shadow-neu-raised'
                     }`}
                   >
-                    <div className={`w-[3px] h-8 rounded-full flex-shrink-0 ${
-                      isSelected ? 'bg-primary' : 'bg-primary/60'
-                    }`}></div>
                     <div className="flex-1 min-w-0">
                       <div className="font-medium text-sm text-foreground truncate">{disease || '未知疾病'}</div>
                       <div className="text-xs text-muted-foreground mt-0.5">

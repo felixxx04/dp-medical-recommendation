@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import {
   Shield, Brain, Activity, Lock, ArrowRight,
-  TrendingUp, Users, Stethoscope, BarChart3, Settings, Database,
+  Users, Stethoscope, BarChart3, Settings,
 } from 'lucide-react'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { useAuth } from '@/lib/authStore'
 import { canAccessFeature } from '@/lib/permissions'
@@ -13,13 +13,6 @@ const features = [
   { icon: Brain, title: '深度学习推荐', description: '基于深度因子分解机模型，精准捕捉药物-疾病-患者之间的复杂关系', color: 'teal' as const },
   { icon: Activity, title: '个性化用药', description: '综合考虑患者个体差异、疾病特征、药物相互作用，提供定制化建议', color: 'sky' as const },
   { icon: Lock, title: '安全可控', description: '隐私预算可调、噪声机制可选，在隐私保护与推荐性能间实现最佳平衡', color: 'teal' as const },
-]
-
-const stats = [
-  { label: '隐私保护等级', value: 'ε ≤ 1.0', icon: Shield, valueColor: 'text-primary' },
-  { label: '推荐准确率', value: '92%+', icon: TrendingUp, valueColor: 'text-accent' },
-  { label: '药物种类', value: '5,000+', icon: Database, valueColor: 'text-primary' },
-  { label: '服务患者', value: '10,000+', icon: Users, valueColor: 'text-accent' },
 ]
 
 const iconBgMap: Record<string, string> = {
@@ -37,7 +30,7 @@ export default function HomePage() {
 
   return (
     <div className="space-y-20 pb-12">
-      {/* Hero Section — Asymmetric split layout */}
+      {/* Hero Section — Two-column: text left, visual right */}
       <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-[#d2deea] to-[#dde6f0] border border-border">
         {/* Geometric decorations */}
         <div className="hero-circle hero-circle-lg" style={{ top: -80, right: -40, width: 320, height: 320 }} />
@@ -45,16 +38,15 @@ export default function HomePage() {
         <div className="hero-dot" style={{ top: 60, right: 200, width: 8, height: 8 }} />
         <div className="hero-dot" style={{ bottom: 100, right: 80, width: 6, height: 6 }} />
 
-        <div className="relative z-10 grid lg:grid-cols-2 gap-8 p-8 md:p-12 lg:p-16">
-          {/* Left content */}
-          <div className="flex flex-col justify-center">
-            
-            <h1 className="text-4xl md:text-5xl lg:text-[3rem] font-extrabold text-foreground mb-4 leading-[1.1] tracking-[-0.03em]">
+        <div className="relative z-10 flex flex-col lg:flex-row items-center gap-8 p-6 md:p-10 lg:p-12">
+          {/* Left: Text block */}
+          <div className="flex-1 lg:pr-8">
+            <h1 className="text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-foreground leading-[1.15] tracking-[-0.03em] mb-3">
               精准用药推荐<br />
               <span className="gradient-text">守护患者隐私</span>
             </h1>
 
-            <p className="text-base text-muted-foreground max-w-lg mb-8 leading-relaxed">
+            <p className="text-sm md:text-base text-muted-foreground max-w-lg mb-6 leading-relaxed">
               融合差分隐私技术与深度学习算法，在严格保护患者隐私的前提下，
               提供精准、安全、个性化的医疗用药推荐服务
             </p>
@@ -87,35 +79,27 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Right — Privacy budget visual */}
-          <div className="flex items-center justify-center">
-            <div className="w-52 h-64 rounded-xl border border-[rgba(155,175,200,0.15)] bg-surface-elevated flex flex-col items-center justify-center gap-3 shadow-neu-raised">
+          {/* Right: Epsilon card + mini stats */}
+          <div className="flex-shrink-0 flex flex-col items-center gap-4">
+            <div className="w-44 h-52 rounded-xl bg-card shadow-neu-raised flex flex-col items-center justify-center gap-2">
               <div className="text-5xl font-extrabold text-primary">ε</div>
               <div className="text-[10px] text-accent tracking-[0.12em] uppercase font-semibold">Differential Privacy</div>
-              <div className="w-20 h-px bg-gradient-to-r from-transparent via-brand-sky/30 to-transparent" />
-              <div className="text-3xl font-bold text-foreground">≤ 1.0</div>
+              <div className="w-16 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+              <div className="text-2xl font-bold text-foreground">≤ 1.0</div>
               <div className="text-xs text-muted-foreground">PRIVACY BUDGET</div>
+            </div>
+            <div className="grid grid-cols-2 gap-3 w-full">
+              <div className="rounded-lg bg-card shadow-neu-raised px-4 py-2.5 text-center">
+                <div className="text-lg font-bold text-primary">92%+</div>
+                <div className="text-[10px] text-muted-foreground">推荐准确率</div>
+              </div>
+              <div className="rounded-lg bg-card shadow-neu-raised px-4 py-2.5 text-center">
+                <div className="text-lg font-bold text-accent">5K+</div>
+                <div className="text-[10px] text-muted-foreground">药物种类</div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Stats Row */}
-      <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        {stats.map((stat) => {
-          const Icon = stat.icon
-          return (
-            <Card key={stat.label} className="group">
-              <CardContent className="pt-5 pb-5">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-sm bg-muted">
-                  <Icon className="h-5 w-5 text-muted-foreground group-hover:text-foreground transition-colors" />
-                </div>
-                <div className={`text-2xl font-bold mb-0.5 ${stat.valueColor}`}>{stat.value}</div>
-                <div className="text-xs text-muted-foreground font-medium">{stat.label}</div>
-              </CardContent>
-            </Card>
-          )
-        })}
       </section>
 
       {/* Features Grid */}

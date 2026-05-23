@@ -94,7 +94,7 @@ export default function ReviewPanel({
   return (
     <div className="space-y-4">
       {/* Layer 1: Patient Info Card */}
-      <div className="p-4 rounded-xl bg-background border border-border">
+      <div className="p-4 rounded-xl bg-card shadow-neu-raised">
         <div className="text-lg font-semibold text-foreground mb-2">{diseaseCn || '未提供'}</div>
         <div className="text-sm text-muted-foreground mb-3">审核患者的用药推荐方案</div>
         {drugs.length > 0 && (
@@ -117,7 +117,7 @@ export default function ReviewPanel({
       </div>
 
       {/* Layer 2: Drug List Card */}
-      <div className="p-4 rounded-xl bg-background border border-border">
+      <div className="p-4 rounded-xl bg-card shadow-neu-raised">
         <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">
           推荐药物
         </div>
@@ -125,13 +125,13 @@ export default function ReviewPanel({
           {drugs.map((drug, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-3 py-2 border-b border-border/50 last:border-b-0"
+              className="flex items-center gap-3 py-2.5 px-3 rounded-lg bg-surface-inset shadow-neu-inset-soft last:mb-0"
             >
-              <span className="flex-1 text-sm font-medium text-foreground">{drug.drugName}</span>
-              <span className={`px-2 py-0.5 rounded-md text-xs font-medium ${getScoreColor(drug.score)}`}>
+              <span className="flex-1 text-sm font-semibold text-foreground">{drug.drugName}</span>
+              <span className={`px-2.5 py-0.5 rounded-md text-xs font-semibold ${getScoreColor(drug.score)}`}>
                 {drug.score.toFixed(2)}
               </span>
-              <span className={`text-xs font-medium ${getSafetyColor(drug.safetyType)}`}>
+              <span className={`text-xs font-semibold ${getSafetyColor(drug.safetyType)}`}>
                 {getSafetyLabel(drug.safetyType)}
               </span>
             </div>
@@ -140,7 +140,7 @@ export default function ReviewPanel({
       </div>
 
       {/* Layer 3: Review Actions Card */}
-      <div className="p-4 rounded-xl bg-background border border-border">
+      <div className="p-4 rounded-xl bg-card shadow-neu-raised">
         <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">
           审核操作
         </div>
@@ -149,30 +149,30 @@ export default function ReviewPanel({
         <div className="flex gap-2 mb-4">
           <button
             onClick={() => setDecision('confirm')}
-            className={`flex-1 py-2 px-3 rounded-lg text-sm font-medium transition-all duration-150 border ${
+            className={`flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition-all duration-200 border ${
               decision === 'confirm'
-                ? 'bg-green-50 text-green-700 border-green-300'
-                : 'bg-transparent text-muted-foreground border border-[rgba(155,175,200,0.15)] hover:border-green-300 hover:text-green-600'
+                ? 'bg-success/8 text-success border-success/25 shadow-neu-raised'
+                : 'bg-transparent text-muted-foreground border border-border hover:bg-success/4 hover:text-success hover:border-success/20'
             }`}
           >
             确认
           </button>
           <button
             onClick={() => setDecision('modify')}
-            className={`flex-1 py-2 px-3 rounded-lg text-sm font-medium transition-all duration-150 border ${
+            className={`flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition-all duration-200 border ${
               decision === 'modify'
-                ? 'bg-blue-50 text-blue-700 border-blue-300'
-                : 'bg-transparent text-muted-foreground border border-[rgba(155,175,200,0.15)] hover:border-blue-300 hover:text-blue-600'
+                ? 'bg-primary/8 text-primary border-primary/25 shadow-neu-raised'
+                : 'bg-transparent text-muted-foreground border border-border hover:bg-primary/4 hover:text-primary hover:border-primary/20'
             }`}
           >
             修改
           </button>
           <button
             onClick={() => setDecision('reject')}
-            className={`flex-1 py-2 px-3 rounded-lg text-sm font-medium transition-all duration-150 border ${
+            className={`flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition-all duration-200 border ${
               decision === 'reject'
-                ? 'bg-red-50 text-red-700 border-red-300'
-                : 'bg-transparent text-muted-foreground border border-[rgba(155,175,200,0.15)] hover:border-red-300 hover:text-red-600'
+                ? 'bg-destructive/6 text-destructive border-destructive/25 shadow-neu-raised'
+                : 'bg-transparent text-muted-foreground border border-border hover:bg-destructive/4 hover:text-destructive hover:border-destructive/20'
             }`}
           >
             拒绝

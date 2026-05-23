@@ -80,7 +80,7 @@ export default function SafetyLayerChart() {
               <div className="text-lg font-bold" style={{ color: FUNNEL_COLORS[i] }}>
                 {stage.count.toLocaleString()}
               </div>
-              <div className="text-xs text-foreground/80">{stage.stage}</div>
+              <div className="text-xs text-foreground/90">{stage.stage}</div>
               <div className="text-[10px] text-muted-foreground mt-0.5">{stage.desc}</div>
             </div>
           ))}
@@ -98,11 +98,11 @@ export default function SafetyLayerChart() {
           <div className="text-xs text-muted-foreground mb-2">Layer 1 排除原因分布</div>
           <ResponsiveContainer width="100%" height={160}>
             <BarChart data={exclusionReasons} layout="vertical" margin={{ left: 10, right: 10, top: 5, bottom: 5 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" horizontal={false} />
-              <XAxis type="number" stroke="#64748b" tick={{ fontSize: 10 }} />
-              <YAxis dataKey="reason" type="category" stroke="#64748b" tick={{ fontSize: 10, fill: '#cbd5e1' }} width={70} />
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(140,160,180,0.25)" horizontal={false} />
+              <XAxis type="number" stroke="#4a6578" tick={{ fontSize: 10 }} />
+              <YAxis dataKey="reason" type="category" stroke="#4a6578" tick={{ fontSize: 10, fill: '#3d5f73' }} width={70} />
               <Tooltip
-                contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 11, color: '#e2e8f0' }}
+                contentStyle={{ background: '#edf3fa', border: '1px solid rgba(140,160,180,0.22)', borderRadius: 4, fontSize: 11, color: '#1a3244' }}
                 formatter={(value: number) => [`${value} 次`, '排除']}
               />
               <Bar dataKey="count" radius={[0, 2, 2, 0]}>
@@ -117,16 +117,16 @@ export default function SafetyLayerChart() {
 
       {/* Summary stats */}
       <div className="grid grid-cols-3 gap-2 text-center">
-        <div className="bg-slate-800/50 rounded p-2">
-          <div className="text-sm font-bold text-sky-400">{summary.totalExcludedSum}</div>
+        <div className="bg-surface-inset rounded-lg shadow-neu-inset-soft p-2">
+          <div className="text-sm font-bold text-primary">{summary.totalExcludedSum}</div>
           <div className="text-[10px] text-muted-foreground">累计排除药物</div>
         </div>
-        <div className="bg-slate-800/50 rounded p-2">
-          <div className="text-sm font-bold text-amber-400">{summary.requiresReviewSum}</div>
+        <div className="bg-surface-inset rounded-lg shadow-neu-inset-soft p-2">
+          <div className="text-sm font-bold text-warning">{summary.requiresReviewSum}</div>
           <div className="text-[10px] text-muted-foreground">需审核标记</div>
         </div>
-        <div className="bg-slate-800/50 rounded p-2">
-          <div className="text-sm font-bold text-purple-400">{summary.avgExcludedPerRecommendation}</div>
+        <div className="bg-surface-inset rounded-lg shadow-neu-inset-soft p-2">
+          <div className="text-sm font-bold text-purple-600">{summary.avgExcludedPerRecommendation}</div>
           <div className="text-[10px] text-muted-foreground">平均排除数/次</div>
         </div>
       </div>
