@@ -114,20 +114,20 @@ export default function LoginPage() {
 
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
-                <span className="w-full border-t border-white/[0.06]" />
+                <span className="w-full border-t border-border" />
               </div>
               <div className="relative flex justify-center">
-                <span className="bg-surface-elevated px-2 text-ia-label text-muted-foreground">测试账号</span>
+                <span className="bg-background px-2 text-ia-label text-muted-foreground">测试账号</span>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-2">
-              <div className="rounded-md border border-white/[0.06] p-2.5">
+              <div className="rounded-md border border-border p-2.5">
                 <div className="text-ia-label text-muted-foreground mb-1">医生账号</div>
                 <div className="text-ia-caption font-heading font-semibold">doctor1</div>
                 <div className="text-ia-label text-muted-foreground">admin123</div>
               </div>
-              <div className="rounded-md border border-white/[0.06] p-2.5">
+              <div className="rounded-md border border-border p-2.5">
                 <div className="text-ia-label text-muted-foreground mb-1">管理员</div>
                 <div className="text-ia-caption font-heading font-semibold">admin</div>
                 <div className="text-ia-label text-muted-foreground">admin123</div>

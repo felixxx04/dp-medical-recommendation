@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <marker id="arrowRight" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M 0,0 L 8,4 L 0,8 Z" fill="#546E7A"/>
+    </marker>
+    <marker id="arrowLeft" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto">
+      <path d="M 8,0 L 0,4 L 8,8 Z" fill="#546E7A"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)"/>
+
+  <!-- Header -->
+  <text x="80" y="60" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">系统总体架构</text>
+  <rect x="80" y="72" width="120" height="3" rx="1.5" fill="url(#titleUnderline)"/>
+
+  <!-- Three service blocks -->
+  <!-- Frontend -->
+  <rect x="80" y="110" width="320" height="170" rx="10" fill="#FFFFFF" stroke="#00796B" stroke-width="2"/>
+  <rect x="80" y="110" width="320" height="40" rx="10" fill="#00796B"/>
+  <rect x="80" y="140" width="320" height="10" fill="#00796B"/>
+  <text x="240" y="138" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">前端服务 :5173</text>
+  <text x="100" y="178" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#1A1A2E" font-weight="bold">React 18 + TypeScript + Vite</text>
+  <text x="100" y="205" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">推荐审核 / 隐私配置 / 统计仪表板</text>
+  <text x="100" y="230" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">Auth Context + RBAC前端守卫</text>
+  <text x="100" y="258" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">Tailwind CSS 响应式界面</text>
+
+  <!-- Backend -->
+  <rect x="480" y="110" width="320" height="170" rx="10" fill="#FFFFFF" stroke="#1565C0" stroke-width="2"/>
+  <rect x="480" y="110" width="320" height="40" rx="10" fill="#1565C0"/>
+  <rect x="480" y="140" width="320" height="10" fill="#1565C0"/>
+  <text x="640" y="138" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">后端服务 :8080</text>
+  <text x="500" y="178" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#1A1A2E" font-weight="bold">Spring Boot 3.2 + MyBatis</text>
+  <text x="500" y="205" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">JWT认证 + RBAC + RESTful API</text>
+  <text x="500" y="230" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">代理模型服务 + 数据转发</text>
+  <text x="500" y="258" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">启动时加载1807种药物至模型</text>
+
+  <!-- Model Service -->
+  <rect x="880" y="110" width="320" height="170" rx="10" fill="#FFFFFF" stroke="#FF8F00" stroke-width="2"/>
+  <rect x="880" y="110" width="320" height="40" rx="10" fill="#FF8F00"/>
+  <rect x="880" y="140" width="320" height="10" fill="#FF8F00"/>
+  <text x="1040" y="138" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">模型服务 :8001</text>
+  <text x="900" y="178" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#1A1A2E" font-weight="bold">FastAPI + PyTorch DeepFM</text>
+  <text x="900" y="205" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">四层推荐架构 + DP噪声注入</text>
+  <text x="900" y="230" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">隐私预算追踪 + 中文翻译管线</text>
+  <text x="900" y="258" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">口语增强 + 疾病映射 + 审核反馈</text>
+
+  <!-- Arrows between services -->
+  <line x1="400" y1="195" x2="480" y2="195" stroke="#546E7A" stroke-width="2" marker-end="url(#arrowRight)"/>
+  <line x1="480" y1="215" x2="400" y2="215" stroke="#546E7A" stroke-width="2" marker-end="url(#arrowLeft)"/>
+  <line x1="800" y1="195" x2="880" y2="195" stroke="#546E7A" stroke-width="2" marker-end="url(#arrowRight)"/>
+  <line x1="880" y1="215" x2="800" y2="215" stroke="#546E7A" stroke-width="2" marker-end="url(#arrowLeft)"/>
+
+  <text x="440" y="192" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#546E7A" text-anchor="middle">请求</text>
+  <text x="440" y="230" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#546E7A" text-anchor="middle">响应</text>
+  <text x="840" y="192" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#546E7A" text-anchor="middle">/model/predict</text>
+  <text x="840" y="230" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#546E7A" text-anchor="middle">推荐结果</text>
+
+  <!-- Data flow -->
+  <text x="80" y="330" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#1A1A2E">数据流</text>
+  <rect x="80" y="350" width="1120" height="48" rx="8" fill="#F5F7FA"/>
+  <text x="100" y="380" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#546E7A">前端请求 → 后端认证/CRUD → 模型服务(/model/predict) → 四层架构 + DP噪声 → 返回推荐结果</text>
+
+  <!-- Database tables — single row compact -->
+  <text x="80" y="440" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#1A1A2E">数据库</text>
+  <rect x="80" y="460" width="1120" height="48" rx="8" fill="#F5F7FA"/>
+  <text x="100" y="490" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1565C0">sys_user</text>
+  <text x="210" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">用户/RBAC</text>
+  <text x="330" y="490" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1565C0">patient</text>
+  <text x="420" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">患者档案</text>
+  <text x="530" y="490" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1565C0">drug</text>
+  <text x="600" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">药物(1807)</text>
+  <text x="710" y="490" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1565C0">recommendation</text>
+  <text x="860" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">推荐记录</text>
+  <text x="970" y="490" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1565C0">privacy_config</text>
+  <text x="1130" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">+ ledger</text>
+
+  <!-- Footer -->
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">04</text>
+</svg>

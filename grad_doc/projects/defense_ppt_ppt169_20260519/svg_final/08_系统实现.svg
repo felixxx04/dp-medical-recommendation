@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55" />
+            <stop offset="100%" stop-color="#AE6339" />
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+            <feOffset dx="0" dy="2" result="offsetblur" />
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor" />
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow" />
+            <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+        </filter>
+    </defs>
+    
+    <rect width="1280" height="720" fill="#EFE6DD" />
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)" />
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55" />
+    
+    <g id="header">
+        <path fill="#AE6339" d="M63,30 H63 A3,3 0 0 1 66,33 V59 A3,3 0 0 1 63,62 H63 A3,3 0 0 1 60,59 V33 A3,3 0 0 1 63,30 Z" />
+        <text x="80" y="54" font-family="Georgia, SimSun, serif" font-size="26" font-weight="bold" fill="#2E3F55">系统实现</text>
+        <text x="80" y="74" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" letter-spacing="1">FRONTEND + BACKEND + MODEL SERVICE + SAFETY DATA</text>
+    </g>
+    
+    <path fill="#2E3F55" d="M68,85 H1212 A8,8 0 0 1 1220,93 V113 A8,8 0 0 1 1212,121 H68 A8,8 0 0 1 60,113 V93 A8,8 0 0 1 68,85 Z" />
+    <text x="80" y="108" font-family="Georgia, SimSun, serif" font-size="15" font-weight="bold" fill="#EFE6DD">三层架构完整落地：React前端 + Spring Boot后端 + FastAPI模型服务 | 安全数据覆盖率达97%</text>
+    
+    
+    <g id="card-frontend">
+        <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" d="M72,140 H618 A12,12 0 0 1 630,152 V378 A12,12 0 0 1 618,390 H72 A12,12 0 0 1 60,378 V152 A12,12 0 0 1 72,140 Z" />
+        <path fill="#2E3F55" d="M72,140 H618 A12,12 0 0 1 630,152 V174 A12,12 0 0 1 618,186 H72 A12,12 0 0 1 60,174 V152 A12,12 0 0 1 72,140 Z" />
+        <rect x="60" y="174" width="570" height="12" fill="#2E3F55" />
+        <path fill="#EFE6DD" fill-opacity="0.15" d="M88,150 H108 A8,8 0 0 1 116,158 V178 A8,8 0 0 1 108,186 H88 A8,8 0 0 1 80,178 V158 A8,8 0 0 1 88,150 Z" />
+        <text x="98" y="174" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#EFE6DD">F</text>
+        <text x="128" y="170" font-family="Georgia, SimSun, serif" font-size="17" font-weight="bold" fill="#EFE6DD">前端 · React 18 + TypeScript</text>
+        
+        <path fill="#2E3F55" fill-opacity="0.08" d="M84,200 H156 A4,4 0 0 1 160,204 V218 A4,4 0 0 1 156,222 H84 A4,4 0 0 1 80,218 V204 A4,4 0 0 1 84,200 Z" />
+        <text x="120" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E3F55">React 18</text>
+        <path fill="#2E3F55" fill-opacity="0.08" d="M172,200 H244 A4,4 0 0 1 248,204 V218 A4,4 0 0 1 244,222 H172 A4,4 0 0 1 168,218 V204 A4,4 0 0 1 172,200 Z" />
+        <text x="208" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E3F55">TypeScript</text>
+        <path fill="#2E3F55" fill-opacity="0.08" d="M260,200 H332 A4,4 0 0 1 336,204 V218 A4,4 0 0 1 332,222 H260 A4,4 0 0 1 256,218 V204 A4,4 0 0 1 260,200 Z" />
+        <text x="296" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E3F55">Tailwind</text>
+        <path fill="#2E3F55" fill-opacity="0.08" d="M348,200 H388 A4,4 0 0 1 392,204 V218 A4,4 0 0 1 388,222 H348 A4,4 0 0 1 344,218 V204 A4,4 0 0 1 348,200 Z" />
+        <text x="368" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E3F55">Vite</text>
+        
+        <circle cx="90" cy="245" r="4" fill="#2E3F55" />
+        <text x="104" y="250" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">药物推荐页面</text>
+        <text x="104" y="268" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">患者画像输入 + 四层推荐结果展示 + 安全标签</text>
+        <circle cx="90" cy="295" r="4" fill="#2E3F55" />
+        <text x="104" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">隐私可视化面板</text>
+        <text x="104" y="318" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">噪声分布图 + ε消耗追踪 + 预算配置</text>
+        <circle cx="90" cy="345" r="4" fill="#2E3F55" />
+        <text x="104" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">医生审查面板</text>
+        <text x="104" y="368" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">审核/标记/确认推荐，JWT角色权限控制</text>
+    </g>
+    
+    <g id="card-backend">
+        <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" d="M662,140 H1208 A12,12 0 0 1 1220,152 V378 A12,12 0 0 1 1208,390 H662 A12,12 0 0 1 650,378 V152 A12,12 0 0 1 662,140 Z" />
+        <path fill="#AE6339" d="M662,140 H1208 A12,12 0 0 1 1220,152 V174 A12,12 0 0 1 1208,186 H662 A12,12 0 0 1 650,174 V152 A12,12 0 0 1 662,140 Z" />
+        <rect x="650" y="174" width="570" height="12" fill="#AE6339" />
+        <path fill="#EFE6DD" fill-opacity="0.15" d="M678,150 H698 A8,8 0 0 1 706,158 V178 A8,8 0 0 1 698,186 H678 A8,8 0 0 1 670,178 V158 A8,8 0 0 1 678,150 Z" />
+        <text x="688" y="174" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#EFE6DD">B</text>
+        <text x="718" y="170" font-family="Georgia, SimSun, serif" font-size="17" font-weight="bold" fill="#EFE6DD">后端 · Spring Boot 3.2</text>
+        
+        <path fill="#AE6339" fill-opacity="0.08" d="M674,200 H762 A4,4 0 0 1 766,204 V218 A4,4 0 0 1 762,222 H674 A4,4 0 0 1 670,218 V204 A4,4 0 0 1 674,200 Z" />
+        <text x="718" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#AE6339">Spring Boot</text>
+        <path fill="#AE6339" fill-opacity="0.08" d="M778,200 H834 A4,4 0 0 1 838,204 V218 A4,4 0 0 1 834,222 H778 A4,4 0 0 1 774,218 V204 A4,4 0 0 1 778,200 Z" />
+        <text x="806" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#AE6339">MyBatis</text>
+        <path fill="#AE6339" fill-opacity="0.08" d="M850,200 H906 A4,4 0 0 1 910,204 V218 A4,4 0 0 1 906,222 H850 A4,4 0 0 1 846,218 V204 A4,4 0 0 1 850,200 Z" />
+        <text x="878" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#AE6339">MySQL</text>
+        <path fill="#AE6339" fill-opacity="0.08" d="M922,200 H978 A4,4 0 0 1 982,204 V218 A4,4 0 0 1 978,222 H922 A4,4 0 0 1 918,218 V204 A4,4 0 0 1 922,200 Z" />
+        <text x="950" y="215" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#AE6339">JWT</text>
+        
+        <circle cx="680" cy="245" r="4" fill="#AE6339" />
+        <text x="694" y="250" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">推荐代理服务</text>
+        <text x="694" y="268" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">前端→后端→模型服务 请求转发与结果持久化</text>
+        <circle cx="680" cy="295" r="4" fill="#AE6339" />
+        <text x="694" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">隐私预算管理</text>
+        <text x="694" y="318" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">MySQL持久化privacy_config + privacy_ledger审计</text>
+        <circle cx="680" cy="345" r="4" fill="#AE6339" />
+        <text x="694" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">认证与权限</text>
+        <text x="694" y="368" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">JWT HMAC-SHA + 角色授权（admin/doctor/researcher）</text>
+    </g>
+    
+    <g id="card-model">
+        <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" d="M72,410 H618 A12,12 0 0 1 630,422 V648 A12,12 0 0 1 618,660 H72 A12,12 0 0 1 60,648 V422 A12,12 0 0 1 72,410 Z" />
+        <path fill="#2E7D32" d="M72,410 H618 A12,12 0 0 1 630,422 V444 A12,12 0 0 1 618,456 H72 A12,12 0 0 1 60,444 V422 A12,12 0 0 1 72,410 Z" />
+        <rect x="60" y="444" width="570" height="12" fill="#2E7D32" />
+        <path fill="#EFE6DD" fill-opacity="0.15" d="M88,420 H108 A8,8 0 0 1 116,428 V448 A8,8 0 0 1 108,456 H88 A8,8 0 0 1 80,448 V428 A8,8 0 0 1 88,420 Z" />
+        <text x="98" y="444" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#EFE6DD">M</text>
+        <text x="128" y="440" font-family="Georgia, SimSun, serif" font-size="17" font-weight="bold" fill="#EFE6DD">模型服务 · FastAPI + PyTorch</text>
+        
+        <path fill="#2E7D32" fill-opacity="0.08" d="M84,470 H140 A4,4 0 0 1 144,474 V488 A4,4 0 0 1 140,492 H84 A4,4 0 0 1 80,488 V474 A4,4 0 0 1 84,470 Z" />
+        <text x="112" y="485" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E7D32">FastAPI</text>
+        <path fill="#2E7D32" fill-opacity="0.08" d="M156,470 H212 A4,4 0 0 1 216,474 V488 A4,4 0 0 1 212,492 H156 A4,4 0 0 1 152,488 V474 A4,4 0 0 1 156,470 Z" />
+        <text x="184" y="485" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E7D32">PyTorch</text>
+        <path fill="#2E7D32" fill-opacity="0.08" d="M228,470 H284 A4,4 0 0 1 288,474 V488 A4,4 0 0 1 284,492 H228 A4,4 0 0 1 224,488 V474 A4,4 0 0 1 228,470 Z" />
+        <text x="256" y="485" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E7D32">Opacus</text>
+        <path fill="#2E7D32" fill-opacity="0.08" d="M300,470 H356 A4,4 0 0 1 360,474 V488 A4,4 0 0 1 356,492 H300 A4,4 0 0 1 296,488 V474 A4,4 0 0 1 300,470 Z" />
+        <text x="328" y="485" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E7D32">Uvicorn</text>
+        
+        <circle cx="90" cy="515" r="4" fill="#2E7D32" />
+        <text x="104" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">四层推荐引擎</text>
+        <text x="104" y="538" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">SafetyFilter → RuleMarker → DeepFM排序</text>
+        <circle cx="90" cy="565" r="4" fill="#2E7D32" />
+        <text x="104" y="570" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">DP噪声注入</text>
+        <text x="104" y="588" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">Laplace/Gaussian + 安全后处理 + 置信区间</text>
+        <circle cx="90" cy="615" r="4" fill="#2E7D32" />
+        <text x="104" y="620" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">翻译管线</text>
+        <text x="104" y="638" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">disease_mapper + drug_translator + translation_mapper EN→CN</text>
+    </g>
+    
+    <g id="card-safety">
+        <path fill="#FFFFFF" stroke="#C62828" stroke-width="1" stroke-opacity="0.3" filter="url(#cardShadow)" d="M662,410 H1208 A12,12 0 0 1 1220,422 V648 A12,12 0 0 1 1208,660 H662 A12,12 0 0 1 650,648 V422 A12,12 0 0 1 662,410 Z" />
+        <path fill="#C62828" d="M662,410 H1208 A12,12 0 0 1 1220,422 V444 A12,12 0 0 1 1208,456 H662 A12,12 0 0 1 650,444 V422 A12,12 0 0 1 662,410 Z" />
+        <rect x="650" y="444" width="570" height="12" fill="#C62828" />
+        <path fill="#EFE6DD" fill-opacity="0.15" d="M678,420 H698 A8,8 0 0 1 706,428 V448 A8,8 0 0 1 698,456 H678 A8,8 0 0 1 670,448 V428 A8,8 0 0 1 678,420 Z" />
+        <text x="688" y="444" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#EFE6DD">S</text>
+        <text x="718" y="440" font-family="Georgia, SimSun, serif" font-size="17" font-weight="bold" fill="#EFE6DD">安全数据覆盖</text>
+        
+        <path fill="#C62828" fill-opacity="0.05" stroke="#C62828" stroke-width="1" stroke-opacity="0.2" d="M678,474 H822 A8,8 0 0 1 830,482 V538 A8,8 0 0 1 822,546 H678 A8,8 0 0 1 670,538 V482 A8,8 0 0 1 678,474 Z" />
+        <text x="750" y="500" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">禁忌症覆盖</text>
+        <text x="750" y="530" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="24" font-weight="bold" fill="#C62828">95.3%</text>
+        <path fill="#AE6339" fill-opacity="0.05" stroke="#AE6339" stroke-width="1" stroke-opacity="0.2" d="M853,474 H997 A8,8 0 0 1 1005,482 V538 A8,8 0 0 1 997,546 H853 A8,8 0 0 1 845,538 V482 A8,8 0 0 1 853,474 Z" />
+        <text x="925" y="500" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">交互覆盖</text>
+        <text x="925" y="530" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="24" font-weight="bold" fill="#AE6339">81.5%</text>
+        <path fill="#2E7D32" fill-opacity="0.05" stroke="#2E7D32" stroke-width="1" stroke-opacity="0.2" d="M1028,474 H1192 A8,8 0 0 1 1200,482 V538 A8,8 0 0 1 1192,546 H1028 A8,8 0 0 1 1020,538 V482 A8,8 0 0 1 1028,474 Z" />
+        <text x="1110" y="500" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">综合安全覆盖</text>
+        <text x="1110" y="530" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="24" font-weight="bold" fill="#2E7D32">97.0%</text>
+        
+        <circle cx="690" cy="572" r="4" fill="#C62828" />
+        <text x="704" y="577" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">绝对禁忌 + 过敏冲突 + 妊娠X级</text>
+        <text x="704" y="595" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">硬过滤排除，DP噪声零穿透</text>
+        <circle cx="690" cy="622" r="4" fill="#AE6339" />
+        <text x="704" y="627" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">相对禁忌 + 中等交互 + 妊娠C/D</text>
+        <text x="704" y="645" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">软标记不排除，添加requires_review</text>
+    </g>
+    
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">08</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)" />
+</svg>

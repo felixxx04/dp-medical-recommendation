@@ -19,8 +19,8 @@ export function ConsentDialog({ onAccept, onCancel }: ConsentDialogProps) {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="bg-surface-elevated rounded-sm p-6 max-w-md shadow-lg border border-border">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/10">
+      <div className="bg-background rounded-sm p-6 max-w-md shadow-neu-raised border border-border">
         <div className="flex items-center gap-2 mb-4">
           <AlertTriangle className="h-5 w-5 text-destructive" />
           <h2 className="text-ia-card-title font-heading font-bold text-foreground">知情同意</h2>
@@ -43,13 +43,13 @@ export function ConsentDialog({ onAccept, onCancel }: ConsentDialogProps) {
         <div className="flex gap-3 mt-5">
           <button
             onClick={handleAccept}
-            className="px-4 py-2 rounded-sm bg-gradient-to-br from-brand-sky to-sky-600 text-white font-heading font-semibold text-ia-label hover:bg-brand-sky/90"
+            className="px-4 py-2 rounded-sm bg-gradient-to-br from-[#0a9dc4] to-[#077f9f] text-white font-heading font-semibold text-ia-label"
           >
             我已了解，继续使用
           </button>
           <button
             onClick={onCancel}
-            className="px-4 py-2 rounded-sm bg-surface text-muted-foreground font-heading font-semibold text-ia-label hover:bg-surface/80"
+            className="px-4 py-2 rounded-sm bg-background text-muted-foreground font-heading font-semibold text-ia-label shadow-neu-inset"
           >
             取消
           </button>

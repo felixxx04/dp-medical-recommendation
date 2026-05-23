@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)"/>
+
+  <!-- Header -->
+  <text x="80" y="60" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">结论与未来工作</text>
+  <rect x="80" y="72" width="120" height="3" rx="1.5" fill="url(#titleUnderline)"/>
+
+  <!-- Left column: Main work summary -->
+  <text x="80" y="115" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#00796B">主要工作</text>
+  <rect x="80" y="125" width="100" height="2" fill="#00796B"/>
+
+  <!-- Work 1 -->
+  <rect x="80" y="145" width="560" height="140" rx="10" fill="#FFFFFF" stroke="#00796B" stroke-width="1.5"/>
+  <rect x="80" y="145" width="4" height="140" rx="2" fill="#00796B"/>
+  <text x="105" y="175" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#00796B">四层推荐架构</text>
+  <text x="105" y="202" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">KnowledgeRouter 四级确定性路由，解决中文疾病→英文适应症的</text>
+  <text x="105" y="224" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">语义鸿沟；SafetyFilter + RuleMarker 双层安全约束，硬排除与</text>
+  <text x="105" y="246" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">软标记分离；DeepFM个性化排序，覆盖1807种药物</text>
+  <text x="105" y="272" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#2E7D32">→ 确定性安全判断不受DP噪声影响</text>
+
+  <!-- Work 2 -->
+  <rect x="80" y="300" width="560" height="140" rx="10" fill="#FFFFFF" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="80" y="300" width="4" height="140" rx="2" fill="#1565C0"/>
+  <text x="105" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1565C0">差分隐私与深度学习融合</text>
+  <text x="105" y="357" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">推理阶段临床阈值后处理（低分置零、上限裁剪、dpAnomaly标记），</text>
+  <text x="105" y="379" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">基于DP后处理定理保障安全性不受噪声干扰；双重隐私预算追踪</text>
+  <text x="105" y="401" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">（MySQL持久化 + 内存Tracker）+ 三级预算预警</text>
+  <text x="105" y="427" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#2E7D32">→ ε=0.1时准确率仅下降~10%，DP模型separation更优</text>
+
+  <!-- Work 3 -->
+  <rect x="80" y="455" width="560" height="140" rx="10" fill="#FFFFFF" stroke="#FF8F00" stroke-width="1.5"/>
+  <rect x="80" y="455" width="4" height="140" rx="2" fill="#FF8F00"/>
+  <text x="105" y="485" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF8F00">口语增强与审核反馈闭环</text>
+  <text x="105" y="512" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">PatientInputEnhancer 三层Fallback（精确→关键词→症状组合），</text>
+  <text x="105" y="534" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">支持1295种中文疾病输入；FeedbackLearner渐进式惩罚机制，</text>
+  <text x="105" y="556" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">构建从患者口语表达到药品推荐的完整链路</text>
+  <text x="105" y="582" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#2E7D32">→ 推荐审核闭环持续优化，临床采纳率提升</text>
+
+  <!-- Right column: Future work -->
+  <text x="680" y="115" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#1565C0">未来方向</text>
+  <rect x="680" y="125" width="100" height="2" fill="#1565C0"/>
+
+  <!-- Future 1 -->
+  <rect x="680" y="145" width="520" height="140" rx="10" fill="#F5F7FA" stroke="#1565C0" stroke-width="1"/>
+  <rect x="680" y="145" width="4" height="140" rx="2" fill="#1565C0"/>
+  <text x="705" y="175" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1565C0">扩充罕见病路由覆盖</text>
+  <text x="705" y="205" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">当前120个罕见病路由覆盖有限</text>
+  <text x="705" y="228" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">目标：覆盖至100%，引入医学知识图谱</text>
+  <text x="705" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">结合专业医学数据库自动扩充疾病-适应症映射</text>
+
+  <!-- Future 2 -->
+  <rect x="680" y="300" width="520" height="140" rx="10" fill="#F5F7FA" stroke="#FF8F00" stroke-width="1"/>
+  <rect x="680" y="300" width="4" height="140" rx="2" fill="#FF8F00"/>
+  <text x="705" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF8F00">审核反馈数据持续优化</text>
+  <text x="705" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">积累医生审核反馈数据</text>
+  <text x="705" y="383" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">持续优化路由权重和推荐排序策略</text>
+  <text x="705" y="415" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">从规则驱动逐步过渡到数据驱动优化</text>
+
+  <!-- Future 3 -->
+  <rect x="680" y="455" width="520" height="140" rx="10" fill="#F5F7FA" stroke="#00796B" stroke-width="1"/>
+  <rect x="680" y="455" width="4" height="140" rx="2" fill="#00796B"/>
+  <text x="705" y="485" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#00796B">安全性特征编码入DeepFM</text>
+  <text x="705" y="515" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">将安全性数据（禁忌症、交互等）编码为DeepFM特征</text>
+  <text x="705" y="538" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">实现安全性与个性化排序的端到端联合优化</text>
+  <text x="705" y="570" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">模型层面融合安全约束，而非仅靠后处理规则</text>
+
+  <!-- Footer -->
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">12</text>
+</svg>

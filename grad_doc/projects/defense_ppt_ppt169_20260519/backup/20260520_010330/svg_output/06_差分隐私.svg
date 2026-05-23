@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <!-- Header -->
+    <g id="header">
+        <rect x="60" y="30" width="6" height="32" rx="3" fill="#AE6339"/>
+        <text x="80" y="54" font-family="Georgia, SimSun, serif" font-size="26" font-weight="bold" fill="#2E3F55">差分隐私机制</text>
+    </g>
+    <!-- Takeaway -->
+    <rect x="60" y="75" width="1160" height="38" rx="8" fill="#2E3F55"/>
+    <text x="80" y="100" font-family="Georgia, SimSun, serif" font-size="15" font-weight="bold" fill="#EFE6DD">DP噪声仅作用于评分层，临床安全不受影响 | 安全后处理确保噪声不放大低分药物</text>
+    <!-- Left column: DP Principles -->
+    <g id="dp-principles">
+        <rect x="60" y="130" width="570" height="560" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <rect x="60" y="130" width="570" height="46" rx="12" fill="#2E3F55"/>
+        <rect x="60" y="164" width="570" height="12" fill="#2E3F55"/>
+        <use data-icon="chunk-filled/shield" x="80" y="140" width="28" height="28" fill="#EFE6DD"/>
+        <text x="118" y="160" font-family="Georgia, SimSun, serif" font-size="17" font-weight="bold" fill="#EFE6DD">DP原理与噪声机制</text>
+        <!-- Laplace -->
+        <text x="85" y="210" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">Laplace机制</text>
+        <rect x="85" y="220" width="520" height="50" rx="8" fill="#2E3F55" fill-opacity="0.04"/>
+        <text x="100" y="242" font-family="Consolas, Courier New, monospace" font-size="14" fill="#2E3F55">scale = sensitivity / ε</text>
+        <text x="100" y="260" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">ε越小 → 噪声越大 → 隐私保护越强</text>
+        <!-- Gaussian -->
+        <text x="85" y="300" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">Gaussian机制</text>
+        <rect x="85" y="310" width="520" height="50" rx="8" fill="#2E3F55" fill-opacity="0.04"/>
+        <text x="100" y="332" font-family="Consolas, Courier New, monospace" font-size="14" fill="#2E3F55">σ = sensitivity × √(2·ln(1.25/δ)) / ε</text>
+        <text x="100" y="350" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">提供(ε,δ)-DP，δ为失败概率</text>
+        <!-- Budget tracking -->
+        <text x="85" y="390" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">预算追踪：强组合定理</text>
+        <rect x="85" y="400" width="520" height="50" rx="8" fill="#AE6339" fill-opacity="0.06"/>
+        <text x="100" y="422" font-family="Consolas, Courier New, monospace" font-size="13" fill="#2E3F55">ε<tspan font-size="10" dy="3">总</tspan><tspan dy="-3"> = Σ √(2k·ln(1/δ')) · ε</tspan><tspan font-size="10" dy="3">i</tspan></text>
+        <text x="100" y="440" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">多次查询的总隐私消耗严格可计算</text>
+        <!-- Dual tracking -->
+        <text x="85" y="478" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">双重预算追踪</text>
+        <rect x="85" y="488" width="245" height="44" rx="8" fill="#2E3F55" fill-opacity="0.04" stroke="#D4B5B2" stroke-width="1"/>
+        <text x="100" y="508" font-family="Georgia, SimSun, serif" font-size="13" font-weight="bold" fill="#2E3F55">后端：MySQL持久化</text>
+        <text x="100" y="524" font-family="Georgia, SimSun, serif" font-size="11" fill="#6B7B8D">privacy_config + privacy_ledger</text>
+        <rect x="350" y="488" width="255" height="44" rx="8" fill="#AE6339" fill-opacity="0.06" stroke="#D4B5B2" stroke-width="1"/>
+        <text x="365" y="508" font-family="Georgia, SimSun, serif" font-size="13" font-weight="bold" fill="#2E3F55">模型：内存组合定理</text>
+        <text x="365" y="524" font-family="Georgia, SimSun, serif" font-size="11" fill="#6B7B8D">PrivacyBudgetTracker (ephemeral)</text>
+        <!-- Visualization of ε impact -->
+        <text x="85" y="564" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">ε值与隐私-效用权衡</text>
+        <rect x="85" y="575" width="80" height="28" rx="6" fill="#2E3F55"/>
+        <text x="125" y="594" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#EFE6DD">ε=0.5</text>
+        <text x="175" y="594" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">强隐私</text>
+        <rect x="240" y="575" width="80" height="28" rx="6" fill="#AE6339"/>
+        <text x="280" y="594" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#EFE6DD">ε=1.0</text>
+        <text x="330" y="594" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">平衡</text>
+        <rect x="395" y="575" width="80" height="28" rx="6" fill="#D4B5B2"/>
+        <text x="435" y="594" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E3F55">ε=5.0</text>
+        <text x="485" y="594" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">弱隐私</text>
+        <rect x="85" y="615" width="520" height="28" rx="6" fill="#2E7D32" fill-opacity="0.08"/>
+        <text x="345" y="634" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E7D32">实验验证：ε=0.5时AUC-PR仍达0.9662，几乎无损失</text>
+    </g>
+    <!-- Right column: Safety Post-processing -->
+    <g id="safety-postprocess">
+        <rect x="660" y="130" width="560" height="560" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <rect x="660" y="130" width="560" height="46" rx="12" fill="#AE6339"/>
+        <rect x="660" y="164" width="560" height="12" fill="#AE6339"/>
+        <use data-icon="chunk-filled/shield-check" x="680" y="140" width="28" height="28" fill="#EFE6DD"/>
+        <text x="718" y="160" font-family="Georgia, SimSun, serif" font-size="17" font-weight="bold" fill="#EFE6DD">临床安全后处理</text>
+        <!-- Step 1 -->
+        <rect x="685" y="195" width="32" height="32" rx="16" fill="#C62828"/>
+        <text x="701" y="216" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#FFFFFF">1</text>
+        <text x="728" y="210" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">低分置零（公开阈值）</text>
+        <rect x="685" y="225" width="500" height="55" rx="8" fill="#C62828" fill-opacity="0.05"/>
+        <text x="700" y="248" font-family="Consolas, Courier New, monospace" font-size="14" fill="#2E3F55">score &lt; 0.15 → 0</text>
+        <text x="700" y="268" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">DP后处理定理：公开阈值操作不破坏DP保证</text>
+        <!-- Step 2 -->
+        <rect x="685" y="298" width="32" height="32" rx="16" fill="#AE6339"/>
+        <text x="701" y="319" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#FFFFFF">2</text>
+        <text x="728" y="313" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">上限截断（防噪声放大）</text>
+        <rect x="685" y="328" width="500" height="55" rx="8" fill="#AE6339" fill-opacity="0.05"/>
+        <text x="700" y="351" font-family="Consolas, Courier New, monospace" font-size="14" fill="#2E3F55">ceiling = min(1.0, raw_score + 0.35)</text>
+        <text x="700" y="371" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">防止噪声将低分药物放大超过3.5倍</text>
+        <!-- Step 3 -->
+        <rect x="685" y="401" width="32" height="32" rx="16" fill="#2E3F55"/>
+        <text x="701" y="422" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#FFFFFF">3</text>
+        <text x="728" y="416" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">置信区间与异常标记</text>
+        <rect x="685" y="431" width="500" height="55" rx="8" fill="#2E3F55" fill-opacity="0.04"/>
+        <text x="700" y="454" font-family="Georgia, SimSun, serif" font-size="14" fill="#2E3F55">95% CI: score ± 1.96 × noise_std</text>
+        <text x="700" y="474" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">dpAnomaly: 噪声显著改变排序方向时标记</text>
+        <!-- Safety guarantee box -->
+        <rect x="685" y="505" width="500" height="80" rx="10" fill="#2E7D32" fill-opacity="0.08" stroke="#2E7D32" stroke-width="1.5"/>
+        <use data-icon="chunk-filled/shield-check" x="700" y="520" width="36" height="36" fill="#2E7D32"/>
+        <text x="748" y="540" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E7D32">安全保障定理</text>
+        <text x="700" y="565" font-family="Georgia, SimSun, serif" font-size="14" fill="#2E3F55">SafetyFilter层<tspan font-weight="bold" fill="#2E7D32">100%保留</tspan>，DP噪声零穿透</text>
+        <text x="700" y="580" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">实验验证：所有安全过滤在所有ε值下完全一致</text>
+    </g>
+    <!-- Page number -->
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">06</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

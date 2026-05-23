@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <!-- Decorative large circle -->
+    <circle cx="1050" cy="360" r="280" fill="#2E3F55" fill-opacity="0.03"/>
+    <circle cx="1080" cy="330" r="180" fill="#AE6339" fill-opacity="0.04"/>
+    <!-- Header -->
+    <g id="header">
+        <rect x="60" y="40" width="6" height="36" rx="3" fill="#AE6339"/>
+        <text x="80" y="66" font-family="Georgia, SimSun, serif" font-size="28" font-weight="bold" fill="#2E3F55">研究背景与意义</text>
+    </g>
+    <!-- Takeaway box -->
+    <rect x="60" y="95" width="1160" height="48" rx="8" fill="#2E3F55"/>
+    <text x="80" y="125" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#EFE6DD">医疗用药推荐面临安全与隐私双重挑战，需构建安全过滤+隐私保护+个性化推荐的统一框架</text>
+    <!-- Problem 1: Safety -->
+    <g id="problem-1">
+        <rect x="60" y="175" width="560" height="220" rx="12" fill="#FFFFFF" stroke="#C62828" stroke-width="1.5" stroke-opacity="0.3"/>
+        <rect x="60" y="175" width="8" height="220" rx="4" fill="#C62828"/>
+        <use data-icon="chunk-filled/pills" x="90" y="195" width="36" height="36" fill="#C62828"/>
+        <text x="140" y="220" font-family="Georgia, SimSun, serif" font-size="22" font-weight="bold" fill="#C62828">用药安全问题</text>
+        <line x1="90" y1="240" x2="590" y2="240" stroke="#D4B5B2" stroke-width="1"/>
+        <text x="90" y="272" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">药物不良反应致死率居高不下</text>
+        <text x="90" y="302" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">传统推荐系统<tspan font-weight="bold" fill="#C62828">缺乏安全过滤</tspan></text>
+        <text x="90" y="332" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">禁忌症、过敏、药物交互未排除</text>
+        <text x="90" y="365" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">WHO: 不良反应位列全球十大死因</text>
+    </g>
+    <!-- Problem 2: Privacy -->
+    <g id="problem-2">
+        <rect x="660" y="175" width="560" height="220" rx="12" fill="#FFFFFF" stroke="#AE6339" stroke-width="1.5" stroke-opacity="0.3"/>
+        <rect x="660" y="175" width="8" height="220" rx="4" fill="#AE6339"/>
+        <use data-icon="chunk-filled/shield" x="690" y="195" width="36" height="36" fill="#AE6339"/>
+        <text x="740" y="220" font-family="Georgia, SimSun, serif" font-size="22" font-weight="bold" fill="#AE6339">隐私泄露风险</text>
+        <line x1="690" y1="240" x2="1190" y2="240" stroke="#D4B5B2" stroke-width="1"/>
+        <text x="690" y="272" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">患者健康数据高度敏感</text>
+        <text x="690" y="302" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">推荐过程中<tspan font-weight="bold" fill="#AE6339">隐私泄露风险</tspan>显著</text>
+        <text x="690" y="332" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">合规要求：GDPR / 个人信息保护法</text>
+        <text x="690" y="365" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">健康数据属于特殊类别个人信息</text>
+    </g>
+    <!-- Research goal -->
+    <g id="goal">
+        <rect x="60" y="430" width="1160" height="120" rx="12" fill="#2E3F55" fill-opacity="0.06" stroke="#2E3F55" stroke-width="1" stroke-opacity="0.2"/>
+        <rect x="60" y="430" width="8" height="120" rx="4" fill="#2E3F55"/>
+        <use data-icon="chunk-filled/target" x="90" y="460" width="40" height="40" fill="#2E3F55"/>
+        <text x="145" y="478" font-family="Georgia, SimSun, serif" font-size="22" font-weight="bold" fill="#2E3F55">研究目标</text>
+        <text x="90" y="520" font-family="Georgia, SimSun, serif" font-size="18" fill="#2E3F55">构建<tspan font-weight="bold" fill="#2E3F55">安全过滤 + 隐私保护 + 个性化推荐</tspan>的统一框架</text>
+        <text x="90" y="545" font-family="Georgia, SimSun, serif" font-size="16" fill="#6B7B8D">SafetyFilter确定性硬排除 → RuleMarker软标记 → DeepFM个性化评分 + DP噪声</text>
+    </g>
+    <!-- Arrow flow hint -->
+    <g id="flow-hint">
+        <text x="240" y="620" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="15" font-weight="bold" fill="#C62828">安全问题</text>
+        <text x="350" y="620" font-family="Georgia, SimSun, serif" font-size="20" fill="#6B7B8D">+</text>
+        <text x="500" y="620" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="15" font-weight="bold" fill="#AE6339">隐私风险</text>
+        <text x="610" y="620" font-family="Georgia, SimSun, serif" font-size="20" fill="#6B7B8D">=</text>
+        <rect x="680" y="598" width="360" height="36" rx="8" fill="#2E3F55"/>
+        <text x="860" y="622" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#EFE6DD">安全与隐私兼得的推荐系统</text>
+    </g>
+    <!-- Page number -->
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">03</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

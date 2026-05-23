@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <!-- Decorative elements -->
+    <circle cx="640" cy="360" r="260" fill="#2E3F55" fill-opacity="0.03"/>
+    <circle cx="640" cy="360" r="180" fill="#AE6339" fill-opacity="0.03"/>
+    <!-- Main content - centered -->
+    <text x="640" y="240" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="56" font-weight="bold" fill="#2E3F55">谢谢各位老师</text>
+    <!-- Decorative line -->
+    <line x1="490" y1="270" x2="790" y2="270" stroke="#AE6339" stroke-width="3" stroke-linecap="round"/>
+    <!-- Subtitle -->
+    <text x="640" y="320" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="22" fill="#6B7B8D">感谢指导教师的悉心指导</text>
+    <text x="640" y="355" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="22" fill="#6B7B8D">感谢答辩委员会的宝贵意见</text>
+    <!-- Info cards -->
+    <g id="info-cards">
+        <rect x="340" y="410" width="600" height="120" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <line x1="640" y1="425" x2="640" y2="515" stroke="#D4B5B2" stroke-width="1"/>
+        <!-- Left: thesis title -->
+        <text x="490" y="450" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#6B7B8D">论文题目</text>
+        <text x="490" y="478" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2E3F55">差分隐私保护的AI驱动</text>
+        <text x="490" y="500" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2E3F55">个性化医疗用药推荐系统</text>
+        <!-- Right: author info -->
+        <text x="790" y="450" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#6B7B8D">答辩人</text>
+        <text x="790" y="478" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">晋修慧</text>
+        <text x="790" y="505" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#6B7B8D">河南工业大学 · 2026年5月</text>
+    </g>
+    <!-- Bottom accent -->
+    <rect x="580" y="570" width="120" height="4" rx="2" fill="#AE6339"/>
+    <!-- Page number -->
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">12</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

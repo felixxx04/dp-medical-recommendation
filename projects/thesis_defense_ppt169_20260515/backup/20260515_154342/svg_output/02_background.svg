@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)"/>
+
+  <!-- Header -->
+  <text x="80" y="60" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">研究背景与痛点</text>
+  <rect x="80" y="72" width="120" height="3" rx="1.5" fill="url(#titleUnderline)"/>
+
+  <!-- Left column (40%) — Key data highlights -->
+  <g id="left-stats">
+    <!-- Stat card 1 -->
+    <rect x="80" y="110" width="420" height="120" rx="10" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="80" y="110" width="4" height="120" rx="2" fill="#00796B"/>
+    <text x="110" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="48" font-weight="bold" fill="#00796B">30%+</text>
+    <text x="110" y="180" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">医疗数据年增长率</text>
+    <text x="110" y="210" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">互联网医院超2700家，电子病历普及率超85%</text>
+
+    <!-- Stat card 2 -->
+    <rect x="80" y="250" width="420" height="120" rx="10" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="80" y="250" width="4" height="120" rx="2" fill="#C62828"/>
+    <text x="110" y="288" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="48" font-weight="bold" fill="#C62828">700+</text>
+    <text x="110" y="320" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">2022年全球医疗数据泄露事件</text>
+    <text x="110" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">影响超5000万患者，医疗行业成重灾区</text>
+
+    <!-- Stat card 3 -->
+    <rect x="80" y="390" width="420" height="120" rx="10" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="80" y="390" width="4" height="120" rx="2" fill="#1565C0"/>
+    <text x="110" y="428" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="48" font-weight="bold" fill="#1565C0">85%+</text>
+    <text x="110" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">电子病历普及率</text>
+    <text x="110" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">数据规模与隐私风险的矛盾日益突出</text>
+  </g>
+
+  <!-- Right column (60%) — Pain points -->
+  <g id="right-painpoints">
+    <text x="560" y="140" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#1A1A2E">三大核心痛点</text>
+
+    <!-- Pain point 1 -->
+    <rect x="560" y="168" width="640" height="140" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="560" y="168" width="4" height="140" rx="2" fill="#C62828"/>
+    <text x="590" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="bold" fill="#C62828">痛点一：传统隐私保护失效</text>
+    <text x="590" y="228" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">K-匿名、L-多样性等传统方法无法抵御关联攻击</text>
+    <text x="590" y="256" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">和背景知识推断，安全性依赖攻击者能力假设</text>
+    <text x="590" y="284" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">→ 缺乏数学可证明的安全保障</text>
+
+    <!-- Pain point 2 -->
+    <rect x="560" y="328" width="640" height="140" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="560" y="328" width="4" height="140" rx="2" fill="#FF8F00"/>
+    <text x="590" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF8F00">痛点二：差分隐私与推荐系统融合研究匮乏</text>
+    <text x="590" y="388" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">ε-差分隐私提供数学可证明的安全保障</text>
+    <text x="590" y="416" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">但现有工作集中于统计查询，与推荐系统结合极少</text>
+    <text x="590" y="444" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">→ 噪声对推荐精度的影响缺乏系统性研究</text>
+
+    <!-- Pain point 3 -->
+    <rect x="560" y="488" width="640" height="140" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="560" y="488" width="4" height="140" rx="2" fill="#00796B"/>
+    <text x="590" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="bold" fill="#00796B">痛点三：安全性与可解释性不足</text>
+    <text x="590" y="548" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">现有医疗推荐缺乏临床安全约束和审核机制</text>
+    <text x="590" y="576" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#546E7A">隐私保护与推荐精度难以兼顾，可解释性薄弱</text>
+    <text x="590" y="604" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">→ 医生难以信任和采纳推荐结果</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">02</text>
+</svg>

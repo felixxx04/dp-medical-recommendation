@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55" />
+            <stop offset="100%" stop-color="#AE6339" />
+        </linearGradient>
+        <marker id="flowArrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#6B7B8D" />
+        </marker>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+            <feOffset dx="0" dy="2" result="offsetblur" />
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor" />
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow" />
+            <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+        </filter>
+    </defs>
+    
+    <rect width="1280" height="720" fill="#EFE6DD" />
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)" />
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55" />
+    
+    <g id="header">
+        <path fill="#AE6339" d="M63,30 H63 A3,3 0 0 1 66,33 V59 A3,3 0 0 1 63,62 H63 A3,3 0 0 1 60,59 V33 A3,3 0 0 1 63,30 Z" />
+        <text x="80" y="54" font-family="Georgia, SimSun, serif" font-size="26" font-weight="bold" fill="#2E3F55">DeepFM模型设计</text>
+        <text x="80" y="74" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" letter-spacing="1">FM交叉 + DEEP高阶 + CONTINUOUS特征旁路</text>
+    </g>
+    
+    <path fill="#2E3F55" d="M68,85 H1212 A8,8 0 0 1 1220,93 V113 A8,8 0 0 1 1212,121 H68 A8,8 0 0 1 60,113 V93 A8,8 0 0 1 68,85 Z" />
+    <text x="80" y="108" font-family="Georgia, SimSun, serif" font-size="15" font-weight="bold" fill="#EFE6DD">DeepFM = FM捕获二阶交叉 + Deep捕获高阶特征 + 连续特征旁路直连输出 | Opacus兼容的Merged Embedding</text>
+    
+    <path fill="#2E3F55" d="M48,140 H72 A8,8 0 0 1 80,148 V552 A8,8 0 0 1 72,560 H48 A8,8 0 0 1 40,552 V148 A8,8 0 0 1 48,140 Z" />
+    <text x="60" y="360" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="20" fill="#FFFFFF">D</text>
+    
+    <path fill="#2E3F55" fill-opacity="0.04" stroke="#2E3F55" stroke-width="1.5" stroke-dasharray="6 4" d="M108,140 H1204 A12,12 0 0 1 1216,152 V548 A12,12 0 0 1 1204,560 H108 A12,12 0 0 1 96,548 V152 A12,12 0 0 1 108,140 Z" />
+    <text x="656" y="162" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#2E3F55" letter-spacing="1">DEEPFM MODEL · 14 CATEGORICAL FIELDS + 4 CONTINUOUS FEATURES · OUTPUT: SIGMOID(LOGIT)</text>
+    
+    <g id="card-fm">
+        <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" d="M128,180 H442 A8,8 0 0 1 450,188 V527 A8,8 0 0 1 442,535 H128 A8,8 0 0 1 120,527 V188 A8,8 0 0 1 128,180 Z" />
+        <path fill="#2E3F55" d="M123,200 H123 A3,3 0 0 1 126,203 V237 A3,3 0 0 1 123,240 H123 A3,3 0 0 1 120,237 V203 A3,3 0 0 1 123,200 Z" />
+        <path fill="#2E3F55" fill-opacity="0.08" d="M146,200 H166 A8,8 0 0 1 174,208 V228 A8,8 0 0 1 166,236 H146 A8,8 0 0 1 138,228 V208 A8,8 0 0 1 146,200 Z" />
+        <text x="156" y="224" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">FM</text>
+        <text x="186" y="222" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">FM交叉模块</text>
+        <path fill="#2E3F55" fill-opacity="0.04" d="M144,250 H426 A6,6 0 0 1 432,256 V272 A6,6 0 0 1 426,278 H144 A6,6 0 0 1 138,272 V256 A6,6 0 0 1 144,250 Z" />
+        <text x="285" y="269" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E3F55">二阶特征交互捕获</text>
+        <circle cx="150" cy="305" r="4" fill="#2E3F55" />
+        <text x="162" y="310" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">Merged Embedding</text>
+        <text x="162" y="330" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">单nn.Embedding + field_offsets</text>
+        <circle cx="150" cy="358" r="4" fill="#2E3F55" />
+        <text x="162" y="363" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">Opacus兼容</text>
+        <text x="162" y="383" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">支持DP-SGD训练</text>
+        <circle cx="150" cy="411" r="4" fill="#2E3F55" />
+        <text x="162" y="416" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">embed_dim=8</text>
+        <text x="162" y="436" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">14类别字段共享嵌入空间</text>
+        
+        <path fill="#2E3F55" fill-opacity="0.03" d="M144,462 H426 A6,6 0 0 1 432,468 V508 A6,6 0 0 1 426,514 H144 A6,6 0 0 1 138,508 V468 A6,6 0 0 1 144,462 Z" />
+        <line x1="285" y1="472" x2="285" y2="504" stroke="#D4B5B2" stroke-width="1" />
+        <text x="212" y="484" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D">字段数</text>
+        <text x="212" y="504" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">14</text>
+        <text x="358" y="484" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D">嵌入维度</text>
+        <text x="358" y="504" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">8</text>
+    </g>
+    
+    <line x1="455" y1="358" x2="475" y2="358" stroke="#6B7B8D" stroke-width="2" marker-end="url(#flowArrow)" />
+    
+    <g id="card-deep">
+        <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" d="M493,180 H807 A8,8 0 0 1 815,188 V527 A8,8 0 0 1 807,535 H493 A8,8 0 0 1 485,527 V188 A8,8 0 0 1 493,180 Z" />
+        <path fill="#AE6339" d="M488,200 H488 A3,3 0 0 1 491,203 V237 A3,3 0 0 1 488,240 H488 A3,3 0 0 1 485,237 V203 A3,3 0 0 1 488,200 Z" />
+        <path fill="#AE6339" fill-opacity="0.08" d="M511,200 H531 A8,8 0 0 1 539,208 V228 A8,8 0 0 1 531,236 H511 A8,8 0 0 1 503,228 V208 A8,8 0 0 1 511,200 Z" />
+        <text x="521" y="224" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#AE6339">D</text>
+        <text x="551" y="222" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">Deep高阶模块</text>
+        <path fill="#AE6339" fill-opacity="0.06" d="M509,250 H791 A6,6 0 0 1 797,256 V272 A6,6 0 0 1 791,278 H509 A6,6 0 0 1 503,272 V256 A6,6 0 0 1 509,250 Z" />
+        <text x="650" y="269" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#AE6339">高阶非线性特征组合</text>
+        <circle cx="515" cy="305" r="4" fill="#AE6339" />
+        <text x="527" y="310" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">MLP (64 → 32)</text>
+        <text x="527" y="330" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">两层全连接 + LayerNorm + ReLU</text>
+        <circle cx="515" cy="358" r="4" fill="#AE6339" />
+        <text x="527" y="363" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">差异化Dropout</text>
+        <text x="527" y="383" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">每层独立dropout率，防过拟合</text>
+        <circle cx="515" cy="411" r="4" fill="#AE6339" />
+        <text x="527" y="416" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">Focal Loss</text>
+        <text x="527" y="436" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">处理正负样本不平衡</text>
+        
+        <path fill="#AE6339" fill-opacity="0.03" d="M509,462 H791 A6,6 0 0 1 797,468 V508 A6,6 0 0 1 791,514 H509 A6,6 0 0 1 503,508 V468 A6,6 0 0 1 509,462 Z" />
+        <line x1="650" y1="472" x2="650" y2="504" stroke="#D4B5B2" stroke-width="1" />
+        <text x="577" y="484" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D">隐藏层</text>
+        <text x="577" y="504" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#AE6339">[64,32]</text>
+        <text x="723" y="484" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D">激活函数</text>
+        <text x="723" y="504" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#AE6339">ReLU</text>
+    </g>
+    
+    <line x1="820" y1="358" x2="840" y2="358" stroke="#6B7B8D" stroke-width="2" marker-end="url(#flowArrow)" />
+    
+    <g id="card-bypass">
+        <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" d="M858,180 H1182 A8,8 0 0 1 1190,188 V527 A8,8 0 0 1 1182,535 H858 A8,8 0 0 1 850,527 V188 A8,8 0 0 1 858,180 Z" />
+        <path fill="#2E7D32" d="M853,200 H853 A3,3 0 0 1 856,203 V237 A3,3 0 0 1 853,240 H853 A3,3 0 0 1 850,237 V203 A3,3 0 0 1 853,200 Z" />
+        <path fill="#2E7D32" fill-opacity="0.08" d="M876,200 H896 A8,8 0 0 1 904,208 V228 A8,8 0 0 1 896,236 H876 A8,8 0 0 1 868,228 V208 A8,8 0 0 1 876,200 Z" />
+        <text x="886" y="224" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E7D32">B</text>
+        <text x="916" y="222" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">连续特征旁路</text>
+        <path fill="#2E7D32" fill-opacity="0.06" d="M874,250 H1156 A6,6 0 0 1 1162,256 V272 A6,6 0 0 1 1156,278 H874 A6,6 0 0 1 868,272 V256 A6,6 0 0 1 874,250 Z" />
+        <text x="1015" y="269" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E7D32">绕过嵌入直接连输出层</text>
+        <circle cx="880" cy="305" r="4" fill="#2E7D32" />
+        <text x="892" y="310" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">age_raw</text>
+        <text x="892" y="330" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">患者年龄（连续值）</text>
+        <circle cx="880" cy="358" r="4" fill="#2E7D32" />
+        <text x="892" y="363" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">bmi_raw</text>
+        <text x="892" y="383" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">体质指数（连续值）</text>
+        <circle cx="880" cy="411" r="4" fill="#2E7D32" />
+        <text x="892" y="416" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E3F55">gfr_raw / liver_score_raw</text>
+        <text x="892" y="436" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D">肾功能 / 肝功能评分</text>
+        
+        <path fill="#2E7D32" fill-opacity="0.03" d="M874,462 H1156 A6,6 0 0 1 1162,468 V508 A6,6 0 0 1 1156,514 H874 A6,6 0 0 1 868,508 V468 A6,6 0 0 1 874,462 Z" />
+        <line x1="1015" y1="472" x2="1015" y2="504" stroke="#D4B5B2" stroke-width="1" />
+        <text x="942" y="484" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D">特征数</text>
+        <text x="942" y="504" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E7D32">4</text>
+        <text x="1088" y="484" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D">连接方式</text>
+        <text x="1088" y="504" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E7D32">直连</text>
+    </g>
+    
+    <path fill="#6B7B8D" d="M48,580 H72 A8,8 0 0 1 80,588 V672 A8,8 0 0 1 72,680 H48 A8,8 0 0 1 40,672 V588 A8,8 0 0 1 48,580 Z" />
+    <text x="60" y="638" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#FFFFFF">I/O</text>
+    <path fill="#2E3F55" fill-opacity="0.04" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4 4" d="M108,580 H1224 A12,12 0 0 1 1236,592 V668 A12,12 0 0 1 1224,680 H108 A12,12 0 0 1 96,668 V592 A12,12 0 0 1 108,580 Z" />
+    <text x="666" y="600" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="11" font-weight="bold" fill="#6B7B8D" letter-spacing="1">FEATURE SCHEMA · 14 CATEGORICAL + 4 CONTINUOUS = 18 TOTAL · 1815 DRUG CANDIDATES</text>
+    <path fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" d="M122,614 H280 A6,6 0 0 1 286,620 V642 A6,6 0 0 1 280,648 H122 A6,6 0 0 1 116,642 V620 A6,6 0 0 1 122,614 Z" />
+    <text x="201" y="636" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E3F55">训练样本: 58,525</text>
+    <path fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" d="M306,614 H464 A6,6 0 0 1 470,620 V642 A6,6 0 0 1 464,648 H306 A6,6 0 0 1 300,642 V620 A6,6 0 0 1 306,614 Z" />
+    <text x="385" y="636" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E3F55">药物候选: 1,815</text>
+    <path fill="#2E3F55" fill-opacity="0.06" stroke="#AE6339" stroke-width="1" d="M490,614 H648 A6,6 0 0 1 654,620 V642 A6,6 0 0 1 648,648 H490 A6,6 0 0 1 484,642 V620 A6,6 0 0 1 490,614 Z" />
+    <text x="569" y="636" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#AE6339">AUC-PR: 0.9466</text>
+    <path fill="#2E7D32" fill-opacity="0.08" stroke="#2E7D32" stroke-width="1" d="M674,614 H902 A6,6 0 0 1 908,620 V642 A6,6 0 0 1 902,648 H674 A6,6 0 0 1 668,642 V620 A6,6 0 0 1 674,614 Z" />
+    <text x="788" y="636" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E7D32">输出: sigmoid(logit) ∈ [0,1]</text>
+    <path fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" d="M930,614 H1198 A6,6 0 0 1 1204,620 V642 A6,6 0 0 1 1198,648 H930 A6,6 0 0 1 924,642 V620 A6,6 0 0 1 930,614 Z" />
+    <text x="1064" y="636" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#2E3F55">14字段: age/gender/bmi/renal/...</text>
+    
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">07</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)" />
+</svg>

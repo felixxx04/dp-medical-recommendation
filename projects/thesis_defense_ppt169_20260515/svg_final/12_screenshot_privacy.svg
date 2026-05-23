@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B" />
+      <stop offset="100%" stop-color="#1565C0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)" />
+
+  
+  <text x="80" y="55" font-family="KaiTi, Georgia, serif" font-size="30" font-weight="bold" fill="#1A1A2E">系统界面 — 隐私配置页面</text>
+  <path fill="url(#titleUnderline)" d="M81.50,65 H198.50 A1.50,1.50 0 0 1 200,66.50 V66.50 A1.50,1.50 0 0 1 198.50,68 H81.50 A1.50,1.50 0 0 1 80,66.50 V66.50 A1.50,1.50 0 0 1 81.50,65 Z" />
+
+  
+  <image href="images/screenshot_privacy.png" x="140" y="90" width="1000" height="580" preserveAspectRatio="xMidYMid meet" />
+
+  
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">12</text>
+</svg>

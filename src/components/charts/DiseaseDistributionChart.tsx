@@ -2,21 +2,21 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 const CHART_TOOLTIP_STYLE = {
-  backgroundColor: '#0f2744',
-  border: '1px solid rgba(14,165,233,0.20)',
+  backgroundColor: '#edf3fa',
+  border: '1px solid rgba(155,175,200,0.18)',
   borderRadius: '8px',
   fontSize: '12px',
-  color: '#f8fafc',
-  boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
+  color: '#1a3244',
+  boxShadow: '0 4px 12px rgba(148,168,195,0.25)',
 }
 
 const COLORS = [
-  '#0ea5e9',
+  '#0891b2',
   '#14b8a6',
-  '#22c55e',
-  '#f59e0b',
-  '#ef4444',
-  '#3b82f6',
+  '#059669',
+  '#b45309',
+  '#b91c1c',
+  '#0369a1',
   '#8b5cf6',
   '#ec4899',
 ]
@@ -27,7 +27,7 @@ interface DiseaseDistributionChartProps {
 
 export function DiseaseDistributionChart({ data }: DiseaseDistributionChartProps) {
   return (
-    <Card className="rounded-lg border border-white/[0.06] bg-surface-elevated shadow-xs">
+    <Card className="rounded-xl bg-card shadow-neu-raised">
       <CardHeader className="pb-2">
         <CardTitle className="text-base font-semibold text-foreground">疾病分布</CardTitle>
         <CardDescription>常见慢性病统计 (Top 8)</CardDescription>
@@ -38,22 +38,22 @@ export function DiseaseDistributionChart({ data }: DiseaseDistributionChartProps
             <BarChart data={data} layout="vertical" margin={{ left: 10, right: 10 }}>
               <defs>
                 <linearGradient id="diseaseBarGrad" x1="0" y1="0" x2="1" y2="0">
-                  <stop offset="0%" stopColor="#0284c7" />
-                  <stop offset="100%" stopColor="#0ea5e9" />
+                  <stop offset="0%" stopColor="#0891b2" />
+                  <stop offset="100%" stopColor="#0891b2" />
                 </linearGradient>
               </defs>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.08)" horizontal={false} />
-              <XAxis type="number" stroke="#94a3b8" tick={{ fontSize: 11, fill: '#94a3b8' }} />
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" horizontal={false} />
+              <XAxis type="number" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
               <YAxis
                 type="category"
                 dataKey="name"
-                stroke="#94a3b8"
-                tick={{ fontSize: 11, fill: '#94a3b8' }}
+                stroke="#5e7f92"
+                tick={{ fontSize: 11, fill: '#5e7f92' }}
                 width={80}
               />
               <Tooltip
                 contentStyle={CHART_TOOLTIP_STYLE}
-                itemStyle={{ color: '#f8fafc' }}
+                itemStyle={{ color: '#1a3244' }}
                 formatter={(value: number) => [`${value}人`, '患者数']}
               />
               <Bar dataKey="count" radius={[0, 4, 4, 0]} barSize={16}>

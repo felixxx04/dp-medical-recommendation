@@ -1,63 +1,59 @@
 <mxfile host="Electron">
   <diagram name="Privacy-Inference-Pipeline" id="0">
-    <mxGraphModel dx="1240" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1150" pageHeight="520" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="600" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;推理请求接收&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;患者ID&lt;br&gt;疾病信息&lt;br&gt;推荐参数&lt;/font&gt;" vertex="1">
-          <mxGeometry height="70" width="75" x="105" y="100" as="geometry" />
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;推理请求接收&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;患者ID&lt;br&gt;疾病信息&lt;br&gt;推荐参数&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="110" x="95" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;隐私预算检查&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;查询剩余ε预算&lt;br&gt;预算充足→继续&lt;br&gt;预算不足→拒绝/降级&lt;/font&gt;" vertex="1">
-          <mxGeometry height="70" width="110" x="220" y="100" as="geometry" />
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;隐私预算检查&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;查询剩余ε预算&lt;br&gt;预算充足→继续&lt;br&gt;预算不足→拒绝/降级&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="240" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;临床安全过滤&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;SafetyFilter+ RuleMarker&lt;br&gt;(无DP噪声介入)&lt;br&gt;得分&amp;lt;0.15→置零&lt;/font&gt;" vertex="1">
-          <mxGeometry height="75" width="100" x="370" y="97.5" as="geometry" />
+        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;临床安全过滤&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;SafetyFilter+RuleMarker&lt;br&gt;(无DP噪声介入)&lt;br&gt;得分&amp;lt;0.15→置零&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="430" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;DeepFM推理+DP噪声&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;DeepFM前向推理→原始得分&lt;br&gt;噪声注入:Laplace(Δf/ε)&lt;br&gt;　或Gaussian(σ=Δf·√2ln1.25/δ/ε)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="180" x="510" y="95" as="geometry" />
+        <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontColor=#000000;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;DeepFM推理+DP噪声&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;DeepFM前向推理→原始得分&lt;br&gt;噪声注入:Laplace(Δf/ε)&lt;br&gt;或Gaussian(σ=Δf·√2ln1.25/δ/ε)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="640" y="115" as="geometry" />
         </mxCell>
-        <mxCell id="s5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;后处理与输出&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font face=&quot;SimHei&quot;&gt;min(1.0,raw+0.35)上限&lt;br&gt;95%置信区间计算&lt;br&gt;审计日志记录&lt;/font&gt;" vertex="1">
-          <mxGeometry height="75" width="120" x="730" y="97.5" as="geometry" />
+        <mxCell id="s5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;后处理与输出&lt;/b&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;min(1.0,raw+0.35)上限&lt;br&gt;95%置信区间计算&lt;br&gt;审计日志记录&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="900" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bar" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;align=center;dashed=1;dashPattern=8 4;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;隐私预算全局管理&lt;/b&gt;　　隐私配置(ε,δ)→强组合定理累计消耗→预算用尽自动拒绝→定期重置&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="575" x="170" y="270" as="geometry" />
+        <mxCell id="bar" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;dashed=1;dashPattern=8 4;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;隐私预算全局管理&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;　隐私配置(ε,δ)→强组合定理累计消耗→预算用尽自动拒绝→定期重置&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="830" x="170" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="e_1_2" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s2">
+        <mxCell id="e_1_2" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="s2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_2_3" edge="1" parent="1" source="s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s3">
+        <mxCell id="e_2_3" edge="1" parent="1" source="s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="s3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_3_4" edge="1" parent="1" source="s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s4">
+        <mxCell id="e_3_4" edge="1" parent="1" source="s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="s4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_4_5" edge="1" parent="1" source="s4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s5">
+        <mxCell id="e_4_5" edge="1" parent="1" source="s4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="s5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_2_bar" edge="1" parent="1" source="s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=4 4;" target="bar">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="256" y="170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e_5_bar" edge="1" parent="1" source="s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=4 4;" target="bar">
+        <mxCell id="e_2_bar" edge="1" parent="1" source="s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.1;entryY=0;dashed=1;dashPattern=4 4;" target="bar">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_4_bar" edge="1" parent="1" source="s4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=4 4;" target="bar">
+        <mxCell id="e_5_bar" edge="1" parent="1" source="s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.9;entryY=0;dashed=1;dashPattern=4 4;" target="bar">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="note_s3" parent="1" style="text;html=1;fontSize=8;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;(DP后处理定理)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="15" width="100" x="505" y="178" as="geometry" />
+        <mxCell id="e_4_bar" edge="1" parent="1" source="s4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;dashPattern=4 4;" target="bar">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="note_s4" parent="1" style="text;html=1;fontSize=8;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;(仅此阶段消耗ε预算)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="15" width="120" x="730" y="178" as="geometry" />
+        <mxCell id="note_s3" parent="1" style="text;html=1;fontSize=13;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;(DP后处理定理)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="130" x="445" y="228" as="geometry" />
         </mxCell>
-        <mxCell id="div1" parent="1" style="text;html=1;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;推理前处理 (无隐私消耗)&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="160" x="185" y="75" as="geometry" />
+        <mxCell id="note_s4" parent="1" style="text;html=1;fontSize=13;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;(仅此阶段消耗ε预算)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="180" x="670" y="228" as="geometry" />
         </mxCell>
-        <mxCell id="div2" parent="1" style="text;html=1;fontSize=10;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;隐私保护推理(消耗ε预算)&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="180" x="710" y="70" as="geometry" />
+        <mxCell id="div1" parent="1" style="text;html=1;fontSize=13;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;推理前处理 (无隐私消耗)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="210" x="205" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="div2" parent="1" style="text;html=1;fontSize=13;fontColor=#000000;align=center;" value="&lt;font face=&quot;SimHei&quot;&gt;&lt;b&gt;隐私保护推理(消耗ε预算)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="630" y="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

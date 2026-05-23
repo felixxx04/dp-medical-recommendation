@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <clipPath id="clip1"><rect x="72" y="115" width="360" height="200" rx="6"/></clipPath>
+        <clipPath id="clip2"><rect x="460" y="115" width="360" height="200" rx="6"/></clipPath>
+        <clipPath id="clip3"><rect x="848" y="115" width="360" height="200" rx="6"/></clipPath>
+        <clipPath id="clip4"><rect x="72" y="390" width="540" height="275" rx="6"/></clipPath>
+        <clipPath id="clip5"><rect x="640" y="390" width="568" height="275" rx="6"/></clipPath>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <!-- Header -->
+    <g id="header">
+        <rect x="60" y="30" width="6" height="32" rx="3" fill="#AE6339"/>
+        <text x="80" y="54" font-family="Georgia, SimSun, serif" font-size="26" font-weight="bold" fill="#2E3F55">系统界面展示</text>
+        <text x="80" y="74" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" letter-spacing="1">SYSTEM SCREENSHOTS · REACT 18 + TAILWIND CSS · 5 CORE PAGES</text>
+    </g>
+    <!-- Top row: 3 screenshots -->
+    <!-- Screenshot 1: 推荐审核页面 -->
+    <g id="screenshot-1">
+        <rect x="60" y="100" width="380" height="240" rx="8" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <image href="../images/screenshot_review.png" x="72" y="115" width="360" height="200" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip1)"/>
+        <rect x="60" y="320" width="380" height="20" rx="0" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="0.5"/>
+        <text x="250" y="335" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E3F55">推荐审核页面</text>
+        <circle cx="74" cy="330" r="4" fill="#AE6339"/>
+    </g>
+    <!-- Screenshot 2: 用药推荐页面 -->
+    <g id="screenshot-2">
+        <rect x="448" y="100" width="380" height="240" rx="8" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <image href="../images/screenshot_recommendation.png" x="460" y="115" width="360" height="200" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip2)"/>
+        <rect x="448" y="320" width="380" height="20" rx="0" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="0.5"/>
+        <text x="638" y="335" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E3F55">用药推荐页面</text>
+        <circle cx="462" cy="330" r="4" fill="#2E3F55"/>
+    </g>
+    <!-- Screenshot 3: 隐私配置页面 -->
+    <g id="screenshot-3">
+        <rect x="836" y="100" width="380" height="240" rx="8" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <image href="../images/screenshot_privacy.png" x="848" y="115" width="360" height="200" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip3)"/>
+        <rect x="836" y="320" width="380" height="20" rx="0" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="0.5"/>
+        <text x="1026" y="335" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E3F55">隐私配置页面</text>
+        <circle cx="850" cy="330" r="4" fill="#2E7D32"/>
+    </g>
+    <!-- Bottom row: 2 screenshots -->
+    <!-- Screenshot 4: 推荐统计仪表板 -->
+    <g id="screenshot-4">
+        <rect x="60" y="370" width="560" height="310" rx="8" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <image href="../images/screenshot_dashboard.png" x="72" y="390" width="540" height="275" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip4)"/>
+        <rect x="60" y="665" width="560" height="15" rx="0" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="0.5"/>
+        <text x="340" y="677" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E3F55">推荐统计仪表板</text>
+        <circle cx="74" cy="672" r="4" fill="#AE6339"/>
+    </g>
+    <!-- Screenshot 5: 系统首页 -->
+    <g id="screenshot-5">
+        <rect x="628" y="370" width="588" height="310" rx="8" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <image href="../images/screenshot_home.png" x="640" y="390" width="568" height="275" preserveAspectRatio="xMidYMid meet" clip-path="url(#clip5)"/>
+        <rect x="628" y="665" width="588" height="15" rx="0" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="0.5"/>
+        <text x="922" y="677" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E3F55">系统首页</text>
+        <circle cx="642" cy="672" r="4" fill="#2E3F55"/>
+    </g>
+    <!-- Page number -->
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">09</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

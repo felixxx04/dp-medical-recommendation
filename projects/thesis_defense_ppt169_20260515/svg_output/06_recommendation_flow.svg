@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <marker id="stepArrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M 0,0 L 8,4 L 0,8 Z" fill="#00796B"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)"/>
+
+  <!-- Header -->
+  <text x="80" y="55" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">推荐流程与患者口语增强</text>
+  <rect x="80" y="67" width="160" height="3" rx="1.5" fill="url(#titleUnderline)"/>
+
+  <!-- 9-step flow — compact, keywords only -->
+  <text x="80" y="100" font-family="KaiTi, Georgia, serif" font-size="18" font-weight="bold" fill="#1A1A2E">推荐9步流程</text>
+
+  <!-- Row 1 -->
+  <rect x="80" y="115" width="115" height="40" rx="6" fill="#00796B" fill-opacity="0.08" stroke="#00796B" stroke-width="1"/>
+  <text x="137" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">1.患者信息</text>
+  <line x1="195" y1="135" x2="210" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="215" y="115" width="130" height="40" rx="6" fill="#00796B" fill-opacity="0.08" stroke="#00796B" stroke-width="1"/>
+  <text x="280" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">2.疾病映射</text>
+  <line x1="345" y1="135" x2="360" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="365" y="115" width="130" height="40" rx="6" fill="#C62828" fill-opacity="0.06" stroke="#C62828" stroke-width="1"/>
+  <text x="430" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">3.安全过滤</text>
+  <line x1="495" y1="135" x2="510" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="515" y="115" width="130" height="40" rx="6" fill="#FF8F00" fill-opacity="0.06" stroke="#FF8F00" stroke-width="1"/>
+  <text x="580" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">4.规则标记</text>
+  <line x1="645" y1="135" x2="660" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="665" y="115" width="130" height="40" rx="6" fill="#1565C0" fill-opacity="0.06" stroke="#1565C0" stroke-width="1"/>
+  <text x="730" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">5.DeepFM+DP</text>
+  <line x1="795" y1="135" x2="810" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="815" y="115" width="130" height="40" rx="6" fill="#00796B" fill-opacity="0.08" stroke="#00796B" stroke-width="1"/>
+  <text x="880" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">6.平衡选择</text>
+  <line x1="945" y1="135" x2="960" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="965" y="115" width="115" height="40" rx="6" fill="#00796B" fill-opacity="0.08" stroke="#00796B" stroke-width="1"/>
+  <text x="1022" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">7.解释生成</text>
+  <line x1="1080" y1="135" x2="1095" y2="135" stroke="#00796B" stroke-width="1.5" marker-end="url(#stepArrow)"/>
+
+  <rect x="1100" y="115" width="100" height="40" rx="6" fill="#C62828" fill-opacity="0.06" stroke="#C62828" stroke-width="1"/>
+  <text x="1150" y="141" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">8.DDI检查</text>
+
+  <!-- Row 2: just step 9 -->
+  <rect x="80" y="170" width="130" height="40" rx="6" fill="#2E7D32" fill-opacity="0.06" stroke="#2E7D32" stroke-width="1"/>
+  <text x="145" y="196" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1A1A2E" text-anchor="middle">9.质量保障</text>
+
+  <!-- Divider -->
+  <rect x="0" y="235" width="1280" height="1" fill="#E0E0E0"/>
+
+  <!-- Two columns: PatientInputEnhancer + Feedback -->
+  <!-- Left: PatientInputEnhancer -->
+  <text x="80" y="275" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#1A1A2E">患者口语增强</text>
+
+  <rect x="80" y="295" width="560" height="190" rx="10" fill="#F5F7FA" stroke="#00796B" stroke-width="1"/>
+  <text x="100" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#00796B">PatientInputEnhancer 三层Fallback</text>
+
+  <text x="100" y="358" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#546E7A">精确匹配 → 关键词匹配 → 症状组合推理</text>
+  <text x="100" y="388" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">全部失败 → 降级为症状级推荐 + 低置信度标记</text>
+
+  <text x="100" y="425" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#00796B">KnowledgeRouter 四级路由</text>
+  <text x="100" y="455" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">口语标准化 → 疾病归类 → 适应症映射 → 药品召回</text>
+  <text x="100" y="480" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">解决中文疾病名 → 英文适应症的语义鸿沟</text>
+
+  <!-- Right: Feedback Loop -->
+  <text x="680" y="275" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#1A1A2E">审核反馈闭环</text>
+
+  <rect x="680" y="295" width="520" height="190" rx="10" fill="#F5F7FA" stroke="#1565C0" stroke-width="1"/>
+  <text x="700" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1565C0">FeedbackLearner 渐进式惩罚</text>
+
+  <text x="700" y="358" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#546E7A">医生确认 / 修改 / 拒绝</text>
+  <text x="700" y="388" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#546E7A">惩罚系数：1次×0.7，2次×0.5，3次+×0.3</text>
+  <text x="700" y="418" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">被反复拒绝的药物权重持续衰减</text>
+
+  <text x="700" y="455" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2E7D32">推荐 → 审核 → 惩罚 → 优化 → 推荐</text>
+  <text x="700" y="480" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">闭环持续优化推荐权重</text>
+
+  <!-- Bottom stat -->
+  <rect x="80" y="520" width="1120" height="50" rx="8" fill="#00796B" fill-opacity="0.06"/>
+  <text x="640" y="550" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#00796B" text-anchor="middle" font-weight="bold">适应症路由覆盖率92.5%，支持1295种中文疾病输入</text>
+
+  <!-- Footer -->
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">06</text>
+</svg>

@@ -1,0 +1,210 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: +
+      - generic [ref=e5]: 智医荐药
+      - generic [ref=e6]: 隐私保护 · 智能推荐
+    - navigation [ref=e7]:
+      - generic [ref=e8] [cursor=pointer]: 首页
+      - generic [ref=e9] [cursor=pointer]: 用药推荐
+      - generic [ref=e10] [cursor=pointer]: 我的记录
+      - generic [ref=e11] [cursor=pointer]: 患者档案
+      - generic [ref=e12] [cursor=pointer]: 隐私配置
+      - generic [ref=e13] [cursor=pointer]: 后台管理
+    - generic [ref=e14]:
+      - generic [ref=e15]: A
+      - generic [ref=e16]:
+        - generic [ref=e17]: admin
+        - generic [ref=e18]: 管理员
+  - generic [ref=e19]:
+    - generic [ref=e20]: 用药推荐系统
+    - generic [ref=e21]: 基于差分隐私的三层推荐架构 · 安全过滤 → 规则标记 → 个性化排序
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 1,815
+        - generic [ref=e25]: 药物总数
+        - generic [ref=e26]: +12 本月新增
+      - generic [ref=e27]:
+        - generic [ref=e28]: 97.0%
+        - generic [ref=e29]: 安全数据覆盖
+        - generic [ref=e30]: +2.3%
+      - generic [ref=e31]:
+        - generic [ref=e32]: "0.9668"
+        - generic [ref=e33]: AUC-PR
+        - generic [ref=e34]: DeepFM
+      - generic [ref=e35]:
+        - generic [ref=e36]: ε=1.0
+        - generic [ref=e37]: 隐私预算
+        - generic [ref=e38]: 差分保护
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: 推荐结果
+              - generic [ref=e45]: "患者: 张三 · 高血压 + 2型糖尿病"
+            - generic [ref=e46]:
+              - button "刷新" [ref=e47] [cursor=pointer]
+              - button "生成推荐" [ref=e48] [cursor=pointer]
+          - generic [ref=e49]:
+            - generic [ref=e50]: "0.92"
+            - generic [ref=e51]:
+              - generic [ref=e52]: 氨氯地平 (Amlodipine)
+              - generic [ref=e53]: 钙通道阻滞剂 · 高血压一线用药
+            - generic [ref=e54]: 安全
+          - generic [ref=e55]:
+            - generic [ref=e56]: "0.87"
+            - generic [ref=e57]:
+              - generic [ref=e58]: 二甲双胍 (Metformin)
+              - generic [ref=e59]: 双胍类 · 2型糖尿病一线用药
+            - generic [ref=e60]: 需审核
+          - generic [ref=e61]:
+            - generic [ref=e62]: "0.74"
+            - generic [ref=e63]:
+              - generic [ref=e64]: 缬沙坦 (Valsartan)
+              - generic [ref=e65]: ARB类 · 高血压合并糖尿病
+            - generic [ref=e66]: 安全
+          - generic [ref=e67]:
+            - generic [ref=e68]: "0.68"
+            - generic [ref=e69]:
+              - generic [ref=e70]: 阿卡波糖 (Acarbose)
+              - generic [ref=e71]: α-葡萄糖苷酶抑制剂 · 餐后血糖
+            - generic [ref=e72]: 信息
+        - generic [ref=e73]:
+          - generic [ref=e75]: 患者信息录入
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: 患者ID
+              - textbox "输入患者ID..." [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e81]: 年龄
+              - textbox "输入年龄..." [ref=e82]
+            - generic [ref=e83]:
+              - generic [ref=e84]: 主要疾病
+              - textbox [ref=e85]: 高血压
+            - generic [ref=e86]:
+              - generic [ref=e87]: 合并疾病
+              - textbox [ref=e88]: 2型糖尿病
+          - generic [ref=e89]:
+            - button "查询推荐" [ref=e90] [cursor=pointer]
+            - button "重置" [ref=e91] [cursor=pointer]
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: 三层安全过滤
+            - generic [ref=e96]: 架构核心
+          - table [ref=e97]:
+            - rowgroup [ref=e98]:
+              - row "层级 功能 状态" [ref=e99]:
+                - columnheader "层级" [ref=e100]
+                - columnheader "功能" [ref=e101]
+                - columnheader "状态" [ref=e102]
+            - rowgroup [ref=e103]:
+              - row "L1 安全过滤 绝对禁忌排除 硬排除" [ref=e104]:
+                - cell "L1 安全过滤" [ref=e105]
+                - cell "绝对禁忌排除" [ref=e106]
+                - cell "硬排除" [ref=e107]:
+                  - generic [ref=e108]: 硬排除
+              - row "L2 规则标记 相对禁忌标记 软标记" [ref=e109]:
+                - cell "L2 规则标记" [ref=e110]
+                - cell "相对禁忌标记" [ref=e111]
+                - cell "软标记" [ref=e112]:
+                  - generic [ref=e113]: 软标记
+              - row "L3 DeepFM 个性化排序 DP保护" [ref=e114]:
+                - cell "L3 DeepFM" [ref=e115]
+                - cell "个性化排序" [ref=e116]
+                - cell "DP保护" [ref=e117]:
+                  - generic [ref=e118]: DP保护
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: 隐私预算
+            - generic [ref=e122]: 差分隐私
+          - generic [ref=e123]:
+            - generic [ref=e124]: ε 总预算
+            - generic [ref=e127]: 0.45 / 1.0
+          - generic [ref=e128]:
+            - generic [ref=e129]: δ 参数
+            - generic [ref=e131]: "1e-5"
+          - generic [ref=e132]:
+            - generic [ref=e133]: 噪声机制
+            - generic [ref=e134]: Laplace
+          - generic [ref=e135]:
+            - button "重置预算" [ref=e136] [cursor=pointer]
+            - button "查看日志" [ref=e137] [cursor=pointer]
+        - generic [ref=e138]:
+          - generic [ref=e140]: 安全标签
+          - generic [ref=e141]:
+            - generic [ref=e142]: 推荐用药
+            - generic [ref=e143]: 安全通过
+            - generic [ref=e144]: 需审核
+            - generic [ref=e145]: 禁忌排除
+            - generic [ref=e146]: 信息提示
+          - generic [ref=e147]:
+            - generic [ref=e148]: 按钮样式
+            - generic [ref=e149]:
+              - button "实心主按钮" [ref=e150] [cursor=pointer]
+              - button "玻璃主按钮" [ref=e151] [cursor=pointer]
+              - button "幽灵按钮" [ref=e152] [cursor=pointer]
+              - button "成功操作" [ref=e153] [cursor=pointer]
+              - button "危险操作" [ref=e154] [cursor=pointer]
+  - generic [ref=e155]:
+    - generic [ref=e156]: 配色方案 — 浅色医疗专业 + 玻璃质感
+    - generic [ref=e157]:
+      - generic [ref=e160]:
+        - generic [ref=e161]: Base White
+        - generic [ref=e162]: "#ffffff"
+      - generic [ref=e165]:
+        - generic [ref=e166]: Surface
+        - generic [ref=e167]: "#f8fafc"
+      - generic [ref=e170]:
+        - generic [ref=e171]: Muted
+        - generic [ref=e172]: "#f1f5f9"
+      - generic [ref=e175]:
+        - generic [ref=e176]: Primary
+        - generic [ref=e177]: "#0ea5e9"
+      - generic [ref=e180]:
+        - generic [ref=e181]: Foreground
+        - generic [ref=e182]: "#0f172a"
+      - generic [ref=e185]:
+        - generic [ref=e186]: Accent
+        - generic [ref=e187]: "#14b8a6"
+      - generic [ref=e190]:
+        - generic [ref=e191]: Border
+        - generic [ref=e192]: "#e2e8f0"
+      - generic [ref=e195]:
+        - generic [ref=e196]: Primary Dark
+        - generic [ref=e197]: "#0284c7"
+      - generic [ref=e200]:
+        - generic [ref=e201]: Secondary
+        - generic [ref=e202]: "#475569"
+      - generic [ref=e205]:
+        - generic [ref=e206]: Success
+        - generic [ref=e207]: "#16a34a"
+      - generic [ref=e210]:
+        - generic [ref=e211]: Danger
+        - generic [ref=e212]: "#dc2626"
+      - generic [ref=e215]:
+        - generic [ref=e216]: Warning
+        - generic [ref=e217]: "#b45309"
+  - generic [ref=e218]:
+    - heading "打印效果对比" [level=3] [ref=e219]
+    - paragraph [ref=e220]: 浅色主题在黑白打印时文字和边框清晰可读，深色主题打印后背景变灰、文字模糊。
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - heading "深色主题（旧）" [level=4] [ref=e223]
+        - paragraph [ref=e224]:
+          - text: 深蓝背景 + 浅色文字
+          - text: 打印后背景变灰，文字难以辨认
+          - text: 表格和卡片边框几乎不可见
+      - generic [ref=e225]:
+        - heading "浅色主题（新）" [level=4] [ref=e226]
+        - paragraph [ref=e227]:
+          - text: 白色背景 + 深色文字
+          - text: 打印效果与屏幕一致
+          - text: 表格、卡片、Badge 清晰可读
+  - generic [ref=e228]:
+    - generic [ref=e229]:
+      - generic [ref=e230]: +
+      - generic [ref=e231]: 智医荐药
+      - generic [ref=e232]: 差分隐私保护的智能用药推荐系统
+    - generic [ref=e233]: 基于差分隐私的 AI 个性化医疗用药推荐系统 · 保护隐私 · 精准推荐

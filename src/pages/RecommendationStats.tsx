@@ -64,16 +64,16 @@ export default function RecommendationStats() {
     })
   }
 
-  const PIE_COLORS = ['#0284c7', '#16a34a', '#ca8a04', '#dc2626', '#7c3aed', '#db2777', '#0d9488', '#ea580c', '#2563eb', '#9333ea', '#0891b2', '#65a30d']
-  const OTHER_COLOR = '#475569'
+  const PIE_COLORS = ['#0891b2', '#059669', '#b45309', '#b91c1c', '#7c3aed', '#db2777', '#0d9488', '#ea580c', '#0369a1', '#9333ea', '#0891b2', '#65a30d']
+  const OTHER_COLOR = '#5e7f92'
 
   if (loading) return <div className="p-8 text-center text-muted-foreground">加载统计数据...</div>
 
   return (
     <div className="space-y-6">
-      <section className="border-l-4 border-l-primary bg-surface-elevated px-6 py-8">
+      <section className="border-l-4 border-l-primary bg-background px-6 py-8">
         <div className="flex items-center gap-3">
-          <BarChart3 className="h-5 w-5 text-brand-sky" />
+          <BarChart3 className="h-5 w-5 text-primary" />
           <div>
             <h1 className="text-ia-tile font-display font-bold text-foreground">推荐统计</h1>
             <p className="text-ia-body text-muted-foreground mt-1">推荐分布统计 · 药物分析 · 审核概览</p>
@@ -84,8 +84,8 @@ export default function RecommendationStats() {
       {/* 指标卡片 */}
       <div className="grid grid-cols-4 gap-4">
         <Card hover="none"><CardContent className="p-5 text-center">
-          <TrendingUp className="h-5 w-5 text-brand-sky mx-auto mb-2" />
-          <div className="text-2xl font-heading font-bold text-brand-sky">{stats?.totalRecommendations || 0}</div>
+          <TrendingUp className="h-5 w-5 text-primary mx-auto mb-2" />
+          <div className="text-2xl font-heading font-bold text-primary">{stats?.totalRecommendations || 0}</div>
           <div className="text-sm text-muted-foreground">总推荐次数</div>
         </CardContent></Card>
         <Card hover="none"><CardContent className="p-5 text-center">
@@ -113,11 +113,11 @@ export default function RecommendationStats() {
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
               <LineChart data={stats?.trend || []}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
-                <XAxis dataKey="day" stroke="#64748b" tick={{ fontSize: 11 }} />
-                <YAxis stroke="#64748b" tick={{ fontSize: 11 }} allowDecimals={false} />
-                <Tooltip contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }} itemStyle={{ color: '#e2e8f0' }} labelStyle={{ color: '#94a3b8', fontSize: 11 }} />
-                <Line type="monotone" dataKey="count" stroke="#38bdf8" strokeWidth={2} dot={{ fill: '#38bdf8', r: 3 }} name="推荐数" />
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" />
+                <XAxis dataKey="day" stroke="#5e7f92" tick={{ fontSize: 11 }} />
+                <YAxis stroke="#5e7f92" tick={{ fontSize: 11 }} allowDecimals={false} />
+                <Tooltip contentStyle={{ background: '#edf3fa', border: '1px solid rgba(155,175,200,0.18)', borderRadius: 4, fontSize: 12, color: '#1a3244' }} itemStyle={{ color: '#1a3244' }} labelStyle={{ color: '#5e7f92', fontSize: 11 }} />
+                <Line type="monotone" dataKey="count" stroke="#0891b2" strokeWidth={2} dot={{ fill: '#0891b2', r: 3 }} name="推荐数" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -129,11 +129,11 @@ export default function RecommendationStats() {
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
               <BarChart data={stats?.topDrugs || []} layout="vertical" margin={{ left: 0, top: 5, right: 10, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
-                <XAxis type="number" stroke="#64748b" tick={{ fontSize: 11 }} allowDecimals={false} />
-                <YAxis dataKey="name" type="category" stroke="#64748b" tick={{ fontSize: 11, fill: '#cbd5e1' }} width={130} />
-                <Tooltip contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }} itemStyle={{ color: '#e2e8f0' }} labelStyle={{ color: '#94a3b8', fontSize: 11 }} />
-                <Bar dataKey="count" fill="#38bdf8" radius={[0, 3, 3, 0]} name="次数" />
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" />
+                <XAxis type="number" stroke="#5e7f92" tick={{ fontSize: 11 }} allowDecimals={false} />
+                <YAxis dataKey="name" type="category" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#3d5f73' }} width={160} interval={0} />
+                <Tooltip contentStyle={{ background: '#edf3fa', border: '1px solid rgba(155,175,200,0.18)', borderRadius: 4, fontSize: 12, color: '#1a3244' }} itemStyle={{ color: '#1a3244' }} labelStyle={{ color: '#5e7f92', fontSize: 11 }} />
+                <Bar dataKey="count" fill="#0891b2" radius={[0, 3, 3, 0]} name="次数" />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
@@ -146,7 +146,7 @@ export default function RecommendationStats() {
               <CardTitle className="text-base">药物分类分布</CardTitle>
               <button
                 onClick={() => setShowCategoryPicker(!showCategoryPicker)}
-                className="flex items-center gap-1 text-xs text-muted-foreground hover:text-brand-sky transition-colors"
+                className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors"
               >
                 <Settings className="h-3.5 w-3.5" />
                 选择分类
@@ -160,9 +160,9 @@ export default function RecommendationStats() {
                     onClick={() => toggleCategory(c.name)}
                     className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs transition-colors"
                     style={{
-                      background: selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : '#1e293b',
-                      color: selectedCategories.has(c.name) ? '#fff' : '#94a3b8',
-                      border: `1px solid ${selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : '#334155'}`,
+                      background: selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : '#edf3fa',
+                      color: selectedCategories.has(c.name) ? '#fff' : '#3d5f73',
+                      border: `1px solid ${selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : 'rgba(155,175,200,0.18)'}`,
                     }}
                   >
                     {c.name} ({c.value})
@@ -192,9 +192,9 @@ export default function RecommendationStats() {
                   ))}
                 </Pie>
                 <Tooltip
-                  contentStyle={{ background: '#0f1d32', border: '1px solid #334155', borderRadius: 4, fontSize: 12, color: '#e2e8f0' }}
-                  itemStyle={{ color: '#e2e8f0' }}
-                  labelStyle={{ color: '#94a3b8', fontSize: 11 }}
+                  contentStyle={{ background: '#edf3fa', border: '1px solid rgba(155,175,200,0.18)', borderRadius: 4, fontSize: 12, color: '#1a3244' }}
+                  itemStyle={{ color: '#1a3244' }}
+                  labelStyle={{ color: '#5e7f92', fontSize: 11 }}
                   formatter={(value: number, name: string) => [`${value} 次`, name]}
                 />
                 <Legend
@@ -203,7 +203,7 @@ export default function RecommendationStats() {
                   verticalAlign="middle"
                   iconType="circle"
                   iconSize={6}
-                  formatter={(value: string) => <span style={{ color: '#cbd5e1', fontSize: 11 }}>{value}</span>}
+                  formatter={(value: string) => <span style={{ color: '#3d5f73', fontSize: 11 }}>{value}</span>}
                 />
               </PieChart>
             </ResponsiveContainer>

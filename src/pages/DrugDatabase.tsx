@@ -51,9 +51,9 @@ export default function DrugDatabase() {
 
   return (
     <div className="space-y-6">
-      <section className="border-l-4 border-l-primary bg-surface-elevated px-6 py-8">
+      <section className="border-l-4 border-l-primary bg-background px-6 py-8">
         <div className="flex items-center gap-3">
-          <Pill className="h-5 w-5 text-brand-sky" />
+          <Pill className="h-5 w-5 text-primary" />
           <div>
             <h1 className="text-ia-tile font-display font-bold text-foreground">药物数据库</h1>
             <p className="text-ia-body text-muted-foreground mt-1">浏览系统支持的 {drugs.length} 种药物完整临床数据</p>
@@ -67,7 +67,7 @@ export default function DrugDatabase() {
           <Input value={search} onChange={e => setSearch(e.target.value)} placeholder="搜索药物名称..." className="pl-9" />
         </div>
         <select value={categoryFilter} onChange={e => setCategoryFilter(e.target.value)}
-          className="h-10 rounded-sm border border-white/[0.06] bg-surface-elevated px-3 text-sm">
+          className="h-10 rounded-sm border border-border bg-background px-3 text-sm">
           <option value="">所有分类 ({categories.length})</option>
           {categories.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
@@ -82,7 +82,7 @@ export default function DrugDatabase() {
               <div className="flex items-center justify-between cursor-pointer"
                 onClick={() => setExpandedId(expandedId === drug.id ? null : drug.id)}>
                 <div className="flex items-center gap-3">
-                  <Pill className="h-4 w-4 text-brand-sky" />
+                  <Pill className="h-4 w-4 text-primary" />
                   <span className="font-heading font-semibold">{drug.name}</span>
                   {drug.genericName && <span className="text-xs text-muted-foreground">({drug.genericName})</span>}
                   <span className="ia-badge ia-badge-primary text-[10px]">{drug.category}</span>
@@ -90,20 +90,20 @@ export default function DrugDatabase() {
                 {expandedId === drug.id ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
               </div>
               {expandedId === drug.id && (
-                <div className="mt-3 pt-3 border-t border-white/[0.06] grid md:grid-cols-2 gap-3 text-sm">
+                <div className="mt-3 pt-3 border-t border-border grid md:grid-cols-2 gap-3 text-sm">
                   <div><div className="text-muted-foreground text-xs mb-1">适应症</div>
                     <div className="flex flex-wrap gap-1">
-                      {parseList(drug.indications).map((ind, i) => <span key={i} className="text-xs px-1.5 py-0.5 rounded bg-brand-sky/10 text-brand-sky">{ind}</span>)}
+                      {parseList(drug.indications).map((ind, i) => <span key={i} className="text-xs px-1.5 py-0.5 rounded bg-primary/8 text-primary">{ind}</span>)}
                     </div>
                   </div>
                   <div><div className="text-muted-foreground text-xs mb-1">禁忌症</div>
                     <div className="flex flex-wrap gap-1">
-                      {parseList(drug.contraindications).map((c, i) => <span key={i} className="text-xs px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">{c}</span>)}
+                      {parseList(drug.contraindications).map((c, i) => <span key={i} className="text-xs px-1.5 py-0.5 rounded bg-destructive/6 text-destructive">{c}</span>)}
                     </div>
                   </div>
                   <div><div className="text-muted-foreground text-xs mb-1">副作用</div>
                     <div className="flex flex-wrap gap-1">
-                      {parseList(drug.sideEffects).slice(0, 10).map((se, i) => <span key={i} className="text-xs px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400">{se}</span>)}
+                      {parseList(drug.sideEffects).slice(0, 10).map((se, i) => <span key={i} className="text-xs px-1.5 py-0.5 rounded bg-warning/6 text-warning">{se}</span>)}
                     </div>
                   </div>
                   <div><div className="text-muted-foreground text-xs mb-1">其他信息</div>

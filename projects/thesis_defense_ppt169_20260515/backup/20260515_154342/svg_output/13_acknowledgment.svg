@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="bottomBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="ackDecor" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00796B" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#00796B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="720" fill="url(#ackDecor)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#bottomBar)"/>
+
+  <!-- Left vertical accent — mirroring cover slide -->
+  <rect x="80" y="200" width="4" height="300" fill="#00796B" fill-opacity="0.1" rx="2"/>
+
+  <!-- Title -->
+  <text x="640" y="240" font-family="KaiTi, Georgia, serif" font-size="52" font-weight="bold" fill="#1A1A2E" text-anchor="middle">致　谢</text>
+  <rect x="580" y="258" width="120" height="3" rx="1.5" fill="url(#titleUnderline)"/>
+
+  <!-- Acknowledgment content — centered, sparse -->
+  <text x="640" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#546E7A" text-anchor="middle">感谢指导教师侯慧莹老师的悉心指导</text>
+
+  <text x="640" y="400" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#546E7A" text-anchor="middle">感谢人工智能与大数据学院各位老师的培养</text>
+
+  <text x="640" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#546E7A" text-anchor="middle">感谢家人的理解与支持</text>
+
+  <!-- Decorative bottom elements -->
+  <rect x="0" y="600" width="1280" height="1" fill="#E0E0E0"/>
+
+  <!-- Bottom bar — mirroring cover -->
+  <rect x="0" y="660" width="1280" height="60" fill="url(#bottomBar)" fill-opacity="0.06"/>
+
+  <!-- Small decorative hexagons — echoing cover pattern -->
+  <polygon points="1100,540 1125,525 1150,540 1150,570 1125,585 1100,570" fill="none" stroke="#00796B" stroke-width="1" stroke-opacity="0.12"/>
+  <polygon points="1150,540 1175,525 1200,540 1200,570 1175,585 1150,570" fill="none" stroke="#1565C0" stroke-width="1" stroke-opacity="0.12"/>
+
+  <text x="120" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#90A4AE">2026年3月</text>
+
+  <!-- Footer page number -->
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">13</text>
+</svg>

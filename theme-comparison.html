@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>浅色主题方案对比</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', 'Noto Sans SC', -apple-system, sans-serif; background: #f1f5f9; padding: 24px; }
+    h1 { text-align: center; font-size: 24px; color: #0f172a; margin-bottom: 8px; }
+    .subtitle { text-align: center; color: #64748b; margin-bottom: 32px; font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1400px; margin: 0 auto; }
+    .scheme { border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .scheme-label { padding: 12px 20px; font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
+    .scheme-label .tag { font-weight: 500; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-left: 8px; }
+    .preview { padding: 20px; }
+
+    /* Scheme A: Medical Professional Light */
+    .scheme-a { background: #ffffff; }
+    .scheme-a .scheme-label { background: #0ea5e9; color: #fff; }
+    .scheme-a .tag { background: rgba(255,255,255,0.2); }
+    .scheme-a .card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+    .scheme-a .card-title { color: #0f172a; font-weight: 600; font-size: 14px; }
+    .scheme-a .card-text { color: #475569; font-size: 13px; margin-top: 4px; }
+    .scheme-a .btn-primary { background: #0ea5e9; color: #fff; border: none; padding: 8px 16px; border-radius: 8px; font-size: 13px; cursor: pointer; }
+    .scheme-a .btn-outline { background: #fff; color: #0ea5e9; border: 1px solid #0ea5e9; padding: 8px 16px; border-radius: 8px; font-size: 13px; }
+    .scheme-a .nav { display: flex; gap: 8px; margin-bottom: 16px; background: #f1f5f9; padding: 4px; border-radius: 8px; }
+    .scheme-a .nav-item { padding: 6px 12px; border-radius: 6px; font-size: 12px; color: #475569; }
+    .scheme-a .nav-item.active { background: #0ea5e9; color: #fff; }
+    .scheme-a .badge-primary { background: #e0f2fe; color: #0284c7; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-a .badge-success { background: #dcfce7; color: #16a34a; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-a .badge-warning { background: #fef3c7; color: #d97706; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-a .badge-danger { background: #fee2e2; color: #dc2626; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-a .stat { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center; }
+    .scheme-a .stat-value { font-size: 20px; font-weight: 700; color: #0f172a; }
+    .scheme-a .stat-label { font-size: 11px; color: #64748b; margin-top: 2px; }
+    .scheme-a .input { border: 1px solid #cbd5e1; border-radius: 6px; padding: 8px 12px; font-size: 13px; width: 100%; background: #fff; color: #0f172a; }
+    .scheme-a .table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .scheme-a .table th { text-align: left; padding: 8px; border-bottom: 2px solid #e2e8f0; color: #64748b; font-size: 11px; text-transform: uppercase; }
+    .scheme-a .table td { padding: 8px; border-bottom: 1px solid #f1f5f9; color: #334155; }
+
+    /* Scheme B: Brand Color Preserved */
+    .scheme-b { background: #ffffff; }
+    .scheme-b .scheme-label { background: #14b8a6; color: #fff; }
+    .scheme-b .tag { background: rgba(255,255,255,0.2); }
+    .scheme-b .card { background: #f0fdfa; border: 1px solid #99f6e4; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+    .scheme-b .card-title { color: #134e4a; font-weight: 600; font-size: 14px; }
+    .scheme-b .card-text { color: #475569; font-size: 13px; margin-top: 4px; }
+    .scheme-b .btn-primary { background: linear-gradient(135deg, #0ea5e9, #14b8a6); color: #fff; border: none; padding: 8px 16px; border-radius: 8px; font-size: 13px; }
+    .scheme-b .btn-outline { background: #fff; color: #14b8a6; border: 1px solid #14b8a6; padding: 8px 16px; border-radius: 8px; font-size: 13px; }
+    .scheme-b .nav { display: flex; gap: 8px; margin-bottom: 16px; background: #f0fdfa; padding: 4px; border-radius: 8px; }
+    .scheme-b .nav-item { padding: 6px 12px; border-radius: 6px; font-size: 12px; color: #475569; }
+    .scheme-b .nav-item.active { background: linear-gradient(135deg, #0ea5e9, #14b8a6); color: #fff; }
+    .scheme-b .badge-primary { background: #ccfbf1; color: #0d9488; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-b .badge-success { background: #dcfce7; color: #16a34a; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-b .badge-warning { background: #fef3c7; color: #d97706; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-b .badge-danger { background: #fee2e2; color: #dc2626; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-b .stat { background: #f0fdfa; border: 1px solid #99f6e4; border-radius: 8px; padding: 12px; text-align: center; }
+    .scheme-b .stat-value { font-size: 20px; font-weight: 700; color: #134e4a; }
+    .scheme-b .stat-label { font-size: 11px; color: #64748b; margin-top: 2px; }
+    .scheme-b .input { border: 1px solid #99f6e4; border-radius: 6px; padding: 8px 12px; font-size: 13px; width: 100%; background: #f0fdfa; color: #134e4a; }
+    .scheme-b .table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .scheme-b .table th { text-align: left; padding: 8px; border-bottom: 2px solid #99f6e4; color: #64748b; font-size: 11px; text-transform: uppercase; }
+    .scheme-b .table td { padding: 8px; border-bottom: 1px solid #f0fdfa; color: #334155; }
+
+    /* Scheme C: Minimal Adjustment */
+    .scheme-c { background: #f8fafc; }
+    .scheme-c .scheme-label { background: #334155; color: #fff; }
+    .scheme-c .tag { background: rgba(255,255,255,0.15); }
+    .scheme-c .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+    .scheme-c .card-title { color: #0f172a; font-weight: 600; font-size: 14px; }
+    .scheme-c .card-text { color: #475569; font-size: 13px; margin-top: 4px; }
+    .scheme-c .btn-primary { background: #0ea5e9; color: #fff; border: none; padding: 8px 16px; border-radius: 8px; font-size: 13px; }
+    .scheme-c .btn-outline { background: #fff; color: #475569; border: 1px solid #cbd5e1; padding: 8px 16px; border-radius: 8px; font-size: 13px; }
+    .scheme-c .nav { display: flex; gap: 8px; margin-bottom: 16px; }
+    .scheme-c .nav-item { padding: 6px 12px; border-radius: 6px; font-size: 12px; color: #64748b; }
+    .scheme-c .nav-item.active { color: #0ea5e9; border-bottom: 2px solid #0ea5e9; }
+    .scheme-c .badge-primary { background: #f1f5f9; color: #0284c7; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-c .badge-success { background: #f1f5f9; color: #16a34a; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-c .badge-warning { background: #f1f5f9; color: #d97706; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-c .badge-danger { background: #f1f5f9; color: #dc2626; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .scheme-c .stat { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center; }
+    .scheme-c .stat-value { font-size: 20px; font-weight: 700; color: #0f172a; }
+    .scheme-c .stat-label { font-size: 11px; color: #64748b; margin-top: 2px; }
+    .scheme-c .input { border: 1px solid #cbd5e1; border-radius: 6px; padding: 8px 12px; font-size: 13px; width: 100%; background: #fff; color: #0f172a; }
+    .scheme-c .table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .scheme-c .table th { text-align: left; padding: 8px; border-bottom: 1px solid #e2e8f0; color: #64748b; font-size: 11px; }
+    .scheme-c .table td { padding: 8px; border-bottom: 1px solid #f1f5f9; color: #334155; }
+
+    /* Shared */
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
+    .actions { display: flex; gap: 8px; margin-top: 12px; }
+    .form-group { margin-bottom: 8px; }
+    .form-label { font-size: 12px; font-weight: 600; margin-bottom: 4px; display: block; }
+    .badges { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+    .rec { font-size: 12px; margin-top: 12px; padding: 10px; border-radius: 8px; line-height: 1.6; }
+    .scheme-a .rec { background: #f8fafc; border: 1px dashed #cbd5e1; color: #334155; }
+    .scheme-b .rec { background: #f0fdfa; border: 1px dashed #99f6e4; color: #134e4a; }
+    .scheme-c .rec { background: #fff; border: 1px dashed #e2e8f0; color: #334155; }
+  </style>
+</head>
+<body>
+  <h1>浅色主题方案对比</h1>
+  <p class="subtitle">为论文截图打印清晰度优化 — 三种方案</p>
+
+  <div class="grid">
+    <!-- Scheme A -->
+    <div class="scheme scheme-a">
+      <div class="scheme-label">方案 A: 医疗专业浅色 <span class="tag">推荐</span></div>
+      <div class="preview">
+        <div class="nav">
+          <div class="nav-item active">首页</div>
+          <div class="nav-item">用药推荐</div>
+          <div class="nav-item">隐私配置</div>
+          <div class="nav-item">患者档案</div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-value">1,815</div><div class="stat-label">药物总数</div></div>
+          <div class="stat"><div class="stat-value">97%</div><div class="stat-label">安全覆盖</div></div>
+          <div class="stat"><div class="stat-value">0.97</div><div class="stat-label">AUC-PR</div></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">用药推荐结果</div>
+          <div class="card-text">基于患者高血压、糖尿病病史，推荐以下药物：</div>
+          <div class="badges">
+            <span class="badge-primary">推荐用药</span>
+            <span class="badge-success">安全</span>
+            <span class="badge-warning">需审核</span>
+            <span class="badge-danger">禁忌</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" style="color:#334155">患者信息</label>
+          <input class="input" placeholder="输入患者ID或姓名..." />
+        </div>
+
+        <table class="table">
+          <thead><tr><th>药物名称</th><th>评分</th><th>安全</th></tr></thead>
+          <tbody>
+            <tr><td>氨氯地平</td><td>0.92</td><td><span class="badge-success">安全</span></td></tr>
+            <tr><td>二甲双胍</td><td>0.87</td><td><span class="badge-warning">审核</span></td></tr>
+          </tbody>
+        </table>
+
+        <div class="actions">
+          <button class="btn-primary">生成推荐</button>
+          <button class="btn-outline">重置</button>
+        </div>
+
+        <div class="rec">
+          <strong>特点：</strong>纯白/浅灰背景 + 深色文字，标准医疗系统风格。配色最清晰，打印效果最佳，与论文整体风格一致。
+        </div>
+      </div>
+    </div>
+
+    <!-- Scheme B -->
+    <div class="scheme scheme-b">
+      <div class="scheme-label">方案 B: 品牌色保留 <span class="tag">个性</span></div>
+      <div class="preview">
+        <div class="nav">
+          <div class="nav-item active">首页</div>
+          <div class="nav-item">用药推荐</div>
+          <div class="nav-item">隐私配置</div>
+          <div class="nav-item">患者档案</div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-value">1,815</div><div class="stat-label">药物总数</div></div>
+          <div class="stat"><div class="stat-value">97%</div><div class="stat-label">安全覆盖</div></div>
+          <div class="stat"><div class="stat-value">0.97</div><div class="stat-label">AUC-PR</div></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">用药推荐结果</div>
+          <div class="card-text">基于患者高血压、糖尿病病史，推荐以下药物：</div>
+          <div class="badges">
+            <span class="badge-primary">推荐用药</span>
+            <span class="badge-success">安全</span>
+            <span class="badge-warning">审核</span>
+            <span class="badge-danger">禁忌</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" style="color:#334155">患者信息</label>
+          <input class="input" placeholder="输入患者ID或姓名..." />
+        </div>
+
+        <table class="table">
+          <thead><tr><th>药物名称</th><th>评分</th><th>安全</th></tr></thead>
+          <tbody>
+            <tr><td>氨氯地平</td><td>0.92</td><td><span class="badge-success">安全</span></td></tr>
+            <tr><td>二甲双胍</td><td>0.87</td><td><span class="badge-warning">审核</span></td></tr>
+          </tbody>
+        </table>
+
+        <div class="actions">
+          <button class="btn-primary">生成推荐</button>
+          <button class="btn-outline">重置</button>
+        </div>
+
+        <div class="rec">
+          <strong>特点：</strong>保留蓝→青渐变品牌色，浅色底 + 青绿色调。视觉辨识度高，但打印时渐变和青色可能不如纯蓝清晰。
+        </div>
+      </div>
+    </div>
+
+    <!-- Scheme C -->
+    <div class="scheme scheme-c">
+      <div class="scheme-label">方案 C: 最小调整 <span class="tag">保守</span></div>
+      <div class="preview">
+        <div class="nav">
+          <div class="nav-item active">首页</div>
+          <div class="nav-item">用药推荐</div>
+          <div class="nav-item">隐私配置</div>
+          <div class="nav-item">患者档案</div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-value">1,815</div><div class="stat-label">药物总数</div></div>
+          <div class="stat"><div class="stat-value">97%</div><div class="stat-label">安全覆盖</div></div>
+          <div class="stat"><div class="stat-value">0.97</div><div class="stat-label">AUC-PR</div></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">用药推荐结果</div>
+          <div class="card-text">基于患者高血压、糖尿病病史，推荐以下药物：</div>
+          <div class="badges">
+            <span class="badge-primary">推荐用药</span>
+            <span class="badge-success">安全</span>
+            <span class="badge-warning">审核</span>
+            <span class="badge-danger">禁忌</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" style="color:#334155">患者信息</label>
+          <input class="input" placeholder="输入患者ID或姓名..." />
+        </div>
+
+        <table class="table">
+          <thead><tr><th>药物名称</th><th>评分</th><th>安全</th></tr></thead>
+          <tbody>
+            <tr><td>氨氯地平</td><td>0.92</td><td><span class="badge-success">安全</span></td></tr>
+            <tr><td>二甲双胍</td><td>0.87</td><td><span class="badge-warning">审核</span></td></tr>
+          </tbody>
+        </table>
+
+        <div class="actions">
+          <button class="btn-primary">生成推荐</button>
+          <button class="btn-outline">重置</button>
+        </div>
+
+        <div class="rec">
+          <strong>特点：</strong>仅改背景色和文字色，不调整badge/按钮色调。改动量最小，但部分元素在浅色底上可能对比度不够。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="max-width: 1400px; margin: 32px auto 0; background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+    <h2 style="font-size: 16px; color: #0f172a; margin-bottom: 12px;">方案对比总结</h2>
+    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+      <thead>
+        <tr style="border-bottom: 2px solid #e2e8f0;">
+          <th style="padding: 10px; text-align: left; color: #64748b;">维度</th>
+          <th style="padding: 10px; text-align: center; color: #0ea5e9;">方案 A 医疗专业</th>
+          <th style="padding: 10px; text-align: center; color: #14b8a6;">方案 B 品牌色保留</th>
+          <th style="padding: 10px; text-align: center; color: #334155;">方案 C 最小调整</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid #f1f5f9;"><td style="padding: 10px; color: #334155;">打印清晰度</td><td style="padding: 10px; text-align: center; color: #16a34a; font-weight: 600;">最佳</td><td style="padding: 10px; text-align: center; color: #d97706; font-weight: 600;">良好</td><td style="padding: 10px; text-align: center; color: #d97706; font-weight: 600;">良好</td></tr>
+        <tr style="border-bottom: 1px solid #f1f5f9;"><td style="padding: 10px; color: #334155;">品牌辨识度</td><td style="padding: 10px; text-align: center; color: #d97706; font-weight: 600;">中等</td><td style="padding: 10px; text-align: center; color: #16a34a; font-weight: 600;">最佳</td><td style="padding: 10px; text-align: center; color: #64748b; font-weight: 600;">一般</td></tr>
+        <tr style="border-bottom: 1px solid #f1f5f9;"><td style="padding: 10px; color: #334155;">改动量</td><td style="padding: 10px; text-align: center; color: #d97706; font-weight: 600;">中等</td><td style="padding: 10px; text-align: center; color: #dc2626; font-weight: 600;">较大</td><td style="padding: 10px; text-align: center; color: #16a34a; font-weight: 600;">最小</td></tr>
+        <tr><td style="padding: 10px; color: #334155;">医疗专业感</td><td style="padding: 10px; text-align: center; color: #16a34a; font-weight: 600;">最强</td><td style="padding: 10px; text-align: center; color: #d97706; font-weight: 600;">良好</td><td style="padding: 10px; text-align: center; color: #64748b; font-weight: 600;">一般</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

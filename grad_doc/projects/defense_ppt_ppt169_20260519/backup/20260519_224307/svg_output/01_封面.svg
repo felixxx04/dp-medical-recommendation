@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="coverAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <linearGradient id="bottomBar" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="60%" stop-color="#AE6339"/>
+            <stop offset="100%" stop-color="#D4B5B2"/>
+        </linearGradient>
+        <filter id="softShadow" x="-15%" y="-15%" width="140%" height="140%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+            <feOffset dx="0" dy="4" result="offsetBlur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.08" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <!-- Decorative circles -->
+    <circle cx="1100" cy="150" r="200" fill="#2E3F55" fill-opacity="0.04"/>
+    <circle cx="1150" cy="200" r="120" fill="#AE6339" fill-opacity="0.06"/>
+    <circle cx="200" cy="600" r="150" fill="#D4B5B2" fill-opacity="0.08"/>
+    <!-- Top accent bar -->
+    <rect x="0" y="0" width="1280" height="8" fill="url(#bottomBar)"/>
+    <!-- Left accent stripe -->
+    <rect x="0" y="0" width="8" height="720" fill="url(#coverAccent)"/>
+    <!-- University badge area -->
+    <g id="badge">
+        <rect x="80" y="80" width="60" height="60" rx="10" fill="#2E3F55"/>
+        <use data-icon="chunk-filled/pills" x="88" y="88" width="44" height="44" fill="#EFE6DD"/>
+    </g>
+    <text x="155" y="105" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">河南工业大学</text>
+    <text x="155" y="128" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">Henan University of Technology</text>
+    <!-- Divider line -->
+    <line x1="80" y1="155" x2="520" y2="155" stroke="#D4B5B2" stroke-width="1.5"/>
+    <!-- Main title -->
+    <text x="80" y="280" font-family="Georgia, SimSun, serif" font-size="44" font-weight="bold" fill="#2E3F55">
+        <tspan x="80" dy="0">差分隐私保护的</tspan>
+        <tspan x="80" dy="58">AI驱动个性化医疗</tspan>
+        <tspan x="80" dy="58">用药推荐系统</tspan>
+    </text>
+    <!-- Accent line under title -->
+    <rect x="80" y="410" width="80" height="4" rx="2" fill="#AE6339"/>
+    <!-- Subtitle -->
+    <text x="80" y="460" font-family="Georgia, SimSun, serif" font-size="22" fill="#6B7B8D">Differential Privacy-Protected AI-Powered</text>
+    <text x="80" y="490" font-family="Georgia, SimSun, serif" font-size="22" fill="#6B7B8D">Personalized Medical Drug Recommendation System</text>
+    <!-- Bottom info area -->
+    <g id="info">
+        <rect x="80" y="570" width="500" height="100" rx="12" fill="#FFFFFF" fill-opacity="0.6" stroke="#D4B5B2" stroke-width="1"/>
+        <text x="110" y="605" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">本科毕业设计答辩</text>
+        <text x="110" y="635" font-family="Georgia, SimSun, serif" font-size="15" fill="#6B7B8D">答辩人：晋修慧</text>
+        <line x1="280" y1="590" x2="280" y2="650" stroke="#D4B5B2" stroke-width="1"/>
+        <text x="310" y="620" font-family="Georgia, SimSun, serif" font-size="15" fill="#6B7B8D">2026年5月</text>
+    </g>
+    <!-- Right side decoration: abstract medical/privacy icon group -->
+    <g id="right-decor" transform="translate(820, 250)">
+        <rect x="0" y="0" width="380" height="280" rx="20" fill="#2E3F55" fill-opacity="0.05" stroke="#2E3F55" stroke-opacity="0.1" stroke-width="1.5"/>
+        <!-- Shield icon (privacy) -->
+        <use data-icon="chunk-filled/shield" x="30" y="30" width="80" height="80" fill="#2E3F55" fill-opacity="0.15"/>
+        <!-- Brain/bolt icon (AI) -->
+        <use data-icon="chunk-filled/bolt" x="160" y="60" width="60" height="60" fill="#AE6339" fill-opacity="0.2"/>
+        <!-- Pills icon (medical) -->
+        <use data-icon="chunk-filled/pills" x="270" y="30" width="70" height="70" fill="#AE6339" fill-opacity="0.15"/>
+        <!-- Chart icon (data) -->
+        <use data-icon="chunk-filled/chart-bar" x="50" y="160" width="60" height="60" fill="#D4B5B2" fill-opacity="0.3"/>
+        <!-- Layers icon (architecture) -->
+        <use data-icon="chunk-filled/layers" x="170" y="170" width="55" height="55" fill="#2E3F55" fill-opacity="0.12"/>
+        <!-- Target icon -->
+        <use data-icon="chunk-filled/target" x="270" y="155" width="65" height="65" fill="#D4B5B2" fill-opacity="0.25"/>
+    </g>
+    <!-- Bottom gradient bar -->
+    <rect x="0" y="712" width="1280" height="8" fill="url(#bottomBar)"/>
+</svg>

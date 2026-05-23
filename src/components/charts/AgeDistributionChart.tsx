@@ -2,12 +2,12 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recha
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 const CHART_TOOLTIP_STYLE = {
-  backgroundColor: '#0f2744',
-  border: '1px solid rgba(14,165,233,0.20)',
+  backgroundColor: '#edf3fa',
+  border: '1px solid rgba(155,175,200,0.18)',
   borderRadius: '8px',
   fontSize: '12px',
-  color: '#f8fafc',
-  boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
+  color: '#1a3244',
+  boxShadow: '0 4px 12px rgba(148,168,195,0.25)',
 }
 
 interface AgeDistributionChartProps {
@@ -16,7 +16,7 @@ interface AgeDistributionChartProps {
 
 export function AgeDistributionChart({ data }: AgeDistributionChartProps) {
   return (
-    <Card className="rounded-lg border border-white/[0.06] bg-surface-elevated shadow-xs">
+    <Card className="rounded-xl bg-card shadow-neu-raised">
       <CardHeader className="pb-2">
         <CardTitle className="text-base font-semibold text-foreground">年龄分布</CardTitle>
         <CardDescription>患者年龄段统计</CardDescription>
@@ -42,13 +42,13 @@ export function AgeDistributionChart({ data }: AgeDistributionChartProps) {
               </Pie>
               <Tooltip
                 contentStyle={CHART_TOOLTIP_STYLE}
-                itemStyle={{ color: '#f8fafc' }}
+                itemStyle={{ color: '#1a3244' }}
                 formatter={(value: number) => [`${value}人`, '数量']}
               />
               <Legend
                 verticalAlign="bottom"
                 height={36}
-                wrapperStyle={{ color: '#cbd5e1', fontSize: '12px' }}
+                wrapperStyle={{ color: '#3d5f73', fontSize: '12px' }}
               />
             </PieChart>
           </ResponsiveContainer>

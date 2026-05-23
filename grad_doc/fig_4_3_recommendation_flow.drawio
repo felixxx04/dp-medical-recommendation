@@ -1,43 +1,43 @@
 <mxfile host="Electron">
   <diagram name="用药推荐流程图" id="recommendation-flow">
-    <mxGraphModel dx="945" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1200" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1364" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1200" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#000000;" value="开始" vertex="1">
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;开始&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="440" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="step0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontColor=#000000;" value="0. 患者输入疾病/症状&#xa;（口语化表达）" vertex="1">
+        <mxCell id="step0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 患者输入疾病/症状&lt;br&gt;（口语化表达）&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="180" x="390" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="1. PatientInputEnhancer&#xa;患者口语增强&#xa;精确匹配→关键词→症状组合" vertex="1">
+        <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;2. PatientInputEnhancer&lt;br&gt;患者口语增强&lt;br&gt;精确匹配→关键词→症状组合&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="2. KnowledgeRouter&#xa;临床知识路由&#xa;L1→L2→L3→L4 四级路由" vertex="1">
+        <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;3. KnowledgeRouter&lt;br&gt;临床知识路由&lt;br&gt;L1→L2→L3→L4 四级路由&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="3. SafetyFilter&#xa;安全过滤&#xa;12硬排除 + 9软标记" vertex="1">
+        <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;4. SafetyFilter&lt;br&gt;安全过滤&lt;br&gt;12硬排除 + 9软标记&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="decision1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="候选药物&#xa;数量&gt;0?" vertex="1">
+        <mxCell id="decision1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;候选药物&lt;br&gt;数量&amp;gt;0?&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="140" x="410" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="no_drug" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="提示：无合适药物&#xa;建议就医" vertex="1">
-          <mxGeometry height="60" width="120" x="585" y="480" as="geometry" />
+        <mxCell id="no_drug" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;提示：无合适药物&lt;br&gt;建议就医&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="585" y="485" as="geometry" />
         </mxCell>
-        <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="4. RuleMarker&#xa;规则标记&#xa;附加临床警告" vertex="1">
+        <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;5. RuleMarker&lt;br&gt;规则标记&lt;br&gt;附加临床警告&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="step5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="5. DeepFM排序&#xa;个性化评分&#xa;药类评分 + 反馈惩罚" vertex="1">
+        <mxCell id="step5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;6. DeepFM排序&lt;br&gt;个性化评分&lt;br&gt;药类评分 + 反馈惩罚&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="step6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="6. ReviewPanel&#xa;医生审核&#xa;确认/修改/拒绝" vertex="1">
+        <mxCell id="step6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;7. ReviewPanel&lt;br&gt;医生审核&lt;br&gt;确认/修改/拒绝&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="step7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="7. FeedbackLearner&#xa;反馈学习&#xa;更新惩罚权重" vertex="1">
+        <mxCell id="step7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;8. FeedbackLearner&lt;br&gt;反馈学习&lt;br&gt;更新惩罚权重&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="375" y="820" as="geometry" />
         </mxCell>
-        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#000000;" value="结束&#xa;返回推荐结果" vertex="1">
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;结束&lt;br&gt;返回推荐结果&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="420" y="900" as="geometry" />
         </mxCell>
         <mxCell id="arrow_start_step0" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;" target="step0">

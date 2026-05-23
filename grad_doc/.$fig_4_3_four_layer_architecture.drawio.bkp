@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="四层推荐安全架构" id="fig4-3">
+    <mxGraphModel dx="1229" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="图4-3 四层推荐安全架构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="385" y="5" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="患者输入&#xa;（口语化疾病/症状）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PatientInputEnhancer 患者口语增强" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="500" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 1 -->
+        <mxCell id="7" value="第一层：临床知识路由层 (KnowledgeRouter)" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=14;swimlaneFillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="225" width="950" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="L1 口语标准化&#xa;(154条映射)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="7">
+          <mxGeometry x="30" y="42" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="L2 疾病归类&#xa;(1,495条记录)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="7">
+          <mxGeometry x="260" y="42" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="L3 适应症映射&#xa;(200条规则)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="7">
+          <mxGeometry x="490" y="42" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="L4 药品召回&#xa;(候选药物集)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="7">
+          <mxGeometry x="720" y="42" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="7" source="8" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="7" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="7" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- L1→L2 -->
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 2 -->
+        <mxCell id="16" value="第二层：安全过滤层 (SafetyFilter) — DP噪声不影响此层" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=14;swimlaneFillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="365" width="950" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="硬排除规则 (12条)&#xa;过敏冲突/绝对禁忌/致命交互" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="16">
+          <mxGeometry x="30" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="软标记规则 (9条)&#xa;相对禁忌/超说明书用药" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="16">
+          <mxGeometry x="340" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="安全候选药物集&#xa;→ 进入下一层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#000000;align=center;" vertex="1" parent="16">
+          <mxGeometry x="650" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="16" source="17" target="18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="16" source="18" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- L2→L3 -->
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="16" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 3 -->
+        <mxCell id="23" value="第三层：规则标记层 (RuleMarker) — 软标记不排除候选药物" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=14;swimlaneFillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="505" width="950" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="特殊人群警告&#xa;妊娠/哺乳期/老年用药" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="23">
+          <mxGeometry x="30" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="药物相互作用提示&#xa;中等交互标记" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="23">
+          <mxGeometry x="340" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="肝肾功能调整标记&#xa;添加需审查标签" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="23">
+          <mxGeometry x="650" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="23" source="24" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="23" source="25" target="26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- L3→L4 -->
+        <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="23" target="30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 4 -->
+        <mxCell id="30" value="第四层：DeepFM个性化排序层 — DP噪声仅作用于此层" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=14;swimlaneFillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="645" width="950" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="DeepFM模型&#xa;FM特征交叉 + Deep深度网络" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="30">
+          <mxGeometry x="30" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="差分隐私噪声注入&#xa;Laplace/Gaussian + ε预算追踪" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="30">
+          <mxGeometry x="340" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="最终得分排序&#xa;Top-K 安全推荐" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#000000;align=center;" vertex="1" parent="30">
+          <mxGeometry x="650" y="42" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="30" source="31" target="32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="30" source="32" target="33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- L4→Review -->
+        <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="30" target="37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Review -->
+        <mxCell id="37" value="医生审核与反馈闭环" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=14;swimlaneFillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="785" width="950" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="ReviewPanel&#xa;确认/修改/拒绝" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="37">
+          <mxGeometry x="30" y="40" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="FeedbackLearner&#xa;渐进式惩罚学习" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="37">
+          <mxGeometry x="340" y="40" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="审核记录持久化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="37">
+          <mxGeometry x="650" y="40" width="270" height="50" as="geometry" />
+        </mxCell>
+        <!-- Review→Output -->
+        <mxCell id="41" value="安全推荐结果&#xa;（隐私保护输出）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="920" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="37" target="41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Feedback: Review right side → up → L4 right side, all within canvas -->
+        <mxCell id="43" value="反馈至DeepFM模型" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;dashed=1;dashPattern=8 4;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="37" target="30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="835" />
+              <mxPoint x="20" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

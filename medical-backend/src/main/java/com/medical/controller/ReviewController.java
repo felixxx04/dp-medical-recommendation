@@ -60,6 +60,12 @@ public class ReviewController {
         return ApiResponse.success(logs);
     }
 
+    @GetMapping("/stats")
+    public ApiResponse<Map<String, Long>> getReviewStats() {
+        Map<String, Long> stats = reviewLogRepository.countReviewStats();
+        return ApiResponse.success(stats);
+    }
+
     @GetMapping("/stats/rejections")
     public ApiResponse<List<Map<String, Object>>> getRejectionStats(
             @RequestParam String startDate,

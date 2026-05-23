@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B" />
+      <stop offset="100%" stop-color="#1565C0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)" />
+
+  
+  <text x="80" y="55" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">实验与测试结果</text>
+  <path fill="url(#titleUnderline)" d="M81.50,67 H198.50 A1.50,1.50 0 0 1 200,68.50 V68.50 A1.50,1.50 0 0 1 198.50,70 H81.50 A1.50,1.50 0 0 1 80,68.50 V68.50 A1.50,1.50 0 0 1 81.50,67 Z" />
+
+  
+  
+  <path fill="#FFFFFF" stroke="#C62828" stroke-width="1.5" d="M90,95 H340 A10,10 0 0 1 350,105 V215 A10,10 0 0 1 340,225 H90 A10,10 0 0 1 80,215 V105 A10,10 0 0 1 90,95 Z" />
+  <text x="100" y="122" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#C62828">ε=0.1 准确率下降</text>
+  <text x="100" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="42" font-weight="bold" fill="#1A1A2E">~10%</text>
+  <text x="100" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">隐私保护代价可控</text>
+
+  
+  <path fill="#FFFFFF" stroke="#1565C0" stroke-width="1.5" d="M380,95 H630 A10,10 0 0 1 640,105 V215 A10,10 0 0 1 630,225 H380 A10,10 0 0 1 370,215 V105 A10,10 0 0 1 380,95 Z" />
+  <text x="390" y="122" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1565C0">DP性能开销</text>
+  <text x="390" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="42" font-weight="bold" fill="#1A1A2E">~5ms</text>
+  <text x="390" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">噪声注入额外耗时</text>
+
+  
+  <path fill="#FFFFFF" stroke="#00796B" stroke-width="1.5" d="M670,95 H920 A10,10 0 0 1 930,105 V215 A10,10 0 0 1 920,225 H670 A10,10 0 0 1 660,215 V105 A10,10 0 0 1 670,95 Z" />
+  <text x="680" y="122" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#00796B">推荐响应时间</text>
+  <text x="680" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="42" font-weight="bold" fill="#1A1A2E">&lt;2s</text>
+  <text x="680" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">含四层架构+DP全流程</text>
+
+  
+  <path fill="#FFFFFF" stroke="#FF8F00" stroke-width="1.5" d="M960,95 H1210 A10,10 0 0 1 1220,105 V215 A10,10 0 0 1 1210,225 H960 A10,10 0 0 1 950,215 V105 A10,10 0 0 1 960,95 Z" />
+  <text x="970" y="122" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF8F00">药物候选规模</text>
+  <text x="970" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="42" font-weight="bold" fill="#1A1A2E">1807</text>
+  <text x="970" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#90A4AE">种药物实时推荐</text>
+
+  
+  <text x="80" y="260" font-family="KaiTi, Georgia, serif" font-size="18" font-weight="bold" fill="#1A1A2E">隐私预算 vs 准确率</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M88,278 H612 A8,8 0 0 1 620,286 V410 A8,8 0 0 1 612,418 H88 A8,8 0 0 1 80,410 V286 A8,8 0 0 1 88,278 Z" />
+  
+  <path fill="#00796B" fill-opacity="0.08" d="M88,278 H612 A8,8 0 0 1 620,286 V300 A8,8 0 0 1 612,308 H88 A8,8 0 0 1 80,300 V286 A8,8 0 0 1 88,278 Z" />
+  <rect x="80" y="300" width="540" height="8" fill="#00796B" fill-opacity="0.08" />
+  <text x="160" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#00796B" text-anchor="middle">ε 值</text>
+  <text x="310" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#00796B" text-anchor="middle">准确率下降</text>
+  <text x="490" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#00796B" text-anchor="middle">隐私保护强度</text>
+  
+  <text x="160" y="330" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1A1A2E" text-anchor="middle">1.0</text>
+  <text x="310" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#2E7D32" text-anchor="middle">~2%</text>
+  <text x="490" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A" text-anchor="middle">弱</text>
+  
+  <text x="160" y="360" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1A1A2E" text-anchor="middle">0.5</text>
+  <text x="310" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FF8F00" text-anchor="middle">~5%</text>
+  <text x="490" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A" text-anchor="middle">中</text>
+  
+  <text x="160" y="390" font-family="Consolas, Courier New, monospace" font-size="14" fill="#1A1A2E" text-anchor="middle">0.1</text>
+  <text x="310" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C62828" text-anchor="middle">~10%</text>
+  <text x="490" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A" text-anchor="middle">强</text>
+
+  
+  <text x="660" y="260" font-family="KaiTi, Georgia, serif" font-size="18" font-weight="bold" fill="#1A1A2E">安全数据覆盖</text>
+
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M668,278 H1192 A8,8 0 0 1 1200,286 V410 A8,8 0 0 1 1192,418 H668 A8,8 0 0 1 660,410 V286 A8,8 0 0 1 668,278 Z" />
+  <path fill="#1565C0" fill-opacity="0.08" d="M668,278 H1192 A8,8 0 0 1 1200,286 V300 A8,8 0 0 1 1192,308 H668 A8,8 0 0 1 660,300 V286 A8,8 0 0 1 668,278 Z" />
+  <rect x="660" y="300" width="540" height="8" fill="#1565C0" fill-opacity="0.08" />
+  <text x="770" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">类别</text>
+  <text x="930" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">覆盖率</text>
+  <text x="1100" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">数量</text>
+  
+  <text x="770" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E" text-anchor="middle">禁忌症</text>
+  <text x="930" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">95.3%</text>
+  <text x="1100" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A" text-anchor="middle">1831/1815</text>
+  
+  <text x="770" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E" text-anchor="middle">药物交互</text>
+  <text x="930" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FF8F00" text-anchor="middle" font-weight="bold">81.5%</text>
+  <text x="1100" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A" text-anchor="middle">1480/1815</text>
+  
+  <text x="770" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E" text-anchor="middle">任意安全数据</text>
+  <text x="930" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">97.0%</text>
+  <text x="1100" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A" text-anchor="middle">总体覆盖</text>
+
+  
+  <path fill="#F5F7FA" d="M90,440 H1190 A10,10 0 0 1 1200,450 V640 A10,10 0 0 1 1190,650 H90 A10,10 0 0 1 80,640 V450 A10,10 0 0 1 90,440 Z" />
+  <text x="100" y="472" font-family="KaiTi, Georgia, serif" font-size="18" font-weight="bold" fill="#1A1A2E">其他关键指标</text>
+
+  
+  
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M108,490 H342 A8,8 0 0 1 350,498 V552 A8,8 0 0 1 342,560 H108 A8,8 0 0 1 100,552 V498 A8,8 0 0 1 108,490 Z" />
+  <text x="225" y="518" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" font-weight="bold" fill="#00796B" text-anchor="middle">92.5%</text>
+  <text x="225" y="545" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A" text-anchor="middle">适应症路由覆盖率</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M378,490 H612 A8,8 0 0 1 620,498 V552 A8,8 0 0 1 612,560 H378 A8,8 0 0 1 370,552 V498 A8,8 0 0 1 378,490 Z" />
+  <text x="495" y="518" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1565C0" text-anchor="middle">1295</text>
+  <text x="495" y="545" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A" text-anchor="middle">种中文疾病输入支持</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M648,490 H882 A8,8 0 0 1 890,498 V552 A8,8 0 0 1 882,560 H648 A8,8 0 0 1 640,552 V498 A8,8 0 0 1 648,490 Z" />
+  <text x="765" y="518" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" font-weight="bold" fill="#2E7D32" text-anchor="middle">12/12</text>
+  <text x="765" y="545" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A" text-anchor="middle">功能测试全部通过</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M918,490 H1172 A8,8 0 0 1 1180,498 V552 A8,8 0 0 1 1172,560 H918 A8,8 0 0 1 910,552 V498 A8,8 0 0 1 918,490 Z" />
+  <text x="1045" y="518" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" font-weight="bold" fill="#2E7D32" text-anchor="middle">0 影响</text>
+  <text x="1045" y="545" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A" text-anchor="middle">SafetyFilter不受DP噪声影响</text>
+
+  
+  <path fill="#00796B" fill-opacity="0.06" d="M108,580 H1172 A8,8 0 0 1 1180,588 V622 A8,8 0 0 1 1172,630 H108 A8,8 0 0 1 100,622 V588 A8,8 0 0 1 108,580 Z" />
+  <text x="640" y="610" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#00796B" text-anchor="middle" font-weight="bold">核心发现：DP保护不降低模型质量 — DP模型separation(0.85)高于无DP基线(0.75)，更好区分高/低分药物</text>
+
+  
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">15</text>
+</svg>

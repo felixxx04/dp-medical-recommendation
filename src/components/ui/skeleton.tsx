@@ -10,7 +10,7 @@ export function Skeleton({ className = '' }: SkeletonProps) {
 
 export function PatientCardSkeleton() {
   return (
-    <div className="rounded-lg border border-white/[0.06] bg-surface-elevated p-6 shadow-xs">
+    <div className="rounded-xl bg-card shadow-neu-raised p-6">
       <div className="flex items-start gap-4">
         <Skeleton className="h-14 w-14 rounded-sm" />
         <div className="flex-1 space-y-3">
@@ -35,7 +35,7 @@ export function PatientCardSkeleton() {
 
 export function StatCardSkeleton() {
   return (
-    <div className="rounded-lg border border-white/[0.06] bg-surface-elevated p-5 shadow-xs">
+    <div className="rounded-xl bg-card shadow-neu-raised p-5">
       <Skeleton className="mb-3 h-10 w-10 rounded-sm" />
       <Skeleton className="h-8 w-16 mb-1" />
       <Skeleton className="h-4 w-20" />
@@ -45,7 +45,7 @@ export function StatCardSkeleton() {
 
 export function TableRowSkeleton({ columns = 5 }: { columns?: number }) {
   return (
-    <tr className="border-t border-white/[0.04]">
+    <tr className="border-t border-border/50">
       {Array.from({ length: columns }).map((_, i) => (
         <td key={i} className="p-3">
           <Skeleton className="h-4 w-full" />

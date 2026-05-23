@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <clipPath id="screenshotClip"><rect x="120" y="120" width="1040" height="520" rx="8"/></clipPath>
+    </defs>
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <rect x="60" y="30" width="6" height="32" rx="3" fill="#AE6339"/>
+    <text x="80" y="54" font-family="Georgia, SimSun, serif" font-size="26" font-weight="bold" fill="#2E3F55">系统界面 — 系统首页</text>
+    <text x="80" y="74" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" letter-spacing="1">HOME PAGE · 登录入口 + 功能导航 + 系统概览</text>
+    <rect x="100" y="100" width="1080" height="560" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+    <image href="../images/screenshot_home.png" x="120" y="120" width="1040" height="520" preserveAspectRatio="xMidYMid meet" clip-path="url(#screenshotClip)"/>
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">13</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

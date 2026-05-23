@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <linearGradient id="barGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#1a2a3d"/>
+        </linearGradient>
+        <linearGradient id="barGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#AE6339"/>
+            <stop offset="100%" stop-color="#8B4E2B"/>
+        </linearGradient>
+        <linearGradient id="barGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2E7D32"/>
+            <stop offset="100%" stop-color="#1B5E20"/>
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <!-- Header -->
+    <g id="header">
+        <rect x="60" y="30" width="6" height="32" rx="3" fill="#AE6339"/>
+        <text x="80" y="54" font-family="Georgia, SimSun, serif" font-size="26" font-weight="bold" fill="#2E3F55">实验结果与分析</text>
+        <text x="80" y="74" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" letter-spacing="1">PHASE 3 EXPERIMENTS · 58,525 SAMPLES · 1,815 DRUG CANDIDATES</text>
+    </g>
+    <!-- Takeaway -->
+    <rect x="60" y="85" width="1160" height="36" rx="8" fill="#2E3F55"/>
+    <text x="80" y="108" font-family="Georgia, SimSun, serif" font-size="15" font-weight="bold" fill="#EFE6DD">核心发现：DP保护不降质，模型区分度反而提升 | AUC-PR持平0.966，Separation从0.75提升至0.85</text>
+    <!-- Left: Grouped Bar Chart -->
+    <g id="chart-area">
+        <rect x="60" y="140" width="700" height="380" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="80" y="168" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">AUC-PR 与 Separation 对比</text>
+        <!-- Legend -->
+        <rect x="460" y="152" width="14" height="14" rx="3" fill="url(#barGrad1)"/>
+        <text x="480" y="164" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">No-DP</text>
+        <rect x="530" y="152" width="14" height="14" rx="3" fill="url(#barGrad2)"/>
+        <text x="550" y="164" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">DP ε=1.0</text>
+        <rect x="620" y="152" width="14" height="14" rx="3" fill="url(#barGrad3)"/>
+        <text x="640" y="164" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">DP ε=0.5</text>
+        <!-- Y-axis grid lines -->
+        <line x1="140" y1="480" x2="720" y2="480" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="140" y1="420" x2="720" y2="420" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="140" y1="360" x2="720" y2="360" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="140" y1="300" x2="720" y2="300" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="140" y1="240" x2="720" y2="240" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4,4"/>
+        <!-- Y-axis labels (0.0 to 1.0) -->
+        <text x="130" y="484" font-family="Consolas, Courier New, monospace" font-size="12" fill="#6B7B8D" text-anchor="end">0.0</text>
+        <text x="130" y="424" font-family="Consolas, Courier New, monospace" font-size="12" fill="#6B7B8D" text-anchor="end">0.2</text>
+        <text x="130" y="364" font-family="Consolas, Courier New, monospace" font-size="12" fill="#6B7B8D" text-anchor="end">0.4</text>
+        <text x="130" y="304" font-family="Consolas, Courier New, monospace" font-size="12" fill="#6B7B8D" text-anchor="end">0.6</text>
+        <text x="130" y="244" font-family="Consolas, Courier New, monospace" font-size="12" fill="#6B7B8D" text-anchor="end">0.8</text>
+        <text x="130" y="200" font-family="Consolas, Courier New, monospace" font-size="12" fill="#6B7B8D" text-anchor="end">1.0</text>
+        <!-- Axes -->
+        <line x1="140" y1="190" x2="140" y2="480" stroke="#6B7B8D" stroke-width="1.5"/>
+        <line x1="140" y1="480" x2="720" y2="480" stroke="#6B7B8D" stroke-width="1.5"/>
+        <!-- Group 1: AUC-PR -->
+        <!-- Scale: 0→480, 1.0→190; height per 0.01 = 2.9px -->
+        <!-- No-DP: 0.9668 → y=480-0.9668*290=480-280.4=199.6, h=280.4 -->
+        <rect x="200" y="200" width="50" height="280" rx="4" fill="url(#barGrad1)"/>
+        <text x="225" y="193" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E3F55" text-anchor="middle">0.9668</text>
+        <!-- DP ε=1.0: 0.9658 → y=480-0.9658*290=200.3, h=279.7 -->
+        <rect x="260" y="200" width="50" height="280" rx="4" fill="url(#barGrad2)"/>
+        <text x="285" y="193" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#AE6339" text-anchor="middle">0.9658</text>
+        <!-- DP ε=0.5: 0.9662 → y=480-0.9662*290=199.8, h=280.2 -->
+        <rect x="320" y="200" width="50" height="280" rx="4" fill="url(#barGrad3)"/>
+        <text x="345" y="193" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">0.9662</text>
+        <!-- Group 1 label -->
+        <text x="285" y="502" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55" text-anchor="middle">AUC-PR</text>
+        <!-- Group 2: Separation -->
+        <!-- No-DP: 0.7506 → y=480-0.7506*290=262.3, h=217.7 -->
+        <rect x="480" y="262" width="50" height="218" rx="4" fill="url(#barGrad1)"/>
+        <text x="505" y="255" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E3F55" text-anchor="middle">0.7506</text>
+        <!-- DP ε=1.0: 0.8505 → y=480-0.8505*290=233.4, h=246.6 -->
+        <rect x="540" y="233" width="50" height="247" rx="4" fill="url(#barGrad2)"/>
+        <text x="565" y="218" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#AE6339" text-anchor="middle">0.8505</text>
+        <!-- DP ε=0.5: 0.8506 → y=480-0.8506*290=233.3, h=246.7 -->
+        <rect x="600" y="233" width="50" height="247" rx="4" fill="url(#barGrad3)"/>
+        <text x="625" y="206" font-family="Consolas, Courier New, monospace" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">0.8506</text>
+        <!-- Group 2 label -->
+        <text x="565" y="502" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55" text-anchor="middle">Separation</text>
+        <!-- Delta annotation arrow for separation improvement -->
+        <line x1="505" y1="248" x2="565" y2="222" stroke="#AE6339" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <text x="525" y="243" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" font-weight="bold" fill="#AE6339">+13.3%</text>
+    </g>
+    <!-- Right: Key findings Z-pattern -->
+    <g id="findings">
+        <rect x="780" y="140" width="440" height="380" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="800" y="168" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">核心发现</text>
+        <!-- Finding 1 -->
+        <rect x="800" y="185" width="32" height="32" rx="16" fill="#2E3F55"/>
+        <text x="816" y="206" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#FFFFFF">1</text>
+        <text x="842" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">AUC-PR基本持平</text>
+        <text x="842" y="218" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">0.9668 → 0.9658 → 0.9662</text>
+        <text x="842" y="234" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">DP噪声对推荐精度影响可忽略</text>
+        <!-- Finding 2 -->
+        <rect x="800" y="255" width="32" height="32" rx="16" fill="#AE6339"/>
+        <text x="816" y="276" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#FFFFFF">2</text>
+        <text x="842" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">Separation显著提升</text>
+        <text x="842" y="288" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">0.7506 → 0.8505 → 0.8506</text>
+        <text x="842" y="304" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#AE6339" font-weight="bold">DP模型更好区分高分/低分药物</text>
+        <!-- Finding 3 -->
+        <rect x="800" y="325" width="32" height="32" rx="16" fill="#2E7D32"/>
+        <text x="816" y="346" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#FFFFFF">3</text>
+        <text x="842" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E3F55">安全过滤100%保留</text>
+        <text x="842" y="358" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">SafetyFilter层DP噪声零穿透</text>
+        <text x="842" y="374" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">所有ε值下安全过滤完全一致</text>
+        <!-- Safety guarantee box -->
+        <rect x="800" y="395" width="400" height="60" rx="8" fill="#2E7D32" fill-opacity="0.08" stroke="#2E7D32" stroke-width="1"/>
+        <text x="820" y="420" font-family="Georgia, SimSun, serif" font-size="14" font-weight="bold" fill="#2E7D32">安全保障验证</text>
+        <text x="820" y="440" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#2E3F55">临床安全后处理在所有ε值下结果一致</text>
+        <!-- Training info -->
+        <rect x="800" y="465" width="400" height="40" rx="6" fill="#2E3F55" fill-opacity="0.04"/>
+        <text x="820" y="490" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">训练样本: 58,525 | 药物候选: 1,815 | embed_dim=8</text>
+    </g>
+    <!-- Bottom: ε impact summary -->
+    <rect x="60" y="540" width="1160" height="150" rx="12" fill="#2E3F55" fill-opacity="0.04" stroke="#D4B5B2" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="640" y="565" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="12" font-weight="bold" fill="#6B7B8D" letter-spacing="1">ε值与隐私-效用权衡 · EXPERIMENTAL VERIFICATION</text>
+    <!-- Three ε cards -->
+    <rect x="100" y="580" width="320" height="90" rx="8" fill="#FFFFFF" stroke="#2E3F55" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="100" y="580" width="320" height="6" rx="3" fill="#2E3F55"/>
+    <text x="260" y="610" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">No-DP 基线</text>
+    <text x="180" y="638" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">AUC-PR</text>
+    <text x="180" y="658" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">0.9668</text>
+    <text x="340" y="638" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">Separation</text>
+    <text x="340" y="658" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E3F55">0.7506</text>
+    <rect x="480" y="580" width="320" height="90" rx="8" fill="#FFFFFF" stroke="#AE6339" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="480" y="580" width="320" height="6" rx="3" fill="#AE6339"/>
+    <text x="640" y="610" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#AE6339">DP ε=1.0</text>
+    <text x="560" y="638" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">AUC-PR</text>
+    <text x="560" y="658" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#AE6339">0.9658</text>
+    <text x="720" y="638" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">Separation</text>
+    <text x="720" y="658" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#AE6339">0.8505</text>
+    <rect x="860" y="580" width="320" height="90" rx="8" fill="#FFFFFF" stroke="#2E7D32" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="860" y="580" width="320" height="6" rx="3" fill="#2E7D32"/>
+    <text x="1020" y="610" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E7D32">DP ε=0.5</text>
+    <text x="940" y="638" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">AUC-PR</text>
+    <text x="940" y="658" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E7D32">0.9662</text>
+    <text x="1100" y="638" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#6B7B8D">Separation</text>
+    <text x="1100" y="658" text-anchor="middle" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#2E7D32">0.8506</text>
+    <!-- Page number -->
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">09</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

@@ -71,4 +71,12 @@ public interface ReviewLogRepository {
         WHERE r.id = #{id}
         """)
     Map<String, Object> findRecommendationById(@Param("id") Long id);
+
+    @Select("""
+        SELECT
+            SUM(CASE WHEN review_status = 'pending' THEN 1 ELSE 0 END) as pending,
+            SUM(CASE WHEN review_status IN ('confirmed', 'modified', 'rejected') THEN 1 ELSE 0 END) as reviewed
+        FROM recommendation
+        """)
+    Map<String, Long> countReviewStats();
 }

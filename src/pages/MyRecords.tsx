@@ -38,9 +38,9 @@ export default function MyRecords() {
 
   return (
     <div className="space-y-6">
-      <section className="border-l-4 border-l-primary bg-surface-elevated px-6 py-8">
+      <section className="border-l-4 border-l-primary bg-background px-6 py-8">
         <div className="flex items-center gap-3">
-          <FileText className="h-5 w-5 text-brand-sky" />
+          <FileText className="h-5 w-5 text-primary" />
           <div>
             <h1 className="text-ia-tile font-display font-bold text-foreground">我的记录</h1>
             <p className="text-ia-body text-muted-foreground mt-1">查看推荐历史和医生诊疗建议</p>
@@ -49,7 +49,7 @@ export default function MyRecords() {
       </section>
 
       {records.length === 0 ? (
-        <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-lg">
+        <div className="p-8 text-center text-muted-foreground border border-dashed border-border rounded-xl shadow-neu-flat">
           暂无推荐记录
         </div>
       ) : (
@@ -71,13 +71,13 @@ export default function MyRecords() {
                       <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', padding: '2px 8px', borderRadius: '3px', fontSize: '11px', fontWeight: 600, color: cfg.color, background: cfg.bg }}>
                         {STATUS_ICON[status]} {cfg.label}
                       </span>
-                      <button onClick={() => setExpandedId(expandedId === record.id ? null : record.id)} className="p-1 rounded hover:bg-surface">
+                      <button onClick={() => setExpandedId(expandedId === record.id ? null : record.id)} className="p-1 rounded hover:bg-surface-inset">
                         {expandedId === record.id ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                       </button>
                     </div>
                   </div>
                   {expandedId === record.id && (
-                    <div className="mt-3 pt-3 border-t border-white/[0.06]">
+                    <div className="mt-3 pt-3 border-t border-border">
                       <div className="text-sm text-muted-foreground mb-1">推荐药物：</div>
                       <div className="flex flex-wrap gap-1.5">
                         {record.recommendedDrugs.map((drug, i) => (

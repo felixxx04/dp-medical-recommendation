@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="coreBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00796B"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)"/>
+
+  <!-- Header -->
+  <text x="80" y="60" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">研究目标：四层推荐架构</text>
+  <rect x="80" y="72" width="160" height="3" rx="1.5" fill="url(#titleUnderline)"/>
+  <text x="80" y="100" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#546E7A">核心目标：在差分隐私保护下兼顾临床安全与推荐精度</text>
+
+  <!-- Center core — Goal statement -->
+  <rect x="490" y="140" width="300" height="80" rx="40" fill="url(#coreBg)"/>
+  <text x="640" y="172" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">安全 + 精准 + 隐私</text>
+  <text x="640" y="198" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#B2DFDB" text-anchor="middle">四层递进架构</text>
+
+  <!-- Connecting lines from core to layers -->
+  <line x1="520" y1="220" x2="200" y2="290" stroke="#00796B" stroke-width="1.5" stroke-opacity="0.3"/>
+  <line x1="580" y1="220" x2="460" y2="290" stroke="#00796B" stroke-width="1.5" stroke-opacity="0.3"/>
+  <line x1="700" y1="220" x2="780" y2="290" stroke="#1565C0" stroke-width="1.5" stroke-opacity="0.3"/>
+  <line x1="760" y1="220" x2="1060" y2="290" stroke="#1565C0" stroke-width="1.5" stroke-opacity="0.3"/>
+
+  <!-- Layer 0 — KnowledgeRouter -->
+  <rect x="80" y="290" width="260" height="280" rx="10" fill="#FFFFFF" stroke="#00796B" stroke-width="2"/>
+  <rect x="80" y="290" width="260" height="44" rx="10" fill="#00796B" fill-opacity="0.1"/>
+  <rect x="80" y="324" width="260" height="10" fill="#00796B" fill-opacity="0.1"/>
+  <text x="210" y="318" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#00796B" text-anchor="middle">第零层 KnowledgeRouter</text>
+  <text x="100" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A2E">四级确定性路由</text>
+  <text x="100" y="388" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">L1 口语标准化</text>
+  <text x="120" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">↓</text>
+  <text x="100" y="430" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">L2 疾病归类</text>
+  <text x="120" y="452" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">↓</text>
+  <text x="100" y="472" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">L3 适应症映射</text>
+  <text x="120" y="494" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">↓</text>
+  <text x="100" y="514" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">L4 药品召回</text>
+  <text x="100" y="548" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#00796B">解决中文疾病名→英文适应症的语义鸿沟</text>
+
+  <!-- Layer 1 — SafetyFilter -->
+  <rect x="360" y="290" width="260" height="280" rx="10" fill="#FFFFFF" stroke="#C62828" stroke-width="2"/>
+  <rect x="360" y="290" width="260" height="44" rx="10" fill="#C62828" fill-opacity="0.1"/>
+  <rect x="360" y="324" width="260" height="10" fill="#C62828" fill-opacity="0.1"/>
+  <text x="490" y="318" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#C62828" text-anchor="middle">第一层 SafetyFilter</text>
+  <text x="380" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A2E">12条硬排除 + 9类软标记</text>
+  <text x="380" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#C62828" font-weight="bold">硬排除（绝对安全红线）：</text>
+  <text x="380" y="414" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">过敏冲突、绝对禁忌症、致命交互</text>
+  <text x="380" y="438" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">妊娠X级、儿科禁忌、哺乳期L5</text>
+  <text x="380" y="470" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FF8F00" font-weight="bold">软标记（标记待审）：</text>
+  <text x="380" y="494" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">相对禁忌改为"标记待审"</text>
+  <text x="380" y="518" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">医生做最终判断</text>
+  <text x="380" y="548" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#C62828">确定性安全判断，DP噪声不影响此层</text>
+
+  <!-- Layer 2 — RuleMarker -->
+  <rect x="660" y="290" width="260" height="280" rx="10" fill="#FFFFFF" stroke="#FF8F00" stroke-width="2"/>
+  <rect x="660" y="290" width="260" height="44" rx="10" fill="#FF8F00" fill-opacity="0.1"/>
+  <rect x="660" y="324" width="260" height="10" fill="#FF8F00" fill-opacity="0.1"/>
+  <text x="790" y="318" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF8F00" text-anchor="middle">第二层 RuleMarker</text>
+  <text x="680" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A2E">7种软标记规则</text>
+  <text x="680" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">相对禁忌症、中等交互</text>
+  <text x="680" y="414" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">妊娠C/D警告</text>
+  <text x="680" y="438" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">肾功能警告、肝功能警告</text>
+  <text x="680" y="462" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">生育力警告、数据未验证</text>
+  <text x="680" y="496" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FF8F00" font-weight="bold">标记而非排除</text>
+  <text x="680" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">候选药物保留参与排序</text>
+  <text x="680" y="548" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FF8F00">为DeepFM排序提供安全上下文</text>
+
+  <!-- Layer 3 — DeepFM -->
+  <rect x="940" y="290" width="260" height="280" rx="10" fill="#FFFFFF" stroke="#1565C0" stroke-width="2"/>
+  <rect x="940" y="290" width="260" height="44" rx="10" fill="#1565C0" fill-opacity="0.1"/>
+  <rect x="940" y="324" width="260" height="10" fill="#1565C0" fill-opacity="0.1"/>
+  <text x="1070" y="318" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1565C0" text-anchor="middle">第三层 DeepFM</text>
+  <text x="960" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A2E">个性化排序 + DP噪声</text>
+  <text x="960" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">对安全候选药物精准评分</text>
+  <text x="960" y="418" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#1565C0" font-weight="bold">DP噪声仅在此层应用</text>
+  <text x="960" y="452" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">Merged Embedding + 连续特征旁路</text>
+  <text x="960" y="476" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">LayerNorm + Focal Loss</text>
+  <text x="960" y="510" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">临床阈值后处理保障安全性</text>
+  <text x="960" y="534" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#546E7A">不受噪声干扰</text>
+  <text x="960" y="548" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#1565C0">隐私保护与推荐精度的平衡点</text>
+
+  <!-- Bottom key principle -->
+  <rect x="80" y="600" width="1120" height="56" rx="8" fill="#00796B" fill-opacity="0.06"/>
+  <text x="640" y="630" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#00796B" text-anchor="middle" font-weight="bold">关键原则：噪声不影响安全过滤的确定性判断 — 隐私保护仅作用于个性化排序层</text>
+
+  <!-- Footer -->
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">03</text>
+</svg>

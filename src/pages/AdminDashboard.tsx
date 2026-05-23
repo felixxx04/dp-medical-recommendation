@@ -65,11 +65,12 @@ interface DashboardResponse {
 type LedgerFilter = 'all' | 'recommendation_inference' | 'training_epoch'
 
 const CHART_TOOLTIP_STYLE = {
-  backgroundColor: '#0f2744',
-  border: '1px solid rgba(255,255,255,0.12)',
+  backgroundColor: '#edf3fa',
+  border: '1px solid rgba(155,175,200,0.18)',
   borderRadius: '8px',
   fontSize: '12px',
-  color: '#f8fafc',
+  color: '#1a3244',
+  boxShadow: '0 4px 12px rgba(148,168,195,0.25)',
 }
 
 export default function AdminDashboard() {
@@ -247,9 +248,9 @@ export default function AdminDashboard() {
   return (
     <div className="space-y-8">
       {/* Page Header */}
-      <section className="border-l-4 border-l-primary bg-surface-elevated px-6 py-8">
+      <section className="border-l-4 border-l-primary bg-background px-6 py-8">
         <div className="flex items-start gap-4">
-          <div className="hidden md:flex h-10 w-10 items-center justify-center rounded-sm bg-gradient-to-br from-brand-sky to-sky-600 flex-shrink-0">
+          <div className="hidden md:flex h-10 w-10 items-center justify-center rounded-sm bg-gradient-to-br from-[#0a9dc4] to-[#077f9f] flex-shrink-0">
             <Shield className="h-5 w-5 text-white" />
           </div>
           <div className="flex-1">
@@ -260,10 +261,10 @@ export default function AdminDashboard() {
       </section>
 
       {/* Admin + Stats merged row */}
-      <div className="rounded-sm border border-white/[0.06] bg-surface-elevated px-5 py-3">
+      <div className="rounded-xl shadow-neu-raised bg-background px-5 py-3">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="flex h-9 w-9 items-center justify-center rounded-sm bg-gradient-to-br from-brand-sky to-sky-600">
+            <div className="flex h-9 w-9 items-center justify-center rounded-sm bg-gradient-to-br from-[#0a9dc4] to-[#077f9f]">
               <UserIcon className="h-4 w-4 text-white" />
             </div>
             <div>
@@ -288,7 +289,7 @@ export default function AdminDashboard() {
       )}
 
       {/* Tab navigation */}
-      <div className="flex gap-0 border-b border-white/[0.06]">
+      <div className="flex gap-0 border-b border-border">
         {([
           { key: 'users' as const, label: '用户管理', icon: Users },
           { key: 'training' as const, label: '模型训练', icon: Brain },
@@ -300,7 +301,7 @@ export default function AdminDashboard() {
               key={tab.key}
               onClick={() => setActiveTab(tab.key)}
               className={`px-4 py-2.5 text-sm font-medium transition-colors cursor-pointer flex items-center gap-2 ${
-                activeTab === tab.key ? 'text-brand-sky border-b-2 border-brand-sky' : 'text-muted-foreground hover:text-foreground border-b-2 border-transparent'
+                activeTab === tab.key ? 'text-primary border-b-2 border-primary' : 'text-muted-foreground hover:text-foreground border-b-2 border-transparent'
               }`}
             >
               <Icon className="h-4 w-4" />
@@ -314,7 +315,7 @@ export default function AdminDashboard() {
       {activeTab === 'users' && <section>
         <div className="mb-3 flex items-center justify-between">
           <h2 className="flex items-center gap-2 text-ia-card-title font-heading font-bold">
-            <Users className="h-4 w-4 text-brand-sky" />
+            <Users className="h-4 w-4 text-primary" />
             用户管理
           </h2>
           <Button size="sm" className="gap-1.5 cursor-pointer" onClick={() => setShowCreateModal(true)}>
@@ -324,7 +325,7 @@ export default function AdminDashboard() {
         </div>
         <Card hover="none">
           <CardContent className="pt-4">
-            <div className="overflow-x-auto rounded-sm border border-white/[0.06]">
+            <div className="overflow-x-auto rounded-sm border border-border">
               <table className="data-table">
                 <thead>
                   <tr>
@@ -370,26 +371,26 @@ export default function AdminDashboard() {
 
       {/* Create User Modal — accessible in all tabs */}
       {showCreateModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40" onClick={(e) => e.target === e.currentTarget && setShowCreateModal(false)}>
-          <div className="bg-surface-elevated rounded-sm p-6 max-w-sm w-full shadow-lg border border-border">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/10" onClick={(e) => e.target === e.currentTarget && setShowCreateModal(false)}>
+          <div className="bg-background rounded-sm p-6 max-w-sm w-full shadow-lg border border-border">
             <h3 className="text-ia-card-title font-heading font-bold mb-4">新增用户</h3>
             <div className="space-y-3">
               <div>
                 <label className="block text-ia-caption font-heading font-semibold mb-1">用户名</label>
                 <input value={newUsername} onChange={(e) => setNewUsername(e.target.value)}
-                  className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-ia-body focus-visible:outline-none focus-visible:border-brand-sky"
+                  className="flex h-10 w-full rounded-sm border border-border bg-background px-3 py-2 text-ia-body focus-visible:outline-none focus-visible:border-primary"
                   placeholder="请输入用户名" />
               </div>
               <div>
                 <label className="block text-ia-caption font-heading font-semibold mb-1">密码</label>
                 <input type="password" value={newPassword} onChange={(e) => setNewPassword(e.target.value)}
-                  className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-ia-body focus-visible:outline-none focus-visible:border-brand-sky"
+                  className="flex h-10 w-full rounded-sm border border-border bg-background px-3 py-2 text-ia-body focus-visible:outline-none focus-visible:border-primary"
                   placeholder="至少6个字符" />
               </div>
               <div>
                 <label className="block text-ia-caption font-heading font-semibold mb-1">角色</label>
                 <select value={newRole} onChange={(e) => setNewRole(e.target.value)}
-                  className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-ia-body focus-visible:outline-none focus-visible:border-brand-sky">
+                  className="flex h-10 w-full rounded-sm border border-border bg-background px-3 py-2 text-ia-body focus-visible:outline-none focus-visible:border-primary">
                   <option value="patient">患者</option>
                   <option value="doctor">医生</option>
                   <option value="admin">管理员</option>
@@ -407,7 +408,7 @@ export default function AdminDashboard() {
       {/* 模型训练 Tab */}
       {activeTab === 'training' && <section>
         <h2 className="mb-3 flex items-center gap-2 text-ia-card-title font-heading font-bold">
-          <Brain className="h-4 w-4 text-brand-sky" />
+          <Brain className="h-4 w-4 text-primary" />
           模型训练
         </h2>
         <div className="grid gap-5 lg:grid-cols-2">
@@ -418,19 +419,19 @@ export default function AdminDashboard() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="grid grid-cols-2 gap-2 text-ia-caption">
-                <div className="rounded-sm border border-white/[0.06] bg-surface-elevated p-2.5">
+                <div className="rounded-sm border border-border bg-background p-2.5">
                   <div className="text-ia-label text-muted-foreground">当前机制</div>
                   <div className="font-heading font-semibold capitalize">{config.noiseMechanism}</div>
                 </div>
-                <div className="rounded-sm border border-white/[0.06] bg-surface-elevated p-2.5">
+                <div className="rounded-sm border border-border bg-background p-2.5">
                   <div className="text-ia-label text-muted-foreground">注入阶段</div>
                   <div className="font-heading font-semibold">{config.applicationStage}</div>
                 </div>
-                <div className="rounded-sm border border-white/[0.06] bg-surface-elevated p-2.5">
+                <div className="rounded-sm border border-border bg-background p-2.5">
                   <div className="text-ia-label text-muted-foreground">每轮预算(估算)</div>
-                  <div className="font-heading font-semibold text-brand-sky">{(config.epsilon / Math.max(startEpochs, 1)).toFixed(4)}</div>
+                  <div className="font-heading font-semibold text-primary">{(config.epsilon / Math.max(startEpochs, 1)).toFixed(4)}</div>
                 </div>
-                <div className="rounded-sm border border-white/[0.06] bg-surface-elevated p-2.5">
+                <div className="rounded-sm border border-border bg-background p-2.5">
                   <div className="text-ia-label text-muted-foreground">预算剩余</div>
                   <div className="font-heading font-semibold text-secondary">{budget.remaining.toFixed(2)}</div>
                 </div>
@@ -438,7 +439,7 @@ export default function AdminDashboard() {
 
               <div className="space-y-1.5">
                 <label className="text-ia-caption font-heading font-semibold">训练轮次 (1-50)</label>
-                <input type="number" min={1} max={50} value={startEpochs} onChange={(event) => setStartEpochs(Number(event.target.value) || 1)} className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-ia-body font-body focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky" />
+                <input type="number" min={1} max={50} value={startEpochs} onChange={(event) => setStartEpochs(Number(event.target.value) || 1)} className="flex h-10 w-full rounded-sm border border-border bg-background px-3 py-2 text-ia-body font-body focus-visible:outline-none focus-visible:border-primary focus-visible:ring-1 focus-visible:ring-primary/30" />
               </div>
 
               <div className="flex gap-2">
@@ -452,7 +453,7 @@ export default function AdminDashboard() {
               {trainingRuns.length > 0 && (
                 <div className="space-y-1.5">
                   <label className="text-ia-caption font-heading font-semibold">选择训练任务</label>
-                  <select value={selectedRun?.id ?? ''} onChange={(event) => setSelectedTrainingId(Number(event.target.value))} className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-ia-body font-body focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky">
+                  <select value={selectedRun?.id ?? ''} onChange={(event) => setSelectedTrainingId(Number(event.target.value))} className="flex h-10 w-full rounded-sm border border-border bg-background px-3 py-2 text-ia-body font-body focus-visible:outline-none focus-visible:border-primary focus-visible:ring-1 focus-visible:ring-primary/30">
                     {trainingRuns.map((run) => (
                       <option key={run.id} value={run.id}>#{run.id} · {run.status} · {new Date(run.startedAt).toLocaleString()}</option>
                     ))}
@@ -477,12 +478,12 @@ export default function AdminDashboard() {
                 <div className="h-[240px]">
                   <ResponsiveContainer width="100%" height="100%">
                     <LineChart data={trainingSeries}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.08)" />
-                      <XAxis dataKey="epoch" stroke="#64748b" tick={{ fontSize: 11, fill: '#94a3b8' }} />
-                      <YAxis yAxisId="left" stroke="#64748b" tick={{ fontSize: 11, fill: '#94a3b8' }} />
-                      <YAxis yAxisId="right" orientation="right" domain={[50, 100]} stroke="#64748b" tick={{ fontSize: 11, fill: '#94a3b8' }} />
+                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" />
+                      <XAxis dataKey="epoch" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
+                      <YAxis yAxisId="left" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
+                      <YAxis yAxisId="right" orientation="right" domain={[50, 100]} stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
                       <Tooltip contentStyle={CHART_TOOLTIP_STYLE} />
-                      <Legend wrapperStyle={{ fontSize: '11px', color: '#cbd5e1' }} />
+                      <Legend wrapperStyle={{ fontSize: '11px', color: '#3d5f73' }} />
                       <Line yAxisId="left" type="monotone" dataKey="loss" name="Loss" stroke="#ef4444" strokeWidth={2} dot={{ r: 3, fill: '#ef4444' }} isAnimationActive={false} />
                       <Line yAxisId="right" type="monotone" dataKey="accuracy" name="Accuracy (%)" stroke="#14b8a6" strokeWidth={2} dot={{ r: 3, fill: '#14b8a6' }} isAnimationActive={false} />
                     </LineChart>
@@ -497,7 +498,7 @@ export default function AdminDashboard() {
       {/* 隐私账本 Tab */}
       {activeTab === 'ledger' && <section>
         <h2 className="mb-3 flex items-center gap-2 text-ia-card-title font-heading font-bold">
-          <Shield className="h-4 w-4 text-brand-sky" />
+          <Shield className="h-4 w-4 text-primary" />
           隐私预算账本
         </h2>
         <Card hover="none">
@@ -515,7 +516,7 @@ export default function AdminDashboard() {
                       key={item}
                       onClick={() => setLedgerFilter(item)}
                       className={`rounded-sm px-2 py-1 text-ia-label font-heading font-semibold transition-colors duration-150 cursor-pointer ${
-                        ledgerFilter === item ? 'bg-gradient-to-br from-brand-sky to-sky-600 text-white' : 'bg-surface text-muted-foreground hover:bg-surface/80'
+                        ledgerFilter === item ? 'bg-gradient-to-br from-[#0a9dc4] to-[#077f9f] text-white' : 'bg-surface-inset text-muted-foreground hover:bg-surface-inset/80'
                       }`}
                     >
                       {item === 'all' ? '全部' : item === 'recommendation_inference' ? '推荐推理' : '训练轮次'}
@@ -547,7 +548,7 @@ export default function AdminDashboard() {
               </div>
             </div>
 
-            <div className="overflow-x-auto rounded-sm border border-white/[0.06]">
+            <div className="overflow-x-auto rounded-sm border border-border">
               <table className="data-table">
                 <thead>
                   <tr>
@@ -562,7 +563,7 @@ export default function AdminDashboard() {
                     <tr key={event.id}>
                       <td className="whitespace-nowrap text-muted-foreground">{new Date(event.ts).toLocaleString()}</td>
                       <td><span className={event.type === 'recommendation_inference' ? 'ia-badge ia-badge-primary' : 'ia-badge ia-badge-info'}>{formatEventType(event.type)}</span></td>
-                      <td className="font-heading font-semibold text-brand-sky">+ε {event.epsilonSpent.toFixed(4)}</td>
+                      <td className="font-heading font-semibold text-primary">+ε {event.epsilonSpent.toFixed(4)}</td>
                       <td className="max-w-[200px] truncate text-muted-foreground">{event.note ?? '-'}</td>
                     </tr>
                   ))}

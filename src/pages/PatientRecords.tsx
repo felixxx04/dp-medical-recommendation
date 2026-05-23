@@ -114,11 +114,11 @@ export default function PatientRecords() {
       else groups['70岁以上']++
     })
     return [
-      { name: '30-40岁', value: groups['30-40岁'], color: '#0ea5e9' },
+      { name: '30-40岁', value: groups['30-40岁'], color: '#0891b2' },
       { name: '40-50岁', value: groups['40-50岁'], color: '#14b8a6' },
-      { name: '50-60岁', value: groups['50-60岁'], color: '#22c55e' },
+      { name: '50-60岁', value: groups['50-60岁'], color: '#059669' },
       { name: '60-70岁', value: groups['60-70岁'], color: '#f59e0b' },
-      { name: '70岁以上', value: groups['70岁以上'], color: '#3b82f6' },
+      { name: '70岁以上', value: groups['70岁以上'], color: '#0369a1' },
     ].filter((d) => d.value > 0)
   }, [patients])
 
@@ -216,7 +216,7 @@ export default function PatientRecords() {
     <button
       onClick={() => toggleSort(keyName)}
       className={`flex items-center gap-1 rounded-sm px-2.5 py-1 text-xs font-semibold transition-colors duration-150 cursor-pointer ${
-        sortKey === keyName ? 'bg-brand-sky/8 text-brand-sky border border-brand-sky/20' : 'text-muted-foreground hover:bg-surface border border-transparent'
+        sortKey === keyName ? 'bg-primary/8 text-primary border border-primary/12' : 'text-muted-foreground hover:bg-surface-inset border border-transparent'
       }`}
     >
       {label}
@@ -228,10 +228,10 @@ export default function PatientRecords() {
   return (
     <div className="space-y-8">
       {/* Page Header */}
-      <section className="border-l-4 border-l-primary bg-surface-elevated px-6 py-8">
+      <section className="border-l-4 border-l-primary bg-background px-6 py-8">
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-start gap-4">
-            <div className="hidden md:flex h-10 w-10 items-center justify-center rounded-sm bg-gradient-to-br from-brand-sky to-sky-600 flex-shrink-0">
+            <div className="hidden md:flex h-10 w-10 items-center justify-center rounded-sm bg-gradient-to-br from-[#0a9dc4] to-[#077f9f] flex-shrink-0">
               <Users className="h-5 w-5 text-white" />
             </div>
             <div>
@@ -253,7 +253,7 @@ export default function PatientRecords() {
       )}
 
       {/* Stats — compact single row */}
-      <div className="rounded-sm border border-white/[0.06] bg-surface-elevated px-5 py-3">
+      <div className="rounded-xl bg-background px-5 py-3 shadow-neu-raised">
         {isLoading ? (
           <div className="text-xs text-muted-foreground">加载中...</div>
         ) : (
@@ -274,7 +274,7 @@ export default function PatientRecords() {
       </div>
 
       {/* Charts — collapsed by default */}
-      <div className="rounded-sm border border-white/[0.06] bg-surface-elevated px-5 py-3">
+      <div className="rounded-xl bg-background px-5 py-3 shadow-neu-raised">
         <div
           className="flex items-center justify-between cursor-pointer"
           onClick={() => setShowCharts(!showCharts)}
@@ -310,7 +310,7 @@ export default function PatientRecords() {
       <AnimatePresence>
         {showAddForm && (
           <div className="animate-fade-in">
-            <Card ref={addFormRef} hover="none" className="border-brand-sky/20 scroll-mt-[60px]">
+            <Card ref={addFormRef} hover="none" className="border-primary/12 scroll-mt-[60px]">
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div>
@@ -326,9 +326,9 @@ export default function PatientRecords() {
                 <CardContent className="space-y-5">
                   {/* Step indicator */}
                   <div className="flex items-center gap-3 mb-2">
-                    <button type="button" className={`text-sm font-semibold ${formStep === 1 ? 'text-brand-sky border-b-2 border-brand-sky pb-1' : 'text-muted-foreground pb-1'}`}>① 基本信息</button>
+                    <button type="button" className={`text-sm font-semibold ${formStep === 1 ? 'text-primary border-b-2 border-primary pb-1' : 'text-muted-foreground pb-1'}`}>① 基本信息</button>
                     <span className="text-muted-foreground">→</span>
-                    <button type="button" className={`text-sm font-semibold ${formStep === 2 ? 'text-brand-sky border-b-2 border-brand-sky pb-1' : 'text-muted-foreground pb-1'}`}>② 健康档案</button>
+                    <button type="button" className={`text-sm font-semibold ${formStep === 2 ? 'text-primary border-b-2 border-primary pb-1' : 'text-muted-foreground pb-1'}`}>② 健康档案</button>
                   </div>
 
                   {formStep === 1 ? (
@@ -343,7 +343,7 @@ export default function PatientRecords() {
                       </div>
                       <div className="space-y-1.5">
                         <Label htmlFor="p-gender" className="text-sm font-semibold">性别 *</Label>
-                        <select id="p-gender" value={formData.gender} onChange={(event) => setFormData({ ...formData, gender: event.target.value as PatientGender })} className="flex h-10 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-base focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky">
+                        <select id="p-gender" value={formData.gender} onChange={(event) => setFormData({ ...formData, gender: event.target.value as PatientGender })} className="flex h-10 w-full rounded-sm border border-border bg-background px-3 py-2 text-base focus-visible:outline-none focus-visible:border-primary focus-visible:ring-1 focus-visible:ring-primary/30">
                           <option value="男">男</option>
                           <option value="女">女</option>
                           <option value="未知">未知</option>
@@ -376,7 +376,7 @@ export default function PatientRecords() {
                       <div className="space-y-1.5"><Label htmlFor="p-meds" className="text-sm font-semibold">当前用药（逗号分隔）</Label><Input id="p-meds" value={formData.currentMedications} onChange={(event) => setFormData({ ...formData, currentMedications: event.target.value })} /></div>
                       <div className="space-y-1.5">
                         <Label htmlFor="p-history" className="text-sm font-semibold">既往病史</Label>
-                        <textarea id="p-history" value={formData.medicalHistory} onChange={(event) => setFormData({ ...formData, medicalHistory: event.target.value })} className="flex min-h-[80px] w-full resize-none rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-2 text-base focus-visible:outline-none focus-visible:border-brand-sky focus-visible:ring-1 focus-visible:ring-brand-sky" />
+                        <textarea id="p-history" value={formData.medicalHistory} onChange={(event) => setFormData({ ...formData, medicalHistory: event.target.value })} className="flex min-h-[80px] w-full resize-none rounded-sm border border-border bg-background px-3 py-2 text-base focus-visible:outline-none focus-visible:border-primary focus-visible:ring-1 focus-visible:ring-primary/30" />
                       </div>
                       <div className="flex gap-2 pt-3">
                         <Button type="button" variant="outline" onClick={() => setFormStep(1)} className="cursor-pointer">← 上一步</Button>
@@ -418,7 +418,7 @@ export default function PatientRecords() {
                     <div className="cursor-pointer p-4" onClick={() => setExpandedPatient(isExpanded ? null : patient.id)}>
                       <div className="flex items-center justify-between">
                         <div className="flex min-w-0 flex-1 items-center gap-3">
-                          <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-sm bg-gradient-to-br from-brand-sky to-sky-600">
+                          <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-sm bg-gradient-to-br from-[#0a9dc4] to-[#077f9f]">
                             <User className="h-5 w-5 text-white" />
                           </div>
                           <div className="min-w-0 flex-1">
@@ -435,7 +435,7 @@ export default function PatientRecords() {
                         </div>
 
                         <div className="ml-2 flex flex-shrink-0 items-center gap-0.5">
-                          <Button variant="ghost" size="sm" className="gap-1 text-xs text-brand-sky hover:text-brand-sky cursor-pointer" onClick={(event) => { event.stopPropagation(); handleGoToRecommendation(patient) }}>
+                          <Button variant="ghost" size="sm" className="gap-1 text-xs text-primary hover:text-primary cursor-pointer" onClick={(event) => { event.stopPropagation(); handleGoToRecommendation(patient) }}>
                             <Stethoscope className="h-3.5 w-3.5" />
                             推荐
                           </Button>
@@ -448,15 +448,15 @@ export default function PatientRecords() {
 
                     <AnimatePresence>
                       {isExpanded && (
-                        <div className="animate-fade-in overflow-hidden border-t border-white/[0.06]">
+                        <div className="animate-fade-in overflow-hidden border-t border-border">
                           {/* Tab bar */}
-                          <div className="flex border-b border-white/[0.06]">
+                          <div className="flex border-b border-border">
                             {(['basic', 'history', 'clinical'] as const).map((tab) => (
                               <button
                                 key={tab}
                                 className={`px-4 py-2.5 text-xs font-medium transition-colors cursor-pointer ${
                                   (activeTab[patient.id] || 'basic') === tab
-                                    ? 'text-brand-sky border-b-2 border-brand-sky'
+                                    ? 'text-primary border-b-2 border-primary'
                                     : 'text-muted-foreground hover:text-foreground border-b-2 border-transparent'
                                 }`}
                                 onClick={() => handleTabChange(patient.id, tab)}
@@ -481,18 +481,18 @@ export default function PatientRecords() {
                             {(activeTab[patient.id] || 'basic') === 'basic' && (
                               <div className="mt-4 grid gap-4 md:grid-cols-3">
                                 <div>
-                                  <h4 className="mb-2 text-sm font-semibold text-brand-sky">当前用药</h4>
+                                  <h4 className="mb-2 text-sm font-semibold text-primary">当前用药</h4>
                                   <div className="space-y-1.5">
                                     {patient.currentMedications.length > 0 ? patient.currentMedications.map((medication) => (
-                                      <div key={medication} className="flex items-center gap-2 rounded-sm bg-brand-sky/4 border border-brand-sky/10 p-2">
-                                        <div className="h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gradient-to-br from-brand-sky to-sky-600" />
+                                      <div key={medication} className="flex items-center gap-2 rounded-sm bg-primary/8 border border-primary/12 p-2">
+                                        <div className="h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gradient-to-br from-[#0a9dc4] to-[#077f9f]" />
                                         <span className="text-sm">{medication}</span>
                                       </div>
                                     )) : <p className="text-xs text-muted-foreground">无</p>}
                                   </div>
                                 </div>
                                 <div>
-                                  <h4 className="mb-2 text-sm font-semibold text-brand-teal">过敏史</h4>
+                                  <h4 className="mb-2 text-sm font-semibold text-accent">过敏史</h4>
                                   <div className="space-y-1.5">
                                     {patient.allergies.length > 0 ? patient.allergies.map((allergy) => (
                                       <div key={allergy} className="flex items-center gap-2 rounded-sm border border-destructive/20 bg-destructive/4 p-2">
@@ -505,15 +505,15 @@ export default function PatientRecords() {
                                 <div>
                                   <h4 className="mb-2 text-sm font-semibold">体格信息</h4>
                                   <div className="space-y-1.5 text-sm">
-                                    <div className="flex justify-between rounded-sm bg-surface p-2">
+                                    <div className="flex justify-between rounded-sm bg-surface-inset p-2">
                                       <span className="text-muted-foreground">身高</span>
                                       <span className="font-semibold">{patient.height} cm</span>
                                     </div>
-                                    <div className="flex justify-between rounded-sm bg-surface p-2">
+                                    <div className="flex justify-between rounded-sm bg-surface-inset p-2">
                                       <span className="text-muted-foreground">体重</span>
                                       <span className="font-semibold">{patient.weight} kg</span>
                                     </div>
-                                    <div className="flex justify-between rounded-sm bg-surface p-2">
+                                    <div className="flex justify-between rounded-sm bg-surface-inset p-2">
                                       <span className="text-muted-foreground">BMI</span>
                                       <span className={`font-semibold ${bmiColor}`}>{bmi.toFixed(1)} ({bmiText})</span>
                                     </div>
@@ -532,7 +532,7 @@ export default function PatientRecords() {
                                   <div className="overflow-x-auto">
                                     <table className="w-full text-xs">
                                       <thead>
-                                        <tr className="border-b border-white/[0.06] text-muted-foreground">
+                                        <tr className="border-b border-border text-muted-foreground">
                                           <th className="py-2 text-left font-medium">推荐药物</th>
                                           <th className="py-2 text-left font-medium">疾病</th>
                                           <th className="py-2 text-left font-medium">时间</th>
@@ -540,7 +540,7 @@ export default function PatientRecords() {
                                       </thead>
                                       <tbody>
                                         {(historyCache[patient.id] || []).map((rec) => (
-                                          <tr key={rec.id} className="border-b border-white/[0.03]">
+                                          <tr key={rec.id} className="border-b border-border/50">
                                             <td className="py-2 pr-2">{rec.recommendedDrugs.slice(0, 3).join('、')}</td>
                                             <td className="py-2 pr-2">{rec.primaryDisease || '-'}</td>
                                             <td className="py-2 text-muted-foreground">{rec.createdAt ? rec.createdAt.replace('T', ' ').substring(0, 16) : '-'}</td>
@@ -567,12 +567,12 @@ export default function PatientRecords() {
 
                                 {/* 器官功能 + 生活习惯 */}
                                 <div>
-                                  <h5 className="text-xs font-semibold text-brand-sky mb-2">器官功能与生活习惯</h5>
+                                  <h5 className="text-xs font-semibold text-primary mb-2">器官功能与生活习惯</h5>
                                   <div className="grid gap-3 md:grid-cols-2">
                                     <div className="space-y-1.5">
                                       <Label className="text-xs font-semibold">肾功能</Label>
                                       <select value={clinicalForm.renalFunction} onChange={(e) => setClinicalForm({...clinicalForm, renalFunction: e.target.value})}
-                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        className="flex h-9 w-full rounded-sm border border-border bg-background px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-primary">
                                         <option value="">未知</option>
                                         <option value="normal">正常</option>
                                         <option value="mild_impairment">轻度受损</option>
@@ -583,7 +583,7 @@ export default function PatientRecords() {
                                     <div className="space-y-1.5">
                                       <Label className="text-xs font-semibold">肝功能</Label>
                                       <select value={clinicalForm.hepaticFunction} onChange={(e) => setClinicalForm({...clinicalForm, hepaticFunction: e.target.value})}
-                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        className="flex h-9 w-full rounded-sm border border-border bg-background px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-primary">
                                         <option value="">未知</option>
                                         <option value="normal">正常</option>
                                         <option value="mild_impairment">轻度受损</option>
@@ -594,7 +594,7 @@ export default function PatientRecords() {
                                     <div className="space-y-1.5">
                                       <Label className="text-xs font-semibold">吸烟状态</Label>
                                       <select value={clinicalForm.smokingStatus} onChange={(e) => setClinicalForm({...clinicalForm, smokingStatus: e.target.value})}
-                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        className="flex h-9 w-full rounded-sm border border-border bg-background px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-primary">
                                         <option value="">未知</option>
                                         <option value="never">从不吸烟</option>
                                         <option value="former">已戒烟</option>
@@ -604,7 +604,7 @@ export default function PatientRecords() {
                                     <div className="space-y-1.5">
                                       <Label className="text-xs font-semibold">饮酒状态</Label>
                                       <select value={clinicalForm.drinkingStatus} onChange={(e) => setClinicalForm({...clinicalForm, drinkingStatus: e.target.value})}
-                                        className="flex h-9 w-full rounded-sm border border-white/[0.06] bg-surface-elevated px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-brand-sky">
+                                        className="flex h-9 w-full rounded-sm border border-border bg-background px-3 py-1 text-xs focus-visible:outline-none focus-visible:border-primary">
                                         <option value="">未知</option>
                                         <option value="none">不饮酒</option>
                                         <option value="occasional">偶尔饮酒</option>
@@ -617,7 +617,7 @@ export default function PatientRecords() {
 
                                 {/* 心血管指标 */}
                                 <div>
-                                  <h5 className="text-xs font-semibold text-brand-sky mb-2">心血管指标</h5>
+                                  <h5 className="text-xs font-semibold text-primary mb-2">心血管指标</h5>
                                   <div className="grid gap-3 md:grid-cols-2">
                                     <div className="space-y-1.5">
                                       <Label className="text-xs font-semibold">收缩压 (mmHg)</Label>
@@ -642,7 +642,7 @@ export default function PatientRecords() {
 
                                 {/* 代谢指标 */}
                                 <div>
-                                  <h5 className="text-xs font-semibold text-brand-sky mb-2">代谢指标</h5>
+                                  <h5 className="text-xs font-semibold text-primary mb-2">代谢指标</h5>
                                   <div className="grid gap-3 md:grid-cols-2">
                                     <div className="space-y-1.5">
                                       <Label className="text-xs font-semibold">空腹血糖 (mmol/L)</Label>
@@ -682,7 +682,7 @@ export default function PatientRecords() {
                             )}
 
                             {(activeTab[patient.id] || 'basic') === 'basic' && patient.medicalHistory && (
-                              <div className="mt-4 border-t border-white/[0.06] pt-4">
+                              <div className="mt-4 border-t border-border pt-4">
                                 <h4 className="mb-1.5 text-sm font-semibold">既往病史</h4>
                                 <TextExpander text={patient.medicalHistory} maxLines={3} />
                               </div>

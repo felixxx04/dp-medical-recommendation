@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E3F55"/>
+            <stop offset="100%" stop-color="#AE6339"/>
+        </linearGradient>
+        <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feFlood flood-color="#2E3F55" flood-opacity="0.06" result="shadowColor"/>
+            <feComposite in="shadowColor" in2="offsetblur" operator="in" result="shadow"/>
+            <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="1280" height="720" fill="#EFE6DD"/>
+    <rect x="0" y="0" width="1280" height="6" fill="url(#topAccent)"/>
+    <rect x="0" y="0" width="6" height="720" fill="#2E3F55"/>
+    <!-- Header -->
+    <g id="header">
+        <rect x="60" y="36" width="6" height="36" rx="3" fill="#AE6339"/>
+        <text x="80" y="62" font-family="Georgia, SimSun, serif" font-size="28" font-weight="bold" fill="#2E3F55">系统需求分析</text>
+    </g>
+    <!-- Takeaway -->
+    <rect x="60" y="85" width="1160" height="42" rx="8" fill="#2E3F55"/>
+    <text x="80" y="112" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#EFE6DD">三层需求驱动系统设计：功能需求保障核心能力，非功能需求确保性能，安全需求守护生命底线</text>
+    <!-- Card 1: Functional Requirements -->
+    <g id="card-functional">
+        <rect x="60" y="150" width="370" height="500" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <rect x="60" y="150" width="370" height="50" rx="12" fill="#2E3F55"/>
+        <rect x="60" y="188" width="370" height="12" fill="#2E3F55"/>
+        <use data-icon="chunk-filled/clipboard" x="80" y="160" width="32" height="32" fill="#EFE6DD"/>
+        <text x="120" y="182" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#EFE6DD">功能需求</text>
+        <!-- Items -->
+        <circle cx="90" cy="228" r="5" fill="#2E3F55"/>
+        <text x="105" y="233" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">患者信息管理</text>
+        <text x="105" y="255" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">慢性病、过敏史、用药记录</text>
+        <circle cx="90" cy="288" r="5" fill="#2E3F55"/>
+        <text x="105" y="293" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">智能药物推荐</text>
+        <text x="105" y="315" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">基于患者画像的个性化推荐</text>
+        <circle cx="90" cy="348" r="5" fill="#2E3F55"/>
+        <text x="105" y="353" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">安全审查机制</text>
+        <text x="105" y="375" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">禁忌症过滤、交互检查</text>
+        <circle cx="90" cy="408" r="5" fill="#2E3F55"/>
+        <text x="105" y="413" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">隐私预算追踪</text>
+        <text x="105" y="435" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">ε消耗量实时监控与预算控制</text>
+        <circle cx="90" cy="468" r="5" fill="#2E3F55"/>
+        <text x="105" y="473" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">审查面板</text>
+        <text x="105" y="495" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">医生审核、标记、确认推荐</text>
+        <circle cx="90" cy="528" r="5" fill="#2E3F55"/>
+        <text x="105" y="533" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">隐私可视化</text>
+        <text x="105" y="555" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">噪声分布、预算消耗图表</text>
+    </g>
+    <!-- Card 2: Non-functional Requirements -->
+    <g id="card-nonfunctional">
+        <rect x="455" y="150" width="370" height="500" rx="12" fill="#FFFFFF" stroke="#D4B5B2" stroke-width="1" filter="url(#cardShadow)"/>
+        <rect x="455" y="150" width="370" height="50" rx="12" fill="#AE6339"/>
+        <rect x="455" y="188" width="370" height="12" fill="#AE6339"/>
+        <use data-icon="chunk-filled/bolt" x="475" y="160" width="32" height="32" fill="#EFE6DD"/>
+        <text x="515" y="182" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#EFE6DD">非功能需求</text>
+        <!-- Items -->
+        <circle cx="485" cy="228" r="5" fill="#AE6339"/>
+        <text x="500" y="233" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">推荐延迟</text>
+        <text x="500" y="255" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">端到端<tspan font-weight="bold" fill="#AE6339">&lt; 2s</tspan>，含模型推理</text>
+        <circle cx="485" cy="288" r="5" fill="#AE6339"/>
+        <text x="500" y="293" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">DP预算可配置</text>
+        <text x="500" y="315" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">ε/δ/mechanism 用户级配置</text>
+        <circle cx="485" cy="348" r="5" fill="#AE6339"/>
+        <text x="500" y="353" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">并发支持</text>
+        <text x="500" y="375" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">多用户同时请求推荐</text>
+        <circle cx="485" cy="408" r="5" fill="#AE6339"/>
+        <text x="500" y="413" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">数据持久化</text>
+        <text x="500" y="435" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">推荐历史、隐私账本审计追踪</text>
+        <circle cx="485" cy="468" r="5" fill="#AE6339"/>
+        <text x="500" y="473" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">模型可替换</text>
+        <text x="500" y="495" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">离线模式/demo模式自动切换</text>
+        <circle cx="485" cy="528" r="5" fill="#AE6339"/>
+        <text x="500" y="533" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">可解释性</text>
+        <text x="500" y="555" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">安全标记、置信区间、异常提示</text>
+    </g>
+    <!-- Card 3: Security Requirements -->
+    <g id="card-security">
+        <rect x="850" y="150" width="370" height="500" rx="12" fill="#FFFFFF" stroke="#C62828" stroke-width="1.5" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+        <rect x="850" y="150" width="370" height="50" rx="12" fill="#C62828"/>
+        <rect x="850" y="188" width="370" height="12" fill="#C62828"/>
+        <use data-icon="chunk-filled/shield-check" x="870" y="160" width="32" height="32" fill="#EFE6DD"/>
+        <text x="910" y="182" font-family="Georgia, SimSun, serif" font-size="18" font-weight="bold" fill="#EFE6DD">安全需求（最高优先级）</text>
+        <!-- Items -->
+        <circle cx="880" cy="228" r="5" fill="#C62828"/>
+        <text x="895" y="233" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">绝对禁忌硬过滤</text>
+        <text x="895" y="255" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">禁忌症、过敏冲突、妊娠X级</text>
+        <text x="895" y="275" font-family="Georgia, SimSun, serif" font-size="13" font-weight="bold" fill="#C62828">DP噪声永远不影响此层</text>
+        <circle cx="880" cy="308" r="5" fill="#C62828"/>
+        <text x="895" y="313" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">相对禁忌软标记</text>
+        <text x="895" y="335" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">中等交互、妊娠C/D级警告</text>
+        <text x="895" y="355" font-family="Georgia, SimSun, serif" font-size="13" fill="#6B7B8D">不排除候选，标记requires_review</text>
+        <circle cx="880" cy="388" r="5" fill="#C62828"/>
+        <text x="895" y="393" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">DP噪声仅限评分层</text>
+        <text x="895" y="415" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">噪声仅作用于Layer 3 DeepFM</text>
+        <circle cx="880" cy="448" r="5" fill="#C62828"/>
+        <text x="895" y="453" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">临床安全后处理</text>
+        <text x="895" y="475" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">score &lt; 0.15 置零，上限 min(1.0, raw+0.35)</text>
+        <circle cx="880" cy="508" r="5" fill="#C62828"/>
+        <text x="895" y="513" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">双重预算追踪</text>
+        <text x="895" y="535" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">MySQL持久化 + 内存组合定理</text>
+        <circle cx="880" cy="568" r="5" fill="#C62828"/>
+        <text x="895" y="573" font-family="Georgia, SimSun, serif" font-size="16" font-weight="bold" fill="#2E3F55">知情同意记录</text>
+        <text x="895" y="595" font-family="Georgia, SimSun, serif" font-size="14" fill="#6B7B8D">每次推荐前记录用户同意</text>
+    </g>
+    <!-- Page number -->
+    <text x="1220" y="700" font-family="Georgia, SimSun, serif" font-size="12" fill="#6B7B8D" text-anchor="end">04</text>
+    <rect x="0" y="716" width="1280" height="4" fill="url(#topAccent)"/>
+</svg>

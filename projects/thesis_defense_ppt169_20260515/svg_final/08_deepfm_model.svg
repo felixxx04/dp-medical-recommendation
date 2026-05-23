@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00796B" />
+      <stop offset="100%" stop-color="#1565C0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="4" fill="url(#titleUnderline)" />
+
+  
+  <text x="80" y="60" font-family="KaiTi, Georgia, serif" font-size="34" font-weight="bold" fill="#1A1A2E">DeepFM v3模型改进</text>
+  <path fill="url(#titleUnderline)" d="M81.50,72 H218.50 A1.50,1.50 0 0 1 220,73.50 V73.50 A1.50,1.50 0 0 1 218.50,75 H81.50 A1.50,1.50 0 0 1 80,73.50 V73.50 A1.50,1.50 0 0 1 81.50,72 Z" />
+
+  
+  <path fill="#FFFFFF" stroke="#00796B" stroke-width="1.5" d="M90,110 H430 A10,10 0 0 1 440,120 V580 A10,10 0 0 1 430,590 H90 A10,10 0 0 1 80,580 V120 A10,10 0 0 1 90,110 Z" />
+  <path fill="#00796B" d="M90,110 H430 A10,10 0 0 1 440,120 V144 A10,10 0 0 1 430,154 H90 A10,10 0 0 1 80,144 V120 A10,10 0 0 1 90,110 Z" />
+  <rect x="80" y="144" width="360" height="10" fill="#00796B" />
+  <text x="260" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">合并嵌入 Merged Embedding</text>
+
+  <text x="100" y="190" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#00796B">问题</text>
+  <text x="100" y="215" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">每字段独立Embedding → Opacus</text>
+  <text x="100" y="238" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">不支持多Embedding梯度采样</text>
+
+  <text x="100" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#00796B">方案</text>
+  <text x="100" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E">单个 nn.Embedding 共享空间</text>
+  <text x="100" y="323" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E">+ field_offsets 分段索引</text>
+
+  <path fill="#00796B" fill-opacity="0.05" d="M106,350 H414 A6,6 0 0 1 420,356 V394 A6,6 0 0 1 414,400 H106 A6,6 0 0 1 100,394 V356 A6,6 0 0 1 106,350 Z" />
+  <text x="260" y="372" font-family="Consolas, Courier New, monospace" font-size="14" fill="#00796B" text-anchor="middle">15字段共享，embed_dim=8</text>
+  <text x="260" y="393" font-family="Consolas, Courier New, monospace" font-size="13" fill="#00796B" text-anchor="middle">Opacus DP-SGD 兼容</text>
+
+  <text x="100" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2E7D32">效果</text>
+  <text x="100" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#2E7D32">✓ 支持DP训练 ✓ 参数量减少 ✓ 跨字段语义共享</text>
+
+  
+  <path fill="#FFFFFF" stroke="#1565C0" stroke-width="1.5" d="M470,110 H810 A10,10 0 0 1 820,120 V580 A10,10 0 0 1 810,590 H470 A10,10 0 0 1 460,580 V120 A10,10 0 0 1 470,110 Z" />
+  <path fill="#1565C0" d="M470,110 H810 A10,10 0 0 1 820,120 V144 A10,10 0 0 1 810,154 H470 A10,10 0 0 1 460,144 V120 A10,10 0 0 1 470,110 Z" />
+  <rect x="460" y="144" width="360" height="10" fill="#1565C0" />
+  <text x="640" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">连续特征旁路</text>
+
+  <text x="480" y="190" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1565C0">问题</text>
+  <text x="480" y="215" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">连续特征经Embedding层</text>
+  <text x="480" y="238" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">→ 离散化损失精度</text>
+
+  <text x="480" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1565C0">方案</text>
+  <text x="480" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E">4个连续特征绕过嵌入/FM/Deep</text>
+  <path fill="#1565C0" fill-opacity="0.06" d="M484,320 H796 A4,4 0 0 1 800,324 V346 A4,4 0 0 1 796,350 H484 A4,4 0 0 1 480,346 V324 A4,4 0 0 1 484,320 Z" />
+  <text x="640" y="340" font-family="Consolas, Courier New, monospace" font-size="13" fill="#1565C0" text-anchor="middle">age_raw, bmi_raw, gfr_raw, liver_score_raw</text>
+  <text x="480" y="375" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#1A1A2E">独立线性变换 → 与FM+Deep拼接</text>
+
+  <text x="480" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2E7D32">效果</text>
+  <text x="480" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#2E7D32">✓ GFR/肝功能评分直接参与决策 ✓ 保留原始精度</text>
+
+  
+  <path fill="#FFFFFF" stroke="#FF8F00" stroke-width="1.5" d="M850,110 H1190 A10,10 0 0 1 1200,120 V580 A10,10 0 0 1 1190,590 H850 A10,10 0 0 1 840,580 V120 A10,10 0 0 1 850,110 Z" />
+  <path fill="#FF8F00" d="M850,110 H1190 A10,10 0 0 1 1200,120 V144 A10,10 0 0 1 1190,154 H850 A10,10 0 0 1 840,144 V120 A10,10 0 0 1 850,110 Z" />
+  <rect x="840" y="144" width="360" height="10" fill="#FF8F00" />
+  <text x="1020" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">训练优化</text>
+
+  <text x="860" y="190" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FF8F00">1. LayerNorm 替代 BatchNorm</text>
+  <text x="860" y="218" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">推理无需批统计量 → 单样本无偏差</text>
+  <text x="860" y="243" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#2E7D32">✓ 与Opacus DP-SGD兼容</text>
+
+  <text x="860" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FF8F00">2. 差异化Dropout</text>
+  <text x="860" y="308" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">FM层 0.3 / Deep层 0.1</text>
+  <text x="860" y="333" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">FM低阶交叉需更强正则化</text>
+
+  <text x="860" y="370" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FF8F00">3. Focal Loss</text>
+  <text x="860" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">α=0.25, γ=2.0</text>
+  <text x="860" y="423" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#546E7A">聚焦难分样本，应对正负样本不平衡</text>
+
+  <path fill="#FF8F00" fill-opacity="0.06" d="M866,450 H1174 A6,6 0 0 1 1180,456 V474 A6,6 0 0 1 1174,480 H866 A6,6 0 0 1 860,474 V456 A6,6 0 0 1 866,450 Z" />
+  <text x="1020" y="470" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FF8F00" text-anchor="middle">1807种候选 vs 少数适配药物</text>
+
+  
+  <text x="1200" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#90A4AE" text-anchor="end">08</text>
+</svg>

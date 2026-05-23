@@ -140,9 +140,9 @@ export default function ReviewDashboard() {
 
   return (
     <div className="space-y-6">
-      <section className="border-l-4 border-l-primary bg-surface-elevated px-6 py-8">
+      <section className="border-l-4 border-l-primary bg-background px-6 py-8">
         <div className="flex items-center gap-3">
-          <Shield className="h-5 w-5 text-brand-sky" />
+          <Shield className="h-5 w-5 text-primary" />
           <div>
             <h1 className="text-ia-tile font-display font-bold text-foreground">推荐审核</h1>
             <p className="text-ia-body text-muted-foreground mt-1">审核患者的用药推荐，出具诊疗建议</p>
@@ -156,7 +156,7 @@ export default function ReviewDashboard() {
       <div className="flex items-center gap-4 px-1 mb-4">
         <span className="text-sm font-semibold text-foreground">推荐审核</span>
         <span className="ia-badge ia-badge-warning">
-          <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+          <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
           待审核 {stats.pending}
         </span>
         <span className="ia-badge ia-badge-success">
@@ -187,12 +187,12 @@ export default function ReviewDashboard() {
                     onClick={() => selectReview(review)}
                     className={`group flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-all duration-150 ${
                       isSelected
-                        ? 'bg-white/[0.04] border-l-[3px] border-l-orange-500'
-                        : 'border-l-[3px] border-l-transparent hover:bg-white/[0.02] hover:border-l-orange-500/50'
+                        ? 'bg-primary/8 border-l-[3px] border-l-primary'
+                        : 'border-l-[3px] border-l-transparent hover:bg-primary/4 hover:border-l-primary/50'
                     }`}
                   >
                     <div className={`w-[3px] h-8 rounded-full flex-shrink-0 ${
-                      isSelected ? 'bg-orange-500' : 'bg-orange-500/60'
+                      isSelected ? 'bg-primary' : 'bg-primary/60'
                     }`}></div>
                     <div className="flex-1 min-w-0">
                       <div className="font-medium text-sm text-foreground truncate">{disease || '未知疾病'}</div>
@@ -208,7 +208,7 @@ export default function ReviewDashboard() {
 
           {/* Reviewed Section - Collapsible */}
           {pendingReviews.filter(r => r.reviewStatus !== 'pending').length > 0 && (
-            <div className="border-t border-white/[0.06] pt-4">
+            <div className="border-t border-border pt-4">
               <button
                 onClick={() => setReviewedExpanded(!reviewedExpanded)}
                 className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors w-full px-1"
@@ -225,7 +225,7 @@ export default function ReviewDashboard() {
                     return (
                       <div
                         key={review.recommendationId}
-                        className="flex items-center gap-3 p-2.5 rounded-lg text-muted-foreground hover:bg-white/[0.02] transition-colors cursor-pointer"
+                        className="flex items-center gap-3 p-2.5 rounded-lg text-muted-foreground hover:bg-primary/4 transition-colors cursor-pointer"
                       >
                         <div className="w-[3px] h-6 rounded-full bg-slate-600 flex-shrink-0"></div>
                         <div className="flex-1 min-w-0">
@@ -247,7 +247,7 @@ export default function ReviewDashboard() {
         <div className="lg:sticky lg:top-4 lg:self-start">
           <div className="max-h-[calc(100vh-4rem)] overflow-y-auto">
             {detailLoading ? (
-              <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-xl">
+              <div className="p-8 text-center text-muted-foreground border border-dashed border-border rounded-xl">
                 加载推荐详情...
               </div>
             ) : selectedReview ? (
@@ -258,7 +258,7 @@ export default function ReviewDashboard() {
                 onSubmitReview={handleSubmitReview}
               />
             ) : (
-              <div className="p-8 text-center text-muted-foreground border border-dashed border-white/[0.06] rounded-xl">
+              <div className="p-8 text-center text-muted-foreground border border-dashed border-border rounded-xl">
                 选择左侧待审核记录查看详情
               </div>
             )}

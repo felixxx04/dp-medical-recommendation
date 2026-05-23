@@ -1,0 +1,95 @@
+<mxfile host="drawio" version="29.7.9">
+  <diagram name="技术路线图" id="technical-roadmap">
+    <mxGraphModel dx="1229" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#000000;" value="论文技术路线图" vertex="1">
+          <mxGeometry height="30" width="300" x="450" y="20" as="geometry" />
+        </mxCell>
+
+        <!-- ====== ROW 1 ====== -->
+        <mxCell id="r1c1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" value="差分隐私保护机制" vertex="1">
+          <mxGeometry height="65" width="240" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" value="DeepFM推荐模型" vertex="1">
+          <mxGeometry height="65" width="240" x="370" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" value="安全可控与可解释" vertex="1">
+          <mxGeometry height="65" width="240" x="640" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" value="系统原型与验证" vertex="1">
+          <mxGeometry height="65" width="240" x="910" y="90" as="geometry" />
+        </mxCell>
+
+        <!-- ====== ROW 2 ====== -->
+        <mxCell id="r2c1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="Laplace/Gaussian噪声&#xa;梯度裁剪·预算追踪" vertex="1">
+          <mxGeometry height="65" width="240" x="100" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="合并嵌入·连续旁路&#xa;LayerNorm·DP训练" vertex="1">
+          <mxGeometry height="65" width="240" x="370" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="四层安全架构&#xa;匹配·归因·解释生成" vertex="1">
+          <mxGeometry height="65" width="240" x="640" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="Spring Boot后端&#xa;FastAPI·React前端" vertex="1">
+          <mxGeometry height="65" width="240" x="910" y="195" as="geometry" />
+        </mxCell>
+
+        <!-- ====== ROW 3 ====== -->
+        <mxCell id="r3c1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="推理阶段加噪&#xa;预算预警·异常检测" vertex="1">
+          <mxGeometry height="65" width="240" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="DeepFM v3引擎&#xa;FM+Deep混合架构" vertex="1">
+          <mxGeometry height="65" width="240" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="推荐解释·审核闭环&#xa;渐进式惩罚学习" vertex="1">
+          <mxGeometry height="65" width="240" x="640" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=10;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;" value="功能/性能/隐私测试&#xa;ε=0.1准确率~10%" vertex="1">
+          <mxGeometry height="65" width="240" x="910" y="300" as="geometry" />
+        </mxCell>
+
+        <!-- Down arrows -->
+        <mxCell id="a1" edge="1" parent="1" source="r1c1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r2c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="r1c2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r2c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="r1c3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r2c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="r1c4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r2c4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a5" edge="1" parent="1" source="r2c1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r3c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" source="r2c2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r3c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" source="r2c3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r3c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" edge="1" parent="1" source="r2c4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="r3c4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Horizontal dashed arrows -->
+        <mxCell id="h1" edge="1" parent="1" source="r2c1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;dashPattern=4 4;" target="r2c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" edge="1" parent="1" source="r2c2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;dashPattern=4 4;" target="r2c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" edge="1" parent="1" source="r2c3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;dashPattern=4 4;" target="r2c4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

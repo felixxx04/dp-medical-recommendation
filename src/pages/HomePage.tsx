@@ -16,20 +16,20 @@ const features = [
 ]
 
 const stats = [
-  { label: '隐私保护等级', value: 'ε ≤ 1.0', icon: Shield, valueColor: 'text-brand-sky' },
-  { label: '推荐准确率', value: '92%+', icon: TrendingUp, valueColor: 'text-brand-teal' },
-  { label: '药物种类', value: '5,000+', icon: Database, valueColor: 'text-brand-sky' },
-  { label: '服务患者', value: '10,000+', icon: Users, valueColor: 'text-brand-teal' },
+  { label: '隐私保护等级', value: 'ε ≤ 1.0', icon: Shield, valueColor: 'text-primary' },
+  { label: '推荐准确率', value: '92%+', icon: TrendingUp, valueColor: 'text-accent' },
+  { label: '药物种类', value: '5,000+', icon: Database, valueColor: 'text-primary' },
+  { label: '服务患者', value: '10,000+', icon: Users, valueColor: 'text-accent' },
 ]
 
 const iconBgMap: Record<string, string> = {
-  sky: 'bg-brand-sky/10',
-  teal: 'bg-brand-teal/10',
+  sky: 'bg-primary/8',
+  teal: 'bg-accent/8',
 }
 
 const iconColorMap: Record<string, string> = {
-  sky: 'text-brand-sky',
-  teal: 'text-brand-teal',
+  sky: 'text-primary',
+  teal: 'text-accent',
 }
 
 export default function HomePage() {
@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="space-y-20 pb-12">
       {/* Hero Section — Asymmetric split layout */}
-      <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-background via-surface to-surface-elevated border border-white/[0.06]">
+      <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-background via-surface to-surface-elevated border border-border">
         {/* Geometric decorations */}
         <div className="hero-circle hero-circle-lg" style={{ top: -80, right: -40, width: 320, height: 320 }} />
         <div className="hero-circle hero-circle-md" style={{ bottom: -40, right: 120, width: 180, height: 180 }} />
@@ -60,12 +60,14 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              <Link to="/recommendation">
-                <Button size="lg" className="gap-2">
-                  开始用药推荐
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
+              {canAccessFeature(user?.role, 'recommendation') && (
+                <Link to="/recommendation">
+                  <Button size="lg" className="gap-2">
+                    开始用药推荐
+                    <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </Link>
+              )}
               {canAccessFeature(user?.role, 'recommendation_stats') && (
                 <Link to="/recommendation-stats">
                   <Button variant="outline" size="lg" className="gap-2">
@@ -87,9 +89,9 @@ export default function HomePage() {
 
           {/* Right — Privacy budget visual */}
           <div className="flex items-center justify-center">
-            <div className="w-52 h-64 rounded-xl border border-white/[0.08] bg-surface-elevated/50 flex flex-col items-center justify-center gap-3 shadow-sm">
-              <div className="text-5xl font-extrabold text-brand-sky">ε</div>
-              <div className="text-[10px] text-brand-teal tracking-[0.12em] uppercase font-semibold">Differential Privacy</div>
+            <div className="w-52 h-64 rounded-xl border border-[rgba(155,175,200,0.15)] bg-surface-elevated flex flex-col items-center justify-center gap-3 shadow-neu-raised">
+              <div className="text-5xl font-extrabold text-primary">ε</div>
+              <div className="text-[10px] text-accent tracking-[0.12em] uppercase font-semibold">Differential Privacy</div>
               <div className="w-20 h-px bg-gradient-to-r from-transparent via-brand-sky/30 to-transparent" />
               <div className="text-3xl font-bold text-foreground">≤ 1.0</div>
               <div className="text-xs text-muted-foreground">PRIVACY BUDGET</div>
@@ -105,7 +107,7 @@ export default function HomePage() {
           return (
             <Card key={stat.label} className="group">
               <CardContent className="pt-5 pb-5">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-sm bg-surface">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-sm bg-muted">
                   <Icon className="h-5 w-5 text-muted-foreground group-hover:text-foreground transition-colors" />
                 </div>
                 <div className={`text-2xl font-bold mb-0.5 ${stat.valueColor}`}>{stat.value}</div>
@@ -143,7 +145,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="rounded-xl bg-gradient-to-br from-surface-overlay to-surface-elevated border border-white/[0.06] px-8 py-14 md:px-14 md:py-16 text-center">
+      <section className="rounded-xl bg-gradient-to-br from-surface-elevated to-surface-elevated border border-border px-8 py-14 md:px-14 md:py-16 text-center">
         <h2 className="text-2xl font-bold text-foreground mb-3">准备好开始了吗？</h2>
         <p className="text-base text-muted-foreground mb-8 max-w-lg mx-auto">
           体验隐私保护与智能推荐的完美结合，为医疗用药决策提供科学依据
@@ -157,12 +159,14 @@ export default function HomePage() {
               </Button>
             </Link>
           )}
-          <Link to="/recommendation">
-            <Button variant="outline" size="lg" className="gap-2">
-              <Stethoscope className="h-4 w-4" />
-              获取用药推荐
-            </Button>
-          </Link>
+          {canAccessFeature(user?.role, 'recommendation') && (
+            <Link to="/recommendation">
+              <Button variant="outline" size="lg" className="gap-2">
+                <Stethoscope className="h-4 w-4" />
+                获取用药推荐
+              </Button>
+            </Link>
+          )}
         </div>
       </section>
     </div>
