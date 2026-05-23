@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="space-y-20 pb-12">
       {/* Hero Section — Asymmetric split layout */}
-      <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-background via-surface to-surface-elevated border border-border">
+      <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-[#d2deea] to-[#dde6f0] border border-border">
         {/* Geometric decorations */}
         <div className="hero-circle hero-circle-lg" style={{ top: -80, right: -40, width: 320, height: 320 }} />
         <div className="hero-circle hero-circle-md" style={{ bottom: -40, right: 120, width: 180, height: 180 }} />

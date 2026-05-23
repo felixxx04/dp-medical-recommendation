@@ -7,7 +7,7 @@ const CHART_TOOLTIP_STYLE = {
   borderRadius: '8px',
   fontSize: '12px',
   color: '#1a3244',
-  boxShadow: '0 4px 12px rgba(148,168,195,0.25)',
+  boxShadow: '0 4px 12px rgba(135,155,178,0.35)',
 }
 
 const COLORS = [
@@ -42,7 +42,7 @@ export function DiseaseDistributionChart({ data }: DiseaseDistributionChartProps
                   <stop offset="100%" stopColor="#0891b2" />
                 </linearGradient>
               </defs>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" horizontal={false} />
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(140,160,180,0.25)" horizontal={false} />
               <XAxis type="number" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
               <YAxis
                 type="category"

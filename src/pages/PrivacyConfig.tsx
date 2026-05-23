@@ -383,7 +383,7 @@ export default function PrivacyConfig() {
                         <g>
                           <line x1={cx} y1={cy} x2={cx} y2="105" stroke="rgba(20,184,166,0.2)" strokeWidth="1" strokeDasharray="3,3" />
                           <line x1="55" y1={cy} x2={cx} y2={cy} stroke="rgba(20,184,166,0.2)" strokeWidth="1" strokeDasharray="3,3" />
-                          <circle cx={cx} cy={cy} r="6" fill="#14b8a6" stroke="#e4ecf4" strokeWidth="2" />
+                          <circle cx={cx} cy={cy} r="6" fill="#14b8a6" stroke="#dde6f0" strokeWidth="2" />
                           <circle cx={cx} cy={cy} r="2.5" fill="white" opacity="0.9" />
                           <text x="220" y="20" fontSize="9" fill="#14b8a6" fontWeight="bold" textAnchor="end">
                             当前 ε={eps.toFixed(1)}

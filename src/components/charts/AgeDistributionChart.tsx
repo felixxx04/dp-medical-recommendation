@@ -7,7 +7,7 @@ const CHART_TOOLTIP_STYLE = {
   borderRadius: '8px',
   fontSize: '12px',
   color: '#1a3244',
-  boxShadow: '0 4px 12px rgba(148,168,195,0.25)',
+  boxShadow: '0 4px 12px rgba(135,155,178,0.35)',
 }
 
 interface AgeDistributionChartProps {

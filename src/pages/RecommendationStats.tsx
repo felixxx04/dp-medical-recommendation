@@ -113,10 +113,10 @@ export default function RecommendationStats() {
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
               <LineChart data={stats?.trend || []}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" />
-                <XAxis dataKey="day" stroke="#5e7f92" tick={{ fontSize: 11 }} />
-                <YAxis stroke="#5e7f92" tick={{ fontSize: 11 }} allowDecimals={false} />
-                <Tooltip contentStyle={{ background: '#edf3fa', border: '1px solid rgba(155,175,200,0.18)', borderRadius: 4, fontSize: 12, color: '#1a3244' }} itemStyle={{ color: '#1a3244' }} labelStyle={{ color: '#5e7f92', fontSize: 11 }} />
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(140,160,180,0.25)" />
+                <XAxis dataKey="day" stroke="#4a6578" tick={{ fontSize: 11 }} />
+                <YAxis stroke="#4a6578" tick={{ fontSize: 11 }} allowDecimals={false} />
+                <Tooltip contentStyle={{ background: '#edf3fa', border: '1px solid rgba(140,160,180,0.22)', borderRadius: 4, fontSize: 12, color: '#1a3244' }} itemStyle={{ color: '#1a3244' }} labelStyle={{ color: '#4a6578', fontSize: 11 }} />
                 <Line type="monotone" dataKey="count" stroke="#0891b2" strokeWidth={2} dot={{ fill: '#0891b2', r: 3 }} name="推荐数" />
               </LineChart>
             </ResponsiveContainer>
@@ -129,10 +129,10 @@ export default function RecommendationStats() {
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
               <BarChart data={stats?.topDrugs || []} layout="vertical" margin={{ left: 0, top: 5, right: 10, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" />
-                <XAxis type="number" stroke="#5e7f92" tick={{ fontSize: 11 }} allowDecimals={false} />
-                <YAxis dataKey="name" type="category" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#3d5f73' }} width={160} interval={0} />
-                <Tooltip contentStyle={{ background: '#edf3fa', border: '1px solid rgba(155,175,200,0.18)', borderRadius: 4, fontSize: 12, color: '#1a3244' }} itemStyle={{ color: '#1a3244' }} labelStyle={{ color: '#5e7f92', fontSize: 11 }} />
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(140,160,180,0.25)" />
+                <XAxis type="number" stroke="#4a6578" tick={{ fontSize: 11 }} allowDecimals={false} />
+                <YAxis dataKey="name" type="category" stroke="#4a6578" tick={{ fontSize: 11, fill: '#3d5f73' }} width={160} interval={0} />
+                <Tooltip contentStyle={{ background: '#edf3fa', border: '1px solid rgba(140,160,180,0.22)', borderRadius: 4, fontSize: 12, color: '#1a3244' }} itemStyle={{ color: '#1a3244' }} labelStyle={{ color: '#4a6578', fontSize: 11 }} />
                 <Bar dataKey="count" fill="#0891b2" radius={[0, 3, 3, 0]} name="次数" />
               </BarChart>
             </ResponsiveContainer>
@@ -162,7 +162,7 @@ export default function RecommendationStats() {
                     style={{
                       background: selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : '#edf3fa',
                       color: selectedCategories.has(c.name) ? '#fff' : '#3d5f73',
-                      border: `1px solid ${selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : 'rgba(155,175,200,0.18)'}`,
+                      border: `1px solid ${selectedCategories.has(c.name) ? PIE_COLORS[i % PIE_COLORS.length] : 'rgba(140,160,180,0.22)'}`,
                     }}
                   >
                     {c.name} ({c.value})
@@ -192,9 +192,9 @@ export default function RecommendationStats() {
                   ))}
                 </Pie>
                 <Tooltip
-                  contentStyle={{ background: '#edf3fa', border: '1px solid rgba(155,175,200,0.18)', borderRadius: 4, fontSize: 12, color: '#1a3244' }}
+                  contentStyle={{ background: '#edf3fa', border: '1px solid rgba(140,160,180,0.22)', borderRadius: 4, fontSize: 12, color: '#1a3244' }}
                   itemStyle={{ color: '#1a3244' }}
-                  labelStyle={{ color: '#5e7f92', fontSize: 11 }}
+                  labelStyle={{ color: '#4a6578', fontSize: 11 }}
                   formatter={(value: number, name: string) => [`${value} 次`, name]}
                 />
                 <Legend

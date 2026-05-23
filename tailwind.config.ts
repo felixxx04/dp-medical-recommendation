@@ -16,10 +16,10 @@ const config: Config = {
     },
     extend: {
       colors: {
-        border: 'rgba(155,175,200,0.18)',
+        border: 'rgba(140,160,180,0.22)',
         input: 'rgba(155,175,200,0.22)',
         ring: 'rgba(8,145,178,0.25)',
-        background: '#e4ecf4',
+        background: '#dde6f0',
         foreground: '#0a2f2f',
         primary: {
           DEFAULT: '#0891b2',
@@ -48,7 +48,7 @@ const config: Config = {
           foreground: '#ffffff',
         },
         muted: {
-          DEFAULT: '#dae4ef',
+          DEFAULT: '#d2deea',
           foreground: '#5e7f92',
         },
         accent: {
@@ -60,14 +60,14 @@ const config: Config = {
           foreground: '#0a2f2f',
         },
         card: {
-          DEFAULT: '#e4ecf4',
+          DEFAULT: '#e8eff7',
           foreground: '#0a2f2f',
         },
         surface: {
-          base: '#e4ecf4',
-          DEFAULT: '#e4ecf4',
+          base: '#dde6f0',
+          DEFAULT: '#dde6f0',
           elevated: '#edf3fa',
-          inset: '#dae4ef',
+          inset: '#d2deea',
         },
         brand: {
           sky: '#0891b2',
@@ -77,9 +77,9 @@ const config: Config = {
         },
         neu: {
           light: 'rgba(255,255,255,0.72)',
-          dark: 'rgba(148,168,195,0.38)',
-          'dark-hover': 'rgba(138,160,188,0.28)',
-          'dark-subtle': 'rgba(128,152,180,0.18)',
+          dark: 'rgba(135,155,178,0.48)',
+          'dark-hover': 'rgba(130,148,170,0.38)',
+          'dark-subtle': 'rgba(125,142,165,0.28)',
         },
       },
       borderRadius: {
@@ -103,15 +103,15 @@ const config: Config = {
         md: '0 8px 24px rgba(0,0,0,0.10)',
         lg: '0 16px 40px rgba(0,0,0,0.12)',
         xl: '0 24px 56px rgba(0,0,0,0.14)',
-        'neu-raised': '5px 5px 12px rgba(148,168,195,0.38), -5px -5px 12px rgba(255,255,255,0.72)',
-        'neu-raised-hover': '7px 7px 16px rgba(138,160,188,0.28), -7px -7px 16px rgba(255,255,255,0.72)',
-        'neu-inset': 'inset 1.5px 1.5px 4px rgba(148,168,195,0.38), inset -1px -1px 3px rgba(255,255,255,0.72)',
-        'neu-inset-soft': 'inset 1px 1px 3px rgba(148,168,195,0.38), inset -0.5px -0.5px 2px rgba(255,255,255,0.72)',
+        'neu-raised': '5px 5px 12px rgba(135,155,178,0.48), -5px -5px 12px rgba(255,255,255,0.72)',
+        'neu-raised-hover': '7px 7px 16px rgba(130,148,170,0.38), -7px -7px 16px rgba(255,255,255,0.72)',
+        'neu-inset': 'inset 1.5px 1.5px 4px rgba(135,155,178,0.48), inset -1px -1px 3px rgba(255,255,255,0.72)',
+        'neu-inset-soft': 'inset 1px 1px 3px rgba(135,155,178,0.48), inset -0.5px -0.5px 2px rgba(255,255,255,0.72)',
         'neu-pressed': 'inset 2px 2px 4px rgba(0,0,0,0.15)',
-        'btn-primary': '3px 3px 7px rgba(148,168,195,0.38), -2px -2px 5px rgba(255,255,255,0.72), 0 2px 6px rgba(8,145,178,0.2)',
-        'btn-primary-hover': '5px 5px 10px rgba(138,160,188,0.28), -3px -3px 7px rgba(255,255,255,0.72), 0 4px 12px rgba(8,145,178,0.3)',
-        'btn-glass': '3px 3px 7px rgba(148,168,195,0.38), -3px -3px 7px rgba(255,255,255,0.72)',
-        'btn-glass-hover': '4px 4px 9px rgba(138,160,188,0.28), -4px -4px 9px rgba(255,255,255,0.72)',
+        'btn-primary': '3px 3px 7px rgba(135,155,178,0.48), -2px -2px 5px rgba(255,255,255,0.72), 0 2px 6px rgba(8,145,178,0.2)',
+        'btn-primary-hover': '5px 5px 10px rgba(130,148,170,0.38), -3px -3px 7px rgba(255,255,255,0.72), 0 4px 12px rgba(8,145,178,0.3)',
+        'btn-glass': '3px 3px 7px rgba(135,155,178,0.48), -3px -3px 7px rgba(255,255,255,0.72)',
+        'btn-glass-hover': '4px 4px 9px rgba(130,148,170,0.38), -4px -4px 9px rgba(255,255,255,0.72)',
         'glow-primary': '0 0 20px rgba(8,145,178,0.1)',
         'glow-sm': '0 0 0 2px rgba(8,145,178,0.12)',
       },

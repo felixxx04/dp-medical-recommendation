@@ -66,11 +66,11 @@ type LedgerFilter = 'all' | 'recommendation_inference' | 'training_epoch'
 
 const CHART_TOOLTIP_STYLE = {
   backgroundColor: '#edf3fa',
-  border: '1px solid rgba(155,175,200,0.18)',
+  border: '1px solid rgba(140,160,180,0.22)',
   borderRadius: '8px',
   fontSize: '12px',
   color: '#1a3244',
-  boxShadow: '0 4px 12px rgba(148,168,195,0.25)',
+  boxShadow: '0 4px 12px rgba(135,155,178,0.35)',
 }
 
 export default function AdminDashboard() {
@@ -478,10 +478,10 @@ export default function AdminDashboard() {
                 <div className="h-[240px]">
                   <ResponsiveContainer width="100%" height="100%">
                     <LineChart data={trainingSeries}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(155,175,200,0.12)" />
-                      <XAxis dataKey="epoch" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
-                      <YAxis yAxisId="left" stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
-                      <YAxis yAxisId="right" orientation="right" domain={[50, 100]} stroke="#5e7f92" tick={{ fontSize: 11, fill: '#5e7f92' }} />
+                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(140,160,180,0.25)" />
+                      <XAxis dataKey="epoch" stroke="#4a6578" tick={{ fontSize: 11, fill: '#4a6578' }} />
+                      <YAxis yAxisId="left" stroke="#4a6578" tick={{ fontSize: 11, fill: '#4a6578' }} />
+                      <YAxis yAxisId="right" orientation="right" domain={[50, 100]} stroke="#4a6578" tick={{ fontSize: 11, fill: '#4a6578' }} />
                       <Tooltip contentStyle={CHART_TOOLTIP_STYLE} />
                       <Legend wrapperStyle={{ fontSize: '11px', color: '#3d5f73' }} />
                       <Line yAxisId="left" type="monotone" dataKey="loss" name="Loss" stroke="#ef4444" strokeWidth={2} dot={{ r: 3, fill: '#ef4444' }} isAnimationActive={false} />

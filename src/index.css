@@ -11,22 +11,22 @@
 
 @layer base {
   :root {
-    --bg: #e4ecf4;
-    --bg-card: #e4ecf4;
-    --bg-inset: #dae4ef;
+    --bg: #dde6f0;
+    --bg-card: #e8eff7;
+    --bg-inset: #d2deea;
     --bg-elevated: #edf3fa;
     --sh-l: rgba(255,255,255,0.72);
-    --sh-d: rgba(148,168,195,0.38);
-    --sh-d2: rgba(138,160,188,0.28);
-    --sh-d3: rgba(128,152,180,0.18);
+    --sh-d: rgba(135,155,178,0.48);
+    --sh-d2: rgba(130,148,170,0.38);
+    --sh-d3: rgba(125,142,165,0.28);
     --text-heading: #0a2f2f;
     --text-body: #1a3244;
     --text-secondary: #3d5f73;
     --text-muted: #5e7f92;
     --brand-primary: #0891b2;
     --brand-accent: #14b8a6;
-    --border-subtle: rgba(155,175,200,0.12);
-    --border-default: rgba(155,175,200,0.18);
+    --border-subtle: rgba(140,160,180,0.16);
+    --border-default: rgba(140,160,180,0.22);
     --border-emphasis: rgba(8,145,178,0.15);
     --text-hero: clamp(2.25rem, 5vw, 3rem);
     --text-section: 1.375rem;
@@ -281,9 +281,9 @@
 @media print {
   .no-print { display: none !important; }
   .print-area { break-inside: avoid; }
-  body { background: #e4ecf4 !important; color: #1a3244 !important; }
-  .n-raised, .ia-card { background: #e4ecf4 !important; box-shadow: none !important; border: 1px solid #c8d5e0 !important; }
-  .n-inset, .drug-item { background: #dae4ef !important; box-shadow: none !important; border: 1px solid #c8d5e0 !important; }
+  body { background: #dde6f0 !important; color: #1a3244 !important; }
+  .n-raised, .ia-card { background: #e8eff7 !important; box-shadow: none !important; border: 1px solid #c8d5e0 !important; }
+  .n-inset, .drug-item { background: #d2deea !important; box-shadow: none !important; border: 1px solid #c8d5e0 !important; }
   h1, h2, h3, h4 { color: #0a2f2f !important; }
   .gradient-text { background: none !important; -webkit-text-fill-color: #0891b2 !important; }
 }
