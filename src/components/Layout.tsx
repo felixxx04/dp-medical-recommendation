@@ -118,8 +118,8 @@ export default function Layout() {
         className={cn(
           'sticky top-0 z-50 w-full backdrop-blur-xl transition-all duration-300',
           scrolled
-            ? 'bg-[rgba(10,22,40,0.96)] border-b border-white/[0.10] shadow-sm'
-            : 'bg-[rgba(10,22,40,0.85)] border-b border-white/[0.06]'
+            ? 'bg-[rgba(228,236,244,0.92)] border-b border-[rgba(8,145,178,0.08)] shadow-sm'
+            : 'bg-[rgba(228,236,244,0.80)] border-b border-[rgba(155,175,200,0.1)]'
         )}
       >
         <div className="container flex h-14 items-center justify-between">
@@ -150,8 +150,8 @@ export default function Layout() {
                   className={cn(
                     'flex items-center gap-1.5 rounded-md px-3 py-1.5 text-ia-caption font-heading font-medium transition-colors duration-150 cursor-pointer',
                     isActive
-                      ? 'bg-brand-sky/10 text-brand-sky border border-brand-sky/20'
-                      : 'text-muted-foreground hover:text-foreground hover:bg-muted border border-transparent'
+                      ? 'bg-primary/8 text-primary border border-primary/12'
+                      : 'text-secondary hover:text-primary hover:bg-muted/50 border border-transparent'
                   )}
                 >
                   <Icon className="h-3.5 w-3.5" />
@@ -170,7 +170,7 @@ export default function Layout() {
               </div>
             ) : user ? (
               <>
-                <div className="flex items-center gap-2 rounded-xl border border-ia-border bg-card px-3 py-1.5">
+                <div className="flex items-center gap-2 rounded-xl shadow-neu-raised bg-background px-3 py-1.5">
                   <div className="flex items-center justify-center w-6 h-6 rounded-full bg-primary">
                     <UserIcon className="h-3.5 w-3.5 text-primary-foreground" />
                   </div>
@@ -182,7 +182,7 @@ export default function Layout() {
                   </div>
                 </div>
                 <button
-                  className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-ia-caption font-medium text-muted-foreground transition-colors duration-150 hover:bg-destructive/8 hover:text-destructive cursor-pointer"
+                  className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-ia-caption font-medium text-muted-foreground transition-colors duration-150 hover:bg-destructive/6 hover:text-destructive cursor-pointer"
                   onClick={onLogout}
                 >
                   <LogOut className="h-3.5 w-3.5" />
@@ -212,10 +212,10 @@ export default function Layout() {
         {/* Mobile Menu */}
         <AnimatePresence>
           {mobileMenuOpen && (
-            <div className="lg:hidden border-t border-ia-border bg-card">
+            <div className="lg:hidden border-t border-[rgba(155,175,200,0.1)] bg-background">
               <div className="container py-3 space-y-0.5">
                 {user && (
-                  <div className="flex items-center justify-between gap-2 rounded-standard border border-ia-border bg-card p-2.5 mb-3">
+                  <div className="flex items-center justify-between gap-2 rounded-standard shadow-neu-raised bg-background p-2.5 mb-3">
                     <div className="flex items-center gap-2">
                       <div className="flex items-center justify-center w-8 h-8 rounded-sm bg-gradient-to-br from-brand-sky to-sky-600">
                         <UserIcon className="h-4 w-4 text-white" />
@@ -247,7 +247,7 @@ export default function Layout() {
                         'flex items-center gap-2.5 rounded-md px-3 py-2 text-ia-body font-medium transition-colors duration-150 cursor-pointer',
                         isActive
                           ? 'bg-primary/8 text-primary border-l-2 border-l-primary'
-                          : 'text-muted-foreground hover:bg-muted hover:text-foreground border-l-2 border-l-transparent'
+                          : 'text-secondary hover:bg-muted/50 hover:text-primary border-l-2 border-l-transparent'
                       )}
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -281,7 +281,7 @@ export default function Layout() {
       <AnimatePresence>
         {loginModalOpen && (
           <div
-            className="fixed inset-0 z-[60] flex items-center justify-center bg-foreground/20 p-4"
+            className="fixed inset-0 z-[60] flex items-center justify-center bg-foreground/10 p-4"
             onClick={(e) => e.target === e.currentTarget && closeModal()}
           >
             <div className="w-full max-w-sm animate-fade-in">
@@ -347,17 +347,17 @@ export default function Layout() {
                   </form>
 
                   <div className="grid grid-cols-3 gap-2 pt-1">
-                    <div className="rounded-md border border-ia-border p-2.5">
+                    <div className="rounded-md shadow-neu-inset p-2.5">
                       <div className="text-ia-label text-muted-foreground mb-1">患者账号</div>
                       <div className="text-ia-caption font-heading font-semibold">patient1</div>
                       <div className="text-ia-label text-muted-foreground">admin123</div>
                     </div>
-                    <div className="rounded-md border border-ia-border p-2.5">
+                    <div className="rounded-md shadow-neu-inset p-2.5">
                       <div className="text-ia-label text-muted-foreground mb-1">医生账号</div>
                       <div className="text-ia-caption font-heading font-semibold">doctor1</div>
                       <div className="text-ia-label text-muted-foreground">admin123</div>
                     </div>
-                    <div className="rounded-md border border-ia-border p-2.5">
+                    <div className="rounded-md shadow-neu-inset p-2.5">
                       <div className="text-ia-label text-muted-foreground mb-1">管理员</div>
                       <div className="text-ia-caption font-heading font-semibold">admin</div>
                       <div className="text-ia-label text-muted-foreground">admin123</div>
@@ -386,7 +386,7 @@ export default function Layout() {
       </main>
 
       {/* Footer — Border top, no glass */}
-      <footer className="border-t border-white/[0.06] bg-surface mt-auto">
+      <footer className="border-t border-[rgba(155,175,200,0.1)] bg-background mt-auto">
         <div className="container py-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex items-center gap-2">
