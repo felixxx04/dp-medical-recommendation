@@ -3,13 +3,14 @@ import { cn } from '@/lib/utils'
 
 const Card = React.forwardRef<
   HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement> & { hover?: 'lift' | 'none' }
+  React.HTMLAttributes<HTMLDivElement> & { hover?: 'lift' | 'none' | 'glow' }
 >(({ className, hover = 'lift', ...props }, ref) => (
   <div
     ref={ref}
     className={cn(
-      'rounded-xl border border-white/[0.06] bg-surface-elevated text-card-foreground shadow-xs',
-      hover === 'lift' && 'transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-sm hover:border-brand-sky/15',
+      'rounded-xl bg-card text-card-foreground shadow-neu-raised',
+      hover === 'lift' && 'transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-neu-raised-hover',
+      hover === 'glow' && 'transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-neu-raised-hover hover:border-primary/12',
       hover === 'none' && '',
       className
     )}
@@ -22,7 +23,7 @@ const CardHeader = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
-  <div ref={ref} className={cn('flex flex-col space-y-1.5 p-5 border-b border-white/[0.04]', className)} {...props} />
+  <div ref={ref} className={cn('flex flex-col space-y-1.5 p-5', className)} {...props} />
 ))
 CardHeader.displayName = 'CardHeader'
 

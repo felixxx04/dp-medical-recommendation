@@ -9,7 +9,7 @@ export interface InputProps
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, icon, ...props }, ref) => {
     const classes = cn(
-      'flex h-10 w-full rounded-sm border border-white/10 bg-surface px-3 py-2 text-sm text-secondary-foreground placeholder:text-muted-foreground/50 focus-visible:outline-none focus-visible:border-brand-sky focus-visible:shadow-glow-sm disabled:cursor-not-allowed disabled:opacity-40 transition-all duration-150',
+      'flex h-10 w-full rounded-md border-0 bg-surface-inset px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground/60 focus-visible:outline-none focus-visible:shadow-[inset_2px_2px_5px_var(--sh-d),inset_-1.5px_-1.5px_4px_var(--sh-l),0_0_0_2px_rgba(8,145,178,0.12)] shadow-neu-inset disabled:cursor-not-allowed disabled:opacity-40 transition-all duration-150',
       className
     )
 

@@ -3,22 +3,22 @@ import { cva, type VariantProps } from 'class-variance-authority'
 import { cn } from '@/lib/utils'
 
 const buttonVariants = cva(
-  'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold tracking-tight transition-all duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-sky/40 focus-visible:ring-offset-1 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 active:scale-[0.98]',
+  'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold tracking-tight transition-all duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/25 focus-visible:ring-offset-1 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 relative overflow-hidden',
   {
     variants: {
       variant: {
         default:
-          'bg-gradient-to-br from-brand-sky to-sky-600 text-white shadow-btn-primary hover:shadow-btn-primary-hover hover:scale-[1.02]',
+          'bg-gradient-to-br from-[#0a9dc4] to-[#077f9f] text-white shadow-btn-primary hover:shadow-btn-primary-hover hover:-translate-y-0.5 active:shadow-neu-pressed active:translate-y-0 after:absolute after:top-0 after:left-0 after:right-0 after:h-px after:bg-gradient-to-r after:from-transparent after:via-white/15 after:to-transparent',
         destructive:
-          'bg-red-500/12 border border-red-500/20 text-red-400 hover:bg-red-500/20 hover:border-red-500/30',
+          'bg-red-50/80 backdrop-blur-sm text-destructive border border-red-200/60 shadow-btn-glass hover:shadow-btn-glass-hover hover:-translate-y-0.5 active:shadow-neu-pressed active:translate-y-0',
         outline:
-          'border border-white/10 bg-transparent text-secondary-foreground hover:bg-white/[0.06] hover:border-white/20 hover:text-foreground',
+          'bg-white/35 backdrop-blur-sm text-primary border border-white/50 shadow-btn-glass hover:bg-white/50 hover:shadow-btn-glass-hover hover:-translate-y-0.5 active:shadow-neu-pressed active:translate-y-0 after:absolute after:top-0 after:left-0 after:right-0 after:h-px after:bg-gradient-to-r after:from-transparent after:via-white/15 after:to-transparent',
         secondary:
-          'bg-white/[0.06] text-secondary-foreground hover:bg-white/[0.10] hover:text-foreground',
+          'bg-background text-secondary-foreground shadow-btn-glass hover:text-primary hover:-translate-y-0.5 active:shadow-neu-pressed active:translate-y-0',
         ghost:
-          'hover:bg-white/[0.06] hover:text-foreground text-muted-foreground',
-        link:
-          'text-primary underline-offset-4 hover:underline',
+          'hover:bg-muted/50 hover:text-primary text-muted-foreground',
+        success:
+          'bg-gradient-to-br from-[#06a873] to-[#048a5e] text-white shadow-btn-primary hover:shadow-btn-primary-hover hover:-translate-y-0.5 active:shadow-neu-pressed active:translate-y-0 after:absolute after:top-0 after:left-0 after:right-0 after:h-px after:bg-gradient-to-r after:from-transparent after:via-white/15 after:to-transparent',
       },
       size: {
         default: 'h-10 px-5 py-2',
