@@ -1,7 +1,6 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  darkMode: ['class'],
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
@@ -17,63 +16,70 @@ const config: Config = {
     },
     extend: {
       colors: {
-        border: 'rgba(255,255,255,0.08)',
-        input: 'rgba(255,255,255,0.10)',
-        ring: 'rgba(14,165,233,0.40)',
-        background: '#060f1e',
-        foreground: '#f8fafc',
+        border: 'rgba(155,175,200,0.18)',
+        input: 'rgba(155,175,200,0.22)',
+        ring: 'rgba(8,145,178,0.25)',
+        background: '#e4ecf4',
+        foreground: '#0a2f2f',
         primary: {
-          DEFAULT: '#0ea5e9',
+          DEFAULT: '#0891b2',
           foreground: '#ffffff',
-          hover: '#38bdf8',
+          hover: '#0e7490',
+          light: '#22d3ee',
         },
         secondary: {
-          DEFAULT: 'rgba(255,255,255,0.06)',
-          foreground: '#cbd5e1',
+          DEFAULT: '#3d5f73',
+          foreground: '#0a2f2f',
         },
         destructive: {
-          DEFAULT: '#ef4444',
+          DEFAULT: '#b91c1c',
           foreground: '#ffffff',
         },
         warning: {
-          DEFAULT: '#f59e0b',
-          foreground: '#0a1628',
+          DEFAULT: '#b45309',
+          foreground: '#ffffff',
         },
         success: {
-          DEFAULT: '#22c55e',
+          DEFAULT: '#059669',
           foreground: '#ffffff',
         },
         info: {
-          DEFAULT: '#3b82f6',
+          DEFAULT: '#0369a1',
           foreground: '#ffffff',
         },
         muted: {
-          DEFAULT: '#0a1628',
-          foreground: '#94a3b8',
+          DEFAULT: '#dae4ef',
+          foreground: '#5e7f92',
         },
         accent: {
           DEFAULT: '#14b8a6',
           foreground: '#ffffff',
         },
         popover: {
-          DEFAULT: '#0f2744',
-          foreground: '#f8fafc',
+          DEFAULT: '#edf3fa',
+          foreground: '#0a2f2f',
         },
         card: {
-          DEFAULT: '#0f2744',
-          foreground: '#f8fafc',
+          DEFAULT: '#e4ecf4',
+          foreground: '#0a2f2f',
         },
         surface: {
-          base: '#060f1e',
-          DEFAULT: '#0a1628',
-          elevated: '#0f2744',
-          overlay: '#132f4c',
+          base: '#e4ecf4',
+          DEFAULT: '#e4ecf4',
+          elevated: '#edf3fa',
+          inset: '#dae4ef',
         },
         brand: {
-          sky: '#0ea5e9',
+          sky: '#0891b2',
           teal: '#14b8a6',
           mint: '#5eead4',
-          navy: '#0f2b4c',
+          navy: '#0a2f2f',
+        },
+        neu: {
+          light: 'rgba(255,255,255,0.72)',
+          dark: 'rgba(148,168,195,0.38)',
+          'dark-hover': 'rgba(138,160,188,0.28)',
+          'dark-subtle': 'rgba(128,152,180,0.18)',
         },
       },
       borderRadius: {
@@ -92,16 +98,22 @@ const config: Config = {
         mono: ['JetBrains Mono', 'SF Mono', 'Consolas', 'monospace'],
       },
       boxShadow: {
-        xs: '0 1px 3px rgba(0,0,0,0.30)',
-        sm: '0 4px 12px rgba(0,0,0,0.40)',
-        md: '0 8px 24px rgba(0,0,0,0.50)',
-        lg: '0 16px 40px rgba(0,0,0,0.60)',
-        xl: '0 24px 56px rgba(0,0,0,0.70)',
-        'glow-primary': '0 0 20px rgba(14,165,233,0.15)',
-        'glow-teal': '0 0 20px rgba(20,184,166,0.12)',
-        'glow-sm': '0 0 0 3px rgba(14,165,233,0.15)',
-        'btn-primary': '0 2px 8px rgba(14,165,233,0.30)',
-        'btn-primary-hover': '0 4px 16px rgba(14,165,233,0.45)',
+        xs: '0 1px 3px rgba(0,0,0,0.06)',
+        sm: '0 4px 12px rgba(0,0,0,0.08)',
+        md: '0 8px 24px rgba(0,0,0,0.10)',
+        lg: '0 16px 40px rgba(0,0,0,0.12)',
+        xl: '0 24px 56px rgba(0,0,0,0.14)',
+        'neu-raised': '5px 5px 12px rgba(148,168,195,0.38), -5px -5px 12px rgba(255,255,255,0.72)',
+        'neu-raised-hover': '7px 7px 16px rgba(138,160,188,0.28), -7px -7px 16px rgba(255,255,255,0.72)',
+        'neu-inset': 'inset 1.5px 1.5px 4px rgba(148,168,195,0.38), inset -1px -1px 3px rgba(255,255,255,0.72)',
+        'neu-inset-soft': 'inset 1px 1px 3px rgba(148,168,195,0.38), inset -0.5px -0.5px 2px rgba(255,255,255,0.72)',
+        'neu-pressed': 'inset 2px 2px 4px rgba(0,0,0,0.15)',
+        'btn-primary': '3px 3px 7px rgba(148,168,195,0.38), -2px -2px 5px rgba(255,255,255,0.72), 0 2px 6px rgba(8,145,178,0.2)',
+        'btn-primary-hover': '5px 5px 10px rgba(138,160,188,0.28), -3px -3px 7px rgba(255,255,255,0.72), 0 4px 12px rgba(8,145,178,0.3)',
+        'btn-glass': '3px 3px 7px rgba(148,168,195,0.38), -3px -3px 7px rgba(255,255,255,0.72)',
+        'btn-glass-hover': '4px 4px 9px rgba(138,160,188,0.28), -4px -4px 9px rgba(255,255,255,0.72)',
+        'glow-primary': '0 0 20px rgba(8,145,178,0.1)',
+        'glow-sm': '0 0 0 2px rgba(8,145,178,0.12)',
       },
       keyframes: {
         'accordion-down': {
@@ -120,10 +132,6 @@ const config: Config = {
           from: { transform: 'translateY(8px)', opacity: '0' },
           to: { transform: 'translateY(0)', opacity: '1' },
         },
-        'brand-pulse': {
-          '0%, 100%': { opacity: '0.4' },
-          '50%': { opacity: '0.8' },
-        },
         shimmer: {
           '0%': { transform: 'translateX(-100%)' },
           '100%': { transform: 'translateX(100%)' },
@@ -134,7 +142,6 @@ const config: Config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'fade-in': 'fade-in 0.25s ease-out forwards',
         'slide-up': 'slide-up 0.3s ease-out forwards',
-        'brand-pulse': 'brand-pulse 2s ease-in-out infinite',
         shimmer: 'shimmer 1.5s infinite',
       },
       transitionDuration: {
