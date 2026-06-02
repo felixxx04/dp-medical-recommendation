@@ -205,15 +205,14 @@ home_computer/
 # Drawio backup files
 *.bkp
 
-# Temp docx extraction / unpacked
-_temp_docx/
-grad_doc/unpacked_*/
+# Thesis/graduation document materials
+grad_doc/
 
-# Root-level temp screenshots and debug files
+# Temp docx extraction
+_temp_docx/
+
+# Root-level temp screenshots
 *.png
-!grad_doc/fig_*.png
-!grad_doc/charts/*.png
-!grad_doc/screenshots/fig5-*.png
 !src/**/*.png
 
 # Root-level temp scripts (one-shot utilities)
@@ -229,53 +228,6 @@ contra_batch1_partial.json
 skills-lock.json
 self_settings.xml
 =0.6.21
-
-# grad_doc temp/debug files
-grad_doc/all_rec.json
-grad_doc/flow2.json
-grad_doc/flow_debug.json
-grad_doc/history.json
-grad_doc/flow.json
-grad_doc/all_paras_*.txt
-grad_doc/body_text.txt
-grad_doc/current_body.txt
-grad_doc/fig*_context.txt
-grad_doc/layer_search.txt
-grad_doc/opening_report.txt
-grad_doc/p*_check.txt
-grad_doc/p*_raw.xml
-grad_doc/p*_current.xml
-grad_doc/p*_real*.xml
-grad_doc/para_*.xml
-grad_doc/FORMAT_SPECIFICATION.md
-grad_doc/gpt_academic_readme.md
-grad_doc/roadmap_preview.*
-grad_doc/center_formulas.py
-grad_doc/fix_architecture_layers.py
-grad_doc/fix_uncited_refs.py
-grad_doc/update_thesis*.py
-grad_doc/reorder_refs_final.py
-grad_doc/edit_thesis*.py
-
-# grad_doc old/redundant screenshots (keep only fig5-*.png)
-grad_doc/screenshots/admin.png
-grad_doc/screenshots/admin_*.png
-grad_doc/screenshots/full_*.png
-grad_doc/screenshots/final_*.png
-grad_doc/screenshots/*_cropped.png
-grad_doc/screenshots/viewport_*.png
-grad_doc/screenshots/homepage.png
-grad_doc/screenshots/login.png
-grad_doc/screenshots/patients.png
-grad_doc/screenshots/recommendation.png
-grad_doc/screenshots/forbidden.png
-grad_doc/screenshots/visualization*.png
-grad_doc/screenshots/viz_*.png
-grad_doc/screenshots/privacy-config*.png
-grad_doc/screenshots/stats-*.png
-grad_doc/screenshots/fig5-drug-database.png
-grad_doc/screenshots/fig5-my-records.png
-grad_doc/screenshots/visualization_new.png
 
 # Misc temp files
 *.tmp
