@@ -1,6 +1,6 @@
-# DP-Medical-Recommendation
+# 智医荐药 — 差分隐私保护的智能用药推荐系统
 
-> Differential Privacy-Protected AI-Powered Personalized Medical Drug Recommendation System
+> 基于 DeepFM 深度学习与差分隐私保护的个性化医疗用药推荐系统，在提供精准用药建议的同时提供可证明的患者隐私保护。
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.2-brightgreen)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://react.dev/)
@@ -8,127 +8,121 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An intelligent drug recommendation system that combines **DeepFM deep learning** with **differential privacy** to deliver personalized medication suggestions while providing mathematically provable patient data protection.
+---
+
+## 核心亮点
+
+| 指标 | 数值 |
+|------|------|
+| 推荐精度 (AUC-PR) | **0.9668** |
+| 药物候选集 | **1,815 种** |
+| 训练样本 | **58,525 条** |
+| 安全数据覆盖率 | **97.0%** |
+| DP 模型区分度 | **0.85**（无 DP 基线 0.75） |
+| 隐私预算 (ε) | **≤ 1.0** |
+
+**核心发现**：差分隐私保护**不会降低模型质量**。DP 微调模型 (ε=1.0) 的 AUC-PR 为 0.9658，仅比无 DP 基线低 0.001，同时提供了严格的数学隐私保证。
 
 ---
 
-## Highlights
+## 三层推荐架构
 
-| Metric | Value |
-|--------|-------|
-| Recommendation accuracy (AUC-PR) | **0.9668** |
-| Drug candidates | **1,815** |
-| Training samples | **58,525** |
-| Safety data coverage | **97.0%** |
-| DP model separation score | **0.85** (vs 0.75 baseline) |
-| Privacy budget (ε) | **≤ 1.0** |
-
-**Key finding**: Differential privacy protection does **not** degrade model quality. DP-fine-tuned models (ε=1.0) achieve AUC-PR=0.9658 — only 0.001 below the no-DP baseline — while providing formally guaranteed privacy.
-
----
-
-## Three-Layer Recommendation Architecture
-
-This is the core innovation of the system. Each layer has a distinct responsibility, and **DP noise is applied only at the scoring layer**, ensuring clinical safety is never compromised:
+本系统的核心创新。每一层职责明确，**DP 噪声仅在打分层施加**，确保临床安全不受影响：
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 1: SafetyFilter — Hard Exclusion                 │
-│  Absolute contraindications, allergy conflicts,         │
-│  major drug interactions, pregnancy category X          │
-│  → DP noise NEVER touches this layer                    │
+│  第一层：SafetyFilter — 硬性排除                         │
+│  绝对禁忌症、过敏冲突、严重药物相互作用、妊娠 X 类          │
+│  → DP 噪声永远不会触及此层                                │
 └──────────────────────────┬──────────────────────────────┘
-                           │ safe candidates only
+                           │ 仅安全候选
                            ▼
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 2: RuleMarker — Soft Flagging                    │
-│  Relative contraindications, moderate interactions,     │
-│  pregnancy C/D warnings → adds review flags             │
-│  → Does not alter candidate set                         │
+│  第二层：RuleMarker — 软性标记                           │
+│  相对禁忌症、中度相互作用、妊娠 C/D 级警告                │
+│  → 添加审核标记，不改变候选集                             │
 └──────────────────────────┬──────────────────────────────┘
-                           │ flagged safe candidates
+                           │ 已标记的安全候选
                            ▼
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 3: DeepFM Ranking + DP Noise                     │
-│  Personalized scoring of safe candidates                │
-│  → DP noise (Laplace/Gaussian) applied ONLY here       │
-│  → Post-processing: scores < 0.15 zeroed,              │
-│    ceiling at min(1.0, raw + 0.35)                      │
+│  第三层：DeepFM 排序 + DP 噪声                          │
+│  对安全候选进行个性化评分                                 │
+│  → DP 噪声 (Laplace/Gaussian) 仅在此层施加              │
+│  → 后处理：分数 < 0.15 置零，上限 min(1.0, 原始+0.35)   │
 └─────────────────────────────────────────────────────────┘
 ```
 
-### Why This Design Matters
+### 设计意义
 
-1. **Safety is non-negotiable**: Layer 1 deterministically excludes dangerous drug-patient combinations. No amount of noise can override a contraindication.
-2. **Clinical awareness preserved**: Layer 2 flags drugs requiring extra review without removing them, supporting doctor decision-making.
-3. **Privacy where it belongs**: Layer 3 is the only layer touched by DP noise, protecting individual patient data in the scoring function without affecting clinical safety.
+1. **安全不可妥协**：第一层确定性排除危险用药组合，任何噪声都无法覆盖禁忌症判断
+2. **临床感知保留**：第二层标记需额外审核的药物但不移除，支持医生决策
+3. **隐私施加于正确位置**：第三层是唯一受 DP 噪声影响的层，保护评分函数中的个体患者数据，且不影响临床安全
 
 ---
 
-## System Architecture
+## 系统架构
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                    Frontend (React 18)                     │
+│                     前端 (React 18)                       │
 │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐  │
-│  │  Home    │ │Recommend.│ │ Privacy  │ │  Visualiz. │  │
+│  │   首页   │ │ 药物推荐 │ │ 隐私配置 │ │  可视化    │  │
 │  └──────────┘ └──────────┘ └──────────┘ └────────────┘  │
 └────────────────────────┬─────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────┐
-│                Backend (Spring Boot 3.2)                  │
+│                后端 (Spring Boot 3.2)                     │
 │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐  │
-│  │Auth (JWT)│ │ Drug API │ │Patient   │ │ Privacy    │  │
-│  │          │ │          │ │API       │ │ Budget API │  │
+│  │认证(JWT) │ │ 药物API  │ │ 患者API  │ │ 隐私预算   │  │
 │  └──────────┘ └──────────┘ └──────────┘ └────────────┘  │
 └──────┬──────────────┬──────────────┬─────────────────────┘
        │              │              │
        ▼              ▼              ▼
 ┌───────────┐  ┌─────────────┐  ┌───────────┐
-│  MySQL    │  │Model Service│  │ChromaDB   │
-│  8.0      │  │ (FastAPI)   │  │(RAG)      │
+│  MySQL    │  │  模型服务   │  │ ChromaDB  │
+│  8.0      │  │  (FastAPI)  │  │  (RAG)    │
 └───────────┘  │ DeepFM + DP │  └───────────┘
                └─────────────┘
 ```
 
 ---
 
-## Tech Stack
+## 技术栈
 
-| Layer | Technologies |
-|-------|-------------|
-| **Frontend** | React 18, TypeScript, Vite, Tailwind CSS, Recharts, Framer Motion |
-| **Backend** | Spring Boot 3.2, MyBatis, Spring Security, JWT |
-| **Model Service** | Python, FastAPI, PyTorch, NumPy |
-| **Database** | MySQL 8.0 |
-| **RAG Module** | ChromaDB, Sentence Transformers |
-| **Privacy** | Differential Privacy (Laplace / Gaussian mechanisms) |
+| 层级 | 技术 |
+|------|------|
+| **前端** | React 18, TypeScript, Vite, Tailwind CSS, Recharts, Framer Motion |
+| **后端** | Spring Boot 3.2, MyBatis, Spring Security, JWT |
+| **模型服务** | Python, FastAPI, PyTorch, NumPy |
+| **数据库** | MySQL 8.0 |
+| **RAG 模块** | ChromaDB, Sentence Transformers |
+| **隐私保护** | 差分隐私 (Laplace / Gaussian 机制) |
 
 ---
 
-## DeepFM Model
+## DeepFM 模型
 
-- **Architecture**: Factorization Machine (FM) + Deep Neural Network with LayerNorm
-- **Input**: 14 categorical fields + 4 continuous features
-- **Embedding**: `embed_dim=8`, merged field-aware embedding (Opacus-compatible)
-- **Deep layers**: `[64, 32]` with per-layer differentiated dropout
-- **Continuous bypass**: age, BMI, GFR, liver score fed directly into output
-- **Training**: 58,525 samples, best AUC-PR = 0.9466 (production model)
+- **架构**：因子分解机 (FM) + 带有 LayerNorm 的深度神经网络
+- **输入**：14 个类别字段 + 4 个连续特征
+- **嵌入**：`embed_dim=8`，合并字段感知嵌入（兼容 Opacus）
+- **深层网络**：`[64, 32]`，逐层差异化 Dropout
+- **连续特征旁路**：年龄、BMI、GFR、肝功能评分直接输入输出层
+- **训练**：58,525 条样本，最优 AUC-PR = 0.9466（生产模型）
 
-### DP Fine-tuning Results
+### DP 微调实验结果
 
-| Configuration | AUC-PR | Separation |
-|--------------|--------|------------|
-| No DP baseline | 0.9668 | 0.7506 |
+| 配置 | AUC-PR | 区分度 (Separation) |
+|------|--------|---------------------|
+| 无 DP 基线 | 0.9668 | 0.7506 |
 | DP ε=1.0 | 0.9658 | 0.8505 |
 | DP ε=0.5 | 0.9662 | 0.8506 |
 
 ---
 
-## Quick Start
+## 快速开始
 
-### Prerequisites
+### 环境要求
 
 - **Node.js** >= 18.0
 - **Java** >= 17
@@ -136,14 +130,14 @@ This is the core innovation of the system. Each layer has a distinct responsibil
 - **MySQL** >= 8.0
 - **Maven** >= 3.8
 
-### 1. Clone
+### 1. 克隆项目
 
 ```bash
 git clone https://github.com/felixxx04/dp-medical-recommendation.git
 cd dp-medical-recommendation
 ```
 
-### 2. Database Setup
+### 2. 数据库配置
 
 ```bash
 mysql -u root -p < medical-backend/sql/schema.sql
@@ -151,17 +145,17 @@ mysql -u root -p < medical-backend/sql/init_data.sql
 mysql -u root -p < medical-backend/sql/drug_data.sql
 ```
 
-### 3. Backend
+### 3. 后端启动
 
 ```bash
 cd medical-backend
-cp .env.example .env   # Edit DB password and JWT secret
+cp .env.example .env   # 编辑数据库密码和 JWT 密钥
 mvn spring-boot:run
 ```
 
-Runs on `http://localhost:8080`
+运行于 `http://localhost:8080`
 
-### 4. Model Service
+### 4. 模型服务启动
 
 ```bash
 cd medical-model
@@ -169,95 +163,95 @@ pip install -r requirements.txt
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8001
 ```
 
-Runs on `http://localhost:8001`
+运行于 `http://localhost:8001`
 
-### 5. Frontend
+### 5. 前端启动
 
 ```bash
 npm install
 npm run dev
 ```
 
-Runs on `http://localhost:5173`
+运行于 `http://localhost:5173`
 
 ---
 
-## Project Structure
+## 项目结构
 
 ```
 dp-medical-recommendation/
-├── src/                              # Frontend (React + TypeScript)
-│   ├── components/                   # UI components
-│   ├── pages/                        # Page components
-│   ├── lib/                          # Utilities (privacy, recommendation)
-│   └── App.tsx                       # Router config
+├── src/                              # 前端源码 (React + TypeScript)
+│   ├── components/                   # UI 组件
+│   ├── pages/                        # 页面组件
+│   ├── lib/                          # 工具库 (隐私、推荐)
+│   └── App.tsx                       # 路由配置
 │
-├── medical-backend/                  # Backend (Spring Boot)
+├── medical-backend/                  # 后端 (Spring Boot)
 │   ├── src/main/java/com/medical/
-│   │   ├── controller/               # REST controllers
-│   │   ├── service/                  # Business logic
-│   │   ├── entity/                   # JPA entities
-│   │   ├── repository/               # Data access
+│   │   ├── controller/               # REST 控制器
+│   │   ├── service/                  # 业务逻辑
+│   │   ├── entity/                   # JPA 实体
+│   │   ├── repository/               # 数据访问层
 │   │   ├── security/                 # JWT + Spring Security
-│   │   └── config/                   # App configuration
-│   ├── sql/                          # Database scripts
+│   │   └── config/                   # 应用配置
+│   ├── sql/                          # 数据库脚本
 │   └── src/main/resources/
 │
-├── medical-model/                    # Model service (FastAPI + PyTorch)
+├── medical-model/                    # 模型服务 (FastAPI + PyTorch)
 │   ├── app/
-│   │   ├── models/                   # DeepFM architecture
-│   │   ├── services/                 # Inference + 3-layer pipeline
-│   │   ├── rag/                      # RAG module (ChromaDB)
-│   │   └── main.py                   # FastAPI entry
-│   ├── data/                         # Pipeline data
-│   └── saved_models/                 # Trained model weights
+│   │   ├── models/                   # DeepFM 架构
+│   │   ├── services/                 # 推理 + 三层管道
+│   │   ├── rag/                      # RAG 模块 (ChromaDB)
+│   │   └── main.py                   # FastAPI 入口
+│   ├── data/                         # 管线数据
+│   └── saved_models/                 # 训练好的模型权重
 │
-└── docs/                             # Documentation
+└── docs/                             # 文档
 ```
 
 ---
 
-## API Overview
+## API 概览
 
-### Backend (Port 8080)
+### 后端 API (端口 8080)
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/auth/login` | POST | JWT authentication |
-| `/api/auth/me` | GET | Current user info |
-| `/api/drugs` | GET | Drug catalog |
-| `/api/patients` | GET/POST | Patient management |
-| `/api/recommendation/predict` | POST | Drug recommendation |
-| `/api/privacy/config` | GET/PUT | DP parameter config |
-| `/api/privacy/budget` | GET | Budget consumption status |
+| 端点 | 方法 | 说明 |
+|------|------|------|
+| `/api/auth/login` | POST | JWT 认证登录 |
+| `/api/auth/me` | GET | 获取当前用户 |
+| `/api/drugs` | GET | 药物目录 |
+| `/api/patients` | GET/POST | 患者管理 |
+| `/api/recommendation/predict` | POST | 药物推荐 |
+| `/api/privacy/config` | GET/PUT | DP 参数配置 |
+| `/api/privacy/budget` | GET | 隐私预算消耗状态 |
 
-### Model Service (Port 8001)
+### 模型服务 API (端口 8001)
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/model/status` | GET | Model status |
-| `/model/predict` | POST | Three-layer recommendation |
-| `/model/train` | POST | Model training |
-| `/model/load-drugs` | POST | Load drug catalog |
-| `/model/privacy/budget` | GET | Privacy budget tracker |
-
----
-
-## Differential Privacy Implementation
-
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| ε (epsilon) | Privacy budget — lower = stronger protection | 0.1 |
-| δ (delta) | Upper bound on privacy breach probability | 1e-5 |
-| Sensitivity | Maximum change in query output | 1.0 |
-| Mechanism | Laplace / Gaussian noise distribution | Laplace |
-
-**Dual budget tracking**: MySQL-backed persistent tracking (per-user) + in-memory strong composition theorem (per-session).
-
-**Post-processing guarantees**: Clinical safety threshold (0.15) and score ceiling (1.0) are public parameters — applying them after DP noise does not violate privacy guarantees (post-processing theorem).
+| 端点 | 方法 | 说明 |
+|------|------|------|
+| `/model/status` | GET | 模型状态 |
+| `/model/predict` | POST | 三层推荐推理 |
+| `/model/train` | POST | 模型训练 |
+| `/model/load-drugs` | POST | 加载药物目录 |
+| `/model/privacy/budget` | GET | 隐私预算追踪 |
 
 ---
 
-## License
+## 差分隐私实现
+
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| ε (epsilon) | 隐私预算，越小保护越强 | 0.1 |
+| δ (delta) | 隐私泄露概率上限 | 1e-5 |
+| 敏感度 | 查询函数最大变化范围 | 1.0 |
+| 噪声机制 | Laplace / Gaussian 分布 | Laplace |
+
+**双重预算追踪**：MySQL 持久化追踪（按用户）+ 内存强组合定理追踪（按会话）。
+
+**后处理保证**：临床安全阈值 (0.15) 和分数上限 (1.0) 为公开参数，在 DP 噪声之后施加不违反隐私保证（后处理定理）。
+
+---
+
+## 许可证
 
 [MIT](LICENSE)
