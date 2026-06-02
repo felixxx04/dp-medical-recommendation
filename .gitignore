@@ -173,6 +173,29 @@ medical-model/audit_logs/
 # Claude Code local settings
 .claude/
 
+# Agent/skill tool caches
+.agents/
+.superpowers/
+.playwright-mcp/
+
+# Project-level Claude memory/cache
+projects/
+
+# IDE settings
+.idea/
+*.iml
+
+# Drawio backup files
+*.bkp
+
+# Temp docx extraction
+_temp_docx/
+
+# Misc temp files
+*.tmp
+*.swp
+*~
+
 # Environment files
 .env
 .env.*

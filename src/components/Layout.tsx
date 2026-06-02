@@ -129,10 +129,10 @@ export default function Layout() {
               <Heart className="h-4 w-4 text-white" />
             </div>
             <div>
-              <span className="text-ia-body font-heading font-bold tracking-tight text-foreground">
+              <span className="text-sm font-heading font-bold tracking-tight text-foreground">
                 智医荐药
               </span>
-              <span className="hidden sm:inline text-ia-label text-muted-foreground ml-2">
+              <span className="hidden sm:inline text-xs text-muted-foreground ml-2">
                 隐私保护 · 智能推荐
               </span>
             </div>
@@ -148,7 +148,7 @@ export default function Layout() {
                   key={item.name}
                   to={item.href}
                   className={cn(
-                    'flex items-center gap-1.5 rounded-md px-3 py-1.5 text-ia-caption font-heading font-medium transition-colors duration-150 cursor-pointer',
+                    'flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-heading font-medium transition-colors duration-150 cursor-pointer',
                     isActive
                       ? 'bg-primary/8 text-primary border border-primary/12'
                       : 'text-secondary hover:text-primary hover:bg-muted/50 border border-transparent'
@@ -164,7 +164,7 @@ export default function Layout() {
           {/* User Section */}
           <div className="hidden lg:flex items-center gap-2">
             {isInitializing ? (
-              <div className="flex items-center gap-1.5 text-ia-caption text-muted-foreground">
+              <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
                 验证中
               </div>
@@ -175,8 +175,8 @@ export default function Layout() {
                     <UserIcon className="h-3.5 w-3.5 text-primary-foreground" />
                   </div>
                   <div className="min-w-0">
-                    <div className="text-ia-caption font-heading font-semibold truncate leading-none">{user.username}</div>
-                    <div className="text-ia-label text-muted-foreground leading-none mt-0.5">
+                    <div className="text-sm font-heading font-semibold truncate leading-none">{user.username}</div>
+                    <div className="text-xs text-muted-foreground leading-none mt-0.5">
                       {user.role === 'admin' ? '管理员' : user.role === 'doctor' ? '医生' : '患者'}
                     </div>
                   </div>
@@ -221,8 +221,8 @@ export default function Layout() {
                         <UserIcon className="h-4 w-4 text-white" />
                       </div>
                       <div>
-                        <div className="text-ia-body font-heading font-semibold">{user.username}</div>
-                        <div className="text-ia-label text-muted-foreground">
+                        <div className="text-sm font-heading font-semibold">{user.username}</div>
+                        <div className="text-xs text-muted-foreground">
                           {user.role === 'admin' ? '管理员' : user.role === 'doctor' ? '医生' : '患者'}
                         </div>
                       </div>
@@ -244,7 +244,7 @@ export default function Layout() {
                       key={item.name}
                       to={item.href}
                       className={cn(
-                        'flex items-center gap-2.5 rounded-md px-3 py-2 text-ia-body font-medium transition-colors duration-150 cursor-pointer',
+                        'flex items-center gap-2.5 rounded-md px-3 py-2 text-sm font-medium transition-colors duration-150 cursor-pointer',
                         isActive
                           ? 'bg-primary/8 text-primary border-l-2 border-l-primary'
                           : 'text-secondary hover:bg-muted/50 hover:text-primary border-l-2 border-l-transparent'
@@ -293,7 +293,7 @@ export default function Layout() {
                     </div>
                     <div>
                       <CardTitle>登录后继续</CardTitle>
-                      <p className="text-ia-caption text-muted-foreground mt-0.5">
+                      <p className="text-sm text-muted-foreground mt-0.5">
                         目标页面：<span className="font-medium text-foreground font-heading">{pendingPath}</span>
                       </p>
                     </div>
@@ -302,7 +302,7 @@ export default function Layout() {
                 <CardContent className="space-y-4">
                   <form onSubmit={onSubmitLogin} className="space-y-3">
                     <div className="space-y-1.5">
-                      <Label htmlFor="modal-username" className="text-ia-caption font-heading font-semibold">账号</Label>
+                      <Label htmlFor="modal-username" className="text-sm font-heading font-semibold">账号</Label>
                       <Input
                         id="modal-username"
                         value={loginUsername}
@@ -313,7 +313,7 @@ export default function Layout() {
                       />
                     </div>
                     <div className="space-y-1.5">
-                      <Label htmlFor="modal-password" className="text-ia-caption font-heading font-semibold">密码</Label>
+                      <Label htmlFor="modal-password" className="text-sm font-heading font-semibold">密码</Label>
                       <Input
                         id="modal-password"
                         type="password"
@@ -326,7 +326,7 @@ export default function Layout() {
                     </div>
 
                     {loginError && (
-                      <div className="rounded-md border border-destructive/30 bg-destructive/6 p-2.5 text-ia-caption text-destructive">
+                      <div className="rounded-md border border-destructive/30 bg-destructive/6 p-2.5 text-sm text-destructive">
                         {loginError}
                       </div>
                     )}
@@ -348,19 +348,19 @@ export default function Layout() {
 
                   <div className="grid grid-cols-3 gap-2 pt-1">
                     <div className="rounded-md shadow-neu-inset p-2.5">
-                      <div className="text-ia-label text-muted-foreground mb-1">患者账号</div>
-                      <div className="text-ia-caption font-heading font-semibold">patient1</div>
-                      <div className="text-ia-label text-muted-foreground">admin123</div>
+                      <div className="text-xs text-muted-foreground mb-1">患者账号</div>
+                      <div className="text-sm font-heading font-semibold">patient1</div>
+                      <div className="text-xs text-muted-foreground">admin123</div>
                     </div>
                     <div className="rounded-md shadow-neu-inset p-2.5">
-                      <div className="text-ia-label text-muted-foreground mb-1">医生账号</div>
-                      <div className="text-ia-caption font-heading font-semibold">doctor1</div>
-                      <div className="text-ia-label text-muted-foreground">admin123</div>
+                      <div className="text-xs text-muted-foreground mb-1">医生账号</div>
+                      <div className="text-sm font-heading font-semibold">doctor1</div>
+                      <div className="text-xs text-muted-foreground">admin123</div>
                     </div>
                     <div className="rounded-md shadow-neu-inset p-2.5">
-                      <div className="text-ia-label text-muted-foreground mb-1">管理员</div>
-                      <div className="text-ia-caption font-heading font-semibold">admin</div>
-                      <div className="text-ia-label text-muted-foreground">admin123</div>
+                      <div className="text-xs text-muted-foreground mb-1">管理员</div>
+                      <div className="text-sm font-heading font-semibold">admin</div>
+                      <div className="text-xs text-muted-foreground">admin123</div>
                     </div>
                   </div>
                 </CardContent>
@@ -371,7 +371,7 @@ export default function Layout() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <main className="container py-6">
+      <main className="container pt-2 pb-6">
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}
@@ -394,15 +394,15 @@ export default function Layout() {
                 <Heart className="h-3.5 w-3.5 text-white" />
               </div>
               <div>
-                <span className="text-ia-caption font-heading font-bold text-foreground">
+                <span className="text-sm font-heading font-bold text-foreground">
                   智医荐药
                 </span>
-                <span className="text-ia-label text-muted-foreground ml-2">
+                <span className="text-xs text-muted-foreground ml-2">
                   差分隐私保护的智能用药推荐系统
                 </span>
               </div>
             </div>
-            <p className="text-ia-label text-muted-foreground text-center md:text-right">
+            <p className="text-xs text-muted-foreground text-center md:text-right">
               基于差分隐私的 AI 个性化医疗用药推荐系统 · 保护隐私 · 精准推荐
             </p>
           </div>

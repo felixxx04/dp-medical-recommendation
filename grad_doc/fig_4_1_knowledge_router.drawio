@@ -31,7 +31,7 @@
         <mxCell id="a3" edge="1" parent="1" source="l2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#000000;endArrow=block;endFill=1;fontSize=13;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l3" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;系统+病因&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="750" y="250" />
+              <mxPoint x="730" y="250" />
               <mxPoint x="190" y="250" />
             </Array>
           </mxGeometry>

@@ -93,6 +93,16 @@ const config: Config = {
         '2xl': '24px',
         full: '9999px',
       },
+      fontSize: {
+        'ia-hero': ['clamp(2.5rem, 5vw, 3.25rem)', { lineHeight: '1.15', letterSpacing: '-0.03em' }],
+        'ia-section': ['1.5rem', { lineHeight: '1.3', letterSpacing: '-0.02em' }],
+        'ia-tile': ['1.375rem', { lineHeight: '1.35', letterSpacing: '-0.02em' }],
+        'ia-card-title': ['1.125rem', { lineHeight: '1.3', letterSpacing: '-0.01em' }],
+        'ia-body': ['1rem', { lineHeight: '1.65' }],
+        'ia-label': ['0.875rem', { lineHeight: '1.5' }],
+        'ia-caption': ['0.875rem', { lineHeight: '1.5' }],
+        'ia-micro': ['0.75rem', { lineHeight: '1.4' }],
+      },
       fontFamily: {
         sans: ['Inter', 'SF Pro Display', '-apple-system', 'BlinkMacSystemFont', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'sans-serif'],
         mono: ['JetBrains Mono', 'SF Mono', 'Consolas', 'monospace'],
