@@ -170,6 +170,9 @@ medical-model/data/DATA_ASSET_REPORT.md
 medical-model/experiments/**/*.pt
 medical-model/audit_logs/
 
+# Large verification result files
+medical-model/verification_results/batch_recommendation_results.json
+
 # Claude Code local settings
 .claude/
 
