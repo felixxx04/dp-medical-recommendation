@@ -1,6 +1,6 @@
 # 智医荐药 — 差分隐私保护的智能用药推荐系统
 
-> 全栈 AI 对话式编程构建 (Claude Code) · DeepFM + 三层安全架构
+> 全栈 AI 编程构建 (Claude Code) · DeepFM + 三层安全架构
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.2-brightgreen)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://react.dev/)
@@ -41,7 +41,7 @@
 
 ## 开发方式
 
-整个系统通过 AI 对话式编程完成：React 前端、Spring Boot 后端、FastAPI + PyTorch 模型服务、差分隐私算法、三层安全管道——全部由开发者与 AI 协作从零构建，覆盖需求分析、架构设计、编码实现、调试优化的完整流程。
+整个系统通过 AI 编程完成：React 前端、Spring Boot 后端、FastAPI + PyTorch 模型服务、差分隐私算法、三层安全管道——全部由开发者与 AI 协作从零构建，覆盖需求分析、架构设计、编码实现、调试优化的完整流程。
 
 ## 技术栈
 
